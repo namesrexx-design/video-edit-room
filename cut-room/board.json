@@ -2,7 +2,7 @@
  "format": 3,
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-15T23:38:39.052Z",
+ "builtAt": "2026-09-15T23:44:07.447Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -2007,7 +2007,7 @@
    "nextAction": "Prepare reference-matched closed-door conversation and one remote action. Preserve approved voices.",
    "gate": "Owner selected both stills and requested loading them in Higgsfield.",
    "video": "S09-CURRENT-V63.mp4",
-   "editStatus": "IN REPAIR PASS · Order 1 · TRIAL RENDERED 2026-09-15 (job bb357e3c, 5 s conversation trial from the approved Sep 15 still, Kling 3.0 Pro, 7.5 credits). Silent; lip-sync + owner review next.",
+   "editStatus": "IN REPAIR PASS · Order 1 · S09 COMPLETE candidate 2026-09-15: new still → Kling trial → Homer lip-synced → approved dialogue on. Awaiting owner approval, then insertion (replaces the old S09 at 0:30–0:35).",
    "still": {
     "sheet": "sheets/scene-S09.jpg",
     "col": 0,
@@ -2570,6 +2570,42 @@
       "rows": 4,
       "shape": "land"
      }
+    },
+    {
+     "date": "2026-09-15",
+     "file": "INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "group": "pending",
+     "id": "INV064",
+     "title": "Higgsfield clip · INV064 · 5.042 s",
+     "role": "clip",
+     "approved": false,
+     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 4,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-15",
+     "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "group": "pending",
+     "id": "INV065",
+     "title": "Higgsfield clip · INV065 · 5 s",
+     "role": "clip",
+     "approved": false,
+     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 5,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
     }
    ],
    "audio": [],
@@ -2840,6 +2876,24 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV063.jpg",
      "id": "INV063",
      "title": "Higgsfield clip · INV063 · 5.042 s",
+     "group": "pending",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-15"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV064.jpg",
+     "id": "INV064",
+     "title": "Higgsfield clip · INV064 · 5.042 s",
+     "group": "pending",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-15"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV065.jpg",
+     "id": "INV065",
+     "title": "Higgsfield clip · INV065 · 5 s",
      "group": "pending",
      "role": "clip",
      "approved": false,

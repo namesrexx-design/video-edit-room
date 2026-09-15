@@ -1,6 +1,6 @@
 {
   "note": "Conformed 1080p24 copies of the recent Higgsfield videos + V74 lip-sync videos. Sources untouched.",
-  "builtAt": "2026-09-15T23:36:08.210Z",
+  "builtAt": "2026-09-15T23:43:27.416Z",
   "clips": [
     {
       "id": "INV001",
@@ -946,6 +946,36 @@
       "title": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
       "sourceSize": "1920x1080@24/1",
       "sourceHadAudio": false
+    },
+    {
+      "id": "INV064",
+      "file": "INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "source": "D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/outputs/S09-TRIAL-bb357e3c-kling3_0-pro-5s_LIPSYNC-e08a6b5a-homer-line.mp4",
+      "sha256": "380CE599973A74DED18BA495F30408A22C696533838CFE818979BAB15F3FEF75",
+      "frames": 121,
+      "seconds": 5.042,
+      "group": "trial",
+      "model": "kling3_0 pro",
+      "at": "2026-09-15",
+      "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": true
+    },
+    {
+      "id": "INV065",
+      "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "source": "D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/outputs/S09-TRIAL-bb357e3c-kling3_0-pro-5s_LIPSYNC-e08a6b5a_COMPLETE-with-full-stem.mp4",
+      "sha256": "F717D983A68290ED61CF030E5241A2C0B77EAF5C0B49488EF75B06DEDB909529",
+      "frames": 120,
+      "seconds": 5,
+      "group": "trial",
+      "model": "kling3_0 pro",
+      "at": "2026-09-15",
+      "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": true
     }
   ]
 }

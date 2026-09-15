@@ -566,6 +566,24 @@
    "group": "trial",
    "model": "kling3_0 pro",
    "at": "2026-09-15"
+  },
+  {
+   "id": "INV064",
+   "file": "INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+   "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
+   "frames": 121,
+   "group": "trial",
+   "model": "kling3_0 pro",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV065",
+   "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+   "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
+   "frames": 120,
+   "group": "trial",
+   "model": "kling3_0 pro",
+   "at": "2026-09-15"
   }
  ]
 }
