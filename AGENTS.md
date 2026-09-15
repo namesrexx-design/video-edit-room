@@ -17,3 +17,11 @@
    owner decision: render it as-is, report anything the renderer ignored (warnings in the
    receipt), do not "fix" his cut.
 8. **His name is Rexx**, spelled R-E-X-X, never Rex.
+
+## Storyboard: one source of truth (2026-09-15)
+
+- **Source of truth:** `C:\Users\16263\Documents\Codex\2026-09-04\referenced-chatgpt-conversation-this-is-an-2\scene-board\storyboard.json`. Edit scenes, approvals, references THERE.
+- **After any edit:** regenerate `scene-board/board-data.js` (`window.REXX_BOARD = <json>;`). Back up both files first (`*.bak-<stamp>`), never overwrite without a backup.
+- **BizBox main storyboard (authoritative view, has the edit/save controls):** `http://127.0.0.1:4396/scene-board/index.html?version=v74#latest-working-edit` (Codex's local server on this PC).
+- **LYFE Studio Storyboard is a VIEW layer only.** It is rebuilt from that source with `node tools/build-board.mjs` (writes `board.json` + `sb/*.jpg`), then republished. It never writes back.
+- Every still and reference on the LYFE view shows its file date and is flagged when older than the current base cut (`V74_DATE` in `tools/build-board.mjs`). Bump that date when the base cut changes.
