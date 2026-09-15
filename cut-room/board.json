@@ -2,7 +2,7 @@
  "format": 3,
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-15T23:28:13.933Z",
+ "builtAt": "2026-09-15T23:38:39.052Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -1183,7 +1183,7 @@
    "nextAction": "Review the join to retained S09; prepare its matching conversation and single remote/open-garage sequence.",
    "gate": "Owner selected both stills and requested loading them in Higgsfield.",
    "video": "S08-WALKUP-V51-REPLACEMENT.mp4",
-   "editStatus": "IN REPAIR PASS · Order 1 · TRIAL RENDERED 2026-09-15 (job 33194ecc, 4 s walk-up trial from the approved Sep 15 still, Kling 3.0 Pro, 6 credits). Silent; lip-sync + owner review next.",
+   "editStatus": "IN REPAIR PASS · Order 1 · S08 COMPLETE candidate 2026-09-15: trial 33194ecc + approved voiceover. Awaiting owner approval, then insertion before S09.",
    "still": {
     "sheet": "sheets/scene-S08.jpg",
     "col": 0,
@@ -1707,6 +1707,24 @@
       "rows": 4,
       "shape": "land"
      }
+    },
+    {
+     "date": "2026-09-15",
+     "file": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+     "group": "pending",
+     "id": "INV062",
+     "title": "Higgsfield clip · INV062 · 4 s",
+     "role": "clip",
+     "approved": false,
+     "status": "S08 TRIAL 33194ecc kling3_0 pro 4s_COMPLETE with approved VO (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S08.jpg",
+      "col": 2,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
     }
    ],
    "audio": [],
@@ -1957,6 +1975,15 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV061.jpg",
      "id": "INV061",
      "title": "Higgsfield clip · INV061 · 4.042 s",
+     "group": "pending",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-15"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV062.jpg",
+     "id": "INV062",
+     "title": "Higgsfield clip · INV062 · 4 s",
      "group": "pending",
      "role": "clip",
      "approved": false,
@@ -2528,10 +2555,10 @@
     },
     {
      "date": "2026-09-15",
-     "file": "INV062_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
+     "file": "INV063_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
      "group": "pending",
-     "id": "INV062",
-     "title": "Higgsfield clip · INV062 · 5.042 s",
+     "id": "INV063",
+     "title": "Higgsfield clip · INV063 · 5.042 s",
      "role": "clip",
      "approved": false,
      "status": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
@@ -2810,9 +2837,9 @@
      "date": "2026-09-15"
     },
     {
-     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV062.jpg",
-     "id": "INV062",
-     "title": "Higgsfield clip · INV062 · 5.042 s",
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV063.jpg",
+     "id": "INV063",
+     "title": "Higgsfield clip · INV063 · 5.042 s",
      "group": "pending",
      "role": "clip",
      "approved": false,
