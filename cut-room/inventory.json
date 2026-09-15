@@ -476,6 +476,69 @@
    "group": "owner",
    "model": "rexx-upload",
    "at": "2026-09-15"
+  },
+  {
+   "id": "INV054",
+   "file": "INV054_s11-candidate-1eff7ef9.mp4",
+   "title": "S11 CANDIDATE 1eff7ef9 (Astra handoff)",
+   "frames": 193,
+   "group": "handoff",
+   "model": "candidate",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV055",
+   "file": "INV055_s11-take-0815-91ab117f.mp4",
+   "title": "S11 take 0815 91ab117f (Astra handoff)",
+   "frames": 193,
+   "group": "handoff",
+   "model": "candidate",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV056",
+   "file": "INV056_s11-take-1406-8ed62d6f.mp4",
+   "title": "S11 take 1406 8ed62d6f (Astra handoff)",
+   "frames": 193,
+   "group": "handoff",
+   "model": "candidate",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV057",
+   "file": "INV057_s11-take-1420-9d6f1bd6.mp4",
+   "title": "S11 take 1420 9d6f1bd6 (Astra handoff)",
+   "frames": 193,
+   "group": "handoff",
+   "model": "candidate",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV058",
+   "file": "INV058_s12-candidate-805bb54f.mp4",
+   "title": "S12 CANDIDATE 805bb54f (Astra handoff)",
+   "frames": 124,
+   "group": "handoff",
+   "model": "candidate",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV059",
+   "file": "INV059_s13-candidate-0657c6f7.mp4",
+   "title": "S13 CANDIDATE 0657c6f7 (Astra handoff)",
+   "frames": 243,
+   "group": "handoff",
+   "model": "candidate",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV060",
+   "file": "INV060_s15-candidate-77f53145.mp4",
+   "title": "S15 CANDIDATE 77f53145 (Astra handoff)",
+   "frames": 289,
+   "group": "handoff",
+   "model": "candidate",
+   "at": "2026-09-15"
   }
  ]
 }
