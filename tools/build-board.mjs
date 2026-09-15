@@ -106,6 +106,9 @@ for (const dir of SCAN) { const d = W + '/' + dir; if (!fs.existsSync(d)) contin
 // Stairs: the outfit stills (Higgsfield 2026-09-08 wardrobe series) are the angles the owner asked for
 const STAIRS_DIR = MEDIA + '/stairs-outfits-2026-09-08'; const stairsOutfits = fs.existsSync(STAIRS_DIR) ? fs.readdirSync(STAIRS_DIR).filter(f => /[.](png|jpe?g)$/i.test(f)).sort().map(f => STAIRS_DIR + '/' + f) : [];
 const SETS_ORDER = [['Stairs', 'Opening. Rexx comes down the stairs. One still per outfit.'], ['Coffee', 'Kitchen counter. Coffee, the phone call.'], ['Outside balcony', 'Lower balcony.'], ['Upstairs balcony', 'Upper deck.'], ['Waymo', 'From the back and from below. That is the whole set.'], ['Driveway', "Homer's driveway, garage door, Apu's arrival."], ['Garage', 'Closed or open, one set: reveal, recliner, treadmill, shelves.'], ['PCH road (dream)', "Homer's Bugatti dream on the empty PCH."], ["Apu's car", 'The Firebird: driver window, passenger seat, fist bump.'], ['Vintage Mart', 'Former Kwik-E-Mart. Future episodes.'], ['Road', 'Passenger-window travel, bus stop (future).']];
+// owner uploads (Drive → D:/owner-uploads via tools/ingest-drive-uploads.mjs): sets by folder name, props flat. 2026-09-15
+const OWN = MEDIA + '/owner-uploads'; const walkFiles = d => fs.existsSync(d) ? fs.readdirSync(d).flatMap(f => { const q = d + '/' + f; return fs.statSync(q).isDirectory() ? walkFiles(q) : (/[.](png|jpe?g|webp)$/i.test(f) ? [q] : []); }) : [];
+if (fs.existsSync(OWN + '/sets')) for (const n of fs.readdirSync(OWN + '/sets')) { const key = SETS_ORDER.map(x => x[0]).find(x => x.toLowerCase() === n.toLowerCase()) || n; (bySet[key] ||= []).push(...walkFiles(OWN + '/sets/' + n)); }
 const sets = SETS_ORDER.map(([name, blurb]) => {
   const inSet = scenes.filter(s => s.set === name);
   const current = []; const seen = new Set();
@@ -130,6 +133,7 @@ if (env.dreamVehicle) addProp('Bugatti La Voiture Noire (dream car)', env.dreamV
 for (const it of props.items || props.references || props.props || []) addProp(it.title || it.id || 'prop', it.path || it.file || it.image, it.role || it.notes || '', it.status || '', { approved: !!it.approved });
 const rp = W + '/environment-reference-pack/real-prop-references'; if (fs.existsSync(rp)) for (const f of fs.readdirSync(rp).filter(f => /[.](png|jpe?g)$/i.test(f))) if (!propTiles.some(t => t.file === f)) addProp(base(f).replace(/[-_]/g, ' '), rp + '/' + f, '', '');
 for (const name of ['phone', 'coffee mug', 'garage remote', 'boxes', 'consoles', 'Hot Wheels', 'treadmill', 'recliner', 'speakers', 'mosquito', 'skateboard', 'Firebird (car)', 'Happy Gas tank']) if (!propTiles.some(t => t.title.toLowerCase().includes(name.toLowerCase()))) propTiles.push({ id: name, title: name, role: 'used in ' + scenes.filter(s => s.props.includes(name)).map(s => s.id).join(', '), src: null, date: null, status: 'no reference image yet', approved: false });
+for (const f of walkFiles(OWN + '/props')) if (!propTiles.some(t => t.src === f)) propTiles.push(tile(f, { id: 'owner-' + base(f), title: base(f).replace(/[-_]/g, ' ') + ' (owner upload)', role: 'candidate', status: 'Owner upload — awaiting approval', approved: false }));
 const propsBound = bind(propTiles, pack('props', propTiles.map(t => t.src)));
 
 for (const s of scenes) { delete s._cur; delete s._frames; }
