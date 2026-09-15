@@ -1,6 +1,7 @@
 {
+ "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + continuity-reference-pack/reference-lock.json",
- "builtAt": "2026-09-15T15:26:27.124Z",
+ "builtAt": "2026-09-15T15:43:51.362Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -10,6 +11,8 @@
    "line": "All right, let’s kick this autoimmune disease’s ass.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "still": "sb/sb001.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 0,
     "end": 3.291667
@@ -22,6 +25,8 @@
    "line": "Coffee first; ringing motivates the phone cut.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "still": "sb/sb002.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 3.291667,
     "end": 5.791667
@@ -34,6 +39,8 @@
    "line": "Answer the correctly proportioned folded phone.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "still": "sb/sb003.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 5.791667,
     "end": 8
@@ -46,6 +53,8 @@
    "line": "What’s up, Homer?",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "still": "sb/sb004.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 8,
     "end": 12.291667
@@ -58,6 +67,8 @@
    "line": "Homer needs Rexx and BizBox’s help clearing the garage.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "still": "sb/sb002.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 12.291667,
     "end": 19.416667
@@ -70,6 +81,8 @@
    "line": "Narration starts as Rexx approaches and boards.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "still": "sb/sb005.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 19.416667,
     "end": 25.25
@@ -82,6 +95,8 @@
    "line": "Autopilot can help; Homer still has to do the work. Cut before rotation.",
    "status": "Corrected Dickies exit inserted27–31s in V54; door-line aligned27.7s. Coordinator QC pass; owner playback review pending.",
    "still": "sb/sb006.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 25.25,
     "end": 30
@@ -94,6 +109,8 @@
    "line": "Hey Homer, made it here as fast as I could.",
    "status": "Omitted from V53 by owner request. Prior walk-up retained as history only.",
    "still": "sb/sb007.jpg",
+   "stillDate": "2026-09-13",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -106,6 +123,8 @@
    "line": "Homer: You sure you want to look in here? Rexx: Yeah, let me have it. It can't be that bad.",
    "status": "V63 Rexx rear-view jaw edit and added reply inserted; owner review pending.",
    "still": "sb/sb008.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 30,
     "end": 35
@@ -118,6 +137,8 @@
    "line": "Homer, this is like a scene from Storage Wars. You got a Bugatti in here.",
    "status": "V67 working picture edit: close-up ends42s; next garage shot stays tightly framed until45.5s, then widens into recliner coverage. Approved V66 audio and all later timing preserved. Lip-sync and remaining final fixes are unfinished.",
    "still": "sb/sb009.jpg",
+   "stillDate": "2026-09-14",
+   "stillStale": false,
    "v74": {
     "start": 35,
     "end": 45.541667
@@ -130,6 +151,8 @@
    "line": "Homer: A Bugatti?",
    "status": "Not inserted in V42. Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
    "still": "sb/sb010.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -142,6 +165,8 @@
    "line": "Correct open phone and clean camera UI.",
    "status": "Not inserted in V42. Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
    "still": "sb/sb011.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -154,6 +179,8 @@
    "line": "Listings and buyer questions; owner controls price and pickup.",
    "status": "Not inserted in V42. Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
    "still": "sb/sb012.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -166,6 +193,8 @@
    "line": "Homer: So BizBox is gonna get me a Bugatti?",
    "status": "V59 lip-sync inserted; owner playback review pending.",
    "still": "sb/sb013.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 45.541667,
     "end": 59.083333
@@ -178,6 +207,8 @@
    "line": "Rexx: Well, not exactly. But we can get you selling on different marketplaces—even live shopping. First, just take photos. BizBox inventories everything and tracks which box you store it in, so you know what you have and where to find it. We’ll work on selling next. Photos first, Homer.",
    "status": "Not inserted in V42. Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
    "still": "sb/sb014.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -190,6 +221,8 @@
    "line": "Rexx explanation continues. Homer whispers Bugatti and drifts asleep. Song begins softly over the seated snore before the dream and carries continuously into driving.",
    "status": "Original whispers and seated snore preserved; owner song enters at56.691667s.",
    "still": "sb/sb015.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 45.541667,
     "end": 59.083333
@@ -202,6 +235,8 @@
    "line": "Homer drives the black-carbon Bugatti on empty PCH. The song already playing over his seated snore continues through rear driving; subdued rumble rises to throttle at the flames. Rexx narration continues.",
    "status": "Approved three-second rear driving retained; first part of continuous two-repeat owner song added.",
    "still": "sb/sb016.jpg",
+   "stillDate": "2026-09-12",
+   "stillStale": true,
    "v74": {
     "start": 59.083333,
     "end": 62.083333
@@ -214,6 +249,8 @@
    "line": "Windshield close-up: Homer sings along to the matching portion of the ongoing song. Music finishes after two repetitions; mosquito approach cuts into original macro bite, then garage wake-up. Rexx narration continues.",
    "status": "In-car singing lip-sync inserted; owner playback review pending. Original bite and garage wake-up retained.",
    "still": "sb/sb017.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 62.083333,
     "end": 75.666667
@@ -226,6 +263,8 @@
    "line": "Eat my shorts, Homer!",
    "status": "Owner-approved source0–3 seconds only. Cut during skate movement; Apu horn bridges the cut.",
    "still": "sb/sb018.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 75.666667,
     "end": 78.666667
@@ -238,6 +277,8 @@
    "line": "Homer: Did you shoot me with that?",
    "status": "Omitted from V57: owner-selected Bart skate-off leads directly to Apu honk.",
    "still": "sb/sb019.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -250,6 +291,8 @@
    "line": "Rexx: No! It was that kid.",
    "status": "Omitted from V57: owner-selected Bart skate-off leads directly to Apu honk.",
    "still": "sb/sb020.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -262,6 +305,8 @@
    "line": "Homer: Whose kid is that? [Brief audience laugh; Apu horn introduces S23.]",
    "status": "Omitted from V57: owner-selected Bart skate-off leads directly to Apu honk.",
    "still": "sb/sb021.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
@@ -274,6 +319,8 @@
    "line": "Horn over the end of the garage conversation, then camera cuts to Apu: “Hey, Rexx! What are you and Homer doing?”",
    "status": "V42 working footage present in a shared sequence. Preserve Apu honk; finish its transition and audience mix.",
    "still": "sb/sb022.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 78.666667,
     "end": 82.416667
@@ -286,6 +333,8 @@
    "line": "Locked rear view: Rexx continues approved dialogue toward seated Apu. Apu looks at Rexx and Homer and gives one restrained nod; Homer listens. Cut afterward to over Rexx shoulder toward Apu and Homer.",
    "status": "V73 registered: owner-approved V78 rear-camera wide inserted at 82.416667-85.416667.",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": {
     "start": 82.416667,
     "end": 85.416667
@@ -298,6 +347,8 @@
    "line": "Apu: Hey, will that work for my new Vintage Mart? Rexx: Oh, you got a new Vintage Mart? Apu: Yeah. I opened it two months ago. Rexx: All right. I'm down. Apu: All right, jump in. Let's go.",
    "status": "V73 registered: owner 3a05 Apu-only synchronized close inserted at 85.416667-93.666667; shifted V72 tail continues to 100.000000.",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": {
     "start": 85.416667,
     "end": 100
@@ -310,6 +361,8 @@
    "line": "Rexx, seated in passenger seat: Don't forget to take the photos, Homer. That's all you gotta do.",
    "status": "V42 working footage present in a shared sequence. Retain existing passenger-seat footage; final continuity and audio review remain.",
    "still": "sb/sb023.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 100,
     "end": 115.166667
@@ -322,6 +375,8 @@
    "line": "Apu: All right, Homer, catch you later. [Fist bump.] Homer, did you convert to Hindu? Homer: What do you mean? [Apu points toward centered forehead mark. Homer crosses his eyes upward. END.]",
    "status": "V42 working footage present in a shared sequence. Retain existing farewell footage and voice takes; final continuity and mix review remain.",
    "still": "sb/sb024.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": {
     "start": 100,
     "end": 115.166667
@@ -334,6 +389,8 @@
    "line": "Passenger-window travel inserts: billboards and bus-bench ads featuring Mr. Burns and the same Burns Happy Gas branding seen on Apu’s tank. Repeated ads make the product seem everywhere.",
    "status": "Owner story beat / still needed",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   },
@@ -343,6 +400,8 @@
    "line": "Rexx sees adults using Happy Gas beneath Burns ads: “What is wrong with everybody? What are they doing? What’s in those tanks? …Burns Happy Gas?”",
    "status": "Owner story beat / still needed",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   },
@@ -352,6 +411,8 @@
    "line": "Rexx hears Apu take some off-screen, then looks at him. Same Burns Happy Gas tank and passenger POV.",
    "status": "Still + prop + audio needed",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   },
@@ -361,6 +422,8 @@
    "line": "Apu: “You want some?” Working choice: short comically deep delivery (owner also suggested high-pitched). Rexx: “What? Let me see that thing.”",
    "status": "Still + audio needed",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   },
@@ -370,6 +433,8 @@
    "line": "Rexx takes it, tosses it out his passenger window: “Get that shit out of here. Can’t be doing this while you’re driving.”",
    "status": "Still + motion needed",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   },
@@ -379,6 +444,8 @@
    "line": "Former Kwik-E-Mart is visibly renamed Vintage Mart. Car and characters still to be added.",
    "status": "New location still / awaiting review",
    "still": "sb/sb025.jpg",
+   "stillDate": "2026-09-11",
+   "stillStale": true,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   },
@@ -388,6 +455,8 @@
    "line": "Recognize the former Kwik-E-Mart, now Vintage Mart. Divorce and Barney marriage are revealed inside during the clothing conversation.",
    "status": "Future episode storyboard",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   },
@@ -397,6 +466,8 @@
    "line": "Rexx walks the racks: “Bro, you only have women’s clothes in here.” Apu: “I know. That’s why I did this.” He taps his temple and raises his eyebrows. “See? I’m single.”",
    "status": "Owner story beat / still and audio needed",
    "still": null,
+   "stillDate": null,
+   "stillStale": false,
    "v74": null,
    "phase": "Vintage Mart / next episode"
   }
@@ -413,7 +484,8 @@
      "approved": true,
      "status": "APPROVED — full-body rear reference",
      "group": "Full-body character photos",
-     "img": "sb/sb026.jpg"
+     "img": "sb/sb026.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-FULL-BODY-01",
@@ -423,7 +495,8 @@
      "approved": false,
      "status": "REJECTED — body does not match selected Rexx/Homer rear scene",
      "group": "Full-body character photos",
-     "img": "sb/sb030.jpg"
+     "img": "sb/sb030.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-REAR-HEAD-TAN-08",
@@ -433,7 +506,8 @@
      "approved": false,
      "status": "Generated — owner review pending",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb046.jpg"
+     "img": "sb/sb046.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-REAR-HEAD-TAN-07",
@@ -443,7 +517,8 @@
      "approved": false,
      "status": "Superseded by requested narrower-neck V8",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb047.jpg"
+     "img": "sb/sb047.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-REAR-HEAD-NECK-06",
@@ -453,7 +528,8 @@
      "approved": false,
      "status": "Superseded by requested darker-tan V7",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb048.jpg"
+     "img": "sb/sb048.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-REAR-ANGLES-05",
@@ -463,7 +539,8 @@
      "approved": false,
      "status": "Angles approved; head and neck too stocky — correction required",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb049.jpg"
+     "img": "sb/sb049.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-HEAD-SIDES-04",
@@ -473,7 +550,8 @@
      "approved": false,
      "status": "REJECTED — too much side face; does not match Rexx",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb050.jpg"
+     "img": "sb/sb050.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-HEAD-GLASSES-03",
@@ -483,7 +561,8 @@
      "approved": false,
      "status": "Glasses detail support — replaced in active gallery by rear-only V5",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb051.jpg"
+     "img": "sb/sb051.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-HEAD-CANDIDATE-02",
@@ -493,7 +572,8 @@
      "approved": true,
      "status": "Likeness approved; superseded in active gallery by glasses version",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb052.jpg"
+     "img": "sb/sb052.jpg",
+     "date": "2026-09-12"
     }
    ],
    "continuity": {
@@ -532,7 +612,8 @@
      "approved": false,
      "status": "Generated — owner review pending",
      "group": "Full-body character photos",
-     "img": "sb/sb029.jpg"
+     "img": "sb/sb029.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "HOMER-DREAM-BLACK-SUIT-01",
@@ -542,7 +623,8 @@
      "approved": true,
      "status": "APPROVED — owner said perfect",
      "group": "Full-body character photos",
-     "img": "sb/sb031.jpg"
+     "img": "sb/sb031.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "HOMER-DREAM-BLACK-SUIT-01",
@@ -552,7 +634,8 @@
      "approved": true,
      "status": "APPROVED — owner said perfect",
      "group": "Outfits · shirt, pants and fit",
-     "img": "sb/sb031.jpg"
+     "img": "sb/sb031.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "HOMER-HEAD-LOCK-01",
@@ -562,7 +645,8 @@
      "approved": true,
      "status": "APPROVED — canonical head reference",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb054.jpg"
+     "img": "sb/sb054.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "HOMER-DREAM-BLACK-SUIT-01",
@@ -572,7 +656,8 @@
      "approved": true,
      "status": "APPROVED — owner said perfect",
      "group": "Dream look",
-     "img": "sb/sb031.jpg"
+     "img": "sb/sb031.jpg",
+     "date": "2026-09-12"
     }
    ],
    "continuity": {},
@@ -595,7 +680,8 @@
      "approved": false,
      "status": "Generated — owner review pending",
      "group": "Full-body character photos",
-     "img": "sb/sb028.jpg"
+     "img": "sb/sb028.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "APU-HEAD-CANDIDATE-01",
@@ -605,7 +691,8 @@
      "approved": false,
      "status": "Generated — owner review pending",
      "group": "Apu · approved arrival identity",
-     "img": "sb/sb055.jpg"
+     "img": "sb/sb055.jpg",
+     "date": "2026-09-12"
     }
    ],
    "continuity": {
@@ -626,7 +713,8 @@
      "approved": false,
      "status": "Generated — owner review pending",
      "group": "Full-body character photos",
-     "img": "sb/sb027.jpg"
+     "img": "sb/sb027.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "BART-HEAD-CANDIDATE-01",
@@ -636,7 +724,8 @@
      "approved": false,
      "status": "Generated — owner review pending",
      "group": "Bart · garage and skateboard continuity",
-     "img": "sb/sb058.jpg"
+     "img": "sb/sb058.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "BART-SLINGSHOT-REAL-02",
@@ -646,7 +735,8 @@
      "approved": true,
      "status": "APPROVED — wide old-school wooden slingshot",
      "group": "Bart · garage and skateboard continuity",
-     "img": "sb/sb060.jpg"
+     "img": "sb/sb060.jpg",
+     "date": "2026-09-12"
     }
    ],
    "voice": {
@@ -667,7 +757,8 @@
      "approved": false,
      "status": "Owner-selected Rexx body / rear head-neck reference",
      "group": "Rexx body · rear and side views",
-     "img": "sb/sb032.jpg"
+     "img": "sb/sb032.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-BODY-FRONT",
@@ -677,7 +768,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Rexx body · rear and side views",
-     "img": "sb/sb033.jpg"
+     "img": "sb/sb033.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-BODY-RIGHT",
@@ -687,7 +779,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Rexx body · rear and side views",
-     "img": "sb/sb034.jpg"
+     "img": "sb/sb034.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-BODY-BACK",
@@ -697,7 +790,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Rexx body · rear and side views",
-     "img": "sb/sb035.jpg"
+     "img": "sb/sb035.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-BODY-LEFT",
@@ -707,7 +801,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Rexx body · rear and side views",
-     "img": "sb/sb036.jpg"
+     "img": "sb/sb036.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-PHYSIQUE-S24",
@@ -717,7 +812,8 @@
      "approved": false,
      "status": "Removed from active references by owner; use REXX-HOMER-REAR-CANDIDATE-01 instead",
      "group": "Rexx body · rear and side views",
-     "img": "sb/sb037.jpg"
+     "img": "sb/sb037.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-SHIRT-01",
@@ -727,7 +823,8 @@
      "approved": false,
      "status": "Owner-selected wardrobe support",
      "group": "Outfits · shirt, pants and fit",
-     "img": "sb/sb038.jpg"
+     "img": "sb/sb038.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-PANTS-HAT-01",
@@ -737,7 +834,8 @@
      "approved": false,
      "status": "Owner-selected wardrobe support",
      "group": "Outfits · shirt, pants and fit",
-     "img": "sb/sb039.jpg"
+     "img": "sb/sb039.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "GRINCH-HEEL-SOURCE",
@@ -747,7 +845,8 @@
      "approved": false,
      "status": "Actual product reference",
      "group": "Accessories · shoes, heel detail and hat",
-     "img": "sb/sb040.jpg"
+     "img": "sb/sb040.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "S08-HEEL-TEST",
@@ -757,7 +856,8 @@
      "approved": false,
      "status": "Excluded — wrong body reference; historical shoe-edit test only",
      "group": "Accessories · shoes, heel detail and hat",
-     "img": "sb/sb041.jpg"
+     "img": "sb/sb041.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-STAIRS-REFERENCE",
@@ -767,7 +867,8 @@
      "approved": true,
      "status": "Owner-selected existing stairs reference",
      "group": "Rexx · stairs and coffee references",
-     "img": "sb/sb042.jpg"
+     "img": "sb/sb042.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-FACE-2405",
@@ -777,7 +878,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Rexx · stairs and coffee references",
-     "img": "sb/sb043.jpg"
+     "img": "sb/sb043.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-FACE-2409",
@@ -787,7 +889,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Rexx · stairs and coffee references",
-     "img": "sb/sb044.jpg"
+     "img": "sb/sb044.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-FACE-2410",
@@ -797,7 +900,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Rexx · stairs and coffee references",
-     "img": "sb/sb045.jpg"
+     "img": "sb/sb045.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-COFFEE-FRONT-EXCEPTION",
@@ -807,7 +911,8 @@
      "approved": true,
      "status": "Existing approved coffee appearance; retain",
      "group": "Rexx · stairs and coffee references",
-     "img": "sb/sb002.jpg"
+     "img": "sb/sb002.jpg",
+     "date": "2026-09-11"
     },
     {
      "id": "HOMER-HAIR-BASE",
@@ -817,7 +922,8 @@
      "approved": false,
      "status": "Historical source — replaced by approved angle sheet",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb053.jpg"
+     "img": "sb/sb053.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "REXX-HAIR-BASE",
@@ -827,7 +933,8 @@
      "approved": false,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Hair · Rexx frohawk and Homer curls",
-     "img": "sb/sb043.jpg"
+     "img": "sb/sb043.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "APU-S23-ARRIVAL",
@@ -837,7 +944,8 @@
      "approved": true,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Apu · approved arrival identity",
-     "img": "sb/sb022.jpg"
+     "img": "sb/sb022.jpg",
+     "date": "2026-09-11"
     },
     {
      "id": "APU-S24-ARRIVAL-REAR-APPROACH",
@@ -847,7 +955,8 @@
      "approved": true,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Apu · approved arrival identity",
-     "img": "sb/sb056.jpg"
+     "img": "sb/sb056.jpg",
+     "date": "2026-09-11"
     },
     {
      "id": "APU-S24-END-CONTINUITY",
@@ -857,7 +966,8 @@
      "approved": true,
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Apu · approved arrival identity",
-     "img": "sb/sb057.jpg"
+     "img": "sb/sb057.jpg",
+     "date": "2026-09-11"
     },
     {
      "id": "BART-BODY-CANDIDATE-01",
@@ -867,7 +977,8 @@
      "approved": false,
      "status": "Superseded by full-body V2 with corrected handle grip",
      "group": "Bart · garage and skateboard continuity",
-     "img": "sb/sb059.jpg"
+     "img": "sb/sb059.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "VINTAGE-MART-EXTERIOR-01",
@@ -877,7 +988,8 @@
      "approved": false,
      "status": "Existing building reference; window inventory needs women’s-only update",
      "group": "Sets and locations · garage",
-     "img": "sb/sb061.jpg"
+     "img": "sb/sb061.jpg",
+     "date": "2026-09-11"
     },
     {
      "id": "SET-GARAGE-SET-MASTER-V2",
@@ -887,7 +999,8 @@
      "approved": false,
      "status": "Superseded master; V3 candidate under review",
      "group": "Sets and locations · garage",
-     "img": "sb/sb062.jpg"
+     "img": "sb/sb062.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-GARAGE-SET-DETAIL-LEFT-V2",
@@ -897,7 +1010,8 @@
      "approved": false,
      "status": "Superseded by fuller-floor V4 detail",
      "group": "Sets and locations · garage",
-     "img": "sb/sb063.jpg"
+     "img": "sb/sb063.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-GARAGE-SET-DETAIL-REAR-RIGHT-V2",
@@ -907,7 +1021,8 @@
      "approved": false,
      "status": "Superseded by fuller-floor V4 detail",
      "group": "Sets and locations · garage",
-     "img": "sb/sb064.jpg"
+     "img": "sb/sb064.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-MART-INTERIOR-WOMENS-RESALE-V1",
@@ -917,7 +1032,8 @@
      "approved": false,
      "status": "Superseded by corrected V2",
      "group": "Sets and locations · garage",
-     "img": "sb/sb065.jpg"
+     "img": "sb/sb065.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-MART-MERCH-APU-BUNNY-LOVE-V2",
@@ -927,7 +1043,8 @@
      "approved": false,
      "status": "Superseded by heart-symbol V3",
      "group": "Sets and locations · garage",
-     "img": "sb/sb066.jpg"
+     "img": "sb/sb066.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-MART-STOREFRONT-WOMENS-WINDOWS-V1",
@@ -937,7 +1054,8 @@
      "approved": false,
      "status": "Generated candidate — review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb067.jpg"
+     "img": "sb/sb067.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-MART-INTERIOR-WOMENS-RESALE-V2",
@@ -947,7 +1065,8 @@
      "approved": false,
      "status": "Superseded by V4 shop angles",
      "group": "Sets and locations · garage",
-     "img": "sb/sb068.jpg"
+     "img": "sb/sb068.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-GARAGE-SET-MASTER-V3",
@@ -957,7 +1076,8 @@
      "approved": false,
      "status": "Generated candidate — review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb069.jpg"
+     "img": "sb/sb069.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-MART-INTERIOR-FRONT-REVERSE-V3",
@@ -967,7 +1087,8 @@
      "approved": false,
      "status": "Generated continuity candidate — owner review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb070.jpg"
+     "img": "sb/sb070.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-MART-MERCH-APU-BUNNY-HEART-V3",
@@ -977,7 +1098,8 @@
      "approved": false,
      "status": "Heart-symbol revision generated; visual review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb071.jpg"
+     "img": "sb/sb071.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-GARAGE-DETAIL-LEFT-V4",
@@ -987,7 +1109,8 @@
      "approved": false,
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb072.jpg"
+     "img": "sb/sb072.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-GARAGE-DETAIL-RIGHT-V4",
@@ -997,7 +1120,8 @@
      "approved": false,
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb073.jpg"
+     "img": "sb/sb073.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-LEFT-V4",
@@ -1007,7 +1131,8 @@
      "approved": false,
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb074.jpg"
+     "img": "sb/sb074.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-RIGHT-V4",
@@ -1017,7 +1142,8 @@
      "approved": false,
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb075.jpg"
+     "img": "sb/sb075.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "SET-VINTAGE-COUNTER-V4",
@@ -1027,7 +1153,8 @@
      "approved": false,
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
-     "img": "sb/sb076.jpg"
+     "img": "sb/sb076.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "GARAGE-MASTER-V4-CONTINUITY",
@@ -1037,7 +1164,8 @@
      "approved": true,
      "status": "Owner-approved garage master",
      "group": "Sets and locations · garage",
-     "img": "sb/sb077.jpg"
+     "img": "sb/sb077.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "GARAGE-MASTER-V5-SMITTY-BLOND",
@@ -1047,7 +1175,8 @@
      "approved": false,
      "status": "Approved set composition; TV detail updated for review",
      "group": "Sets and locations · garage",
-     "img": "sb/sb078.jpg"
+     "img": "sb/sb078.jpg",
+     "date": "2026-09-12"
     },
     {
      "id": "PROP-IPHONE-DUO-SCALE",
@@ -1057,7 +1186,8 @@
      "approved": false,
      "status": "Existing project reference — scale/geometry guide",
      "group": "Props · recurring objects",
-     "img": "sb/sb079.jpg"
+     "img": "sb/sb079.jpg",
+     "date": "2026-09-10"
     },
     {
      "id": "PROP-IPHONE-DUO-CAMERAS",
@@ -1067,7 +1197,8 @@
      "approved": false,
      "status": "Existing project reference — scale/geometry guide",
      "group": "Props · recurring objects",
-     "img": "sb/sb080.jpg"
+     "img": "sb/sb080.jpg",
+     "date": "2026-09-10"
     },
     {
      "id": "PROP-IPHONE-DUO-CLOSED",
@@ -1077,7 +1208,8 @@
      "approved": false,
      "status": "Existing project reference — scale/geometry guide",
      "group": "Props · recurring objects",
-     "img": "sb/sb081.jpg"
+     "img": "sb/sb081.jpg",
+     "date": "2026-09-10"
     }
    ]
   }
@@ -1087,19 +1219,22 @@
    "title": "Garage master set",
    "role": "The garage as approved: shelves, boxes, consoles, treadmill, recliner",
    "status": "Clean packed garage and Smitty TV placement approved; matching V16 set and V6 people reveal.",
-   "img": "sb/sb082.jpg"
+   "img": "sb/sb082.jpg",
+   "date": "2026-09-12"
   },
   {
    "title": "Vintage Mart storefront",
    "role": "Former Kwik-E-Mart renamed Vintage Mart; future episodes",
    "status": "Future set planning; women’s-only inventory; Apu face merchandise behind checkout; interior not rendered",
-   "img": "sb/sb061.jpg"
+   "img": "sb/sb061.jpg",
+   "date": "2026-09-11"
   },
   {
    "title": "Bugatti La Voiture Noire — selected dream car",
    "role": "Vehicle reference: glossy exposed black carbon, real Havana Brown interior",
    "status": "Archived — Bugatti replaces Lamborghini",
    "img": "sb/sb016.jpg",
+   "date": "2026-09-12",
    "approved": false
   },
   {
@@ -1107,6 +1242,7 @@
    "role": "Old-school rounded wooden Y branch with wide fork, tan bands and leather pouch",
    "status": "APPROVED — wide old-school wooden slingshot",
    "img": "sb/sb060.jpg",
+   "date": "2026-09-12",
    "approved": true
   },
   {
@@ -1114,6 +1250,7 @@
    "role": "",
    "status": "Real product reference — ready for visual review",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1121,6 +1258,7 @@
    "role": "",
    "status": "Real product reference — ready for visual review",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1128,6 +1266,7 @@
    "role": "",
    "status": "Real product reference — ready for visual review",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1135,6 +1274,7 @@
    "role": "",
    "status": "Real product reference — ready for visual review",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1142,6 +1282,7 @@
    "role": "",
    "status": "Real product reference — ready for visual review",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1149,6 +1290,7 @@
    "role": "North American NES front-loader; not Nintendo Classic Mini.",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1156,6 +1298,7 @@
    "role": "US SNES form factor; not Super Famicom and not Nintendo Classic Mini.",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1163,6 +1306,7 @@
    "role": "Front three-quarter view with woodgrain label and controls; not Atari 2600+ replica.",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1170,6 +1314,7 @@
    "role": "Recognizable G.I. Joe manufacturer product reference.",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1177,6 +1322,7 @@
    "role": "Recognizable Transformers manufacturer product reference.",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1184,6 +1330,7 @@
    "role": "",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1191,6 +1338,7 @@
    "role": "",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
@@ -1198,6 +1346,7 @@
    "role": "",
    "status": "",
    "img": null,
+   "date": null,
    "approved": false
   },
   {
