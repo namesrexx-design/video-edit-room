@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-15T21:09:19.433Z",
+  "builtAt": "2026-09-15T21:37:18.243Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -114,7 +114,48 @@
       ],
       "props": [],
       "set": "Stairs",
-      "angle": "coming down the stairs"
+      "angle": "coming down the stairs",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S01-start-V74.jpg",
+          "id": "S01-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S01-start-V27.jpg",
+          "id": "current-frames/S01-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S01-end-V27.jpg",
+          "id": "current-frames/S01-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "S01-01",
+          "title": "Stairs / morning resolve",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../phone-sequence-review/S01-RINGTONE-V33.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S02",
@@ -227,7 +268,48 @@
         "coffee mug"
       ],
       "set": "Coffee",
-      "angle": "counter"
+      "angle": "counter",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S02-start-V74.jpg",
+          "id": "S02-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S02-start-V27.jpg",
+          "id": "current-frames/S02-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S02-end-V27.jpg",
+          "id": "current-frames/S02-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "S02-CLEAN",
+          "title": "Clearer coffee, fixed mug",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../phone-sequence-review/S02-RINGTONE-V33.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S03",
@@ -340,7 +422,48 @@
         "phone"
       ],
       "set": "Coffee",
-      "angle": "counter, phone"
+      "angle": "counter, phone",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S03-start-V74.jpg",
+          "id": "S03-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S03-start-V27.jpg",
+          "id": "current-frames/S03-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S03-end-V27.jpg",
+          "id": "current-frames/S03-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S03.jpg",
+          "id": "S03-01",
+          "title": "Answer Homer",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../phone-sequence-review/S03-RINGTONE-V33.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S04",
@@ -451,7 +574,48 @@
         "coffee mug"
       ],
       "set": "Coffee",
-      "angle": "counter, phone down"
+      "angle": "counter, phone down",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S04-start-V74.jpg",
+          "id": "S04-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S04-start-V27.jpg",
+          "id": "current-frames/S04-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S04-end-V27.jpg",
+          "id": "current-frames/S04-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S04.jpg",
+          "id": "S04-01",
+          "title": "Set phone down",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S05",
@@ -562,7 +726,48 @@
         "phone"
       ],
       "set": "Coffee",
-      "angle": "counter"
+      "angle": "counter",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S05-start-V74.jpg",
+          "id": "S05-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S05-start-V27.jpg",
+          "id": "current-frames/S05-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S05-end-V27.jpg",
+          "id": "current-frames/S05-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "S05-CLEAN",
+          "title": "Clearer coffee, fixed mug",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../coffee-flicker-review/S05-NO-FLICKER-V30.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S06",
@@ -669,7 +874,48 @@
       ],
       "props": [],
       "set": "Waymo",
-      "angle": "from the back, boarding"
+      "angle": "from the back, boarding",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S06-start-V74.jpg",
+          "id": "S06-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S06-start-V29.jpg",
+          "id": "current-frames/S06-start-V29.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S06-end-V29.jpg",
+          "id": "current-frames/S06-end-V29.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S06.jpg",
+          "id": "S06-01",
+          "title": "Waymo boarding / narration",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S07",
@@ -684,7 +930,7 @@
         "sheet": "sheets/scene-S07.jpg",
         "col": 0,
         "row": 0,
-        "cols": 5,
+        "cols": 7,
         "rows": 1,
         "shape": "land"
       },
@@ -708,7 +954,7 @@
             "sheet": "sheets/scene-S07.jpg",
             "col": 0,
             "row": 0,
-            "cols": 5,
+            "cols": 7,
             "rows": 1,
             "shape": "land"
           }
@@ -726,7 +972,7 @@
             "sheet": "sheets/scene-S07.jpg",
             "col": 1,
             "row": 0,
-            "cols": 5,
+            "cols": 7,
             "rows": 1,
             "shape": "land"
           }
@@ -744,7 +990,7 @@
             "sheet": "sheets/scene-S07.jpg",
             "col": 2,
             "row": 0,
-            "cols": 5,
+            "cols": 7,
             "rows": 1,
             "shape": "land"
           }
@@ -763,7 +1009,7 @@
             "sheet": "sheets/scene-S07.jpg",
             "col": 3,
             "row": 0,
-            "cols": 5,
+            "cols": 7,
             "rows": 1,
             "shape": "land"
           }
@@ -782,7 +1028,43 @@
             "sheet": "sheets/scene-S07.jpg",
             "col": 4,
             "row": 0,
-            "cols": 5,
+            "cols": 7,
+            "rows": 1,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV010_2026-09-14-14-41-kling3-0-1aaa6fd8-four-second-pho.mp4",
+          "group": "pending",
+          "id": "INV010",
+          "title": "Higgsfield clip · INV010 · 4.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+          "img": {
+            "sheet": "sheets/scene-S07.jpg",
+            "col": 5,
+            "row": 0,
+            "cols": 7,
+            "rows": 1,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV028_2026-09-14-00-53-kling3-0-3176ee05-four-second-pho.mp4",
+          "group": "pending",
+          "id": "INV028",
+          "title": "Higgsfield clip · INV028 · 4.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+          "img": {
+            "sheet": "sheets/scene-S07.jpg",
+            "col": 6,
+            "row": 0,
+            "cols": 7,
             "rows": 1,
             "shape": "land"
           }
@@ -812,7 +1094,86 @@
         "phone"
       ],
       "set": "Waymo",
-      "angle": "from below, inside, exit"
+      "angle": "from below, inside, exit",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S07-start-V74.jpg",
+          "id": "S07-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S07-start-V31.jpg",
+          "id": "current-frames/S07-start-V31.jpg",
+          "title": "V31 current cut · start",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S07-end-V31.jpg",
+          "id": "current-frames/S07-end-V31.jpg",
+          "title": "V31 current cut · end",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S07.jpg",
+          "id": "S07-01",
+          "title": "Waymo ride",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\waymo-review\\WAYMO-WIDE-HELLO-BIZBOX-V3-REVIEW.png",
+          "id": "S07-RESIDENTIAL-V3",
+          "title": "Residential ride — new render input",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV010.jpg",
+          "id": "INV010",
+          "title": "Higgsfield clip · INV010 · 4.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV028.jpg",
+          "id": "INV028",
+          "title": "Higgsfield clip · INV028 · 4.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        }
+      ],
+      "_audioSrc": [
+        {
+          "id": "AUD020",
+          "title": "Rexx — Waymo arrival line",
+          "seconds": 0.667
+        },
+        {
+          "id": "AUD027",
+          "title": "V74 stem — Waymo/driveway bridge",
+          "seconds": 115.167
+        }
+      ],
+      "_fullVideo": "../waymo-review/S07-PORTRAIT-FIRST-V31.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S08",
@@ -1300,7 +1661,233 @@
       ],
       "props": [],
       "set": "Driveway",
-      "angle": "walk-up"
+      "angle": "walk-up",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-V47.jpg",
+          "id": "S08-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-V47.jpg",
+          "id": "current-frames/S08-start-V47.jpg",
+          "title": "V47 current clip · start",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-end-V47.jpg",
+          "id": "current-frames/S08-end-V47.jpg",
+          "title": "V47 current clip · end",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-ENTRANCE-PAIR-V19-FABRIC-NATIVE.png",
+          "id": "S08-ENTRANCE-V19-APPROVED",
+          "title": "Selected start frame · walking toward Homer",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
+          "id": "S08-SAME-FRAME-CLEAN-V4",
+          "title": "Clean same-camera start · review",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v7\\S08-START-V10-HEAD-NECK.png",
+          "id": "S08-START-V10-HEAD-NECK",
+          "title": "S08 · smaller head and narrower neck V10",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v7\\S08-START-V9-WARDROBE.png",
+          "id": "S08-START-V9-WARDROBE",
+          "title": "S08 · wardrobe detail cleanup V9",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v7\\S08-START-V8-CLEAN.png",
+          "id": "S08-START-V8-CLEAN",
+          "title": "S08 · driveway cleanup for review",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v7\\S08-START-V7.png",
+          "id": "S08-CHARACTER-START-V7",
+          "title": "S08 · corrected rear/full-body V7",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v6\\S08-START-V6.png",
+          "id": "S08-CHARACTER-START-ROUND2",
+          "title": "S08 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\driveway-review\\S08-SAME-POSE-SLIM-V7.png",
+          "id": "S08-SLIM-V7",
+          "title": "Corrected actual-video frame: leaner Rexx",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\REXX-CORDUROY-DICKIES-REFERENCE-V1.png",
+          "id": "REXX-WARDROBE-V1",
+          "title": "Corduroy snapback rear / cuffed classic Dickies",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v7\\S08-START-V11-CANONICAL-BODY.png",
+          "id": "S08-START-V11-CANONICAL-BODY",
+          "title": "S08 · canonical full-body match V11",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\driveway-sequence\\S08-END-BESIDE-HOMER-V1.png",
+          "id": "S08-END-BESIDE-HOMER-V1",
+          "title": "End frame — stopped beside Homer",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\garage-through-apu-review\\s08-reference-rebuild-v12\\S08-START-CANONICAL-BODY-CLEAN-V12-NATIVE.png",
+          "id": "S08-V12-OWNER-REJECTED",
+          "title": "",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\garage-through-apu-review\\s08-reference-rebuild-v14\\S08-START-WIDE-DOOR-V14-NATIVE.png",
+          "id": "S08-START-WIDE-DOOR-V14",
+          "title": "Approved driveway start · correct body and wide door",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\garage-through-apu-review\\s09-closed-conversation-v1\\S09-CLOSED-CONVERSATION-V3-CLOSER-DOOR-NATIVE.png",
+          "id": "S08-END-S09-CLOSER-DOOR-V3",
+          "title": "Approved end · Rexx and Homer beside the closed door",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S08-WALKUP-OPEN-GARAGE-IDENTITY-V15-NATIVE.png",
+          "id": "S08-WALKUP-OPEN-GARAGE-IDENTITY-V15",
+          "title": "First shot · corrected full-body walk-up V15",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S08-WALKUP-CLEAN-REVEAL-SCALE-V16-NATIVE.png",
+          "id": "S08-WALKUP-CLEAN-REVEAL-SCALE-V16",
+          "title": "Walk-up V16 · cleaned surfaces and full garage frame",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S08-WALKUP-MATCHED-DOOR-V17-NATIVE.png",
+          "id": "S08-WALKUP-MATCHED-DOOR-V17",
+          "title": "Walk-up V17 · same garage opening as full reveal",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S08-WALKUP-BODY-SOCKS-V18-NATIVE.png",
+          "id": "S08-WALKUP-BODY-SOCKS-V18",
+          "title": "V18 · body / hair / black socks review only",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-SAME-FRAME-START-V2-NATIVE.png",
+          "id": "S08-SAME-FRAME-START-V2",
+          "title": "Same-camera start · Rexx farther from Homer",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../opening-review/S08-WALKUP-V51-REPLACEMENT.mp4",
+      "_audioTracks": [
+        {
+          "src": "../opening-review/S08-V47-APPROVED-VOICEOVER-STEM.wav",
+          "label": "Approved walk-up voiceover stem · V47"
+        }
+      ]
     },
     {
       "id": "S09",
@@ -1818,6 +2405,24 @@
             "rows": 4,
             "shape": "land"
           }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV046_s09-lipsync-c2ef-v58.mp4",
+          "group": "pending",
+          "id": "INV046",
+          "title": "Lip-sync clip · INV046 · 5 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S09 LIPSYNC C2EF V58",
+          "img": {
+            "sheet": "sheets/scene-S09.jpg",
+            "col": 1,
+            "row": 3,
+            "cols": 8,
+            "rows": 4,
+            "shape": "land"
+          }
         }
       ],
       "audio": [],
@@ -1830,7 +2435,260 @@
         "garage remote"
       ],
       "set": "Driveway",
-      "angle": "garage door, conversation"
+      "angle": "garage door, conversation",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-start-V74.jpg",
+          "id": "S09-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S09-ENTRANCE-V8-REMOTE-ARM-NATIVE.png",
+          "id": "S09-V8-REMOTE-ARM",
+          "title": "Selected end frame · meeting Homer with remote",
+          "group": "approved",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v6\\S09-START-V6.png",
+          "id": "S09-CHARACTER-START-ROUND2",
+          "title": "S09 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\driveway-sequence\\S09-START-OVER-SHOULDER-V1.png",
+          "id": "S09-START-OVER-SHOULDER-V1",
+          "title": "Start frame — over Rexx’s shoulder",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\garage-reveal-sequence\\S09-END-DOOR-OPENING-V1.png",
+          "id": "S09-END-DOOR-OPENING-V1",
+          "title": "Garage door rising — continuation",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v7\\S09-START-V7.png",
+          "id": "S09-CHARACTER-START-V7",
+          "title": "S09 · corrected rear/full-body V7",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S09.jpg",
+          "id": "S09-01",
+          "title": "Meet Homer",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\garage-reveal-sequence\\S09-END-DOOR-OPENING-V2-SMITTY-BLOND.png",
+          "id": "S09-END-DOOR-OPENING-V2-SMITTY-BLOND",
+          "title": "Approved reveal composition — young blond Smitty correction",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-DOOR-HALFWAY-V3-MATCHED-PANELS.png",
+          "id": "S09-DOOR-HALFWAY-V3-MATCHED-PANELS",
+          "title": "Half-open garage — matched clean set and door panels",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-DOOR-HALFWAY-V4-TAUPE-CLEAN.png",
+          "id": "S09-DOOR-HALFWAY-V4-TAUPE-CLEAN",
+          "title": "Half-open garage — matched clean set and door panels",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-DOOR-HALFWAY-V5-POKEMON.png",
+          "id": "S09-DOOR-HALFWAY-V5-POKEMON",
+          "title": "Half-open garage — matched clean set and door panels",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S09-DOOR-HALFWAY-V6-CLEAN.png",
+          "id": "S09-DOOR-HALFWAY-V6-CLEAN",
+          "title": "Half-open garage — matched clean set and door panels",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-POCKET-REMOTE-V1.png",
+          "id": "GARAGE-01-REMOTE-CLEAN",
+          "title": "GARAGE-01-REMOTE-CLEAN",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-POCKET-REMOTE-V1.png",
+          "id": "S09-POCKET-REMOTE-V1",
+          "title": "S09 · pocket remote action",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\driveway-sequence\\APPROVED-WALKUP-END-9_6.jpg",
+          "id": "S09-ACTUAL-APPROVED-WALKUP-END",
+          "title": "S09 handoff · actual approved video endpoint",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s09-remote-wrong-identity-v2\\S09-REMOTE-CLOSE-DOOR-V2-NATIVE.png",
+          "id": "S09-REMOTE-CLOSE-DOOR-V2",
+          "title": "Homer takes out the remote · close to the garage door",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-SECOND-SHOT-BEARD-GLASSES-V3-NATIVE.png",
+          "id": "S09-SECOND-SHOT-BEARD-GLASSES-V3",
+          "title": "Second shot · Homer has the remote; Rexx beard and glasses",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-SECOND-SHOT-SOLID-BLACK-V4-NATIVE.png",
+          "id": "S09-SECOND-SHOT-SOLID-BLACK-V4",
+          "title": "Second shot · solid black oversized shirt, beard, glasses and remote",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-ENTRANCE-PAIR-V6-CLOSE-DOOR-NATIVE.png",
+          "id": "S09-CLOSE-DOOR-V6",
+          "title": "Second shot · closer to door, remote in hand",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S09-ENTRANCE-PAIR-V7-OWNER-LIKENESS-NATIVE.png",
+          "id": "S09-OWNER-LIKENESS-V7",
+          "title": "Second shot · closer to door, remote in hand",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\s09-door-action\\S09-ENTRANCE-PAIR-V7-CLEAN-NATIVE.png",
+          "id": "S09-V7-CLEAN-DELIVERY",
+          "title": "Second shot · cleaned 8K delivery",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S09-DOOR-HALFWAY-V7-HOT-WHEELS.png",
+          "id": "S09-DOOR-HALFWAY-V7-HOT-WHEELS",
+          "title": "Half-open garage — matched clean set and door panels",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\production-rejected\\garage-halfway\\GARAGE-H3-HALFWAY-SAME-CAMERA-V1-NATIVE.png",
+          "id": "GARAGE-H3-HALFWAY-SAME-CAMERA-V1",
+          "title": "Half-open end · same camera as V4 start",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-H3-HALFWAY-CROP-V2-NATIVE.png",
+          "id": "GARAGE-H3-HALFWAY-CROP-V2",
+          "title": "Owner-selected closer crop · 8K delivery",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV046.jpg",
+          "id": "INV046",
+          "title": "Lip-sync clip · INV046 · 5 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S09-CURRENT-V63.mp4",
+      "_audioTracks": [
+        {
+          "src": "../environment-reference-pack/driveway-sequence/S09-CONVERSATION-REUSED-V34.wav",
+          "label": "Approved Homer / Rexx exchange · reused at original speed"
+        }
+      ]
     },
     {
       "id": "S10",
@@ -2500,6 +3358,24 @@
             "rows": 5,
             "shape": "land"
           }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV047_s10-v65-second-half-lipsync.mp4",
+          "group": "pending",
+          "id": "INV047",
+          "title": "Lip-sync clip · INV047 · 4 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S10 V65 SECOND HALF LIPSYNC",
+          "img": {
+            "sheet": "sheets/scene-S10.jpg",
+            "col": 1,
+            "row": 4,
+            "cols": 8,
+            "rows": 5,
+            "shape": "land"
+          }
         }
       ],
       "audio": [],
@@ -2516,7 +3392,340 @@
         "recliner"
       ],
       "set": "Garage",
-      "angle": "reveal"
+      "angle": "reveal",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S10-start-V74.jpg",
+          "id": "S10-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-CONTINUATION-START-V2-TAN.png",
+          "id": "S10-CONTINUATION-START-V2-TAN",
+          "title": "Closer conversation — warmer tan",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-CONTINUATION-END-V4-TAN.png",
+          "id": "S10-CONTINUATION-END-V4-TAN",
+          "title": "Recliner pulled forward — seated end, warmer tan",
+          "group": "approved",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\HOMER-RECLINER-TIGHT-START-V1.png",
+          "id": "HOMER-RECLINER-TIGHT-START-V1",
+          "title": "Sharp Homer recliner close-up — 8K delivery available",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V13-HOT-WHEELS.png",
+          "id": "S10-DOOR-FULLY-OPEN-V13-HOT-WHEELS",
+          "title": "Clean garage reveal with Smitty TV",
+          "group": "pending",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-MASTER-V22-HOT-WHEELS.png",
+          "id": "GARAGE-MASTER-V22-HOT-WHEELS",
+          "title": "Clean set reference with Smitty TV",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-OPEN-CONVERSATION-REVERSE-V1-NATIVE.png",
+          "id": "S10-OPEN-CONVERSATION-REVERSE-V1",
+          "title": "Open garage — Homer turns back to talk to Rexx",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-14"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S10-START-V6.png",
+          "id": "S10-CHARACTER-START-ROUND2",
+          "title": "S10 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S10-approved-treadmill.png",
+          "id": "S10-approved-treadmill",
+          "title": "Approved treadmill correction",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\garage-reveal-sequence\\S10-START-GARAGE-REVEAL-V1.png",
+          "id": "S10-START-GARAGE-REVEAL-V1",
+          "title": "Full garage reveal — matching inventory",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v7\\S10-START-V7.png",
+          "id": "S10-CHARACTER-START-V7",
+          "title": "S10 · corrected rear/full-body V7",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\scene-cleanups\\S10-HOMER-LOCK-CLEANUP-V1.png",
+          "id": "S10-HOMER-CLEANUP-V1",
+          "title": "Cleaned still: Homer curls / cap / plain pocket",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S10.jpg",
+          "id": "S10-01",
+          "title": "Garage reveal",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\garage-reveal-sequence\\S10-START-GARAGE-REVEAL-V2-SMITTY-BLOND.png",
+          "id": "S10-START-GARAGE-REVEAL-V2-SMITTY-BLOND",
+          "title": "Approved reveal composition — young blond Smitty correction",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V5-CLEAN.png",
+          "id": "S10-DOOR-FULLY-OPEN-V5-CLEAN",
+          "title": "Garage reveal — Rexx and Homer",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-MASTER-V15-CLEAN.png",
+          "id": "GARAGE-MASTER-V15-CLEAN",
+          "title": "Garage set — clean packed interior",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V6-SMITTY-TV.png",
+          "id": "S10-DOOR-FULLY-OPEN-V6-SMITTY-TV",
+          "title": "Clean garage reveal with Smitty TV",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-MASTER-V16-SMITTY-TV.png",
+          "id": "GARAGE-MASTER-V16-SMITTY-TV",
+          "title": "Clean set reference with Smitty TV",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V7-CLEAN-TV.png",
+          "id": "S10-DOOR-FULLY-OPEN-V7-CLEAN-TV",
+          "title": "Clean garage reveal with Smitty TV",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-MASTER-V17-CLEAN-TV.png",
+          "id": "GARAGE-MASTER-V17-CLEAN-TV",
+          "title": "Clean set reference with Smitty TV",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V8-MAUVE.png",
+          "id": "S10-DOOR-FULLY-OPEN-V8-MAUVE",
+          "title": "Clean garage reveal with Smitty TV",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-MASTER-V18-MAUVE.png",
+          "id": "GARAGE-MASTER-V18-MAUVE",
+          "title": "Clean set reference with Smitty TV",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V10-POKEMON.png",
+          "id": "S10-DOOR-FULLY-OPEN-V10-POKEMON",
+          "title": "Clean garage reveal with Smitty TV",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-MASTER-V20-POKEMON.png",
+          "id": "GARAGE-MASTER-V20-POKEMON",
+          "title": "Clean set reference with Smitty TV",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V12-SIX-BOXES-CLEAN.png",
+          "id": "S10-DOOR-FULLY-OPEN-V12-SIX-BOXES-CLEAN",
+          "title": "Clean garage reveal with Smitty TV",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\GARAGE-MASTER-V21-SIX-BOXES-CLEAN.png",
+          "id": "GARAGE-MASTER-V21-SIX-BOXES-CLEAN",
+          "title": "Clean set reference with Smitty TV",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-CONTINUATION-START-V1.png",
+          "id": "S10-CONTINUATION-START-V1",
+          "title": "Closer conversation — garage fully open",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-CONTINUATION-END-V3-NO-LOGO.png",
+          "id": "S10-CONTINUATION-END-V3-NO-LOGO",
+          "title": "Homer seated — plain Dickies pocket",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-CLOSE-CONVERSATION-CLEAN-V1.png",
+          "id": "S10-CLOSE-CONVERSATION-CLEAN-V1",
+          "title": "New close conversation — garage finishes opening off camera",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S10-DOOR-FULLY-OPEN-V12-SIX-BOXES-CLEAN.png",
+          "id": "GARAGE-03-REVEAL-CLEAN",
+          "title": "GARAGE-03-REVEAL-CLEAN",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV047.jpg",
+          "id": "INV047",
+          "title": "Lip-sync clip · INV047 · 4 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S10-CURRENT-V67.mp4",
+      "_audioTracks": [
+        {
+          "src": "../garage-through-apu-review/full-working-cut/V49-REVEAL-RECLINER-MIX.wav",
+          "label": "V49 current episode audio mix"
+        },
+        {
+          "src": "../garage-through-apu-review\\full-working-cut\\V48-REXX-DIALOGUE-STEM.wav",
+          "label": "V48 Rexx reveal + continuous BizBox explanation"
+        },
+        {
+          "src": "../garage-through-apu-review\\full-working-cut\\V48-HOMER-DIALOGUE-STEM.wav",
+          "label": "V48 Homer recliner, question, whispers and snore"
+        }
+      ]
     },
     {
       "id": "S11",
@@ -2738,7 +3947,102 @@
       ],
       "props": [],
       "set": "Garage",
-      "angle": "doorway"
+      "angle": "doorway",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S11.jpg",
+          "id": "S11-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S11-start-V27.jpg",
+          "id": "current-frames/S11-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S11-end-V27.jpg",
+          "id": "current-frames/S11-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v7\\S11-START-V7.png",
+          "id": "S11-CHARACTER-START-V7",
+          "title": "S11 · corrected rear/full-body V7",
+          "group": "pending",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S11.jpg",
+          "id": "S11-01",
+          "title": "How do we clear it?",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S11-START-V6.png",
+          "id": "S11-CHARACTER-START-ROUND2",
+          "title": "S11 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S12",
@@ -2868,7 +4172,57 @@
         "speakers"
       ],
       "set": "Garage",
-      "angle": "speakers, phone camera"
+      "angle": "speakers, phone camera",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S12.jpg",
+          "id": "S12-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S12-start-V27.jpg",
+          "id": "current-frames/S12-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S12-end-V27.jpg",
+          "id": "current-frames/S12-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S12.jpg",
+          "id": "S12-01",
+          "title": "Photograph items / shared folder",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S12-START-V6.png",
+          "id": "S12-CHARACTER-START-ROUND2",
+          "title": "S12 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S13",
@@ -3071,7 +4425,93 @@
       ],
       "props": [],
       "set": "Garage",
-      "angle": "explanation"
+      "angle": "explanation",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S13.jpg",
+          "id": "S13-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S13-start-V27.jpg",
+          "id": "current-frames/S13-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S13-end-V27.jpg",
+          "id": "current-frames/S13-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S13.jpg",
+          "id": "S13-01",
+          "title": "Explain Autopilot",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S13-START-V6.png",
+          "id": "S13-CHARACTER-START-ROUND2",
+          "title": "S13 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S14",
@@ -3086,7 +4526,7 @@
         "sheet": "sheets/scene-S14.jpg",
         "col": 0,
         "row": 0,
-        "cols": 7,
+        "cols": 8,
         "rows": 1,
         "shape": "land"
       },
@@ -3110,7 +4550,7 @@
             "sheet": "sheets/scene-S14.jpg",
             "col": 0,
             "row": 0,
-            "cols": 7,
+            "cols": 8,
             "rows": 1,
             "shape": "land"
           }
@@ -3129,7 +4569,7 @@
             "sheet": "sheets/scene-S14.jpg",
             "col": 1,
             "row": 0,
-            "cols": 7,
+            "cols": 8,
             "rows": 1,
             "shape": "land"
           }
@@ -3148,7 +4588,7 @@
             "sheet": "sheets/scene-S14.jpg",
             "col": 2,
             "row": 0,
-            "cols": 7,
+            "cols": 8,
             "rows": 1,
             "shape": "land"
           }
@@ -3167,7 +4607,7 @@
             "sheet": "sheets/scene-S14.jpg",
             "col": 3,
             "row": 0,
-            "cols": 7,
+            "cols": 8,
             "rows": 1,
             "shape": "land"
           }
@@ -3186,7 +4626,7 @@
             "sheet": "sheets/scene-S14.jpg",
             "col": 4,
             "row": 0,
-            "cols": 7,
+            "cols": 8,
             "rows": 1,
             "shape": "land"
           }
@@ -3205,7 +4645,7 @@
             "sheet": "sheets/scene-S14.jpg",
             "col": 5,
             "row": 0,
-            "cols": 7,
+            "cols": 8,
             "rows": 1,
             "shape": "land"
           }
@@ -3224,7 +4664,25 @@
             "sheet": "sheets/scene-S14.jpg",
             "col": 6,
             "row": 0,
-            "cols": 7,
+            "cols": 8,
+            "rows": 1,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV048_s14-lipsync-v58.mp4",
+          "group": "pending",
+          "id": "INV048",
+          "title": "Lip-sync clip · INV048 · 3.167 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S14 LIPSYNC V58",
+          "img": {
+            "sheet": "sheets/scene-S14.jpg",
+            "col": 7,
+            "row": 0,
+            "cols": 8,
             "rows": 1,
             "shape": "land"
           }
@@ -3240,7 +4698,84 @@
         "recliner"
       ],
       "set": "Garage",
-      "angle": "recliner"
+      "angle": "recliner",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S14-start-V74.jpg",
+          "id": "S14-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S14.jpg",
+          "id": "S14-01",
+          "title": "Room for a car?",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S14-START-V6.png",
+          "id": "S14-CHARACTER-START-ROUND2",
+          "title": "S14 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV048.jpg",
+          "id": "INV048",
+          "title": "Lip-sync clip · INV048 · 3.167 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S14-CURRENT-V59.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S15",
@@ -3462,7 +4997,102 @@
       ],
       "props": [],
       "set": "Garage",
-      "angle": "standing"
+      "angle": "standing",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S15.jpg",
+          "id": "S15-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S15-start-V27.jpg",
+          "id": "current-frames/S15-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S15-end-V27.jpg",
+          "id": "current-frames/S15-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\HOMER-RECLINER-TIGHT-START-V1.png",
+          "id": "HOMER-RECLINER-TIGHT-START-V1",
+          "title": "Sharp Homer recliner close-up — 8K delivery available",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S15.jpg",
+          "id": "S15-01",
+          "title": "Rexx’s reply",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S15-START-V6.png",
+          "id": "S15-CHARACTER-START-ROUND2",
+          "title": "S15 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S16",
@@ -3653,7 +5283,100 @@
         "recliner"
       ],
       "set": "Garage",
-      "angle": "recliner, doze"
+      "angle": "recliner, doze",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S16-start-V74.jpg",
+          "id": "S16-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\HOMER-RECLINER-TIGHT-START-V1.png",
+          "id": "HOMER-RECLINER-TIGHT-START-V1",
+          "title": "Sharp Homer recliner close-up — 8K delivery available",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S16.jpg",
+          "id": "S16-01",
+          "title": "High-five / it worked",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S16-START-V6.png",
+          "id": "S16-CHARACTER-START-ROUND2",
+          "title": "S16 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [
+        {
+          "id": "AUD005",
+          "title": "Song + whisper, car audition (54.5–67 s)",
+          "seconds": 12.5
+        },
+        {
+          "id": "AUD018",
+          "title": "Homer — Bugatti three whispers",
+          "seconds": 2.7
+        },
+        {
+          "id": "AUD019",
+          "title": "Bugatti intro replacement (56.7–63.1 s)",
+          "seconds": 6.392
+        }
+      ],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S16-CURRENT-V61.mp4",
+      "_audioTracks": [
+        {
+          "src": "../garage-through-apu-review\\full-working-cut\\V48-HOMER-DIALOGUE-STEM.wav",
+          "label": "V48 Homer dialogue and whispers stem"
+        },
+        {
+          "src": "../worker-whisper-v55/HOMER-EARLY-BUGATTI-WHISPER-V55.wav",
+          "label": "V55 early Bugatti whisper — approved Homer voice"
+        }
+      ]
     },
     {
       "id": "S17",
@@ -3875,7 +5598,109 @@
         "Bugatti La Voiture Noire"
       ],
       "set": "PCH road (dream)",
-      "angle": "Bugatti rear"
+      "angle": "Bugatti rear",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S17-start-V74.jpg",
+          "id": "S17-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-DREAM-BLACK-SUIT-V1.png",
+          "id": "HOMER-DREAM-BLACK-SUIT-01",
+          "title": "Homer — APPROVED dream look",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-la-voiture-noire\\PRODUCTION-2021-OFFICIAL-HERO.jpg",
+          "id": "BUGATTI-LA-VOITURE-NOIRE-01",
+          "title": "Bugatti La Voiture Noire — selected dream car",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\location-rebuild\\BUGATTI-A-REAR-DESIGN-FIX-UNAPPROVED-NATIVE.png",
+          "id": "BUGATTI-01-PCH-FOLLOW-V1",
+          "title": "Following Homer past Neptune’s",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\location-rebuild\\BUGATTI-B-REAR-DESIGN-FIX-UNAPPROVED-NATIVE.png",
+          "id": "BUGATTI-02-LEFT-TURN-V1",
+          "title": "Left turn toward the sunset",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\cabin-continuation\\BUGATTI-09-WINDOW-DOWN-NOD-V1.png",
+          "id": "BUGATTI-03-WINDOW-NOD-V1",
+          "title": "Window down · Homer acknowledges the camera",
+          "group": "pending",
+          "role": "candidate",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\cabin-continuation\\BUGATTI-10-AWAKE-FRONTAL-WINDSHIELD-V1.png",
+          "id": "BUGATTI-04-WINDSHIELD-HOMER-V1",
+          "title": "Through the windshield · Homer close-up",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\location-rebuild\\BUGATTI-C-REAR-DESIGN-FIX-UNAPPROVED-NATIVE.png",
+          "id": "BUGATTI-05-MOSQUITO-WINDOW-V1",
+          "title": "Mosquito enters through the open window",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\cabin\\BUGATTI-07-SLEEPING-WINDSHIELD-V1.png",
+          "id": "BUGATTI-04B-SLEEP-END",
+          "title": "Windshield end frame - Homer asleep",
+          "group": "pending",
+          "role": "candidate",
+          "approved": true,
+          "date": "2026-09-12"
+        }
+      ],
+      "_audioSrc": [
+        {
+          "id": "AUD004",
+          "title": "Bugatti song phrase (6.5 s reference)",
+          "seconds": 6.5
+        },
+        {
+          "id": "AUD005",
+          "title": "Song + whisper, car audition (54.5–67 s)",
+          "seconds": 12.5
+        }
+      ],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S17-CURRENT-V61.mp4",
+      "_audioTracks": [
+        {
+          "src": "../environment-reference-pack/s09-door-action/HOMER-BUGATTI-SHOUT-V1.mp3",
+          "label": "Bugatti!"
+        }
+      ]
     },
     {
       "id": "S18",
@@ -4184,6 +6009,24 @@
             "rows": 2,
             "shape": "land"
           }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV049_s18-wake-lipsync-a65e0b63-v68-raw.mp4",
+          "group": "pending",
+          "id": "INV049",
+          "title": "Lip-sync clip · INV049 · 5.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S18 WAKE LIPSYNC A65E0B63 V68 RAW",
+          "img": {
+            "sheet": "sheets/scene-S18.jpg",
+            "col": 7,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
         }
       ],
       "audio": [
@@ -4226,7 +6069,177 @@
         "recliner"
       ],
       "set": "Garage",
-      "angle": "recliner close-up, mosquito"
+      "angle": "recliner close-up, mosquito",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S18-start-V74.jpg",
+          "id": "S18-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-03-left-macro.png",
+          "id": "S18-03-left-macro",
+          "title": "Pan left + push into macro",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-04-needle-contact.png",
+          "id": "S18-04-needle-contact",
+          "title": "Needle contact",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-05-feeding.png",
+          "id": "S18-05-feeding",
+          "title": "Feeding — stay close",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-06-impact.png",
+          "id": "S18-06-impact",
+          "title": "Red ball — splat",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-07-rebound.png",
+          "id": "S18-07-rebound",
+          "title": "Ball rebounds; mosquito stays",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S18-START-V6.png",
+          "id": "S18-CHARACTER-START-ROUND2",
+          "title": "S18 · rebuilt scene start V6",
+          "group": "pending",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S18-LANDING-V6.png",
+          "id": "S18-LANDING-V6",
+          "title": "S18-LANDING-V6",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S18-END-V6.png",
+          "id": "S18-END-V6",
+          "title": "S18-END-V6",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S19-START-V6.png",
+          "id": "S18-NEW-GARAGE-END-GUIDE",
+          "title": "Current end continuity into Bart scene",
+          "group": "pending",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\garage-through-apu-review\\homer-wakeup-continuity-v1\\S18-HOMER-WAKEUP-REPLACEMENT-CANDIDATE-V1-NATIVE.png",
+          "id": "S18-WAKEUP-NEW-GARAGE-V1",
+          "title": "Wake-up in the same recliner and garage",
+          "group": "pending",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-01-flight.png",
+          "id": "S18-01-flight",
+          "title": "Flight toward Homer",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-02-forehead-landing.png",
+          "id": "S18-02-forehead-landing",
+          "title": "Center-forehead landing",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S18-08-doh.png",
+          "id": "S18-08-doh",
+          "title": "Homer wakes — “D’oh!”",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-10"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV049.jpg",
+          "id": "INV049",
+          "title": "Lip-sync clip · INV049 · 5.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        }
+      ],
+      "_audioSrc": [
+        {
+          "id": "AUD022",
+          "title": "Snore cue — mosquito",
+          "seconds": 1
+        },
+        {
+          "id": "AUD023",
+          "title": "Snore cue — recliner",
+          "seconds": 0.992
+        },
+        {
+          "id": "AUD024",
+          "title": "V74 stem — mosquito buzz",
+          "seconds": 115.167
+        },
+        {
+          "id": "AUD025",
+          "title": "V74 stem — snore",
+          "seconds": 115.167
+        }
+      ],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S18-CURRENT-V62.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S19",
@@ -4509,7 +6522,137 @@
         "slingshot"
       ],
       "set": "Driveway",
-      "angle": "Bart skates"
+      "angle": "Bart skates",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S19-start-V74.jpg",
+          "id": "S19-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S19-approved-treadmill.png",
+          "id": "S19-approved-treadmill",
+          "title": "Approved background after Bart exits",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S19.jpg",
+          "id": "S19-01",
+          "title": "Bart skates left",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-SHARP-START-COMPOSITE-V2.png",
+          "id": "S19-sharp-composite-v2",
+          "title": "Sharp start — Bart present, corrected treadmill",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-source-audit\\S19-BART-SLINGSHOT-CLOSEUP-V1.png",
+          "id": "BART-09-SLINGSHOT-CLOSEUP",
+          "title": "Bart close-up with the slingshot",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S19-START-V6.png",
+          "id": "S19-CHARACTER-START-ROUND2",
+          "title": "S19 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\BART-BODY-THREE-ANGLES-CANDIDATE-V1.png",
+          "id": "BART-NEW-BODY-CANDIDATE",
+          "title": "Bart new body reference · three angles",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        }
+      ],
+      "_audioSrc": [
+        {
+          "id": "AUD014",
+          "title": "Bart — door V3 (3 s, approved voice)",
+          "seconds": 3.008
+        },
+        {
+          "id": "AUD015",
+          "title": "Bart — complete take (5 s)",
+          "seconds": 5.042
+        },
+        {
+          "id": "AUD016",
+          "title": "Bart — Eat my shorts (2.5 s)",
+          "seconds": 2.45
+        },
+        {
+          "id": "AUD017",
+          "title": "Bart — exit V4 phone free (5 s)",
+          "seconds": 5.056
+        },
+        {
+          "id": "AUD026",
+          "title": "V74 stem — Bart line",
+          "seconds": 115.167
+        }
+      ],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S19-CURRENT-V58.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S20",
@@ -4716,7 +6859,98 @@
         "recliner"
       ],
       "set": "Garage",
-      "angle": "recliner"
+      "angle": "recliner",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S20.jpg",
+          "id": "S20-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S20-start-V27.jpg",
+          "id": "current-frames/S20-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S20-end-V27.jpg",
+          "id": "current-frames/S20-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\HOMER-REACTION-START-V3-S29-MARK.png",
+          "id": "HOMER-REACTION-S29-MARK-V3",
+          "title": "Approved Homer reaction start / original S29 forehead mark",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S20-START-V6.png",
+          "id": "S20-CHARACTER-START-ROUND2",
+          "title": "S20 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": [
+        {
+          "src": "../environment-reference-pack/bugatti-dream-sequence/catch-beat/audio/HOMER-DID-YOU-SHOOT-V1.mp3",
+          "label": "Homer: Did you shoot me with that?"
+        }
+      ]
     },
     {
       "id": "S21",
@@ -4968,7 +7202,122 @@
         "recliner"
       ],
       "set": "Garage",
-      "angle": "recliner"
+      "angle": "recliner",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S21.png",
+          "id": "S21-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S21-start-V27.jpg",
+          "id": "current-frames/S21-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S21-end-V27.jpg",
+          "id": "current-frames/S21-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S21-start.png",
+          "id": "S21-start",
+          "title": "Start · Homer listens",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\REXX-CATCH-HOLD-START-V1.png",
+          "id": "REXX-CATCH-HOLD-V1",
+          "title": "Rexx rear view / holding caught slingshot",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\frames\\S21-end-proposal.png",
+          "id": "S21-end-proposal",
+          "title": "Prepared end reference · chair reaction",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\GOLF-CLUBS-REVEAL-CORRECTION-V1-REVIEW.png",
+          "id": "GOLF-LOCK",
+          "title": "Correct golf clubs · garage reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S21-START-V6.png",
+          "id": "S21-CHARACTER-START-ROUND2",
+          "title": "S21 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [
+        {
+          "id": "AUD021",
+          "title": "Rexx — No! It was that kid (S21)",
+          "seconds": 6.348
+        }
+      ],
+      "_fullVideo": "../closing-review/REXX-REPLY-CHAIR-V4.mp4",
+      "_audioTracks": [
+        {
+          "src": "../environment-reference-pack/bugatti-dream-sequence/catch-beat/audio/REXX-NO-THAT-KID-V1.mp3",
+          "label": "Rexx: No! It was that kid."
+        }
+      ]
     },
     {
       "id": "S22",
@@ -5062,7 +7411,44 @@
         "recliner"
       ],
       "set": "Garage",
-      "angle": "recliner"
+      "angle": "recliner",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S22.png",
+          "id": "S22-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\HOMER-REACTION-START-V3-S29-MARK.png",
+          "id": "HOMER-REACTION-S29-MARK-V3",
+          "title": "Approved Homer reaction start / original S29 forehead mark",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S22.png",
+          "id": "S22-01",
+          "title": "Chair reaction",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": [
+        {
+          "src": "../environment-reference-pack/bugatti-dream-sequence/catch-beat/audio/HOMER-WHOSE-KID-V1.mp3",
+          "label": "Homer: Whose kid is that?"
+        }
+      ]
     },
     {
       "id": "S23",
@@ -5211,7 +7597,66 @@
         "Firebird (car)"
       ],
       "set": "Driveway",
-      "angle": "Apu arrives"
+      "angle": "Apu arrives",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S23-start-V74.jpg",
+          "id": "S23-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S23-start-V27.jpg",
+          "id": "current-frames/S23-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S23-end-V27.jpg",
+          "id": "current-frames/S23-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S23-START-V6.png",
+          "id": "S23-CHARACTER-START-ROUND2",
+          "title": "S23 · rebuilt scene start V6",
+          "group": "pending",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\closing-review\\REXX-REPLY-MATCH-START.png",
+          "id": "S23-transition-from-garage",
+          "title": "From garage → off-screen horn",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S23.png",
+          "id": "S23-01",
+          "title": "Cut to Apu at driver window",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../apu-arrival-review/S23-HORN-AND-GREETING-V1.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S24",
@@ -5510,7 +7955,138 @@
       ],
       "props": [],
       "set": "Driveway",
-      "angle": "rear wide, walk to car"
+      "angle": "rear wide, walk to car",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-start-V74.jpg",
+          "id": "S24-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-start-V27.jpg",
+          "id": "current-frames/S24-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-end-V27.jpg",
+          "id": "current-frames/S24-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\REXX-HOMER-REAR-GRINCH-HEEL-LOCK-V2.png",
+          "id": "S24-REAR-GRINCH-LOCK-V4",
+          "title": "Selected slender rear walk to Apu · corrected Grinch heels",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S24-START-V6.png",
+          "id": "S24-CHARACTER-START-ROUND2",
+          "title": "S24 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\S24-REAR-APPROACH-V1.png",
+          "id": "S24-01",
+          "title": "Rear approach / Rexx explains while walking",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\S24-SAME-POSE-SLIM-V7.png",
+          "id": "S24-SLIM-V7",
+          "title": "Corrected actual-video frame: leaner Rexx",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\REXX-CORDUROY-DICKIES-REFERENCE-V1.png",
+          "id": "REXX-WARDROBE-V1",
+          "title": "Corduroy snapback rear / cuffed classic Dickies",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s24-owner-rejected-2026-09-13\\S24-START-TAN-LOCK-V2.png",
+          "id": "S24-START-TAN-LOCK-V2",
+          "title": "Rejected walk-to-Apu still — wrong Rexx reference",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v73\\S24-V78-START-FRONT-REFLECTION.png",
+          "id": "S24-V78-START",
+          "title": "Start · original camera, front-facing paint reflections",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-14"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v73\\S24-V78-END-FRONT-REFLECTION.png",
+          "id": "S24-V78-END",
+          "title": "End · original camera, front-facing paint reflections",
+          "group": "archived",
+          "role": "end",
+          "approved": false,
+          "date": "2026-09-14"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../garage-through-apu-review/full-working-cut/S24-V78-WIDE-FIRST3-1080P24-PICTURE.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S27",
@@ -5526,7 +8102,7 @@
         "col": 0,
         "row": 0,
         "cols": 8,
-        "rows": 2,
+        "rows": 3,
         "shape": "land"
       },
       "stillDate": "2026-09-15",
@@ -5550,7 +8126,7 @@
             "col": 0,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5568,7 +8144,7 @@
             "col": 1,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5586,7 +8162,7 @@
             "col": 2,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5605,7 +8181,7 @@
             "col": 3,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5624,7 +8200,7 @@
             "col": 4,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5643,7 +8219,7 @@
             "col": 5,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5662,7 +8238,7 @@
             "col": 6,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5681,7 +8257,7 @@
             "col": 7,
             "row": 0,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
             "shape": "land"
           }
         },
@@ -5700,7 +8276,241 @@
             "col": 0,
             "row": 1,
             "cols": 8,
-            "rows": 2,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV029_s27-v74-apu-l1-3a05-full16x9-handles80ms.mp4",
+          "group": "pending",
+          "id": "INV029",
+          "title": "Lip-sync clip · INV029 · 2.375 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 Apu L1 3A05 FULL16X9 HANDLES80MS",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 1,
+            "row": 1,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV030_s27-v74-apu-l1-3a05-full16x9.mp4",
+          "group": "pending",
+          "id": "INV030",
+          "title": "Lip-sync clip · INV030 · 2.25 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 Apu L1 3A05 FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 2,
+            "row": 1,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV031_s27-v74-apu-l1-9dace-full16x9.mp4",
+          "group": "pending",
+          "id": "INV031",
+          "title": "Lip-sync clip · INV031 · 2.25 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 Apu L1 9DACE FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 3,
+            "row": 1,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV032_s27-v74-apu-l2-3a05-full16x9-handles80ms.mp4",
+          "group": "pending",
+          "id": "INV032",
+          "title": "Lip-sync clip · INV032 · 2 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 Apu L2 3A05 FULL16X9 HANDLES80MS",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 4,
+            "row": 1,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV033_s27-v74-apu-l2-3a05-full16x9.mp4",
+          "group": "pending",
+          "id": "INV033",
+          "title": "Lip-sync clip · INV033 · 1.833 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 Apu L2 3A05 FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 5,
+            "row": 1,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV034_s27-v74-apu-l3-3a05-full16x9-handles80ms.mp4",
+          "group": "pending",
+          "id": "INV034",
+          "title": "Lip-sync clip · INV034 · 1.625 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 Apu L3 3A05 FULL16X9 HANDLES80MS",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 6,
+            "row": 1,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV035_s27-v74-apu-l3-3a05-full16x9.mp4",
+          "group": "pending",
+          "id": "INV035",
+          "title": "Lip-sync clip · INV035 · 1.542 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 Apu L3 3A05 FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 7,
+            "row": 1,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV036_s27-v74-l1-native-higgs-return.mp4",
+          "group": "pending",
+          "id": "INV036",
+          "title": "Lip-sync clip · INV036 · 2.375 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 L1 NATIVE HIGGS RETURN",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 0,
+            "row": 2,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
+          "group": "pending",
+          "id": "INV037",
+          "title": "Lip-sync clip · INV037 · 2 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 L2 NATIVE HIGGS RETURN",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 1,
+            "row": 2,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV038_s27-v74-l3-native-higgs-return.mp4",
+          "group": "pending",
+          "id": "INV038",
+          "title": "Lip-sync clip · INV038 · 1.625 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S27 V74 L3 NATIVE HIGGS RETURN",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 2,
+            "row": 2,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV051_s27-start-rexx-upload-1129.mp4",
+          "group": "cut",
+          "id": "INV051",
+          "title": "Owner upload · INV051 · 2 s",
+          "role": "clip",
+          "approved": true,
+          "status": "S27 START rexx upload 1129",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 3,
+            "row": 2,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV052_s27-rexx-upload-1122.mp4",
+          "group": "cut",
+          "id": "INV052",
+          "title": "Owner upload · INV052 · 2.375 s",
+          "role": "clip",
+          "approved": true,
+          "status": "S27 rexx upload 1122",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 4,
+            "row": 2,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV053_s27-2-rexx-upload-1124.mp4",
+          "group": "cut",
+          "id": "INV053",
+          "title": "Owner upload · INV053 · 1.625 s",
+          "role": "clip",
+          "approved": true,
+          "status": "S27.2 rexx upload 1124",
+          "img": {
+            "sheet": "sheets/scene-S27.jpg",
+            "col": 5,
+            "row": 2,
+            "cols": 8,
+            "rows": 3,
             "shape": "land"
           }
         }
@@ -5773,7 +8583,256 @@
         "Firebird (car)"
       ],
       "set": "Apu's car",
-      "angle": "driver window"
+      "angle": "driver window",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-start-V74.jpg",
+          "id": "S27-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-start-V27.jpg",
+          "id": "current-frames/S27-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-end-V27.jpg",
+          "id": "current-frames/S27-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S27-START-V6.png",
+          "id": "S27-CHARACTER-START-ROUND2",
+          "title": "S27 · rebuilt scene start V6",
+          "group": "archived",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S01.jpg",
+          "id": "REXX-STAIRS-LOCK",
+          "title": "Rexx body reference · stairs",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\opening-review\\COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-LOCK",
+          "title": "Rexx appearance reference · coffee",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\S24-END-CONTINUITY.png",
+          "id": "S27-01",
+          "title": "Rear view / full invitation conversation",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v73\\S27-V78-OVER-REXX-SHOULDER-SPLAT-NATIVE.png",
+          "id": "S27-V78-OTS",
+          "title": "Over Rexx shoulder · Apu and Homer at the car",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-14"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV029.jpg",
+          "id": "INV029",
+          "title": "Lip-sync clip · INV029 · 2.375 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV030.jpg",
+          "id": "INV030",
+          "title": "Lip-sync clip · INV030 · 2.25 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV031.jpg",
+          "id": "INV031",
+          "title": "Lip-sync clip · INV031 · 2.25 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV032.jpg",
+          "id": "INV032",
+          "title": "Lip-sync clip · INV032 · 2 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV033.jpg",
+          "id": "INV033",
+          "title": "Lip-sync clip · INV033 · 1.833 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV034.jpg",
+          "id": "INV034",
+          "title": "Lip-sync clip · INV034 · 1.625 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV035.jpg",
+          "id": "INV035",
+          "title": "Lip-sync clip · INV035 · 1.542 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV036.jpg",
+          "id": "INV036",
+          "title": "Lip-sync clip · INV036 · 2.375 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV037.jpg",
+          "id": "INV037",
+          "title": "Lip-sync clip · INV037 · 2 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV038.jpg",
+          "id": "INV038",
+          "title": "Lip-sync clip · INV038 · 1.625 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV051.jpg",
+          "id": "INV051",
+          "title": "Owner upload · INV051 · 2 s",
+          "group": "cut",
+          "role": "clip",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV052.jpg",
+          "id": "INV052",
+          "title": "Owner upload · INV052 · 2.375 s",
+          "group": "cut",
+          "role": "clip",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV053.jpg",
+          "id": "INV053",
+          "title": "Owner upload · INV053 · 1.625 s",
+          "group": "cut",
+          "role": "clip",
+          "approved": true,
+          "date": "2026-09-15"
+        }
+      ],
+      "_audioSrc": [
+        {
+          "id": "AUD006",
+          "title": "S27 V74 Apu L1 APPROVED DIALOGUE",
+          "seconds": 2.219
+        },
+        {
+          "id": "AUD007",
+          "title": "S27 V74 Apu L1 APU DRIVER",
+          "seconds": 2.219
+        },
+        {
+          "id": "AUD008",
+          "title": "S27 V74 Apu L2 APPROVED DIALOGUE",
+          "seconds": 1.841
+        },
+        {
+          "id": "AUD009",
+          "title": "S27 V74 Apu L2 APU DRIVER",
+          "seconds": 1.841
+        },
+        {
+          "id": "AUD010",
+          "title": "S27 V74 Apu L3 APPROVED DIALOGUE",
+          "seconds": 1.545
+        },
+        {
+          "id": "AUD011",
+          "title": "S27 V74 Apu L3 APU DRIVER",
+          "seconds": 1.545
+        },
+        {
+          "id": "AUD012",
+          "title": "S27 V74 L1 RETURN AUDIO",
+          "seconds": 2.392
+        },
+        {
+          "id": "AUD013",
+          "title": "S27 V74 L2 RETURN AUDIO",
+          "seconds": 2.02
+        }
+      ],
+      "_fullVideo": "../worker-finishing-v73/S27-V73-APU-MOUTH-RESTORED-PICTURE-ONLY-FRAMES-72-269-3P0-11P25.mp4",
+      "_audioTracks": [
+        {
+          "src": "../apu-arrival-review/S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+          "label": "APPROVED · full Apu / Rexx conversation · emotion tags retained"
+        }
+      ]
     },
     {
       "id": "S28",
@@ -5922,7 +8981,66 @@
         "Firebird (car)"
       ],
       "set": "Apu's car",
-      "angle": "passenger seat"
+      "angle": "passenger seat",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-start-V74.jpg",
+          "id": "S28-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-start-V27.jpg",
+          "id": "current-frames/S28-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-end-V27.jpg",
+          "id": "current-frames/S28-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S28-START-V6.png",
+          "id": "S28-CHARACTER-START-ROUND2",
+          "title": "S28 · rebuilt scene start V6",
+          "group": "pending",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\S28-APU-EYELINE-REFINED-V7.png",
+          "id": "S28-V7",
+          "title": "Approved refined passenger POV reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../apu-arrival-review/S28-REFINED-V7-REXX-AUDIO.mp4",
+      "_audioTracks": []
     },
     {
       "id": "S29",
@@ -5937,8 +9055,8 @@
         "sheet": "sheets/scene-S29.jpg",
         "col": 0,
         "row": 0,
-        "cols": 6,
-        "rows": 1,
+        "cols": 8,
+        "rows": 2,
         "shape": "land"
       },
       "stillDate": "2026-09-15",
@@ -5961,8 +9079,8 @@
             "sheet": "sheets/scene-S29.jpg",
             "col": 0,
             "row": 0,
-            "cols": 6,
-            "rows": 1,
+            "cols": 8,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -5979,8 +9097,8 @@
             "sheet": "sheets/scene-S29.jpg",
             "col": 1,
             "row": 0,
-            "cols": 6,
-            "rows": 1,
+            "cols": 8,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -5997,8 +9115,8 @@
             "sheet": "sheets/scene-S29.jpg",
             "col": 2,
             "row": 0,
-            "cols": 6,
-            "rows": 1,
+            "cols": 8,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -6016,8 +9134,8 @@
             "sheet": "sheets/scene-S29.jpg",
             "col": 3,
             "row": 0,
-            "cols": 6,
-            "rows": 1,
+            "cols": 8,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -6035,8 +9153,8 @@
             "sheet": "sheets/scene-S29.jpg",
             "col": 4,
             "row": 0,
-            "cols": 6,
-            "rows": 1,
+            "cols": 8,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -6054,8 +9172,134 @@
             "sheet": "sheets/scene-S29.jpg",
             "col": 5,
             "row": 0,
-            "cols": 6,
-            "rows": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV039_s29-v74-apu-l1-5f38-native-full16x9.mp4",
+          "group": "pending",
+          "id": "INV039",
+          "title": "Lip-sync clip · INV039 · 1.875 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S29 V74 Apu L1 5F38 NATIVE FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S29.jpg",
+            "col": 6,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV040_s29-v74-apu-l2-5f38-native-full16x9.mp4",
+          "group": "pending",
+          "id": "INV040",
+          "title": "Lip-sync clip · INV040 · 2.333 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S29 V74 Apu L2 5F38 NATIVE FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S29.jpg",
+            "col": 7,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV041_s29-v74-homer-blood-5f38-native-full16x9.mp4",
+          "group": "pending",
+          "id": "INV041",
+          "title": "Lip-sync clip · INV041 · 1.125 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S29 V74 Homer Blood 5F38 NATIVE FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S29.jpg",
+            "col": 0,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+          "group": "pending",
+          "id": "INV042",
+          "title": "Lip-sync clip · INV042 · 0.875 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S29 V74 Homer WhatDoYouMean 5F38 NATIVE FULL16X9",
+          "img": {
+            "sheet": "sheets/scene-S29.jpg",
+            "col": 1,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
+          "group": "pending",
+          "id": "INV043",
+          "title": "Lip-sync clip · INV043 · 1.875 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S29 V74 L1 NATIVE HIGGS RETURN",
+          "img": {
+            "sheet": "sheets/scene-S29.jpg",
+            "col": 2,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV044_s29-v74-l2-native-higgs-return.mp4",
+          "group": "pending",
+          "id": "INV044",
+          "title": "Lip-sync clip · INV044 · 2.333 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S29 V74 L2 NATIVE HIGGS RETURN",
+          "img": {
+            "sheet": "sheets/scene-S29.jpg",
+            "col": 3,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+          "group": "pending",
+          "id": "INV050",
+          "title": "Lip-sync clip · INV050 · 1 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S29 BLOOD LIPSYNC 0E15B23B RAW",
+          "img": {
+            "sheet": "sheets/scene-S29.jpg",
+            "col": 4,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
             "shape": "land"
           }
         }
@@ -6071,7 +9315,134 @@
         "Firebird (car)"
       ],
       "set": "Apu's car",
-      "angle": "fist bump"
+      "angle": "fist bump",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-start-V74.jpg",
+          "id": "S29-current",
+          "title": "Current still · from V74",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-start-V27.jpg",
+          "id": "current-frames/S29-start-V27.jpg",
+          "title": "Current cut · start frame",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-end-V27.jpg",
+          "id": "current-frames/S29-end-V27.jpg",
+          "title": "Current cut · end frame",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
+          "id": "HOMER-HAIR-LOCK",
+          "title": "Approved Homer · head and curled hair",
+          "group": "approved",
+          "role": "reference",
+          "approved": true,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v6\\S29-START-V6.png",
+          "id": "S29-CHARACTER-START-ROUND2",
+          "title": "S29 · rebuilt scene start V6",
+          "group": "pending",
+          "role": "start",
+          "approved": false,
+          "date": "2026-09-12"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\S29-APU-FIST-BUMP-REFINED-V7.png",
+          "id": "S29-V7",
+          "title": "Approved refined passenger POV reference",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV039.jpg",
+          "id": "INV039",
+          "title": "Lip-sync clip · INV039 · 1.875 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV040.jpg",
+          "id": "INV040",
+          "title": "Lip-sync clip · INV040 · 2.333 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV041.jpg",
+          "id": "INV041",
+          "title": "Lip-sync clip · INV041 · 1.125 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV042.jpg",
+          "id": "INV042",
+          "title": "Lip-sync clip · INV042 · 0.875 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV043.jpg",
+          "id": "INV043",
+          "title": "Lip-sync clip · INV043 · 1.875 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV044.jpg",
+          "id": "INV044",
+          "title": "Lip-sync clip · INV044 · 2.333 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV050.jpg",
+          "id": "INV050",
+          "title": "Lip-sync clip · INV050 · 1 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": "../apu-arrival-review/S29-V8-NATURAL-VOICE-TIMING.mp4",
+      "_audioTracks": [
+        {
+          "src": "../apu-arrival-review/S29-V8-NATURAL-VOICE-TIMING.mp4",
+          "label": "Accepted complete dialogue at natural speed"
+        }
+      ]
     },
     {
       "id": "S29A",
@@ -6096,7 +9467,11 @@
       ],
       "props": [],
       "set": "Road",
-      "angle": "passenger window"
+      "angle": "passenger window",
+      "_src": [],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S29B",
@@ -6121,7 +9496,11 @@
       ],
       "props": [],
       "set": "Road",
-      "angle": "bus stop"
+      "angle": "bus stop",
+      "_src": [],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S30",
@@ -6147,7 +9526,11 @@
         "Happy Gas tank"
       ],
       "set": "Apu's car",
-      "angle": "interior"
+      "angle": "interior",
+      "_src": [],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S31",
@@ -6173,7 +9556,11 @@
         "Happy Gas tank"
       ],
       "set": "Apu's car",
-      "angle": "interior"
+      "angle": "interior",
+      "_src": [],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S32",
@@ -6199,7 +9586,11 @@
         "Happy Gas tank"
       ],
       "set": "Apu's car",
-      "angle": "passenger window"
+      "angle": "passenger window",
+      "_src": [],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S33",
@@ -6268,7 +9659,30 @@
       ],
       "props": [],
       "set": "Vintage Mart",
-      "angle": "storefront"
+      "angle": "storefront",
+      "_src": [
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S33.png",
+          "id": "S33-current",
+          "title": "Current still",
+          "group": "current",
+          "role": "current",
+          "approved": true,
+          "date": "2026-09-11"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\S33.png",
+          "id": "S33-01",
+          "title": "Vintage Mart storefront",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-11"
+        }
+      ],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S34",
@@ -6292,7 +9706,11 @@
       ],
       "props": [],
       "set": "Vintage Mart",
-      "angle": "arrival"
+      "angle": "arrival",
+      "_src": [],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     },
     {
       "id": "S35",
@@ -6316,7 +9734,11 @@
       ],
       "props": [],
       "set": "Vintage Mart",
-      "angle": "interior racks"
+      "angle": "interior racks",
+      "_src": [],
+      "_audioSrc": [],
+      "_fullVideo": null,
+      "_audioTracks": []
     }
   ],
   "characters": [
