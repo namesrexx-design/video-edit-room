@@ -55,7 +55,7 @@
   <header>
     <div>
       <h1>Garage Dream · Cut Room</h1>
-      <p class="sub" id="sub">Scenes from Codex's storyboard, footage from V74. Tap a scene to select it. Drag to move it. Nothing is ever deleted.</p>
+      <p class="sub" id="sub">Every frame of V74 is here, in storyboard order. Tap a scene to select it. Drag to move it. Nothing is ever deleted.</p>
     </div>
     <button id="undo" title="Undo">↶ Undo</button>
   </header>
@@ -89,13 +89,13 @@
     <div class="actions"><button id="trimReset">Full length</button><button class="primary" id="trimDone">Done</button></div>
   </div>
 
-  <h2>Scenes not in the cut</h2>
-  <p class="hint">Tap one, then <b>Put in cut</b>. It goes in right after the selected scene.</p>
+  <h2>Scenes taken out</h2>
+  <p class="hint">Anything you take out lands here. Tap one, then <b>Put in cut</b> to bring it back after the selected scene.</p>
   <div class="actions"><button class="primary" id="unpark">⬆ Put in cut</button><button id="preview">▶ Preview it</button></div>
   <div class="strip" id="bin"></div>
 
-  <h2>Storyboard scenes not built yet</h2>
-  <p class="hint">From Codex's storyboard. No footage exists for these yet, so they can't go in the cut.</p>
+  <h2>Storyboard scenes that are not in V74</h2>
+  <p class="hint">Why the numbers skip. S11, S12, S13 and S15 were folded into the rebuilt garage scenes; S20 to S22 were cut when you chose Bart skating straight into Apu's horn. S29A onward is not built yet.</p>
   <div class="strip" id="todo"></div>
 
   <div class="panel" id="fallback" hidden>
@@ -123,19 +123,12 @@ const CLIPS = [
   ['05','05_S05_homer-asks-for-help.mp4','Homer asks for help',171,0],
   ['06','06_S06_waymo-boarding.mp4','Boards the Waymo',140,0],
   ['07','07_S07_waymo-ride-and-exit.mp4','Waymo ride and exit',114,0],
-  ['08','08_S08_walk-up-driveway_ADD-BACK-FROM-V36.mp4','Walk up the driveway',96,1],
   ['09','09_S09_driveway-conversation.mp4','Driveway talk',120,0],
   ['10','10_S10_garage-reveal.mp4','Garage reveal',253,0],
-  ['11','11_S11_homer-a-bugatti_ADD-BACK-FROM-V36.mp4','“A Bugatti?”',62,1],
-  ['12','12_S12_photograph-items-shared-folder_ADD-BACK-FROM-V36.mp4','Photograph the items',117,1],
-  ['13','13_S13_explain-autopilot_ADD-BACK-FROM-V36.mp4','Explain Autopilot',164,1],
-  ['14','14_S15_photos-numbered-boxes-live-shopping_ADD-BACK-FROM-V36.mp4','Photos, numbered boxes',61,1],
   ['15','15_S14-S16_recliner-bugatti-question-doze-off.mp4','Recliner, Bugatti question, dozes off',325,0],
   ['16','16_S17_pch-sunset-dream.mp4','PCH sunset dream',72,0],
   ['17','17_S18_mosquito-wake-up.mp4','Mosquito, wake up',326,0],
   ['18','18_S19_bart-skates-off.mp4','Bart skates off',72,0],
-  ['19','19_S20_homer-slingshot-accusation_ADD-BACK-FROM-V36.mp4','Slingshot accusation',96,1],
-  ['20','20_S21_rexx-it-was-that-kid-whose-kid_ADD-BACK-FROM-V36.mp4','“It was that kid.” “Whose kid?”',149,1],
   ['21','21_S23_apu-horn-greeting.mp4','Apu honks, hello',90,0],
   ['22','22_S24_walk-to-car.mp4','Walk to the car',72,0],
   ['23','23_S27_vintage-mart-invitation.mp4','Vintage Mart invitation',350,0],
@@ -168,7 +161,7 @@ function card(c, i, inCut){
 function renderTodo(){
   const built = new Set(CLIPS.flatMap(c => c.scenes));
   const todo = Object.values(STORY).filter(s => !built.has(s.id));
-  $('todo').replaceChildren(...todo.map(s => { const el = document.createElement('div'); el.className = 'card todo'; el.innerHTML = `<img src="thumbs/${s.id === 'S33' ? 'S33.jpg' : 'blank.jpg'}" alt=""><span class="num">${s.id}</span><div class="t">${s.title}</div><div class="line">${s.line}</div><div class="d">not built yet</div>`; return el; }));
+  $('todo').replaceChildren(...todo.map(s => { const el = document.createElement('div'); el.className = 'card todo'; el.innerHTML = `<img src="thumbs/${s.id === 'S33' ? 'S33.jpg' : 'blank.jpg'}" alt=""><span class="num">${s.id}</span><div class="t">${s.title}</div><div class="line">${s.status ? s.status.replace(/s+/g,' ').slice(0,110) : s.line}</div><div class="d">${/omitted|not inserted/i.test(s.status) ? 'left out of V74' : 'not built yet'}</div>`; return el; }));
 }
 function render(){
   const cutEl = $('cut'); cutEl.replaceChildren(...cut.map((c,i) => card(c,i,true)));
@@ -265,6 +258,8 @@ $('save').onclick = async () => {
   try { const r = await fetch('cuts/latest.json', { cache:'no-store' }); if (r.ok) { const d = await r.json(); s = { cut:d.cut.map(c => ({ id:c.id, start:c.start, end:c.end })), bin:d.parked.map(p => p.id) }; $('stat').textContent = `Loaded the cut saved ${new Date(d.savedAt).toLocaleString()}`; } } catch(e){}
   if (!s) { try { const d = localStorage.getItem('gd-cut-draft'); if (d) { s = JSON.parse(d); $('stat').textContent = 'Unsaved draft from this phone'; } } catch(e){} }
   if (!s || !Array.isArray(s.cut)) s = defaultState();
+  // clips that are no longer part of this page (the retired V36 scenes) are dropped silently
+  s.cut = s.cut.filter(c => byId[c.id]); s.bin = (s.bin || []).filter(id => byId[id]);
   // any clip missing from both lists gets parked so nothing can vanish
   const seen = new Set([...s.cut.map(c => c.id), ...s.bin]); for (const c of CLIPS) if (!seen.has(c.id)) s.bin.push(c.id);
   cut = s.cut; bin = s.bin; sel = 0; render(); showFrame(cut[0]?.id ?? CLIPS[0].id, cut[0]?.start ?? 0);
