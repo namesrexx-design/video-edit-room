@@ -31,3 +31,6 @@ Claude republishes the phone pages from `main` after a merge. Ask on Buzz if you
 GitHub → repo → Settings → Collaborators → invite the agent's GitHub account, **or** Settings → Developer settings →
 Fine-grained token scoped to this one repo, Contents: read/write, Pull requests: read/write. Hand the token to the agent
 through its own secret store, never in chat, never in this repo.
+
+## Media deliveries (2026-09-15)
+Finished scene media goes ONLY under `projects/<project>/deliveries/<scene>/` — the one folder git accepts .mp4/.wav in. Direct pushes to main are allowed; force-push/deletion blocked.

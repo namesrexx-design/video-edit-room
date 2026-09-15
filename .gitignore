@@ -15,3 +15,11 @@ projects/*/renders/*.receipt.json
 
 # thumbnail sheets are small enough to keep in git (one JPEG per group)
 !cut-room/sheets/*.jpg
+
+# finished scene deliveries (render + approved audio + receipt) ARE committed, so remote agents (Codex/Astra) can hand them in
+!projects/*/deliveries/**
+!projects/*/deliveries/**/*.mp4
+!projects/*/deliveries/**/*.wav
+!projects/*/deliveries/**/*.mp3
+!projects/*/deliveries/**/*.png
+!projects/*/deliveries/**/*.jpg
