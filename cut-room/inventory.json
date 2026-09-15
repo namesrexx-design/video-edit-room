@@ -449,6 +449,33 @@
    "group": "lipsync",
    "model": "lipsync",
    "at": "2026-09-13"
+  },
+  {
+   "id": "INV051",
+   "file": "INV051_s27-start-rexx-upload-1129.mp4",
+   "title": "S27 START rexx upload 1129",
+   "frames": 48,
+   "group": "owner",
+   "model": "rexx-upload",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV052",
+   "file": "INV052_s27-rexx-upload-1122.mp4",
+   "title": "S27 rexx upload 1122",
+   "frames": 57,
+   "group": "owner",
+   "model": "rexx-upload",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV053",
+   "file": "INV053_s27-2-rexx-upload-1124.mp4",
+   "title": "S27.2 rexx upload 1124",
+   "frames": 39,
+   "group": "owner",
+   "model": "rexx-upload",
+   "at": "2026-09-15"
   }
  ]
 }

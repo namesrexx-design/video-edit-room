@@ -1,6 +1,6 @@
 {
   "note": "Conformed 1080p24 copies of the recent Higgsfield videos + V74 lip-sync videos. Sources untouched.",
-  "builtAt": "2026-09-15T06:19:13.680Z",
+  "builtAt": "2026-09-15T18:41:17.467Z",
   "clips": [
     {
       "id": "INV001",
@@ -750,6 +750,51 @@
       "at": "2026-09-13",
       "title": "S29 BLOOD LIPSYNC 0E15B23B RAW",
       "sourceSize": "1120x860@24/1",
+      "sourceHadAudio": true
+    },
+    {
+      "id": "INV051",
+      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV051_s27-start-rexx-upload-1129.mp4",
+      "source": "G:/My Drive/00_PROJECTS/AUTOPILOT/Video 04 - Garage Dream - IN PRODUCTION/EDIT_ROOM/INCOMING_FROM_REXX/2026-09-15/S27-START-rexx-upload-1129.mp4",
+      "sha256": "422F43F0FBE9A361B78164C708464B17D55635774BE06EAE0CF3ECD4CFF1482F",
+      "frames": 48,
+      "seconds": 2,
+      "group": "owner",
+      "model": "rexx-upload",
+      "at": "2026-09-15",
+      "title": "S27 START rexx upload 1129",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": true
+    },
+    {
+      "id": "INV052",
+      "file": "INV052_s27-rexx-upload-1122.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV052_s27-rexx-upload-1122.mp4",
+      "source": "G:/My Drive/00_PROJECTS/AUTOPILOT/Video 04 - Garage Dream - IN PRODUCTION/EDIT_ROOM/INCOMING_FROM_REXX/2026-09-15/S27-rexx-upload-1122.mp4",
+      "sha256": "755659860AF6460B844FC2EF41635BE32953A0FA6B9EBBEAD4C53E7EF69EE052",
+      "frames": 57,
+      "seconds": 2.375,
+      "group": "owner",
+      "model": "rexx-upload",
+      "at": "2026-09-15",
+      "title": "S27 rexx upload 1122",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": true
+    },
+    {
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV053_s27-2-rexx-upload-1124.mp4",
+      "source": "G:/My Drive/00_PROJECTS/AUTOPILOT/Video 04 - Garage Dream - IN PRODUCTION/EDIT_ROOM/INCOMING_FROM_REXX/2026-09-15/S27.2-rexx-upload-1124.mp4",
+      "sha256": "EA28B37686A1D092AEF49165FBFDB326B47565674F770B66CBCE11DEFD26F24A",
+      "frames": 39,
+      "seconds": 1.625,
+      "group": "owner",
+      "model": "rexx-upload",
+      "at": "2026-09-15",
+      "title": "S27.2 rexx upload 1124",
+      "sourceSize": "1920x1080@24/1",
       "sourceHadAudio": true
     }
   ]

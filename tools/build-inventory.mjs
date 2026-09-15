@@ -29,6 +29,10 @@ for (const r of higgs.filter(r => r.at >= '2026-09-14' && !/massage|studio/i.tes
 for (const f of fs.readdirSync(CODEX + '/worker-lipsync-v74').filter(x => x.endsWith('.mp4')).sort()) sources.push({ group: 'lipsync', model: 'lipsync-v74', at: '2026-09-14', title: f.replace(/\.mp4$/, '').replace(/-/g, ' '), src: `${CODEX}/worker-lipsync-v74/${f}` });
 for (const f of fs.readdirSync(FWC).filter(x => /LIPSYNC/i.test(x) && x.endsWith('.mp4') && !/^GARAGE-DREAM-V/.test(x)).sort()) sources.push({ group: 'lipsync', model: 'lipsync', at: '2026-09-13', title: f.replace(/\.mp4$/, '').replace(/-/g, ' '), src: `${FWC}/${f}` });
 
+// Owner uploads (Rexx drops files in the Drive root; they are copied, never moved, into INCOMING_FROM_REXX/<date>).
+const OWNER_IN = 'G:/My Drive/00_PROJECTS/AUTOPILOT/Video 04 - Garage Dream - IN PRODUCTION/EDIT_ROOM/INCOMING_FROM_REXX';
+if (fs.existsSync(OWNER_IN)) for (const d of fs.readdirSync(OWNER_IN).sort()) for (const f of fs.readdirSync(`${OWNER_IN}/${d}`).filter(x => x.endsWith('.mp4')).sort()) sources.push({ group: 'owner', model: 'rexx-upload', at: d, title: f.replace(/.mp4$/, '').replace(/-/g, ' '), src: `${OWNER_IN}/${d}/${f}` });
+
 const manifest = []; let i = 0;
 for (const s of sources) {
   i++; const id = 'INV' + String(i).padStart(3, '0'); const name = `${id}_${slug(path.basename(s.src, '.mp4'))}.mp4`; const dest = `${OUT}/${name}`;
