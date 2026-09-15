@@ -86,3 +86,32 @@ for (const p of plan) {
 const receipt = { mode: WRITE ? 'write' : 'dry-run', at: new Date().toISOString(), files: plan.length, copied, skippedAlreadyThere: skipped, generatedTextFiles: written, megabytes: +(bytes / 1e6).toFixed(1), perScene, sources: ['board-sources.json (build-board)', 'storyboard.json', 'cuts/V74.json', 'INVENTORY-MANIFEST.json', 'AUDIO-MANIFEST.json'] };
 if (WRITE) fs.writeFileSync(`${ROOT}/00_FILL-RECEIPT.json`, JSON.stringify(receipt, null, 2));
 console.log(JSON.stringify(receipt, null, 1));
+
+// ---- characters (not Rexx: his gallery is being rebuilt and lives in 01_REXX_CHARACTER_WARDROBE), sets, props.
+// Same rule as the board: approved = CURRENT, everything else = ARCHIVE. Owner ask 2026-09-15.
+{
+  const plan2 = [];
+  const add2 = (from, to) => { if (from && fs.existsSync(from)) plan2.push({ from, to }); };
+  const CH = `${ROOT}/../09_CHARACTERS__HOMER_APU_BART`, ST = `${ROOT}/../10_SETS__LOCATIONS_AND_ANGLES`, PR = `${ROOT}/../11_PROPS__MOVED_TOUCHED_MOVING`;
+  for (const c of src.characters || []) {
+    if (/^(rexx|other)$/i.test(c.name) || !c.refs?.length) continue;   // Rexx: being rebuilt; Other: not a character
+    const nm = safe(c.name).replace(/\s+/g, '_').toUpperCase();
+    for (const r of c.refs.filter(x => x.src)) add2(r.src, `${CH}/${nm}/${r.approved ? 'CURRENT' : 'ARCHIVE'}/${nm}__${r.approved ? 'APPROVED' : 'ARCHIVED'}__${safe(r.id)}__${path.basename(r.src)}`);
+  }
+  for (const s of src.sets || []) {
+    const nm = safe(s.name).replace(/\s+/g, '_').toUpperCase();
+    (s.current || []).filter(x => x.src).forEach((t, i) => add2(t.src, `${ST}/${nm}/CURRENT/${String(i + 1).padStart(2, '0')}__${nm}__${safe(t.scene || t.angle || t.id)}__${path.basename(t.src)}`));
+    for (const t of (s.archive || []).filter(x => x.src)) add2(t.src, `${ST}/${nm}/ARCHIVE/${nm}__ARCHIVED__${path.basename(t.src)}`);
+  }
+  for (const t of (src.props || []).filter(x => x.src)) add2(t.src, `${PR}/${t.approved ? 'CURRENT' : 'ARCHIVE'}/${safe(t.title).replace(/\s+/g, '_')}__${t.approved ? 'APPROVED' : 'ARCHIVED'}__${path.basename(t.src)}`);
+  let copied2 = 0, skipped2 = 0, bytes2 = 0; const per = {};
+  for (const p of plan2) {
+    const key = p.to.split('/').slice(-3, -1).join('/'); per[key] = (per[key] || 0) + 1;
+    if (fs.existsSync(p.to) && fs.statSync(p.to).size === fs.statSync(p.from).size) { skipped2++; continue; }
+    if (WRITE) { fs.mkdirSync(path.dirname(p.to), { recursive: true }); fs.copyFileSync(p.from, p.to, fs.constants.COPYFILE_EXCL); }
+    copied2++; bytes2 += fs.statSync(p.from).size;
+  }
+  const r2 = { mode: WRITE ? 'write' : 'dry-run', at: new Date().toISOString(), files: plan2.length, copied: copied2, skippedAlreadyThere: skipped2, megabytes: +(bytes2 / 1e6).toFixed(1), perFolder: per };
+  if (WRITE) fs.writeFileSync(`${ROOT}/../00_FILL-RECEIPT-CHARACTERS-SETS-PROPS.json`, JSON.stringify(r2, null, 2));
+  console.log('characters/sets/props:', JSON.stringify(r2, null, 1));
+}
