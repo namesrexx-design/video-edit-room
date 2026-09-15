@@ -1,7 +1,7 @@
 # Cut Room (browser editor, v2)
 
 The CapCut-style page: play the cut, drag scenes, trim, park, save.
-Live copy: https://claude.ai/artifact/6uQh9o2LcpjCorpXKfEi7e (private; share from the page's Share menu).
+Live copies (private; share from the page Share menu): Cut Room https://claude.ai/artifact/6uQh9o2LcpjCorpXKfEi7e · Storyboard https://claude.ai/artifact/WPuCorxXtMZnNmvXbiLGTq
 
 - `index.html` — the page. Scene names and lines come from Codex's storyboard (`story.json`).
 - `story.json` — extracted from `scene-board/storyboard.json` (id, title, line, status).
