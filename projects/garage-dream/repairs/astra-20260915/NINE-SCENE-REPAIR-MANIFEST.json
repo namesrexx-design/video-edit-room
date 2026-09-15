@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "scope_revision": "2026-09-15-nine-scene-storyboard-first",
+  "scenes": [
+    {
+      "id": "S08",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S09",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S11",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S12",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S13",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S15",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S20",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S21",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    },
+    {
+      "id": "S22",
+      "action": "complete_scene_repair",
+      "state": "pending_asset_matching_and_integration"
+    }
+  ],
+  "restored_to_scope": [
+    "S11",
+    "S12",
+    "S13",
+    "S15"
+  ],
+  "completion_requirements": [
+    "full_clip",
+    "approved_dialogue",
+    "visible_mouth_lip_sync",
+    "rear_facing_rexx_continuity",
+    "matching_adjacent_frames",
+    "sound_qc",
+    "source_and_output_receipts"
+  ],
+  "live_storyboard_updated": false,
+  "new_paid_jobs_submitted": false
+}
