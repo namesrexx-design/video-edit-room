@@ -2,7 +2,7 @@
  "format": 3,
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-15T23:13:01.036Z",
+ "builtAt": "2026-09-15T23:21:58.355Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -10043,6 +10043,7 @@
     "skinTone": "Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am.",
     "shirt": "Plain black tee, baggier and slightly longer than previous reference."
    },
+   "noApproved": false,
    "current": [
     {
      "date": "2026-09-15",
@@ -10378,6 +10379,7 @@
     "status": "Established project voice; selected and verified in ElevenLabs UI"
    },
    "continuity": {},
+   "noApproved": false,
    "current": [
     {
      "date": "2026-09-12",
@@ -10394,8 +10396,8 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 1,
       "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "cols": 8,
+      "rows": 4,
       "shape": "port"
      }
     },
@@ -10414,8 +10416,8 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 1,
       "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "cols": 8,
+      "rows": 4,
       "shape": "port"
      }
     },
@@ -10434,8 +10436,8 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 2,
       "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "cols": 8,
+      "rows": 4,
       "shape": "port"
      }
     },
@@ -10454,8 +10456,8 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 1,
       "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "cols": 8,
+      "rows": 4,
       "shape": "port"
      }
     }
@@ -10476,8 +10478,8 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 0,
       "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "cols": 8,
+      "rows": 4,
       "shape": "port"
      }
     },
@@ -10495,8 +10497,540 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 3,
       "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-DREAM-BLACK-SUIT-transport.jpg",
+     "id": "PACK-HOMER-DREAM-BLACK-SUIT-TRANSPORT",
+     "title": "Homer · HOMER DREAM BLACK SUIT transport",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "dream look",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 4,
+      "row": 0,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-HEAD-APPROVED-transport.jpg",
+     "id": "PACK-HOMER-HEAD-APPROVED-TRANSPORT",
+     "title": "Homer · HOMER HEAD APPROVED transport",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "head",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 5,
+      "row": 0,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-REACTION-START-V1-8K-UPSCALED.jpg",
+     "id": "PACK-HOMER-REACTION-START-V1-8K-UPSCALED",
+     "title": "Homer · HOMER REACTION START V1 8K UPSCALED",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 6,
+      "row": 0,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-REACTION-START-V1.png",
+     "id": "PACK-HOMER-REACTION-START-V1",
+     "title": "Homer · HOMER REACTION START V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 7,
+      "row": 0,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-REACTION-START-V3-S29-MARK-8K-UPSCALED.jpg",
+     "id": "PACK-HOMER-REACTION-START-V3-S29-MARK-8K-UPSCALED",
+     "title": "Homer · HOMER REACTION START V3 S29 MARK 8K UPSCALED",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 0,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-REACTION-START-V3-S29-MARK.png",
+     "id": "PACK-HOMER-REACTION-START-V3-S29-MARK",
+     "title": "Homer · HOMER REACTION START V3 S29 MARK",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 1,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-REACTION-V2-BROAD-SPLAT-SUPERSEDED.png",
+     "id": "PACK-HOMER-REACTION-V2-BROAD-SPLAT-SUPERSEDED",
+     "title": "Homer · HOMER REACTION V2 BROAD SPLAT SUPERSEDED",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 2,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-HEAD-SECONDARY.jpg",
+     "id": "PACK-HOMER-HEAD-SECONDARY",
+     "title": "Homer · HOMER HEAD SECONDARY",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "head",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 3,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-DREAM-BLACK-SUIT-V1-TRANSPORT-RGB.jpg",
+     "id": "PACK-HOMER-DREAM-BLACK-SUIT-V1-TRANSPORT-RGB",
+     "title": "Homer · HOMER DREAM BLACK SUIT V1 TRANSPORT RGB",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "dream look",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 4,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-HEAD-APPROVED-V1-TRANSPORT-RGB.jpg",
+     "id": "PACK-HOMER-HEAD-APPROVED-V1-TRANSPORT-RGB",
+     "title": "Homer · HOMER HEAD APPROVED V1 TRANSPORT RGB",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "head",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 5,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-RECLINER-TIGHT-START-V1-8K-UPSCALED.jpg",
+     "id": "PACK-HOMER-RECLINER-TIGHT-START-V1-8K-UPSCALED",
+     "title": "Homer · HOMER RECLINER TIGHT START V1 8K UPSCALED",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 6,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-BUGATTI-QUESTION-LIPSYNC-INPUT-V51.jpg",
+     "id": "PACK-HOMER-BUGATTI-QUESTION-LIPSYNC-INPUT-V51",
+     "title": "Homer · HOMER BUGATTI QUESTION LIPSYNC INPUT V51",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 7,
+      "row": 1,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-RECLINER-TIGHT-START-V1.png",
+     "id": "PACK-HOMER-RECLINER-TIGHT-START-V1",
+     "title": "Homer · HOMER RECLINER TIGHT START V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 0,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-TIGHT-FRAMING-REVIEW.jpg",
+     "id": "PACK-HOMER-TIGHT-FRAMING-REVIEW",
+     "title": "Homer · HOMER TIGHT FRAMING REVIEW",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 1,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-HEAD-APPROVED-V1.jpg",
+     "id": "PACK-HOMER-HEAD-APPROVED-V1",
+     "title": "Homer · HOMER HEAD APPROVED V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "head",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 2,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-13",
+     "file": "HOMER-HEAD-APPROVED-V1-ATTACH.jpg",
+     "id": "PACK-HOMER-HEAD-APPROVED-V1-ATTACH",
+     "title": "Homer · HOMER HEAD APPROVED V1 ATTACH",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "head",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 3,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-HEAD-APPROVED-V1-LOSSLESS-REENCODE.png",
+     "id": "PACK-HOMER-HEAD-APPROVED-V1-LOSSLESS-REENCODE",
+     "title": "Homer · HOMER HEAD APPROVED V1 LOSSLESS REENCODE",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "head",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 4,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-10p000.jpg",
+     "id": "PACK-HOMER-10P000",
+     "title": "Homer · HOMER 10p000",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 5,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-11p000.jpg",
+     "id": "PACK-HOMER-11P000",
+     "title": "Homer · HOMER 11p000",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 6,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-12p000.jpg",
+     "id": "PACK-HOMER-12P000",
+     "title": "Homer · HOMER 12p000",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 7,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-12p500.jpg",
+     "id": "PACK-HOMER-12P500",
+     "title": "Homer · HOMER 12p500",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 0,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-13p000.jpg",
+     "id": "PACK-HOMER-13P000",
+     "title": "Homer · HOMER 13p000",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 1,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-14p000.jpg",
+     "id": "PACK-HOMER-14P000",
+     "title": "Homer · HOMER 14p000",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 2,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-15p000.jpg",
+     "id": "PACK-HOMER-15P000",
+     "title": "Homer · HOMER 15p000",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 3,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-7p250.jpg",
+     "id": "PACK-HOMER-7P250",
+     "title": "Homer · HOMER 7p250",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 4,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-7p750.jpg",
+     "id": "PACK-HOMER-7P750",
+     "title": "Homer · HOMER 7p750",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 5,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-8p500.jpg",
+     "id": "PACK-HOMER-8P500",
+     "title": "Homer · HOMER 8p500",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 6,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "HOMER-9p000.jpg",
+     "id": "PACK-HOMER-9P000",
+     "title": "Homer · HOMER 9p000",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 7,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
       "shape": "port"
      }
     }
@@ -10510,8 +11044,8 @@
     "rule": "Preserve exact approved car-approach appearance in passenger POV and every later shot; no substitute face.",
     "eyes": "Dark brown natural irises; do not lighten to green, blue or hazel."
    },
-   "current": [],
-   "archive": [
+   "noApproved": true,
+   "current": [
     {
      "date": "2026-09-12",
      "file": "APU-FULL-BODY-V1.png",
@@ -10521,14 +11055,14 @@
      "notes": "Newly rendered from current head and clothing references. Candidate only; not inserted into video. Lower-body clothing is proposed where not visible in arrival sources.",
      "approved": false,
      "status": "Generated — owner review pending",
-     "group": "Full-body character photos",
+     "group": "pending",
      "view": "full body",
      "img": {
       "sheet": "sheets/char-Apu.jpg",
       "col": 0,
       "row": 0,
-      "cols": 2,
-      "rows": 1,
+      "cols": 8,
+      "rows": 2,
       "shape": "port"
      }
     },
@@ -10541,18 +11075,219 @@
      "notes": "Newly rendered with built-in ChatGPT image tool by gpt-5.6-luna low. Approved arrival sources guide likeness; no crop used as final.",
      "approved": false,
      "status": "Generated — owner review pending",
-     "group": "Apu · approved arrival identity",
+     "group": "pending",
      "view": "head",
      "img": {
       "sheet": "sheets/char-Apu.jpg",
       "col": 1,
       "row": 0,
-      "cols": 2,
-      "rows": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "APU-FIREBIRD-ARRIVAL-V1.png",
+     "id": "PACK-APU-FIREBIRD-ARRIVAL-V1",
+     "title": "Apu · APU FIREBIRD ARRIVAL V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 2,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "APU-FIREBIRD-ARRIVAL-V2.png",
+     "id": "PACK-APU-FIREBIRD-ARRIVAL-V2",
+     "title": "Apu · APU FIREBIRD ARRIVAL V2",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 3,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "APU-FIREBIRD-ARRIVAL-V3.png",
+     "id": "PACK-APU-FIREBIRD-ARRIVAL-V3",
+     "title": "Apu · APU FIREBIRD ARRIVAL V3",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 4,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "APU-FIREBIRD-ARRIVAL-V4.png",
+     "id": "PACK-APU-FIREBIRD-ARRIVAL-V4",
+     "title": "Apu · APU FIREBIRD ARRIVAL V4",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 5,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-13",
+     "file": "APU-FIREBIRD-ARRIVAL-V4-ATTACH.jpg",
+     "id": "PACK-APU-FIREBIRD-ARRIVAL-V4-ATTACH",
+     "title": "Apu · APU FIREBIRD ARRIVAL V4 ATTACH",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 6,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE.png",
+     "id": "PACK-APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE",
+     "title": "Apu · APU FIREBIRD ARRIVAL V4 LOSSLESS REENCODE",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 7,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "apu-sync-0.7.png",
+     "id": "PACK-APU-SYNC-0-7",
+     "title": "apu · apu sync 0.7",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 0,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "apu-sync-10.1.png",
+     "id": "PACK-APU-SYNC-10-1",
+     "title": "apu · apu sync 10.1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 1,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "apu-sync-5.8.png",
+     "id": "PACK-APU-SYNC-5-8",
+     "title": "apu · apu sync 5.8",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 2,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "APU-81-100.jpg",
+     "id": "PACK-APU-81-100",
+     "title": "Apu · APU 81 100",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 3,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
       "shape": "port"
      }
     }
-   ]
+   ],
+   "archive": []
   },
   {
    "name": "Bart",
@@ -10562,29 +11297,8 @@
     "voiceId": null,
     "status": "Unresolved: saved source audio has no recorded ElevenLabs identity; no Bart result in saved voice search or Eat my shorts history search. Owner asked to identify voice or authorize a new recurring voice candidate."
    },
+   "noApproved": true,
    "current": [
-    {
-     "date": "2026-09-12",
-     "file": "WOODEN-WIDE-FORK-REFERENCE-02.jpg",
-     "id": "BART-SLINGSHOT-REAL-02",
-     "title": "Bart old-school wide wooden fork — product reference",
-     "role": "Old-school rounded wooden Y branch with wide fork, tan bands and leather pouch",
-     "notes": "Wide natural branch style requested by owner. Original supplier product image; not generated or upscaled by us. Photo approved by owner; felt ball visible in photo is not an instruction to change the scene projectile.",
-     "approved": true,
-     "status": "APPROVED — wide old-school wooden slingshot",
-     "group": "Bart · garage and skateboard continuity",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Bart.jpg",
-      "col": 2,
-      "row": 0,
-      "cols": 3,
-      "rows": 1,
-      "shape": "port"
-     }
-    }
-   ],
-   "archive": [
     {
      "date": "2026-09-12",
      "file": "BART-FULL-BODY-V2.png",
@@ -10594,14 +11308,14 @@
      "notes": "Newly rendered from current head and clothing references. Candidate only; not inserted into video.",
      "approved": false,
      "status": "Generated — owner review pending",
-     "group": "Full-body character photos",
+     "group": "pending",
      "view": "full body",
      "img": {
       "sheet": "sheets/char-Bart.jpg",
       "col": 0,
       "row": 0,
-      "cols": 3,
-      "rows": 1,
+      "cols": 8,
+      "rows": 2,
       "shape": "port"
      }
     },
@@ -10614,21 +11328,283 @@
      "notes": "New render of approved garage Bart. Front three-quarter, profile, rear three-quarter. Lower-cost Luna worker used built-in ChatGPT image tool.",
      "approved": false,
      "status": "Generated — owner review pending",
-     "group": "Bart · garage and skateboard continuity",
+     "group": "pending",
      "view": "head",
      "img": {
       "sheet": "sheets/char-Bart.jpg",
       "col": 1,
       "row": 0,
-      "cols": 3,
-      "rows": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "BART-EXIT-EMPTY-END-V1.jpg",
+     "id": "PACK-BART-EXIT-EMPTY-END-V1",
+     "title": "Bart · BART EXIT EMPTY END V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 2,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "BART-EXIT-EMPTY-END-V1.png",
+     "id": "PACK-BART-EXIT-EMPTY-END-V1",
+     "title": "Bart · BART EXIT EMPTY END V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 3,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-10",
+     "file": "BART-RIGHT-REVEAL-REVIEW.png",
+     "id": "PACK-BART-RIGHT-REVEAL-REVIEW",
+     "title": "Bart · BART RIGHT REVEAL REVIEW",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "right side",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 4,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "BART-07-GARAGE-RETURN-V1-8K-UPSCALED.jpg",
+     "id": "PACK-BART-07-GARAGE-RETURN-V1-8K-UPSCALED",
+     "title": "Bart · BART 07 GARAGE RETURN V1 8K UPSCALED",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 5,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "BART-07-GARAGE-RETURN-V1.png",
+     "id": "PACK-BART-07-GARAGE-RETURN-V1",
+     "title": "Bart · BART 07 GARAGE RETURN V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 6,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "BART-APPROVED-VIDEO-REFERENCE.png",
+     "id": "PACK-BART-APPROVED-VIDEO-REFERENCE",
+     "title": "Bart · BART APPROVED VIDEO REFERENCE",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 7,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "BART-FRESH-MARK-START-V3.png",
+     "id": "PACK-BART-FRESH-MARK-START-V3",
+     "title": "Bart · BART FRESH MARK START V3",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 0,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "BART-PHONE-FREE-FIRST-FRAME.png",
+     "id": "PACK-BART-PHONE-FREE-FIRST-FRAME",
+     "title": "Bart · BART PHONE FREE FIRST FRAME",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 1,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "BART-SHARP-START-COMPOSITE-V2.png",
+     "id": "PACK-BART-SHARP-START-COMPOSITE-V2",
+     "title": "Bart · BART SHARP START COMPOSITE V2",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 2,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "BART-SHARP-START-TREADMILL-COMPOSITE-V1.png",
+     "id": "PACK-BART-SHARP-START-TREADMILL-COMPOSITE-V1",
+     "title": "Bart · BART SHARP START TREADMILL COMPOSITE V1",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 3,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "file": "bart-target.png",
+     "id": "PACK-BART-TARGET",
+     "title": "bart · bart target",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 4,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "BART-AUDIO-SPECTRUM.jpg",
+     "id": "PACK-BART-AUDIO-SPECTRUM",
+     "title": "Bart · BART AUDIO SPECTRUM",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 5,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "file": "BART-75-79.jpg",
+     "id": "PACK-BART-75-79",
+     "title": "Bart · BART 75 79",
+     "role": "unfiled image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "Found on the drive, never filed — approve or remove",
+     "group": "pending",
+     "view": "reference",
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 6,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
       "shape": "port"
      }
     }
-   ]
+   ],
+   "archive": []
   },
   {
    "name": "Other",
+   "noApproved": false,
    "current": [
     {
      "date": "2026-09-11",
@@ -10643,10 +11619,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 0,
-      "row": 2,
+      "col": 6,
+      "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10663,10 +11639,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 1,
-      "row": 2,
+      "col": 7,
+      "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10683,10 +11659,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 2,
+      "col": 0,
       "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10703,10 +11679,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 4,
+      "col": 2,
       "row": 4,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     }
@@ -10728,7 +11704,7 @@
       "col": 0,
       "row": 0,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10748,7 +11724,7 @@
       "col": 1,
       "row": 0,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10768,7 +11744,7 @@
       "col": 2,
       "row": 0,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10788,7 +11764,7 @@
       "col": 3,
       "row": 0,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10808,7 +11784,7 @@
       "col": 4,
       "row": 0,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10828,7 +11804,7 @@
       "col": 5,
       "row": 0,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10848,7 +11824,7 @@
       "col": 6,
       "row": 0,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10868,47 +11844,7 @@
       "col": 7,
       "row": 0,
       "cols": 8,
-      "rows": 6,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-12",
-     "file": "KOBE6-GRINCH-ACTUAL-HEEL-REFERENCE.jpg",
-     "id": "GRINCH-HEEL-SOURCE",
-     "title": "Actual Kobe 6 Grinch rear heel",
-     "role": "Heel shape / cursive signature",
-     "notes": "Actual product uses red signature. Earlier owner instruction requested a tonal-green version; final exact treatment should be reviewed. Red shoelaces retained.",
-     "approved": false,
-     "status": "Superseded gallery reference — archived",
-     "group": "Accessories · shoes, heel detail and hat",
-     "view": "behind",
-     "img": {
-      "sheet": "sheets/char-Other.jpg",
-      "col": 0,
-      "row": 1,
-      "cols": 8,
-      "rows": 6,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-12",
-     "file": "S08-ACTUAL-HEEL-SIGNATURE-V13.png",
-     "id": "S08-HEEL-TEST",
-     "title": "Heel correction applied to S08 only",
-     "role": "Correction test only",
-     "notes": "Latest S08 still attempts actual heel cup/signature in tonal green. Not a finished video; S24 and existing episode still unchanged.",
-     "approved": false,
-     "status": "Excluded — wrong body reference; historical shoe-edit test only",
-     "group": "Accessories · shoes, heel detail and hat",
-     "view": "outfit",
-     "img": {
-      "sheet": "sheets/char-Other.jpg",
-      "col": 1,
-      "row": 1,
-      "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10925,10 +11861,10 @@
      "view": "outfit",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 2,
+      "col": 0,
       "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10945,10 +11881,10 @@
      "view": "head",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 3,
+      "col": 1,
       "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10965,10 +11901,10 @@
      "view": "head",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 4,
+      "col": 2,
       "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -10985,10 +11921,10 @@
      "view": "head",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 5,
+      "col": 3,
       "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11005,10 +11941,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 6,
+      "col": 4,
       "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11025,10 +11961,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 7,
+      "col": 5,
       "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11045,10 +11981,10 @@
      "view": "head",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 3,
+      "col": 1,
       "row": 1,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11065,10 +12001,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 3,
+      "col": 1,
       "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11085,10 +12021,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 4,
+      "col": 2,
       "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11105,10 +12041,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 5,
+      "col": 3,
       "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11125,10 +12061,10 @@
      "view": "left side",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 6,
+      "col": 4,
       "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11145,10 +12081,10 @@
      "view": "behind",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 7,
+      "col": 5,
       "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11165,10 +12101,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 0,
-      "row": 3,
+      "col": 6,
+      "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11185,10 +12121,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 1,
-      "row": 3,
+      "col": 7,
+      "row": 2,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11205,10 +12141,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 2,
+      "col": 0,
       "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11225,10 +12161,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 3,
+      "col": 1,
       "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11245,10 +12181,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 4,
+      "col": 2,
       "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11265,10 +12201,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 5,
+      "col": 3,
       "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11285,10 +12221,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 6,
+      "col": 4,
       "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11305,10 +12241,10 @@
      "view": "left side",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 7,
+      "col": 5,
       "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11325,10 +12261,10 @@
      "view": "right side",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 0,
-      "row": 4,
+      "col": 6,
+      "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11345,10 +12281,10 @@
      "view": "left side",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 1,
-      "row": 4,
+      "col": 7,
+      "row": 3,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11365,10 +12301,10 @@
      "view": "right side",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 2,
+      "col": 0,
       "row": 4,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11385,10 +12321,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 3,
+      "col": 1,
       "row": 4,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11405,10 +12341,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 5,
+      "col": 3,
       "row": 4,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11425,10 +12361,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 6,
+      "col": 4,
       "row": 4,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11445,10 +12381,10 @@
      "view": "behind",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 7,
+      "col": 5,
       "row": 4,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -11465,10 +12401,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 0,
-      "row": 5,
+      "col": 6,
+      "row": 4,
       "cols": 8,
-      "rows": 6,
+      "rows": 5,
       "shape": "port"
      }
     }
