@@ -38,8 +38,8 @@
   .tick span{ position:absolute; left:4px; top:6px; font-size:13px; color:var(--muted); white-space:nowrap; }
   .l-script{ top:28px; height:58px; } .l-v2{ top:90px; height:74px; } .l-v1{ top:168px; height:96px; } .l-a1{ top:268px; height:34px; } .l-a2{ top:306px; height:66px; }
   .lanebg{ position:absolute; inset:0; border-top:1px dashed var(--line); }
-  .blk{ position:absolute; top:3px; bottom:3px; border-radius:8px; overflow:hidden; border:3px solid transparent; user-select:none; -webkit-user-select:none; touch-action:pan-x; background:var(--v1); color:var(--text); }
-  .blk.v2{ background:var(--v2); } .blk.a2{ background:var(--a2); } .blk.a1{ background:var(--v1); opacity:.55; } .blk.script{ background:var(--script); }
+  .blk{ position:absolute; top:3px; bottom:3px; border-radius:8px; overflow:hidden; border:3px solid transparent; user-select:none; -webkit-user-select:none; touch-action:none; background:var(--v1); color:var(--text); }
+  .blk.v2{ background:var(--v2); } .blk.a2{ background:var(--a2); } .blk.a1{ background:var(--v1); opacity:.55; touch-action:pan-x; } .blk.script{ background:var(--script); touch-action:pan-x; }
   .blk.sel{ border-color:var(--sel); z-index:3; } .blk.drag{ opacity:.6; z-index:4; }
   .blk .th{ position:absolute; inset:0; background-size:cover; background-position:center; opacity:.55; pointer-events:none; }
   .blk .t{ position:relative; padding:4px 22px 0 22px; font-size:14px; font-weight:700; line-height:1.15; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-shadow:0 0 3px var(--bg); }
@@ -81,7 +81,7 @@
   <header>
     <div>
       <h1>Garage Dream · Cut Room</h1>
-      <p class="sub" id="sub">Main video, a second video lane, sound, and the script, left to right. Drag blocks to move them, pull their ends to trim. Nothing is ever deleted.</p>
+      <p class="sub" id="sub">Main video, a second video lane, sound, and the script, left to right. Drag a block to move it, pull its ends to trim. Swipe the ruler or the script lane to scroll. Nothing is ever deleted.</p>
     </div>
     <button id="undo">↶ Undo</button>
   </header>
@@ -226,14 +226,13 @@ $('tlin').addEventListener('pointerdown', e => {
   if (b && b.dataset.ro) { sel = { lane:'v1', i:+b.dataset.i }; renderTL(); return; }
   if (!b) { drag = { seek:true }; seekTo(Math.max(0, Math.round((e.clientX - $('tlin').getBoundingClientRect().left) / pxf))); return; }
   const lane = b.dataset.lane, i = +b.dataset.i; sel = { lane, i }; renderTL();
-  const item = S[lane][i]; const st = { lane, i, x0:e.clientX, mode: h ? (h.classList.contains('hl') ? 'L' : 'R') : 'move', snap: JSON.stringify(S), o: { ...item }, armed: !!h || e.pointerType === 'mouse', el: b };
-  drag = st; if (!st.armed) st.timer = setTimeout(() => { st.armed = true; b.classList.add('drag'); }, 220);
-  if (h) e.preventDefault();
+  const item = S[lane][i]; const st = { lane, i, x0:e.clientX, mode: h ? (h.classList.contains('hl') ? 'L' : 'R') : 'move', snap: JSON.stringify(S), o: { ...item }, armed: true, el: b };
+  drag = st; b.classList.add('drag');
+  e.preventDefault();
 });
 document.addEventListener('pointermove', e => {
   if (!drag || drag.seek) return;
   const dx = e.clientX - drag.x0; const df = Math.round(dx / pxf);
-  if (!drag.armed) { if (Math.abs(dx) > 10 && e.pointerType !== 'mouse') { clearTimeout(drag.timer); drag = null; } return; }
   e.preventDefault(); if (!drag.moved && df !== 0) { drag.moved = true; }
   const b = S[drag.lane][drag.i]; const k = byId[b.id]; const max = k.frames;
   if (drag.mode === 'L') { const ns = Math.min(Math.max(0, drag.o.start + df), drag.o.end - 6); if (drag.lane !== 'v1') b.at = drag.o.at + (ns - drag.o.start); b.start = ns; }
@@ -246,7 +245,7 @@ document.addEventListener('pointermove', e => {
   } else { b.at = Math.max(0, drag.o.at + df); }
   renderTL(); const el = document.querySelector(`.blk[data-lane="${drag.lane}"][data-i="${drag.i}"]`); if (el && drag.mode === 'move') el.classList.add('drag');
 }, { passive:false });
-const endDrag = () => { if (!drag) return; if (!drag.seek) { clearTimeout(drag.timer); if (drag.moved) { undoStack.push(drag.snap); if (undoStack.length > 60) undoStack.shift(); } } drag = null; renderTL(); };
+const endDrag = () => { if (!drag) return; if (!drag.seek) { if (drag.moved) { undoStack.push(drag.snap); if (undoStack.length > 60) undoStack.shift(); } } drag = null; renderTL(); };
 document.addEventListener('pointerup', endDrag); document.addEventListener('pointercancel', endDrag);
 
 // selected-block actions
