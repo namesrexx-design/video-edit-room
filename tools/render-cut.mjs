@@ -56,7 +56,8 @@ for (const b of cut.v1) { const p = file(b); const hasA = !b.mute && probe(p).st
   if (hasA) { ain.push('-ss', String(b.start / RATE), '-t', String(dur(b) / RATE), '-i', p); parts.push(`[${k}:a]aresample=48000,aformat=channel_layouts=stereo,asetpts=PTS-STARTPTS[m${k}]`); }
   else { ain.push('-f', 'lavfi', '-t', String(dur(b) / RATE), '-i', 'anullsrc=r=48000:cl=stereo'); parts.push(`[${k}:a]asetpts=PTS-STARTPTS[m${k}]`); } k++; }
 let g = parts.join(';') + ';' + parts.map((_, i) => `[m${i}]`).join('') + `concat=n=${k}:v=0:a=1[main]`; let mixIn = ['[main]']; let idx = k;
-for (const b of cut.a2.filter(b => b.at < TOTAL)) { const n = Math.min(dur(b), TOTAL - b.at); ain.push('-ss', String(b.start / RATE), '-t', String(n / RATE), '-i', file(b)); const ms = Math.round(b.at / RATE * 1000); g += `;[${idx}:a]aresample=48000,aformat=channel_layouts=stereo,asetpts=PTS-STARTPTS,adelay=${ms}|${ms}[x${idx}]`; mixIn.push(`[x${idx}]`); idx++; }
+for (const b of cut.a2.filter(b => b.at < TOTAL)) { const n = Math.min(dur(b), TOTAL - b.at); ain.push('-ss', String(b.start / RATE), '-t', String(n / RATE), '-i', file(b)); const ms = Math.round(b.at / RATE * 1000); const gain = Number.isFinite(b.gain) && b.gain !== 0 ? `,volume=${b.gain}dB` : '';   // per-block level trim in dB (owner/QC leveling, 2026-09-15)
+  g += `;[${idx}:a]aresample=48000,aformat=channel_layouts=stereo,asetpts=PTS-STARTPTS${gain},adelay=${ms}|${ms}[x${idx}]`; mixIn.push(`[x${idx}]`); idx++; }
 if (mixIn.length > 1) g += `;${mixIn.join('')}amix=inputs=${mixIn.length}:normalize=0:dropout_transition=0[a]`; else g += ';[main]anull[a]';
 const sound = path.join(stage, 'sound.wav'); run([...ain, '-filter_complex', g, '-map', '[a]', '-t', String(TOTAL / RATE), '-c:a', 'pcm_s16le', sound]);
 
