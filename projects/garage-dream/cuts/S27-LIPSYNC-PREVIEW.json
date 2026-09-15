@@ -1,0 +1,93 @@
+{
+  "format": 2,
+  "name": "S27 with Rexx's Apu lip-sync close-ups (preview of the scene only)",
+  "savedAt": "2026-09-15T12:05:00-07:00",
+  "fps": 24,
+  "frames": 389,
+  "v1": [
+    {
+      "u": "s27main",
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "mute": true
+    },
+    {
+      "u": "s27jump",
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "mute": true
+    }
+  ],
+  "a1": [
+    {
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "at": 0,
+      "link": "s27main",
+      "off": 0
+    },
+    {
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "at": 350,
+      "link": "s27jump",
+      "off": 0
+    }
+  ],
+  "a2": [
+    {
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "at": 0,
+      "sceneSound": true,
+      "link": "s27main"
+    },
+    {
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "at": 350,
+      "sceneSound": true,
+      "link": "s27jump"
+    }
+  ],
+  "v2": [
+    {
+      "id": "INV052",
+      "file": "INV052_s27-rexx-upload-1122.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 57,
+      "at": 148,
+      "note": "Apu: Hey, will that work for my new Vintage Mart? — audio-matched at 6.181 s (corr 0.47)"
+    },
+    {
+      "id": "INV051",
+      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "at": 269,
+      "note": "Apu: Yeah, I opened it two months ago. — audio-matched at 11.212 s (corr 0.36)"
+    }
+  ],
+  "parked": [],
+  "note": "Renderer mixes a2 (added sound) only; scene sounds are listed there too, at their absolute frames, exactly as the Cut Room saves them."
+}
