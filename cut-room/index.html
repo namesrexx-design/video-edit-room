@@ -36,7 +36,8 @@
   .ruler{ top:0; height:26px; background:var(--panel2); }
   .tick{ position:absolute; top:0; width:1px; height:10px; background:var(--muted); } .tick.s5{ height:26px; }
   .tick span{ position:absolute; left:4px; top:6px; font-size:13px; color:var(--muted); white-space:nowrap; }
-  .l-v1{ top:28px; height:160px; background:rgba(167,95,60,.10); } .l-a1{ top:190px; height:34px; } .l-v2{ top:228px; height:84px; } .l-a2{ top:316px; height:70px; } .l-script{ top:390px; height:58px; }
+  .l-v1{ top:28px; height:160px; background:rgba(167,95,60,.10); } .l-a1{ top:190px; height:34px; } .l-script{ top:228px; height:64px; } .l-v2{ top:296px; height:84px; } .l-a2{ top:384px; height:70px; }
+  .sheet{ position:fixed; left:0; right:0; bottom:0; background:var(--panel); border-top:3px solid var(--accent); border-radius:16px 16px 0 0; padding:16px 18px 90px; box-shadow:0 -10px 30px rgba(0,0,0,.25); z-index:15; max-height:70vh; overflow:auto; } .sheet[hidden]{ display:none; } .sheet .id{ display:inline-block; background:var(--accent); color:var(--accent-ink); font-weight:700; padding:2px 10px; border-radius:6px; font-size:17px; } .sheet h3{ font-family:Newsreader,Georgia,serif; font-size:26px; margin:8px 0 4px; } .sheet .line{ font-size:22px; line-height:1.4; margin:6px 0 10px; } .sheet .st{ color:var(--muted); font-size:17px; }
   .lanebg{ position:absolute; inset:0; border-top:1px dashed var(--line); }
   .blk{ position:absolute; top:3px; bottom:3px; border-radius:8px; overflow:hidden; border:3px solid transparent; user-select:none; -webkit-user-select:none; touch-action:none; background:var(--v1); color:var(--text); }
   .blk.v2{ background:var(--v2); } .blk.a2{ background:var(--a2); } .blk.a1{ background:var(--v1); opacity:.55; touch-action:pan-x; } .blk.script{ background:var(--script); touch-action:pan-x; }
@@ -118,17 +119,17 @@
       <div class="lane ruler" id="ruler"></div>
       <div class="lane l-v1" id="lV1"><div class="lanebg"></div><span class="lab" style="font-size:18px;background:var(--accent)">MAIN VIDEO</span></div>
       <div class="lane l-a1" id="lA1"><div class="lanebg"></div><span class="lab">SOUND INSIDE EACH SCENE</span></div>
-      <div class="lane l-v2" id="lV2"><div class="lanebg"></div><span class="lab">2ND VIDEO · cutaways over the main video</span></div>
+      <div class="lane l-script" id="lScript"><div class="lanebg"></div><span class="lab">SCRIPT · tap a line to read it</span></div>
+      <div class="lane l-v2" id="lV2"><div class="lanebg"></div><span class="lab">2ND VIDEO · cutaways, transitions</span></div>
       <div class="lane l-a2" id="lA2"><div class="lanebg"></div><span class="lab">ADDED SOUND · music, voice, cues</span></div>
-      <div class="lane l-script" id="lScript"><div class="lanebg"></div><span class="lab">SCRIPT</span></div>
       <div id="ph"></div>
     </div></div>
   </div>
 
   <h2>Inventory · video</h2>
-  <p class="hint" id="invHint">Tap a clip and it plays in the window. Then put it in the main video after the selected scene, or lay it on the 2nd video lane at the playhead. Press and hold a card to drag it to a new spot on the shelf.</p>
+  <p class="hint" id="invHint">Tap a clip and it plays in the window. Then put it in the main video after the selected scene, or lay it on the 2nd video lane at the playhead. Press and hold a card to drag it to a new spot on the shelf. <b>Replace</b> swaps the selected main scene for the clip; <b>Take out</b> (above the timeline) removes a selected block.</p>
   <div class="pv"><video id="pv" controls playsinline preload="metadata"></video><div class="pvt" id="pvt">Tap a clip below and it plays here.</div></div>
-  <div class="actions"><button class="icon" id="invL" title="Move earlier">◀</button><button class="icon" id="invR" title="Move later">▶</button><button class="primary" id="invV1">⬆ Main video</button><button class="primary" id="invV2">⬆ 2nd video at playhead</button><label style="font-size:17px;margin-left:4px"><input type="checkbox" id="invLip" checked> lip-syncs</label><label style="font-size:17px"><input type="checkbox" id="invHig" checked> Higgsfield</label></div>
+  <div class="actions"><button class="icon" id="invL" title="Move earlier">◀</button><button class="icon" id="invR" title="Move later">▶</button><button class="primary" id="invV1">⬆ Main video</button><button id="invSwap">⇄ Replace selected scene</button><button class="primary" id="invV2">⬆ 2nd video at playhead</button><label style="font-size:17px;margin-left:4px"><input type="checkbox" id="invLip" checked> lip-syncs</label><label style="font-size:17px"><input type="checkbox" id="invHig" checked> Higgsfield</label></div>
   <div class="strip" id="inv"></div>
 
   <h2>Inventory · sound</h2>
@@ -157,6 +158,7 @@
   <span class="stat" id="stat">Not saved yet</span>
   <button class="primary" id="save">Save cut</button>
 </div>
+<div class="sheet" id="sheet" hidden><span class="id" id="shId"></span><h3 id="shTitle"></h3><div class="line" id="shLine"></div><div class="st" id="shSt"></div><div class="actions" style="margin-top:12px"><button class="primary" id="shPlay">▶ Play this scene</button><button id="shClose">Close</button></div></div>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -230,7 +232,7 @@ function keepPhVisible(){ const tl = $('tl'), x = ph * pxf; if (x < tl.scrollLef
 let drag = null;
 $('tlin').addEventListener('pointerdown', e => {
   const h = e.target.closest('.hl,.hr'); const b = e.target.closest('.blk');
-  if (b && b.dataset.ro) { sel = { lane:'v1', i:+b.dataset.i }; renderTL(); return; }
+  if (b && b.dataset.ro) { sel = { lane:'v1', i:+b.dataset.i }; renderTL(); if (b.classList.contains('script')) openSheet(+b.dataset.i); return; }
   if (!b) { drag = { seek:true }; seekTo(Math.max(0, Math.round((e.clientX - $('tlin').getBoundingClientRect().left) / pxf))); return; }
   const lane = b.dataset.lane, i = +b.dataset.i; sel = { lane, i }; renderTL();
   const item = S[lane][i]; const st = { lane, i, x0:e.clientX, mode: h ? (h.classList.contains('hl') ? 'L' : 'R') : 'move', snap: JSON.stringify(S), o: { ...item }, armed: true, el: b };
@@ -261,6 +263,8 @@ function nudge(df){ if (!sel) return; snapshot(); if (sel.lane === 'v1') { const
 $('split').onclick = () => { if (!sel || sel.lane !== 'v1') return; const pos = v1pos(); const b = S.v1[sel.i]; const off = ph - pos[sel.i]; if (off < 6 || off > len(b) - 6) return toast('Move the playhead inside the selected scene first'); snapshot(); const cutAt = b.start + off; S.v1.splice(sel.i + 1, 0, { id:b.id, start:cutAt, end:b.end }); b.end = cutAt; renderTL(); toast('Split. Two pieces now.'); };
 $('park').onclick = () => { if (!sel) return; snapshot(); const [b] = S[sel.lane].splice(sel.i, 1); if (sel.lane === 'v1' && byId[b.id].kind === 'scene' && !S.v1.some(x => x.id === b.id)) S.parked.push(b.id); sel = null; renderTL(); toast(`${title(b.id)} taken out.`); };
 $('detach').onclick = () => { if (!sel || sel.lane !== 'v1') return; const b = S.v1[sel.i]; if (b.mute) return; snapshot(); b.mute = true; S.a2.push({ id:b.id, start:b.start, end:b.end, at:v1pos()[sel.i], fromScene:true }); renderTL(); toast('Sound pulled out onto its own block. Move it, trim it, or take it out.'); };
+function openSheet(i){ const b = S.v1[i]; if (!b) return; const k = byId[b.id]; const ids = k.scenes.length ? k.scenes : [k.id]; $('shId').textContent = (i+1) + ' · ' + ids.join(' + '); $('shTitle').textContent = title(b.id); $('shLine').textContent = k.scenes.length ? k.scenes.map(s => STORY[s]?.line).filter(Boolean).join('\n\n') : (k.title || ''); $('shSt').textContent = k.scenes.length ? k.scenes.map(s => STORY[s]?.status ? s + ': ' + STORY[s].status.replace(/\s+/g,' ') : '').filter(Boolean).join('  ·  ') : (k.group === 'lipsync' ? 'lip-sync render' : 'Higgsfield render ' + (k.at || '')); $('sheet').hidden = false; $('shPlay').onclick = () => { $('sheet').hidden = true; playFrom(v1pos()[i]); }; }
+$('shClose').onclick = () => { $('sheet').hidden = true; };
 $('undo').onclick = () => { if (!undoStack.length) return toast('Nothing to undo'); S = JSON.parse(undoStack.pop()); sel = null; renderTL(); toast('Undone'); };
 $('zoomIn').onclick = () => { pxf = Math.min(6, pxf * 1.5); renderTL(); keepPhVisible(); }; $('zoomOut').onclick = () => { pxf = Math.max(0.25, pxf / 1.5); renderTL(); keepPhVisible(); };
 
@@ -278,7 +282,7 @@ function renderBins(){
   $('inv').replaceChildren(...INV.map((k, i) => [k, i]).filter(([k]) => k.group === 'lipsync' ? showLip : showHig).map(([k, i]) => card(k, i, 'vid', i === selInv)));
   const f = { music:$('fMusic').checked, voice:$('fVoice').checked, cue:$('fCue').checked, stem:$('fStem').checked };
   $('aud').replaceChildren(...AUD.map((k, i) => [k, i]).filter(([k]) => f[k.group]).map(([k, i]) => card(k, i, 'aud', i === selAud)));
-  for (const id of ['invL','invR','invV1','invV2']) $(id).disabled = selInv == null;
+  for (const id of ['invL','invR','invV1','invV2','invSwap']) $(id).disabled = selInv == null;
   $('audAdd').disabled = selAud == null;
   for (const id of ['unpark','preview']) $(id).disabled = selBin == null;
 }
@@ -298,6 +302,7 @@ let playAll = false;
 $('audAll').onclick = () => { const f = { music:$('fMusic').checked, voice:$('fVoice').checked, cue:$('fCue').checked, stem:$('fStem').checked }; const list = AUD.map((k, i) => [k, i]).filter(([k]) => f[k.group]).map(([, i]) => i); if (!list.length) return; playAll = true; let p = 0; playAud(list[0]); $('pa').onended = () => { if (!playAll) return; p++; if (p < list.length) playAud(list[p]); else playAll = false; }; };
 const insertV1 = id => { snapshot(); const k = byId[id]; const at = sel?.lane === 'v1' ? sel.i + 1 : S.v1.length; S.v1.splice(at, 0, { id, start:0, end:k.frames }); sel = { lane:'v1', i:at }; renderTL(); toast(`${title(id)} put in the main video at ${at+1}.`); };
 $('invV1').onclick = () => selInv != null && insertV1(INV[selInv].id);
+$('invSwap').onclick = () => { if (selInv == null) return toast('Tap a clip on the shelf first'); if (!sel || sel.lane !== 'v1') return toast('Tap the scene in the main video you want to replace'); snapshot(); const k = INV[selInv]; const old = S.v1[sel.i]; S.v1[sel.i] = { id:k.id, start:0, end:k.frames }; if (byId[old.id].kind === 'scene' && !S.v1.some(x => x.id === old.id) && !S.parked.includes(old.id)) S.parked.push(old.id); renderTL(); toast(title(old.id) + ' replaced by ' + label(k.id) + '. The old scene is in Taken out.'); };
 $('invV2').onclick = () => { if (selInv == null) return; snapshot(); const k = INV[selInv]; S.v2.push({ id:k.id, start:0, end:k.frames, at:ph }); sel = { lane:'v2', i:S.v2.length-1 }; renderTL(); toast(`${title(k.id)} laid on the 2nd video lane at ${fmt(ph)}.`); };
 $('unpark').onclick = () => { if (selBin == null) return; const id = S.parked[selBin]; snapshot(); S.parked.splice(selBin, 1); selBin = null; insertV1(id); };
 $('audAdd').onclick = () => { if (selAud == null) return; snapshot(); const k = AUD[selAud]; S.a2.push({ id:k.id, start:0, end:k.frames, at:ph }); sel = { lane:'a2', i:S.a2.length-1 }; renderTL(); toast(`${title(k.id)} laid down at ${fmt(ph)}.`); };
