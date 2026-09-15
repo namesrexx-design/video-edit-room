@@ -33,6 +33,10 @@ for (const f of fs.readdirSync(FWC).filter(x => /LIPSYNC/i.test(x) && x.endsWith
 const OWNER_IN = 'G:/My Drive/00_PROJECTS/AUTOPILOT/Video 04 - Garage Dream - IN PRODUCTION/EDIT_ROOM/INCOMING_FROM_REXX';
 if (fs.existsSync(OWNER_IN)) for (const d of fs.readdirSync(OWNER_IN).sort()) for (const f of fs.readdirSync(`${OWNER_IN}/${d}`).filter(x => x.endsWith('.mp4')).sort()) sources.push({ group: 'owner', model: 'rexx-upload', at: d, title: f.replace(/.mp4$/, '').replace(/-/g, ' '), src: `${OWNER_IN}/${d}/${f}` });
 
+// Astra handoff candidates (retrieved from Higgsfield history 2026-09-15; not approved)
+const HANDOFF = 'D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/existing-candidates';
+if (fs.existsSync(HANDOFF)) for (const f of fs.readdirSync(HANDOFF).filter(x => x.endsWith('.mp4')).sort()) sources.push({ group: 'handoff', model: 'candidate', at: '2026-09-15', title: f.replace(/.mp4$/, '').replace(/-/g, ' ') + ' (Astra handoff)', src: HANDOFF + '/' + f });
+
 const manifest = []; let i = 0;
 for (const s of sources) {
   i++; const id = 'INV' + String(i).padStart(3, '0'); const name = `${id}_${slug(path.basename(s.src, '.mp4'))}.mp4`; const dest = `${OUT}/${name}`;

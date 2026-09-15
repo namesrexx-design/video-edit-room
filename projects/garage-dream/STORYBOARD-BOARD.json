@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-15T23:05:32.941Z",
+  "builtAt": "2026-09-15T23:13:01.036Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -1189,7 +1189,7 @@
         "col": 0,
         "row": 0,
         "cols": 8,
-        "rows": 3,
+        "rows": 4,
         "shape": "land"
       },
       "stillDate": "2026-09-13",
@@ -1213,7 +1213,7 @@
             "col": 0,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1231,7 +1231,7 @@
             "col": 0,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1249,7 +1249,7 @@
             "col": 1,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1268,7 +1268,26 @@
             "col": 2,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "S08-WALKUP-CLEAN-NATIVE-V2.png",
+          "group": "approved",
+          "id": "S08-WALKUP-CLEAN-NATIVE-V2",
+          "title": "S08 · approved START still (native 1672×941), Sep 15",
+          "caption": "Astra handoff 2026-09-15. Exact input for the 4 s Kling trial (8K upscale uploaded as media 05d506a3…). Door closed, Rexx rear-facing.",
+          "role": "start",
+          "approved": true,
+          "status": "Owner-approved trial input",
+          "img": {
+            "sheet": "sheets/scene-S08.jpg",
+            "col": 3,
+            "row": 0,
+            "cols": 8,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1284,10 +1303,10 @@
           "status": "Coordinator inspected; owner review pending",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 3,
+            "col": 4,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1303,10 +1322,10 @@
           "status": "Owner upload — awaiting approval",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 5,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1322,10 +1341,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 6,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1341,10 +1360,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 7,
             "row": 0,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1360,10 +1379,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
-            "row": 0,
+            "col": 0,
+            "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1379,10 +1398,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 0,
+            "col": 1,
             "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1398,10 +1417,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 1,
+            "col": 2,
             "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1417,10 +1436,10 @@
           "status": "Owner-selected continuity reference",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 2,
+            "col": 3,
             "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1436,10 +1455,10 @@
           "status": "Historical source — excluded from new character reference set by owner",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 3,
+            "col": 4,
             "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1455,10 +1474,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 5,
             "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1474,10 +1493,10 @@
           "status": "Historical reference — superseded; not eligible for new render",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 6,
             "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1493,10 +1512,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 7,
             "row": 1,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1512,10 +1531,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
-            "row": 1,
+            "col": 0,
+            "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1531,10 +1550,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 0,
+            "col": 1,
             "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1550,10 +1569,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 1,
+            "col": 2,
             "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1569,10 +1588,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 2,
+            "col": 3,
             "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1588,10 +1607,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 3,
+            "col": 4,
             "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1607,10 +1626,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 5,
             "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1626,10 +1645,10 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 6,
             "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1645,10 +1664,10 @@
           "status": "Rejected / superseded; archive only",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 7,
             "row": 2,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         },
@@ -1664,10 +1683,10 @@
           "status": "Rejected by owner: soft and blotchy. History only.",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
-            "row": 2,
+            "col": 0,
+            "row": 3,
             "cols": 8,
-            "rows": 3,
+            "rows": 4,
             "shape": "land"
           }
         }
@@ -1717,6 +1736,15 @@
           "role": "start",
           "approved": true,
           "date": "2026-09-13"
+        },
+        {
+          "src": "D:\\REXX\\AI_Video\\BizBox-Garage-Dream\\astra-handoff-20260915\\inputs\\S08-WALKUP-CLEAN-NATIVE-V2.png",
+          "id": "S08-WALKUP-CLEAN-NATIVE-V2",
+          "title": "S08 · approved START still (native 1672×941), Sep 15",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-15"
         },
         {
           "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
@@ -1979,6 +2007,25 @@
           }
         },
         {
+          "date": "2026-09-15",
+          "file": "S09-HOMER-RIGHT-CLEAN-NATIVE-V3.png",
+          "group": "approved",
+          "id": "S09-HOMER-RIGHT-CLEAN-NATIVE-V3",
+          "title": "S09 · approved START still, Homer right facing Rexx (native), Sep 15",
+          "caption": "Astra handoff 2026-09-15. Exact input for the 5 s Kling trial (media a04303f8…).",
+          "role": "start",
+          "approved": true,
+          "status": "Owner-approved trial input",
+          "img": {
+            "sheet": "sheets/scene-S09.jpg",
+            "col": 2,
+            "row": 0,
+            "cols": 8,
+            "rows": 4,
+            "shape": "land"
+          }
+        },
+        {
           "date": "2026-09-12",
           "file": "S09-START-V6.png",
           "group": "archived",
@@ -1990,7 +2037,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 2,
+            "col": 3,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2009,7 +2056,7 @@
           "status": "Owner-selected continuity reference",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 3,
+            "col": 4,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2028,7 +2075,7 @@
           "status": "Historical source — excluded from new character reference set by owner",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 4,
+            "col": 5,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2047,7 +2094,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 5,
+            "col": 6,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2066,7 +2113,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 6,
+            "col": 7,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2085,8 +2132,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 7,
-            "row": 0,
+            "col": 0,
+            "row": 1,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -2104,7 +2151,7 @@
           "status": "Current cut screenshot",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 0,
+            "col": 1,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2123,7 +2170,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 1,
+            "col": 2,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2142,7 +2189,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 2,
+            "col": 3,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2161,7 +2208,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 3,
+            "col": 4,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2180,7 +2227,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 4,
+            "col": 5,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2199,7 +2246,7 @@
           "status": "Owner-approved clean final still",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 5,
+            "col": 6,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2218,7 +2265,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 6,
+            "col": 7,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2237,7 +2284,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 6,
+            "col": 7,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2256,8 +2303,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 7,
-            "row": 1,
+            "col": 0,
+            "row": 2,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -2275,7 +2322,7 @@
           "status": "Owner-rejected; archived",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 0,
+            "col": 1,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2294,7 +2341,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 1,
+            "col": 2,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2313,7 +2360,7 @@
           "status": "Rejected / superseded; archive only",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 2,
+            "col": 3,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2332,7 +2379,7 @@
           "status": "Rejected / superseded; archive only",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 3,
+            "col": 4,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2351,7 +2398,7 @@
           "status": "Likeness approved only; superseded for hand anatomy.",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 4,
+            "col": 5,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2370,7 +2417,7 @@
           "status": "Rejected Homer arm/hand",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 5,
+            "col": 6,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2389,7 +2436,7 @@
           "status": "Retired review candidate; not current entrance input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 6,
+            "col": 7,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2408,8 +2455,8 @@
           "status": "Rejected — wrong interior scale/crop",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 7,
-            "row": 2,
+            "col": 0,
+            "row": 3,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -2427,7 +2474,7 @@
           "status": "Rejected: black blotches",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 0,
+            "col": 1,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2445,7 +2492,7 @@
           "status": "S09 LIPSYNC C2EF V58",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 1,
+            "col": 2,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2482,6 +2529,15 @@
           "role": "end",
           "approved": true,
           "date": "2026-09-13"
+        },
+        {
+          "src": "D:\\REXX\\AI_Video\\BizBox-Garage-Dream\\astra-handoff-20260915\\inputs\\S09-HOMER-RIGHT-CLEAN-NATIVE-V3.png",
+          "id": "S09-HOMER-RIGHT-CLEAN-NATIVE-V3",
+          "title": "S09 · approved START still, Homer right facing Rexx (native), Sep 15",
+          "group": "approved",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-15"
         },
         {
           "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v6\\S09-START-V6.png",
@@ -3965,6 +4021,78 @@
             "rows": 2,
             "shape": "land"
           }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV054_s11-candidate-1eff7ef9.mp4",
+          "group": "pending",
+          "id": "INV054",
+          "title": "Higgsfield clip · INV054 · 8.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S11 CANDIDATE 1eff7ef9 (Astra handoff)",
+          "img": {
+            "sheet": "sheets/scene-S11.jpg",
+            "col": 1,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV055_s11-take-0815-91ab117f.mp4",
+          "group": "pending",
+          "id": "INV055",
+          "title": "Higgsfield clip · INV055 · 8.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S11 take 0815 91ab117f (Astra handoff)",
+          "img": {
+            "sheet": "sheets/scene-S11.jpg",
+            "col": 2,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV056_s11-take-1406-8ed62d6f.mp4",
+          "group": "pending",
+          "id": "INV056",
+          "title": "Higgsfield clip · INV056 · 8.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S11 take 1406 8ed62d6f (Astra handoff)",
+          "img": {
+            "sheet": "sheets/scene-S11.jpg",
+            "col": 3,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV057_s11-take-1420-9d6f1bd6.mp4",
+          "group": "pending",
+          "id": "INV057",
+          "title": "Higgsfield clip · INV057 · 8.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S11 take 1420 9d6f1bd6 (Astra handoff)",
+          "img": {
+            "sheet": "sheets/scene-S11.jpg",
+            "col": 4,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
         }
       ],
       "audio": [],
@@ -4066,6 +4194,42 @@
           "role": "archived",
           "approved": false,
           "date": "2026-09-11"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV054.jpg",
+          "id": "INV054",
+          "title": "Higgsfield clip · INV054 · 8.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV055.jpg",
+          "id": "INV055",
+          "title": "Higgsfield clip · INV055 · 8.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV056.jpg",
+          "id": "INV056",
+          "title": "Higgsfield clip · INV056 · 8.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV057.jpg",
+          "id": "INV057",
+          "title": "Higgsfield clip · INV057 · 8.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
         }
       ],
       "_audioSrc": [],
@@ -4085,7 +4249,7 @@
         "sheet": "sheets/scene-S12.jpg",
         "col": 0,
         "row": 0,
-        "cols": 4,
+        "cols": 5,
         "rows": 1,
         "shape": "land"
       },
@@ -4109,7 +4273,7 @@
             "sheet": "sheets/scene-S12.jpg",
             "col": 0,
             "row": 0,
-            "cols": 4,
+            "cols": 5,
             "rows": 1,
             "shape": "land"
           }
@@ -4127,7 +4291,7 @@
             "sheet": "sheets/scene-S12.jpg",
             "col": 1,
             "row": 0,
-            "cols": 4,
+            "cols": 5,
             "rows": 1,
             "shape": "land"
           }
@@ -4145,7 +4309,7 @@
             "sheet": "sheets/scene-S12.jpg",
             "col": 2,
             "row": 0,
-            "cols": 4,
+            "cols": 5,
             "rows": 1,
             "shape": "land"
           }
@@ -4164,7 +4328,7 @@
             "sheet": "sheets/scene-S12.jpg",
             "col": 0,
             "row": 0,
-            "cols": 4,
+            "cols": 5,
             "rows": 1,
             "shape": "land"
           }
@@ -4183,7 +4347,25 @@
             "sheet": "sheets/scene-S12.jpg",
             "col": 3,
             "row": 0,
-            "cols": 4,
+            "cols": 5,
+            "rows": 1,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV058_s12-candidate-805bb54f.mp4",
+          "group": "pending",
+          "id": "INV058",
+          "title": "Higgsfield clip · INV058 · 5.167 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S12 CANDIDATE 805bb54f (Astra handoff)",
+          "img": {
+            "sheet": "sheets/scene-S12.jpg",
+            "col": 4,
+            "row": 0,
+            "cols": 5,
             "rows": 1,
             "shape": "land"
           }
@@ -4246,6 +4428,15 @@
           "role": "start",
           "approved": false,
           "date": "2026-09-12"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV058.jpg",
+          "id": "INV058",
+          "title": "Higgsfield clip · INV058 · 5.167 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
         }
       ],
       "_audioSrc": [],
@@ -4266,7 +4457,7 @@
         "col": 0,
         "row": 0,
         "cols": 8,
-        "rows": 1,
+        "rows": 2,
         "shape": "land"
       },
       "stillDate": "2026-09-11",
@@ -4290,7 +4481,7 @@
             "col": 0,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4308,7 +4499,7 @@
             "col": 1,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4326,7 +4517,7 @@
             "col": 2,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4345,7 +4536,7 @@
             "col": 3,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4364,7 +4555,7 @@
             "col": 0,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4383,7 +4574,7 @@
             "col": 4,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4402,7 +4593,7 @@
             "col": 5,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4421,7 +4612,7 @@
             "col": 6,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
             "shape": "land"
           }
         },
@@ -4440,7 +4631,25 @@
             "col": 7,
             "row": 0,
             "cols": 8,
-            "rows": 1,
+            "rows": 2,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV059_s13-candidate-0657c6f7.mp4",
+          "group": "pending",
+          "id": "INV059",
+          "title": "Higgsfield clip · INV059 · 10.125 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S13 CANDIDATE 0657c6f7 (Astra handoff)",
+          "img": {
+            "sheet": "sheets/scene-S13.jpg",
+            "col": 0,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
             "shape": "land"
           }
         }
@@ -4535,6 +4744,15 @@
           "role": "archived",
           "approved": false,
           "date": "2026-09-11"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV059.jpg",
+          "id": "INV059",
+          "title": "Higgsfield clip · INV059 · 10.125 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
         }
       ],
       "_audioSrc": [],
@@ -5015,6 +5233,24 @@
             "rows": 2,
             "shape": "land"
           }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "INV060_s15-candidate-77f53145.mp4",
+          "group": "pending",
+          "id": "INV060",
+          "title": "Higgsfield clip · INV060 · 12.042 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S15 CANDIDATE 77f53145 (Astra handoff)",
+          "img": {
+            "sheet": "sheets/scene-S15.jpg",
+            "col": 1,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "land"
+          }
         }
       ],
       "audio": [],
@@ -5116,6 +5352,15 @@
           "role": "archived",
           "approved": false,
           "date": "2026-09-11"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV060.jpg",
+          "id": "INV060",
+          "title": "Higgsfield clip · INV060 · 12.042 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-15"
         }
       ],
       "_audioSrc": [],
@@ -12163,6 +12408,24 @@
         },
         {
           "date": "2026-09-15",
+          "file": "S08-WALKUP-CLEAN-NATIVE-V2.png",
+          "id": "S08-WALKUP-CLEAN-NATIVE-V2",
+          "title": "S08 · START · S08 · approved START still (native 1672×941), Sep 15",
+          "angle": "walk-up",
+          "scene": "S08",
+          "approved": true,
+          "role": "start",
+          "img": {
+            "sheet": "sheets/set-Driveway.jpg",
+            "col": 2,
+            "row": 0,
+            "cols": 8,
+            "rows": 7,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
           "file": "S09-start-V74.jpg",
           "id": "S09-angle",
           "title": "S09 · garage door, conversation",
@@ -12171,7 +12434,7 @@
           "approved": true,
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 2,
+            "col": 3,
             "row": 0,
             "cols": 8,
             "rows": 7,
@@ -12189,7 +12452,25 @@
           "role": "end",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 3,
+            "col": 4,
+            "row": 0,
+            "cols": 8,
+            "rows": 7,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "S09-HOMER-RIGHT-CLEAN-NATIVE-V3.png",
+          "id": "S09-HOMER-RIGHT-CLEAN-NATIVE-V3",
+          "title": "S09 · START · S09 · approved START still, Homer right facing Rexx (native), Sep 15",
+          "angle": "garage door, conversation",
+          "scene": "S09",
+          "approved": true,
+          "role": "start",
+          "img": {
+            "sheet": "sheets/set-Driveway.jpg",
+            "col": 5,
             "row": 0,
             "cols": 8,
             "rows": 7,
@@ -12206,7 +12487,7 @@
           "approved": true,
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 4,
+            "col": 6,
             "row": 0,
             "cols": 8,
             "rows": 7,
@@ -12223,7 +12504,7 @@
           "approved": true,
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 5,
+            "col": 7,
             "row": 0,
             "cols": 8,
             "rows": 7,
@@ -12240,8 +12521,8 @@
           "approved": true,
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 6,
-            "row": 0,
+            "col": 0,
+            "row": 1,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12258,8 +12539,8 @@
           "role": "start",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 7,
-            "row": 0,
+            "col": 1,
+            "row": 1,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12274,7 +12555,7 @@
           "title": "S08 SAME FRAME CLEAN V4 NATIVE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 0,
+            "col": 2,
             "row": 1,
             "cols": 8,
             "rows": 7,
@@ -12288,7 +12569,7 @@
           "title": "S08 SAME FRAME START V2 NATIVE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 1,
+            "col": 3,
             "row": 1,
             "cols": 8,
             "rows": 7,
@@ -12302,7 +12583,7 @@
           "title": "S09 ENTRANCE V8 REMOTE ARM NATIVE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 2,
+            "col": 4,
             "row": 1,
             "cols": 8,
             "rows": 7,
@@ -12316,7 +12597,7 @@
           "title": "S09 ENTRANCE PAIR V7 OWNER LIKENESS NATIVE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 3,
+            "col": 5,
             "row": 1,
             "cols": 8,
             "rows": 7,
@@ -12330,7 +12611,7 @@
           "title": "S08 ENTRANCE PAIR V19 FABRIC NATIVE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 4,
+            "col": 6,
             "row": 1,
             "cols": 8,
             "rows": 7,
@@ -12344,7 +12625,7 @@
           "title": "S08 V17 HOMER MATTE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 5,
+            "col": 7,
             "row": 1,
             "cols": 8,
             "rows": 7,
@@ -12358,8 +12639,8 @@
           "title": "S08 V17 REXX MATTE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 6,
-            "row": 1,
+            "col": 0,
+            "row": 2,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12372,8 +12653,8 @@
           "title": "S24 START TAN REFERENCE REBUILD V3 CORRECTED 8K UPSCALED",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 7,
-            "row": 1,
+            "col": 1,
+            "row": 2,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12386,7 +12667,7 @@
           "title": "S24 START TAN REFERENCE REBUILD V3 CORRECTED NATIVE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 0,
+            "col": 2,
             "row": 2,
             "cols": 8,
             "rows": 7,
@@ -12400,7 +12681,7 @@
           "title": "S24 START TAN REFERENCE REBUILD V3 8K UPSCALED",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 1,
+            "col": 3,
             "row": 2,
             "cols": 8,
             "rows": 7,
@@ -12414,7 +12695,7 @@
           "title": "S24 START TAN REFERENCE REBUILD V3 8K UPSCALED V2",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 2,
+            "col": 4,
             "row": 2,
             "cols": 8,
             "rows": 7,
@@ -12428,7 +12709,7 @@
           "title": "S24 START TAN REFERENCE REBUILD V3 8K UPSCALED",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 3,
+            "col": 5,
             "row": 2,
             "cols": 8,
             "rows": 7,
@@ -12442,7 +12723,7 @@
           "title": "S24 START TAN REFERENCE REBUILD V3 NATIVE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 4,
+            "col": 6,
             "row": 2,
             "cols": 8,
             "rows": 7,
@@ -12456,7 +12737,7 @@
           "title": "APPROVED MULTISHOT TIMING",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 5,
+            "col": 7,
             "row": 2,
             "cols": 8,
             "rows": 7,
@@ -12470,8 +12751,8 @@
           "title": "S09 DOOR HALFWAY V7 HOT WHEELS",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 6,
-            "row": 2,
+            "col": 0,
+            "row": 3,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12484,8 +12765,8 @@
           "title": "S09 DOOR HALFWAY V6 CLEAN",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 7,
-            "row": 2,
+            "col": 1,
+            "row": 3,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12498,7 +12779,7 @@
           "title": "S09 DOOR HALFWAY V6 CLEAN",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 0,
+            "col": 2,
             "row": 3,
             "cols": 8,
             "rows": 7,
@@ -12512,7 +12793,7 @@
           "title": "S09 DOOR HALFWAY V5 POKEMON",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 1,
+            "col": 3,
             "row": 3,
             "cols": 8,
             "rows": 7,
@@ -12526,7 +12807,7 @@
           "title": "S09 DOOR HALFWAY V4 TAUPE CLEAN",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 2,
+            "col": 4,
             "row": 3,
             "cols": 8,
             "rows": 7,
@@ -12540,7 +12821,7 @@
           "title": "APPROVED WALKUP START 0 4",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 3,
+            "col": 5,
             "row": 3,
             "cols": 8,
             "rows": 7,
@@ -12554,7 +12835,7 @@
           "title": "S09 DOOR HALFWAY V2 CLEAN",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 4,
+            "col": 6,
             "row": 3,
             "cols": 8,
             "rows": 7,
@@ -12568,7 +12849,7 @@
           "title": "S09 DOOR HALFWAY V1",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 5,
+            "col": 7,
             "row": 3,
             "cols": 8,
             "rows": 7,
@@ -12582,8 +12863,8 @@
           "title": "S09 END DOOR OPENING V3 INTERIOR CLUTTER",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 6,
-            "row": 3,
+            "col": 0,
+            "row": 4,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12596,8 +12877,8 @@
           "title": "S19 START V7C",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 7,
-            "row": 3,
+            "col": 1,
+            "row": 4,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12610,7 +12891,7 @@
           "title": "S19 START V7B",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 0,
+            "col": 2,
             "row": 4,
             "cols": 8,
             "rows": 7,
@@ -12624,7 +12905,7 @@
           "title": "S08 START V7",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 1,
+            "col": 3,
             "row": 4,
             "cols": 8,
             "rows": 7,
@@ -12638,7 +12919,7 @@
           "title": "S19 START V7",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 2,
+            "col": 4,
             "row": 4,
             "cols": 8,
             "rows": 7,
@@ -12652,7 +12933,7 @@
           "title": "S24 START V7",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 3,
+            "col": 5,
             "row": 4,
             "cols": 8,
             "rows": 7,
@@ -12666,7 +12947,7 @@
           "title": "S19 START V6",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 4,
+            "col": 6,
             "row": 4,
             "cols": 8,
             "rows": 7,
@@ -12680,7 +12961,7 @@
           "title": "S23 START V6",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 5,
+            "col": 7,
             "row": 4,
             "cols": 8,
             "rows": 7,
@@ -12694,8 +12975,8 @@
           "title": "S24 START V6",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 6,
-            "row": 4,
+            "col": 0,
+            "row": 5,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12708,8 +12989,8 @@
           "title": "S19 REXX CANONICAL PROOF V5",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 7,
-            "row": 4,
+            "col": 1,
+            "row": 5,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12722,7 +13003,7 @@
           "title": "S19 START SET V4",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 0,
+            "col": 2,
             "row": 5,
             "cols": 8,
             "rows": 7,
@@ -12736,7 +13017,7 @@
           "title": "S24 FROHAWK DARK BEARD V10",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 1,
+            "col": 3,
             "row": 5,
             "cols": 8,
             "rows": 7,
@@ -12750,7 +13031,7 @@
           "title": "S24 LOOSE DICKIES XL V9",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 2,
+            "col": 4,
             "row": 5,
             "cols": 8,
             "rows": 7,
@@ -12764,7 +13045,7 @@
           "title": "S24 SAME POSE SLIM V7",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 3,
+            "col": 5,
             "row": 5,
             "cols": 8,
             "rows": 7,
@@ -12778,7 +13059,7 @@
           "title": "S24 ACTUAL VIDEO START V1",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 4,
+            "col": 6,
             "row": 5,
             "cols": 8,
             "rows": 7,
@@ -12792,7 +13073,7 @@
           "title": "S24 DICKIES RED LACES V5",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 5,
+            "col": 7,
             "row": 5,
             "cols": 8,
             "rows": 7,
@@ -12806,8 +13087,8 @@
           "title": "S24 LEAN CORDUROY V4 REVIEW",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 6,
-            "row": 5,
+            "col": 0,
+            "row": 6,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12820,8 +13101,8 @@
           "title": "S24 LEAN CORDUROY V3 REVIEW",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 7,
-            "row": 5,
+            "col": 1,
+            "row": 6,
             "cols": 8,
             "rows": 7,
             "shape": "land"
@@ -12834,7 +13115,7 @@
           "title": "S24 PROPORTIONS HOMER V2 REVIEW",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 0,
+            "col": 2,
             "row": 6,
             "cols": 8,
             "rows": 7,
@@ -12848,7 +13129,7 @@
           "title": "S23 WATCH REFERENCE",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 1,
+            "col": 3,
             "row": 6,
             "cols": 8,
             "rows": 7,
@@ -12862,7 +13143,7 @@
           "title": "S24 END CONTINUITY",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 2,
+            "col": 4,
             "row": 6,
             "cols": 8,
             "rows": 7,
@@ -12876,7 +13157,7 @@
           "title": "S24 REAR APPROACH V1",
           "img": {
             "sheet": "sheets/set-Driveway.jpg",
-            "col": 3,
+            "col": 5,
             "row": 6,
             "cols": 8,
             "rows": 7,
@@ -17507,7 +17788,7 @@
       "approved": true
     },
     {
-      "title": "Driveway · S09 · garage door, conversation",
+      "title": "Driveway · S08 · START · S08 · approved START still (native 1672×941), Sep 15",
       "role": "set angle",
       "status": "",
       "img": {
@@ -17522,7 +17803,7 @@
       "approved": true
     },
     {
-      "title": "Driveway · S09 · END · Selected end frame · meeting Homer with remote",
+      "title": "Driveway · S09 · garage door, conversation",
       "role": "set angle",
       "status": "",
       "img": {
@@ -17533,11 +17814,11 @@
         "rows": 7,
         "shape": "land"
       },
-      "date": "2026-09-13",
+      "date": "2026-09-15",
       "approved": true
     },
     {
-      "title": "Driveway · S19 · Bart skates",
+      "title": "Driveway · S09 · END · Selected end frame · meeting Homer with remote",
       "role": "set angle",
       "status": "",
       "img": {
@@ -17548,11 +17829,11 @@
         "rows": 7,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-13",
       "approved": true
     },
     {
-      "title": "Driveway · S23 · Apu arrives",
+      "title": "Driveway · S09 · START · S09 · approved START still, Homer right facing Rexx (native), Sep 15",
       "role": "set angle",
       "status": "",
       "img": {
@@ -17567,7 +17848,7 @@
       "approved": true
     },
     {
-      "title": "Driveway · S24 · rear wide, walk to car",
+      "title": "Driveway · S19 · Bart skates",
       "role": "set angle",
       "status": "",
       "img": {
@@ -17582,13 +17863,43 @@
       "approved": true
     },
     {
-      "title": "Driveway · S24 · START · Selected slender rear walk to Apu · corrected Grinch heels",
+      "title": "Driveway · S23 · Apu arrives",
       "role": "set angle",
       "status": "",
       "img": {
         "sheet": "sheets/set-Driveway.jpg",
         "col": 7,
         "row": 0,
+        "cols": 8,
+        "rows": 7,
+        "shape": "land"
+      },
+      "date": "2026-09-15",
+      "approved": true
+    },
+    {
+      "title": "Driveway · S24 · rear wide, walk to car",
+      "role": "set angle",
+      "status": "",
+      "img": {
+        "sheet": "sheets/set-Driveway.jpg",
+        "col": 0,
+        "row": 1,
+        "cols": 8,
+        "rows": 7,
+        "shape": "land"
+      },
+      "date": "2026-09-15",
+      "approved": true
+    },
+    {
+      "title": "Driveway · S24 · START · Selected slender rear walk to Apu · corrected Grinch heels",
+      "role": "set angle",
+      "status": "",
+      "img": {
+        "sheet": "sheets/set-Driveway.jpg",
+        "col": 1,
+        "row": 1,
         "cols": 8,
         "rows": 7,
         "shape": "land"
