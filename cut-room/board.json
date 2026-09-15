@@ -2,7 +2,7 @@
  "format": 3,
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-15T23:21:58.355Z",
+ "builtAt": "2026-09-15T23:28:13.933Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -1183,7 +1183,7 @@
    "nextAction": "Review the join to retained S09; prepare its matching conversation and single remote/open-garage sequence.",
    "gate": "Owner selected both stills and requested loading them in Higgsfield.",
    "video": "S08-WALKUP-V51-REPLACEMENT.mp4",
-   "editStatus": "IN REPAIR PASS · Order 1 · S08/S09 trials prepared (Kling 3.0 Pro, 4 s), waiting on the owner's spend go. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "IN REPAIR PASS · Order 1 · TRIAL RENDERED 2026-09-15 (job 33194ecc, 4 s walk-up trial from the approved Sep 15 still, Kling 3.0 Pro, 6 credits). Silent; lip-sync + owner review next.",
    "still": {
     "sheet": "sheets/scene-S08.jpg",
     "col": 0,
@@ -1689,6 +1689,24 @@
       "rows": 4,
       "shape": "land"
      }
+    },
+    {
+     "date": "2026-09-15",
+     "file": "INV061_s08-trial-33194ecc-kling3-0-pro-4s.mp4",
+     "group": "pending",
+     "id": "INV061",
+     "title": "Higgsfield clip · INV061 · 4.042 s",
+     "role": "clip",
+     "approved": false,
+     "status": "S08 TRIAL 33194ecc kling3_0 pro 4s (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S08.jpg",
+      "col": 1,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
     }
    ],
    "audio": [],
@@ -1934,6 +1952,15 @@
      "role": "archived",
      "approved": false,
      "date": "2026-09-13"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV061.jpg",
+     "id": "INV061",
+     "title": "Higgsfield clip · INV061 · 4.042 s",
+     "group": "pending",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-15"
     }
    ],
    "_audioSrc": [],
@@ -1953,7 +1980,7 @@
    "nextAction": "Prepare reference-matched closed-door conversation and one remote action. Preserve approved voices.",
    "gate": "Owner selected both stills and requested loading them in Higgsfield.",
    "video": "S09-CURRENT-V63.mp4",
-   "editStatus": "IN REPAIR PASS · Order 1 · 5 s conversation trial prepared from the corrected Homer-facing-Rexx still, waiting on the owner's spend go. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "IN REPAIR PASS · Order 1 · TRIAL RENDERED 2026-09-15 (job bb357e3c, 5 s conversation trial from the approved Sep 15 still, Kling 3.0 Pro, 7.5 credits). Silent; lip-sync + owner review next.",
    "still": {
     "sheet": "sheets/scene-S09.jpg",
     "col": 0,
@@ -2498,6 +2525,24 @@
       "rows": 4,
       "shape": "land"
      }
+    },
+    {
+     "date": "2026-09-15",
+     "file": "INV062_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
+     "group": "pending",
+     "id": "INV062",
+     "title": "Higgsfield clip · INV062 · 5.042 s",
+     "role": "clip",
+     "approved": false,
+     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 3,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
     }
    ],
    "audio": [],
@@ -2759,6 +2804,15 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV046.jpg",
      "id": "INV046",
      "title": "Lip-sync clip · INV046 · 5 s",
+     "group": "pending",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-15"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV062.jpg",
+     "id": "INV062",
+     "title": "Higgsfield clip · INV062 · 5.042 s",
      "group": "pending",
      "role": "clip",
      "approved": false,
