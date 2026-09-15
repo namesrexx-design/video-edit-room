@@ -8803,118 +8803,6 @@
      "file": "S18-START-V6-INSPECT.jpg",
      "id": "S18-START-V6-INSPECT",
      "title": "S18 START V6 INSPECT"
-    },
-    {
-     "img": "sb/sb430.jpg",
-     "date": "2026-09-12",
-     "file": "S15-START-V6.png",
-     "id": "S15-START-V6",
-     "title": "S15 START V6"
-    },
-    {
-     "img": "sb/sb431.jpg",
-     "date": "2026-09-12",
-     "file": "S14-START-V6.png",
-     "id": "S14-START-V6",
-     "title": "S14 START V6"
-    },
-    {
-     "img": "sb/sb432.jpg",
-     "date": "2026-09-12",
-     "file": "S13-START-V6.png",
-     "id": "S13-START-V6",
-     "title": "S13 START V6"
-    },
-    {
-     "img": "sb/sb433.jpg",
-     "date": "2026-09-12",
-     "file": "S20-START-V6.png",
-     "id": "S20-START-V6",
-     "title": "S20 START V6"
-    },
-    {
-     "img": "sb/sb434.jpg",
-     "date": "2026-09-12",
-     "file": "S12-START-V6.png",
-     "id": "S12-START-V6",
-     "title": "S12 START V6"
-    },
-    {
-     "img": "sb/sb435.jpg",
-     "date": "2026-09-12",
-     "file": "S11-START-V6.png",
-     "id": "S11-START-V6",
-     "title": "S11 START V6"
-    },
-    {
-     "img": "sb/sb436.jpg",
-     "date": "2026-09-12",
-     "file": "S10-START-V6.png",
-     "id": "S10-START-V6",
-     "title": "S10 START V6"
-    },
-    {
-     "img": "sb/sb437.jpg",
-     "date": "2026-09-12",
-     "file": "S16-START-V6.png",
-     "id": "S16-START-V6",
-     "title": "S16 START V6"
-    },
-    {
-     "img": "sb/sb438.jpg",
-     "date": "2026-09-12",
-     "file": "GARAGE-DETAIL-RIGHT-V4.png",
-     "id": "GARAGE-DETAIL-RIGHT-V4",
-     "title": "GARAGE DETAIL RIGHT V4"
-    },
-    {
-     "img": "sb/sb439.jpg",
-     "date": "2026-09-12",
-     "file": "GARAGE-DETAIL-LEFT-V4.png",
-     "id": "GARAGE-DETAIL-LEFT-V4",
-     "title": "GARAGE DETAIL LEFT V4"
-    },
-    {
-     "img": "sb/sb440.jpg",
-     "date": "2026-09-12",
-     "file": "S21-SLIM-REXX-HOMER-CURLS-V1.png",
-     "id": "S21-SLIM-REXX-HOMER-CURLS-V1",
-     "title": "S21 SLIM REXX HOMER CURLS V1"
-    },
-    {
-     "img": "sb/sb441.jpg",
-     "date": "2026-09-12",
-     "file": "S21-START-SET-V4.png",
-     "id": "S21-START-SET-V4",
-     "title": "S21 START SET V4"
-    },
-    {
-     "img": "sb/sb442.jpg",
-     "date": "2026-09-12",
-     "file": "S20-START-SET-V4.png",
-     "id": "S20-START-SET-V4",
-     "title": "S20 START SET V4"
-    },
-    {
-     "img": "sb/sb443.jpg",
-     "date": "2026-09-12",
-     "file": "S11-SHARED-START-SET-V4.png",
-     "id": "S11-SHARED-START-SET-V4",
-     "title": "S11 SHARED START SET V4"
-    },
-    {
-     "img": "sb/sb444.jpg",
-     "date": "2026-09-12",
-     "file": "S10-START-SET-V4.png",
-     "id": "S10-START-SET-V4",
-     "title": "S10 START SET V4"
-    },
-    {
-     "img": "sb/sb445.jpg",
-     "date": "2026-09-12",
-     "file": "S12-START-SET-V3.png",
-     "id": "S12-START-SET-V3",
-     "title": "S12 START SET V3"
     }
    ],
    "scenes": [
@@ -8929,7 +8817,8 @@
     "S20",
     "S21",
     "S22"
-   ]
+   ],
+   "note": "showing the 100 newest of 116 garage renders"
   },
   {
    "name": "PCH road (dream)",
