@@ -2,7 +2,7 @@
  "format": 3,
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-15T21:46:52.624Z",
+ "builtAt": "2026-09-15T21:54:11.778Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -10149,7 +10149,7 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 1,
       "row": 0,
-      "cols": 3,
+      "cols": 4,
       "rows": 1,
       "shape": "port"
      }
@@ -10169,7 +10169,7 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 1,
       "row": 0,
-      "cols": 3,
+      "cols": 4,
       "rows": 1,
       "shape": "port"
      }
@@ -10189,7 +10189,7 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 2,
       "row": 0,
-      "cols": 3,
+      "cols": 4,
       "rows": 1,
       "shape": "port"
      }
@@ -10209,7 +10209,7 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 1,
       "row": 0,
-      "cols": 3,
+      "cols": 4,
       "rows": 1,
       "shape": "port"
      }
@@ -10231,7 +10231,26 @@
       "sheet": "sheets/char-Homer.jpg",
       "col": 0,
       "row": 0,
-      "cols": 3,
+      "cols": 4,
+      "rows": 1,
+      "shape": "port"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "HOMER-HAIR-THREE-ANGLES-PROPOSED.png",
+     "id": "PACK-HOMER-HAIR-THREE-ANGLES-PROPOSED",
+     "title": "Homer · HOMER HAIR THREE ANGLES PROPOSED",
+     "role": "unfiled pack image (candidate)",
+     "notes": "",
+     "approved": false,
+     "status": "In the continuity pack, never filed — review and approve or remove",
+     "view": "head",
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 3,
+      "row": 0,
+      "cols": 4,
       "rows": 1,
       "shape": "port"
      }
@@ -15886,8 +15905,8 @@
      "sheet": "sheets/props.jpg",
      "col": 0,
      "row": 0,
-     "cols": 6,
-     "rows": 1,
+     "cols": 8,
+     "rows": 8,
      "shape": "land"
     }
    }
@@ -15905,8 +15924,8 @@
      "sheet": "sheets/props.jpg",
      "col": 1,
      "row": 0,
-     "cols": 6,
-     "rows": 1,
+     "cols": 8,
+     "rows": 8,
      "shape": "land"
     }
    },
@@ -16051,8 +16070,8 @@
      "sheet": "sheets/props.jpg",
      "col": 2,
      "row": 0,
-     "cols": 6,
-     "rows": 1,
+     "cols": 8,
+     "rows": 8,
      "shape": "land"
     }
    },
@@ -16067,8 +16086,8 @@
      "sheet": "sheets/props.jpg",
      "col": 3,
      "row": 0,
-     "cols": 6,
-     "rows": 1,
+     "cols": 8,
+     "rows": 8,
      "shape": "land"
     }
    },
@@ -16083,8 +16102,8 @@
      "sheet": "sheets/props.jpg",
      "col": 4,
      "row": 0,
-     "cols": 6,
-     "rows": 1,
+     "cols": 8,
+     "rows": 8,
      "shape": "land"
     }
    },
@@ -16099,8 +16118,8 @@
      "sheet": "sheets/props.jpg",
      "col": 5,
      "row": 0,
-     "cols": 6,
-     "rows": 1,
+     "cols": 8,
+     "rows": 8,
      "shape": "land"
     }
    },
@@ -16220,6 +16239,924 @@
     "status": "no reference image yet",
     "approved": false,
     "img": null
+   },
+   {
+    "date": "2026-09-15",
+    "file": "atari-2600-woody-original-inspection-preview.jpg",
+    "id": "owner-atari-2600-woody-original-inspection-preview",
+    "title": "atari 2600 woody original inspection preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 6,
+     "row": 0,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "atari-2600-woody-original.jpg",
+    "id": "owner-atari-2600-woody-original",
+    "title": "atari 2600 woody original (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 7,
+     "row": 0,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "atari-box.jpg",
+    "id": "owner-atari-box",
+    "title": "atari box (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "Dell-OptiPlex-9020-desktop.jpg",
+    "id": "owner-Dell-OptiPlex-9020-desktop",
+    "title": "Dell OptiPlex 9020 desktop (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "DEWALT-DCK540D1.webp",
+    "id": "owner-DEWALT-DCK540D1",
+    "title": "DEWALT DCK540D1 (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "EGO-LM2135SP-mower.png",
+    "id": "owner-EGO-LM2135SP-mower",
+    "title": "EGO LM2135SP mower (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 3,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "gi-joe-duke-hasbro-pulse-normalized.jpg",
+    "id": "owner-gi-joe-duke-hasbro-pulse-normalized",
+    "title": "gi joe duke hasbro pulse normalized (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 4,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "jordan-signed-jersey-preview.jpg",
+    "id": "owner-jordan-signed-jersey-preview",
+    "title": "jordan signed jersey preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "jordan-signed-jersey.jpg",
+    "id": "owner-jordan-signed-jersey",
+    "title": "jordan signed jersey (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 6,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-autograph-preview.jpg",
+    "id": "owner-kobe-autograph-preview",
+    "title": "kobe autograph preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 7,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-autograph.jpg",
+    "id": "owner-kobe-autograph",
+    "title": "kobe autograph (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-back-full-preview.jpg",
+    "id": "owner-kobe-back-full-preview",
+    "title": "kobe back full preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-back-full.jpg",
+    "id": "owner-kobe-back-full",
+    "title": "kobe back full (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-signed-back-preview.jpg",
+    "id": "owner-kobe-signed-back-preview",
+    "title": "kobe signed back preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 3,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-signed-back.jpg",
+    "id": "owner-kobe-signed-back",
+    "title": "kobe signed back (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 4,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-signed-jersey-preview.jpg",
+    "id": "owner-kobe-signed-jersey-preview",
+    "title": "kobe signed jersey preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "kobe-signed-jersey.jpg",
+    "id": "owner-kobe-signed-jersey",
+    "title": "kobe signed jersey (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 6,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "nes-box.jpg",
+    "id": "owner-nes-box",
+    "title": "nes box (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 7,
+     "row": 2,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "nes-frontloader-original.jpg",
+    "id": "owner-nes-frontloader-original",
+    "title": "nes frontloader original (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "RYOBI-18V-ONE-String-Trimmer.jpg",
+    "id": "owner-RYOBI-18V-ONE-String-Trimmer",
+    "title": "RYOBI 18V ONE String Trimmer (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "shaq-signed-jersey-preview.jpg",
+    "id": "owner-shaq-signed-jersey-preview",
+    "title": "shaq signed jersey preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "shaq-signed-jersey.jpg",
+    "id": "owner-shaq-signed-jersey",
+    "title": "shaq signed jersey (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 3,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "snes-box.jpg",
+    "id": "owner-snes-box",
+    "title": "snes box (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 4,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "snes-us-front-inspection.jpg",
+    "id": "owner-snes-us-front-inspection",
+    "title": "snes us front inspection (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "snes-us-front-original.jpg",
+    "id": "owner-snes-us-front-original",
+    "title": "snes us front original (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 6,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "snes-us-original-inspection-preview.jpg",
+    "id": "owner-snes-us-original-inspection-preview",
+    "title": "snes us original inspection preview (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 7,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "snes-us-original.jpg",
+    "id": "owner-snes-us-original",
+    "title": "snes us original (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "transformers-optimal-optimus-hasbro-pulse-normalized.jpg",
+    "id": "owner-transformers-optimal-optimus-hasbro-pulse-normalized",
+    "title": "transformers optimal optimus hasbro pulse normalized (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "WOODEN-Y-SLINGSHOT-REAL-REFERENCE.jpg",
+    "id": "owner-WOODEN-Y-SLINGSHOT-REAL-REFERENCE",
+    "title": "WOODEN Y SLINGSHOT REAL REFERENCE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE.jpg",
+    "id": "owner-GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE",
+    "title": "GRINCH SHOE KOBE6 ACTUAL HEEL REFERENCE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 3,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-01-34-FRONT.jpg",
+    "id": "owner-BUGATTI-LVN-01-34-FRONT",
+    "title": "BUGATTI LVN 01 34 FRONT (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 4,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-02-ELEVATED-FRONT.jpg",
+    "id": "owner-BUGATTI-LVN-02-ELEVATED-FRONT",
+    "title": "BUGATTI LVN 02 ELEVATED FRONT (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-03-FRONT.jpg",
+    "id": "owner-BUGATTI-LVN-03-FRONT",
+    "title": "BUGATTI LVN 03 FRONT (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 6,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-04-SIDE.jpg",
+    "id": "owner-BUGATTI-LVN-04-SIDE",
+    "title": "BUGATTI LVN 04 SIDE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 7,
+     "row": 4,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-05-34-REAR.jpg",
+    "id": "owner-BUGATTI-LVN-05-34-REAR",
+    "title": "BUGATTI LVN 05 34 REAR (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-06-REAR.jpg",
+    "id": "owner-BUGATTI-LVN-06-REAR",
+    "title": "BUGATTI LVN 06 REAR (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-07-TOP.jpg",
+    "id": "owner-BUGATTI-LVN-07-TOP",
+    "title": "BUGATTI LVN 07 TOP (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-08-ELEVATED-SIDE.jpg",
+    "id": "owner-BUGATTI-LVN-08-ELEVATED-SIDE",
+    "title": "BUGATTI LVN 08 ELEVATED SIDE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 3,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-09-SIGNATURE-DETAIL.jpg",
+    "id": "owner-BUGATTI-LVN-09-SIGNATURE-DETAIL",
+    "title": "BUGATTI LVN 09 SIGNATURE DETAIL (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 4,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-10-ELEVATED-34-FRONT.jpg",
+    "id": "owner-BUGATTI-LVN-10-ELEVATED-34-FRONT",
+    "title": "BUGATTI LVN 10 ELEVATED 34 FRONT (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-11-ELEVATED-34-REAR.jpg",
+    "id": "owner-BUGATTI-LVN-11-ELEVATED-34-REAR",
+    "title": "BUGATTI LVN 11 ELEVATED 34 REAR (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 6,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-12-PATTERN-DETAIL.jpg",
+    "id": "owner-BUGATTI-LVN-12-PATTERN-DETAIL",
+    "title": "BUGATTI LVN 12 PATTERN DETAIL (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 7,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-13-EXHAUST-DETAIL.jpg",
+    "id": "owner-BUGATTI-LVN-13-EXHAUST-DETAIL",
+    "title": "BUGATTI LVN 13 EXHAUST DETAIL (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-14-HEADLIGHT-DETAIL.jpg",
+    "id": "owner-BUGATTI-LVN-14-HEADLIGHT-DETAIL",
+    "title": "BUGATTI LVN 14 HEADLIGHT DETAIL (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-15-WHEEL-DETAIL.jpg",
+    "id": "owner-BUGATTI-LVN-15-WHEEL-DETAIL",
+    "title": "BUGATTI LVN 15 WHEEL DETAIL (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-16-ELEVATED-REAR.jpg",
+    "id": "owner-BUGATTI-LVN-16-ELEVATED-REAR",
+    "title": "BUGATTI LVN 16 ELEVATED REAR (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 3,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-17-SIDE-CLOSE.jpg",
+    "id": "owner-BUGATTI-LVN-17-SIDE-CLOSE",
+    "title": "BUGATTI LVN 17 SIDE CLOSE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 4,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-18-REARLIGHT-DETAIL.jpg",
+    "id": "owner-BUGATTI-LVN-18-REARLIGHT-DETAIL",
+    "title": "BUGATTI LVN 18 REARLIGHT DETAIL (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-19-REAR-CLOSE.jpg",
+    "id": "owner-BUGATTI-LVN-19-REAR-CLOSE",
+    "title": "BUGATTI LVN 19 REAR CLOSE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 6,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-20-HEADLIGHT-CLOSE.jpg",
+    "id": "owner-BUGATTI-LVN-20-HEADLIGHT-CLOSE",
+    "title": "BUGATTI LVN 20 HEADLIGHT CLOSE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 7,
+     "row": 6,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-CONTACT-REFERENCE-PHOTOS.jpg",
+    "id": "owner-BUGATTI-LVN-CONTACT-REFERENCE-PHOTOS",
+    "title": "BUGATTI LVN CONTACT REFERENCE PHOTOS (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 7,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "BUGATTI-LVN-OFFICIAL-HERO.jpg",
+    "id": "owner-BUGATTI-LVN-OFFICIAL-HERO",
+    "title": "BUGATTI LVN OFFICIAL HERO (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 7,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "WAYMO-ARRIVAL-CONTACT-REFERENCE.jpg",
+    "id": "owner-WAYMO-ARRIVAL-CONTACT-REFERENCE",
+    "title": "WAYMO ARRIVAL CONTACT REFERENCE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 7,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-15",
+    "file": "WAYMO-ARRIVAL-REFERENCE-SOURCE.jpg",
+    "id": "owner-WAYMO-ARRIVAL-REFERENCE-SOURCE",
+    "title": "WAYMO ARRIVAL REFERENCE SOURCE (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 3,
+     "row": 7,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
    }
   ]
  },
@@ -17027,8 +17964,8 @@
     "sheet": "sheets/props.jpg",
     "col": 0,
     "row": 0,
-    "cols": 6,
-    "rows": 1,
+    "cols": 8,
+    "rows": 8,
     "shape": "land"
    },
    "date": "2026-09-12",
@@ -17042,8 +17979,8 @@
     "sheet": "sheets/props.jpg",
     "col": 1,
     "row": 0,
-    "cols": 6,
-    "rows": 1,
+    "cols": 8,
+    "rows": 8,
     "shape": "land"
    },
    "date": "2026-09-12",
@@ -17161,8 +18098,8 @@
     "sheet": "sheets/props.jpg",
     "col": 2,
     "row": 0,
-    "cols": 6,
-    "rows": 1,
+    "cols": 8,
+    "rows": 8,
     "shape": "land"
    },
    "date": "2026-09-12",
@@ -17176,8 +18113,8 @@
     "sheet": "sheets/props.jpg",
     "col": 3,
     "row": 0,
-    "cols": 6,
-    "rows": 1,
+    "cols": 8,
+    "rows": 8,
     "shape": "land"
    },
    "date": "2026-09-12",
@@ -17191,8 +18128,8 @@
     "sheet": "sheets/props.jpg",
     "col": 4,
     "row": 0,
-    "cols": 6,
-    "rows": 1,
+    "cols": 8,
+    "rows": 8,
     "shape": "land"
    },
    "date": "2026-09-12",
@@ -17206,8 +18143,8 @@
     "sheet": "sheets/props.jpg",
     "col": 5,
     "row": 0,
-    "cols": 6,
-    "rows": 1,
+    "cols": 8,
+    "rows": 8,
     "shape": "land"
    },
    "date": "2026-09-12",
@@ -17315,6 +18252,816 @@
    "status": "no reference image yet",
    "img": null,
    "date": null,
+   "approved": false
+  },
+  {
+   "title": "atari 2600 woody original inspection preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 0,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "atari 2600 woody original (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 7,
+    "row": 0,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "atari box (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "Dell OptiPlex 9020 desktop (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "DEWALT DCK540D1 (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "EGO LM2135SP mower (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "gi joe duke hasbro pulse normalized (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 4,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "jordan signed jersey preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 5,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "jordan signed jersey (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe autograph preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 7,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe autograph (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe back full preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe back full (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe signed back preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe signed back (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 4,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe signed jersey preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 5,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "kobe signed jersey (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "nes box (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 7,
+    "row": 2,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "nes frontloader original (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "RYOBI 18V ONE String Trimmer (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "shaq signed jersey preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "shaq signed jersey (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "snes box (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 4,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "snes us front inspection (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 5,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "snes us front original (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "snes us original inspection preview (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 7,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "snes us original (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "transformers optimal optimus hasbro pulse normalized (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "WOODEN Y SLINGSHOT REAL REFERENCE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "GRINCH SHOE KOBE6 ACTUAL HEEL REFERENCE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 01 34 FRONT (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 4,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 02 ELEVATED FRONT (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 5,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 03 FRONT (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 04 SIDE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 7,
+    "row": 4,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 05 34 REAR (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 06 REAR (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 07 TOP (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 08 ELEVATED SIDE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 09 SIGNATURE DETAIL (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 4,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 10 ELEVATED 34 FRONT (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 5,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 11 ELEVATED 34 REAR (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 12 PATTERN DETAIL (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 7,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 13 EXHAUST DETAIL (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 14 HEADLIGHT DETAIL (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 15 WHEEL DETAIL (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 16 ELEVATED REAR (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 17 SIDE CLOSE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 4,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 18 REARLIGHT DETAIL (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 5,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 19 REAR CLOSE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 20 HEADLIGHT CLOSE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 7,
+    "row": 6,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN CONTACT REFERENCE PHOTOS (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 7,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN OFFICIAL HERO (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 7,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "WAYMO ARRIVAL CONTACT REFERENCE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 7,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
+   "approved": false
+  },
+  {
+   "title": "WAYMO ARRIVAL REFERENCE SOURCE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 7,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-15",
    "approved": false
   }
  ],
