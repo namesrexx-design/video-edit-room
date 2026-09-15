@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-15T19:04:01.701Z",
+  "builtAt": "2026-09-15T21:09:19.433Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -6322,7 +6322,7 @@
   "characters": [
     {
       "name": "Rexx",
-      "status": "Rexx full-body V2 APPROVED; rear-head tan / narrower-neck V8 ready for review. Other characters retained.",
+      "status": "Seven rear views selected for gallery; tight-left awaits visual approval before rendering.",
       "voice": {
         "voiceName": "namesrexx",
         "voiceId": "omTQvsWgoQBrcTuWdttm",
@@ -6330,33 +6330,35 @@
         "status": "Established project voice; selected and verified in ElevenLabs UI"
       },
       "continuity": {
-        "beard": "Predominantly dark brown-black with only a few scattered white hairs; no gray chin patch.",
+        "beard": "Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck.",
         "height": "6 ft 1 in",
         "weight": "about 170 lb",
         "source": "Owner stated measurements and approved generated body size",
-        "bodyReference": "character-packs/rexx/BODY-PROPORTIONS-ONLY-FACE-REJECTED.png",
-        "bodyStatus": "Owner-approved proportions only",
+        "bodyReference": "character-references/rexx/2026-09-15/native-masters/REXX-REAR-STRAIGHT-NATIVE-V2.png",
+        "bodyStatus": "Owner-selected September 15 slender rear-only appearance",
         "faceStatus": "Owner explicitly rejected likeness: that is not me",
-        "rule": "Body-only approved at about 170 lb, 6 ft 1 in. Exclude rejected front-facing generated likeness. Use only rear/slight-side compositions; mostly dark beard edge with a few white hairs.",
-        "hat": "Always a corduroy snapback with visible ribbed fabric and adjustable snap closure. Black for garage outfit, approved scene-specific colors elsewhere.",
-        "coverage": "Rear view and slight sides only in skits; no front-facing portrait coverage. Do not require a full-face identity pack for these shots.",
+        "rule": "Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing.",
+        "hat": "Black corduroy snapback with rear snap closure, brim facing forward.",
+        "coverage": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing.",
         "thirdPersonFocus": "Rear/slight-side foreground, softly out of focus while the conversation partner remains sharp. Natural shallow depth of field; preserve silhouette and outfit.",
         "headAndNeck": "Slightly smaller head and narrower neck proportioned to approved lean 6 ft 1 in / 170 lb build.",
-        "shoeHeels": "Green Grinches with RED laces. Retain visible heel/back detail but make the detail tonal GREEN, not red. Do not erase heel detail or make laces green.",
-        "pants": "Always classic Dickies work pants, cuffed. Black in this outfit. Smooth structured workwear twill with classic work-pant pockets and seams; never denim, jeans, faded wash or denim whiskering.",
-        "shoes": "Green Grinches with RED laces. Retain visible heel/back detail but make the detail tonal GREEN, not red. Do not erase heel detail or make laces green."
+        "shoeHeels": "Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+        "pants": "Cuffed black classic Dickies work pants, black socks.",
+        "shoes": "Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+        "skinTone": "Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am.",
+        "shirt": "Plain black tee, baggier and slightly longer than previous reference."
       },
       "current": [
         {
-          "date": "2026-09-12",
-          "file": "REXX-FULL-BODY-REAR-TAN-V2.png",
-          "id": "REXX-FULL-BODY-TAN-02",
-          "title": "Rexx · APPROVED full-body rear reference",
-          "role": "Canonical full-body proportions and rear presentation",
-          "notes": "Owner explicitly approved: that full body for me is perfect. Preserve this exact image and physique. Both wardrobe detail references remain available for garment construction.",
+          "date": "2026-09-15",
+          "file": "REXX-REAR-LOOK-RIGHT-NATIVE-V2.png",
+          "id": "REXX-REAR-LOOK-RIGHT-V2-20260915",
+          "title": "Rexx · full body · looking right",
+          "role": "full body rear-only character reference",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
           "approved": true,
-          "status": "APPROVED — full-body rear reference",
-          "group": "Full-body character photos",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "group": "Rexx · current seven rear views",
           "view": "behind",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
@@ -6368,20 +6370,120 @@
           }
         },
         {
-          "date": "2026-09-12",
-          "file": "REXX-HEAD-THREE-ANGLES-CANDIDATE-V2.png",
-          "id": "REXX-HEAD-CANDIDATE-02",
-          "title": "Rexx · rear / over-shoulder head sheet",
-          "role": "Proposed canonical rear head identity",
-          "notes": "Black corduroy snapback, rear adjuster, neat fade, proportionate head and darker beard. No frontal face. Replaces too-gray V1 candidate.",
+          "date": "2026-09-15",
+          "file": "REXX-REAR-LOOK-LEFT-NATIVE-V2.png",
+          "id": "REXX-REAR-LOOK-LEFT-V2-20260915",
+          "title": "Rexx · full body · looking left",
+          "role": "full body rear-only character reference",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
           "approved": true,
-          "status": "Likeness approved; superseded in active gallery by glasses version",
-          "group": "Hair · Rexx frohawk and Homer curls",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "group": "Rexx · current seven rear views",
           "view": "behind",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
-            "col": 0,
-            "row": 1,
+            "col": 1,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "REXX-REAR-STRAIGHT-NATIVE-V2.png",
+          "id": "REXX-REAR-STRAIGHT-V2-20260915",
+          "title": "Rexx · full body · looking straight",
+          "role": "full body rear-only character reference",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "approved": true,
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "group": "Rexx · current seven rear views",
+          "view": "behind",
+          "img": {
+            "sheet": "sheets/char-Rexx.jpg",
+            "col": 2,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "REXX-OVER-RIGHT-SHOULDER-BEARD-NATIVE-V2.png",
+          "id": "REXX-OVER-RIGHT-SHOULDER-BEARD-V2-20260915",
+          "title": "Rexx · medium shoulder · looking right",
+          "role": "medium shoulder rear-only character reference",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "approved": true,
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "group": "Rexx · current seven rear views",
+          "view": "behind",
+          "img": {
+            "sheet": "sheets/char-Rexx.jpg",
+            "col": 3,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "REXX-OVER-LEFT-SHOULDER-BEARD-NATIVE-V2.png",
+          "id": "REXX-OVER-LEFT-SHOULDER-BEARD-V2-20260915",
+          "title": "Rexx · medium shoulder · looking left",
+          "role": "medium shoulder rear-only character reference",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "approved": true,
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "group": "Rexx · current seven rear views",
+          "view": "behind",
+          "img": {
+            "sheet": "sheets/char-Rexx.jpg",
+            "col": 4,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "REXX-TIGHT-RIGHT-SHOULDER-NATIVE-V1.png",
+          "id": "REXX-TIGHT-RIGHT-SHOULDER-V1-20260915",
+          "title": "Rexx · tight shoulder · looking right",
+          "role": "tight shoulder rear-only character reference",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "approved": true,
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "group": "Rexx · current seven rear views",
+          "view": "behind",
+          "img": {
+            "sheet": "sheets/char-Rexx.jpg",
+            "col": 5,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "file": "REXX-TIGHT-LEFT-SHOULDER-NATIVE-V1.png",
+          "id": "REXX-TIGHT-LEFT-SHOULDER-V1-20260915",
+          "title": "Rexx · tight shoulder · looking left",
+          "role": "tight shoulder rear-only character reference",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "approved": true,
+          "status": "Owner-selected gallery reference — tight-left visual approval pending; not a render input",
+          "group": "Rexx · current seven rear views",
+          "view": "behind",
+          "img": {
+            "sheet": "sheets/char-Rexx.jpg",
+            "col": 6,
+            "row": 0,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6391,19 +6493,39 @@
       "archive": [
         {
           "date": "2026-09-12",
+          "file": "REXX-FULL-BODY-REAR-TAN-V2.png",
+          "id": "REXX-FULL-BODY-TAN-02",
+          "title": "Rexx · APPROVED full-body rear reference",
+          "role": "Canonical full-body proportions and rear presentation",
+          "notes": "Owner explicitly approved: that full body for me is perfect. Preserve this exact image and physique. Both wardrobe detail references remain available for garment construction.",
+          "approved": false,
+          "status": "Superseded gallery reference — archived",
+          "group": "Full-body character photos",
+          "view": "behind",
+          "img": {
+            "sheet": "sheets/char-Rexx.jpg",
+            "col": 7,
+            "row": 0,
+            "cols": 8,
+            "rows": 2,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-12",
           "file": "REXX-FULL-BODY-V1.png",
           "id": "REXX-FULL-BODY-01",
           "title": "Rexx · full-body reference",
           "role": "Full-length character / outfit reference",
           "notes": "Newly rendered from current head and clothing references. Candidate only; not inserted into video.",
           "approved": false,
-          "status": "REJECTED — body does not match selected Rexx/Homer rear scene",
+          "status": "Superseded gallery reference — archived",
           "group": "Full-body character photos",
           "view": "full body",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
-            "col": 1,
-            "row": 0,
+            "col": 0,
+            "row": 1,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6417,13 +6539,13 @@
           "role": "Final requested rear-head correction",
           "notes": "Preserves warm tan and rear-only angles; neck subtly narrowed to match approved full-body image. Review pending.",
           "approved": false,
-          "status": "Generated — owner review pending",
+          "status": "Superseded gallery reference — archived",
           "group": "Hair · Rexx frohawk and Homer curls",
           "view": "behind",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
-            "col": 2,
-            "row": 0,
+            "col": 1,
+            "row": 1,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6437,13 +6559,13 @@
           "role": "Rear-only head reference with requested skin tone",
           "notes": "Preserves V6 head/neck and rear angles; exposed skin darkened naturally to match new body reference. Review pending.",
           "approved": false,
-          "status": "Superseded by requested narrower-neck V8",
+          "status": "Superseded gallery reference — archived",
           "group": "Hair · Rexx frohawk and Homer curls",
           "view": "behind",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
-            "col": 3,
-            "row": 0,
+            "col": 2,
+            "row": 1,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6457,13 +6579,13 @@
           "role": "Rear-only head reference; matched to rear-scene proportions",
           "notes": "Preserves V5 rear angles and glasses; head/neck match owner-selected Rexx/Homer rear scene. New correction awaiting review.",
           "approved": false,
-          "status": "Superseded by requested darker-tan V7",
+          "status": "Superseded gallery reference — archived",
           "group": "Hair · Rexx frohawk and Homer curls",
           "view": "behind",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
-            "col": 4,
-            "row": 0,
+            "col": 3,
+            "row": 1,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6477,13 +6599,13 @@
           "role": "Rear-only head references",
           "notes": "Match the narrower rear neck/head in REXX-HOMER-REAR-SCENE-CANDIDATE-V1.png. Do not use V5 proportions as identity authority.",
           "approved": false,
-          "status": "Angles approved; head and neck too stocky — correction required",
+          "status": "Superseded gallery reference — archived",
           "group": "Hair · Rexx frohawk and Homer curls",
           "view": "behind",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
-            "col": 5,
-            "row": 0,
+            "col": 4,
+            "row": 1,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6497,13 +6619,13 @@
           "role": "Two opposite side head references",
           "notes": "Owner: it doesnt look like me though; i should never show that much of me from the side ever. Never use as a render input.",
           "approved": false,
-          "status": "REJECTED — too much side face; does not match Rexx",
+          "status": "Superseded gallery reference — archived",
           "group": "Hair · Rexx frohawk and Homer curls",
           "view": "left side",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
-            "col": 6,
-            "row": 0,
+            "col": 5,
+            "row": 1,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6517,13 +6639,33 @@
           "role": "Canonical likeness; requested glasses addition",
           "notes": "Owner approved V2 likeness: mine is good just add my glasses. V3 adds authentic black rectangular eyeglasses; preserves hat, fade, head size and dark beard. Glasses edit visually verified; awaiting final owner look.",
           "approved": false,
-          "status": "Glasses detail support — replaced in active gallery by rear-only V5",
+          "status": "Superseded gallery reference — archived",
           "group": "Hair · Rexx frohawk and Homer curls",
           "view": "reference",
           "img": {
             "sheet": "sheets/char-Rexx.jpg",
+            "col": 6,
+            "row": 1,
+            "cols": 8,
+            "rows": 2,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "file": "REXX-HEAD-THREE-ANGLES-CANDIDATE-V2.png",
+          "id": "REXX-HEAD-CANDIDATE-02",
+          "title": "Rexx · rear / over-shoulder head sheet",
+          "role": "Proposed canonical rear head identity",
+          "notes": "Black corduroy snapback, rear adjuster, neat fade, proportionate head and darker beard. No frontal face. Replaces too-gray V1 candidate.",
+          "approved": false,
+          "status": "Superseded gallery reference — archived",
+          "group": "Hair · Rexx frohawk and Homer curls",
+          "view": "behind",
+          "img": {
+            "sheet": "sheets/char-Rexx.jpg",
             "col": 7,
-            "row": 0,
+            "row": 1,
             "cols": 8,
             "rows": 2,
             "shape": "port"
@@ -6775,46 +6917,6 @@
       "name": "Other",
       "current": [
         {
-          "date": "2026-09-12",
-          "file": "REXX-STAIRS-SOURCE.png",
-          "id": "REXX-STAIRS-REFERENCE",
-          "title": "Rexx · stairs reference",
-          "role": "Existing opening scene / build and outfit reference",
-          "notes": "Native 1280x720 frame extracted at 1.2 seconds from STAIRS-OPENING-WITH-REXX-V3.mp4. Placed above coffee as requested. Opening outfit and shoes differ intentionally from garage wardrobe.",
-          "approved": true,
-          "status": "Owner-selected existing stairs reference",
-          "group": "Rexx · stairs and coffee references",
-          "view": "outfit",
-          "img": {
-            "sheet": "sheets/char-Other.jpg",
-            "col": 2,
-            "row": 1,
-            "cols": 8,
-            "rows": 6,
-            "shape": "port"
-          }
-        },
-        {
-          "date": "2026-09-11",
-          "file": "COFFEE-CLEANUP-V5.png",
-          "id": "REXX-COFFEE-FRONT-EXCEPTION",
-          "title": "Approved coffee front-view exception",
-          "role": "Coffee scene only",
-          "notes": "Latest owner clarification: only front view needed is coffee. Not a substitute for rear physique references.",
-          "approved": true,
-          "status": "Existing approved coffee appearance; retain",
-          "group": "Rexx · stairs and coffee references",
-          "view": "reference",
-          "img": {
-            "sheet": "sheets/char-Other.jpg",
-            "col": 6,
-            "row": 1,
-            "cols": 8,
-            "rows": 6,
-            "shape": "port"
-          }
-        },
-        {
           "date": "2026-09-11",
           "file": "S23.png",
           "id": "APU-S23-ARRIVAL",
@@ -6904,7 +7006,7 @@
           "role": "Selected physique / scene-specific rear reference",
           "notes": "New render based on selected S24 physique; Homer approved loops added. Preserves rear approach framing; not a separate neutral full-body turnaround. Cap texture and heel detail remain subject to review.",
           "approved": false,
-          "status": "Owner-selected Rexx body / rear head-neck reference",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx body · rear and side views",
           "view": "behind",
           "img": {
@@ -6924,7 +7026,7 @@
           "role": "Rexx build / natural shirt drape",
           "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx body · rear and side views",
           "view": "outfit",
           "img": {
@@ -6944,7 +7046,7 @@
           "role": "Rexx build / natural shirt drape",
           "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx body · rear and side views",
           "view": "right side",
           "img": {
@@ -6964,7 +7066,7 @@
           "role": "Rexx build / natural shirt drape",
           "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx body · rear and side views",
           "view": "behind",
           "img": {
@@ -6984,7 +7086,7 @@
           "role": "Rexx build / natural shirt drape",
           "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx body · rear and side views",
           "view": "left side",
           "img": {
@@ -7004,7 +7106,7 @@
           "role": "Scene-specific build / loose fit",
           "notes": "Owner selected this physique reference as good. Create a new clean rear scene with Homer approved hair; source is not the final new output.",
           "approved": false,
-          "status": "Removed from active references by owner; use REXX-HOMER-REAR-CANDIDATE-01 instead",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx body · rear and side views",
           "view": "reference",
           "img": {
@@ -7024,7 +7126,7 @@
           "role": "Garment fit only",
           "notes": "Generated from real balcony drape and S24 styling. Plain dark, loose XL with side seams; do not use cropped generic torso as face/body identity.",
           "approved": false,
-          "status": "Owner-selected wardrobe support",
+          "status": "Superseded gallery reference — archived",
           "group": "Outfits · shirt, pants and fit",
           "view": "behind",
           "img": {
@@ -7044,7 +7146,7 @@
           "role": "Fabric / cuff / cap detail",
           "notes": "Older generated detail sheet. Latest specification: loose-fit cuffed classic Dickies, no pocket logo. Final separate outfit views still needed.",
           "approved": false,
-          "status": "Owner-selected wardrobe support",
+          "status": "Superseded gallery reference — archived",
           "group": "Outfits · shirt, pants and fit",
           "view": "behind",
           "img": {
@@ -7064,7 +7166,7 @@
           "role": "Heel shape / cursive signature",
           "notes": "Actual product uses red signature. Earlier owner instruction requested a tonal-green version; final exact treatment should be reviewed. Red shoelaces retained.",
           "approved": false,
-          "status": "Actual product reference",
+          "status": "Superseded gallery reference — archived",
           "group": "Accessories · shoes, heel detail and hat",
           "view": "behind",
           "img": {
@@ -7098,13 +7200,33 @@
         },
         {
           "date": "2026-09-12",
+          "file": "REXX-STAIRS-SOURCE.png",
+          "id": "REXX-STAIRS-REFERENCE",
+          "title": "Rexx · stairs reference",
+          "role": "Existing opening scene / build and outfit reference",
+          "notes": "Native 1280x720 frame extracted at 1.2 seconds from STAIRS-OPENING-WITH-REXX-V3.mp4. Placed above coffee as requested. Opening outfit and shoes differ intentionally from garage wardrobe.",
+          "approved": false,
+          "status": "Superseded gallery reference — archived",
+          "group": "Rexx · stairs and coffee references",
+          "view": "outfit",
+          "img": {
+            "sheet": "sheets/char-Other.jpg",
+            "col": 2,
+            "row": 1,
+            "cols": 8,
+            "rows": 6,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-12",
           "file": "REXX-FACE-2405-SOURCE.png",
           "id": "REXX-FACE-2405",
           "title": "Profile and head shape",
           "role": "Face / beard / head reference",
           "notes": "Use actual proportions. Owner wants darker beard with only a few whites. Top haircut concealed by cap.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx · stairs and coffee references",
           "view": "head",
           "img": {
@@ -7124,7 +7246,7 @@
           "role": "Face / beard / head reference",
           "notes": "Use actual proportions. Owner wants darker beard with only a few whites. Top haircut concealed by cap.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx · stairs and coffee references",
           "view": "head",
           "img": {
@@ -7144,12 +7266,32 @@
           "role": "Face / beard / head reference",
           "notes": "Use actual proportions. Owner wants darker beard with only a few whites. Top haircut concealed by cap.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Rexx · stairs and coffee references",
           "view": "head",
           "img": {
             "sheet": "sheets/char-Other.jpg",
             "col": 5,
+            "row": 1,
+            "cols": 8,
+            "rows": 6,
+            "shape": "port"
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "file": "COFFEE-CLEANUP-V5.png",
+          "id": "REXX-COFFEE-FRONT-EXCEPTION",
+          "title": "Approved coffee front-view exception",
+          "role": "Coffee scene only",
+          "notes": "Latest owner clarification: only front view needed is coffee. Not a substitute for rear physique references.",
+          "approved": false,
+          "status": "Superseded gallery reference — archived",
+          "group": "Rexx · stairs and coffee references",
+          "view": "reference",
+          "img": {
+            "sheet": "sheets/char-Other.jpg",
+            "col": 6,
             "row": 1,
             "cols": 8,
             "rows": 6,
@@ -7184,7 +7326,7 @@
           "role": "Visible side/head proportions",
           "notes": "Owner specifies frohawk with #1 fade to #4 or longer center. A clear cap-off top/back reference is still needed to verify full design; do not call invented angles approved.",
           "approved": false,
-          "status": "Supporting original source only — excluded from finished render gallery",
+          "status": "Superseded gallery reference — archived",
           "group": "Hair · Rexx frohawk and Homer curls",
           "view": "head",
           "img": {
