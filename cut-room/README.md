@@ -1,11 +1,10 @@
-# Cut Room (browser editor, v2)
+# LYFE STUDIO CUT — GARAGE DREAM (EPISODE)
 
-The CapCut-style page: play the cut, drag scenes, trim, park, save.
-Live copies (private; share from the page Share menu): Cut Room https://claude.ai/artifact/6uQh9o2LcpjCorpXKfEi7e · Storyboard https://claude.ai/artifact/WPuCorxXtMZnNmvXbiLGTq · Codex original hub as-is https://claude.ai/artifact/VAeighuHjQjdsznJ3Vrxg8
+The local LYFE Studio source for the Garage Dream episode. Open `storyboard.html` for the visual storyboard library: Scenes, Characters, Sets, Props, and Script & audio. Select any card to inspect the reference and prepare an assignment, still edit, replacement, Higgsfield brief, lip-sync brief, or ElevenLabs brief.
 
-- `index.html` — the page. Scene names and lines come from Codex's storyboard (`story.json`).
-- `story.json` / `board.json` — extracted from `scene-board/storyboard.json`, the source of truth. LYFE Studio is a VIEW layer: it never edits the storyboard. Edit in the BizBox main storyboard (http://127.0.0.1:4396/scene-board/index.html), regenerate board-data.js, then `node tools/build-board.mjs` and republish.
+- `storyboard.html` — the user-facing visual library and production-card workspace at `http://127.0.0.1:4321/storyboard.html`.
+- `index.html` — the CapCut-style cut editor: play the cut, drag scenes, trim, park, save.
+- `story.json` / `board.json` / `audio.json` — the current episode's scene, asset, script and audio records. `board.json` remains the source snapshot; card actions are saved as reversible browser-local preparation records until the coordinator approves a source change.
 - `server.mjs` — local test server (`node server.mjs`, then http://localhost:4321). Needs `clips/` and `thumbs/` next to it (web proxies of the scene bin, not in git).
 
-Saving writes `cuts/latest.json` into the artifact (files publish). Claude reads it, writes the
-`.otio`, renders with `tools/render.mjs`. Audio lanes are not in this version yet — see the repo README.
+Saving in the cut editor writes `cuts/latest.json`. The visual library does not silently submit paid renders or rewrite the approved storyboard; it prepares a named action for the coordinator to review.
