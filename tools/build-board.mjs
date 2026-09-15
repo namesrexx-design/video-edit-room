@@ -62,22 +62,32 @@ for (const c of sb.characterReferences?.characters || []) { const k = c.name; (c
 const dh = sb.characterReferences?.dreamHomer; if (dh) (chars.Homer ||= { name: 'Homer', refs: [] }).refs.push(tile(resolve(dh.path, W), { id: dh.id, title: dh.title, role: clean(dh.role), notes: clean(dh.notes), approved: !!dh.approved, status: clean(dh.status), group: 'Dream look', view: 'dream look' }));
 const characters = [...order.filter(k => chars[k]).map(k => chars[k]), ...Object.keys(chars).filter(k => !order.includes(k)).map(k => chars[k])];
 
-// ---- SETS (locations, each with camera-angle tiles) from the reference packs, newest first, capped
-const listImgs = (dir, re, cap = 14) => { const d = W + '/' + dir; if (!fs.existsSync(d)) return []; return fs.readdirSync(d).filter(f => /\.(png|jpe?g)$/i.test(f) && (!re || re.test(f))).map(f => d + '/' + f).sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs).slice(0, cap); };
+// ---- SETS (locations, each with camera-angle tiles). Every set render in the reference packs is classified
+// by folder + scene id + keywords into ONE set. Sets are places; anything moved/touched is a prop.
 const env = sb.environmentReferences || {};
-const setDefs = [
-  ['Stairs', 'Opening. Rexx comes down the stairs.', [...listImgs('opening-review', /stair/i), ...listImgs('scene-board', /^S01\./)]],
-  ['Coffee', 'Kitchen counter. Coffee, the phone call.', [...listImgs('opening-review', /coffee/i), ...listImgs('phone-reference-20260910', null, 6)]],
-  ['Outside balcony', 'Lower balcony.', listImgs('continuity-reference-pack', /balcony/i)],
-  ['Upstairs balcony', 'Upper deck.', []],
-  ['Waymo', 'Boarding and the ride.', listImgs('waymo-review', null)],
-  ['Driveway', 'Homer\'s driveway, garage door, Apu\'s arrival.', [...listImgs('environment-reference-pack/driveway-sequence', null), ...listImgs('garage-through-apu-review/s24-reference-rebuild-v3', null, 6)]],
-  ['Garage', 'The garage: master set, reveal, recliner, treadmill.', [...(resolve(env.garageMaster, W) ? [resolve(env.garageMaster, W)] : []), ...listImgs('environment-reference-pack/s09-door-action', /GARAGE|DOOR|RECLINER|MASTER/i)]],
-  ['PCH road (dream)', 'Homer\'s Bugatti dream on the empty PCH.', [...listImgs('environment-reference-pack/bugatti-la-voiture-noire', null, 6), ...listImgs('worker-pch-empty-road-v1', null, 8)]],
-  ['Apu\'s car', 'The Firebird: driver window, passenger seat, fist bump.', listImgs('apu-arrival-review', /APU|FIREBIRD|S2[789]/i)],
-  ['Vintage Mart', 'Former Kwik-E-Mart. Future episodes.', [...listImgs('apu-arrival-review', /VINTAGE/i), ...listImgs('scene-board', /^S33\./)]],
-];
-const sets = setDefs.map(([name, blurb, imgs]) => ({ name, blurb, angles: [...new Set(imgs)].map(p => tile(p, { id: path.basename(p).replace(/\.[^.]+$/, ''), title: path.basename(p).replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ') })), scenes: scenes.filter(s => s.set === name).map(s => s.id) }));
+const listImgs = (dir, re, cap = 14) => { const d = W + '/' + dir; if (!fs.existsSync(d)) return []; return fs.readdirSync(d).filter(f => /.(png|jpe?g)$/i.test(f) && (!re || re.test(f))).map(f => d + '/' + f).filter(p => fs.statSync(p).isFile()).sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs).slice(0, cap); };
+const sceneSet = id => (SET[id] || [''])[0];
+const SCAN = ['environment-reference-pack/s09-door-action','environment-reference-pack/garage-reveal-sequence','environment-reference-pack/garage-scenes-v3','environment-reference-pack/garage-scenes-v4','environment-reference-pack/garage-scenes-v5','environment-reference-pack/set-angles-v4','environment-reference-pack/shoulder-pass-v1','environment-reference-pack/scene-rebuild-v6','environment-reference-pack/scene-rebuild-v7','environment-reference-pack/driveway-sequence','environment-reference-pack/bugatti-dream-sequence','environment-reference-pack/bugatti-la-voiture-noire','environment-reference-pack/vintage-v2','waymo-review','opening-review','apu-arrival-review','worker-pch-empty-road-v1','closing-review','phone-reference-20260910','continuity-reference-pack','garage-lipsync-review','garage-through-apu-review/s24-reference-rebuild-v3'];
+const classify = (dir, name) => {
+  const f = name.toUpperCase(); if (/^(REXX|HOMER|APU|BART)[-_]/.test(f)) return null;  // character references are not set angles
+  const m = f.match(/(?:^|[^A-Z0-9])(S[0-9]{2})(?:[^0-9]|$)/); if (m && sceneSet(m[1])) return sceneSet(m[1]);
+  if (/VINTAGE|KWIK/.test(f) || /vintage/i.test(dir)) return 'Vintage Mart';
+  if (/BUGATTI|PCH|EMPTY-ROAD|HIGHWAY/.test(f) || /bugatti|pch/i.test(dir)) return 'PCH road (dream)';
+  if (/WAYMO/.test(f) || /waymo/i.test(dir)) return 'Waymo';
+  if (/STAIR/.test(f)) return 'Stairs';
+  if (/COFFEE|KITCHEN|COUNTER|PHONE/.test(f) || /phone-reference|opening/i.test(dir)) return 'Coffee';
+  if (/BALCONY|DECK/.test(f)) return /UPPER|UPSTAIRS/.test(f) ? 'Upstairs balcony' : 'Outside balcony';
+  if (/DRIVEWAY|WALKUP|WALK-UP/.test(f) || /driveway/i.test(dir)) return 'Driveway';
+  if (/APU|FIREBIRD|PONTIAC|PASSENGER|FIST|CAR-/.test(f) || /apu-arrival|closing/i.test(dir)) return "Apu's car";
+  if (/GARAGE|DOOR|RECLINER|TREADMILL|SHELF|SHOULDER|REVEAL|MASTER|HOT-WHEELS|SMITTY/.test(f) || /garage|s09-door|set-angles|shoulder/i.test(dir)) return 'Garage';
+  return null;
+};
+const bySet = {}; const seenFile = new Set();
+for (const dir of SCAN) { const d = W + '/' + dir; if (!fs.existsSync(d)) continue; for (const f of fs.readdirSync(d)) { if (!/[.](png|jpe?g)$/i.test(f) || /CONTACT|SHEET|CROP|AUDIT|QC|TILE|GRID|INSPECTION|REPAIRED/i.test(f)) continue; const p = d + '/' + f; if (!fs.statSync(p).isFile()) continue; const key = f.toLowerCase(); if (seenFile.has(key)) continue; const set = classify(dir, f); if (!set) continue; seenFile.add(key); (bySet[set] ||= []).push(p); } }
+const gm = resolve(env.garageMaster, W); if (gm) (bySet['Garage'] ||= []).unshift(gm);
+const SETS_ORDER = [['Stairs','Opening. Rexx comes down the stairs.'],['Coffee','Kitchen counter. Coffee, the phone call.'],['Outside balcony','Lower balcony.'],['Upstairs balcony','Upper deck.'],['Waymo','Boarding and the ride.'],['Driveway',"Homer's driveway, garage door, Apu's arrival."],['Garage','The garage: master set, reveal, recliner, treadmill. Closed or open, it is one set.'],['PCH road (dream)',"Homer's Bugatti dream on the empty PCH."],["Apu's car",'The Firebird: driver window, passenger seat, fist bump.'],['Vintage Mart','Former Kwik-E-Mart. Future episodes.'],['Road','Passenger-window travel, bus stop (future).']];
+const CAP = 130;
+const sets = SETS_ORDER.map(([name, blurb]) => { const imgs = [...new Set(bySet[name] || [])].sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs); return { name, blurb, total: imgs.length, angles: imgs.slice(0, CAP).map(p => tile(p, { id: path.basename(p).replace(/[.][^.]+$/, ''), title: path.basename(p).replace(/[.][^.]+$/, '').replace(/[-_]/g, ' ') })), scenes: scenes.filter(s => s.set === name).map(s => s.id) }; });
 
 // ---- PROPS (things moved, touched, or moving)
 const propTiles = [];
