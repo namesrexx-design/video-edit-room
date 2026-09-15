@@ -1,0 +1,272 @@
+<title>Garage Dream Cut Room</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+  :root{ --bg:#f6f1e8; --panel:#efe4d2; --panel2:#e6d8c1; --text:#26221f; --muted:#5e554d; --accent:#a75f3c; --accent-ink:#fff; --ok:#5f7048; --line:#d3c4ac; --sel:#a75f3c; }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#1e1a17; --panel:#2b2521; --panel2:#3a322c; --text:#f3ece1; --muted:#c2b5a3; --accent:#d48a63; --accent-ink:#1e1a17; --ok:#8ea06f; --line:#4a403a; --sel:#d48a63; } }
+  :root[data-theme="dark"]{ --bg:#1e1a17; --panel:#2b2521; --panel2:#3a322c; --text:#f3ece1; --muted:#c2b5a3; --accent:#d48a63; --accent-ink:#1e1a17; --ok:#8ea06f; --line:#4a403a; --sel:#d48a63; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--text); font-family:"Source Sans 3","Segoe UI",system-ui,sans-serif; font-size:20px; line-height:1.4; -webkit-tap-highlight-color:transparent; }
+  .wrap{ max-width:1100px; margin:0 auto; padding-inline:16px; padding-block:14px 90px; }
+  header{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:10px; }
+  h1{ font-family:Newsreader,Georgia,serif; font-weight:600; font-size:clamp(28px,5vw,40px); margin:0; line-height:1.05; text-shadow:1px 1px 0 rgba(0,0,0,.12); }
+  .sub{ color:var(--muted); font-size:18px; margin:2px 0 0; }
+  button{ font:inherit; font-weight:600; border:0; border-radius:10px; padding:12px 18px; min-height:48px; cursor:pointer; color:var(--text); background:var(--panel2); }
+  button:active{ transform:translateY(1px); }
+  button:focus-visible{ outline:3px solid var(--accent); outline-offset:2px; }
+  button.primary{ background:var(--accent); color:var(--accent-ink); font-size:21px; }
+  button.icon{ padding:0; width:48px; min-width:48px; font-size:24px; }
+  .player{ position:relative; background:#000; border-radius:10px; overflow:hidden; aspect-ratio:16/9; max-width:100%; box-shadow:0 12px 36px rgba(38,34,31,.28); }
+  .player video{ width:100%; height:100%; display:block; background:#000; }
+  .bigplay{ position:absolute; inset:0; margin:auto; width:96px; height:96px; border-radius:50%; background:rgba(38,34,31,.72); color:#fff; font-size:44px; display:flex; align-items:center; justify-content:center; border:0; cursor:pointer; }
+  .bigplay[hidden]{ display:none; }
+  .now{ position:absolute; left:12px; bottom:10px; color:#fff; font-weight:600; font-size:18px; text-shadow:1px 1px 2px #000; background:rgba(0,0,0,.35); padding:2px 10px; border-radius:6px; }
+  .controls{ display:flex; gap:10px; align-items:center; margin:10px 0 4px; flex-wrap:wrap; }
+  .controls .time{ color:var(--muted); font-variant-numeric:tabular-nums; font-size:19px; }
+  .controls .spacer{ flex:1; }
+  h2{ font-family:Newsreader,Georgia,serif; font-weight:600; font-size:26px; margin:22px 0 6px; text-shadow:1px 1px 0 rgba(0,0,0,.1); }
+  .hint{ color:var(--muted); font-size:18px; margin:0 0 8px; }
+  .strip{ display:flex; gap:10px; overflow-x:auto; padding:8px 4px 12px; scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch; min-height:150px; }
+  .strip:empty::after{ content:"Nothing here."; color:var(--muted); padding:20px; }
+  .card{ flex:0 0 200px; background:var(--panel); border:3px solid transparent; border-radius:12px; overflow:hidden; scroll-snap-align:start; user-select:none; -webkit-user-select:none; touch-action:pan-x; position:relative; }
+  .card.sel{ border-color:var(--sel); }
+  .card.drag{ opacity:.55; transform:scale(.97); }
+  .card img{ display:block; width:100%; aspect-ratio:16/9; object-fit:cover; background:#000; pointer-events:none; }
+  .card .num{ position:absolute; top:6px; left:6px; background:rgba(38,34,31,.8); color:#fff; font-weight:700; font-size:16px; padding:1px 8px; border-radius:6px; }
+  .card .v36{ position:absolute; top:6px; right:6px; background:var(--ok); color:#fff; font-weight:700; font-size:14px; padding:1px 8px; border-radius:6px; }
+  .card .t{ padding:6px 8px 2px; font-weight:600; font-size:17px; line-height:1.2; min-height:44px; }
+  .card .line{ padding:0 8px 4px; color:var(--muted); font-size:15px; line-height:1.25; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; min-height:20px; }
+  .card.todo{ opacity:.85; border-style:dashed; border-color:var(--line); }
+  .card .d{ padding:0 8px 8px; color:var(--muted); font-size:16px; }
+  .actions{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:2px 0 6px; }
+  .actions .lab{ font-weight:600; margin-right:6px; }
+  .panel{ background:var(--panel); border-radius:12px; padding:14px 16px; margin-top:8px; }
+  .panel[hidden]{ display:none; }
+  .range{ display:grid; grid-template-columns:70px 1fr 90px; gap:10px; align-items:center; margin:8px 0; font-size:19px; }
+  input[type=range]{ width:100%; height:40px; accent-color:var(--accent); }
+  .toast{ position:fixed; left:50%; bottom:18px; transform:translateX(-50%); background:var(--text); color:var(--bg); padding:12px 20px; border-radius:10px; font-weight:600; font-size:19px; opacity:0; transition:opacity .2s; pointer-events:none; max-width:92vw; text-align:center; }
+  .toast.on{ opacity:1; }
+  .savebar{ position:fixed; left:0; right:0; bottom:0; background:var(--panel); border-top:1px solid var(--line); padding:10px 16px; display:flex; gap:10px; align-items:center; justify-content:space-between; }
+  .savebar .stat{ color:var(--muted); font-size:17px; }
+  textarea{ width:100%; min-height:180px; font:16px Consolas,monospace; background:var(--bg); color:var(--text); border:1px solid var(--line); border-radius:8px; padding:8px; }
+  @media (prefers-reduced-motion: reduce){ .toast{ transition:none } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Garage Dream · Cut Room</h1>
+      <p class="sub" id="sub">Scenes from Codex's storyboard, footage from V74. Tap a scene to select it. Drag to move it. Nothing is ever deleted.</p>
+    </div>
+    <button id="undo" title="Undo">↶ Undo</button>
+  </header>
+
+  <div class="player">
+    <video id="v" playsinline preload="auto"></video>
+    <button class="bigplay" id="bigplay" aria-label="Play">▶</button>
+    <div class="now" id="now">—</div>
+  </div>
+  <div class="controls">
+    <button id="play" class="primary">▶ Play the cut</button>
+    <button id="fromsel">▶ From selected</button>
+    <span class="time" id="time">0:00 / 0:00</span>
+    <span class="spacer"></span>
+  </div>
+
+  <h2>The cut</h2>
+  <div class="actions" id="cutActions">
+    <span class="lab">Selected:</span>
+    <button class="icon" id="mvL" title="Move earlier">◀</button>
+    <button class="icon" id="mvR" title="Move later">▶</button>
+    <button id="trim">✂ Trim</button>
+    <button id="park">⬇ Take out</button>
+  </div>
+  <div class="strip" id="cut"></div>
+
+  <div class="panel" id="trimPanel" hidden>
+    <div style="font-weight:700;font-size:21px" id="trimTitle">Trim</div>
+    <div class="range"><span>Start</span><input type="range" id="tIn" min="0" max="1" step="1"><span id="tInV">0.0 s</span></div>
+    <div class="range"><span>End</span><input type="range" id="tOut" min="0" max="1" step="1"><span id="tOutV">0.0 s</span></div>
+    <div class="actions"><button id="trimReset">Full length</button><button class="primary" id="trimDone">Done</button></div>
+  </div>
+
+  <h2>Scenes not in the cut</h2>
+  <p class="hint">Tap one, then <b>Put in cut</b>. It goes in right after the selected scene.</p>
+  <div class="actions"><button class="primary" id="unpark">⬆ Put in cut</button><button id="preview">▶ Preview it</button></div>
+  <div class="strip" id="bin"></div>
+
+  <h2>Storyboard scenes not built yet</h2>
+  <p class="hint">From Codex's storyboard. No footage exists for these yet, so they can't go in the cut.</p>
+  <div class="strip" id="todo"></div>
+
+  <div class="panel" id="fallback" hidden>
+    <div style="font-weight:700;margin-bottom:6px">Saving is not available on this view. Copy this and send it to Claude:</div>
+    <textarea id="cutText" readonly></textarea>
+  </div>
+</div>
+
+<div class="savebar">
+  <span class="stat" id="stat">Not saved yet</span>
+  <button class="primary" id="save">Save cut</button>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const FPS = 24;
+// id, kit filename (full-res, for the render), title, frames, from V36?
+const SCENEMAP = {"10":"S10","11":"S11","12":"S12","13":"S13","14":"S15","15":"S14+S16","16":"S17","17":"S18","18":"S19","19":"S20","20":"S21+S22","21":"S23","22":"S24","23":"S27","24":"S28+S29","01":"S01","02":"S02","03":"S03","04":"S04","05":"S05","06":"S06","07":"S07","08":"S08","09":"S09"};
+let STORY = {};  // Codex storyboard: id -> {title,line,status}, loaded from story.json
+const CLIPS = [
+  ['01','01_S01_stairs.mp4','Stairs',79,0],
+  ['02','02_S02_coffee-ring.mp4','Coffee, phone rings',60,0],
+  ['03','03_S03_answer-homer.mp4','Answers Homer',53,0],
+  ['04','04_S04_phone-down.mp4','Phone down',103,0],
+  ['05','05_S05_homer-asks-for-help.mp4','Homer asks for help',171,0],
+  ['06','06_S06_waymo-boarding.mp4','Boards the Waymo',140,0],
+  ['07','07_S07_waymo-ride-and-exit.mp4','Waymo ride and exit',114,0],
+  ['08','08_S08_walk-up-driveway_ADD-BACK-FROM-V36.mp4','Walk up the driveway',96,1],
+  ['09','09_S09_driveway-conversation.mp4','Driveway talk',120,0],
+  ['10','10_S10_garage-reveal.mp4','Garage reveal',253,0],
+  ['11','11_S11_homer-a-bugatti_ADD-BACK-FROM-V36.mp4','“A Bugatti?”',62,1],
+  ['12','12_S12_photograph-items-shared-folder_ADD-BACK-FROM-V36.mp4','Photograph the items',117,1],
+  ['13','13_S13_explain-autopilot_ADD-BACK-FROM-V36.mp4','Explain Autopilot',164,1],
+  ['14','14_S15_photos-numbered-boxes-live-shopping_ADD-BACK-FROM-V36.mp4','Photos, numbered boxes',61,1],
+  ['15','15_S14-S16_recliner-bugatti-question-doze-off.mp4','Recliner, Bugatti question, dozes off',325,0],
+  ['16','16_S17_pch-sunset-dream.mp4','PCH sunset dream',72,0],
+  ['17','17_S18_mosquito-wake-up.mp4','Mosquito, wake up',326,0],
+  ['18','18_S19_bart-skates-off.mp4','Bart skates off',72,0],
+  ['19','19_S20_homer-slingshot-accusation_ADD-BACK-FROM-V36.mp4','Slingshot accusation',96,1],
+  ['20','20_S21_rexx-it-was-that-kid-whose-kid_ADD-BACK-FROM-V36.mp4','“It was that kid.” “Whose kid?”',149,1],
+  ['21','21_S23_apu-horn-greeting.mp4','Apu honks, hello',90,0],
+  ['22','22_S24_walk-to-car.mp4','Walk to the car',72,0],
+  ['23','23_S27_vintage-mart-invitation.mp4','Vintage Mart invitation',350,0],
+  ['24','24_S29_farewell-fist-bump.mp4','Fist bump farewell',364,0],
+].map(([id,file,title,frames,v36]) => ({ id, file, title, frames, v36:!!v36, scenes: SCENEMAP[id].split('+') }));
+const byId = Object.fromEntries(CLIPS.map(c => [c.id, c]));
+
+// state: cut = [{id,start,end}] (frames, end exclusive); bin = [id]
+let cut = [], bin = [], sel = null, selBin = null, undoStack = [];
+const defaultState = () => ({ cut: CLIPS.filter(c => !c.v36).map(c => ({ id:c.id, start:0, end:c.frames })), bin: CLIPS.filter(c => c.v36).map(c => c.id) });
+
+const $ = id => document.getElementById(id);
+const fmt = f => { const s = f / FPS; return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`; };
+const fmt1 = f => (f / FPS).toFixed(1) + ' s';
+const totalFrames = () => cut.reduce((s,c) => s + (c.end - c.start), 0);
+const toast = m => { const t = $('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('on'), 2200); };
+
+function snapshot(){ undoStack.push(JSON.stringify({cut,bin})); if (undoStack.length > 40) undoStack.shift(); }
+function restore(s){ ({cut, bin} = JSON.parse(s)); if (sel != null && sel >= cut.length) sel = cut.length ? cut.length - 1 : null; render(); }
+function draft(){ try { localStorage.setItem('gd-cut-draft', JSON.stringify({cut,bin})); } catch(e){} }
+
+function card(c, i, inCut){
+  const k = byId[c.id]; const el = document.createElement('div'); el.className = 'card'; el.dataset.i = i;
+  const len = inCut ? c.end - c.start : k.frames; const trimmed = inCut && (c.start > 0 || c.end < k.frames);
+  const sid = k.scenes.join(' + '); const st = STORY[k.scenes[0]]; const line = k.scenes.map(s => STORY[s]?.line).filter(Boolean).join(' ');
+  el.innerHTML = `<img src="thumbs/${k.id}.jpg" alt=""><span class="num">${inCut ? (i+1)+' · ' : ''}${sid}</span>${k.v36 ? '<span class="v36">from V36</span>' : ''}<div class="t">${st?.title || k.title}</div><div class="line">${line}</div><div class="d">${fmt1(len)}${trimmed ? ' · trimmed' : ''}</div>`;
+  if ((inCut && i === sel) || (!inCut && i === selBin)) el.classList.add('sel');
+  return el;
+}
+function renderTodo(){
+  const built = new Set(CLIPS.flatMap(c => c.scenes));
+  const todo = Object.values(STORY).filter(s => !built.has(s.id));
+  $('todo').replaceChildren(...todo.map(s => { const el = document.createElement('div'); el.className = 'card todo'; el.innerHTML = `<img src="thumbs/${s.id === 'S33' ? 'S33.jpg' : 'blank.jpg'}" alt=""><span class="num">${s.id}</span><div class="t">${s.title}</div><div class="line">${s.line}</div><div class="d">not built yet</div>`; return el; }));
+}
+function render(){
+  const cutEl = $('cut'); cutEl.replaceChildren(...cut.map((c,i) => card(c,i,true)));
+  const binEl = $('bin'); binEl.replaceChildren(...bin.map((id,i) => card({id},i,false)));
+  $('time').textContent = `${fmt(playhead())} / ${fmt(totalFrames())}`;
+  $('sub').textContent = `${cut.length} scenes · ${fmt(totalFrames())} long · ${bin.length} parked`;
+  const has = sel != null; for (const id of ['mvL','mvR','trim','park']) $(id).disabled = !has;
+  for (const id of ['unpark','preview']) $(id).disabled = selBin == null;
+  if (has && !$('trimPanel').hidden) fillTrim();
+  draft();
+}
+
+// ---- selection, moving, parking
+$('cut').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; sel = +c.dataset.i; selBin = null; $('trimPanel').hidden = true; render(); showFrame(cut[sel].id, cut[sel].start); });
+$('bin').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; selBin = +c.dataset.i; render(); showFrame(bin[selBin], 0); });
+$('mvL').onclick = () => { if (sel > 0) { snapshot(); [cut[sel-1], cut[sel]] = [cut[sel], cut[sel-1]]; sel--; render(); } };
+$('mvR').onclick = () => { if (sel < cut.length-1) { snapshot(); [cut[sel+1], cut[sel]] = [cut[sel], cut[sel+1]]; sel++; render(); } };
+$('park').onclick = () => { if (sel == null) return; snapshot(); const [c] = cut.splice(sel,1); bin.push(c.id); selBin = bin.length-1; sel = cut.length ? Math.min(sel, cut.length-1) : null; render(); toast(`${byId[c.id].title} taken out. It is parked below.`); };
+$('unpark').onclick = () => { if (selBin == null) return; snapshot(); const [id] = bin.splice(selBin,1); const k = byId[id]; const at = sel == null ? cut.length : sel + 1; cut.splice(at, 0, { id, start:0, end:k.frames }); sel = at; selBin = null; render(); toast(`${k.title} put in at scene ${at+1}.`); $('cut').children[at]?.scrollIntoView({ inline:'center', block:'nearest', behavior:'smooth' }); };
+$('undo').onclick = () => { if (!undoStack.length) return toast('Nothing to undo'); restore(undoStack.pop()); toast('Undone'); };
+
+// ---- drag to reorder (pointer events; press and hold on touch so the strip can still scroll)
+let drag = null;
+$('cut').addEventListener('pointerdown', e => {
+  const c = e.target.closest('.card'); if (!c) return;
+  const start = { x:e.clientX, y:e.clientY, i:+c.dataset.i, el:c, t:Date.now(), armed:false };
+  drag = start; if (e.pointerType === 'mouse') arm(); else drag.timer = setTimeout(arm, 260);
+  function arm(){ if (!drag) return; drag.armed = true; snapshot(); c.classList.add('drag'); sel = drag.i; }
+});
+document.addEventListener('pointermove', e => {
+  if (!drag) return;
+  if (!drag.armed) { if (Math.hypot(e.clientX-drag.x, e.clientY-drag.y) > 8) { clearTimeout(drag.timer); drag = null; } return; }
+  e.preventDefault();
+  const cards = [...$('cut').children]; let to = drag.i;
+  for (let j = 0; j < cards.length; j++) { const r = cards[j].getBoundingClientRect(); if (e.clientX > r.left + r.width/2) to = j; else break; }
+  if (e.clientX < cards[0].getBoundingClientRect().left + cards[0].getBoundingClientRect().width/2) to = 0;
+  if (to !== drag.i) { const [it] = cut.splice(drag.i,1); cut.splice(to,0,it); drag.i = to; sel = to; render(); $('cut').children[to].classList.add('drag'); }
+}, { passive:false });
+document.addEventListener('pointerup', () => { if (drag) { clearTimeout(drag.timer); if (drag.armed) { render(); } drag = null; } });
+document.addEventListener('pointercancel', () => { if (drag) { clearTimeout(drag.timer); drag = null; render(); } });
+
+// ---- trim
+$('trim').onclick = () => { if (sel == null) return; $('trimPanel').hidden = false; fillTrim(); $('trimPanel').scrollIntoView({ behavior:'smooth', block:'center' }); };
+function fillTrim(){ const c = cut[sel], k = byId[c.id]; $('trimTitle').textContent = `Trim · ${k.title} (${fmt1(k.frames)} in full)`; const a = $('tIn'), b = $('tOut'); a.max = k.frames-1; b.max = k.frames; a.value = c.start; b.value = c.end; $('tInV').textContent = fmt1(c.start); $('tOutV').textContent = fmt1(c.end); }
+$('tIn').addEventListener('input', () => { const c = cut[sel]; const v = Math.min(+$('tIn').value, c.end-1); $('tIn').value = v; $('tInV').textContent = fmt1(v); showFrame(c.id, v); });
+$('tOut').addEventListener('input', () => { const c = cut[sel]; const v = Math.max(+$('tOut').value, +$('tIn').value+1); $('tOut').value = v; $('tOutV').textContent = fmt1(v); showFrame(c.id, Math.max(0, v-1)); });
+$('tIn').addEventListener('change', commitTrim); $('tOut').addEventListener('change', commitTrim);
+function commitTrim(){ const c = cut[sel]; const s = +$('tIn').value, e = +$('tOut').value; if (s === c.start && e === c.end) return; snapshot(); c.start = s; c.end = e; render(); }
+$('trimReset').onclick = () => { const c = cut[sel]; snapshot(); c.start = 0; c.end = byId[c.id].frames; render(); fillTrim(); };
+$('trimDone').onclick = () => { $('trimPanel').hidden = true; };
+
+// ---- playback: one <video>, swaps files at each cut
+const v = $('v'); let playing = false, cur = -1, seq = [];
+const src = id => `clips/${id}.mp4`;
+function showFrame(id, frame){ stop(); v.src = src(id); v.currentTime = frame / FPS; $('now').textContent = byId[id].title; }
+function playhead(){ if (cur < 0 || !seq.length) return 0; let f = 0; for (let i = 0; i < cur; i++) f += seq[i].end - seq[i].start; return f + Math.max(0, Math.round(v.currentTime*FPS) - seq[cur].start); }
+function playFrom(i){ seq = cut.slice(); if (!seq.length) return toast('The cut is empty'); playing = true; $('bigplay').hidden = true; startClip(i); }
+function startClip(i){ if (i >= seq.length) return stop(); cur = i; const c = seq[i]; v.src = src(c.id); v.currentTime = c.start / FPS; $('now').textContent = `${i+1}. ${byId[c.id].scenes.join('+')} · ${STORY[byId[c.id].scenes[0]]?.title || byId[c.id].title}`; v.play().catch(() => {}); const n = seq[i+1]; if (n) { const p = new Image(); /* warm the cache for the next file */ fetch(src(n.id), { cache:'force-cache' }).catch(()=>{}); } }
+function stop(){ playing = false; v.pause(); $('bigplay').hidden = false; $('play').textContent = '▶ Play the cut'; }
+function tick(){ if (playing && cur >= 0) { const c = seq[cur]; if (v.currentTime >= c.end / FPS - 0.02 || v.ended) startClip(cur + 1); $('time').textContent = `${fmt(playhead())} / ${fmt(totalFrames())}`; } requestAnimationFrame(tick); }
+requestAnimationFrame(tick);
+$('play').onclick = () => playing ? stop() : playFrom(0);
+$('bigplay').onclick = () => playFrom(sel ?? 0);
+$('fromsel').onclick = () => playFrom(sel ?? 0);
+$('preview').onclick = () => { if (selBin == null) return; stop(); seq = [{ id:bin[selBin], start:0, end:byId[bin[selBin]].frames }]; playing = true; $('bigplay').hidden = true; startClip(0); };
+v.addEventListener('ended', () => { if (playing) startClip(cur + 1); });
+v.addEventListener('click', () => playing ? stop() : playFrom(cur >= 0 ? cur : (sel ?? 0)));
+
+// ---- save: files-publish `cuts/latest.json` (+ dated copy); fallback shows the list to copy
+function cutDoc(){ return { name:'GARAGE-DREAM cut from Cut Room', savedAt:new Date().toISOString(), fps:FPS, frames:totalFrames(), cut:cut.map(c => ({ id:c.id, scenes:byId[c.id].scenes, file:byId[c.id].file, title:byId[c.id].title, start:c.start, end:c.end })), parked:bin.map(id => ({ id, file:byId[id].file })) }; }
+function cutText(){ return cut.map((c,i) => `${i+1}. ${byId[c.id].file}  ${c.start}-${c.end}`).join('\n') + '\nPARKED: ' + bin.join(', '); }
+let art = null;
+try { (window.claude?.use ? claude.use('artifact') : Promise.resolve(null)).then(a => { art = a; }).catch(() => {}); } catch (e) {}
+$('save').onclick = async () => {
+  const doc = cutDoc(); const json = JSON.stringify(doc, null, 2);
+  $('stat').textContent = 'Saving…';
+  if (!art) { $('fallback').hidden = false; $('cutText').value = cutText(); $('stat').textContent = 'Not saved. Copy the list below.'; return; }
+  try {
+    const stamp = doc.savedAt.replace(/[:.]/g,'-');
+    await art.publish({ 'cuts/latest.json': json, [`cuts/${stamp}.json`]: json });
+    $('stat').textContent = `Saved ${new Date().toLocaleTimeString()} · ${cut.length} scenes · ${fmt(totalFrames())}`;
+    toast('Saved. Tell Claude "render the cut" and it becomes the next version.');
+  } catch (e) {
+    $('fallback').hidden = false; $('cutText').value = cutText();
+    $('stat').textContent = e?.code === 'not_writer' ? 'View only here. Copy the list below.' : 'Saving unavailable here. Copy the list below.';
+  }
+};
+
+// ---- load: saved cut if there is one, else a local draft, else V74 with the seven parked
+(async function init(){
+  try { const r = await fetch('story.json', { cache:'no-store' }); if (r.ok) { const d = await r.json(); for (const s of d.scenes) STORY[s.id] = s; } } catch(e){}
+  renderTodo();
+  let s = null;
+  try { const r = await fetch('cuts/latest.json', { cache:'no-store' }); if (r.ok) { const d = await r.json(); s = { cut:d.cut.map(c => ({ id:c.id, start:c.start, end:c.end })), bin:d.parked.map(p => p.id) }; $('stat').textContent = `Loaded the cut saved ${new Date(d.savedAt).toLocaleString()}`; } } catch(e){}
+  if (!s) { try { const d = localStorage.getItem('gd-cut-draft'); if (d) { s = JSON.parse(d); $('stat').textContent = 'Unsaved draft from this phone'; } } catch(e){} }
+  if (!s || !Array.isArray(s.cut)) s = defaultState();
+  // any clip missing from both lists gets parked so nothing can vanish
+  const seen = new Set([...s.cut.map(c => c.id), ...s.bin]); for (const c of CLIPS) if (!seen.has(c.id)) s.bin.push(c.id);
+  cut = s.cut; bin = s.bin; sel = 0; render(); showFrame(cut[0]?.id ?? CLIPS[0].id, cut[0]?.start ?? 0);
+})();
+</script>
