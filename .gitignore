@@ -1,0 +1,11 @@
+# media never enters git
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.aac
+*.png
+*.jpg
+projects/*/renders/*.mp4
+projects/*/renders/*.receipt.json
+!projects/*/renders/RECEIPTS/*.json
