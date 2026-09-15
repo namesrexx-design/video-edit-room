@@ -1,0 +1,454 @@
+{
+ "clips": [
+  {
+   "id": "INV001",
+   "file": "INV001_2026-09-15-00-32-kling3-0-79ed851d-one-continuous-.mp4",
+   "title": "One continuous five-second photorealistic shot, beginning exactly on the supplie",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-15T00:32"
+  },
+  {
+   "id": "INV002",
+   "file": "INV002_2026-09-14-20-58-minimax-h3-c510643c-one-continuou.mp4",
+   "title": "One continuous five-second photorealistic shot from the exact supplied START to ",
+   "frames": 124,
+   "group": "higgsfield",
+   "model": "minimax_h3",
+   "at": "2026-09-14T20:58"
+  },
+  {
+   "id": "INV003",
+   "file": "INV003_2026-09-14-20-42-kling3-0-3a05cfc2-twelve-second-p.mp4",
+   "title": "Twelve-second photorealistic conversation, starting exactly on the supplied appr",
+   "frames": 289,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T20:42"
+  },
+  {
+   "id": "INV004",
+   "file": "INV004_2026-09-14-20-41-kling3-0-9dace7c4-twelve-second-l.mp4",
+   "title": "Twelve-second locked-camera over-Rexx-shoulder conversation from this approved s",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T20:41"
+  },
+  {
+   "id": "INV005",
+   "file": "INV005_2026-09-14-20-18-minimax-h3-e3410947-one-continuou.mp4",
+   "title": "One continuous five-second photorealistic shot from the exact supplied START to ",
+   "frames": 124,
+   "group": "higgsfield",
+   "model": "minimax_h3",
+   "at": "2026-09-14T20:18"
+  },
+  {
+   "id": "INV006",
+   "file": "INV006_2026-09-14-18-42-kling3-0-897cecda-fixed-camera-fi.mp4",
+   "title": "Fixed-camera five-second rear approach, matching the supplied START and END fram",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T18:42"
+  },
+  {
+   "id": "INV007",
+   "file": "INV007_2026-09-14-16-22-minimax-h3-5f3868ad-one-continuou.mp4",
+   "title": "One continuous fifteen-second photorealistic film shot from the supplied correct",
+   "frames": 362,
+   "group": "higgsfield",
+   "model": "minimax_h3",
+   "at": "2026-09-14T16:22"
+  },
+  {
+   "id": "INV008",
+   "file": "INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-.mp4",
+   "title": "An understated, natural eight-second conversation filmed by a locked passenger-s",
+   "frames": 193,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T16:08"
+  },
+  {
+   "id": "INV009",
+   "file": "INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi.mp4",
+   "title": "Eight-second fixed-camera photorealistic passenger-POV farewell from the exact s",
+   "frames": 193,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T16:00"
+  },
+  {
+   "id": "INV010",
+   "file": "INV010_2026-09-14-14-41-kling3-0-1aaa6fd8-four-second-pho.mp4",
+   "title": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+   "frames": 97,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T14:41"
+  },
+  {
+   "id": "INV011",
+   "file": "INV011_2026-09-14-14-25-kling3-0-1eff7ef9-eight-second-fi.mp4",
+   "title": "Eight-second fixed-camera photorealistic shot from the supplied approved open-ga",
+   "frames": 193,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T14:25"
+  },
+  {
+   "id": "INV012",
+   "file": "INV012_2026-09-14-14-20-kling3-0-9d6f1bd6-eight-second-fi.mp4",
+   "title": "Eight-second fixed-camera photorealistic shot from the supplied approved open-ga",
+   "frames": 193,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T14:20"
+  },
+  {
+   "id": "INV013",
+   "file": "INV013_2026-09-14-14-06-kling3-0-8ed62d6f-eight-second-fi.mp4",
+   "title": "Eight-second fixed-camera photorealistic shot from the supplied approved open-ga",
+   "frames": 193,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T14:06"
+  },
+  {
+   "id": "INV014",
+   "file": "INV014_2026-09-14-08-15-kling3-0-91ab117f-eight-second-fi.mp4",
+   "title": "Eight-second fixed-camera photorealistic shot from the supplied approved open-ga",
+   "frames": 193,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T08:15"
+  },
+  {
+   "id": "INV015",
+   "file": "INV015_2026-09-14-07-24-kling3-0-f1f9dd68-fixed-camera-fi.mp4",
+   "title": "Fixed-camera five-second rear approach, matching the supplied START and END fram",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T07:24"
+  },
+  {
+   "id": "INV016",
+   "file": "INV016_2026-09-14-07-20-kling3-0-a0f227e0-fixed-camera-fi.mp4",
+   "title": "Fixed-camera five-second rear approach, matching the supplied START and END fram",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T07:20"
+  },
+  {
+   "id": "INV017",
+   "file": "INV017_2026-09-14-07-12-kling-video-edit-a9a54790-correct.mp4",
+   "title": "Correct the reflections in the supplied Apu walk video. Keep the existing people",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling_video_edit",
+   "at": "2026-09-14T07:12"
+  },
+  {
+   "id": "INV018",
+   "file": "INV018_2026-09-14-06-57-kling-video-edit-c3a4e2bb-edit-on.mp4",
+   "title": "Edit only the visible speaking movement of Rexx, the tan man in the black cap, b",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling_video_edit",
+   "at": "2026-09-14T06:57"
+  },
+  {
+   "id": "INV019",
+   "file": "INV019_2026-09-14-06-47-kling3-0-7daadf65-fixed-camera-fi.mp4",
+   "title": "Fixed-camera five-second rear approach, matching the supplied START and END fram",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T06:47"
+  },
+  {
+   "id": "INV020",
+   "file": "INV020_2026-09-14-04-57-kling3-0-289b1632-one-continuous-.mp4",
+   "title": "One continuous FIVE-second photorealistic locked-camera shot from the supplied a",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T04:57"
+  },
+  {
+   "id": "INV021",
+   "file": "INV021_2026-09-14-04-42-kling3-0-d6646bdf-one-continuous-.mp4",
+   "title": "One continuous FIVE-second photorealistic locked-camera garage close-up using th",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T04:42"
+  },
+  {
+   "id": "INV022",
+   "file": "INV022_2026-09-14-04-29-kling3-0-90aa654e-no-prompt.mp4",
+   "title": "2026-09-14-04-29_kling3_0_90aa654e_no-prompt.mp4",
+   "frames": 145,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T04:29"
+  },
+  {
+   "id": "INV023",
+   "file": "INV023_2026-09-14-02-27-minimax-h3-22cb1025-five-second-p.mp4",
+   "title": "Five-second photorealistic rear shot using the supplied START and END frames. Th",
+   "frames": 124,
+   "group": "higgsfield",
+   "model": "minimax_h3",
+   "at": "2026-09-14T02:27"
+  },
+  {
+   "id": "INV024",
+   "file": "INV024_2026-09-14-02-23-minimax-h3-fcc40234-five-second-p.mp4",
+   "title": "Five-second photorealistic rear shot using the supplied START and END frames. Th",
+   "frames": 124,
+   "group": "higgsfield",
+   "model": "minimax_h3",
+   "at": "2026-09-14T02:23"
+  },
+  {
+   "id": "INV025",
+   "file": "INV025_2026-09-14-02-20-kling3-0-972289c8-five-second-pho.mp4",
+   "title": "Five-second photorealistic rear shot using the supplied START and END frames. Th",
+   "frames": 121,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T02:20"
+  },
+  {
+   "id": "INV026",
+   "file": "INV026_2026-09-14-01-24-kling3-0-59407e03-four-second-pho.mp4",
+   "title": "Four-second photorealistic locked-tripod shot matching supplied START and END. R",
+   "frames": 97,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T01:24"
+  },
+  {
+   "id": "INV027",
+   "file": "INV027_2026-09-14-01-22-kling3-0-a54638a2-four-second-pho.mp4",
+   "title": "Four-second photorealistic locked-tripod shot matching supplied START and END. R",
+   "frames": 97,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T01:22"
+  },
+  {
+   "id": "INV028",
+   "file": "INV028_2026-09-14-00-53-kling3-0-3176ee05-four-second-pho.mp4",
+   "title": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+   "frames": 97,
+   "group": "higgsfield",
+   "model": "kling3_0",
+   "at": "2026-09-14T00:53"
+  },
+  {
+   "id": "INV029",
+   "file": "INV029_s27-v74-apu-l1-3a05-full16x9-handles80ms.mp4",
+   "title": "S27 V74 Apu L1 3A05 FULL16X9 HANDLES80MS",
+   "frames": 57,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV030",
+   "file": "INV030_s27-v74-apu-l1-3a05-full16x9.mp4",
+   "title": "S27 V74 Apu L1 3A05 FULL16X9",
+   "frames": 54,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV031",
+   "file": "INV031_s27-v74-apu-l1-9dace-full16x9.mp4",
+   "title": "S27 V74 Apu L1 9DACE FULL16X9",
+   "frames": 54,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV032",
+   "file": "INV032_s27-v74-apu-l2-3a05-full16x9-handles80ms.mp4",
+   "title": "S27 V74 Apu L2 3A05 FULL16X9 HANDLES80MS",
+   "frames": 48,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV033",
+   "file": "INV033_s27-v74-apu-l2-3a05-full16x9.mp4",
+   "title": "S27 V74 Apu L2 3A05 FULL16X9",
+   "frames": 44,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV034",
+   "file": "INV034_s27-v74-apu-l3-3a05-full16x9-handles80ms.mp4",
+   "title": "S27 V74 Apu L3 3A05 FULL16X9 HANDLES80MS",
+   "frames": 39,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV035",
+   "file": "INV035_s27-v74-apu-l3-3a05-full16x9.mp4",
+   "title": "S27 V74 Apu L3 3A05 FULL16X9",
+   "frames": 37,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV036",
+   "file": "INV036_s27-v74-l1-native-higgs-return.mp4",
+   "title": "S27 V74 L1 NATIVE HIGGS RETURN",
+   "frames": 57,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV037",
+   "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
+   "title": "S27 V74 L2 NATIVE HIGGS RETURN",
+   "frames": 48,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV038",
+   "file": "INV038_s27-v74-l3-native-higgs-return.mp4",
+   "title": "S27 V74 L3 NATIVE HIGGS RETURN",
+   "frames": 39,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV039",
+   "file": "INV039_s29-v74-apu-l1-5f38-native-full16x9.mp4",
+   "title": "S29 V74 Apu L1 5F38 NATIVE FULL16X9",
+   "frames": 45,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV040",
+   "file": "INV040_s29-v74-apu-l2-5f38-native-full16x9.mp4",
+   "title": "S29 V74 Apu L2 5F38 NATIVE FULL16X9",
+   "frames": 56,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV041",
+   "file": "INV041_s29-v74-homer-blood-5f38-native-full16x9.mp4",
+   "title": "S29 V74 Homer Blood 5F38 NATIVE FULL16X9",
+   "frames": 27,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV042",
+   "file": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+   "title": "S29 V74 Homer WhatDoYouMean 5F38 NATIVE FULL16X9",
+   "frames": 21,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV043",
+   "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
+   "title": "S29 V74 L1 NATIVE HIGGS RETURN",
+   "frames": 45,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV044",
+   "file": "INV044_s29-v74-l2-native-higgs-return.mp4",
+   "title": "S29 V74 L2 NATIVE HIGGS RETURN",
+   "frames": 56,
+   "group": "lipsync",
+   "model": "lipsync-v74",
+   "at": "2026-09-14"
+  },
+  {
+   "id": "INV045",
+   "file": "INV045_homer-car-singing-lipsync-v62.mp4",
+   "title": "HOMER CAR SINGING LIPSYNC V62",
+   "frames": 80,
+   "group": "lipsync",
+   "model": "lipsync",
+   "at": "2026-09-13"
+  },
+  {
+   "id": "INV046",
+   "file": "INV046_s09-lipsync-c2ef-v58.mp4",
+   "title": "S09 LIPSYNC C2EF V58",
+   "frames": 120,
+   "group": "lipsync",
+   "model": "lipsync",
+   "at": "2026-09-13"
+  },
+  {
+   "id": "INV047",
+   "file": "INV047_s10-v65-second-half-lipsync.mp4",
+   "title": "S10 V65 SECOND HALF LIPSYNC",
+   "frames": 96,
+   "group": "lipsync",
+   "model": "lipsync",
+   "at": "2026-09-13"
+  },
+  {
+   "id": "INV048",
+   "file": "INV048_s14-lipsync-v58.mp4",
+   "title": "S14 LIPSYNC V58",
+   "frames": 76,
+   "group": "lipsync",
+   "model": "lipsync",
+   "at": "2026-09-13"
+  },
+  {
+   "id": "INV049",
+   "file": "INV049_s18-wake-lipsync-a65e0b63-v68-raw.mp4",
+   "title": "S18 WAKE LIPSYNC A65E0B63 V68 RAW",
+   "frames": 121,
+   "group": "lipsync",
+   "model": "lipsync",
+   "at": "2026-09-13"
+  },
+  {
+   "id": "INV050",
+   "file": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+   "title": "S29 BLOOD LIPSYNC 0E15B23B RAW",
+   "frames": 24,
+   "group": "lipsync",
+   "model": "lipsync",
+   "at": "2026-09-13"
+  }
+ ]
+}

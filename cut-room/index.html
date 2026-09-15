@@ -94,6 +94,11 @@
   <div class="actions"><button class="primary" id="unpark">⬆ Put in cut</button><button id="preview">▶ Preview it</button></div>
   <div class="strip" id="bin"></div>
 
+  <h2>Inventory</h2>
+  <p class="hint" id="invHint">Today's Higgsfield videos and the V74 lip-syncs. Tap one to watch it, then <b>Put in cut</b>. It goes in right after the selected scene.</p>
+  <div class="actions"><button class="primary" id="invAdd">⬆ Put in cut</button><button id="invPrev">▶ Watch it</button><label style="font-size:18px;margin-left:6px"><input type="checkbox" id="invLip" checked> lip-syncs</label><label style="font-size:18px"><input type="checkbox" id="invHig" checked> Higgsfield</label></div>
+  <div class="strip" id="inv"></div>
+
   <h2>Storyboard scenes that are not in V74</h2>
   <p class="hint">Why the numbers skip. S11, S12, S13 and S15 were folded into the rebuilt garage scenes; S20 to S22 were cut when you chose Bart skating straight into Apu's horn. S29A onward is not built yet.</p>
   <div class="strip" id="todo"></div>
@@ -138,6 +143,20 @@ const byId = Object.fromEntries(CLIPS.map(c => [c.id, c]));
 
 // state: cut = [{id,start,end}] (frames, end exclusive); bin = [id]
 let cut = [], bin = [], sel = null, selBin = null, undoStack = [];
+let INV = [], selInv = null;  // inventory clips (ids INV001…), loaded from inventory.json; they join byId so the cut logic treats them like scenes
+const isInv = id => /^INV/.test(id);
+function invCard(k, i){
+  const el = document.createElement('div'); el.className = 'card' + (i === selInv ? ' sel' : ''); el.dataset.i = i;
+  el.innerHTML = `<img src="thumbs/${k.id}.jpg" alt=""><span class="num">${k.id.replace('INV','#')}</span><span class="v36" style="background:${k.group === 'lipsync' ? 'var(--accent)' : 'var(--ok)'}">${k.group === 'lipsync' ? 'lip-sync' : (k.model || 'Higgsfield').replace(/_/g,' ')}</span><div class="t">${k.title}</div><div class="line">${k.at ? k.at.replace('T',' ') : ''}</div><div class="d">${fmt1(k.frames)}</div>`;
+  return el;
+}
+function renderInv(){
+  const showLip = $('invLip').checked, showHig = $('invHig').checked;
+  const list = INV.map((k, i) => [k, i]).filter(([k]) => (k.group === 'lipsync' ? showLip : showHig));
+  $('inv').replaceChildren(...list.map(([k, i]) => invCard(k, i)));
+  $('invHint').textContent = `${INV.length} clips. Tap one to watch it, then Put in cut. It goes in right after the selected scene.`;
+  for (const id of ['invAdd','invPrev']) $(id).disabled = selInv == null;
+}
 const defaultState = () => ({ cut: CLIPS.filter(c => !c.v36).map(c => ({ id:c.id, start:0, end:c.frames })), bin: CLIPS.filter(c => c.v36).map(c => c.id) });
 
 const $ = id => document.getElementById(id);
@@ -153,7 +172,7 @@ function draft(){ try { localStorage.setItem('gd-cut-draft', JSON.stringify({cut
 function card(c, i, inCut){
   const k = byId[c.id]; const el = document.createElement('div'); el.className = 'card'; el.dataset.i = i;
   const len = inCut ? c.end - c.start : k.frames; const trimmed = inCut && (c.start > 0 || c.end < k.frames);
-  const sid = k.scenes.join(' + '); const st = STORY[k.scenes[0]]; const line = k.scenes.map(s => STORY[s]?.line).filter(Boolean).join(' ');
+  const sid = k.scenes.length ? k.scenes.join(' + ') : k.id.replace('INV','#'); const st = STORY[k.scenes[0]]; const line = k.scenes.length ? k.scenes.map(s => STORY[s]?.line).filter(Boolean).join(' ') : (k.group === 'lipsync' ? 'lip-sync' : 'Higgsfield ' + (k.model||'').replace(/_/g,' '));
   el.innerHTML = `<img src="thumbs/${k.id}.jpg" alt=""><span class="num">${inCut ? (i+1)+' · ' : ''}${sid}</span>${k.v36 ? '<span class="v36">from V36</span>' : ''}<div class="t">${st?.title || k.title}</div><div class="line">${line}</div><div class="d">${fmt1(len)}${trimmed ? ' · trimmed' : ''}</div>`;
   if ((inCut && i === sel) || (!inCut && i === selBin)) el.classList.add('sel');
   return el;
@@ -181,6 +200,10 @@ $('mvL').onclick = () => { if (sel > 0) { snapshot(); [cut[sel-1], cut[sel]] = [
 $('mvR').onclick = () => { if (sel < cut.length-1) { snapshot(); [cut[sel+1], cut[sel]] = [cut[sel], cut[sel+1]]; sel++; render(); } };
 $('park').onclick = () => { if (sel == null) return; snapshot(); const [c] = cut.splice(sel,1); bin.push(c.id); selBin = bin.length-1; sel = cut.length ? Math.min(sel, cut.length-1) : null; render(); toast(`${byId[c.id].title} taken out. It is parked below.`); };
 $('unpark').onclick = () => { if (selBin == null) return; snapshot(); const [id] = bin.splice(selBin,1); const k = byId[id]; const at = sel == null ? cut.length : sel + 1; cut.splice(at, 0, { id, start:0, end:k.frames }); sel = at; selBin = null; render(); toast(`${k.title} put in at scene ${at+1}.`); $('cut').children[at]?.scrollIntoView({ inline:'center', block:'nearest', behavior:'smooth' }); };
+$('inv').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; selInv = +c.dataset.i; renderInv(); showFrame(INV[selInv].id, 0); });
+$('invLip').onchange = renderInv; $('invHig').onchange = renderInv;
+$('invPrev').onclick = () => { if (selInv == null) return; stop(); seq = [{ id:INV[selInv].id, start:0, end:INV[selInv].frames }]; playing = true; $('bigplay').hidden = true; startClip(0); };
+$('invAdd').onclick = () => { if (selInv == null) return; snapshot(); const k = INV[selInv]; const at = sel == null ? cut.length : sel + 1; cut.splice(at, 0, { id:k.id, start:0, end:k.frames }); sel = at; render(); toast(`${k.title.slice(0,40)} put in at scene ${at+1}.`); $('cut').children[at]?.scrollIntoView({ inline:'center', block:'nearest', behavior:'smooth' }); };
 $('undo').onclick = () => { if (!undoStack.length) return toast('Nothing to undo'); restore(undoStack.pop()); toast('Undone'); };
 
 // ---- drag to reorder (pointer events; press and hold on touch so the strip can still scroll)
@@ -215,7 +238,7 @@ $('trimDone').onclick = () => { $('trimPanel').hidden = true; };
 
 // ---- playback: one <video>, swaps files at each cut
 const v = $('v'); let playing = false, cur = -1, seq = [];
-const src = id => `clips/${id}.mp4`;
+const src = id => (isInv(id) ? 'inv/' : 'clips/') + id + '.mp4';
 function showFrame(id, frame){ stop(); v.src = src(id); v.currentTime = frame / FPS; $('now').textContent = byId[id].title; }
 function playhead(){ if (cur < 0 || !seq.length) return 0; let f = 0; for (let i = 0; i < cur; i++) f += seq[i].end - seq[i].start; return f + Math.max(0, Math.round(v.currentTime*FPS) - seq[cur].start); }
 function playFrom(i){ seq = cut.slice(); if (!seq.length) return toast('The cut is empty'); playing = true; $('bigplay').hidden = true; startClip(i); }
@@ -231,7 +254,7 @@ v.addEventListener('ended', () => { if (playing) startClip(cur + 1); });
 v.addEventListener('click', () => playing ? stop() : playFrom(cur >= 0 ? cur : (sel ?? 0)));
 
 // ---- save: files-publish `cuts/latest.json` (+ dated copy); fallback shows the list to copy
-function cutDoc(){ return { name:'GARAGE-DREAM cut from Cut Room', savedAt:new Date().toISOString(), fps:FPS, frames:totalFrames(), cut:cut.map(c => ({ id:c.id, scenes:byId[c.id].scenes, file:byId[c.id].file, title:byId[c.id].title, start:c.start, end:c.end })), parked:bin.map(id => ({ id, file:byId[id].file })) }; }
+function cutDoc(){ return { name:'GARAGE-DREAM cut from Cut Room', savedAt:new Date().toISOString(), fps:FPS, frames:totalFrames(), cut:cut.map(c => ({ id:c.id, scenes:byId[c.id].scenes, file:byId[c.id].file, folder:isInv(c.id) ? 'inventory-v74' : 'capcut-kit-v74/SCENES_IN_ORDER', title:byId[c.id].title, start:c.start, end:c.end })), parked:bin.map(id => ({ id, file:byId[id].file })) }; }
 function cutText(){ return cut.map((c,i) => `${i+1}. ${byId[c.id].file}  ${c.start}-${c.end}`).join('\n') + '\nPARKED: ' + bin.join(', '); }
 let art = null;
 try { (window.claude?.use ? claude.use('artifact') : Promise.resolve(null)).then(a => { art = a; }).catch(() => {}); } catch (e) {}
@@ -253,6 +276,8 @@ $('save').onclick = async () => {
 // ---- load: saved cut if there is one, else a local draft, else V74 with the seven parked
 (async function init(){
   try { const r = await fetch('story.json', { cache:'no-store' }); if (r.ok) { const d = await r.json(); for (const s of d.scenes) STORY[s.id] = s; } } catch(e){}
+  try { const r = await fetch('inventory.json', { cache:'no-store' }); if (r.ok) { const d = await r.json(); INV = d.clips.map(c => ({ ...c, scenes: [], v36:false })); for (const k of INV) byId[k.id] = k; } } catch(e){}
+  renderInv();
   renderTodo();
   let s = null;
   try { const r = await fetch('cuts/latest.json', { cache:'no-store' }); if (r.ok) { const d = await r.json(); s = { cut:d.cut.map(c => ({ id:c.id, start:c.start, end:c.end })), bin:d.parked.map(p => p.id) }; $('stat').textContent = `Loaded the cut saved ${new Date(d.savedAt).toLocaleString()}`; } } catch(e){}
@@ -261,7 +286,7 @@ $('save').onclick = async () => {
   // clips that are no longer part of this page (the retired V36 scenes) are dropped silently
   s.cut = s.cut.filter(c => byId[c.id]); s.bin = (s.bin || []).filter(id => byId[id]);
   // any clip missing from both lists gets parked so nothing can vanish
-  const seen = new Set([...s.cut.map(c => c.id), ...s.bin]); for (const c of CLIPS) if (!seen.has(c.id)) s.bin.push(c.id);
+  const seen = new Set([...s.cut.map(c => c.id), ...s.bin]); for (const c of CLIPS) if (!seen.has(c.id)) s.bin.push(c.id);  // inventory clips never auto-park
   cut = s.cut; bin = s.bin; sel = 0; render(); showFrame(cut[0]?.id ?? CLIPS[0].id, cut[0]?.start ?? 0);
 })();
 </script>
