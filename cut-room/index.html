@@ -30,17 +30,17 @@
   /* ---- timeline ---- */
   .tlwrap{ background:var(--panel); border-radius:12px; padding:6px 0 6px; margin-top:6px; }
   .tl{ position:relative; overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; }
-  .tlin{ position:relative; height:452px; }
+  .tlin{ position:relative; height:470px; }
   .lane{ position:absolute; left:0; right:0; }
   .lane .lab{ position:sticky; left:0; display:inline-block; background:rgba(38,34,31,.8); color:#fff; font-size:15px; font-weight:700; padding:1px 8px; border-radius:0 6px 6px 0; z-index:2; pointer-events:none; }
   .ruler{ top:0; height:26px; background:var(--panel2); }
   .tick{ position:absolute; top:0; width:1px; height:10px; background:var(--muted); } .tick.s5{ height:26px; }
   .tick span{ position:absolute; left:4px; top:6px; font-size:13px; color:var(--muted); white-space:nowrap; }
-  .l-v1{ top:28px; height:160px; background:rgba(167,95,60,.10); } .l-a1{ top:190px; height:34px; } .l-script{ top:228px; height:64px; } .l-v2{ top:296px; height:84px; } .l-a2{ top:384px; height:70px; }
+  .l-v1{ top:28px; height:160px; background:rgba(167,95,60,.10); } .l-script{ top:190px; height:60px; } .l-a1{ top:254px; height:64px; } .l-a2{ top:322px; height:64px; } .l-v2{ top:390px; height:74px; }
   .sheet{ position:fixed; left:0; right:0; bottom:0; background:var(--panel); border-top:3px solid var(--accent); border-radius:16px 16px 0 0; padding:16px 18px 90px; box-shadow:0 -10px 30px rgba(0,0,0,.25); z-index:15; max-height:70vh; overflow:auto; } .sheet[hidden]{ display:none; } .sheet .id{ display:inline-block; background:var(--accent); color:var(--accent-ink); font-weight:700; padding:2px 10px; border-radius:6px; font-size:17px; } .sheet h3{ font-family:Newsreader,Georgia,serif; font-size:26px; margin:8px 0 4px; } .sheet .line{ font-size:22px; line-height:1.4; margin:6px 0 10px; } .sheet .st{ color:var(--muted); font-size:17px; }
   .lanebg{ position:absolute; inset:0; border-top:1px dashed var(--line); }
   .blk{ position:absolute; top:3px; bottom:3px; border-radius:8px; overflow:hidden; border:3px solid transparent; user-select:none; -webkit-user-select:none; touch-action:none; background:var(--v1); color:var(--text); }
-  .blk.v2{ background:var(--v2); } .blk.a2{ background:var(--a2); } .blk.a1{ background:var(--v1); opacity:.55; touch-action:pan-x; } .blk.script{ background:var(--script); touch-action:pan-x; }
+  .blk.v2{ background:var(--v2); } .blk.a2{ background:var(--a2); } .blk.a1{ background:#b9a06f; } .blk.a1.free{ background:#a58a58; border-style:dashed; } .blk.script{ background:var(--script); touch-action:pan-x; }
   .blk.sel{ border-color:var(--sel); z-index:3; } .blk.drag{ opacity:.6; z-index:4; }
   .blk .th{ position:absolute; inset:0; background-size:cover; background-position:center; opacity:.55; pointer-events:none; }
   .blk.v1 .th{ opacity:1; } .blk.v1::after{ content:""; position:absolute; left:0; right:0; bottom:0; height:58%; background:linear-gradient(transparent, rgba(38,34,31,.85)); pointer-events:none; }
@@ -87,7 +87,7 @@
   <header>
     <div>
       <h1>Garage Dream · Cut Room</h1>
-      <p class="sub" id="sub">Main video on top; under it the sound inside each scene, the 2nd video lane, added sound, and the script. Drag a block to move it, pull its ends to trim. Swipe the ruler or the script lane to scroll. Nothing is ever deleted.</p>
+      <p class="sub" id="sub">Picture on top, then the script, then every scene's own sound as its own block, then added sound, then the 2nd video lane for cutaways and transitions. Swap a picture and its sound stays. Drag a block to move it, pull its ends to trim. Swipe the ruler or the script lane to scroll. Nothing is ever deleted.</p>
     </div>
     <button id="undo">↶ Undo</button>
   </header>
@@ -112,16 +112,16 @@
       <button class="icon" id="nudgeL" title="Move earlier">◀</button>
       <button class="icon" id="nudgeR" title="Move later">▶</button>
       <button id="split">✂ Split here</button>
-      <button id="park">⬇ Take out</button><button id="detach">♪ Pull sound out</button>
-      <span class="k"><i style="background:var(--v1)"></i> main video</span><span class="k"><i style="background:var(--v2)"></i> 2nd video</span><span class="k"><i style="background:var(--a2)"></i> sound</span>
+      <button id="park">⬇ Take out</button><button id="unlink">⛓ Unlink sound</button>
+      <span class="k"><i style="background:var(--v1)"></i> picture</span><span class="k"><i style="background:#b9a06f"></i> scene sound (follows its scene)</span><span class="k"><i style="background:var(--a2)"></i> added sound</span><span class="k"><i style="background:var(--v2)"></i> 2nd video</span>
     </div>
     <div class="tl" id="tl"><div class="tlin" id="tlin">
       <div class="lane ruler" id="ruler"></div>
       <div class="lane l-v1" id="lV1"><div class="lanebg"></div><span class="lab" style="font-size:18px;background:var(--accent)">MAIN VIDEO</span></div>
-      <div class="lane l-a1" id="lA1"><div class="lanebg"></div><span class="lab">SOUND INSIDE EACH SCENE</span></div>
       <div class="lane l-script" id="lScript"><div class="lanebg"></div><span class="lab">SCRIPT · tap a line to read it</span></div>
-      <div class="lane l-v2" id="lV2"><div class="lanebg"></div><span class="lab">2ND VIDEO · cutaways, transitions</span></div>
+      <div class="lane l-a1" id="lA1"><div class="lanebg"></div><span class="lab">SCENE SOUND · each scene's own sound, separate from its picture</span></div>
       <div class="lane l-a2" id="lA2"><div class="lanebg"></div><span class="lab">ADDED SOUND · music, voice, cues</span></div>
+      <div class="lane l-v2" id="lV2"><div class="lanebg"></div><span class="lab">2ND VIDEO · cutaways, transitions</span></div>
       <div id="ph"></div>
     </div></div>
   </div>
@@ -179,16 +179,19 @@ const src = id => isAud(id) ? `audio/${id}.mp3` : (isInv(id) ? 'inv/' : 'clips/'
 const thumb = id => isAud(id) ? '' : `thumbs/${id}.jpg`;
 
 // ---------- state
-let S = { v1:[], v2:[], a2:[], parked:[] };   // v1: {id,start,end}; v2/a2: {id,start,end,at}
+let S = { v1:[], a1:[], v2:[], a2:[], parked:[] };   // v1: {u,id,start,end}; a1: {id,start,end,link,off,at}; v2/a2: {id,start,end,at}
+const uid = () => Math.random().toString(36).slice(2, 9);
+const soundFor = b => ({ id:b.id, start:b.start, end:b.end, link:b.u, off:0, at:0 });
+function a1pos(s){ if (s.link) { const i = S.v1.findIndex(b => b.u === s.link); if (i >= 0) return v1pos()[i] + s.off; } return s.at; }
 let sel = null;            // {lane:'v1'|'v2'|'a2', i}
 let selBin = null, selInv = null, selAud = null;
 let undoStack = [], pxf = 1.7, ph = 0, playing = false;
-const defaultState = () => ({ v1: CLIPS.map(c => ({ id:c.id, start:0, end:c.frames })), v2:[], a2:[], parked:[] });
+const defaultState = () => { const v1 = CLIPS.map(c => ({ u:uid(), id:c.id, start:0, end:c.frames })); return { v1, a1: v1.map(soundFor), v2:[], a2:[], parked:[] }; };
 const $ = id => document.getElementById(id);
 const len = b => b.end - b.start;
 const v1pos = () => { let f = 0; return S.v1.map(b => { const p = f; f += len(b); return p; }); };
 const v1total = () => S.v1.reduce((s,b) => s + len(b), 0);
-const total = () => Math.max(v1total(), ...S.v2.map(b => b.at + len(b)), ...S.a2.map(b => b.at + len(b)), 24);
+const total = () => Math.max(v1total(), ...S.v2.map(b => b.at + len(b)), ...S.a2.map(b => b.at + len(b)), ...S.a1.map(b => a1pos(b) + len(b)), 24);
 const fmt = f => { const s = f / FPS; return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}.${Math.floor((s%1)*10)}`; };
 const fmt1 = f => (f / FPS).toFixed(1) + ' s';
 const toast = m => { const t = $('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('on'), 2400); };
@@ -216,14 +219,14 @@ function renderTL(){
     const x = pos[i] * pxf, w = len(b) * pxf;
     const e = blk('v1', b, x, w); e.dataset.lane = 'v1'; e.dataset.i = i; if (sel?.lane === 'v1' && sel.i === i) e.classList.add('sel'); lanes.v1.appendChild(e);
     const sc = blk('script', b, x, w, script(b.id)); sc.querySelector('.hl').remove(); sc.querySelector('.hr').remove(); sc.querySelector('.t').textContent = label(b.id); sc.dataset.lane = 'v1'; sc.dataset.i = i; sc.dataset.ro = 1; lanes.script.appendChild(sc);
-    const a1 = blk('a1', b, x, w, b.mute ? 'sound pulled out (scene is silent)' : 'sound inside this scene'); a1.querySelector('.hl').remove(); a1.querySelector('.hr').remove(); a1.querySelector('.t').textContent = '♪ ' + label(b.id); a1.dataset.ro = 1; lanes.a1.appendChild(a1);
   });
+  S.a1.forEach((b, i) => { const e = blk('a1' + (b.link ? '' : ' free'), b, a1pos(b) * pxf, len(b) * pxf, (b.link ? 'follows its scene' : 'unlinked, stays put') + ' · ' + fmt1(len(b))); e.querySelector('.t').textContent = '♪ ' + label(b.id) + ' · ' + title(b.id); e.dataset.lane = 'a1'; e.dataset.i = i; if (sel?.lane === 'a1' && sel.i === i) e.classList.add('sel'); lanes.a1.appendChild(e); });
   S.v2.forEach((b, i) => { const e = blk('v2', b, b.at * pxf, len(b) * pxf); e.dataset.lane = 'v2'; e.dataset.i = i; if (sel?.lane === 'v2' && sel.i === i) e.classList.add('sel'); lanes.v2.appendChild(e); });
   S.a2.forEach((b, i) => { const e = blk('a2', b, b.at * pxf, len(b) * pxf, b.fromScene ? 'sound from ' + label(b.id) : fmt1(len(b))); e.dataset.lane = 'a2'; e.dataset.i = i; if (sel?.lane === 'a2' && sel.i === i) e.classList.add('sel'); lanes.a2.appendChild(e); });
   $('ph').style.left = (ph * pxf) + 'px';
-  const has = !!sel; for (const id of ['nudgeL','nudgeR','park']) $(id).disabled = !has; $('split').disabled = !(sel && sel.lane === 'v1'); $('detach').disabled = !(sel && sel.lane === 'v1' && !S.v1[sel.i]?.mute);
+  const has = !!sel; for (const id of ['nudgeL','nudgeR','park']) $(id).disabled = !has; $('split').disabled = !(sel && sel.lane === 'v1'); $('unlink').disabled = !(sel && sel.lane === 'a1'); if (sel?.lane === 'a1') $('unlink').textContent = S.a1[sel.i]?.link ? '⛓ Unlink sound' : '⛓ Link to its scene';
   $('time').textContent = `${fmt(ph)} / ${fmt(v1total())}`;
-  $('sub').textContent = `${S.v1.length} scenes in the main video · ${fmt(v1total())} · ${S.v2.length} on the 2nd lane · ${S.a2.length} added sounds · ${S.parked.length} taken out`;
+  $('sub').textContent = `${S.v1.length} scenes · ${fmt(v1total())} · ${S.a1.length} scene sounds · ${S.a2.length} added sounds · ${S.v2.length} on the 2nd lane · ${S.parked.length} taken out`;
   renderBins(); draft();
 }
 function keepPhVisible(){ const tl = $('tl'), x = ph * pxf; if (x < tl.scrollLeft + 40 || x > tl.scrollLeft + tl.clientWidth - 40) tl.scrollLeft = Math.max(0, x - tl.clientWidth * 0.3); }
@@ -244,14 +247,14 @@ document.addEventListener('pointermove', e => {
   const dx = e.clientX - drag.x0; const df = Math.round(dx / pxf);
   e.preventDefault(); if (!drag.moved && df !== 0) { drag.moved = true; }
   const b = S[drag.lane][drag.i]; const k = byId[b.id]; const max = k.frames;
-  if (drag.mode === 'L') { const ns = Math.min(Math.max(0, drag.o.start + df), drag.o.end - 6); if (drag.lane !== 'v1') b.at = drag.o.at + (ns - drag.o.start); b.start = ns; }
+  if (drag.mode === 'L') { const ns = Math.min(Math.max(0, drag.o.start + df), drag.o.end - 6); if (drag.lane === 'a1') { if (b.link) b.off = drag.o.off + (ns - drag.o.start); else b.at = drag.o.at + (ns - drag.o.start); } else if (drag.lane !== 'v1') b.at = drag.o.at + (ns - drag.o.start); b.start = ns; }
   else if (drag.mode === 'R') { b.end = Math.max(Math.min(max, drag.o.end + df), b.start + 6); }
   else if (drag.lane === 'v1') { // reorder by x
     const pos = v1pos(); const cx = pos[drag.i] * pxf + dx + len(b) * pxf / 2; let to = drag.i;
     for (let j = 0; j < S.v1.length; j++) { const a = pos[j] * pxf, z = a + len(S.v1[j]) * pxf; if (cx > (a + z) / 2) to = j; }
     if (cx < len(S.v1[0]) * pxf / 2) to = 0;
     if (to !== drag.i) { const [it] = S.v1.splice(drag.i, 1); S.v1.splice(to, 0, it); drag.i = to; sel = { lane:'v1', i:to }; drag.x0 = e.clientX; }
-  } else { b.at = Math.max(0, drag.o.at + df); }
+  } else if (drag.lane === 'a1') { if (b.link) b.off = drag.o.off + df; else b.at = Math.max(0, drag.o.at + df); } else { b.at = Math.max(0, drag.o.at + df); }
   renderTL(); const el = document.querySelector(`.blk[data-lane="${drag.lane}"][data-i="${drag.i}"]`); if (el && drag.mode === 'move') el.classList.add('drag');
 }, { passive:false });
 const endDrag = () => { if (!drag) return; if (!drag.seek) { if (drag.moved) { undoStack.push(drag.snap); if (undoStack.length > 60) undoStack.shift(); } } drag = null; renderTL(); };
@@ -259,10 +262,10 @@ document.addEventListener('pointerup', endDrag); document.addEventListener('poin
 
 // selected-block actions
 $('nudgeL').onclick = () => nudge(-6); $('nudgeR').onclick = () => nudge(6);
-function nudge(df){ if (!sel) return; snapshot(); if (sel.lane === 'v1') { const j = sel.i + (df < 0 ? -1 : 1); if (j < 0 || j >= S.v1.length) return; [S.v1[sel.i], S.v1[j]] = [S.v1[j], S.v1[sel.i]]; sel.i = j; } else { const b = S[sel.lane][sel.i]; b.at = Math.max(0, b.at + df); } renderTL(); }
-$('split').onclick = () => { if (!sel || sel.lane !== 'v1') return; const pos = v1pos(); const b = S.v1[sel.i]; const off = ph - pos[sel.i]; if (off < 6 || off > len(b) - 6) return toast('Move the playhead inside the selected scene first'); snapshot(); const cutAt = b.start + off; S.v1.splice(sel.i + 1, 0, { id:b.id, start:cutAt, end:b.end }); b.end = cutAt; renderTL(); toast('Split. Two pieces now.'); };
-$('park').onclick = () => { if (!sel) return; snapshot(); const [b] = S[sel.lane].splice(sel.i, 1); if (sel.lane === 'v1' && byId[b.id].kind === 'scene' && !S.v1.some(x => x.id === b.id)) S.parked.push(b.id); sel = null; renderTL(); toast(`${title(b.id)} taken out.`); };
-$('detach').onclick = () => { if (!sel || sel.lane !== 'v1') return; const b = S.v1[sel.i]; if (b.mute) return; snapshot(); b.mute = true; S.a2.push({ id:b.id, start:b.start, end:b.end, at:v1pos()[sel.i], fromScene:true }); renderTL(); toast('Sound pulled out onto its own block. Move it, trim it, or take it out.'); };
+function nudge(df){ if (!sel) return; snapshot(); if (sel.lane === 'v1') { const j = sel.i + (df < 0 ? -1 : 1); if (j < 0 || j >= S.v1.length) return; [S.v1[sel.i], S.v1[j]] = [S.v1[j], S.v1[sel.i]]; sel.i = j; } else if (sel.lane === 'a1') { const b = S.a1[sel.i]; if (b.link) b.off += df; else b.at = Math.max(0, b.at + df); } else { const b = S[sel.lane][sel.i]; b.at = Math.max(0, b.at + df); } renderTL(); }
+$('split').onclick = () => { if (!sel || sel.lane !== 'v1') return; const pos = v1pos(); const b = S.v1[sel.i]; const off = ph - pos[sel.i]; if (off < 6 || off > len(b) - 6) return toast('Move the playhead inside the selected scene first'); snapshot(); const cutAt = b.start + off; const nb = { u:uid(), id:b.id, start:cutAt, end:b.end }; S.v1.splice(sel.i + 1, 0, nb); b.end = cutAt; for (const s of S.a1.filter(s => s.link === b.u && s.off === 0 && s.id === b.id)) { const ns = { ...s, link:nb.u, start:cutAt, end:s.end }; s.end = cutAt; S.a1.push(ns); } renderTL(); toast('Split. Two pieces now, sound split with it.'); };
+$('park').onclick = () => { if (!sel) return; snapshot(); const [b] = S[sel.lane].splice(sel.i, 1); if (sel.lane === 'v1') { S.a1 = S.a1.filter(s => s.link !== b.u); if (byId[b.id].kind === 'scene' && !S.v1.some(x => x.id === b.id)) S.parked.push(b.id); } sel = null; renderTL(); toast(`${title(b.id)} taken out${sel === null && b.u ? ' (with its sound)' : ''}.`); };
+$('unlink').onclick = () => { if (!sel || sel.lane !== 'a1') return; const s = S.a1[sel.i]; snapshot(); if (s.link) { s.at = a1pos(s); s.link = null; s.off = 0; toast('Unlinked. This sound stays where it is even if the scene moves.'); } else { const i = locate(s.at); if (!i) return toast('No scene under it to link to'); s.link = S.v1[i.i].u; s.off = s.at - v1pos()[i.i]; toast('Linked to ' + title(S.v1[i.i].id) + '. It follows that scene now.'); } renderTL(); };
 function openSheet(i){ const b = S.v1[i]; if (!b) return; const k = byId[b.id]; const ids = k.scenes.length ? k.scenes : [k.id]; $('shId').textContent = (i+1) + ' · ' + ids.join(' + '); $('shTitle').textContent = title(b.id); $('shLine').textContent = k.scenes.length ? k.scenes.map(s => STORY[s]?.line).filter(Boolean).join('\n\n') : (k.title || ''); $('shSt').textContent = k.scenes.length ? k.scenes.map(s => STORY[s]?.status ? s + ': ' + STORY[s].status.replace(/\s+/g,' ') : '').filter(Boolean).join('  ·  ') : (k.group === 'lipsync' ? 'lip-sync render' : 'Higgsfield render ' + (k.at || '')); $('sheet').hidden = false; $('shPlay').onclick = () => { $('sheet').hidden = true; playFrom(v1pos()[i]); }; }
 $('shClose').onclick = () => { $('sheet').hidden = true; };
 $('undo').onclick = () => { if (!undoStack.length) return toast('Nothing to undo'); S = JSON.parse(undoStack.pop()); sel = null; renderTL(); toast('Undone'); };
@@ -300,9 +303,9 @@ function playAud(i){ selAud = i; renderBins(); const k = AUD[i]; const pa = $('p
 $('aud').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; playAud(+c.dataset.i); });
 let playAll = false;
 $('audAll').onclick = () => { const f = { music:$('fMusic').checked, voice:$('fVoice').checked, cue:$('fCue').checked, stem:$('fStem').checked }; const list = AUD.map((k, i) => [k, i]).filter(([k]) => f[k.group]).map(([, i]) => i); if (!list.length) return; playAll = true; let p = 0; playAud(list[0]); $('pa').onended = () => { if (!playAll) return; p++; if (p < list.length) playAud(list[p]); else playAll = false; }; };
-const insertV1 = id => { snapshot(); const k = byId[id]; const at = sel?.lane === 'v1' ? sel.i + 1 : S.v1.length; S.v1.splice(at, 0, { id, start:0, end:k.frames }); sel = { lane:'v1', i:at }; renderTL(); toast(`${title(id)} put in the main video at ${at+1}.`); };
+const insertV1 = id => { snapshot(); const k = byId[id]; const at = sel?.lane === 'v1' ? sel.i + 1 : S.v1.length; const nb = { u:uid(), id, start:0, end:k.frames }; S.v1.splice(at, 0, nb); S.a1.push(soundFor(nb)); sel = { lane:'v1', i:at }; renderTL(); toast(`${title(id)} put in the main video at ${at+1}, with its own sound block.`); };
 $('invV1').onclick = () => selInv != null && insertV1(INV[selInv].id);
-$('invSwap').onclick = () => { if (selInv == null) return toast('Tap a clip on the shelf first'); if (!sel || sel.lane !== 'v1') return toast('Tap the scene in the main video you want to replace'); snapshot(); const k = INV[selInv]; const old = S.v1[sel.i]; S.v1[sel.i] = { id:k.id, start:0, end:k.frames }; if (byId[old.id].kind === 'scene' && !S.v1.some(x => x.id === old.id) && !S.parked.includes(old.id)) S.parked.push(old.id); renderTL(); toast(title(old.id) + ' replaced by ' + label(k.id) + '. The old scene is in Taken out.'); };
+$('invSwap').onclick = () => { if (selInv == null) return toast('Tap a clip on the shelf first'); if (!sel || sel.lane !== 'v1') return toast('Tap the scene in the main video you want to replace'); snapshot(); const k = INV[selInv]; const old = S.v1[sel.i]; S.v1[sel.i] = { u:old.u, id:k.id, start:0, end:Math.min(k.frames, k.frames) }; if (byId[old.id].kind === 'scene' && !S.v1.some(x => x.id === old.id) && !S.parked.includes(old.id)) S.parked.push(old.id); renderTL(); toast('Picture replaced by ' + label(k.id) + '. The old sound stays on the scene sound lane. Old picture is in Taken out.'); };
 $('invV2').onclick = () => { if (selInv == null) return; snapshot(); const k = INV[selInv]; S.v2.push({ id:k.id, start:0, end:k.frames, at:ph }); sel = { lane:'v2', i:S.v2.length-1 }; renderTL(); toast(`${title(k.id)} laid on the 2nd video lane at ${fmt(ph)}.`); };
 $('unpark').onclick = () => { if (selBin == null) return; const id = S.parked[selBin]; snapshot(); S.parked.splice(selBin, 1); selBin = null; insertV1(id); };
 $('audAdd').onclick = () => { if (selAud == null) return; snapshot(); const k = AUD[selAud]; S.a2.push({ id:k.id, start:0, end:k.frames, at:ph }); sel = { lane:'a2', i:S.a2.length-1 }; renderTL(); toast(`${title(k.id)} laid down at ${fmt(ph)}.`); };
@@ -316,16 +319,17 @@ const v = $('v'), v2 = $('v2'); const audEls = new Map(); let solo = null;
 function showFrame(id, frame){ stop(); solo = null; v.src = src(id); v.currentTime = frame / FPS; $('now').textContent = title(id); }
 function previewClip(id, frames){ stop(); solo = { id, frames }; v.src = src(id); v.currentTime = 0; playing = true; $('bigplay').hidden = true; $('play').textContent = '❚❚ Pause'; v.play().catch(()=>{}); $('now').textContent = 'preview · ' + title(id); }
 function locate(f){ const pos = v1pos(); for (let i = 0; i < S.v1.length; i++) if (f < pos[i] + len(S.v1[i])) return { i, off: f - pos[i] }; return null; }
-function loadV1At(f, play){ const L = locate(f); if (!L) return false; const b = S.v1[L.i]; v.muted = !!b.mute; const want = (b.start + L.off) / FPS; if (v.dataset.id !== b.id) { v.dataset.id = b.id; v.src = src(b.id); } if (Math.abs(v.currentTime - want) > 0.08) v.currentTime = want; $('now').textContent = `${L.i+1}. ${label(b.id)} · ${title(b.id)}`; if (play) v.play().catch(()=>{}); return true; }
+function loadV1At(f, play){ const L = locate(f); if (!L) return false; const b = S.v1[L.i]; v.muted = true; v.volume = 0; const want = (b.start + L.off) / FPS; if (v.dataset.id !== b.id) { v.dataset.id = b.id; v.src = src(b.id); } if (Math.abs(v.currentTime - want) > 0.08) v.currentTime = want; $('now').textContent = `${L.i+1}. ${label(b.id)} · ${title(b.id)}`; if (play) v.play().catch(()=>{}); return true; }
 function seekTo(f){ ph = Math.max(0, Math.min(f, Math.max(0, v1total() - 1))); if (!loadV1At(ph, playing)) { v.pause(); } syncLayers(true); renderTL(); }
 function syncLayers(force){
   const b2 = S.v2.find(b => ph >= b.at && ph < b.at + len(b));
   if (b2) { const key = b2.id + '@' + b2.at; const want = (b2.start + (ph - b2.at)) / FPS; if (v2.dataset.key !== key) { v2.dataset.key = key; v2.src = src(b2.id); } if (force || Math.abs(v2.currentTime - want) > 0.25) v2.currentTime = want; v2.classList.add('on'); if (playing && v2.paused) v2.play().catch(()=>{}); if (!playing) v2.pause(); }
   else { v2.classList.remove('on'); v2.pause(); v2.dataset.key = ''; }
-  for (const b of S.a2) { const key = b.id + '@' + b.at; let a = audEls.get(key); const inR = ph >= b.at && ph < b.at + len(b);
+  const live = [...S.a2.map(b => ({ ...b, key:'a2:' + b.id + '@' + b.at })), ...S.a1.map((b, i) => ({ ...b, at:a1pos(b), key:'a1:' + i + ':' + b.id + '@' + a1pos(b) }))];
+  for (const b of live) { const key = b.key; let a = audEls.get(key); const inR = ph >= b.at && ph < b.at + len(b);
     if (inR) { if (!a) { a = new Audio(src(b.id)); audEls.set(key, a); } const want = (b.start + (ph - b.at)) / FPS; if (force || Math.abs(a.currentTime - want) > 0.25) a.currentTime = want; if (playing && a.paused) a.play().catch(()=>{}); if (!playing) a.pause(); }
     else if (a && !a.paused) a.pause(); }
-  for (const [key, a] of audEls) if (!S.a2.some(b => b.id + '@' + b.at === key)) { a.pause(); audEls.delete(key); }
+  for (const [key, a] of audEls) if (!live.some(b => b.key === key)) { a.pause(); audEls.delete(key); }
 }
 function stop(){ playing = false; v.pause(); v2.pause(); for (const a of audEls.values()) a.pause(); if (audPrev) audPrev.pause(); try { $('pa').pause(); $('pv').pause(); } catch(e){} $('bigplay').hidden = false; $('play').textContent = '▶ Play'; }
 function playFrom(f){ if (!S.v1.length) return toast('The main video is empty'); try { $('pa').pause(); $('pv').pause(); } catch(e){} solo = null; ph = f; playing = true; $('bigplay').hidden = true; $('play').textContent = '❚❚ Pause'; loadV1At(ph, true); syncLayers(true); }
@@ -335,18 +339,20 @@ function tick(){
     else { const L = locate(ph); if (!L) stop(); else { const b = S.v1[L.i]; if (v.dataset.id === b.id) { const f = v1pos()[L.i] + Math.round(v.currentTime * FPS) - b.start; if (f >= v1pos()[L.i] + len(b) || v.ended) { ph = v1pos()[L.i] + len(b); if (!loadV1At(ph, true)) stop(); } else ph = Math.max(ph, f); } syncLayers(false); }
       $('ph').style.left = (ph * pxf) + 'px'; $('time').textContent = `${fmt(ph)} / ${fmt(v1total())}`; keepPhVisible(); }
   }
-  requestAnimationFrame(tick);
 }
-requestAnimationFrame(tick);
+setInterval(tick, 33);  // a timer, not requestAnimationFrame: keeps the playhead moving even when the tab is partly hidden
 $('play').onclick = () => playing ? stop() : playFrom(ph >= v1total() - 1 ? 0 : ph);
 $('bigplay').onclick = () => playFrom(ph >= v1total() - 1 ? 0 : ph);
 $('toStart').onclick = () => seekTo(0);
 v.addEventListener('click', () => playing ? stop() : playFrom(ph));
+// some browsers pause a muted video on their own; if that happens mid-play, fall back to unmuted-at-zero-volume and keep going
+v.addEventListener('pause', () => { if (playing && !solo && !v.ended && !v._retried) { v._retried = true; v.muted = false; v.volume = 0; v.play().catch(()=>{}); } });
+v.addEventListener('play', () => { setTimeout(() => { v._retried = false; }, 1500); });
 
 // ---------- save / load
 function cutDoc(){ const f = b => ({ id:b.id, file:byId[b.id].file, folder: isAud(b.id) ? 'audio-bin-v74' : isInv(b.id) ? 'inventory-v74' : 'capcut-kit-v74/SCENES_IN_ORDER', title:title(b.id), scenes:byId[b.id].scenes || [], start:b.start, end:b.end, ...(b.at != null ? { at:b.at } : {}), ...(b.mute ? { mute:true } : {}), ...(b.fromScene ? { fromScene:true } : {}) });
-  return { format:2, name:'GARAGE-DREAM cut from Cut Room', savedAt:new Date().toISOString(), fps:FPS, frames:v1total(), v1:S.v1.map(f), v2:S.v2.map(f), a2:S.a2.map(f), parked:S.parked.map(id => ({ id, file:byId[id].file })) }; }
-function cutText(){ const d = cutDoc(); return ['MAIN VIDEO', ...d.v1.map((c,i) => `${i+1}. ${c.file} ${c.start}-${c.end}`), '2ND VIDEO', ...d.v2.map(c => `@${c.at} ${c.file} ${c.start}-${c.end}`), 'SOUND', ...d.a2.map(c => `@${c.at} ${c.file} ${c.start}-${c.end}`), 'TAKEN OUT: ' + S.parked.join(', ')].join('\n'); }
+  return { format:2, name:'GARAGE-DREAM cut from Cut Room', savedAt:new Date().toISOString(), fps:FPS, frames:v1total(), v1:S.v1.map(b => ({ ...f(b), mute:true, u:b.u })), v2:S.v2.map(f), a2:[...S.a1.map(b => ({ ...f({ ...b, at:a1pos(b) }), sceneSound:true, link:b.link || null })), ...S.a2.map(f)], a1:S.a1.map(b => ({ ...f({ ...b, at:a1pos(b) }), link:b.link || null, off:b.off })), parked:S.parked.map(id => ({ id, file:byId[id].file })) }; }
+function cutText(){ const d = cutDoc(); return ['MAIN VIDEO (silent pictures)', ...d.v1.map((c,i) => `${i+1}. ${c.file} ${c.start}-${c.end}`), 'SOUND (scene sound + added)', ...d.a2.map(c => `@${c.at} ${c.file} ${c.start}-${c.end}`), '2ND VIDEO', ...d.v2.map(c => `@${c.at} ${c.file} ${c.start}-${c.end}`), 'TAKEN OUT: ' + S.parked.join(', ')].join('\n'); }
 let art = null;
 try { (window.claude?.use ? claude.use('artifact') : Promise.resolve(null)).then(a => { art = a; }).catch(() => {}); } catch (e) {}
 $('save').onclick = async () => {
@@ -364,10 +370,11 @@ function renderTodo(){ const built = new Set(CLIPS.flatMap(c => c.scenes)); cons
   const order = (() => { try { return JSON.parse(localStorage.getItem('gd-cut-v2') || '{}').invOrder; } catch(e){ return null; } })(); if (Array.isArray(order)) INV.sort((a, b) => (order.indexOf(a.id) + 1 || 999) - (order.indexOf(b.id) + 1 || 999));
   const aud = await get('audio.json'); if (aud) { AUD = aud.clips.map(c => ({ ...c, kind:'aud', scenes:[] })); for (const k of AUD) byId[k.id] = k; }
   let s = null; const saved = await get('cuts/latest.json');
-  if (saved) { s = saved.format === 2 ? { v1:saved.v1, v2:saved.v2 || [], a2:saved.a2 || [], parked:(saved.parked || []).map(p => p.id) } : { v1:saved.cut, v2:[], a2:[], parked:(saved.parked || []).map(p => p.id) }; $('stat').textContent = `Loaded the cut saved ${new Date(saved.savedAt).toLocaleString()}`; }
+  if (saved) { s = saved.format === 2 ? { v1:saved.v1, a1:saved.a1, v2:saved.v2 || [], a2:(saved.a2 || []).filter(b => !b.sceneSound), parked:(saved.parked || []).map(p => p.id) } : { v1:saved.cut, v2:[], a2:[], parked:(saved.parked || []).map(p => p.id) }; $('stat').textContent = `Loaded the cut saved ${new Date(saved.savedAt).toLocaleString()}`; }
   if (!s) { try { const d = localStorage.getItem('gd-cut-v2'); if (d) { s = JSON.parse(d); $('stat').textContent = 'Unsaved draft from this phone'; } } catch(e){} }
   if (!s || !Array.isArray(s.v1)) s = defaultState();
-  const ok = b => byId[b.id]; s.v1 = s.v1.filter(ok).map(b => ({ id:b.id, start:b.start, end:b.end, ...(b.mute ? { mute:true } : {}) })); s.v2 = (s.v2 || []).filter(ok); s.a2 = (s.a2 || []).filter(ok); s.parked = (s.parked || []).filter(id => byId[id]);
+  const ok = b => byId[b.id]; s.v1 = s.v1.filter(ok).map(b => ({ u:b.u || uid(), id:b.id, start:b.start, end:b.end })); s.v2 = (s.v2 || []).filter(ok); s.a2 = (s.a2 || []).filter(ok).filter(b => !b.fromScene); s.parked = (s.parked || []).filter(id => byId[id]);
+  if (!Array.isArray(s.a1)) s.a1 = s.v1.map(soundFor); else s.a1 = s.a1.filter(ok).map(b => ({ id:b.id, start:b.start, end:b.end, link: s.v1.some(v => v.u === b.link) ? b.link : null, off:b.off || 0, at:b.at || 0 }));
   const seen = new Set([...s.v1.map(b => b.id), ...s.parked]); for (const c of CLIPS) if (!seen.has(c.id)) s.parked.push(c.id);
   S = s; renderTodo(); renderTL(); if (S.v1.length) { v.dataset.id = ''; loadV1At(0, false); }
 })();
