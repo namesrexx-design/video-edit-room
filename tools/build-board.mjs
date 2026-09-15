@@ -11,6 +11,7 @@ import { spawnSync } from 'node:child_process';
 const W = 'C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2';
 const MEDIA = 'D:/REXX/AI_Video/BizBox-Garage-Dream';
 const EDITOR = 'C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor';
+const invClips = fs.existsSync('projects/garage-dream/INVENTORY-MANIFEST.json') ? JSON.parse(fs.readFileSync('projects/garage-dream/INVENTORY-MANIFEST.json', 'utf8')).clips.filter(c => !c.failed) : [];
 const V74_DATE = '2026-09-14';
 fs.mkdirSync(EDITOR + '/sheets', { recursive: true });
 const sb = JSON.parse(fs.readFileSync(W + '/scene-board/storyboard.json', 'utf8'));
@@ -56,6 +57,8 @@ const scenes = sb.scenes.map(s => {
   for (const f of s.frames || []) { const p = resolve(f.image, W + '/scene-board'); if (p) stills.push(tile(p, { group: 'approved', id: f.id, title: clean(f.title), caption: clean(f.caption), role: /end/i.test(f.role || f.title) ? 'end' : /start/i.test(f.role || f.title) ? 'start' : 'reference', approved: true, status: clean(f.status) })); }
   for (const f of s.pendingFrames || []) { const p = resolve(f.image, W + '/scene-board'); if (p) stills.push(tile(p, { group: 'pending', id: f.id, title: clean(f.title), caption: clean(f.caption), role: /end/i.test(f.role || '') ? 'end' : /start/i.test(f.role || '') ? 'start' : 'candidate', approved: !!f.approved, status: clean(f.status) })); }
   for (const f of s.archivedFrames || []) { const p = resolve(f.image, W + '/scene-board'); if (p) stills.push(tile(p, { group: 'archived', id: f.id, title: clean(f.title), caption: clean(f.caption), role: /end/i.test(f.role || '') ? 'end' : /start/i.test(f.role || '') ? 'start' : 'archived', approved: false, status: clean(f.status) })); }
+  // clip tiles: lip-syncs, Higgsfield renders and owner uploads filed to this scene show as stills too (thumb = first frame). 2026-09-15
+  for (const c of invClips.filter(c => new RegExp('(^|[^A-Z0-9])' + s.id + '([^0-9A-Z]|$)', 'i').test(c.title || ''))) { const th = EDITOR + '/thumbs/' + c.id + '.jpg'; if (fs.existsSync(th)) stills.push(tile(th, { group: c.group === 'owner' ? 'cut' : 'pending', id: c.id, title: (c.group === 'owner' ? 'Owner upload · ' : c.group === 'lipsync' ? 'Lip-sync clip · ' : 'Higgsfield clip · ') + c.id + ' · ' + c.seconds + ' s', role: 'clip', approved: c.group === 'owner', status: c.title, file: c.file })); }
   const kw = new RegExp('\\b' + s.id + '\\b', 'i');
   const audio = audioBin.filter(a => kw.test(a.title) || kw.test(a.file) || (s.id === 'S19' && /bart/i.test(a.title)) || (s.id === 'S16' && /whisper|bugatti intro/i.test(a.title)) || (s.id === 'S07' && /waymo/i.test(a.title)) || (s.id === 'S18' && /snore|mosquito/i.test(a.title)) || (s.id === 'S17' && /song|bugatti phrase/i.test(a.title))).map(a => ({ id: a.id, title: a.title, group: a.group, seconds: a.seconds, date: (a.local && dateOf(a.local)) || null }));
   const hist = (s.audioRevisionHistory || []).map(h => typeof h === 'string' ? clean(h) : clean(h.note || h.status || JSON.stringify(h)).slice(0, 160));
