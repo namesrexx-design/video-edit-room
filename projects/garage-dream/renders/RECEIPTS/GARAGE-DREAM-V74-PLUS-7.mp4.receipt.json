@@ -1,0 +1,426 @@
+{
+  "timeline": "timelines/GARAGE-DREAM-V74-PLUS-7.otio",
+  "timelineSha256": "FBA3C8D5EA442168A111EB0D34F527D932890D765A439AAD1EE04BFBFAE9C5F5",
+  "name": "GARAGE-DREAM-V74-PLUS-7",
+  "output": "C:\\Users\\16263\\Desktop\\video-edit-room\\projects\\garage-dream\\renders\\GARAGE-DREAM-V74-PLUS-7.mp4",
+  "outputSha256": "50EE7197C91A827B404370E2050385BB20FD6AFB9675629BEC828F3AB1407216",
+  "bytes": 84948840,
+  "frames": 3509,
+  "seconds": 146.208333,
+  "renderedAt": "2026-09-15T05:43:49.092Z",
+  "renderedBy": "16263",
+  "warnings": [],
+  "blackIntervals": [],
+  "items": [
+    {
+      "i": 0,
+      "name": "01_S01_stairs",
+      "kind": "clip",
+      "file": "01_S01_stairs.mp4",
+      "srcFrames": [
+        0,
+        79
+      ],
+      "frames": 79
+    },
+    {
+      "i": 1,
+      "name": "02_S02_coffee-ring",
+      "kind": "clip",
+      "file": "02_S02_coffee-ring.mp4",
+      "srcFrames": [
+        0,
+        60
+      ],
+      "frames": 60
+    },
+    {
+      "i": 2,
+      "name": "03_S03_answer-homer",
+      "kind": "clip",
+      "file": "03_S03_answer-homer.mp4",
+      "srcFrames": [
+        0,
+        53
+      ],
+      "frames": 53
+    },
+    {
+      "i": 3,
+      "name": "04_S04_phone-down",
+      "kind": "clip",
+      "file": "04_S04_phone-down.mp4",
+      "srcFrames": [
+        0,
+        103
+      ],
+      "frames": 103
+    },
+    {
+      "i": 4,
+      "name": "05_S05_homer-asks-for-help",
+      "kind": "clip",
+      "file": "05_S05_homer-asks-for-help.mp4",
+      "srcFrames": [
+        0,
+        171
+      ],
+      "frames": 171
+    },
+    {
+      "i": 5,
+      "name": "06_S06_waymo-boarding",
+      "kind": "clip",
+      "file": "06_S06_waymo-boarding.mp4",
+      "srcFrames": [
+        0,
+        140
+      ],
+      "frames": 140
+    },
+    {
+      "i": 6,
+      "name": "07_S07_waymo-ride-and-exit",
+      "kind": "clip",
+      "file": "07_S07_waymo-ride-and-exit.mp4",
+      "srcFrames": [
+        0,
+        114
+      ],
+      "frames": 114
+    },
+    {
+      "i": 7,
+      "name": "08_S08_walk-up-driveway_ADD-BACK-FROM-V36",
+      "kind": "clip",
+      "file": "08_S08_walk-up-driveway_ADD-BACK-FROM-V36.mp4",
+      "srcFrames": [
+        0,
+        96
+      ],
+      "frames": 96
+    },
+    {
+      "i": 8,
+      "name": "09_S09_driveway-conversation",
+      "kind": "clip",
+      "file": "09_S09_driveway-conversation.mp4",
+      "srcFrames": [
+        0,
+        120
+      ],
+      "frames": 120
+    },
+    {
+      "i": 9,
+      "name": "10_S10_garage-reveal",
+      "kind": "clip",
+      "file": "10_S10_garage-reveal.mp4",
+      "srcFrames": [
+        0,
+        253
+      ],
+      "frames": 253
+    },
+    {
+      "i": 10,
+      "name": "11_S11_homer-a-bugatti_ADD-BACK-FROM-V36",
+      "kind": "clip",
+      "file": "11_S11_homer-a-bugatti_ADD-BACK-FROM-V36.mp4",
+      "srcFrames": [
+        0,
+        62
+      ],
+      "frames": 62
+    },
+    {
+      "i": 11,
+      "name": "12_S12_photograph-items-shared-folder_ADD-BACK-FROM-V36",
+      "kind": "clip",
+      "file": "12_S12_photograph-items-shared-folder_ADD-BACK-FROM-V36.mp4",
+      "srcFrames": [
+        0,
+        117
+      ],
+      "frames": 117
+    },
+    {
+      "i": 12,
+      "name": "13_S13_explain-autopilot_ADD-BACK-FROM-V36",
+      "kind": "clip",
+      "file": "13_S13_explain-autopilot_ADD-BACK-FROM-V36.mp4",
+      "srcFrames": [
+        0,
+        164
+      ],
+      "frames": 164
+    },
+    {
+      "i": 13,
+      "name": "14_S15_photos-numbered-boxes-live-shopping_ADD-BACK-FROM-V36",
+      "kind": "clip",
+      "file": "14_S15_photos-numbered-boxes-live-shopping_ADD-BACK-FROM-V36.mp4",
+      "srcFrames": [
+        0,
+        61
+      ],
+      "frames": 61
+    },
+    {
+      "i": 14,
+      "name": "15_S14-S16_recliner-bugatti-question-doze-off",
+      "kind": "clip",
+      "file": "15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+      "srcFrames": [
+        0,
+        325
+      ],
+      "frames": 325
+    },
+    {
+      "i": 15,
+      "name": "16_S17_pch-sunset-dream",
+      "kind": "clip",
+      "file": "16_S17_pch-sunset-dream.mp4",
+      "srcFrames": [
+        0,
+        72
+      ],
+      "frames": 72
+    },
+    {
+      "i": 16,
+      "name": "17_S18_mosquito-wake-up",
+      "kind": "clip",
+      "file": "17_S18_mosquito-wake-up.mp4",
+      "srcFrames": [
+        0,
+        326
+      ],
+      "frames": 326
+    },
+    {
+      "i": 17,
+      "name": "18_S19_bart-skates-off",
+      "kind": "clip",
+      "file": "18_S19_bart-skates-off.mp4",
+      "srcFrames": [
+        0,
+        72
+      ],
+      "frames": 72
+    },
+    {
+      "i": 18,
+      "name": "19_S20_homer-slingshot-accusation_ADD-BACK-FROM-V36",
+      "kind": "clip",
+      "file": "19_S20_homer-slingshot-accusation_ADD-BACK-FROM-V36.mp4",
+      "srcFrames": [
+        0,
+        96
+      ],
+      "frames": 96
+    },
+    {
+      "i": 19,
+      "name": "20_S21_rexx-it-was-that-kid-whose-kid_ADD-BACK-FROM-V36",
+      "kind": "clip",
+      "file": "20_S21_rexx-it-was-that-kid-whose-kid_ADD-BACK-FROM-V36.mp4",
+      "srcFrames": [
+        0,
+        149
+      ],
+      "frames": 149
+    },
+    {
+      "i": 20,
+      "name": "21_S23_apu-horn-greeting",
+      "kind": "clip",
+      "file": "21_S23_apu-horn-greeting.mp4",
+      "srcFrames": [
+        0,
+        90
+      ],
+      "frames": 90
+    },
+    {
+      "i": 21,
+      "name": "22_S24_walk-to-car",
+      "kind": "clip",
+      "file": "22_S24_walk-to-car.mp4",
+      "srcFrames": [
+        0,
+        72
+      ],
+      "frames": 72
+    },
+    {
+      "i": 22,
+      "name": "23_S27_vintage-mart-invitation",
+      "kind": "clip",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "srcFrames": [
+        0,
+        350
+      ],
+      "frames": 350
+    },
+    {
+      "i": 23,
+      "name": "24_S29_farewell-fist-bump",
+      "kind": "clip",
+      "file": "24_S29_farewell-fist-bump.mp4",
+      "srcFrames": [
+        0,
+        364
+      ],
+      "frames": 364
+    }
+  ],
+  "media": [
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/01_S01_stairs.mp4",
+      "sha256": "F33BFB1F52333663616B9E879428218455B047B59B2B2E9312CFC88ED3191160",
+      "frames": 79,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/02_S02_coffee-ring.mp4",
+      "sha256": "8F31ECB3A7D59D1264EFBA7AB2734C552DC8F99DFD9B474C81A484189262D549",
+      "frames": 60,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/03_S03_answer-homer.mp4",
+      "sha256": "52BB7969078205035075EEEEE65E11DB33C382D9B61F351BFCF55F1A33C68AB0",
+      "frames": 53,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/04_S04_phone-down.mp4",
+      "sha256": "D4E40A3A2C0A175016D769BD363F7B0192C6AD9D54D685ACC55D9829F03B8572",
+      "frames": 103,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/05_S05_homer-asks-for-help.mp4",
+      "sha256": "3CD2F3C924280263072E8CA30BD058116C10AE4F2FC195A22EF646A729D4D30C",
+      "frames": 171,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/06_S06_waymo-boarding.mp4",
+      "sha256": "84CA096AE7B39613FB954078233009AA83CC093B5C11C4D35359302E9232BC94",
+      "frames": 140,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/07_S07_waymo-ride-and-exit.mp4",
+      "sha256": "D3140C7509315BD75CE88E907E9581C20DE8D8BFA496726B0E6CAF9696F1CAA9",
+      "frames": 114,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/08_S08_walk-up-driveway_ADD-BACK-FROM-V36.mp4",
+      "sha256": "DF079E64EA95C4936BC3648CB4C34631D903334A7DD725E24FF199F9F59E52A0",
+      "frames": 96,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/09_S09_driveway-conversation.mp4",
+      "sha256": "EE354F585CF1654C9F872C0F20E9659F76B85C3E62C98E2B10FA296607F31454",
+      "frames": 120,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/10_S10_garage-reveal.mp4",
+      "sha256": "EDD6250976202A9F84CA412FD2CF3D2CB3E6A63932FEB0AD00A6C830B8E6AC97",
+      "frames": 253,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/11_S11_homer-a-bugatti_ADD-BACK-FROM-V36.mp4",
+      "sha256": "3619D2726E1016004435A29A661406A333347A7CB931FB716EC24C73441EF0C8",
+      "frames": 62,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/12_S12_photograph-items-shared-folder_ADD-BACK-FROM-V36.mp4",
+      "sha256": "41A7FE1837A64A5435AAC6D32C7CAA63DD198FA51DD578FD02C789649CB018E0",
+      "frames": 117,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/13_S13_explain-autopilot_ADD-BACK-FROM-V36.mp4",
+      "sha256": "82CF8D95F83E90A7DD3A71588F23AE3E5EAA9293B44F786DF8EB7768EC050EA5",
+      "frames": 164,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/14_S15_photos-numbered-boxes-live-shopping_ADD-BACK-FROM-V36.mp4",
+      "sha256": "B35C10E79612FE64472E3F1BDF3FE22613FE0D3E29C4DA305530C76752DEC2CA",
+      "frames": 61,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+      "sha256": "1ED1A703B2D91439212FBB3CA7981B9CF276829778ADA10AE95D8F3DA124EC6D",
+      "frames": 325,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/16_S17_pch-sunset-dream.mp4",
+      "sha256": "1AFB1766431ED8B275FD4C3D88902A89BFD45AD8F29E863362D46084205E2AB2",
+      "frames": 72,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/17_S18_mosquito-wake-up.mp4",
+      "sha256": "57CCDD4B5666730370B864C45871D5DB3EEEA20D3D5A67C00761913202D3C89D",
+      "frames": 326,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/18_S19_bart-skates-off.mp4",
+      "sha256": "79E16809DB06F225A00B1BF1ECC01EFC4DB05B2FCE799D86523F4FFD677AC88C",
+      "frames": 72,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/19_S20_homer-slingshot-accusation_ADD-BACK-FROM-V36.mp4",
+      "sha256": "76F85B63FD642EE5F446A23EE31F9DA89B8A39DA7895CBDE4247C3FCDF73F796",
+      "frames": 96,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/20_S21_rexx-it-was-that-kid-whose-kid_ADD-BACK-FROM-V36.mp4",
+      "sha256": "39E257CE2AE91F5ECAF410CC5C7F4BE4FF59303DA7095A512082FAAC3D3611D6",
+      "frames": 149,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/21_S23_apu-horn-greeting.mp4",
+      "sha256": "1C5F23182905EDA07C7FDD6D7577A5AF2C1FF025AC77212977ACFFFC138B75DB",
+      "frames": 90,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/22_S24_walk-to-car.mp4",
+      "sha256": "E666EC07014D26A676DC0A0D09E75F42F3D0FDE1A166E4D254105C9FACE50F93",
+      "frames": 72,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/23_S27_vintage-mart-invitation.mp4",
+      "sha256": "3C8D29F910C321D0E9ED8CFCF47EE38C03EBEF1C630D77AEE541F6DC2BFA830D",
+      "frames": 350,
+      "size": "1920x1080@24/1"
+    },
+    {
+      "file": "D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/24_S29_farewell-fist-bump.mp4",
+      "sha256": "4E61BB44A7A61FC7307EA4E4A5718143BCFC7E80DDB40FE833110FE019455090",
+      "frames": 364,
+      "size": "1920x1080@24/1"
+    }
+  ]
+}
