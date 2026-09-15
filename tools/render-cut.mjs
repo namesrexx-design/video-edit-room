@@ -52,7 +52,7 @@ if (overlays.length) {
 
 // 3. sound: main clips' own sound in one continuous pass, then added sound blocks mixed in at their frames
 const ain = []; const parts = []; let k = 0;
-for (const b of cut.v1) { const p = file(b); const hasA = probe(p).streams.some(s => s.codec_type === 'audio');
+for (const b of cut.v1) { const p = file(b); const hasA = !b.mute && probe(p).streams.some(s => s.codec_type === 'audio');  // mute = the scene's sound was pulled out onto its own block
   if (hasA) { ain.push('-ss', String(b.start / RATE), '-t', String(dur(b) / RATE), '-i', p); parts.push(`[${k}:a]aresample=48000,aformat=channel_layouts=stereo,asetpts=PTS-STARTPTS[m${k}]`); }
   else { ain.push('-f', 'lavfi', '-t', String(dur(b) / RATE), '-i', 'anullsrc=r=48000:cl=stereo'); parts.push(`[${k}:a]asetpts=PTS-STARTPTS[m${k}]`); } k++; }
 let g = parts.join(';') + ';' + parts.map((_, i) => `[m${i}]`).join('') + `concat=n=${k}:v=0:a=1[main]`; let mixIn = ['[main]']; let idx = k;

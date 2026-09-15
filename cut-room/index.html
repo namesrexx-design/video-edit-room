@@ -36,7 +36,7 @@
   .ruler{ top:0; height:26px; background:var(--panel2); }
   .tick{ position:absolute; top:0; width:1px; height:10px; background:var(--muted); } .tick.s5{ height:26px; }
   .tick span{ position:absolute; left:4px; top:6px; font-size:13px; color:var(--muted); white-space:nowrap; }
-  .l-script{ top:28px; height:56px; } .l-v2{ top:88px; height:84px; } .l-v1{ top:176px; height:160px; background:rgba(167,95,60,.10); } .l-a1{ top:340px; height:32px; } .l-a2{ top:376px; height:70px; }
+  .l-v1{ top:28px; height:160px; background:rgba(167,95,60,.10); } .l-a1{ top:190px; height:34px; } .l-v2{ top:228px; height:84px; } .l-a2{ top:316px; height:70px; } .l-script{ top:390px; height:58px; }
   .lanebg{ position:absolute; inset:0; border-top:1px dashed var(--line); }
   .blk{ position:absolute; top:3px; bottom:3px; border-radius:8px; overflow:hidden; border:3px solid transparent; user-select:none; -webkit-user-select:none; touch-action:none; background:var(--v1); color:var(--text); }
   .blk.v2{ background:var(--v2); } .blk.a2{ background:var(--a2); } .blk.a1{ background:var(--v1); opacity:.55; touch-action:pan-x; } .blk.script{ background:var(--script); touch-action:pan-x; }
@@ -70,6 +70,7 @@
   .card .t{ padding:5px 7px 2px; font-weight:600; font-size:14px; line-height:1.2; min-height:40px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
   .card .line{ padding:0 7px 3px; color:var(--muted); font-size:12.5px; line-height:1.25; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
   .card .d{ padding:0 7px 7px; color:var(--muted); font-size:13px; }
+  .pv{ display:grid; grid-template-columns:minmax(200px,380px) 1fr; gap:12px; align-items:center; margin:4px 0 8px; } .pv video{ width:100%; aspect-ratio:16/9; background:#000; border-radius:8px; } .pvt{ font-size:18px; color:var(--muted); } .pa{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin:4px 0 8px; } .pa audio{ flex:1; min-width:220px; height:44px; } @media (max-width:520px){ .pv{ grid-template-columns:1fr; } }
   .actions{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:2px 0 6px; }
   .actions .lab{ font-weight:600; margin-right:4px; }
   .panel{ background:var(--panel); border-radius:12px; padding:14px 16px; margin-top:8px; } .panel[hidden]{ display:none; }
@@ -85,7 +86,7 @@
   <header>
     <div>
       <h1>Garage Dream · Cut Room</h1>
-      <p class="sub" id="sub">Main video, a second video lane, sound, and the script, left to right. Drag a block to move it, pull its ends to trim. Swipe the ruler or the script lane to scroll. Nothing is ever deleted.</p>
+      <p class="sub" id="sub">Main video on top; under it the sound inside each scene, the 2nd video lane, added sound, and the script. Drag a block to move it, pull its ends to trim. Swipe the ruler or the script lane to scroll. Nothing is ever deleted.</p>
     </div>
     <button id="undo">↶ Undo</button>
   </header>
@@ -110,28 +111,30 @@
       <button class="icon" id="nudgeL" title="Move earlier">◀</button>
       <button class="icon" id="nudgeR" title="Move later">▶</button>
       <button id="split">✂ Split here</button>
-      <button id="park">⬇ Take out</button>
+      <button id="park">⬇ Take out</button><button id="detach">♪ Pull sound out</button>
       <span class="k"><i style="background:var(--v1)"></i> main video</span><span class="k"><i style="background:var(--v2)"></i> 2nd video</span><span class="k"><i style="background:var(--a2)"></i> sound</span>
     </div>
     <div class="tl" id="tl"><div class="tlin" id="tlin">
       <div class="lane ruler" id="ruler"></div>
-      <div class="lane l-script" id="lScript"><div class="lanebg"></div><span class="lab">SCRIPT</span></div>
-      <div class="lane l-v2" id="lV2"><div class="lanebg"></div><span class="lab">2ND VIDEO</span></div>
       <div class="lane l-v1" id="lV1"><div class="lanebg"></div><span class="lab" style="font-size:18px;background:var(--accent)">MAIN VIDEO</span></div>
-      <div class="lane l-a1" id="lA1"><div class="lanebg"></div><span class="lab">SOUND IN CLIP</span></div>
-      <div class="lane l-a2" id="lA2"><div class="lanebg"></div><span class="lab">ADDED SOUND</span></div>
+      <div class="lane l-a1" id="lA1"><div class="lanebg"></div><span class="lab">SOUND INSIDE EACH SCENE</span></div>
+      <div class="lane l-v2" id="lV2"><div class="lanebg"></div><span class="lab">2ND VIDEO · cutaways over the main video</span></div>
+      <div class="lane l-a2" id="lA2"><div class="lanebg"></div><span class="lab">ADDED SOUND · music, voice, cues</span></div>
+      <div class="lane l-script" id="lScript"><div class="lanebg"></div><span class="lab">SCRIPT</span></div>
       <div id="ph"></div>
     </div></div>
   </div>
 
   <h2>Inventory · video</h2>
-  <p class="hint" id="invHint">Tap a clip to watch it. Then put it in the main video after the selected scene, or lay it on the 2nd video lane at the playhead.</p>
-  <div class="actions"><button id="invPrev">▶ Watch</button><button class="primary" id="invV1">⬆ Main video</button><button class="primary" id="invV2">⬆ 2nd video at playhead</button><label style="font-size:17px;margin-left:4px"><input type="checkbox" id="invLip" checked> lip-syncs</label><label style="font-size:17px"><input type="checkbox" id="invHig" checked> Higgsfield</label></div>
+  <p class="hint" id="invHint">Tap a clip and it plays in the window. Then put it in the main video after the selected scene, or lay it on the 2nd video lane at the playhead. Press and hold a card to drag it to a new spot on the shelf.</p>
+  <div class="pv"><video id="pv" controls playsinline preload="metadata"></video><div class="pvt" id="pvt">Tap a clip below and it plays here.</div></div>
+  <div class="actions"><button class="icon" id="invL" title="Move earlier">◀</button><button class="icon" id="invR" title="Move later">▶</button><button class="primary" id="invV1">⬆ Main video</button><button class="primary" id="invV2">⬆ 2nd video at playhead</button><label style="font-size:17px;margin-left:4px"><input type="checkbox" id="invLip" checked> lip-syncs</label><label style="font-size:17px"><input type="checkbox" id="invHig" checked> Higgsfield</label></div>
   <div class="strip" id="inv"></div>
 
   <h2>Inventory · sound</h2>
-  <p class="hint" id="audHint">Music, voice takes, cues and the V74 stems. Tap one to hear it, then lay it down at the playhead.</p>
-  <div class="actions"><button id="audPrev">▶ Listen</button><button id="audStop">■ Stop</button><button class="primary" id="audAdd">⬆ Sound at playhead</button>
+  <p class="hint" id="audHint">Music, voice takes, cues and the V74 stems. Tap one and it plays in the player. "Play all" goes down the list so you can listen to everything.</p>
+  <div class="pa"><audio id="pa" controls preload="none"></audio><span id="pat" style="font-size:18px;color:var(--muted)">Tap a sound below and it plays here.</span></div>
+  <div class="actions"><button id="audAll">▶ Play all in a row</button><button id="audStop">■ Stop</button><button class="primary" id="audAdd">⬆ Sound at playhead</button>
     <label style="font-size:17px;margin-left:4px"><input type="checkbox" id="fMusic" checked> music</label><label style="font-size:17px"><input type="checkbox" id="fVoice" checked> voice</label><label style="font-size:17px"><input type="checkbox" id="fCue" checked> cues</label><label style="font-size:17px"><input type="checkbox" id="fStem"> V74 stems</label></div>
   <div class="strip" id="aud"></div>
 
@@ -211,12 +214,12 @@ function renderTL(){
     const x = pos[i] * pxf, w = len(b) * pxf;
     const e = blk('v1', b, x, w); e.dataset.lane = 'v1'; e.dataset.i = i; if (sel?.lane === 'v1' && sel.i === i) e.classList.add('sel'); lanes.v1.appendChild(e);
     const sc = blk('script', b, x, w, script(b.id)); sc.querySelector('.hl').remove(); sc.querySelector('.hr').remove(); sc.querySelector('.t').textContent = label(b.id); sc.dataset.lane = 'v1'; sc.dataset.i = i; sc.dataset.ro = 1; lanes.script.appendChild(sc);
-    const a1 = blk('a1', b, x, w, 'sound baked into this clip'); a1.querySelector('.hl').remove(); a1.querySelector('.hr').remove(); a1.querySelector('.t').textContent = '♪ ' + label(b.id); a1.dataset.ro = 1; lanes.a1.appendChild(a1);
+    const a1 = blk('a1', b, x, w, b.mute ? 'sound pulled out (scene is silent)' : 'sound inside this scene'); a1.querySelector('.hl').remove(); a1.querySelector('.hr').remove(); a1.querySelector('.t').textContent = '♪ ' + label(b.id); a1.dataset.ro = 1; lanes.a1.appendChild(a1);
   });
   S.v2.forEach((b, i) => { const e = blk('v2', b, b.at * pxf, len(b) * pxf); e.dataset.lane = 'v2'; e.dataset.i = i; if (sel?.lane === 'v2' && sel.i === i) e.classList.add('sel'); lanes.v2.appendChild(e); });
-  S.a2.forEach((b, i) => { const e = blk('a2', b, b.at * pxf, len(b) * pxf); e.dataset.lane = 'a2'; e.dataset.i = i; if (sel?.lane === 'a2' && sel.i === i) e.classList.add('sel'); lanes.a2.appendChild(e); });
+  S.a2.forEach((b, i) => { const e = blk('a2', b, b.at * pxf, len(b) * pxf, b.fromScene ? 'sound from ' + label(b.id) : fmt1(len(b))); e.dataset.lane = 'a2'; e.dataset.i = i; if (sel?.lane === 'a2' && sel.i === i) e.classList.add('sel'); lanes.a2.appendChild(e); });
   $('ph').style.left = (ph * pxf) + 'px';
-  const has = !!sel; for (const id of ['nudgeL','nudgeR','park']) $(id).disabled = !has; $('split').disabled = !(sel && sel.lane === 'v1');
+  const has = !!sel; for (const id of ['nudgeL','nudgeR','park']) $(id).disabled = !has; $('split').disabled = !(sel && sel.lane === 'v1'); $('detach').disabled = !(sel && sel.lane === 'v1' && !S.v1[sel.i]?.mute);
   $('time').textContent = `${fmt(ph)} / ${fmt(v1total())}`;
   $('sub').textContent = `${S.v1.length} scenes in the main video · ${fmt(v1total())} · ${S.v2.length} on the 2nd lane · ${S.a2.length} added sounds · ${S.parked.length} taken out`;
   renderBins(); draft();
@@ -257,6 +260,7 @@ $('nudgeL').onclick = () => nudge(-6); $('nudgeR').onclick = () => nudge(6);
 function nudge(df){ if (!sel) return; snapshot(); if (sel.lane === 'v1') { const j = sel.i + (df < 0 ? -1 : 1); if (j < 0 || j >= S.v1.length) return; [S.v1[sel.i], S.v1[j]] = [S.v1[j], S.v1[sel.i]]; sel.i = j; } else { const b = S[sel.lane][sel.i]; b.at = Math.max(0, b.at + df); } renderTL(); }
 $('split').onclick = () => { if (!sel || sel.lane !== 'v1') return; const pos = v1pos(); const b = S.v1[sel.i]; const off = ph - pos[sel.i]; if (off < 6 || off > len(b) - 6) return toast('Move the playhead inside the selected scene first'); snapshot(); const cutAt = b.start + off; S.v1.splice(sel.i + 1, 0, { id:b.id, start:cutAt, end:b.end }); b.end = cutAt; renderTL(); toast('Split. Two pieces now.'); };
 $('park').onclick = () => { if (!sel) return; snapshot(); const [b] = S[sel.lane].splice(sel.i, 1); if (sel.lane === 'v1' && byId[b.id].kind === 'scene' && !S.v1.some(x => x.id === b.id)) S.parked.push(b.id); sel = null; renderTL(); toast(`${title(b.id)} taken out.`); };
+$('detach').onclick = () => { if (!sel || sel.lane !== 'v1') return; const b = S.v1[sel.i]; if (b.mute) return; snapshot(); b.mute = true; S.a2.push({ id:b.id, start:b.start, end:b.end, at:v1pos()[sel.i], fromScene:true }); renderTL(); toast('Sound pulled out onto its own block. Move it, trim it, or take it out.'); };
 $('undo').onclick = () => { if (!undoStack.length) return toast('Nothing to undo'); S = JSON.parse(undoStack.pop()); sel = null; renderTL(); toast('Undone'); };
 $('zoomIn').onclick = () => { pxf = Math.min(6, pxf * 1.5); renderTL(); keepPhVisible(); }; $('zoomOut').onclick = () => { pxf = Math.max(0.25, pxf / 1.5); renderTL(); keepPhVisible(); };
 
@@ -274,23 +278,32 @@ function renderBins(){
   $('inv').replaceChildren(...INV.map((k, i) => [k, i]).filter(([k]) => k.group === 'lipsync' ? showLip : showHig).map(([k, i]) => card(k, i, 'vid', i === selInv)));
   const f = { music:$('fMusic').checked, voice:$('fVoice').checked, cue:$('fCue').checked, stem:$('fStem').checked };
   $('aud').replaceChildren(...AUD.map((k, i) => [k, i]).filter(([k]) => f[k.group]).map(([k, i]) => card(k, i, 'aud', i === selAud)));
-  for (const id of ['invPrev','invV1','invV2']) $(id).disabled = selInv == null;
-  for (const id of ['audPrev','audAdd']) $(id).disabled = selAud == null;
+  for (const id of ['invL','invR','invV1','invV2']) $(id).disabled = selInv == null;
+  $('audAdd').disabled = selAud == null;
   for (const id of ['unpark','preview']) $(id).disabled = selBin == null;
 }
 for (const id of ['invLip','invHig','fMusic','fVoice','fCue','fStem']) $(id).onchange = renderBins;
-$('inv').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; selInv = +c.dataset.i; renderBins(); showFrame(INV[selInv].id, 0); });
+$('inv').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; selInv = +c.dataset.i; renderBins(); const k = INV[selInv]; const pv = $('pv'); pv.src = src(k.id); pv.currentTime = 0; pv.play().catch(()=>{}); $('pvt').textContent = label(k.id) + ' · ' + title(k.id) + ' · ' + fmt1(k.frames); });
+const moveInv = d => { if (selInv == null) return; const j = selInv + d; if (j < 0 || j >= INV.length) return; [INV[selInv], INV[j]] = [INV[j], INV[selInv]]; selInv = j; S.invOrder = INV.map(k => k.id); renderBins(); };
+$('invL').onclick = () => moveInv(-1); $('invR').onclick = () => moveInv(1);
+// press-and-hold drag on the shelf
+let cdrag = null;
+$('inv').addEventListener('pointerdown', e => { const c = e.target.closest('.card'); if (!c) return; const st = { i:+c.dataset.i, x0:e.clientX, armed:false, el:c }; cdrag = st; st.timer = setTimeout(() => { st.armed = true; c.style.opacity = .5; selInv = st.i; renderBins(); }, 260); });
+document.addEventListener('pointermove', e => { if (!cdrag) return; if (!cdrag.armed) { if (Math.abs(e.clientX - cdrag.x0) > 12) { clearTimeout(cdrag.timer); cdrag = null; } return; } e.preventDefault(); const cards = [...$('inv').children]; let to = cdrag.i; cards.forEach(el => { const r = el.getBoundingClientRect(); if (e.clientX > r.left + r.width / 2) to = +el.dataset.i; }); if (cards.length && e.clientX < cards[0].getBoundingClientRect().left) to = +cards[0].dataset.i; if (to !== cdrag.i) { const [it] = INV.splice(cdrag.i, 1); INV.splice(to, 0, it); cdrag.i = to; selInv = to; S.invOrder = INV.map(k => k.id); renderBins(); } }, { passive:false });
+const endCdrag = () => { if (cdrag) { clearTimeout(cdrag.timer); cdrag = null; renderBins(); } }; document.addEventListener('pointerup', endCdrag); document.addEventListener('pointercancel', endCdrag);
 $('bin').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; selBin = +c.dataset.i; renderBins(); showFrame(S.parked[selBin], 0); });
-$('aud').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; selAud = +c.dataset.i; renderBins(); });
+function playAud(i){ selAud = i; renderBins(); const k = AUD[i]; const pa = $('pa'); pa.src = src(k.id); pa.play().catch(()=>{}); $('pat').textContent = '♪ ' + k.title + ' · ' + fmt1(k.frames); }
+$('aud').addEventListener('click', e => { const c = e.target.closest('.card'); if (!c) return; playAud(+c.dataset.i); });
+let playAll = false;
+$('audAll').onclick = () => { const f = { music:$('fMusic').checked, voice:$('fVoice').checked, cue:$('fCue').checked, stem:$('fStem').checked }; const list = AUD.map((k, i) => [k, i]).filter(([k]) => f[k.group]).map(([, i]) => i); if (!list.length) return; playAll = true; let p = 0; playAud(list[0]); $('pa').onended = () => { if (!playAll) return; p++; if (p < list.length) playAud(list[p]); else playAll = false; }; };
 const insertV1 = id => { snapshot(); const k = byId[id]; const at = sel?.lane === 'v1' ? sel.i + 1 : S.v1.length; S.v1.splice(at, 0, { id, start:0, end:k.frames }); sel = { lane:'v1', i:at }; renderTL(); toast(`${title(id)} put in the main video at ${at+1}.`); };
 $('invV1').onclick = () => selInv != null && insertV1(INV[selInv].id);
 $('invV2').onclick = () => { if (selInv == null) return; snapshot(); const k = INV[selInv]; S.v2.push({ id:k.id, start:0, end:k.frames, at:ph }); sel = { lane:'v2', i:S.v2.length-1 }; renderTL(); toast(`${title(k.id)} laid on the 2nd video lane at ${fmt(ph)}.`); };
 $('unpark').onclick = () => { if (selBin == null) return; const id = S.parked[selBin]; snapshot(); S.parked.splice(selBin, 1); selBin = null; insertV1(id); };
 $('audAdd').onclick = () => { if (selAud == null) return; snapshot(); const k = AUD[selAud]; S.a2.push({ id:k.id, start:0, end:k.frames, at:ph }); sel = { lane:'a2', i:S.a2.length-1 }; renderTL(); toast(`${title(k.id)} laid down at ${fmt(ph)}.`); };
 let audPrev = null;
-$('audPrev').onclick = () => { if (selAud == null) return; stop(); if (audPrev) audPrev.pause(); audPrev = new Audio(src(AUD[selAud].id)); audPrev.play().catch(()=>{}); $('now').textContent = '♪ ' + AUD[selAud].title; };
-$('audStop').onclick = () => { if (audPrev) audPrev.pause(); };
-$('invPrev').onclick = () => { if (selInv == null) return; previewClip(INV[selInv].id, INV[selInv].frames); };
+$('audStop').onclick = () => { playAll = false; $('pa').pause(); };
+
 $('preview').onclick = () => { if (selBin == null) return; previewClip(S.parked[selBin], byId[S.parked[selBin]].frames); };
 
 // ---------- playback engine: main <video> is the clock; 2nd video + added sounds follow the playhead
@@ -298,7 +311,7 @@ const v = $('v'), v2 = $('v2'); const audEls = new Map(); let solo = null;
 function showFrame(id, frame){ stop(); solo = null; v.src = src(id); v.currentTime = frame / FPS; $('now').textContent = title(id); }
 function previewClip(id, frames){ stop(); solo = { id, frames }; v.src = src(id); v.currentTime = 0; playing = true; $('bigplay').hidden = true; $('play').textContent = '❚❚ Pause'; v.play().catch(()=>{}); $('now').textContent = 'preview · ' + title(id); }
 function locate(f){ const pos = v1pos(); for (let i = 0; i < S.v1.length; i++) if (f < pos[i] + len(S.v1[i])) return { i, off: f - pos[i] }; return null; }
-function loadV1At(f, play){ const L = locate(f); if (!L) return false; const b = S.v1[L.i]; const want = (b.start + L.off) / FPS; if (v.dataset.id !== b.id) { v.dataset.id = b.id; v.src = src(b.id); } if (Math.abs(v.currentTime - want) > 0.08) v.currentTime = want; $('now').textContent = `${L.i+1}. ${label(b.id)} · ${title(b.id)}`; if (play) v.play().catch(()=>{}); return true; }
+function loadV1At(f, play){ const L = locate(f); if (!L) return false; const b = S.v1[L.i]; v.muted = !!b.mute; const want = (b.start + L.off) / FPS; if (v.dataset.id !== b.id) { v.dataset.id = b.id; v.src = src(b.id); } if (Math.abs(v.currentTime - want) > 0.08) v.currentTime = want; $('now').textContent = `${L.i+1}. ${label(b.id)} · ${title(b.id)}`; if (play) v.play().catch(()=>{}); return true; }
 function seekTo(f){ ph = Math.max(0, Math.min(f, Math.max(0, v1total() - 1))); if (!loadV1At(ph, playing)) { v.pause(); } syncLayers(true); renderTL(); }
 function syncLayers(force){
   const b2 = S.v2.find(b => ph >= b.at && ph < b.at + len(b));
@@ -309,8 +322,8 @@ function syncLayers(force){
     else if (a && !a.paused) a.pause(); }
   for (const [key, a] of audEls) if (!S.a2.some(b => b.id + '@' + b.at === key)) { a.pause(); audEls.delete(key); }
 }
-function stop(){ playing = false; v.pause(); v2.pause(); for (const a of audEls.values()) a.pause(); if (audPrev) audPrev.pause(); $('bigplay').hidden = false; $('play').textContent = '▶ Play'; }
-function playFrom(f){ if (!S.v1.length) return toast('The main video is empty'); solo = null; ph = f; playing = true; $('bigplay').hidden = true; $('play').textContent = '❚❚ Pause'; loadV1At(ph, true); syncLayers(true); }
+function stop(){ playing = false; v.pause(); v2.pause(); for (const a of audEls.values()) a.pause(); if (audPrev) audPrev.pause(); try { $('pa').pause(); $('pv').pause(); } catch(e){} $('bigplay').hidden = false; $('play').textContent = '▶ Play'; }
+function playFrom(f){ if (!S.v1.length) return toast('The main video is empty'); try { $('pa').pause(); $('pv').pause(); } catch(e){} solo = null; ph = f; playing = true; $('bigplay').hidden = true; $('play').textContent = '❚❚ Pause'; loadV1At(ph, true); syncLayers(true); }
 function tick(){
   if (playing) {
     if (solo) { if (v.ended || v.currentTime >= solo.frames / FPS) stop(); }
@@ -326,7 +339,7 @@ $('toStart').onclick = () => seekTo(0);
 v.addEventListener('click', () => playing ? stop() : playFrom(ph));
 
 // ---------- save / load
-function cutDoc(){ const f = b => ({ id:b.id, file:byId[b.id].file, folder: isAud(b.id) ? 'audio-bin-v74' : isInv(b.id) ? 'inventory-v74' : 'capcut-kit-v74/SCENES_IN_ORDER', title:title(b.id), scenes:byId[b.id].scenes || [], start:b.start, end:b.end, ...(b.at != null ? { at:b.at } : {}) });
+function cutDoc(){ const f = b => ({ id:b.id, file:byId[b.id].file, folder: isAud(b.id) ? 'audio-bin-v74' : isInv(b.id) ? 'inventory-v74' : 'capcut-kit-v74/SCENES_IN_ORDER', title:title(b.id), scenes:byId[b.id].scenes || [], start:b.start, end:b.end, ...(b.at != null ? { at:b.at } : {}), ...(b.mute ? { mute:true } : {}), ...(b.fromScene ? { fromScene:true } : {}) });
   return { format:2, name:'GARAGE-DREAM cut from Cut Room', savedAt:new Date().toISOString(), fps:FPS, frames:v1total(), v1:S.v1.map(f), v2:S.v2.map(f), a2:S.a2.map(f), parked:S.parked.map(id => ({ id, file:byId[id].file })) }; }
 function cutText(){ const d = cutDoc(); return ['MAIN VIDEO', ...d.v1.map((c,i) => `${i+1}. ${c.file} ${c.start}-${c.end}`), '2ND VIDEO', ...d.v2.map(c => `@${c.at} ${c.file} ${c.start}-${c.end}`), 'SOUND', ...d.a2.map(c => `@${c.at} ${c.file} ${c.start}-${c.end}`), 'TAKEN OUT: ' + S.parked.join(', ')].join('\n'); }
 let art = null;
@@ -343,12 +356,13 @@ function renderTodo(){ const built = new Set(CLIPS.flatMap(c => c.scenes)); cons
   const get = async (u) => { try { const r = await fetch(u, { cache:'no-store' }); return r.ok ? await r.json() : null; } catch(e){ return null; } };
   const st = await get('story.json'); if (st) for (const s of st.scenes) STORY[s.id] = s;
   const inv = await get('inventory.json'); if (inv) { INV = inv.clips.map(c => ({ ...c, kind:'inv', scenes:[] })); for (const k of INV) byId[k.id] = k; }
+  const order = (() => { try { return JSON.parse(localStorage.getItem('gd-cut-v2') || '{}').invOrder; } catch(e){ return null; } })(); if (Array.isArray(order)) INV.sort((a, b) => (order.indexOf(a.id) + 1 || 999) - (order.indexOf(b.id) + 1 || 999));
   const aud = await get('audio.json'); if (aud) { AUD = aud.clips.map(c => ({ ...c, kind:'aud', scenes:[] })); for (const k of AUD) byId[k.id] = k; }
   let s = null; const saved = await get('cuts/latest.json');
   if (saved) { s = saved.format === 2 ? { v1:saved.v1, v2:saved.v2 || [], a2:saved.a2 || [], parked:(saved.parked || []).map(p => p.id) } : { v1:saved.cut, v2:[], a2:[], parked:(saved.parked || []).map(p => p.id) }; $('stat').textContent = `Loaded the cut saved ${new Date(saved.savedAt).toLocaleString()}`; }
   if (!s) { try { const d = localStorage.getItem('gd-cut-v2'); if (d) { s = JSON.parse(d); $('stat').textContent = 'Unsaved draft from this phone'; } } catch(e){} }
   if (!s || !Array.isArray(s.v1)) s = defaultState();
-  const ok = b => byId[b.id]; s.v1 = s.v1.filter(ok).map(b => ({ id:b.id, start:b.start, end:b.end })); s.v2 = (s.v2 || []).filter(ok); s.a2 = (s.a2 || []).filter(ok); s.parked = (s.parked || []).filter(id => byId[id]);
+  const ok = b => byId[b.id]; s.v1 = s.v1.filter(ok).map(b => ({ id:b.id, start:b.start, end:b.end, ...(b.mute ? { mute:true } : {}) })); s.v2 = (s.v2 || []).filter(ok); s.a2 = (s.a2 || []).filter(ok); s.parked = (s.parked || []).filter(id => byId[id]);
   const seen = new Set([...s.v1.map(b => b.id), ...s.parked]); for (const c of CLIPS) if (!seen.has(c.id)) s.parked.push(c.id);
   S = s; renderTodo(); renderTL(); if (S.v1.length) { v.dataset.id = ''; loadV1At(0, false); }
 })();
