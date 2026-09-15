@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-15T17:24:13.097Z",
+  "builtAt": "2026-09-15T19:04:01.701Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -5516,11 +5516,11 @@
       "id": "S27",
       "title": "Vintage Mart invitation",
       "line": "Apu: Hey, will that work for my new Vintage Mart? Rexx: Oh, you got a new Vintage Mart? Apu: Yeah. I opened it two months ago. Rexx: All right. I'm down. Apu: All right, jump in. Let's go.",
-      "status": "V73 registered: owner 3a05 Apu-only synchronized close inserted at 85.416667-93.666667; shifted V72 tail continues to 100.000000.",
+      "status": "V74 base. 2026-09-15: owner uploaded three Apu lip-sync close-ups (s27, s27 start, s27.2); placed as cutaways at 6.18 s and 11.21 s, third line appended. Preview on Drive, awaiting owner review. Known gap: Rexx's \"All right. I'm down.\" is cut short in V74.",
       "nextAction": "Retain existing tail playback; new likeness still remains pending, not approved by this audit.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": "S27-V73-APU-MOUTH-RESTORED-PICTURE-ONLY-FRAMES-72-269-3P0-11P25.mp4",
-      "editStatus": "3a05-derived synchronized close plus shifted V72 tail registered in V73.",
+      "editStatus": "Owner's 3 Apu lip-sync close-ups (Sep 15) cut in as cutaways at 6.2 s and 11.2 s, 'jump in' appended. Preview: EDIT_ROOM/S27-LIPSYNC-PREVIEW-2026-09-15.mp4. Waiting for Rexx to say 'put it in the film'.",
       "still": {
         "sheet": "sheets/scene-S27.jpg",
         "col": 0,
