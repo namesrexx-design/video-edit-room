@@ -1,9 +1,9 @@
 <title>LYFE Studio · Storyboard</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>
-  :root{ --bg:#f6f1e8; --panel:#efe4d2; --panel2:#e6d8c1; --text:#26221f; --muted:#5e554d; --accent:#a75f3c; --accent-ink:#fff; --ok:#5f7048; --line:#d3c4ac; --old:#c9b28f; --warn:#a72e2e; }
-  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#1e1a17; --panel:#2b2521; --panel2:#3a322c; --text:#f3ece1; --muted:#c2b5a3; --accent:#d48a63; --accent-ink:#1e1a17; --ok:#8ea06f; --line:#4a403a; --old:#6b5a43; --warn:#ff6b6b; } }
-  :root[data-theme="dark"]{ --bg:#1e1a17; --panel:#2b2521; --panel2:#3a322c; --text:#f3ece1; --muted:#c2b5a3; --accent:#d48a63; --accent-ink:#1e1a17; --ok:#8ea06f; --line:#4a403a; --old:#6b5a43; --warn:#ff6b6b; }
+  :root{ --bg:#f6f1e8; --panel:#efe4d2; --panel2:#e6d8c1; --text:#26221f; --muted:#5e554d; --accent:#a75f3c; --accent-ink:#fff; --ok:#5f7048; --line:#d3c4ac; --old:#c9b28f; }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#1e1a17; --panel:#2b2521; --panel2:#3a322c; --text:#f3ece1; --muted:#c2b5a3; --accent:#d48a63; --accent-ink:#1e1a17; --ok:#8ea06f; --line:#4a403a; --old:#6b5a43; } }
+  :root[data-theme="dark"]{ --bg:#1e1a17; --panel:#2b2521; --panel2:#3a322c; --text:#f3ece1; --muted:#c2b5a3; --accent:#d48a63; --accent-ink:#1e1a17; --ok:#8ea06f; --line:#4a403a; --old:#6b5a43; }
   *{ box-sizing:border-box; }
   body{ margin:0; background:var(--bg); color:var(--text); font-family:"Source Sans 3","Segoe UI",system-ui,sans-serif; font-size:20px; line-height:1.4; -webkit-tap-highlight-color:transparent; }
   .wrap{ max-width:1200px; margin:0 auto; padding-inline:16px; padding-block:14px 80px; }
@@ -23,22 +23,24 @@
   .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px; }
   .grid.tight{ grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); }
   .tile{ background:var(--panel); border-radius:12px; overflow:hidden; border:3px solid transparent; cursor:pointer; position:relative; user-select:none; -webkit-user-select:none; }
-  .tile.sel{ border-color:var(--accent); } .tile.drag{ opacity:.5; } .tile.arch{ opacity:.5; border-style:dashed; border-color:var(--line); }
-  .tile img{ display:block; width:100%; aspect-ratio:16/9; object-fit:cover; background:#2b2521; pointer-events:none; }
-  .tile.port img{ aspect-ratio:3/4; object-position:top; }
-  .tile .ph{ width:100%; aspect-ratio:16/9; background:linear-gradient(135deg,var(--panel2),var(--panel)); display:flex; align-items:center; justify-content:center; color:var(--muted); font-size:15px; }
+  .tile.sel{ border-color:var(--accent); } .tile.drag{ opacity:.5; } .tile.arch{ opacity:.55; border-style:dashed; border-color:var(--line); }
+  .th{ width:100%; aspect-ratio:16/9; background-color:#2b2521; background-repeat:no-repeat; pointer-events:none; }
+  .th.port{ aspect-ratio:3/4; }
+  .th.none{ display:flex; align-items:center; justify-content:center; color:var(--muted); font-size:15px; background:linear-gradient(135deg,var(--panel2),var(--panel)); }
   .tile .b{ padding:7px 10px 9px; }
   .badge{ display:inline-block; font-weight:700; font-size:13px; padding:1px 8px; border-radius:6px; background:var(--muted); color:#fff; margin:0 4px 4px 0; }
   .badge.ok{ background:var(--ok); } .badge.acc{ background:var(--accent); color:var(--accent-ink); } .badge.old{ background:var(--old); color:#26221f; } .badge.start{ background:#4b6a8a; } .badge.end{ background:#7a4b8a; } .badge.pend{ background:#a58a58; } .badge.arch{ background:#777; }
   .tile h4{ margin:2px 0 3px; font-size:16.5px; line-height:1.2; } .tile p{ margin:0; font-size:14px; color:var(--muted); line-height:1.3; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
   .tile .dt{ font-size:13.5px; color:var(--muted); margin-top:4px; }
-  .char, .setbox{ background:var(--panel); border-radius:14px; padding:14px 16px; margin:12px 0 18px; }
-  .char h3, .setbox h3{ font-size:30px; margin:0 0 4px; } .facts{ font-size:16px; color:var(--muted); line-height:1.45; margin:0 0 10px; } .facts b{ color:var(--text); }
+  .box{ background:var(--panel); border-radius:14px; padding:14px 16px; margin:12px 0 18px; }
+  .box h3{ font-size:30px; margin:0 0 4px; } .facts{ font-size:16px; color:var(--muted); line-height:1.45; margin:0 0 10px; } .facts b{ color:var(--text); }
   .bar{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:6px 0 10px; }
+  .archtog{ margin-top:10px; } .archtog button{ background:transparent; border:2px dashed var(--line); color:var(--muted); }
+  .archgrid{ margin-top:8px; padding:10px; border:2px dashed var(--line); border-radius:12px; } .archgrid[hidden]{ display:none; }
   .sheet{ position:fixed; inset:0; background:var(--bg); z-index:15; overflow:auto; padding:14px 16px 90px; } .sheet[hidden]{ display:none; }
   .sheet .top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; position:sticky; top:0; background:var(--bg); padding:4px 0 8px; z-index:2; }
   .sheet .id{ display:inline-block; background:var(--accent); color:var(--accent-ink); font-weight:700; padding:2px 10px; border-radius:6px; font-size:17px; }
-  .sheet h2{ margin:4px 0 2px; } .line{ font-size:22px; line-height:1.4; margin:4px 0 8px; }
+  .sheet h2{ margin:4px 0 2px; }
   textarea{ width:100%; min-height:110px; font:inherit; font-size:19px; background:var(--panel); color:var(--text); border:2px solid var(--line); border-radius:10px; padding:10px; }
   .kv{ display:grid; grid-template-columns:130px 1fr; gap:4px 12px; font-size:17px; margin:6px 0 10px; } .kv b{ color:var(--muted); font-weight:600; }
   .chips{ display:flex; flex-wrap:wrap; gap:6px; } .chip{ background:var(--panel2); padding:3px 10px; border-radius:8px; font-size:16px; }
@@ -56,9 +58,9 @@
   <div class="tabs" id="tabs"><button class="on" data-sec="scenes">Scenes</button><button data-sec="chars">Characters</button><button data-sec="sets">Sets</button><button data-sec="props">Props</button><button data-sec="reqs">Requests <span id="reqN"></span></button></div>
 
   <div id="secScenes"><p class="hint">Tap a scene. Everything in it opens: every still, the audio, the script, who is in it, the props, the set and angle.</p><div class="grid" id="gScenes"></div></div>
-  <div id="secChars" hidden><p class="hint">Tiles: tap to select, then Edit, Archive, or ◀ ▶ to move. Press and hold a tile to drag it. Your order is saved.</p><div id="gChars"></div></div>
-  <div id="secSets" hidden><p class="hint">A set is a place. Each has its own camera angles. Same tiles: select, edit, archive, move.</p><div id="gSets"></div></div>
-  <div id="secProps" hidden><p class="hint">A prop is anything that gets moved, touched, or moves in the scene.</p><div class="bar" id="propBar"></div><div class="grid tight" id="gProps"></div></div>
+  <div id="secChars" hidden><p class="hint">Only the approved references show. Older and rejected ones sit in each character's archive. Tap a tile to select, then Edit, Remove, or ◀ ▶ to move. Press and hold to drag.</p><div id="gChars"></div></div>
+  <div id="secSets" hidden><p class="hint">A set is a place. Each shows one best image per camera angle, in scene order. Everything older is in the set's archive.</p><div id="gSets"></div></div>
+  <div id="secProps" hidden><p class="hint">A prop is anything that gets moved, touched, or moves in the scene.</p><div id="gProps"></div></div>
   <div id="secReqs" hidden><p class="hint">Every edit you ask for lands here, with the date. Claude and Codex read this list and bring back candidates for you to approve.</p><div id="gReqs"></div></div>
 </div>
 
@@ -76,7 +78,7 @@ const fmt = f => { const s = f / 24; return `${Math.floor(s/60)}:${String(Math.f
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
 const toast = m => { const t = $('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('on'), 2400); };
 let BOARD = null;
-// ---- owner state: tile order, archived tiles, script edits, requests. Saved into the page (files publish) + local draft.
+// ---- owner state: tile order, removed tiles, script edits, requests. Saved into the page (files publish) + local draft.
 let ST = { order:{}, archived:[], scripts:{}, requests:[] };
 let art = null; try { (window.claude?.use ? claude.use('artifact') : Promise.resolve(null)).then(a => { art = a; }).catch(()=>{}); } catch(e){}
 let saveT = null;
@@ -90,62 +92,72 @@ const stale = d => d && BOARD && d < BOARD.v74Date;
 const isArch = key => ST.archived.includes(key);
 function ordered(listKey, items, keyOf){ const o = ST.order[listKey]; if (!Array.isArray(o)) return items; return [...items].sort((a, b) => (o.indexOf(keyOf(a)) + 1 || 9999) - (o.indexOf(keyOf(b)) + 1 || 9999)); }
 
-// ---- tiles
+// ---- thumbnails come from packed sheets: one JPEG per group, shown with background-position
+function thEl(img, portrait){
+  const d = document.createElement('div'); d.className = 'th' + (portrait ? ' port' : '');
+  if (!img) { d.classList.add('none'); d.textContent = 'no image yet'; return d; }
+  d.style.backgroundImage = `url('${img.sheet}')`; d.style.backgroundSize = `${img.cols * 100}% auto`;
+  d.style.backgroundPosition = `${img.cols > 1 ? (img.col / (img.cols - 1)) * 100 : 0}% ${img.rows > 1 ? (img.row / (img.rows - 1)) * 100 : 0}%`;
+  return d;
+}
 function tileEl(t, key, listKey, opts = {}){
-  const el = document.createElement('div'); el.className = 'tile' + (opts.portrait ? ' port' : '') + (isArch(key) ? ' arch' : ''); el.dataset.key = key; el.dataset.list = listKey;
-  const badges = [t.approved ? '<span class="badge ok">APPROVED</span>' : '', t.role === 'start' ? '<span class="badge start">START</span>' : t.role === 'end' ? '<span class="badge end">END</span>' : '', t.group === 'pending' ? '<span class="badge pend">candidate</span>' : t.group === 'archived' ? '<span class="badge arch">archived by Codex</span>' : '', t.view ? `<span class="badge">${esc(t.view)}</span>` : '', stale(t.date) ? '<span class="badge old">OLDER than V74</span>' : '', isArch(key) ? '<span class="badge arch">removed</span>' : ''].join('');
-  el.innerHTML = `${t.img ? `<img src="${t.img}" alt="">` : '<div class="ph">no image yet</div>'}<div class="b">${badges}<h4>${esc(t.title)}</h4><p>${esc(t.role || t.caption || t.status || '')}</p>${t.date ? `<div class="dt">${fD(t.date)}${t.file ? ' · ' + esc(t.file) : ''}</div>` : ''}</div>`;
+  const el = document.createElement('div'); el.className = 'tile' + (isArch(key) ? ' arch' : ''); el.dataset.key = key; el.dataset.list = listKey;
+  const badges = [t.approved ? '<span class="badge ok">APPROVED</span>' : '', t.role === 'start' ? '<span class="badge start">START</span>' : t.role === 'end' ? '<span class="badge end">END</span>' : '', t.group === 'pending' ? '<span class="badge pend">candidate</span>' : t.group === 'archived' ? '<span class="badge arch">archived by Codex</span>' : '', t.view ? `<span class="badge">${esc(t.view)}</span>` : '', t.scene ? `<span class="badge acc">${esc(t.scene)}</span>` : '', stale(t.date) ? '<span class="badge old">OLDER than V74</span>' : '', isArch(key) ? '<span class="badge arch">removed</span>' : ''].join('');
+  el.appendChild(thEl(t.img, opts.portrait || t.img?.shape === 'port'));
+  const b = document.createElement('div'); b.className = 'b'; b.innerHTML = `${badges}<h4>${esc(t.title)}</h4><p>${esc(t.role && !['start','end','current','cut','reference','candidate','archived'].includes(t.role) ? t.role : (t.caption || t.status || t.angle || ''))}</p>${t.date ? `<div class="dt">${fD(t.date)}${t.file ? ' · ' + esc(t.file) : ''}</div>` : ''}`; el.appendChild(b);
   return el;
 }
-// selection + actions bar per list
 let selKey = null, selList = null;
-function bar(listKey, label){ const b = document.createElement('div'); b.className = 'bar'; b.innerHTML = `<span style="font-weight:600">${label}:</span><button class="small" data-a="l">◀</button><button class="small" data-a="r">▶</button><button class="small primary" data-a="edit">✎ Edit this</button><button class="small" data-a="still">✨ New still</button><button class="small" data-a="wrong">⚠ What's wrong</button><button class="small" data-a="arch">⬇ Remove</button>`; b.dataset.list = listKey; b.onclick = e => { const a = e.target.closest('button')?.dataset.a; if (!a) return; act(a, listKey); }; return b; }
+function bar(listKey, label){ const b = document.createElement('div'); b.className = 'bar'; b.innerHTML = `<span style="font-weight:600">${esc(label)}:</span><button class="small" data-a="l">◀</button><button class="small" data-a="r">▶</button><button class="small primary" data-a="edit">✎ Edit this</button><button class="small" data-a="still">✨ New still</button><button class="small" data-a="wrong">⚠ What's wrong</button><button class="small" data-a="arch">⬇ Remove</button>`; b.dataset.list = listKey; b.onclick = e => { const a = e.target.closest('button')?.dataset.a; if (!a) return; act(a, listKey); }; return b; }
 function act(a, listKey){
   if (!selKey || selList !== listKey) return toast('Tap a tile first');
-  if (a === 'l' || a === 'r') { const els = [...document.querySelectorAll(`.tile[data-list="${CSS.escape(listKey)}"]`)]; const keys = els.map(e => e.dataset.key); const i = keys.indexOf(selKey); const j = i + (a === 'l' ? -1 : 1); if (j < 0 || j >= keys.length) return; [keys[i], keys[j]] = [keys[j], keys[i]]; ST.order[listKey] = keys; changed('tile order'); renderList(listKey); if (!listKey.startsWith('scene:')) render(); return; }
-  if (a === 'arch') { if (isArch(selKey)) ST.archived = ST.archived.filter(k => k !== selKey); else ST.archived.push(selKey); changed(isArch(selKey) ? 'removed a tile' : 'restored a tile'); renderList(listKey); if (!listKey.startsWith('scene:')) render(); return; }
+  if (a === 'l' || a === 'r') { const els = [...document.querySelectorAll(`.tile[data-list="${CSS.escape(listKey)}"]`)]; const keys = els.map(e => e.dataset.key); const i = keys.indexOf(selKey); const j = i + (a === 'l' ? -1 : 1); if (j < 0 || j >= keys.length) return; [keys[i], keys[j]] = [keys[j], keys[i]]; ST.order[listKey] = keys; changed('tile order'); renderList(listKey); return; }
+  if (a === 'arch') { if (isArch(selKey)) ST.archived = ST.archived.filter(k => k !== selKey); else ST.archived.push(selKey); changed(isArch(selKey) ? 'removed a tile' : 'restored a tile'); renderList(listKey); return; }
   askRequest(a === 'edit' ? 'Edit this' : a === 'still' ? 'Make a new still' : 'What is wrong', selKey);
 }
-function askRequest(kind, target, extra){
+function askRequest(kind, target){
   const note = prompt(`${kind} · ${target}\n\nTell Claude / Codex what you want (a sentence is enough):`); if (note == null) return;
-  ST.requests.unshift({ id: Math.random().toString(36).slice(2, 8), kind, target, note: note.trim(), at: new Date().toISOString(), status: 'open', ...(extra || {}) });
+  ST.requests.unshift({ id: Math.random().toString(36).slice(2, 8), kind, target, note: note.trim(), at: new Date().toISOString(), status: 'open' });
   changed('request added'); renderReqs(); toast('Request saved. It shows under Requests.');
 }
-// press-and-hold drag within a list
 let drag = null;
-document.addEventListener('pointerdown', e => { const t = e.target.closest('.tile'); if (!t || e.target.closest('button')) return; const st = { key:t.dataset.key, list:t.dataset.list, x0:e.clientX, y0:e.clientY, armed:false, el:t }; drag = st; st.timer = setTimeout(() => { st.armed = true; t.classList.add('drag'); }, 280); });
+document.addEventListener('pointerdown', e => { const t = e.target.closest('.tile'); if (!t || e.target.closest('button') || t.dataset.list === 'scenes') return; const st = { key:t.dataset.key, list:t.dataset.list, x0:e.clientX, y0:e.clientY, armed:false, el:t }; drag = st; st.timer = setTimeout(() => { st.armed = true; t.classList.add('drag'); }, 280); });
 document.addEventListener('pointermove', e => { if (!drag) return; if (!drag.armed) { if (Math.hypot(e.clientX - drag.x0, e.clientY - drag.y0) > 12) { clearTimeout(drag.timer); drag = null; } return; } e.preventDefault(); const els = [...document.querySelectorAll(`.tile[data-list="${CSS.escape(drag.list)}"]`)]; let over = null; for (const el of els) { const r = el.getBoundingClientRect(); if (e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom) over = el; } if (over && over.dataset.key !== drag.key) { const keys = els.map(x => x.dataset.key); const from = keys.indexOf(drag.key), to = keys.indexOf(over.dataset.key); keys.splice(to, 0, keys.splice(from, 1)[0]); ST.order[drag.list] = keys; renderList(drag.list); document.querySelector(`.tile[data-key="${CSS.escape(drag.key)}"]`)?.classList.add('drag'); } }, { passive:false });
-const endDrag = () => { if (!drag) return; clearTimeout(drag.timer); if (drag.armed) { changed('tile order'); renderList(drag.list); if (!drag.list.startsWith('scene:')) render(); } drag = null; }; document.addEventListener('pointerup', endDrag); document.addEventListener('pointercancel', endDrag);
+const endDrag = () => { if (!drag) return; clearTimeout(drag.timer); if (drag.armed) { changed('tile order'); renderList(drag.list); } drag = null; }; document.addEventListener('pointerup', endDrag); document.addEventListener('pointercancel', endDrag);
 document.addEventListener('click', e => { const t = e.target.closest('.tile'); if (!t || e.target.closest('button')) return; if (t.dataset.list === 'scenes') return openScene(t.dataset.key); selKey = t.dataset.key; selList = t.dataset.list; document.querySelectorAll('.tile.sel').forEach(x => x.classList.remove('sel')); t.classList.add('sel'); });
 
-// ---- sections
-const lists = {};  // listKey -> { host, items, keyOf, opts }
+// ---- lists (current grid + collapsible archive grid per group)
+const lists = {};
 function renderList(listKey){ const L = lists[listKey]; if (!L) return; L.host.replaceChildren(...ordered(listKey, L.items, L.keyOf).map(t => { const el = tileEl(t, L.keyOf(t), listKey, L.opts); if (L.keyOf(t) === selKey && selList === listKey) el.classList.add('sel'); return el; })); }
+function group(parent, key, label, current, archive, opts = {}){
+  parent.appendChild(bar(key, label)); const g = document.createElement('div'); g.className = 'grid tight'; parent.appendChild(g);
+  lists[key] = { host:g, items:current, keyOf:t => key + '/' + t.id, opts }; renderList(key);
+  if (archive && archive.length) { const tog = document.createElement('div'); tog.className = 'archtog'; const btn = document.createElement('button'); btn.className = 'small'; btn.textContent = `▸ Archive (${archive.length} older)`; tog.appendChild(btn); parent.appendChild(tog);
+    const ag = document.createElement('div'); ag.className = 'archgrid'; ag.hidden = true; const inner = document.createElement('div'); inner.className = 'grid tight'; ag.appendChild(inner); parent.appendChild(ag);
+    const akey = key + ':archive'; lists[akey] = { host:inner, items:archive, keyOf:t => akey + '/' + t.id, opts };
+    btn.onclick = () => { ag.hidden = !ag.hidden; btn.textContent = (ag.hidden ? '▸' : '▾') + ` Archive (${archive.length} older)`; if (!ag.hidden && !inner.children.length) { inner.insertAdjacentElement('afterbegin', bar(akey, 'Archived')); renderList(akey); } }; }
+}
 function render(){
-  // scenes
   $('gScenes').replaceChildren(...BOARD.scenes.map(s => { const el = document.createElement('div'); el.className = 'tile'; el.dataset.key = s.id; el.dataset.list = 'scenes';
     const where = s.v74?.start != null ? `<span class="badge ok">in V74 · ${fmt(Math.round(s.v74.start*24))}–${fmt(Math.round(s.v74.end*24))}</span>` : s.v74?.inCut === false ? '<span class="badge">left out of V74</span>' : '<span class="badge">not built yet</span>';
-    el.innerHTML = `${s.still ? `<img src="${s.still}" alt="">` : '<div class="ph">no still yet</div>'}<div class="b"><span class="badge acc">${s.id}</span>${where}${stale(s.stillDate) ? '<span class="badge old">OLDER than V74</span>' : ''}<h4>${esc(s.title)}</h4><p>${esc(ST.scripts[s.id] ?? s.line)}</p><div class="dt">${s.stills.length} stills · ${s.audio.length} audio · ${esc(s.set)}${s.stillDate ? ' · still ' + fD(s.stillDate) : ''}</div></div>`; return el; }));
-  // characters
-  $('gChars').replaceChildren(...BOARD.characters.map(c => { const d = document.createElement('div'); d.className = 'char'; const f = c.continuity || {}; const facts = Object.entries(f).filter(([k]) => !['source','bodyReference','bodyStatus','coverage'].includes(k)).slice(0, 8).map(([k, v]) => `<b>${esc(k)}:</b> ${esc(v)}`).join(' · ');
+    el.appendChild(thEl(s.still)); const b = document.createElement('div'); b.className = 'b'; b.innerHTML = `<span class="badge acc">${s.id}</span>${where}${stale(s.stillDate) ? '<span class="badge old">OLDER than V74</span>' : ''}<h4>${esc(s.title)}</h4><p>${esc(ST.scripts[s.id] ?? s.line)}</p><div class="dt">${s.stills.length} stills · ${s.audio.length} audio · ${esc(s.set)}${s.stillDate ? ' · still ' + fD(s.stillDate) : ''}</div>`; el.appendChild(b); return el; }));
+  $('gChars').replaceChildren(...BOARD.characters.map(c => { const d = document.createElement('div'); d.className = 'box'; const f = c.continuity || {}; const facts = Object.entries(f).filter(([k]) => !['source','bodyReference','bodyStatus','coverage'].includes(k)).slice(0, 8).map(([k, v]) => `<b>${esc(k)}:</b> ${esc(v)}`).join(' · ');
     d.innerHTML = `<h3>${esc(c.name)}</h3><p class="facts">${c.status ? '<b>Status:</b> ' + esc(c.status) + '<br>' : ''}${c.voice ? '<b>Voice:</b> ' + esc(c.voice.voiceName || 'not set') + ' · ' + esc(c.voice.model || '') + '<br>' : ''}${facts}</p>`;
-    const key = 'char:' + c.name; d.appendChild(bar(key, c.name + ' tiles')); const g = document.createElement('div'); g.className = 'grid tight'; d.appendChild(g); lists[key] = { host:g, items:c.refs, keyOf:t => key + '/' + t.id, opts:{ portrait:true } }; renderList(key); return d; }));
-  // sets
-  $('gSets').replaceChildren(...BOARD.sets.map(s => { const d = document.createElement('div'); d.className = 'setbox'; d.innerHTML = `<h3>${esc(s.name)}</h3><p class="facts">${esc(s.blurb)}${s.scenes.length ? ' · <b>Scenes:</b> ' + s.scenes.join(', ') : ''}${s.angles.length ? '' : ' · <b>no angle images filed yet</b>'}</p>`; const key = 'set:' + s.name; d.appendChild(bar(key, s.name + ' angles')); const g = document.createElement('div'); g.className = 'grid tight'; d.appendChild(g); lists[key] = { host:g, items:s.angles, keyOf:t => key + '/' + t.id, opts:{} }; renderList(key); return d; }));
-  // props
-  $('propBar').replaceChildren(bar('props', 'Props')); lists.props = { host:$('gProps'), items:BOARD.props, keyOf:t => 'prop/' + t.id, opts:{} }; renderList('props');
+    group(d, 'char:' + c.name, c.name + ' · approved', c.current, c.archive, { portrait:true }); return d; }));
+  $('gSets').replaceChildren(...BOARD.sets.map(s => { const d = document.createElement('div'); d.className = 'box'; d.innerHTML = `<h3>${esc(s.name)}</h3><p class="facts">${esc(s.blurb)}${s.scenes.length ? ' · <b>Scenes:</b> ' + s.scenes.join(', ') : ''}${s.current.length ? '' : ' · <b>no angle image filed yet</b>'}</p>`; group(d, 'set:' + s.name, s.name + ' · angles', s.current, s.archive); return d; }));
+  const pc = [...BOARD.props.current, ...BOARD.props.archive.filter(p => p.img)], pa = BOARD.props.archive.filter(p => !p.img);
+  const pd = document.createElement('div'); pd.className = 'box'; pd.innerHTML = '<h3>Props</h3>'; group(pd, 'props', 'Props', pc, pa); $('gProps').replaceChildren(pd);
   renderReqs();
-  $('sub').textContent = `${BOARD.scenes.length} scenes · ${BOARD.characters.length} characters · ${BOARD.sets.length} sets · ${BOARD.props.length} props · ${BOARD.currentCut || ''}`;
+  $('sub').textContent = `${BOARD.scenes.length} scenes · ${BOARD.characters.length} characters · ${BOARD.sets.length} sets · ${pc.length} props · ${BOARD.currentCut || ''}`;
   $('ver').textContent = 'board built ' + (BOARD.builtAt || '').slice(0, 16).replace('T', ' ');
 }
 function renderReqs(){ $('reqN').textContent = ST.requests.length ? `(${ST.requests.length})` : ''; $('gReqs').replaceChildren(...(ST.requests.length ? ST.requests.map(r => { const d = document.createElement('div'); d.className = 'req'; d.innerHTML = `<b>${esc(r.kind)}</b> · ${esc(r.target)} · <span style="color:var(--muted)">${new Date(r.at).toLocaleString()} · ${esc(r.status)}</span><br>${esc(r.note)}`; return d; }) : [Object.assign(document.createElement('p'), { className:'hint', textContent:'No requests yet.' })])); }
 $('tabs').onclick = e => { const b = e.target.closest('button'); if (!b) return; document.querySelectorAll('#tabs button').forEach(x => x.classList.toggle('on', x === b)); for (const s of ['Scenes','Chars','Sets','Props','Reqs']) $('sec' + s).hidden = s.toLowerCase() !== b.dataset.sec; };
 
-// ---- the scene card
+// ---- the scene card: current + approved up top; candidates and Codex's archive folded away
 function openScene(id){
   const s = BOARD.scenes.find(x => x.id === id); if (!s) return;
   $('shId').textContent = s.id; $('shTitle').textContent = s.title;
-  const groups = [['current', 'Current still'], ['cut', 'Current cut · start and end'], ['approved', 'Approved references'], ['pending', 'Candidates waiting for you'], ['archived', 'Archived by Codex']];
   const b = $('shBody'); b.innerHTML = `
     <div class="kv"><b>Set</b><span>${esc(s.set)}${s.angle ? ' · ' + esc(s.angle) : ''}</span><b>Characters</b><span class="chips">${s.cast.map(c => `<span class="chip">${esc(c)}</span>`).join('')}</span><b>Props</b><span class="chips">${s.props.length ? s.props.map(c => `<span class="chip">${esc(c)}</span>`).join('') : '<span class="chip">none noted</span>'}</span><b>In V74</b><span>${s.v74?.start != null ? fmt(Math.round(s.v74.start*24)) + ' – ' + fmt(Math.round(s.v74.end*24)) : (s.v74?.inCut === false ? 'left out' : 'not built yet')}</span>${s.video ? `<b>Clip</b><span>${esc(s.video)}</span>` : ''}</div>
     <h3>Script</h3><textarea id="scr">${esc(ST.scripts[s.id] ?? s.line)}</textarea>
@@ -153,9 +165,9 @@ function openScene(id){
     <div class="bar"><button class="primary" id="scEdit">✎ Edit this scene</button><button id="scStill">✨ New start / end still</button><button id="scWrong">⚠ What's wrong</button></div>
     ${s.nextAction ? `<p class="hint"><b>Next action (Codex):</b> ${esc(s.nextAction)}</p>` : ''}${s.gate ? `<p class="hint"><b>Gate:</b> ${esc(s.gate)}</p>` : ''}${s.editStatus ? `<p class="hint"><b>Working edit:</b> ${esc(s.editStatus)}</p>` : ''}
     <h3>Audio (${s.audio.length})</h3>${s.audio.length ? `<div class="chips">${s.audio.map(a => `<span class="chip">♪ ${esc(a.title)} · ${a.seconds}s${a.date ? ' · ' + fD(a.date) : ''}</span>`).join('')}</div>` : '<p class="hint">No separate audio file is filed to this scene. Its sound is inside the scene clip; the Cut Room shows it as a block.</p>'}${s.audioHistory.length ? `<p class="hint">${s.audioHistory.map(esc).join(' · ')}</p>` : ''}
-    <div id="scStills"></div>`;
-  const host = $('scStills');
-  for (const [g, label] of groups) { const items = s.stills.filter(t => t.group === g); if (!items.length) continue; const h = document.createElement('h3'); h.textContent = `${label} (${items.length})`; host.appendChild(h); const key = 'scene:' + s.id + ':' + g; host.appendChild(bar(key, label)); const grid = document.createElement('div'); grid.className = 'grid tight'; host.appendChild(grid); lists[key] = { host:grid, items, keyOf:t => key + '/' + t.id, opts:{} }; renderList(key); }
+    <h3>Stills</h3><div id="scStills"></div>`;
+  const cur = s.stills.filter(t => t.group === 'current' || t.group === 'cut' || t.group === 'approved'), older = s.stills.filter(t => t.group === 'pending' || t.group === 'archived');
+  group($('scStills'), 'scene:' + s.id, 'Current and approved', cur, older);
   $('scrSave').onclick = () => { const v = $('scr').value.trim(); ST.scripts[s.id] = v; ST.requests.unshift({ id: Math.random().toString(36).slice(2, 8), kind:'Rewrite script', target:s.id, note:v, at:new Date().toISOString(), status:'open' }); changed('script'); renderReqs(); toast('Line saved as a request for ' + s.id); };
   $('scrReset').onclick = () => { delete ST.scripts[s.id]; $('scr').value = s.line; changed('script reset'); };
   $('scEdit').onclick = () => askRequest('Edit this scene', s.id); $('scStill').onclick = () => askRequest('Make a new start / end still', s.id); $('scWrong').onclick = () => askRequest('What is wrong', s.id);
@@ -163,10 +175,9 @@ function openScene(id){
 }
 $('shClose').onclick = () => { $('sheet').hidden = true; render(); };
 
-// ---- load
 (async function init(){
   const get = async u => { try { const r = await fetch(u, { cache:'no-store' }); return r.ok ? await r.json() : null; } catch(e){ return null; } };
-  BOARD = await get('board.json'); if (!BOARD) { $('sub').textContent = 'The board did not load.'; return; }
+  BOARD = await get('board.json'); if (!BOARD || BOARD.format !== 3) { $('sub').textContent = 'The board did not load.'; return; }
   const saved = await get('state/edits.json'); if (saved) { ST = { order:saved.order || {}, archived:saved.archived || [], scripts:saved.scripts || {}, requests:saved.requests || [] }; $('stat').textContent = 'Loaded your saved changes' + (saved.savedAt ? ' · ' + new Date(saved.savedAt).toLocaleString() : ''); }
   else { try { const d = localStorage.getItem('lyfe-board-state'); if (d) { ST = { ...ST, ...JSON.parse(d) }; $('stat').textContent = 'Unsaved changes from this phone'; } } catch(e){} }
   render();

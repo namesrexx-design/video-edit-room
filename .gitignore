@@ -12,3 +12,6 @@ projects/*/renders/*.receipt.json
 
 # Cut Room saves (page-native JSON, format 2) are committed; renders are not
 !projects/*/cuts/*.json
+
+# thumbnail sheets are small enough to keep in git (one JPEG per group)
+!cut-room/sheets/*.jpg
