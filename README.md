@@ -1,4 +1,6 @@
-# Video Edit Room
+# LYFE Studio (Video Edit Room)
+
+**LYFE Studio** is the product name (Rexx, 2026-09-15). The Cut Room is the editor; the Storyboard is a second feature holding every scene, character, set and object.
 
 One place where a video is **built as a text timeline**, rendered by one script, and
 opened by a person in a real editor when the agents can't.

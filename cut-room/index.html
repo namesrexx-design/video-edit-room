@@ -1,4 +1,4 @@
-<title>Garage Dream Cut Room</title>
+<title>LYFE Studio · Garage Dream</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style>
   :root{ --bg:#f6f1e8; --panel:#efe4d2; --panel2:#e6d8c1; --text:#26221f; --muted:#5e554d; --accent:#a75f3c; --accent-ink:#fff; --ok:#5f7048; --line:#d3c4ac; --sel:#a75f3c; --v1:#c9b28f; --v2:#9fb08a; --a2:#d9a27a; --script:#e9dcc4; --ph:#a72e2e; }
@@ -10,6 +10,22 @@
   header{ display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:10px; }
   h1{ font-family:Newsreader,Georgia,serif; font-weight:600; font-size:clamp(28px,5vw,40px); margin:0; line-height:1.05; text-shadow:1px 1px 0 rgba(0,0,0,.12); }
   .sub{ color:var(--muted); font-size:18px; margin:2px 0 0; }
+  .brand{ font-family:"Source Sans 3",sans-serif; font-weight:700; letter-spacing:.22em; font-size:15px; color:var(--accent); text-transform:uppercase; } .brand span{ color:var(--muted); }
+  .tabs{ display:flex; gap:6px; margin:6px 0 14px; border-bottom:2px solid var(--line); }
+  .tabs button{ background:transparent; border-radius:10px 10px 0 0; border-bottom:4px solid transparent; font-size:20px; padding:10px 18px; }
+  .tabs button.on{ border-bottom-color:var(--accent); color:var(--accent); background:var(--panel); }
+  .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:12px; }
+  .bcard{ background:var(--panel); border-radius:12px; overflow:hidden; border:3px solid transparent; cursor:pointer; }
+  .bcard img{ display:block; width:100%; aspect-ratio:16/9; object-fit:cover; background:#2b2521; }
+  .bcard .ph{ width:100%; aspect-ratio:16/9; background:linear-gradient(135deg,var(--panel2),var(--panel)); display:flex; align-items:center; justify-content:center; color:var(--muted); font-size:15px; }
+  .bcard .b{ padding:8px 10px 10px; } .bcard .id{ display:inline-block; background:var(--accent); color:var(--accent-ink); font-weight:700; font-size:14px; padding:1px 8px; border-radius:6px; margin-bottom:4px; }
+  .bcard .ok{ background:var(--ok); } .bcard .no{ background:var(--muted); }
+  .bcard h4{ margin:2px 0 4px; font-size:17px; line-height:1.2; } .bcard p{ margin:0; font-size:14.5px; color:var(--muted); line-height:1.3; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .chip{ display:inline-block; font-size:13.5px; padding:1px 8px; border-radius:6px; background:var(--panel2); margin-top:6px; }
+  .char{ background:var(--panel); border-radius:14px; padding:14px 16px; margin:12px 0 18px; }
+  .char h3{ font-family:Newsreader,Georgia,serif; font-size:30px; margin:0 0 4px; } .char .facts{ font-size:16.5px; color:var(--muted); line-height:1.45; margin:0 0 10px; } .char .facts b{ color:var(--text); }
+  .char .grid{ grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); }
+  .char .bcard img{ aspect-ratio:3/4; object-fit:cover; object-position:top; }
   button{ font:inherit; font-weight:600; border:0; border-radius:10px; padding:11px 16px; min-height:48px; cursor:pointer; color:var(--text); background:var(--panel2); }
   button:active{ transform:translateY(1px); } button:disabled{ opacity:.45; cursor:default; }
   button:focus-visible{ outline:3px solid var(--accent); outline-offset:2px; }
@@ -86,11 +102,13 @@
 <div class="wrap">
   <header>
     <div>
-      <h1>Garage Dream · Cut Room</h1>
+      <div class="brand">LYFE <span>STUDIO</span></div><h1>Garage Dream</h1>
       <p class="sub" id="sub">Picture on top, then the script, then every scene's own sound as its own block, then added sound, then the 2nd video lane for cutaways and transitions. Swap a picture and its sound stays. Drag a block to move it, pull its ends to trim. Swipe the ruler or the script lane to scroll. Nothing is ever deleted.</p>
     </div>
     <button id="undo">↶ Undo</button>
   </header>
+  <div class="tabs"><button class="on" id="tabCut">Cut Room</button><button id="tabBoard">Storyboard</button></div>
+  <div id="viewCut">
 
   <div class="player">
     <video id="v" playsinline preload="auto"></video>
@@ -147,6 +165,16 @@
   <h2>Storyboard scenes that are not in V74</h2>
   <p class="hint">Why the numbers skip. S11, S12, S13 and S15 were folded into the rebuilt garage scenes; S20 to S22 were cut when you chose Bart skating straight into Apu's horn. S29A onward is not built yet.</p>
   <div class="strip" id="todo"></div>
+
+  </div>
+
+  <div id="viewBoard" hidden>
+    <p class="hint" id="boardSub">Every scene, every character, every set and object, from Codex's storyboard. Tap anything to read the full note.</p>
+    <div class="tabs" style="margin-top:0"><button class="on" data-sec="scenes">Scenes</button><button data-sec="chars">Characters</button><button data-sec="objects">Sets &amp; objects</button></div>
+    <div id="secScenes"><div class="grid" id="bScenes"></div></div>
+    <div id="secChars" hidden></div>
+    <div id="secObjects" hidden><div class="grid" id="bObjects"></div></div>
+  </div>
 
   <div class="panel" id="fallback" hidden>
     <div style="font-weight:700;margin-bottom:6px">Saving is not available on this view. Copy this and send it to Claude:</div>
@@ -361,6 +389,24 @@ $('save').onclick = async () => {
   try { const stamp = doc.savedAt.replace(/[:.]/g,'-'); await art.publish({ 'cuts/latest.json': json, [`cuts/${stamp}.json`]: json }); $('stat').textContent = `Saved ${new Date().toLocaleTimeString()} · ${S.v1.length} scenes · ${fmt(v1total())}`; toast('Saved. Tell Claude "render the cut" and it becomes the next version.'); }
   catch (e) { $('fallback').hidden = false; $('cutText').value = cutText(); $('stat').textContent = e?.code === 'not_writer' ? 'View only here. Copy the list below.' : 'Saving unavailable here. Copy the list below.'; }
 };
+// ---------- storyboard view
+let BOARD = null;
+function showView(which){ const board = which === 'board'; $('viewCut').hidden = board; $('viewBoard').hidden = !board; $('tabCut').classList.toggle('on', !board); $('tabBoard').classList.toggle('on', board); document.querySelector('.savebar').style.display = board ? 'none' : ''; if (board) { stop(); if (!BOARD) loadBoard(); } try { localStorage.setItem('lyfe-view', which); } catch(e){} }
+$('tabCut').onclick = () => showView('cut'); $('tabBoard').onclick = () => showView('board');
+document.querySelectorAll('#viewBoard .tabs button').forEach(b => b.onclick = () => { document.querySelectorAll('#viewBoard .tabs button').forEach(x => x.classList.toggle('on', x === b)); for (const s of ['Scenes','Chars','Objects']) $('sec' + s).hidden = ('sec' + s).toLowerCase() !== 'sec' + b.dataset.sec.toLowerCase(); });
+function sheetShow(id, ttl, body, st){ $('shId').textContent = id; $('shTitle').textContent = ttl; $('shLine').textContent = body; $('shSt').textContent = st || ''; $('shPlay').hidden = true; $('sheet').hidden = false; }
+function bcard(img, id, idCls, ttl, txt, chip){ const el = document.createElement('div'); el.className = 'bcard'; el.innerHTML = `${img ? `<img src="${img}" alt="">` : '<div class="ph">no image yet</div>'}<div class="b">${id ? `<span class="id ${idCls||''}">${id}</span>` : ''}<h4>${ttl}</h4><p>${txt || ''}</p>${chip ? `<span class="chip">${chip}</span>` : ''}</div>`; return el; }
+async function loadBoard(){
+  try { const r = await fetch('board.json', { cache:'no-store' }); BOARD = await r.json(); } catch(e) { $('boardSub').textContent = 'The storyboard data did not load.'; return; }
+  $('boardSub').textContent = `${BOARD.scenes.length} scenes · ${BOARD.characters.length} characters · ${BOARD.objects.length} sets and objects · ${BOARD.currentCut || ''}. Tap anything to read the full note.`;
+  $('bScenes').replaceChildren(...BOARD.scenes.map(s => { const chip = s.v74?.start != null ? `in V74 · ${fmt(Math.round(s.v74.start*24))}–${fmt(Math.round(s.v74.end*24))}` : (s.v74?.inCut === false ? 'left out of V74' : 'not built yet'); const el = bcard(s.still, s.id, s.v74?.start != null ? 'ok' : 'no', s.title, s.line, chip); el.onclick = () => sheetShow(s.id, s.title, s.line + (s.v74?.note ? '\n\n' + s.v74.note : ''), s.status); return el; }));
+  $('secChars').replaceChildren(...BOARD.characters.map(c => { const d = document.createElement('div'); d.className = 'char'; const f = c.continuity || {}; const facts = Object.entries(f).filter(([k]) => !['source','bodyReference','bodyStatus','coverage'].includes(k)).slice(0, 8).map(([k, v]) => `<b>${k}:</b> ${v}`).join(' · ');
+    d.innerHTML = `<h3>${c.name}</h3><p class="facts">${c.status ? '<b>Status:</b> ' + c.status + '<br>' : ''}${c.voice ? '<b>Voice:</b> ' + (c.voice.voiceName || 'not set') + ' · ' + (c.voice.model || '') + '<br>' : ''}${facts}</p><div class="grid"></div>`;
+    const g = d.querySelector('.grid'); for (const r of c.refs) { const el = bcard(r.img, r.approved ? 'APPROVED' : (r.group || 'reference'), r.approved ? 'ok' : 'no', r.title, r.role, r.status); el.onclick = () => sheetShow(c.name + ' · ' + r.id, r.title, [r.role, r.notes].filter(Boolean).join('\n\n'), (r.approved ? 'APPROVED · ' : '') + (r.status || '') + (r.group ? ' · ' + r.group : '')); g.appendChild(el); }
+    return d; }));
+  $('bObjects').replaceChildren(...BOARD.objects.map(o => { const el = bcard(o.img, o.approved ? 'APPROVED' : '', 'ok', o.title, o.role, o.status); el.onclick = () => sheetShow(o.approved ? 'APPROVED' : 'reference', o.title, o.role, o.status); return el; }));
+}
+$('shClose').addEventListener('click', () => { $('shPlay').hidden = false; });
 function renderTodo(){ const built = new Set(CLIPS.flatMap(c => c.scenes)); const todo = Object.values(STORY).filter(s => !built.has(s.id));
   $('todo').replaceChildren(...todo.map(s => { const el = document.createElement('div'); el.className = 'card todo'; el.innerHTML = `<img src="thumbs/${s.id === 'S33' ? 'S33.jpg' : 'blank.jpg'}" alt=""><span class="num">${s.id}</span><div class="t">${s.title}</div><div class="line">${s.status ? s.status.replace(/\s+/g,' ').slice(0,110) : s.line}</div><div class="d">${/omitted|not inserted/i.test(s.status) ? 'left out of V74' : 'not built yet'}</div>`; return el; })); }
 (async function init(){
@@ -377,5 +423,6 @@ function renderTodo(){ const built = new Set(CLIPS.flatMap(c => c.scenes)); cons
   if (!Array.isArray(s.a1)) s.a1 = s.v1.map(soundFor); else s.a1 = s.a1.filter(ok).map(b => ({ id:b.id, start:b.start, end:b.end, link: s.v1.some(v => v.u === b.link) ? b.link : null, off:b.off || 0, at:b.at || 0 }));
   const seen = new Set([...s.v1.map(b => b.id), ...s.parked]); for (const c of CLIPS) if (!seen.has(c.id)) s.parked.push(c.id);
   S = s; renderTodo(); renderTL(); if (S.v1.length) { v.dataset.id = ''; loadV1At(0, false); }
+  try { if (localStorage.getItem('lyfe-view') === 'board') showView('board'); } catch(e){}
 })();
 </script>
