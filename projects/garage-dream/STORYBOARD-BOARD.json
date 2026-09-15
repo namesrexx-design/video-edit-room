@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-15T21:37:18.243Z",
+  "builtAt": "2026-09-15T21:46:52.624Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -1292,6 +1292,25 @@
           }
         },
         {
+          "date": "2026-09-15",
+          "file": "59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
+          "group": "pending",
+          "id": "UP-SCENE-20260915-59A816F6-6637-43A7-A20A-4CC9A90AED20",
+          "title": "Owner upload · 59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
+          "caption": "Uploaded by Rexx 2026-09-15 via Drive folder S08__WALK_UP_DRIVEWAY/01_STILLS_AND_REFERENCES",
+          "role": "candidate",
+          "approved": false,
+          "status": "Owner upload — awaiting approval",
+          "img": {
+            "sheet": "sheets/scene-S08.jpg",
+            "col": 4,
+            "row": 0,
+            "cols": 8,
+            "rows": 3,
+            "shape": "land"
+          }
+        },
+        {
           "date": "2026-09-12",
           "file": "S08-START-V10-HEAD-NECK.png",
           "group": "archived",
@@ -1303,7 +1322,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 5,
             "row": 0,
             "cols": 8,
             "rows": 3,
@@ -1322,7 +1341,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 6,
             "row": 0,
             "cols": 8,
             "rows": 3,
@@ -1341,7 +1360,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 7,
             "row": 0,
             "cols": 8,
             "rows": 3,
@@ -1360,8 +1379,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
-            "row": 0,
+            "col": 0,
+            "row": 1,
             "cols": 8,
             "rows": 3,
             "shape": "land"
@@ -1379,7 +1398,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 0,
+            "col": 1,
             "row": 1,
             "cols": 8,
             "rows": 3,
@@ -1398,7 +1417,7 @@
           "status": "Owner-selected continuity reference",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 1,
+            "col": 2,
             "row": 1,
             "cols": 8,
             "rows": 3,
@@ -1417,7 +1436,7 @@
           "status": "Historical source — excluded from new character reference set by owner",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 2,
+            "col": 3,
             "row": 1,
             "cols": 8,
             "rows": 3,
@@ -1436,7 +1455,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 3,
+            "col": 4,
             "row": 1,
             "cols": 8,
             "rows": 3,
@@ -1455,7 +1474,7 @@
           "status": "Historical reference — superseded; not eligible for new render",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 5,
             "row": 1,
             "cols": 8,
             "rows": 3,
@@ -1474,7 +1493,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 6,
             "row": 1,
             "cols": 8,
             "rows": 3,
@@ -1493,7 +1512,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 7,
             "row": 1,
             "cols": 8,
             "rows": 3,
@@ -1512,8 +1531,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
-            "row": 1,
+            "col": 0,
+            "row": 2,
             "cols": 8,
             "rows": 3,
             "shape": "land"
@@ -1531,7 +1550,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 0,
+            "col": 1,
             "row": 2,
             "cols": 8,
             "rows": 3,
@@ -1550,7 +1569,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 1,
+            "col": 2,
             "row": 2,
             "cols": 8,
             "rows": 3,
@@ -1569,7 +1588,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 2,
+            "col": 3,
             "row": 2,
             "cols": 8,
             "rows": 3,
@@ -1588,7 +1607,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 3,
+            "col": 4,
             "row": 2,
             "cols": 8,
             "rows": 3,
@@ -1607,7 +1626,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 5,
             "row": 2,
             "cols": 8,
             "rows": 3,
@@ -1626,7 +1645,7 @@
           "status": "Rejected / superseded; archive only",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 6,
             "row": 2,
             "cols": 8,
             "rows": 3,
@@ -1645,7 +1664,7 @@
           "status": "Rejected by owner: soft and blotchy. History only.",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 7,
             "row": 2,
             "cols": 8,
             "rows": 3,
@@ -1707,6 +1726,15 @@
           "role": "candidate",
           "approved": false,
           "date": "2026-09-13"
+        },
+        {
+          "src": "D:\\REXX\\AI_Video\\BizBox-Garage-Dream\\owner-uploads\\scenes\\S08_WALK_UP_DRIVEWAY\\2026-09-15\\59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
+          "id": "UP-SCENE-20260915-59A816F6-6637-43A7-A20A-4CC9A90AED20",
+          "title": "Owner upload · 59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
+          "group": "pending",
+          "role": "candidate",
+          "approved": false,
+          "date": "2026-09-15"
         },
         {
           "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\rejected-archive\\s08-s09-retired-stills-20260913\\environment-reference-pack\\scene-rebuild-v7\\S08-START-V10-HEAD-NECK.png",
