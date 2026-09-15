@@ -37,6 +37,9 @@ if (fs.existsSync(OWNER_IN)) for (const d of fs.readdirSync(OWNER_IN).sort()) fo
 const HANDOFF = 'D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/existing-candidates';
 if (fs.existsSync(HANDOFF)) for (const f of fs.readdirSync(HANDOFF).filter(x => x.endsWith('.mp4')).sort()) sources.push({ group: 'handoff', model: 'candidate', at: '2026-09-15', title: f.replace(/.mp4$/, '').replace(/-/g, ' ') + ' (Astra handoff)', src: HANDOFF + '/' + f });
 
+const TRIALS = 'D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/outputs';
+if (fs.existsSync(TRIALS)) for (const f of fs.readdirSync(TRIALS).filter(x => x.endsWith('.mp4')).sort()) sources.push({ group: 'trial', model: 'kling3_0 pro', at: '2026-09-15', title: f.replace(/.mp4$/, '').replace(/-/g, ' ') + ' (new render, owner review)', src: TRIALS + '/' + f });
+
 const manifest = []; let i = 0;
 for (const s of sources) {
   i++; const id = 'INV' + String(i).padStart(3, '0'); const name = `${id}_${slug(path.basename(s.src, '.mp4'))}.mp4`; const dest = `${OUT}/${name}`;

@@ -539,6 +539,24 @@
    "group": "handoff",
    "model": "candidate",
    "at": "2026-09-15"
+  },
+  {
+   "id": "INV061",
+   "file": "INV061_s08-trial-33194ecc-kling3-0-pro-4s.mp4",
+   "title": "S08 TRIAL 33194ecc kling3_0 pro 4s (new render, owner review)",
+   "frames": 97,
+   "group": "trial",
+   "model": "kling3_0 pro",
+   "at": "2026-09-15"
+  },
+  {
+   "id": "INV062",
+   "file": "INV062_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
+   "title": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
+   "frames": 121,
+   "group": "trial",
+   "model": "kling3_0 pro",
+   "at": "2026-09-15"
   }
  ]
 }
