@@ -1,0 +1,200 @@
+{
+ "clips": [
+  {
+   "id": "AUD001",
+   "file": "AUD001_pursuit-of-happiness-5.wav",
+   "title": "BizBox piano theme — Pursuit of Happiness",
+   "frames": 1562,
+   "group": "music"
+  },
+  {
+   "id": "AUD002",
+   "file": "AUD002_kid-cudi-1.wav",
+   "title": "Kid Cudi — 1",
+   "frames": 6956,
+   "group": "music"
+  },
+  {
+   "id": "AUD003",
+   "file": "AUD003_kid-cudi-2.wav",
+   "title": "Kid Cudi — 2",
+   "frames": 6956,
+   "group": "music"
+  },
+  {
+   "id": "AUD004",
+   "file": "AUD004_v73-bugatti-song-phrase-reference-6p5s-48k.wav",
+   "title": "Bugatti song phrase (6.5 s reference)",
+   "frames": 156,
+   "group": "music"
+  },
+  {
+   "id": "AUD005",
+   "file": "AUD005_v73-song-whisper-car-audition-54p5-67p0.wav",
+   "title": "Song + whisper, car audition (54.5–67 s)",
+   "frames": 300,
+   "group": "music"
+  },
+  {
+   "id": "AUD006",
+   "file": "AUD006_s27-v74-apu-l1-approved-dialogue.wav",
+   "title": "S27 V74 Apu L1 APPROVED DIALOGUE",
+   "frames": 53,
+   "group": "voice"
+  },
+  {
+   "id": "AUD007",
+   "file": "AUD007_s27-v74-apu-l1-apu-driver.wav",
+   "title": "S27 V74 Apu L1 APU DRIVER",
+   "frames": 53,
+   "group": "voice"
+  },
+  {
+   "id": "AUD008",
+   "file": "AUD008_s27-v74-apu-l2-approved-dialogue.wav",
+   "title": "S27 V74 Apu L2 APPROVED DIALOGUE",
+   "frames": 44,
+   "group": "voice"
+  },
+  {
+   "id": "AUD009",
+   "file": "AUD009_s27-v74-apu-l2-apu-driver.wav",
+   "title": "S27 V74 Apu L2 APU DRIVER",
+   "frames": 44,
+   "group": "voice"
+  },
+  {
+   "id": "AUD010",
+   "file": "AUD010_s27-v74-apu-l3-approved-dialogue.wav",
+   "title": "S27 V74 Apu L3 APPROVED DIALOGUE",
+   "frames": 37,
+   "group": "voice"
+  },
+  {
+   "id": "AUD011",
+   "file": "AUD011_s27-v74-apu-l3-apu-driver.wav",
+   "title": "S27 V74 Apu L3 APU DRIVER",
+   "frames": 37,
+   "group": "voice"
+  },
+  {
+   "id": "AUD012",
+   "file": "AUD012_s27-v74-l1-return-audio.wav",
+   "title": "S27 V74 L1 RETURN AUDIO",
+   "frames": 57,
+   "group": "voice"
+  },
+  {
+   "id": "AUD013",
+   "file": "AUD013_s27-v74-l2-return-audio.wav",
+   "title": "S27 V74 L2 RETURN AUDIO",
+   "frames": 48,
+   "group": "voice"
+  },
+  {
+   "id": "AUD014",
+   "file": "AUD014_bart-door-v3-three-seconds-approved-voice.wav",
+   "title": "Bart — door V3 (3 s, approved voice)",
+   "frames": 72,
+   "group": "voice"
+  },
+  {
+   "id": "AUD015",
+   "file": "AUD015_v73-bart-complete-take-48k.wav",
+   "title": "Bart — complete take (5 s)",
+   "frames": 121,
+   "group": "voice"
+  },
+  {
+   "id": "AUD016",
+   "file": "AUD016_v73-bart-complete-eat-my-shorts-0p20-2p65-48k.wav",
+   "title": "Bart — Eat my shorts (2.5 s)",
+   "frames": 59,
+   "group": "voice"
+  },
+  {
+   "id": "AUD017",
+   "file": "AUD017_bart-exit-v4-phone-free.wav",
+   "title": "Bart — exit V4 phone free (5 s)",
+   "frames": 121,
+   "group": "voice"
+  },
+  {
+   "id": "AUD018",
+   "file": "AUD018_homer-bugatti-three-whispers-v2-48k.wav",
+   "title": "Homer — Bugatti three whispers",
+   "frames": 65,
+   "group": "voice"
+  },
+  {
+   "id": "AUD019",
+   "file": "AUD019_v73-bugatti-intro-replacement-56p691667-63p083333-.wav",
+   "title": "Bugatti intro replacement (56.7–63.1 s)",
+   "frames": 153,
+   "group": "voice"
+  },
+  {
+   "id": "AUD020",
+   "file": "AUD020_v73-waymo-arrival-line-jcut-26p700-48k.wav",
+   "title": "Rexx — Waymo arrival line",
+   "frames": 16,
+   "group": "voice"
+  },
+  {
+   "id": "AUD021",
+   "file": "AUD021_s21.wav",
+   "title": "Rexx — No! It was that kid (S21)",
+   "frames": 152,
+   "group": "voice"
+  },
+  {
+   "id": "AUD022",
+   "file": "AUD022_v71-snore-mosquito-cue.wav",
+   "title": "Snore cue — mosquito",
+   "frames": 24,
+   "group": "cue"
+  },
+  {
+   "id": "AUD023",
+   "file": "AUD023_v71-snore-recliner-cue.wav",
+   "title": "Snore cue — recliner",
+   "frames": 24,
+   "group": "cue"
+  },
+  {
+   "id": "AUD024",
+   "file": "AUD024_v74-mosquito-buzz-62p083333-115p166667-48k-f32.wav",
+   "title": "V74 stem — mosquito buzz",
+   "frames": 2764,
+   "group": "stem"
+  },
+  {
+   "id": "AUD025",
+   "file": "AUD025_v74-mosquito-snore-62p083333-115p166667-48k-f32.wav",
+   "title": "V74 stem — snore",
+   "frames": 2764,
+   "group": "stem"
+  },
+  {
+   "id": "AUD026",
+   "file": "AUD026_v74-bart-complete-replacement-115p166667-48k-f32.wav",
+   "title": "V74 stem — Bart line",
+   "frames": 2764,
+   "group": "stem"
+  },
+  {
+   "id": "AUD027",
+   "file": "AUD027_v74-waymo-driveway-bridge-115p166667-48k-f32.wav",
+   "title": "V74 stem — Waymo/driveway bridge",
+   "frames": 2764,
+   "group": "stem"
+  },
+  {
+   "id": "AUD028",
+   "file": "AUD028_garage-dream-v74-audio-fixes-115p166667-48k-f32.wav",
+   "title": "V74 full mix (what is in the cut now)",
+   "frames": 2764,
+   "group": "stem"
+  }
+ ]
+}

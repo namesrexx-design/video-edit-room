@@ -1,0 +1,43 @@
+{
+  "format": 2,
+  "name": "pipeline test",
+  "savedAt": "2026-09-15T06:39:27.181Z",
+  "fps": 24,
+  "v1": [
+    {
+      "id": "01",
+      "file": "01_S01_stairs.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 79
+    },
+    {
+      "id": "02",
+      "file": "02_S02_coffee-ring.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 10,
+      "end": 60
+    }
+  ],
+  "v2": [
+    {
+      "id": "INV001",
+      "file": "INV001_2026-09-15-00-32-kling3-0-79ed851d-one-continuous-.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "at": 30
+    }
+  ],
+  "a2": [
+    {
+      "id": "AUD006",
+      "file": "AUD006_s27-v74-apu-l1-approved-dialogue.wav",
+      "folder": "audio-bin-v74",
+      "start": 0,
+      "end": 53,
+      "at": 12
+    }
+  ],
+  "parked": []
+}

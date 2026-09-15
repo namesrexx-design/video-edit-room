@@ -1,0 +1,48 @@
+{
+  "cut": "PIPELINE-TEST.json",
+  "cutSha256": "B95BB0CC827FF349F377AC5F3237D8366CC6565FC4FEFFF02D5358EA119D0B7D",
+  "savedAt": "2026-09-15T06:39:27.181Z",
+  "output": "C:\\Users\\16263\\Desktop\\video-edit-room\\projects\\garage-dream\\renders\\PIPELINE-TEST.mp4",
+  "outputSha256": "88D423D0CF7C9CA6F650047D120D60B3CAA7CE687CF76F7F45DBDCF11B43101E",
+  "bytes": 3256890,
+  "frames": 129,
+  "seconds": 5.375,
+  "renderedAt": "2026-09-15T06:39:36.911Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "id": "01",
+      "file": "01_S01_stairs.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 79
+    },
+    {
+      "id": "02",
+      "file": "02_S02_coffee-ring.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 10,
+      "end": 60
+    }
+  ],
+  "v2": [
+    {
+      "id": "INV001",
+      "file": "INV001_2026-09-15-00-32-kling3-0-79ed851d-one-continuous-.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "at": 30
+    }
+  ],
+  "a2": [
+    {
+      "id": "AUD006",
+      "file": "AUD006_s27-v74-apu-l1-approved-dialogue.wav",
+      "folder": "audio-bin-v74",
+      "start": 0,
+      "end": 53,
+      "at": 12
+    }
+  ]
+}
