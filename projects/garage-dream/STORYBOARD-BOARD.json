@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-15T21:54:11.778Z",
+  "builtAt": "2026-09-15T23:05:32.941Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -1183,7 +1183,7 @@
       "nextAction": "Review the join to retained S09; prepare its matching conversation and single remote/open-garage sequence.",
       "gate": "Owner selected both stills and requested loading them in Higgsfield.",
       "video": "S08-WALKUP-V51-REPLACEMENT.mp4",
-      "editStatus": "",
+      "editStatus": "IN REPAIR PASS · Order 1 · S08/S09 trials prepared (Kling 3.0 Pro, 4 s), waiting on the owner's spend go. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S08.jpg",
         "col": 0,
@@ -1925,7 +1925,7 @@
       "nextAction": "Prepare reference-matched closed-door conversation and one remote action. Preserve approved voices.",
       "gate": "Owner selected both stills and requested loading them in Higgsfield.",
       "video": "S09-CURRENT-V63.mp4",
-      "editStatus": "V59 lip-sync inserted; owner playback review pending.",
+      "editStatus": "IN REPAIR PASS · Order 1 · 5 s conversation trial prepared from the corrected Homer-facing-Rexx still, waiting on the owner's spend go. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S09.jpg",
         "col": 0,
@@ -3763,7 +3763,7 @@
       "nextAction": "Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
       "gate": "Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
       "video": null,
-      "editStatus": "Not inserted in V42. Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
+      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Four 9/14 takes exist (Homer spots the recliner); voice line to record. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S11.jpg",
         "col": 0,
@@ -4080,7 +4080,7 @@
       "nextAction": "Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
       "gate": "Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
       "video": null,
-      "editStatus": "",
+      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest take is 9/10 (phone shutter, 768p); Codex is matching newer footage. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S12.jpg",
         "col": 0,
@@ -4260,7 +4260,7 @@
       "nextAction": "Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
       "gate": "Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
       "video": null,
-      "editStatus": "",
+      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest takes 9/10 and 9/12 (listening coverage). Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S13.jpg",
         "col": 0,
@@ -4813,7 +4813,7 @@
       "nextAction": "Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
       "gate": "Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
       "video": null,
-      "editStatus": "Not inserted in V42. Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
+      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest take 9/12 recliner close-up; overlap with S16 to reconcile. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S15.jpg",
         "col": 0,
@@ -6690,7 +6690,7 @@
       "nextAction": "Verify mouth-sync and reaction timing across the shared catch-to-honk sequence.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": null,
-      "editStatus": "V42 working footage present in a shared sequence. Verify mouth-sync and reaction timing across the shared catch-to-honk sequence.",
+      "editStatus": "IN REPAIR PASS · Order 3 · one garage setup, Homer line; approved voice file located by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S20.jpg",
         "col": 0,
@@ -6988,7 +6988,7 @@
       "nextAction": "Keep approved minimal-motion reply; finish voice sync in the shared sequence.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": "REXX-REPLY-CHAIR-V4.mp4",
-      "editStatus": "V42 working footage present in a shared sequence. Keep approved minimal-motion reply; finish voice sync in the shared sequence.",
+      "editStatus": "IN REPAIR PASS · Order 3 · same setup, Rexx line (rear-facing); later S21 takes found by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S21.jpg",
         "col": 0,
@@ -7355,7 +7355,7 @@
       "nextAction": "Check Homer’s “Whose kid?” response timing before the honk.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": null,
-      "editStatus": "",
+      "editStatus": "IN REPAIR PASS · Order 3 · same setup, Homer line, then Apu's horn; approved voice file located by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
       "still": {
         "sheet": "sheets/scene-S22.jpg",
         "col": 0,
