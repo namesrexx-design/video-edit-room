@@ -61,7 +61,7 @@ const scenes = sb.scenes.map(s => {
   const hist = (s.audioRevisionHistory || []).map(h => typeof h === 'string' ? clean(h) : clean(h.note || h.status || JSON.stringify(h)).slice(0, 160));
   const [setName, angle] = SET[s.id] || ['', ''];
   const sheet = pack('scene-' + s.id, stills.map(t => t.src));
-  return { id: s.id, title: s.title, line: clean(s.line), status: clean(s.status), nextAction: clean(s.finalization?.nextAction), gate: clean(s.productionGate?.reason), video: s.fullVideo ? path.basename(s.fullVideo) : null, editStatus: clean(s.latestWorkingEdit?.status),
+  return { id: s.id, title: s.title, line: clean(s.line), status: clean(s.status), nextAction: clean(s.finalization?.nextAction), gate: clean(s.productionGate?.reason), video: s.fullVideo ? path.basename(s.fullVideo) : null, editStatus: clean(s.editStatus || s.latestWorkingEdit?.status),
     still: cur && sheet.get(cur) ? sheet.get(cur) : null, stillDate: dateOf(cur), stillStale: !!(cur && dateOf(cur) < V74_DATE),
     v74: s.v74?.episodeSeconds ? { start: s.v74.episodeSeconds[0], end: s.v74.episodeSeconds[1] } : (s.v74?.inCut === false ? { inCut: false, note: s.v74.note } : null),
     stills: bind(stills, sheet), audio, audioHistory: hist, cast: CAST(s.id), props: PROPS[s.id] || [], set: setName, angle, _cur: cur, _frames: s.frames || [] };

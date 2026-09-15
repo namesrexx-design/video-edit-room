@@ -1,0 +1,74 @@
+{
+  "cut": "S27-LIPSYNC-PREVIEW.json",
+  "cutSha256": "C0F434C90C783A64997385356E5C53743769670C4FCC9CCC0129772AA0809D29",
+  "savedAt": "2026-09-15T12:05:00-07:00",
+  "output": "C:\\Users\\16263\\Desktop\\video-edit-room\\projects\\garage-dream\\renders\\S27-LIPSYNC-PREVIEW.mp4",
+  "outputSha256": "A76C8929BEB325E2AD58C44D098DF37B4B385CD74DFEEC06214613629A751351",
+  "bytes": 10338176,
+  "frames": 389,
+  "seconds": 16.208333,
+  "renderedAt": "2026-09-15T18:47:14.392Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "u": "s27main",
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "mute": true
+    },
+    {
+      "u": "s27jump",
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "mute": true
+    }
+  ],
+  "v2": [
+    {
+      "id": "INV052",
+      "file": "INV052_s27-rexx-upload-1122.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 57,
+      "at": 148,
+      "note": "Apu: Hey, will that work for my new Vintage Mart? — audio-matched at 6.181 s (corr 0.47)"
+    },
+    {
+      "id": "INV051",
+      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "at": 269,
+      "note": "Apu: Yeah, I opened it two months ago. — audio-matched at 11.212 s (corr 0.36)"
+    }
+  ],
+  "a2": [
+    {
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "at": 0,
+      "sceneSound": true,
+      "link": "s27main"
+    },
+    {
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "at": 350,
+      "sceneSound": true,
+      "link": "s27jump"
+    }
+  ]
+}
