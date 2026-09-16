@@ -177,7 +177,7 @@ const STARTERS = {
     'storefront/README.md': '# Storefront\n\nOpen your shop at https://app.biz-box.io/sell. Put product photos in `storefront/photos/` and your copy in `storefront/copy.md`.\n',
     'storefront/copy.md': '# Shop name\n\n## What you sell, in one line\n\n## Headline\n\n## What they get\n- \n- \n\n## Price\n',
   },
-  intake: { 'intake/README.md': '# Intake\n\nFiles you upload on https://app.biz-box.io/workspace are copied here.\n' },
+  intake: { 'intake/README.md': '# Intake\n\nFiles you upload on https://biz-box.io/workspace are copied here.\n' },
 };
 async function exists(ws, p) { try { await s3.send(new HeadObjectCommand({ Bucket: BUCKET, Key: inside(ws, p) })); return true; } catch { return false; } }
 async function setUpModule(ws, module) {
@@ -262,14 +262,14 @@ function serverFor(ws) {
   s.registerTool('start_job', { title: 'Start a job', description: 'Ask the BizBox server to do work in this workspace. convert_video: any video to a 1080p MP4. remove_background: a photo to a transparent PNG cutout. render_storyboard: storyboard/storyboard.json to one film in storyboard/renders/ (no path needed). Returns a job id; check it with job_status.', inputSchema: { kind: z.enum(['convert_video', 'remove_background', 'render_storyboard']), path: z.string().optional().describe('Source file inside the workspace (not needed for render_storyboard)'), output: z.string().optional().describe('Where to save the result (optional)'), fps: z.number().int().min(12).max(60).optional() } },
     safe(async ({ kind, path: p, output, fps }) => {
       if (kind !== 'render_storyboard') { if (!p) throw new Error('This job needs a path.'); inside(ws, p); }
-      if (kind === 'render_storyboard' && !(ws.modules || []).includes('storyboard')) throw new Error('Turn on the Storyboard module on https://app.biz-box.io/workspace first.');
+      if (kind === 'render_storyboard' && !(ws.modules || []).includes('storyboard')) throw new Error('Turn on the Storyboard module on https://biz-box.io/workspace first.');
       if (output) inside(ws, output);
       return text(jobView(addJob(ws, kind, { path: p, output, fps })));
     }));
 
   s.registerTool('set_up_module', { title: 'Set up a module', description: 'Create the starter files for a module turned on in this workspace (storyboard, crm, storefront, intake). Existing files are never overwritten.', inputSchema: { module: z.enum(['storyboard', 'crm', 'storefront', 'intake']) } },
     safe(async ({ module }) => {
-      if (!(ws.modules || []).includes(module)) throw new Error(`The ${module} module is off. The member can turn it on at https://app.biz-box.io/workspace.`);
+      if (!(ws.modules || []).includes(module)) throw new Error(`The ${module} module is off. The member can turn it on at https://biz-box.io/workspace.`);
       const made = await setUpModule(ws, module);
       return text(made.length ? { created: made } : 'Already set up; nothing changed.');
     }));
@@ -433,7 +433,7 @@ http.createServer(async (req, res) => {
   if (!m) { res.writeHead(404, { 'content-type': 'text/plain' }); return res.end('BizBox connector. Use /mcp with your workspace key.'); }
   const bearer = (req.headers.authorization || '').replace(/^Bearer\s+/i, '');
   let ws = null; try { ws = await workspaceFor(m[1] || bearer); } catch (e) { log('auth error', e.message); }
-  if (!ws) { res.writeHead(401, { 'content-type': 'application/json', 'www-authenticate': 'Bearer' }); return res.end(JSON.stringify({ error: 'Workspace key missing or not valid. Make one at https://app.biz-box.io/workspace' })); }
+  if (!ws) { res.writeHead(401, { 'content-type': 'application/json', 'www-authenticate': 'Bearer' }); return res.end(JSON.stringify({ error: 'Workspace key missing or not valid. Make one at https://biz-box.io/workspace' })); }
   let body; if (req.method === 'POST') { let raw = ''; for await (const c of req) { raw += c; if (raw.length > 4e6) { res.writeHead(413); return res.end(); } } try { body = JSON.parse(raw); } catch { res.writeHead(400); return res.end(); } }
   const server = serverFor({ ...ws, _key: m[1] || bearer });
   const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
