@@ -8,14 +8,10 @@ basic_auth {
 
 encode gzip
 
-# /            → the storyboard page (built into /srv/editor by build-board)
-# /cut-room/*  → the repo's cut-room folder (Cut Room page, board.json, sheets)
+# /            → the storyboard page, straight from the repo (same files GitHub Pages serves)
 # /projects/*  → finished deliveries in the repo (film, scene clips, proxies, audio)
-# /media/*     → working media pulled from R2
-handle /cut-room/* {
-	root * /srv/repo
-	file_server
-}
+# /media/*     → working media pulled from R2 (browsable)
+# /editor/*    → the page folder built on this server by build-board
 handle /projects/* {
 	root * /srv/repo
 	file_server
@@ -24,8 +20,12 @@ handle_path /media/* {
 	root * /srv/media
 	file_server browse
 }
-handle {
+handle_path /editor/* {
 	root * /srv/editor
-	try_files {path} /storyboard.html
+	file_server
+}
+handle {
+	root * /srv/repo/cut-room
+	try_files {path} /storyboard-v2.html
 	file_server
 }
