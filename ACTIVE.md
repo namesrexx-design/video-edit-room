@@ -17,3 +17,5 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 | Claude (MASTER) | storyboard S20–S22 | 2026-09-15 | REMOVED from the film by the owner (Bart → horn). V75.1 already has that order. No lip-sync spend. |
 
 | Claude (MASTER) | GitHub Pages | 2026-09-15 | Storyboard + film published no-login at https://namesrexx-design.github.io/video-edit-room/cut-room/storyboard-v2.html ; sync server retired on the PC (owner). |
+
+| Claude (MASTER) | V76 render | 2026-09-15 | V76 on Drive + Pages storyboard: S09 reply once, no hold, horn up. Lip-sync presence in the V74 body measured (S27 L1, S14, S18 are IN). Awaiting owner playback. |
