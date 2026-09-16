@@ -21,6 +21,7 @@ import { S3Client, ListObjectsV2Command, GetObjectCommand, PutObjectCommand, Hea
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
 
 const PORT = Number(process.env.CONNECTOR_PORT || 8790);
+const PUBLIC_URL = process.env.CONNECTOR_PUBLIC_URL || 'https://mcp.biz-box.io';
 const FN = process.env.BIZBOX_FUNCTIONS || 'https://app.biz-box.io/api/functions';
 const BUCKET = process.env.R2_BUCKET || 'lyfe-studio';
 const SIGNING_KEY = crypto.createPrivateKey(fs.readFileSync(process.env.SIGNING_KEY_FILE || '/run/connector/signing.pem'));
@@ -123,7 +124,102 @@ const RUNNERS = {
     const dest = output || src.replace(/\.[^./]+$/, '') + '-CUTOUT.png';
     job.log.push('saving'); return { saved: await upload(job.ws, dest, outF, 'image/png') };
   },
+  // storyboard/storyboard.json → one film: every scene in order, every clip normalized to 1080p/24/stereo, joined
+  async render_storyboard(job, dir) {
+    const sb = await readBoard(job.ws);
+    const parts = [];
+    for (const sc of sb.scenes || []) {
+      if (sc.removed) continue;
+      for (const c of sc.clips || []) {
+        const clip = typeof c === 'string' ? { path: c } : c; if (!clip?.path) continue;
+        const i = parts.length; const src = path.join(dir, `src${i}${path.extname(clip.path)}`); const out = path.join(dir, `part${i}.mp4`);
+        job.log.push(`${sc.id || 'scene'}: ${clip.path}`); await download(job.ws, clip.path, src);
+        const cut = [...(clip.in ? ['-ss', String(clip.in)] : []), ...(clip.out ? ['-to', String(clip.out)] : [])];
+        const hasAudio = await probeAudio(src);
+        const args = ['-v', 'error', '-y', ...cut, '-i', src];
+        if (!hasAudio) args.push('-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo');
+        args.push('-map', '0:v:0', '-map', hasAudio ? '0:a:0' : '1:a:0', '-shortest', '-vf', 'scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:-1:-1,fps=24,format=yuv420p,setsar=1', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18', '-c:a', 'aac', '-ar', '48000', '-ac', '2', '-b:a', '192k', out);
+        await run(job, 'ffmpeg', args); fs.rmSync(src); parts.push(out);
+      }
+    }
+    if (!parts.length) throw new Error('The storyboard has no clips yet. Add clip paths to scenes in storyboard/storyboard.json.');
+    const list = path.join(dir, 'list.txt'); fs.writeFileSync(list, parts.map((p) => `file '${p}'`).join('\n'));
+    const film = path.join(dir, 'film.mp4'); job.log.push(`joining ${parts.length} clips`);
+    await run(job, 'ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', '-movflags', '+faststart', film]);
+    const dest = `storyboard/renders/FILM-${new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19)}.mp4`;
+    job.log.push('saving'); return { saved: await upload(job.ws, dest, film, 'video/mp4'), clips: parts.length };
+  },
 };
+const probeAudio = (f) => new Promise((ok) => { const p = spawn('ffprobe', ['-v', 'error', '-select_streams', 'a', '-show_entries', 'stream=index', '-of', 'csv=p=0', f]); let o = ''; p.stdout.on('data', (d) => { o += d; }); p.on('close', () => ok(o.trim().length > 0)); });
+async function readBoard(ws) {
+  const o = await s3.send(new GetObjectCommand({ Bucket: BUCKET, Key: inside(ws, 'storyboard/storyboard.json') }));
+  try { return JSON.parse(await o.Body.transformToString('utf8')); } catch { throw new Error('storyboard/storyboard.json is not valid JSON.'); }
+}
+
+// ---------- module starter kits ----------
+const STARTERS = {
+  storyboard: {
+    'storyboard/storyboard.json': JSON.stringify({
+      format: 'bizbox-storyboard-1', title: 'My first film',
+      notes: 'Scenes play in this order. Each clip is a path inside this workspace, with optional in/out seconds. Set "removed": true to leave a scene out without losing it.',
+      scenes: [
+        { id: 'S01', title: 'Opening', line: 'What is said in this scene.', cast: [], set: '', frames: { start: '', end: '' }, clips: [], audio: [], removed: false },
+        { id: 'S02', title: 'Second scene', line: '', cast: [], set: '', frames: { start: '', end: '' }, clips: [], audio: [], removed: false },
+      ],
+    }, null, 2),
+    'storyboard/README.md': '# Storyboard\n\n- Put video clips in `storyboard/clips/`, stills in `storyboard/stills/`, sound in `storyboard/audio/`.\n- List them per scene in `storyboard.json`, e.g. `"clips": [{ "path": "storyboard/clips/walk.mp4", "in": 0, "out": 4.5 }]`.\n- Ask BizBox to run the `render_storyboard` job. The film lands in `storyboard/renders/`.\n- Watch the board on your private board page (link from `board_link`).\n',
+  },
+  crm: {
+    'crm/README.md': '# Leads and follow-up\n\nEvery enquiry from your BizBox pages is kept in BizBox and followed up automatically.\nUse `crm/contacts.csv` for people you want imported.\n',
+    'crm/contacts.csv': 'name,email,phone,source,notes\n',
+  },
+  storefront: {
+    'storefront/README.md': '# Storefront\n\nOpen your shop at https://app.biz-box.io/sell. Put product photos in `storefront/photos/` and your copy in `storefront/copy.md`.\n',
+    'storefront/copy.md': '# Shop name\n\n## What you sell, in one line\n\n## Headline\n\n## What they get\n- \n- \n\n## Price\n',
+  },
+  intake: { 'intake/README.md': '# Intake\n\nFiles you upload on https://app.biz-box.io/workspace are copied here.\n' },
+};
+async function exists(ws, p) { try { await s3.send(new HeadObjectCommand({ Bucket: BUCKET, Key: inside(ws, p) })); return true; } catch { return false; } }
+async function setUpModule(ws, module) {
+  const files = STARTERS[module]; if (!files) throw new Error('Unknown module.');
+  const made = [];
+  for (const [p, body] of Object.entries(files)) {
+    if (await exists(ws, p)) continue;   // never overwrite the member's work
+    await s3.send(new PutObjectCommand({ Bucket: BUCKET, Key: inside(ws, p), Body: body, ContentType: p.endsWith('.json') ? 'application/json' : 'text/plain; charset=utf-8' }));
+    made.push(p);
+  }
+  return made;
+}
+
+// ---------- private board page: /board/<key> ----------
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const link = (ws, p) => getSignedUrl(s3, new GetObjectCommand({ Bucket: BUCKET, Key: inside(ws, p) }), { expiresIn: 3600 });
+async function boardPage(ws) {
+  let sb; try { sb = await readBoard(ws); } catch { sb = null; }
+  const renders = (await s3.send(new ListObjectsV2Command({ Bucket: BUCKET, Prefix: inside(ws, 'storyboard/renders/') }))).Contents || [];
+  const latest = renders.sort((a, b) => b.LastModified - a.LastModified)[0];
+  const film = latest ? await link(ws, rel(ws, latest.Key)) : null;
+  const scenes = [];
+  for (const sc of sb?.scenes || []) {
+    const media = [];
+    for (const k of ['start', 'end']) if (sc.frames?.[k]) media.push(`<figure><img loading="lazy" src="${esc(await link(ws, sc.frames[k]).catch(() => ''))}" alt=""><figcaption>${k} frame</figcaption></figure>`);
+    for (const c of sc.clips || []) { const p = typeof c === 'string' ? c : c.path; if (p) media.push(`<figure><video controls preload="none" src="${esc(await link(ws, p).catch(() => ''))}"></video><figcaption>${esc(p.split('/').pop())}</figcaption></figure>`); }
+    for (const a of sc.audio || []) { const p = typeof a === 'string' ? a : a.path; if (p) media.push(`<figure><audio controls preload="none" src="${esc(await link(ws, p).catch(() => ''))}"></audio><figcaption>${esc(p.split('/').pop())}</figcaption></figure>`); }
+    scenes.push(`<article class="${sc.removed ? 'off' : ''}"><h2><span>${esc(sc.id)}</span> ${esc(sc.title)}${sc.removed ? ' <em>left out</em>' : ''}</h2>${sc.line ? `<p class="line">${esc(sc.line)}</p>` : ''}<div class="media">${media.join('') || '<p class="empty">No clips yet.</p>'}</div></article>`);
+  }
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>${esc(sb?.title || ws.name)} · BizBox storyboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>:root{--ink:#2b2620;--muted:#6f655a;--ground:#f3efe7;--card:#fbf8f1;--line:#ddd3c2;--clay:#a8583a}
+body{margin:0;background:var(--ground);color:var(--ink);font:17px/1.5 "Source Sans 3",system-ui,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:28px 16px 60px}h1{font:500 40px/1.1 Newsreader,Georgia,serif;margin:0 0 4px;text-wrap:balance}
+.brand{font:600 13px "Source Sans 3",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--clay)}.sub{color:var(--muted);margin:0 0 22px}
+.film video{width:100%;border-radius:12px;background:#000}article{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:16px 0}
+article.off{opacity:.55}h2{font:500 24px Newsreader,Georgia,serif;margin:0 0 6px}h2 span{font:600 14px "Source Sans 3";color:var(--clay);margin-right:6px}
+.line{margin:0 0 10px;font-style:italic}.media{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+figure{margin:0}img,video{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;background:#e6dfd2}audio{width:100%}figcaption{font-size:14px;color:var(--muted);overflow-wrap:anywhere}.empty{color:var(--muted);margin:0}em{font-size:14px;color:var(--muted)}</style></head>
+<body><div class="wrap"><div class="brand">BizBox · ${esc(ws.name)}</div><h1>${esc(sb?.title || 'Storyboard')}</h1><p class="sub">${sb ? `${(sb.scenes || []).length} scenes. Links on this page work for one hour; reload for fresh ones.` : 'No storyboard yet. Turn on the Storyboard module and ask your agent to set it up.'}</p>
+${film ? `<section class="film"><video controls preload="metadata" src="${esc(film)}"></video><p class="sub">Latest film: ${esc(latest.Key.split('/').pop())}</p></section>` : ''}${scenes.join('')}</div></body></html>`;
+}
 
 // ---------- the MCP server for one workspace ----------
 function serverFor(ws) {
@@ -163,8 +259,23 @@ function serverFor(ws) {
   s.registerTool('get_upload_link', { title: 'Upload link', description: 'A private link (valid 1 hour) to upload a file of any size into this workspace with an HTTP PUT.', inputSchema: { path: z.string(), content_type: z.string().optional() } },
     safe(async ({ path: p, content_type }) => text({ path: p, method: 'PUT', url: await getSignedUrl(s3, new PutObjectCommand({ Bucket: BUCKET, Key: inside(ws, p), ContentType: content_type }), { expiresIn: 3600 }), headers: content_type ? { 'Content-Type': content_type } : {}, expires_in_seconds: 3600 })));
 
-  s.registerTool('start_job', { title: 'Start a job', description: 'Ask the BizBox server to process a file in this workspace. convert_video: any video to a 1080p MP4. remove_background: a photo to a transparent PNG cutout. Returns a job id; check it with job_status.', inputSchema: { kind: z.enum(['convert_video', 'remove_background']), path: z.string().describe('Source file inside the workspace'), output: z.string().optional().describe('Where to save the result (optional)'), fps: z.number().int().min(12).max(60).optional() } },
-    safe(async ({ kind, path: p, output, fps }) => { inside(ws, p); if (output) inside(ws, output); return text(jobView(addJob(ws, kind, { path: p, output, fps }))); }));
+  s.registerTool('start_job', { title: 'Start a job', description: 'Ask the BizBox server to do work in this workspace. convert_video: any video to a 1080p MP4. remove_background: a photo to a transparent PNG cutout. render_storyboard: storyboard/storyboard.json to one film in storyboard/renders/ (no path needed). Returns a job id; check it with job_status.', inputSchema: { kind: z.enum(['convert_video', 'remove_background', 'render_storyboard']), path: z.string().optional().describe('Source file inside the workspace (not needed for render_storyboard)'), output: z.string().optional().describe('Where to save the result (optional)'), fps: z.number().int().min(12).max(60).optional() } },
+    safe(async ({ kind, path: p, output, fps }) => {
+      if (kind !== 'render_storyboard') { if (!p) throw new Error('This job needs a path.'); inside(ws, p); }
+      if (kind === 'render_storyboard' && !(ws.modules || []).includes('storyboard')) throw new Error('Turn on the Storyboard module on https://app.biz-box.io/workspace first.');
+      if (output) inside(ws, output);
+      return text(jobView(addJob(ws, kind, { path: p, output, fps })));
+    }));
+
+  s.registerTool('set_up_module', { title: 'Set up a module', description: 'Create the starter files for a module turned on in this workspace (storyboard, crm, storefront, intake). Existing files are never overwritten.', inputSchema: { module: z.enum(['storyboard', 'crm', 'storefront', 'intake']) } },
+    safe(async ({ module }) => {
+      if (!(ws.modules || []).includes(module)) throw new Error(`The ${module} module is off. The member can turn it on at https://app.biz-box.io/workspace.`);
+      const made = await setUpModule(ws, module);
+      return text(made.length ? { created: made } : 'Already set up; nothing changed.');
+    }));
+
+  s.registerTool('board_link', { title: 'Storyboard page link', description: 'The private web page showing this workspace\'s storyboard, clips and latest film. Anyone with the link can view it, so share it only with the member.', inputSchema: {} },
+    safe(async () => text({ url: `${PUBLIC_URL}/board/${ws._key}`, note: 'This link contains the workspace key. Treat it like a password.' })));
 
   s.registerTool('job_status', { title: 'Job status', description: 'Status of this workspace\'s jobs (one job, or the most recent ones).', inputSchema: { id: z.string().optional() } },
     safe(async ({ id }) => {
@@ -209,13 +320,20 @@ setInterval(intakeTick, 60 * 1000); setTimeout(intakeTick, 5000);
 http.createServer(async (req, res) => {
   const u = new URL(req.url, 'http://x');
   if (u.pathname === '/health') { res.writeHead(200, { 'content-type': 'application/json' }); return res.end(JSON.stringify({ ok: true, running: running ? running.kind : null, queued: queue.length })); }
+  const b = u.pathname.match(/^\/board\/(bbx_[A-Za-z0-9_-]+)\/?$/);
+  if (b) {
+    let w = null; try { w = await workspaceFor(b[1]); } catch { w = null; }
+    if (!w) { res.writeHead(401, { 'content-type': 'text/plain' }); return res.end('This board link is not valid any more.'); }
+    try { const html = await boardPage(w); res.writeHead(200, { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store', 'referrer-policy': 'no-referrer', 'x-robots-tag': 'noindex' }); return res.end(html); }
+    catch (e) { log('board error', e.message); res.writeHead(500); return res.end('Board could not load.'); }
+  }
   const m = u.pathname.match(/^\/mcp(?:\/(bbx_[A-Za-z0-9_-]+))?\/?$/);
   if (!m) { res.writeHead(404, { 'content-type': 'text/plain' }); return res.end('BizBox connector. Use /mcp with your workspace key.'); }
   const bearer = (req.headers.authorization || '').replace(/^Bearer\s+/i, '');
   let ws = null; try { ws = await workspaceFor(m[1] || bearer); } catch (e) { log('auth error', e.message); }
   if (!ws) { res.writeHead(401, { 'content-type': 'application/json', 'www-authenticate': 'Bearer' }); return res.end(JSON.stringify({ error: 'Workspace key missing or not valid. Make one at https://app.biz-box.io/workspace' })); }
   let body; if (req.method === 'POST') { let raw = ''; for await (const c of req) { raw += c; if (raw.length > 4e6) { res.writeHead(413); return res.end(); } } try { body = JSON.parse(raw); } catch { res.writeHead(400); return res.end(); } }
-  const server = serverFor(ws);
+  const server = serverFor({ ...ws, _key: m[1] || bearer });
   const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
   res.on('close', () => { transport.close(); server.close(); });
   try { await server.connect(transport); await transport.handleRequest(req, res, body); }
