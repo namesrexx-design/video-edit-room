@@ -7,11 +7,11 @@
       "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4",
       "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
     ],
-    "bytes": 73111833
+    "bytes": 73300616
   },
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T04:06:02.091Z",
+  "builtAt": "2026-09-16T04:18:54.721Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -8720,7 +8720,7 @@
       "nextAction": "Retain existing tail playback; new likeness still remains pending, not approved by this audit.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": "S27.mp4",
-      "editStatus": "LIVE · owner picked INV052 (L1 close-up) + INV053 (jump-in); INV051 removed to the archive. Film rebuilt (pass 8).",
+      "editStatus": "LIVE · S27 rebuilt turn by turn (pass 9): INV052 → Rexx reply → INV037 → INV053. No wide shot in the middle.",
       "still": {
         "sheet": "sheets/scene-S27.jpg",
         "col": 0,
@@ -9060,7 +9060,7 @@
           "date": "2026-09-15",
           "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
           "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV037.mp4",
-          "group": "pending",
+          "group": "approved",
           "approved": false,
           "id": "INV037",
           "title": "Lip-sync clip · INV037 · 2 s",
@@ -9393,7 +9393,7 @@
           "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV037.jpg",
           "id": "INV037",
           "title": "Lip-sync clip · INV037 · 2 s",
-          "group": "pending",
+          "group": "approved",
           "role": "clip",
           "approved": false,
           "date": "2026-09-15"

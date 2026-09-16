@@ -1,9 +1,9 @@
 {
  "format": 2,
  "name": "GARAGE DREAM — STORYBOARD FINAL (every card video in order) pass 2, leveled, 2026-09-15",
- "savedAt": "2026-09-16T04:00:02.300Z",
+ "savedAt": "2026-09-16T04:12:02.960Z",
  "fps": 24,
- "frames": 2801,
+ "frames": 2792,
  "v1": [
   {
    "u": "sb_s01",
@@ -159,23 +159,44 @@
    "mute": true
   },
   {
-   "u": "sb_s27",
-   "id": "S27",
-   "file": "23_S27_vintage-mart-invitation.mp4",
-   "folder": "capcut-kit-v74/SCENES_IN_ORDER",
-   "start": 150,
-   "end": 314,
-   "mute": true
+   "u": "sb_s27a",
+   "id": "INV052",
+   "file": "INV052_s27-rexx-upload-1122.mp4",
+   "folder": "inventory-v74",
+   "start": 0,
+   "end": 57,
+   "mute": true,
+   "note": "Apu: Hey, will that work for my new Vintage Mart? (owner close-up, chosen)"
   },
   {
-   "u": "sb_s27b",
+   "u": "sb_s27r",
+   "id": "S27-REXX",
+   "file": "23_S27_vintage-mart-invitation.mp4",
+   "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+   "start": 212,
+   "end": 262,
+   "mute": true,
+   "note": "Rexx: Oh, you got a new Vintage Mart? (over-shoulder, kit 8.83–10.92 s)"
+  },
+  {
+   "u": "sb_s27c",
+   "id": "INV037",
+   "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
+   "folder": "inventory-v74",
+   "start": 0,
+   "end": 48,
+   "mute": true,
+   "note": "Apu: Yeah, I opened it two months ago (Higgsfield native lip-sync, over-shoulder)"
+  },
+  {
+   "u": "sb_s27d",
    "id": "INV053",
    "file": "INV053_s27-2-rexx-upload-1124.mp4",
    "folder": "inventory-v74",
    "start": 0,
    "end": 39,
    "mute": true,
-   "note": "Apu: Alright, jump in, let's go! (owner upload, lip-synced) — the kit clip only had a cut-off All right."
+   "note": "Apu: Alright, jump in, let's go! (owner close-up, chosen)"
   },
   {
    "u": "sb_s28",
@@ -386,23 +407,12 @@
    "gain": 9
   },
   {
-   "id": "S27-sound",
-   "file": "23_S27_vintage-mart-invitation.mp4",
-   "folder": "capcut-kit-v74/SCENES_IN_ORDER",
-   "start": 150,
-   "end": 314,
-   "at": 2303,
-   "sceneSound": true,
-   "link": "sb_s27",
-   "gain": -2
-  },
-  {
    "id": "S28-sound",
    "file": "S28.mp4",
    "folder": "storyboard-final-20260915",
    "start": 0,
    "end": 85,
-   "at": 2506,
+   "at": 2497,
    "sceneSound": true,
    "link": "sb_s28",
    "gain": -1
@@ -413,10 +423,43 @@
    "folder": "storyboard-final-20260915",
    "start": 0,
    "end": 210,
-   "at": 2591,
+   "at": 2582,
    "sceneSound": true,
    "link": "sb_s29",
    "gain": 5
+  },
+  {
+   "id": "INV052-sound",
+   "file": "INV052_s27-rexx-upload-1122.mp4",
+   "folder": "inventory-v74",
+   "start": 0,
+   "end": 57,
+   "at": 2303,
+   "sceneSound": true,
+   "link": "sb_s27a",
+   "gain": -2
+  },
+  {
+   "id": "S27-REXX-sound",
+   "file": "23_S27_vintage-mart-invitation.mp4",
+   "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+   "start": 212,
+   "end": 262,
+   "at": 2360,
+   "sceneSound": true,
+   "link": "sb_s27r",
+   "gain": -2
+  },
+  {
+   "id": "INV037-sound",
+   "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
+   "folder": "inventory-v74",
+   "start": 0,
+   "end": 48,
+   "at": 2410,
+   "sceneSound": true,
+   "link": "sb_s27c",
+   "gain": -2
   },
   {
    "id": "INV053-sound",
@@ -424,23 +467,13 @@
    "folder": "inventory-v74",
    "start": 0,
    "end": 39,
-   "at": 2467,
+   "at": 2458,
    "sceneSound": true,
-   "link": "sb_s27b",
+   "link": "sb_s27d",
    "gain": -2
   }
  ],
- "v2": [
-  {
-   "id": "INV052",
-   "file": "INV052_s27-rexx-upload-1122.mp4",
-   "folder": "inventory-v74",
-   "start": 2,
-   "end": 57,
-   "at": 2303,
-   "note": "Apu L1 close-up (owner upload), audio-correlated position"
-  }
- ],
+ "v2": [],
  "parked": [],
- "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line."
+ "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line. Pass 9: S27 rebuilt turn by turn — INV052 (owner L1) → kit Rexx reply 212–262 → INV037 (native lip-sync, two months ago) → INV053 (owner jump-in). No wide shot in the middle. Owner: \"after Apu says will this work… I said oh yeah a vintage mart, he says yeah two months, then jump in.\""
 }
