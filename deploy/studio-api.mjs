@@ -41,7 +41,7 @@ function sh(job, cmd, args, opts = {}) {
 const git = (job, ...a) => sh(job, 'git', a);
 // files the builders regenerate: never let them block a pull (the next build recreates them)
 const GENERATED = ['projects/garage-dream/STORYBOARD-BOARD.json', 'cut-room/board.json'];
-const pull = async (job) => { await git(job, 'checkout', '--', ...GENERATED).catch(() => {}); await pull(job); };
+const pull = async (job) => { await git(job, 'checkout', '--', ...GENERATED).catch(() => {}); await git(job, 'pull', '-q', '--ff-only', 'origin', 'main'); };
 async function commit(job, msg, paths) {
   await git(job, 'add', ...paths);
   const st = await new Promise(r => { const p = spawn('git', ['diff', '--cached', '--quiet'], { cwd: REPO }); p.on('close', c => r(c)); });
