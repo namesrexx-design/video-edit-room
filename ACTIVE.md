@@ -13,3 +13,5 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 | Claude (MASTER) | V75-CANDIDATE render, deliveries/S21, storyboard S08/S09/S11-13/S15/S20-22 | 2026-09-15 | V75 rendered + on Drive (renderer fix c1676e6). S21 two COMPLETE candidates delivered. S20/S22 need Homer lip-sync spend (owner go pending). Sync server running on 4321. |
 
 | Claude (MASTER) | V75.1 render, deliveries/S09 v2, S21 candidates | 2026-09-15 | V75.1 on Drive (S09 full reply restored). Waiting on owner: S21 pick, S20/S22 lip-sync spend, S24 swap. Codex: point S09 completedDelivery at v2 raw URL. |
+
+| Claude (MASTER) | storyboard S20–S22 | 2026-09-15 | REMOVED from the film by the owner (Bart → horn). V75.1 already has that order. No lip-sync spend. |
