@@ -316,10 +316,93 @@ async function intakeTick() {
 }
 setInterval(intakeTick, 60 * 1000); setTimeout(intakeTick, 5000);
 
+// ---------- studio API for the biz-box.io/lyfestudio page (member signed in to BizBox) ----------
+// The page sends the member's own BizBox login token. We ask BizBox (myWorkspace) who that is; no shared secret.
+const ORIGINS = [/^https:\/\/(www\.|app\.)?biz-box\.io$/, /^https:\/\/[a-z0-9-]+\.base44\.app$/, /^https:\/\/preview-sandbox--[a-z0-9-]+\.base44\.app$/];
+const userCache = new Map();
+async function workspaceForUser(token) {
+  if (!token || token.length > 4000) return null;
+  const h = crypto.createHash('sha256').update(token).digest('hex');
+  const c = userCache.get(h); if (c && c.until > Date.now()) return c.ws;
+  const r = await fetch(`${FN}/myWorkspace`, { method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${token}` }, body: '{"action":"get"}' });
+  const j = r.ok ? await r.json().catch(() => null) : null;
+  const w = j?.workspace?.status === 'active' ? { workspace_id: j.workspace.id, name: j.workspace.name, slug: j.workspace.slug, storage_prefix: j.workspace.storage_prefix, modules: j.workspace.modules || [], plan: j.workspace.plan, job_limit: j.workspace.job_limit || 1 } : null;
+  userCache.set(h, { ws: w, until: Date.now() + (w ? 60 : 15) * 1000 });
+  return w;
+}
+function validBoard(b) {
+  if (!b || typeof b !== 'object' || !Array.isArray(b.scenes)) throw new Error('A storyboard needs a scenes list.');
+  if (b.scenes.length > 300) throw new Error('Too many scenes.');
+  const str = (v, n) => String(v ?? '').slice(0, n);
+  const media = (arr) => (Array.isArray(arr) ? arr : []).slice(0, 50).map((c) => { const p = typeof c === 'string' ? c : c?.path; return p ? { path: str(p, 300), ...(c?.in != null ? { in: Math.max(0, +c.in || 0) } : {}), ...(c?.out != null ? { out: Math.max(0, +c.out || 0) } : {}) } : null; }).filter(Boolean);
+  return {
+    format: 'bizbox-storyboard-1', title: str(b.title || 'My film', 120), notes: str(b.notes, 2000),
+    scenes: b.scenes.map((s, i) => ({ id: str(s.id || `S${String(i + 1).padStart(2, '0')}`, 12), title: str(s.title, 160), line: str(s.line, 2000), cast: (Array.isArray(s.cast) ? s.cast : []).slice(0, 20).map((x) => str(x, 60)), set: str(s.set, 80), frames: { start: str(s.frames?.start, 300), end: str(s.frames?.end, 300) }, clips: media(s.clips), audio: media(s.audio), removed: !!s.removed })),
+  };
+}
+async function studioState(ws) {
+  let board = null; try { board = await readBoard(ws); } catch { board = null; }
+  const sign = (p) => (p ? link(ws, p).catch(() => null) : null);
+  const scenes = [];
+  for (const sc of board?.scenes || []) {
+    scenes.push({ ...sc, urls: {
+      start: await sign(sc.frames?.start), end: await sign(sc.frames?.end),
+      clips: await Promise.all((sc.clips || []).map((c) => sign(c.path || c))),
+      audio: await Promise.all((sc.audio || []).map((a) => sign(a.path || a))),
+    } });
+  }
+  const list = async (folder) => ((await s3.send(new ListObjectsV2Command({ Bucket: BUCKET, Prefix: inside(ws, folder), MaxKeys: 500 }))).Contents || []).map((o) => ({ path: rel(ws, o.Key), bytes: o.Size, changed: o.LastModified }));
+  const renders = (await list('storyboard/renders/')).sort((a, b) => new Date(b.changed) - new Date(a.changed));
+  const film = renders[0] ? { ...renders[0], url: await sign(renders[0].path) } : null;
+  const library = [...await list('storyboard/clips/'), ...await list('storyboard/stills/'), ...await list('storyboard/audio/'), ...await list('intake/')].filter((f) => !f.path.endsWith('/') && !/README\.md$/.test(f.path));
+  const jobsMine = [...jobs.values()].filter((j) => j.workspace_id === ws.workspace_id).slice(-10).reverse().map(jobView);
+  return { workspace: { name: ws.name, modules: ws.modules, plan: ws.plan }, board: board ? { ...board, scenes } : null, film, renders: renders.slice(0, 10), library, jobs: jobsMine };
+}
+async function studioApi(req, res, u) {
+  const origin = req.headers.origin || '';
+  const cors = ORIGINS.some((re) => re.test(origin)) ? { 'access-control-allow-origin': origin, vary: 'Origin', 'access-control-allow-headers': 'authorization, content-type', 'access-control-allow-methods': 'GET, POST, OPTIONS', 'access-control-max-age': '600' } : {};
+  const send = (code, body) => { res.writeHead(code, { 'content-type': 'application/json', 'cache-control': 'no-store', ...cors }); res.end(JSON.stringify(body)); };
+  if (req.method === 'OPTIONS') { res.writeHead(204, cors); return res.end(); }
+  const token = (req.headers.authorization || '').replace(/^Bearer\s+/i, '');
+  let ws = null; try { ws = await workspaceForUser(token); } catch (e) { log('studio auth', e.message); }
+  if (!ws) return send(401, { error: 'Sign in to BizBox first.' });
+  const route = u.pathname.replace(/^\/api\/studio/, '') || '/';
+  const readJson = async () => { let raw = ''; for await (const c of req) { raw += c; if (raw.length > 1e6) throw new Error('Too large.'); } return raw ? JSON.parse(raw) : {}; };
+  try {
+    if (req.method === 'GET' && route === '/') return send(200, await studioState(ws));
+    if (!ws.modules.includes('storyboard')) {   // just turned on? ask BizBox again instead of trusting the 60 s cache
+      userCache.delete(crypto.createHash('sha256').update(token).digest('hex'));
+      ws = await workspaceForUser(token);
+      if (!ws?.modules.includes('storyboard')) return send(403, { error: 'Turn on the Storyboard module first.' });
+    }
+    if (req.method === 'POST' && route === '/setup') { await setUpModule(ws, 'storyboard'); for (const d of ['clips', 'stills', 'audio']) if (!(await exists(ws, `storyboard/${d}/.keep`))) await s3.send(new PutObjectCommand({ Bucket: BUCKET, Key: inside(ws, `storyboard/${d}/.keep`), Body: '' })); return send(200, await studioState(ws)); }
+    if (req.method === 'POST' && route === '/board') {
+      const b = validBoard((await readJson()).board);
+      for (const s of b.scenes) for (const p of [s.frames.start, s.frames.end, ...s.clips.map((c) => c.path), ...s.audio.map((a) => a.path)]) if (p) inside(ws, p);
+      await s3.send(new PutObjectCommand({ Bucket: BUCKET, Key: inside(ws, 'storyboard/storyboard.json'), Body: JSON.stringify(b, null, 2), ContentType: 'application/json' }));
+      return send(200, await studioState(ws));
+    }
+    if (req.method === 'POST' && route === '/render') { const j = addJob(ws, 'render_storyboard', {}); return send(202, jobView(j)); }
+    if (req.method === 'POST' && route === '/upload') {
+      const name = String(u.searchParams.get('name') || '').replace(/[\\/\x00-\x1f]/g, '_').slice(0, 120);
+      const kind = /\.(mp4|mov|m4v|webm)$/i.test(name) ? 'clips' : /\.(png|jpe?g|webp)$/i.test(name) ? 'stills' : /\.(wav|mp3|m4a|aac)$/i.test(name) ? 'audio' : null;
+      if (!name || !kind) return send(400, { error: 'Upload a video, photo or sound file.' });
+      const size = Number(req.headers['content-length'] || 0);
+      if (!size || size > 2e9) return send(413, { error: 'Files up to 2 GB.' });
+      let p = `storyboard/${kind}/${name}`; if (await exists(ws, p)) p = `storyboard/${kind}/${Date.now().toString(36)}-${name}`;
+      await s3.send(new PutObjectCommand({ Bucket: BUCKET, Key: inside(ws, p), Body: req, ContentLength: size, ContentType: req.headers['content-type'] || undefined }));
+      signedCall({ action: 'connector_log', workspace_id: ws.workspace_id, name, storage_path: p, size_bytes: size, content_type: req.headers['content-type'] || '' }).catch(() => {});
+      return send(200, { saved: p, kind });
+    }
+    return send(404, { error: 'Unknown studio request.' });
+  } catch (e) { return send(400, { error: String(e.message || e) }); }
+}
+
 // ---------- HTTP ----------
 http.createServer(async (req, res) => {
   const u = new URL(req.url, 'http://x');
   if (u.pathname === '/health') { res.writeHead(200, { 'content-type': 'application/json' }); return res.end(JSON.stringify({ ok: true, running: running ? running.kind : null, queued: queue.length })); }
+  if (u.pathname === '/api/studio' || u.pathname.startsWith('/api/studio/')) return studioApi(req, res, u);
   const b = u.pathname.match(/^\/board\/(bbx_[A-Za-z0-9_-]+)\/?$/);
   if (b) {
     let w = null; try { w = await workspaceFor(b[1]); } catch { w = null; }
