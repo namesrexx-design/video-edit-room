@@ -29,3 +29,5 @@ projects/garage-dream/source/_backups/
 
 # server secrets
 deploy/.env
+
+deploy/connector/node_modules/

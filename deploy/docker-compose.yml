@@ -24,6 +24,19 @@ services:
       - /srv/lyfe/media:/data/media
       - /srv/lyfe/editor:/data/editor
 
+  connector:
+    image: lyfe-studio:latest
+    restart: unless-stopped
+    env_file: .env
+    working_dir: /app
+    command: ["bash", "-lc", "[ -d node_modules/@modelcontextprotocol ] || npm install --omit=dev --no-audit --no-fund; exec node server.mjs"]
+    expose:
+      - "8790"
+    volumes:
+      - ./connector:/app
+      - /srv/lyfe/connector/signing.pem:/run/connector/signing.pem:ro
+      - /srv/lyfe/tools-bg:/opt/tools-bg:ro
+
   web:
     image: caddy:2
     restart: unless-stopped

@@ -41,3 +41,10 @@ handle {
 	try_files {path} /storyboard-v2.html
 	file_server
 }
+
+# BizBox connector for members' AI agents. No basic auth: every request carries the member's workspace key,
+# checked by the connector. No access log, because some apps put the key in the link.
+{$CONNECTOR_DOMAIN:mcp.biz-box.io} {
+	encode gzip
+	reverse_proxy connector:8790
+}
