@@ -7,11 +7,11 @@
    "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4",
    "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
   ],
-  "bytes": 73300616
+  "bytes": 70396075
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T04:34:58.562Z",
+ "builtAt": "2026-09-16T04:47:19.939Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -8804,7 +8804,7 @@
    "nextAction": "Retain existing tail playback; new likeness still remains pending, not approved by this audit.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
    "video": "S27.mp4",
-   "editStatus": "LIVE · S27 rebuilt turn by turn (pass 9): INV052 → Rexx reply → INV037 → INV053. No wide shot in the middle.",
+   "editStatus": "LIVE · INV052 → Rexx reply → INV051 → INV053 (owner picked all three close-ups). Pass 10.",
    "still": {
     "sheet": "sheets/scene-S27.jpg",
     "col": 0,
@@ -9144,7 +9144,7 @@
      "date": "2026-09-15",
      "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV037.mp4",
-     "group": "approved",
+     "group": "archived",
      "approved": false,
      "id": "INV037",
      "title": "Lip-sync clip · INV037 · 2 s",
@@ -9182,7 +9182,7 @@
      "date": "2026-09-15",
      "file": "INV051_s27-start-rexx-upload-1129.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV051.mp4",
-     "group": "archived",
+     "group": "approved",
      "approved": true,
      "id": "INV051",
      "title": "Owner upload · INV051 · 2 s",
@@ -9477,7 +9477,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV037.jpg",
      "id": "INV037",
      "title": "Lip-sync clip · INV037 · 2 s",
-     "group": "approved",
+     "group": "archived",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -9495,7 +9495,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV051.jpg",
      "id": "INV051",
      "title": "Owner upload · INV051 · 2 s",
-     "group": "archived",
+     "group": "approved",
      "role": "clip",
      "approved": true,
      "date": "2026-09-15"
@@ -9584,17 +9584,17 @@
    "status": "V42 working footage present in a shared sequence. Retain existing passenger-seat footage; final continuity and audio review remain.",
    "nextAction": "Retain existing passenger-seat footage; final continuity and audio review remain.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
-   "video": "S28-REFINED-V7-REXX-AUDIO.mp4",
-   "editStatus": "Prior tail preserved; replace old walk when new render is ready",
+   "video": "S28.mp4",
+   "editStatus": "LIVE · S28 = INV008 (Sep 14 passenger-seat take, right Homer) under the approved reminder line. Pass 11.",
    "still": {
     "sheet": "sheets/scene-S28.jpg",
     "col": 0,
     "row": 0,
-    "cols": 6,
+    "cols": 4,
     "rows": 1,
     "shape": "land"
    },
-   "stillDate": "2026-09-15",
+   "stillDate": "2026-09-16",
    "stillStale": false,
    "v74": {
     "start": 100,
@@ -9602,55 +9602,37 @@
    },
    "stills": [
     {
-     "date": "2026-09-15",
-     "file": "S28-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S28-start-NEW-20260915.jpg",
      "group": "current",
      "id": "S28-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S28 rebuilt from Sep 14 pieces",
      "role": "current",
      "approved": true,
-     "status": "taken from GARAGE-DREAM-V74-CANDIDATE-CLAUDE-2026-09-14.mp4 at 101s",
+     "status": "taken from S28.mp4 at 1s",
      "img": {
       "sheet": "sheets/scene-S28.jpg",
       "col": 0,
       "row": 0,
-      "cols": 6,
+      "cols": 4,
       "rows": 1,
       "shape": "land"
      }
     },
     {
-     "date": "2026-09-12",
-     "file": "S28-start-V27.jpg",
+     "date": "2026-09-16",
+     "file": "S28-start-NEW-20260915.jpg",
      "group": "cut",
-     "id": "current-frames/S28-start-V27.jpg",
-     "title": "Current cut · start frame",
+     "id": "S28-start-NEW-20260915",
+     "title": "Start · S28 new",
      "role": "start",
      "approved": true,
      "status": "",
      "img": {
       "sheet": "sheets/scene-S28.jpg",
-      "col": 1,
+      "col": 0,
       "row": 0,
-      "cols": 6,
-      "rows": 1,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-12",
-     "file": "S28-end-V27.jpg",
-     "group": "cut",
-     "id": "current-frames/S28-end-V27.jpg",
-     "title": "Current cut · end frame",
-     "role": "end",
-     "approved": true,
-     "status": "",
-     "img": {
-      "sheet": "sheets/scene-S28.jpg",
-      "col": 2,
-      "row": 0,
-      "cols": 6,
+      "cols": 4,
       "rows": 1,
       "shape": "land"
      }
@@ -9667,9 +9649,9 @@
      "status": "Owner-approved canonical reference",
      "img": {
       "sheet": "sheets/scene-S28.jpg",
-      "col": 3,
+      "col": 1,
       "row": 0,
-      "cols": 6,
+      "cols": 4,
       "rows": 1,
       "shape": "land"
      }
@@ -9686,9 +9668,9 @@
      "status": "Generated replacement still · review pending",
      "img": {
       "sheet": "sheets/scene-S28.jpg",
-      "col": 4,
+      "col": 2,
       "row": 0,
-      "cols": 6,
+      "cols": 4,
       "rows": 1,
       "shape": "land"
      }
@@ -9705,9 +9687,9 @@
      "status": "Owner authorized generation; rendered",
      "img": {
       "sheet": "sheets/scene-S28.jpg",
-      "col": 5,
+      "col": 3,
       "row": 0,
-      "cols": 6,
+      "cols": 4,
       "rows": 1,
       "shape": "land"
      }
@@ -9727,31 +9709,22 @@
    "angle": "passenger seat",
    "_src": [
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-start-V74.jpg",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-start-NEW-20260915.jpg",
      "id": "S28-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S28 rebuilt from Sep 14 pieces",
      "group": "current",
      "role": "current",
      "approved": true,
-     "date": "2026-09-15"
+     "date": "2026-09-16"
     },
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-start-V27.jpg",
-     "id": "current-frames/S28-start-V27.jpg",
-     "title": "Current cut · start frame",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-start-NEW-20260915.jpg",
+     "id": "S28-start-NEW-20260915",
+     "title": "Start · S28 new",
      "group": "cut",
      "role": "start",
      "approved": true,
-     "date": "2026-09-12"
-    },
-    {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S28-end-V27.jpg",
-     "id": "current-frames/S28-end-V27.jpg",
-     "title": "Current cut · end frame",
-     "group": "cut",
-     "role": "end",
-     "approved": true,
-     "date": "2026-09-12"
+     "date": "2026-09-16"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
@@ -9782,7 +9755,7 @@
     }
    ],
    "_audioSrc": [],
-   "_fullVideo": "../apu-arrival-review/S28-REFINED-V7-REXX-AUDIO.mp4",
+   "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S28.mp4",
    "_audioTracks": []
   },
   {
@@ -9795,8 +9768,8 @@
    "status": "V42 working footage present in a shared sequence. Retain existing farewell footage and voice takes; final continuity and mix review remain.",
    "nextAction": "Review inserted ending with final sound mix.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
-   "video": "S29-V8-NATURAL-VOICE-TIMING.mp4",
-   "editStatus": "V72 new explanation, Blood reply and upward look inserted.",
+   "video": "S29.mp4",
+   "editStatus": "LIVE · S29 rebuilt from the Sep 14 pieces: INV043 → INV044 → INV042 → INV009 → INV050. Pass 11.",
    "still": {
     "sheet": "sheets/scene-S29.jpg",
     "col": 0,
@@ -9805,7 +9778,7 @@
     "rows": 2,
     "shape": "land"
    },
-   "stillDate": "2026-09-15",
+   "stillDate": "2026-09-16",
    "stillStale": false,
    "v74": {
     "start": 100,
@@ -9813,14 +9786,14 @@
    },
    "stills": [
     {
-     "date": "2026-09-15",
-     "file": "S29-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S29-start-NEW-20260915.jpg",
      "group": "current",
      "id": "S29-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S29 rebuilt from Sep 14 pieces",
      "role": "current",
      "approved": true,
-     "status": "taken from GARAGE-DREAM-V74-CANDIDATE-CLAUDE-2026-09-14.mp4 at 110.617s",
+     "status": "taken from S29.mp4 at 1s",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
       "col": 0,
@@ -9831,35 +9804,17 @@
      }
     },
     {
-     "date": "2026-09-12",
-     "file": "S29-start-V27.jpg",
+     "date": "2026-09-16",
+     "file": "S29-start-NEW-20260915.jpg",
      "group": "cut",
-     "id": "current-frames/S29-start-V27.jpg",
-     "title": "Current cut · start frame",
+     "id": "S29-start-NEW-20260915",
+     "title": "Start · S29 new",
      "role": "start",
      "approved": true,
      "status": "",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 1,
-      "row": 0,
-      "cols": 8,
-      "rows": 2,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-12",
-     "file": "S29-end-V27.jpg",
-     "group": "cut",
-     "id": "current-frames/S29-end-V27.jpg",
-     "title": "Current cut · end frame",
-     "role": "end",
-     "approved": true,
-     "status": "",
-     "img": {
-      "sheet": "sheets/scene-S29.jpg",
-      "col": 2,
+      "col": 0,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -9878,7 +9833,7 @@
      "status": "Owner-approved canonical reference",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 3,
+      "col": 1,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -9897,7 +9852,7 @@
      "status": "Generated replacement still · review pending",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 4,
+      "col": 2,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -9916,7 +9871,7 @@
      "status": "Owner authorized generation; rendered",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 5,
+      "col": 3,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -9935,7 +9890,7 @@
      "status": "S29 V74 Apu L1 5F38 NATIVE FULL16X9",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 6,
+      "col": 4,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -9954,7 +9909,7 @@
      "status": "S29 V74 Apu L2 5F38 NATIVE FULL16X9",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 7,
+      "col": 5,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -9973,8 +9928,8 @@
      "status": "S29 V74 Homer Blood 5F38 NATIVE FULL16X9",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 0,
-      "row": 1,
+      "col": 6,
+      "row": 0,
       "cols": 8,
       "rows": 2,
       "shape": "land"
@@ -9984,12 +9939,50 @@
      "date": "2026-09-15",
      "file": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV042.mp4",
-     "group": "pending",
+     "group": "approved",
      "approved": false,
      "id": "INV042",
      "title": "Lip-sync clip · INV042 · 0.875 s",
      "role": "clip",
      "status": "S29 V74 Homer WhatDoYouMean 5F38 NATIVE FULL16X9",
+     "img": {
+      "sheet": "sheets/scene-S29.jpg",
+      "col": 7,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-15",
+     "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV043.mp4",
+     "group": "approved",
+     "approved": false,
+     "id": "INV043",
+     "title": "Lip-sync clip · INV043 · 1.875 s",
+     "role": "clip",
+     "status": "S29 V74 L1 NATIVE HIGGS RETURN",
+     "img": {
+      "sheet": "sheets/scene-S29.jpg",
+      "col": 0,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-15",
+     "file": "INV044_s29-v74-l2-native-higgs-return.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV044.mp4",
+     "group": "approved",
+     "approved": false,
+     "id": "INV044",
+     "title": "Lip-sync clip · INV044 · 2.333 s",
+     "role": "clip",
+     "status": "S29 V74 L2 NATIVE HIGGS RETURN",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
       "col": 1,
@@ -10001,47 +9994,9 @@
     },
     {
      "date": "2026-09-15",
-     "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
-     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV043.mp4",
-     "group": "pending",
-     "approved": false,
-     "id": "INV043",
-     "title": "Lip-sync clip · INV043 · 1.875 s",
-     "role": "clip",
-     "status": "S29 V74 L1 NATIVE HIGGS RETURN",
-     "img": {
-      "sheet": "sheets/scene-S29.jpg",
-      "col": 2,
-      "row": 1,
-      "cols": 8,
-      "rows": 2,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-15",
-     "file": "INV044_s29-v74-l2-native-higgs-return.mp4",
-     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV044.mp4",
-     "group": "pending",
-     "approved": false,
-     "id": "INV044",
-     "title": "Lip-sync clip · INV044 · 2.333 s",
-     "role": "clip",
-     "status": "S29 V74 L2 NATIVE HIGGS RETURN",
-     "img": {
-      "sheet": "sheets/scene-S29.jpg",
-      "col": 3,
-      "row": 1,
-      "cols": 8,
-      "rows": 2,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-15",
      "file": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV050.mp4",
-     "group": "pending",
+     "group": "approved",
      "approved": false,
      "id": "INV050",
      "title": "Lip-sync clip · INV050 · 1 s",
@@ -10049,7 +10004,7 @@
      "status": "S29 BLOOD LIPSYNC 0E15B23B RAW",
      "img": {
       "sheet": "sheets/scene-S29.jpg",
-      "col": 4,
+      "col": 2,
       "row": 1,
       "cols": 8,
       "rows": 2,
@@ -10071,31 +10026,22 @@
    "angle": "fist bump",
    "_src": [
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-start-V74.jpg",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-start-NEW-20260915.jpg",
      "id": "S29-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S29 rebuilt from Sep 14 pieces",
      "group": "current",
      "role": "current",
      "approved": true,
-     "date": "2026-09-15"
+     "date": "2026-09-16"
     },
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-start-V27.jpg",
-     "id": "current-frames/S29-start-V27.jpg",
-     "title": "Current cut · start frame",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-start-NEW-20260915.jpg",
+     "id": "S29-start-NEW-20260915",
+     "title": "Start · S29 new",
      "group": "cut",
      "role": "start",
      "approved": true,
-     "date": "2026-09-12"
-    },
-    {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S29-end-V27.jpg",
-     "id": "current-frames/S29-end-V27.jpg",
-     "title": "Current cut · end frame",
-     "group": "cut",
-     "role": "end",
-     "approved": true,
-     "date": "2026-09-12"
+     "date": "2026-09-16"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
@@ -10155,7 +10101,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV042.jpg",
      "id": "INV042",
      "title": "Lip-sync clip · INV042 · 0.875 s",
-     "group": "pending",
+     "group": "approved",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -10164,7 +10110,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV043.jpg",
      "id": "INV043",
      "title": "Lip-sync clip · INV043 · 1.875 s",
-     "group": "pending",
+     "group": "approved",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -10173,7 +10119,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV044.jpg",
      "id": "INV044",
      "title": "Lip-sync clip · INV044 · 2.333 s",
-     "group": "pending",
+     "group": "approved",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -10182,14 +10128,14 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV050.jpg",
      "id": "INV050",
      "title": "Lip-sync clip · INV050 · 1 s",
-     "group": "pending",
+     "group": "approved",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
     }
    ],
    "_audioSrc": [],
-   "_fullVideo": "../apu-arrival-review/S29-V8-NATURAL-VOICE-TIMING.mp4",
+   "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S29.mp4",
    "_audioTracks": [
     {
      "src": "../apu-arrival-review/S29-V8-NATURAL-VOICE-TIMING.mp4",
@@ -17100,8 +17046,8 @@
      }
     },
     {
-     "date": "2026-09-15",
-     "file": "S28-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S28-start-NEW-20260915.jpg",
      "id": "S28-angle",
      "title": "S28 · passenger seat",
      "angle": "passenger seat",
@@ -17117,8 +17063,8 @@
      }
     },
     {
-     "date": "2026-09-15",
-     "file": "S29-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S29-start-NEW-20260915.jpg",
      "id": "S29-angle",
      "title": "S29 · fist bump",
      "angle": "fist bump",
@@ -19674,7 +19620,7 @@
     "rows": 3,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": true
   },
   {
@@ -19689,7 +19635,7 @@
     "rows": 3,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": true
   },
   {

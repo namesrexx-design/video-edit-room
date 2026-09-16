@@ -1,0 +1,2201 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "STORYBOARD-FINAL-pass11",
+  "global_start_time": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 0
+  },
+  "metadata": {
+    "editroom": {
+      "rate": 24,
+      "width": 1920,
+      "height": 1080,
+      "from": "STORYBOARD-FINAL.json",
+      "note": "2nd video lane and added sound are in the cut JSON + render receipt, not in this V1-only timeline"
+    }
+  },
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "tracks",
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "V1",
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S01",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 79
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S01.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 79
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S02",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S02.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S03",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 53
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S03.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 53
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S04",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 103
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S04.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 103
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S05",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 170
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S05.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 170
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S06",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 140
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S06.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 140
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S07",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 138
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S07.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S07.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 138
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S08",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S08.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S08.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S09",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S09.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S09.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S10",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 12
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 277
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S10.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S10.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 289
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S14",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 155
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S14.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S14.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 155
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S16",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 171
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S16.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S16.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 171
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S17",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S17.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S17.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S18",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 326
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S18.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S18.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 326
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S19",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S19.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S19.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S23",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 109
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S23.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S23.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 109
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S24-new-complete",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 162
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S24-new-complete.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S24-new-complete.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 162
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV052_s27-rexx-upload-1122",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 57
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV052_s27-rexx-upload-1122.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV052_s27-rexx-upload-1122.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 57
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "23_S27_vintage-mart-invitation",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 212
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 50
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "23_S27_vintage-mart-invitation.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/23_S27_vintage-mart-invitation.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 262
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV051_s27-start-rexx-upload-1129",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 48
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV051_s27-start-rexx-upload-1129.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV051_s27-start-rexx-upload-1129.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 48
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV053_s27-2-rexx-upload-1124",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 39
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV053_s27-2-rexx-upload-1124.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV053_s27-2-rexx-upload-1124.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 39
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV043_s29-v74-l1-native-higgs-return",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 45
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV043_s29-v74-l1-native-higgs-return.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV043_s29-v74-l1-native-higgs-return.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 45
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV044_s29-v74-l2-native-higgs-return",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 56
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV044_s29-v74-l2-native-higgs-return.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV044_s29-v74-l2-native-higgs-return.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 56
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 21
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 21
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 46
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 46
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV050_s29-blood-lipsync-0e15b23b-raw",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 24
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 24
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          }
+        ],
+        "metadata": {}
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "A1",
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S01",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 79
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S01.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 79
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S02",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S02.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S03",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 53
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S03.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 53
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S04",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 103
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S04.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 103
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S05",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 170
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S05.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 170
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S06",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 140
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S06.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 140
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S07",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 138
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S07.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S07.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 138
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S08",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S08.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S08.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S09",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S09.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S09.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S10",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 12
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 277
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S10.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S10.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 289
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S14",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 155
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S14.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S14.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 155
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S16",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 171
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S16.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S16.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 171
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S17",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S17.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S17.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S18",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 326
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S18.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S18.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 326
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S19",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S19.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S19.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S23",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 109
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S23.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S23.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 109
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S24-new-complete",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 162
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S24-new-complete.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/storyboard-final-20260915/S24-new-complete.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 162
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV052_s27-rexx-upload-1122",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 57
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV052_s27-rexx-upload-1122.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV052_s27-rexx-upload-1122.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 57
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "23_S27_vintage-mart-invitation",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 212
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 50
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "23_S27_vintage-mart-invitation.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/23_S27_vintage-mart-invitation.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 262
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV051_s27-start-rexx-upload-1129",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 48
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV051_s27-start-rexx-upload-1129.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV051_s27-start-rexx-upload-1129.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 48
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV053_s27-2-rexx-upload-1124",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 39
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV053_s27-2-rexx-upload-1124.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV053_s27-2-rexx-upload-1124.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 39
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV043_s29-v74-l1-native-higgs-return",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 45
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV043_s29-v74-l1-native-higgs-return.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV043_s29-v74-l1-native-higgs-return.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 45
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV044_s29-v74-l2-native-higgs-return",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 56
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV044_s29-v74-l2-native-higgs-return.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV044_s29-v74-l2-native-higgs-return.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 56
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 21
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 21
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 46
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 46
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV050_s29-blood-lipsync-0e15b23b-raw",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 24
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 24
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          }
+        ],
+        "metadata": {}
+      }
+    ],
+    "metadata": {}
+  }
+}
