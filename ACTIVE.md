@@ -15,3 +15,5 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 | Claude (MASTER) | V75.1 render, deliveries/S09 v2, S21 candidates | 2026-09-15 | V75.1 on Drive (S09 full reply restored). Waiting on owner: S21 pick, S20/S22 lip-sync spend, S24 swap. Codex: point S09 completedDelivery at v2 raw URL. |
 
 | Claude (MASTER) | storyboard S20–S22 | 2026-09-15 | REMOVED from the film by the owner (Bart → horn). V75.1 already has that order. No lip-sync spend. |
+
+| Claude (MASTER) | GitHub Pages | 2026-09-15 | Storyboard + film published no-login at https://namesrexx-design.github.io/video-edit-room/cut-room/storyboard-v2.html ; sync server retired on the PC (owner). |
