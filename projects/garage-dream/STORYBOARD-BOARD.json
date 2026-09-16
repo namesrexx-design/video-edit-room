@@ -11,7 +11,7 @@
   },
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T04:18:54.721Z",
+  "builtAt": "2026-09-16T04:26:52.707Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -1219,8 +1219,8 @@
       "status": "Finished walk-up with existing approved voiceover. Selected for storyboard by owner; full-film assembly and final playback QC remain separate.",
       "nextAction": "Review the join to retained S09; prepare its matching conversation and single remote/open-garage sequence.",
       "gate": "Owner selected both stills and requested loading them in Higgsfield.",
-      "video": "S08-COMPLETE-with-approved-VO.mp4",
-      "editStatus": "COMPLETE · Finished walk-up with existing approved voiceover. Selected for storyboard by owner; full-film assembly and final playback QC remain separate. Other takes archived 2026-09-15.",
+      "video": "S08.mp4",
+      "editStatus": "LIVE · S08 = INV062 (Sep 15 trial + approved voiceover), owner confirmed 2026-09-15 night. INV061 (silent trial) archived. In the film.",
       "still": {
         "sheet": "sheets/scene-S08.jpg",
         "col": 0,
@@ -1750,7 +1750,7 @@
           "date": "2026-09-15",
           "file": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
           "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV062.mp4",
-          "group": "pending",
+          "group": "approved",
           "approved": false,
           "id": "INV062",
           "title": "Higgsfield clip · INV062 · 4 s",
@@ -2023,14 +2023,14 @@
           "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV062.jpg",
           "id": "INV062",
           "title": "Higgsfield clip · INV062 · 4 s",
-          "group": "pending",
+          "group": "approved",
           "role": "clip",
           "approved": false,
           "date": "2026-09-15"
         }
       ],
       "_audioSrc": [],
-      "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S08/S08-COMPLETE-with-approved-VO.mp4",
+      "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S08.mp4",
       "_audioTracks": [
         {
           "src": "../opening-review/S08-V47-APPROVED-VOICEOVER-STEM.wav",
