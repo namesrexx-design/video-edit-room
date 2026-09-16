@@ -11,7 +11,7 @@
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T04:02:46.401Z",
+ "builtAt": "2026-09-16T04:04:21.379Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -8552,7 +8552,16 @@
      }
     }
    ],
-   "audio": [],
+   "audio": [
+    {
+     "id": "AUD030",
+     "title": "S24 REXX approved line · I'm showing Homer how to use BizBox, the app I built, to sell all this stuff in his garage",
+     "group": "approved",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD030.mp3",
+     "seconds": 6.43,
+     "date": "2026-09-16"
+    }
+   ],
    "audioHistory": [],
    "cast": [
     "Rexx",
@@ -8690,7 +8699,13 @@
      "date": "2026-09-14"
     }
    ],
-   "_audioSrc": [],
+   "_audioSrc": [
+    {
+     "id": "AUD030",
+     "title": "S24 REXX approved line · I'm showing Homer how to use BizBox, the app I built, to sell all this stuff in his garage",
+     "seconds": 6.43
+    }
+   ],
    "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S24/S24-COMPLETE-new-takes-with-approved-line.mp4",
    "_audioTracks": []
   },
@@ -9201,6 +9216,14 @@
      "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD013.mp3",
      "seconds": 2.02,
      "date": "2026-09-15"
+    },
+    {
+     "id": "AUD029",
+     "title": "S27 FULL CONVERSATION · approved (\"that works\") · Apu: will that work / Rexx: oh you got a new vintage mart / Apu: two months ago / Rexx: alright I'm down / Apu: jump in",
+     "group": "approved",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD029.mp3",
+     "seconds": 11.23,
+     "date": "2026-09-16"
     }
    ],
    "audioHistory": [],
@@ -9452,6 +9475,11 @@
      "id": "AUD013",
      "title": "S27 V74 L2 RETURN AUDIO",
      "seconds": 2.02
+    },
+    {
+     "id": "AUD029",
+     "title": "S27 FULL CONVERSATION · approved (\"that works\") · Apu: will that work / Rexx: oh you got a new vintage mart / Apu: two months ago / Rexx: alright I'm down / Apu: jump in",
+     "seconds": 11.23
     }
    ],
    "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S27.mp4",
