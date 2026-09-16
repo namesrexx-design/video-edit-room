@@ -1,0 +1,445 @@
+{
+  "cut": "STORYBOARD-FINAL-pass1.json",
+  "cutSha256": "9442723C926DE44D380DC68E9D0C83B1633D59B40BA8979A14A8E4410908106E",
+  "savedAt": "2026-09-16T02:50:31.376Z",
+  "output": "C:\\Users\\16263\\Desktop\\video-edit-room\\projects\\garage-dream\\renders\\STORYBOARD-FINAL-pass1.mp4",
+  "outputSha256": "078B5C4BC4B70564071A1201E4D12D51ED167C70BABB1794CA613CB9C7C295AC",
+  "bytes": 82770423,
+  "frames": 2954,
+  "seconds": 123.083333,
+  "renderedAt": "2026-09-16T02:53:29.319Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "u": "sb_s01",
+      "id": "S01",
+      "file": "S01.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 79,
+      "mute": true
+    },
+    {
+      "u": "sb_s02",
+      "id": "S02",
+      "file": "S02.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 60,
+      "mute": true
+    },
+    {
+      "u": "sb_s03",
+      "id": "S03",
+      "file": "S03.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 53,
+      "mute": true
+    },
+    {
+      "u": "sb_s04",
+      "id": "S04",
+      "file": "S04.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 103,
+      "mute": true
+    },
+    {
+      "u": "sb_s05",
+      "id": "S05",
+      "file": "S05.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 170,
+      "mute": true
+    },
+    {
+      "u": "sb_s06",
+      "id": "S06",
+      "file": "S06.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 140,
+      "mute": true
+    },
+    {
+      "u": "sb_s07",
+      "id": "S07",
+      "file": "S07.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 138,
+      "mute": true
+    },
+    {
+      "u": "sb_s08",
+      "id": "S08",
+      "file": "S08.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 96,
+      "mute": true
+    },
+    {
+      "u": "sb_s09",
+      "id": "S09",
+      "file": "S09.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 120,
+      "mute": true
+    },
+    {
+      "u": "sb_s10",
+      "id": "S10",
+      "file": "S10.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 12,
+      "end": 289,
+      "mute": true
+    },
+    {
+      "u": "sb_s14",
+      "id": "S14",
+      "file": "S14.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 155,
+      "mute": true
+    },
+    {
+      "u": "sb_s16",
+      "id": "S16",
+      "file": "S16.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 171,
+      "mute": true
+    },
+    {
+      "u": "sb_s17",
+      "id": "S17",
+      "file": "S17.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    },
+    {
+      "u": "sb_s18",
+      "id": "S18",
+      "file": "S18.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 326,
+      "mute": true
+    },
+    {
+      "u": "sb_s19",
+      "id": "S19",
+      "file": "S19.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    },
+    {
+      "u": "sb_s23",
+      "id": "S23",
+      "file": "S23.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 109,
+      "mute": true
+    },
+    {
+      "u": "sb_s24",
+      "id": "S24",
+      "file": "S24-rear-approach-rexx-voice-7s.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 168,
+      "mute": true
+    },
+    {
+      "u": "sb_s27",
+      "id": "S27",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "mute": true
+    },
+    {
+      "u": "sb_s28",
+      "id": "S28",
+      "file": "S28.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 85,
+      "mute": true
+    },
+    {
+      "u": "sb_s29",
+      "id": "S29",
+      "file": "S29.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 210,
+      "mute": true
+    }
+  ],
+  "v2": [
+    {
+      "id": "INV052",
+      "file": "INV052_s27-rexx-upload-1122.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 57,
+      "at": 2457,
+      "note": "Apu L1 close-up (owner upload), audio-correlated position"
+    },
+    {
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 37,
+      "at": 2541,
+      "note": "Apu L3 close-up (owner upload) over the kit L3 line; was appended after it in V75 and doubled the line"
+    },
+    {
+      "id": "INV051",
+      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "at": 2578,
+      "note": "Apu L2 close-up (owner upload), audio-correlated position"
+    }
+  ],
+  "a2": [
+    {
+      "id": "S01-sound",
+      "file": "S01.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 79,
+      "at": 0,
+      "sceneSound": true,
+      "link": "sb_s01",
+      "gain": 0
+    },
+    {
+      "id": "S02-sound",
+      "file": "S02.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 60,
+      "at": 79,
+      "sceneSound": true,
+      "link": "sb_s02",
+      "gain": 0
+    },
+    {
+      "id": "S03-sound",
+      "file": "S03.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 53,
+      "at": 139,
+      "sceneSound": true,
+      "link": "sb_s03",
+      "gain": 0
+    },
+    {
+      "id": "S04-sound",
+      "file": "S04.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 103,
+      "at": 192,
+      "sceneSound": true,
+      "link": "sb_s04",
+      "gain": 0
+    },
+    {
+      "id": "S05-sound",
+      "file": "S05.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 170,
+      "at": 295,
+      "sceneSound": true,
+      "link": "sb_s05",
+      "gain": 0
+    },
+    {
+      "id": "S06-sound",
+      "file": "S06.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 140,
+      "at": 465,
+      "sceneSound": true,
+      "link": "sb_s06",
+      "gain": 0
+    },
+    {
+      "id": "S07-sound",
+      "file": "S07.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 138,
+      "at": 605,
+      "sceneSound": true,
+      "link": "sb_s07",
+      "gain": 0
+    },
+    {
+      "id": "S08-sound",
+      "file": "S08.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 96,
+      "at": 743,
+      "sceneSound": true,
+      "link": "sb_s08",
+      "gain": 0
+    },
+    {
+      "id": "S09-sound",
+      "file": "S09.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 135,
+      "at": 839,
+      "sceneSound": true,
+      "link": "sb_s09",
+      "gain": 0
+    },
+    {
+      "id": "S10-sound",
+      "file": "S10.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 12,
+      "end": 289,
+      "at": 959,
+      "sceneSound": true,
+      "link": "sb_s10",
+      "gain": 0
+    },
+    {
+      "id": "S14-sound",
+      "file": "S14.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 155,
+      "at": 1236,
+      "sceneSound": true,
+      "link": "sb_s14",
+      "gain": 0
+    },
+    {
+      "id": "S16-sound",
+      "file": "S16.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 171,
+      "at": 1391,
+      "sceneSound": true,
+      "link": "sb_s16",
+      "gain": 0
+    },
+    {
+      "id": "S17-sound",
+      "file": "S17.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "at": 1562,
+      "sceneSound": true,
+      "link": "sb_s17",
+      "gain": 0
+    },
+    {
+      "id": "S18-sound",
+      "file": "S18.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 326,
+      "at": 1634,
+      "sceneSound": true,
+      "link": "sb_s18",
+      "gain": 0
+    },
+    {
+      "id": "S19-sound",
+      "file": "S19.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "at": 1960,
+      "sceneSound": true,
+      "link": "sb_s19",
+      "gain": 0
+    },
+    {
+      "id": "S23-sound",
+      "file": "S23.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 109,
+      "at": 2032,
+      "sceneSound": true,
+      "link": "sb_s23",
+      "gain": 0
+    },
+    {
+      "id": "S24-sound",
+      "file": "S24-REXX-BIZBOX-V3-GEN1.mp3",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 154,
+      "at": 2141,
+      "sceneSound": true,
+      "link": "sb_s24",
+      "gain": 0
+    },
+    {
+      "id": "S27-sound",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "at": 2309,
+      "sceneSound": true,
+      "link": "sb_s27",
+      "gain": -2
+    },
+    {
+      "id": "S28-sound",
+      "file": "S28.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 85,
+      "at": 2659,
+      "sceneSound": true,
+      "link": "sb_s28",
+      "gain": 0
+    },
+    {
+      "id": "S29-sound",
+      "file": "S29.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 210,
+      "at": 2744,
+      "sceneSound": true,
+      "link": "sb_s29",
+      "gain": 0
+    }
+  ]
+}

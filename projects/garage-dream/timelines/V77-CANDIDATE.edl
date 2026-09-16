@@ -1,0 +1,59 @@
+TITLE: V77-CANDIDATE
+FCM: NON-DROP FRAME
+
+001  AX       AA/V  C        00:00:00:00 00:00:03:07 00:00:00:00 00:00:03:07
+* FROM CLIP NAME: 01_S01_stairs.mp4
+
+002  AX       AA/V  C        00:00:00:00 00:00:02:12 00:00:03:07 00:00:05:19
+* FROM CLIP NAME: 02_S02_coffee-ring.mp4
+
+003  AX       AA/V  C        00:00:00:00 00:00:02:05 00:00:05:19 00:00:08:00
+* FROM CLIP NAME: 03_S03_answer-homer.mp4
+
+004  AX       AA/V  C        00:00:00:00 00:00:04:07 00:00:08:00 00:00:12:07
+* FROM CLIP NAME: 04_S04_phone-down.mp4
+
+005  AX       AA/V  C        00:00:00:00 00:00:07:03 00:00:12:07 00:00:19:10
+* FROM CLIP NAME: 05_S05_homer-asks-for-help.mp4
+
+006  AX       AA/V  C        00:00:00:00 00:00:05:20 00:00:19:10 00:00:25:06
+* FROM CLIP NAME: 06_S06_waymo-boarding.mp4
+
+007  AX       AA/V  C        00:00:00:00 00:00:04:18 00:00:25:06 00:00:30:00
+* FROM CLIP NAME: 07_S07_waymo-ride-and-exit.mp4
+
+008  AX       AA/V  C        00:00:00:00 00:00:04:00 00:00:30:00 00:00:34:00
+* FROM CLIP NAME: INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4
+
+009  AX       AA/V  C        00:00:00:00 00:00:05:00 00:00:34:00 00:00:39:00
+* FROM CLIP NAME: INV066_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4
+
+010  AX       AA/V  C        00:00:00:12 00:00:10:13 00:00:39:00 00:00:49:01
+* FROM CLIP NAME: 10_S10_garage-reveal.mp4
+
+011  AX       AA/V  C        00:00:00:00 00:00:13:13 00:00:49:01 00:01:02:14
+* FROM CLIP NAME: 15_S14-S16_recliner-bugatti-question-doze-off.mp4
+
+012  AX       AA/V  C        00:00:00:00 00:00:03:00 00:01:02:14 00:01:05:14
+* FROM CLIP NAME: 16_S17_pch-sunset-dream.mp4
+
+013  AX       AA/V  C        00:00:00:00 00:00:13:14 00:01:05:14 00:01:19:04
+* FROM CLIP NAME: 17_S18_mosquito-wake-up.mp4
+
+014  AX       AA/V  C        00:00:00:00 00:00:03:00 00:01:19:04 00:01:22:04
+* FROM CLIP NAME: 18_S19_bart-skates-off.mp4
+
+015  AX       AA/V  C        00:00:00:00 00:00:03:18 00:01:22:04 00:01:25:22
+* FROM CLIP NAME: 21_S23_apu-horn-greeting.mp4
+
+016  AX       AA/V  C        00:00:00:00 00:00:03:00 00:01:25:22 00:01:28:22
+* FROM CLIP NAME: 22_S24_walk-to-car.mp4
+
+017  AX       AA/V  C        00:00:00:00 00:00:14:14 00:01:28:22 00:01:43:12
+* FROM CLIP NAME: 23_S27_vintage-mart-invitation.mp4
+
+018  AX       AA/V  C        00:00:00:00 00:00:01:15 00:01:43:12 00:01:45:03
+* FROM CLIP NAME: INV053_s27-2-rexx-upload-1124.mp4
+
+019  AX       AA/V  C        00:00:00:00 00:00:15:04 00:01:45:03 00:02:00:07
+* FROM CLIP NAME: 24_S29_farewell-fist-bump.mp4
