@@ -316,6 +316,25 @@ async function intakeTick() {
 }
 setInterval(intakeTick, 60 * 1000); setTimeout(intakeTick, 5000);
 
+// ---------- module setup: starter files appear as soon as a member turns a module on ----------
+let setupBusy = false;
+async function setupTick() {
+  if (setupBusy) return; setupBusy = true;
+  try {
+    const { workspaces = [] } = await signedCall({ action: 'setup_queue' });
+    for (const w of workspaces) {
+      const done = [];
+      for (const m of w.pending) {
+        try { if (STARTERS[m]) await setUpModule(w, m); done.push(m); if (m === 'storyboard') for (const d of ['clips', 'stills', 'audio']) if (!(await exists(w, `storyboard/${d}/.keep`))) await s3.send(new PutObjectCommand({ Bucket: BUCKET, Key: inside(w, `storyboard/${d}/.keep`), Body: '' })); }
+        catch (e) { log('setup failed', w.slug, m, e.message); }
+      }
+      if (done.length) { await signedCall({ action: 'setup_mark', workspace_id: w.workspace_id, modules: done }); log('modules ready', w.slug, done.join(',')); }
+    }
+  } catch (e) { log('setup tick', e.message); }
+  setupBusy = false;
+}
+setInterval(setupTick, 60 * 1000); setTimeout(setupTick, 8000);
+
 // ---------- studio API for the biz-box.io/lyfestudio page (member signed in to BizBox) ----------
 // The page sends the member's own BizBox login token. We ask BizBox (myWorkspace) who that is; no shared secret.
 const ORIGINS = [/^https:\/\/(www\.|app\.)?biz-box\.io$/, /^https:\/\/[a-z0-9-]+\.base44\.app$/, /^https:\/\/preview-sandbox--[a-z0-9-]+\.base44\.app$/];
