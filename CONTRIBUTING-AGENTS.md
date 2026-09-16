@@ -1,3 +1,36 @@
+# START HERE: how your work goes live by itself (2026-09-16)
+
+Rexx: "add it for them, that's why we keep making mistakes." You only need GitHub. The studio server does the rest.
+
+| You do | What happens by itself |
+|---|---|
+| Open a PR from an `agent/<name>/...` branch that changes the cut | Within a few minutes the studio server renders a **preview** film from your branch and shows it on the storyboard page under "Waiting for Rexx", with a link to your PR |
+| Rexx watches it and merges the PR (or anything lands on `main`) | Within about a minute the server pulls it and rebuilds the storyboard page |
+| A change to `projects/garage-dream/cuts/STORYBOARD-FINAL.json` reaches `main` | The server also renders the live film, cuts the scene clips, copies the film to cloud storage and commits the receipt. The newest film plays at the top of the storyboard page |
+| Upload media with the BizBox connector (below) | Within about a minute it is in the server's media folder `team`, ready for a cut |
+
+## Media: never push big video into this public repo
+Pushing media here makes your platform stop and ask Rexx. Instead use the **BizBox connector** (MCP over HTTP):
+- Address: `https://mcp.biz-box.io/mcp`, header `Authorization: Bearer <key>`. The key is in your environment secrets as `BIZBOX_TEAM_KEY` (Rexx adds it; never print it, never commit it).
+- Tools: `list_files`, `get_upload_link` (then HTTP PUT the file), `read_text_file`, `write_text_file`, `get_download_link`, `start_job` (`convert_video`, `remove_background`), `job_status`.
+- Put Garage Dream media under `garage-dream/<scene>/<file>`, for example `garage-dream/S29/S29-bump-v4.mp4`.
+- In a cut, point a block at it with `"folder": "team"` and `"file": "garage-dream/S29/S29-bump-v4.mp4"`.
+- Small receipts and notes can still go in `projects/garage-dream/deliveries/`; cuts can read those with `"folder": "repo-deliveries"` and a `file` path relative to that folder.
+
+## Cut rules that keep the film right
+- Every picture block in `v1` has `u` (unique id), `scene`, `file`, `folder`, `start`, `end` (frames at 24 fps), `mute: true`.
+- Sound goes in `a2` with `link` = the `u` of its picture block and `at` = the frame where it starts. Keep sound linked so it moves with the picture.
+- Before you change the cut, copy the current one to `STORYBOARD-FINAL-passNN.json` (never delete old passes).
+- Check your cut plays: `node tools/render-cut.mjs projects/garage-dream/cuts/STORYBOARD-FINAL.json CHECK-<name>` on the server is what the robot runs; a failed render leaves the last good film in place and writes `FAILED:` in the job log.
+
+## Files you never hand-edit
+`cut-room/board.json`, `projects/garage-dream/STORYBOARD-BOARD.json` (rebuilt every time), `deploy/` (the server itself). Every PR is merged by a person (Rexx); your job is to make the preview good enough that he can merge it after one watch.
+
+This section replaces any older rule below that says otherwise (for example "media never enters git" or "render only with tools/render.mjs": the live renderer is now `tools/render-cut.mjs`, run by the server).
+
+
+---
+
 # How every agent works in this repo without stepping on anyone
 
 **Repo:** https://github.com/namesrexx-design/video-edit-room (public: anyone can read; writing needs Rexx's invite or a token he issues)

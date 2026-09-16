@@ -124,6 +124,52 @@ async function autoSync() {
   finally { syncing = false; }
 }
 RECIPES.fastforward = async (job) => { await pull(job); };
+
+// ---- previews: an agent PR that changes the cut gets a preview film before a person merges it ----
+// Rendered with main's tools against the branch's files (a temporary git worktree), never committed.
+// Listed in /data/editor/previews/previews.json; the storyboard page shows them under "Waiting for Rexx".
+const PREV = path.join(EDITOR, 'previews'); fs.mkdirSync(PREV, { recursive: true });
+const PREV_LIST = path.join(PREV, 'previews.json');
+const CUT = 'projects/garage-dream/cuts/STORYBOARD-FINAL.json';
+const readPrev = () => { try { return JSON.parse(fs.readFileSync(PREV_LIST, 'utf8')); } catch { return []; } };
+const writePrev = (l) => fs.writeFileSync(PREV_LIST, JSON.stringify(l.slice(0, 30), null, 1));
+const repoUrl = 'https://github.com/namesrexx-design/video-edit-room';
+RECIPES.preview = async (job) => {
+  const { branch, sha } = job.input; const safe = branch.replace(/[^A-Za-z0-9._-]+/g, '-').slice(0, 60); const name = `PREVIEW-${safe}-${sha.slice(0, 7)}`;
+  const wt = path.join(PREV, 'wt-' + sha.slice(0, 7));
+  const set = (patch) => { const l = readPrev(); const i = l.findIndex((p) => p.sha === sha); if (i >= 0) { l[i] = { ...l[i], ...patch }; writePrev(l); } };
+  try {
+    if (!fs.existsSync(wt)) await git(job, 'worktree', 'add', '--detach', wt, sha);
+    await sh(job, 'node', [path.join(REPO, 'tools/render-cut.mjs'), CUT, name], { cwd: wt });
+    const film = path.join(PREV, name + '.mp4');
+    fs.copyFileSync(path.join(wt, 'projects/garage-dream/renders', name + '.mp4'), film);
+    set({ state: 'ready', film: '/editor/previews/' + name + '.mp4', ready_at: new Date().toISOString() });
+    job.result = { preview: '/editor/previews/' + name + '.mp4' };
+  } catch (e) { set({ state: 'failed', error: String(e.message || e).slice(0, 300) }); throw e; }
+  finally { await git(job, 'worktree', 'remove', '--force', wt).catch(() => {}); }   // temporary checkout only
+};
+async function watchAgentBranches() {
+  await new Promise((ok) => spawn('git', ['fetch', '-q', '--prune', 'origin', '+refs/heads/agent/*:refs/remotes/origin/agent/*'], { cwd: REPO, stdio: 'ignore' }).on('close', ok));
+  const refs = (await out(['for-each-ref', '--format=%(refname:short) %(objectname)', 'refs/remotes/origin/agent'])).split('\n').filter(Boolean).map((l) => { const [ref, sha] = l.split(' '); return { branch: ref.replace(/^origin\//, ''), sha }; });
+  const list = readPrev();
+  for (const p of list) {   // merged or superseded?
+    if (p.state === 'merged') continue;
+    const merged = await new Promise((ok) => spawn('git', ['merge-base', '--is-ancestor', p.sha, 'origin/main'], { cwd: REPO }).on('close', (c) => ok(c === 0)));
+    if (merged) p.state = 'merged';
+    else if (!refs.some((r) => r.branch === p.branch && r.sha === p.sha) && p.state !== 'superseded') p.state = 'superseded';
+  }
+  for (const r of refs) {
+    if (list.some((p) => p.sha === r.sha)) continue;
+    const ahead = await out(['rev-list', '--count', `origin/main..${r.sha}`]); if (ahead === '0') continue;
+    const touches = (await out(['diff', '--name-only', `origin/main...${r.sha}`])).split('\n').includes(CUT);
+    if (!touches) continue;
+    list.unshift({ branch: r.branch, sha: r.sha, state: 'rendering', at: new Date().toISOString(), pr: `${repoUrl}/pulls?q=is%3Apr+head%3A${encodeURIComponent(r.branch)}`, subject: await out(['log', '-1', '--format=%s', r.sha]) });
+    writePrev(list);
+    enqueue('preview', { branch: r.branch, sha: r.sha });
+  }
+  writePrev(list);
+}
+setInterval(() => { if (!running && !queue.length) watchAgentBranches().catch((e) => console.error('previews', e.message)); }, 2 * 60 * 1000);
 setInterval(autoSync, 60 * 1000); setTimeout(autoSync, 15 * 1000);
 
 function enqueue(kind, input = {}) {

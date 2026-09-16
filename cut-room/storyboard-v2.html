@@ -64,6 +64,7 @@
   </header>
   <div id="studioBar" hidden><button class="primary" id="stRender">▶ Render the film</button><button id="stApply">✔ Apply my changes</button><button id="stPull">⟳ Get agents' updates</button><span class="st" id="stStatus">Studio server ready.</span></div>
   <pre id="jobLog" hidden></pre>
+  <section id="waiting" hidden style="margin:6px 0 14px"><h2 style="margin-top:6px">Waiting for Rexx</h2><p class="hint">A new version from an agent. Watch it, then open the change on GitHub and tap Merge. It goes live about a minute later.</p><div id="waitingList"></div></section>
   <section id="film" hidden><h2 style="margin-top:6px">Watch the film</h2><p class="hint" id="filmName"></p><video id="filmV" controls playsinline preload="metadata" style="width:100%;max-height:70vh;background:#000;border-radius:12px"></video></section>
   <div class="tabs" id="tabs"><button class="on" data-sec="scenes">Scenes</button><button data-sec="chars">Characters</button><button data-sec="sets">Sets</button><button data-sec="props">Props</button><button data-sec="reqs">Requests <span id="reqN"></span></button></div>
 
@@ -144,10 +145,27 @@ async function reloadBoard() {
   let b = null; try { const r = await fetch('board.json?t=' + Date.now(), { cache: 'no-store' }); if (r.ok) b = await r.json(); } catch (e) {} if (!b) return; BOARD = b; render();
   if (BOARD.film) { const u = BOARD.film.urls[0]; if (!$('filmV').src.endsWith(u)) { $('filmV').src = u; $('filmName').textContent = BOARD.film.name; } $('film').hidden = false; }
 }
+// agent versions waiting for the owner (rendered by the studio server from agent/* branches) — 2026-09-16
+async function loadWaiting() {
+  let list = []; try { const r = await fetch('/editor/previews/previews.json?t=' + Date.now(), { cache: 'no-store' }); if (r.ok) list = await r.json(); } catch (e) {}
+  const open = list.filter(p => p.state === 'ready' || p.state === 'rendering' || p.state === 'failed');
+  const box = $('waitingList'); box.textContent = '';
+  for (const p of open) {
+    const card = document.createElement('div'); card.style.cssText = 'background:var(--panel);border-radius:12px;padding:10px 12px;margin:0 0 10px';
+    const title = document.createElement('b'); title.textContent = (p.subject || p.branch) + ' '; card.appendChild(title);
+    const when = document.createElement('span'); when.className = 'hint'; when.textContent = '· ' + p.branch + ' · ' + new Date(p.ready_at || p.at).toLocaleString(); card.appendChild(when);
+    if (p.state === 'ready' && p.film) { const v = document.createElement('video'); v.controls = true; v.playsInline = true; v.preload = 'metadata'; v.src = p.film; v.style.cssText = 'width:100%;max-height:60vh;background:#000;border-radius:10px;margin:8px 0'; card.appendChild(v); }
+    else { const s = document.createElement('p'); s.className = 'hint'; s.textContent = p.state === 'rendering' ? 'Rendering the preview…' : 'The preview did not render: ' + (p.error || ''); card.appendChild(s); }
+    const a = document.createElement('a'); a.href = p.pr; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'Open the change on GitHub →'; a.style.cssText = 'display:inline-block;font-weight:700'; card.appendChild(a);
+    box.appendChild(card);
+  }
+  $('waiting').hidden = open.length === 0;
+}
 async function studioInit() {
   let h = null; try { const r = await fetch('/api/health', { cache: 'no-store' }); if (r.ok) h = await r.json(); } catch (e) {}
   if (!h || !h.ok) return;
   STUDIO = true; $('studioBar').hidden = false;
+  loadWaiting(); setInterval(loadWaiting, 60000);
   if (h.busy) { $('stStatus').textContent = h.busy.kind + ' is running…'; watchJob(h.busy, h.busy.kind); }
   $('stRender').onclick = async () => { if (!confirm('Render the film now? Takes a few minutes. The new film appears at the top when done.')) return; const j = await api('/render', { method: 'POST', body: '{}' }); if (j) watchJob(j, 'Render'); };
   $('stApply').onclick = async () => { await save(); const j = await api('/apply', { method: 'POST', body: '{}' }); if (j) watchJob(j, 'Apply my changes'); };
