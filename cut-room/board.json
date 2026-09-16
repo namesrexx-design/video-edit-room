@@ -7,11 +7,11 @@
    "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4",
    "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
   ],
-  "bytes": 73023132
+  "bytes": 73111833
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T04:04:21.379Z",
+ "builtAt": "2026-09-16T04:06:02.091Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
