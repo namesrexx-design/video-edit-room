@@ -23,3 +23,5 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 | Claude (MASTER) | STORYBOARD FINAL film | 2026-09-15 | GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4 delivered (Drive root + EDIT_ROOM, deliveries/FILM, Pages storyboard player, chat). 2807 f. S25/S26 not on the board and no uploads found; add when Rexx uploads. |
 
 | Claude (MASTER) | STORYBOARD FINAL pass 7 | 2026-09-15 | new S24 in; delivered. S25/S26 not found anywhere. |
+
+| Astra | S27 approved Rexx reply; additive selection source/import tool, new S27 and film timelines/receipts, media manifest; generated S27 view fields | 2026-09-16 | Owner approved second Kling take and insertion after two months ago. Preserve all other scenes and existing audio-library changes. |
