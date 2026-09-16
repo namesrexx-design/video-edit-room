@@ -1,0 +1,33 @@
+{
+  "type": "verification-of-existing-delivery-not-new-render",
+  "verifiedAtDate": "2026-09-16",
+  "verifiedBy": "Astra",
+  "scene": "S08",
+  "jobId": "33194ecc-ce1d-4b57-b92c-9e7a5414c15a",
+  "file": "S08-COMPLETE-with-approved-VO.mp4",
+  "sha256": "8681bad24b6a33faf579e8d3ba48a1df1d31c4e66f6048551869329e7c2f540d",
+  "gitBlob": "21b60d495aafd632efbe459ced7106ec521f5c0c",
+  "alreadyPresentOnMainAt": "9a3e122",
+  "bytes": 3356395,
+  "frames": 96,
+  "fps": 24,
+  "dimensions": [1920, 1080],
+  "videoSeconds": 4,
+  "audioStreamSeconds": 4,
+  "audioCodec": "aac",
+  "fullDecodePassed": true,
+  "approvedStem": "S08-V47-APPROVED-VOICEOVER-STEM.wav",
+  "spokenLineFromStoryboard": "Hey Homer, made it here as fast as I could.",
+  "verification": {
+    "method": "Decode delivery and approved stem to mono float32 PCM at 8000 Hz; normalized cross-correlation over offsets -0.5 to +0.5 seconds, using every fourth sample.",
+    "bestOffsetSeconds": 0,
+    "normalizedCorrelation": 0.999994280451506,
+    "activityThresholdRms": 0.008,
+    "activityWindowSeconds": 0.01,
+    "stemActivitySeconds": [0.29, 2.77],
+    "deliveryActivitySeconds": [0.29, 2.77],
+    "conclusion": "Approved greeting is already embedded at the original timing. No remux, voice regeneration, or paid render was needed. This is audio-stem alignment, not a new facial lip-sync assessment."
+  },
+  "handoff": "Claude: use the existing COMPLETE MP4 above and avoid layering the greeting a second time. Check placement in the latest film timeline; no film or storyboard selections were changed by this verification.",
+  "scopeLimit": "Does not certify incorporation of later corrected-shoes stills. No other scenes are marked complete. Server/R2 upload not performed: this runtime has no configured SSH or R2 credentials."
+}
