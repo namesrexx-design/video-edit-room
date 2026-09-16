@@ -7,11 +7,11 @@
    "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4",
    "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
   ],
-  "bytes": 70396075
+  "bytes": 70664878
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T04:47:19.939Z",
+ "builtAt": "2026-09-16T04:58:16.532Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -6287,7 +6287,7 @@
    "nextAction": "Early D’oh audio inserted. True lip-sync awaits Higgsfield sign-in recovery.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
    "video": "S18-CURRENT-V62.mp4",
-   "editStatus": "V72: quiet snore at first mosquito appearance63.083333; original bite and wake-up retained.",
+   "editStatus": "LIVE · card picture to 8.6 s, then INV049 (V68 wake lip-sync with its own synced sound). Pass 12.",
    "still": {
     "sheet": "sheets/scene-S18.jpg",
     "col": 0,
@@ -6591,7 +6591,7 @@
      "date": "2026-09-15",
      "file": "INV049_s18-wake-lipsync-a65e0b63-v68-raw.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV049.mp4",
-     "group": "pending",
+     "group": "approved",
      "approved": false,
      "id": "INV049",
      "title": "Lip-sync clip · INV049 · 5.042 s",
@@ -6792,7 +6792,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV049.jpg",
      "id": "INV049",
      "title": "Lip-sync clip · INV049 · 5.042 s",
-     "group": "pending",
+     "group": "approved",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -8272,7 +8272,7 @@
    "nextAction": "New pair reviewed and held for missing heel signatures and incorrect lettering; archived and blocked from render inputs.",
    "gate": "Owner flagged hood/car distortion after render and requires accurate real car source plus matched start/end frames before another job. Character source approval remains valid.",
    "video": "S24.mp4",
-   "editStatus": "COMPLETE · new takes (owner, tonight) with the approved line. In the film.",
+   "editStatus": "LIVE · new take A under the approved line, then INV004 over-the-shoulder (Rexx looking at Apu). Pass 12.",
    "still": {
     "sheet": "sheets/scene-S24.jpg",
     "col": 0,
@@ -8804,7 +8804,7 @@
    "nextAction": "Retain existing tail playback; new likeness still remains pending, not approved by this audit.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
    "video": "S27.mp4",
-   "editStatus": "LIVE · INV052 → Rexx reply → INV051 → INV053 (owner picked all three close-ups). Pass 10.",
+   "editStatus": "LIVE · INV052 → Rexx reply over INV004 over-the-shoulder → INV051 → INV053. Pass 12.",
    "still": {
     "sheet": "sheets/scene-S27.jpg",
     "col": 0,

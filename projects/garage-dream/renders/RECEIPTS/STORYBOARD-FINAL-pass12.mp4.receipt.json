@@ -1,0 +1,628 @@
+{
+  "cut": "STORYBOARD-FINAL.json",
+  "cutSha256": "6B1F1B6CEE8404F12A630482683F7DE219D1B111078CFC32B5847F3D44988926",
+  "savedAt": "2026-09-16T04:52:36.747Z",
+  "output": "C:\\Users\\16263\\Desktop\\video-edit-room\\projects\\garage-dream\\renders\\STORYBOARD-FINAL-pass12.mp4",
+  "outputSha256": "C92D6C411F9FC43C2E70FF3F57002D122C60B78EBA93AA51D42BDBDAE201908E",
+  "bytes": 70664878,
+  "frames": 2786,
+  "seconds": 116.083333,
+  "renderedAt": "2026-09-16T04:54:33.404Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "u": "sb_s01",
+      "id": "S01",
+      "file": "S01.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 79,
+      "mute": true
+    },
+    {
+      "u": "sb_s02",
+      "id": "S02",
+      "file": "S02.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 60,
+      "mute": true
+    },
+    {
+      "u": "sb_s03",
+      "id": "S03",
+      "file": "S03.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 53,
+      "mute": true
+    },
+    {
+      "u": "sb_s04",
+      "id": "S04",
+      "file": "S04.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 103,
+      "mute": true
+    },
+    {
+      "u": "sb_s05",
+      "id": "S05",
+      "file": "S05.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 170,
+      "mute": true
+    },
+    {
+      "u": "sb_s06",
+      "id": "S06",
+      "file": "S06.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 140,
+      "mute": true
+    },
+    {
+      "u": "sb_s07",
+      "id": "S07",
+      "file": "S07.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 138,
+      "mute": true
+    },
+    {
+      "u": "sb_s08",
+      "id": "S08",
+      "file": "S08.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 96,
+      "mute": true
+    },
+    {
+      "u": "sb_s09",
+      "id": "S09",
+      "file": "S09.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 120,
+      "mute": true
+    },
+    {
+      "u": "sb_s10",
+      "id": "S10",
+      "file": "S10.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 12,
+      "end": 289,
+      "mute": true
+    },
+    {
+      "u": "sb_s14",
+      "id": "S14",
+      "file": "S14.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 155,
+      "mute": true
+    },
+    {
+      "u": "sb_s16",
+      "id": "S16",
+      "file": "S16.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 171,
+      "mute": true
+    },
+    {
+      "u": "sb_s17",
+      "id": "S17",
+      "file": "S17.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    },
+    {
+      "u": "sb_s18",
+      "id": "S18",
+      "file": "S18.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 206,
+      "mute": true
+    },
+    {
+      "u": "sb_s18b",
+      "id": "INV049",
+      "file": "INV049_s18-wake-lipsync-a65e0b63-v68-raw.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 121,
+      "mute": true,
+      "note": "S18 wake-up, V68 Higgsfield lip-sync with its own sound (owner 2026-09-15: use the newer one)"
+    },
+    {
+      "u": "sb_s19",
+      "id": "S19",
+      "file": "S19.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    },
+    {
+      "u": "sb_s23",
+      "id": "S23",
+      "file": "S23.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 109,
+      "mute": true
+    },
+    {
+      "u": "sb_s24",
+      "id": "S24",
+      "file": "S24-new-complete.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 121,
+      "mute": true
+    },
+    {
+      "u": "sb_s24b",
+      "id": "INV004",
+      "file": "INV004_2026-09-14-20-41-kling3-0-9dace7c4-twelve-second-l.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 41,
+      "mute": true,
+      "note": "over-the-shoulder, Rexx looking at Apu (owner 1:34 note)"
+    },
+    {
+      "u": "sb_s27a",
+      "id": "INV052",
+      "file": "INV052_s27-rexx-upload-1122.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 57,
+      "mute": true,
+      "note": "Apu: Hey, will that work for my new Vintage Mart? (owner close-up, chosen)"
+    },
+    {
+      "u": "sb_s27r",
+      "id": "S27-REXX",
+      "file": "INV004_2026-09-14-20-41-kling3-0-9dace7c4-twelve-second-l.mp4",
+      "folder": "inventory-v74",
+      "start": 41,
+      "end": 91,
+      "mute": true,
+      "note": "Rexx: Oh, you got a new Vintage Mart? — INV004 over-the-shoulder picture, kit audio"
+    },
+    {
+      "u": "sb_s27c",
+      "id": "INV051",
+      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "mute": true,
+      "note": "Apu: Yeah, I opened it two months ago (owner close-up INV051, owner: that is the one)"
+    },
+    {
+      "u": "sb_s27d",
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "mute": true,
+      "note": "Apu: Alright, jump in, let's go! (owner close-up, chosen)"
+    },
+    {
+      "u": "sb_s28",
+      "id": "INV008",
+      "file": "INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 96,
+      "mute": true,
+      "note": "S28 passenger-seat conversation (Sep 14, right Homer), 4 s, under the Rexx reminder line"
+    },
+    {
+      "u": "sb_s29a",
+      "id": "INV043",
+      "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 45,
+      "mute": true,
+      "note": "Apu: Alright Homer, catch you later (native lip-sync)"
+    },
+    {
+      "u": "sb_s29b",
+      "id": "INV044",
+      "file": "INV044_s29-v74-l2-native-higgs-return.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 56,
+      "mute": true,
+      "note": "Apu: Homer, did you convert to Hindu? (native lip-sync)"
+    },
+    {
+      "u": "sb_s29c",
+      "id": "INV042",
+      "file": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 21,
+      "mute": true,
+      "note": "Homer: What do you mean? (picture) + kit audio"
+    },
+    {
+      "u": "sb_s29d",
+      "id": "INV009",
+      "file": "INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 46,
+      "mute": true,
+      "note": "Rexx (POV): He's talking about the blood on your forehead — kit audio"
+    },
+    {
+      "u": "sb_s29e",
+      "id": "INV050",
+      "file": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 24,
+      "mute": true,
+      "note": "Homer: Blood? (close-up lip-sync, own audio)"
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "S01-sound",
+      "file": "S01.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 79,
+      "at": 0,
+      "sceneSound": true,
+      "link": "sb_s01",
+      "gain": 2
+    },
+    {
+      "id": "S02-sound",
+      "file": "S02.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 60,
+      "at": 79,
+      "sceneSound": true,
+      "link": "sb_s02",
+      "gain": 3
+    },
+    {
+      "id": "S03-sound",
+      "file": "S03.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 53,
+      "at": 139,
+      "sceneSound": true,
+      "link": "sb_s03",
+      "gain": 4
+    },
+    {
+      "id": "S04-sound",
+      "file": "S04.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 103,
+      "at": 192,
+      "sceneSound": true,
+      "link": "sb_s04",
+      "gain": 4
+    },
+    {
+      "id": "S05-sound",
+      "file": "S05.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 170,
+      "at": 295,
+      "sceneSound": true,
+      "link": "sb_s05",
+      "gain": -3
+    },
+    {
+      "id": "S06-sound",
+      "file": "S06.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 140,
+      "at": 465,
+      "sceneSound": true,
+      "link": "sb_s06",
+      "gain": 9
+    },
+    {
+      "id": "S07-sound",
+      "file": "S07.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 138,
+      "at": 605,
+      "sceneSound": true,
+      "link": "sb_s07",
+      "gain": -2
+    },
+    {
+      "id": "S08-sound",
+      "file": "S08.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 96,
+      "at": 743,
+      "sceneSound": true,
+      "link": "sb_s08",
+      "gain": 5
+    },
+    {
+      "id": "S09-sound",
+      "file": "S09.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 135,
+      "at": 839,
+      "sceneSound": true,
+      "link": "sb_s09",
+      "gain": 3
+    },
+    {
+      "id": "S10-sound",
+      "file": "S10.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 12,
+      "end": 289,
+      "at": 959,
+      "sceneSound": true,
+      "link": "sb_s10",
+      "gain": 1
+    },
+    {
+      "id": "S14-sound",
+      "file": "S14.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 155,
+      "at": 1236,
+      "sceneSound": true,
+      "link": "sb_s14",
+      "gain": -1
+    },
+    {
+      "id": "S16-sound",
+      "file": "S16.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 171,
+      "at": 1391,
+      "sceneSound": true,
+      "link": "sb_s16",
+      "gain": 1
+    },
+    {
+      "id": "S17-sound",
+      "file": "S17.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "at": 1562,
+      "sceneSound": true,
+      "link": "sb_s17",
+      "gain": 0
+    },
+    {
+      "id": "S18-sound",
+      "file": "S18.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 206,
+      "at": 1634,
+      "sceneSound": true,
+      "link": "sb_s18",
+      "gain": 0
+    },
+    {
+      "id": "S19-sound",
+      "file": "S19.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 72,
+      "at": 1961,
+      "sceneSound": true,
+      "link": "sb_s19",
+      "gain": 7
+    },
+    {
+      "id": "S23-sound",
+      "file": "S23.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 109,
+      "at": 2033,
+      "sceneSound": true,
+      "link": "sb_s23",
+      "gain": 0
+    },
+    {
+      "id": "S24-sound",
+      "file": "S24-new-complete.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 162,
+      "at": 2142,
+      "sceneSound": true,
+      "link": "sb_s24",
+      "gain": 9
+    },
+    {
+      "id": "INV052-sound",
+      "file": "INV052_s27-rexx-upload-1122.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 57,
+      "at": 2304,
+      "sceneSound": true,
+      "link": "sb_s27a",
+      "gain": -2
+    },
+    {
+      "id": "S27-REXX-sound",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 212,
+      "end": 262,
+      "at": 2361,
+      "sceneSound": true,
+      "link": "sb_s27r",
+      "gain": -2
+    },
+    {
+      "id": "INV051-sound",
+      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "at": 2411,
+      "sceneSound": true,
+      "link": "sb_s27c",
+      "gain": -2
+    },
+    {
+      "id": "INV053-sound",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "at": 2459,
+      "sceneSound": true,
+      "link": "sb_s27d",
+      "gain": -2
+    },
+    {
+      "id": "S28-sound",
+      "file": "S28.mp4",
+      "folder": "storyboard-final-20260915",
+      "start": 0,
+      "end": 85,
+      "at": 2498,
+      "sceneSound": true,
+      "link": "sb_s28",
+      "gain": -2
+    },
+    {
+      "id": "INV043-sound",
+      "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 45,
+      "at": 2594,
+      "sceneSound": true,
+      "link": "sb_s29a",
+      "gain": 6
+    },
+    {
+      "id": "INV044-sound",
+      "file": "INV044_s29-v74-l2-native-higgs-return.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 56,
+      "at": 2639,
+      "sceneSound": true,
+      "link": "sb_s29b",
+      "gain": 5
+    },
+    {
+      "id": "S29-whatdoyoumean-sound",
+      "file": "24_S29_farewell-fist-bump.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 156,
+      "end": 177,
+      "at": 2695,
+      "sceneSound": true,
+      "link": "sb_s29c",
+      "gain": -4
+    },
+    {
+      "id": "S29-blood-line-sound",
+      "file": "24_S29_farewell-fist-bump.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 179,
+      "end": 225,
+      "at": 2716,
+      "sceneSound": true,
+      "link": "sb_s29d",
+      "gain": -4
+    },
+    {
+      "id": "INV050-sound",
+      "file": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 24,
+      "at": 2762,
+      "sceneSound": true,
+      "link": "sb_s29e",
+      "gain": -2
+    },
+    {
+      "id": "INV049-sound",
+      "file": "INV049_s18-wake-lipsync-a65e0b63-v68-raw.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 121,
+      "at": 1840,
+      "sceneSound": true,
+      "link": "sb_s18b",
+      "gain": -5
+    },
+    {
+      "id": "snore-1",
+      "file": "AUD025_v74-mosquito-snore-62p083333-115p166667-48k-f32.wav",
+      "folder": "audio-bin-v74",
+      "start": 1490,
+      "end": 1551,
+      "at": 1464,
+      "gain": -10,
+      "note": "snore lightly 61–63.5 s"
+    },
+    {
+      "id": "snore-2",
+      "file": "AUD025_v74-mosquito-snore-62p083333-115p166667-48k-f32.wav",
+      "folder": "audio-bin-v74",
+      "start": 1490,
+      "end": 1551,
+      "at": 1680,
+      "gain": -6,
+      "note": "snore 70–72.5 s"
+    },
+    {
+      "id": "snore-3",
+      "file": "AUD025_v74-mosquito-snore-62p083333-115p166667-48k-f32.wav",
+      "folder": "audio-bin-v74",
+      "start": 1490,
+      "end": 1551,
+      "at": 1741,
+      "gain": -6,
+      "note": "snore 72.5–75 s"
+    }
+  ]
+}
