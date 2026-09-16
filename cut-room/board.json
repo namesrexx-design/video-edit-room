@@ -9,9 +9,435 @@
   ],
   "bytes": 70664878
  },
+ "library": {
+  "clips": [
+   {
+    "id": "INV008",
+    "title": "An understated, natural eight-second conversation filmed by a locked passenger-s",
+    "group": "higgsfield",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV008.mp4"
+   },
+   {
+    "id": "INV009",
+    "title": "Eight-second fixed-camera photorealistic passenger-POV farewell from the exact s",
+    "group": "higgsfield",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV009.mp4"
+   },
+   {
+    "id": "INV010",
+    "title": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+    "group": "higgsfield",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV010.mp4"
+   },
+   {
+    "id": "INV028",
+    "title": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+    "group": "higgsfield",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV028.mp4"
+   },
+   {
+    "id": "INV029",
+    "title": "S27 V74 Apu L1 3A05 FULL16X9 HANDLES80MS",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV029.mp4"
+   },
+   {
+    "id": "INV030",
+    "title": "S27 V74 Apu L1 3A05 FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV030.mp4"
+   },
+   {
+    "id": "INV031",
+    "title": "S27 V74 Apu L1 9DACE FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV031.mp4"
+   },
+   {
+    "id": "INV032",
+    "title": "S27 V74 Apu L2 3A05 FULL16X9 HANDLES80MS",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV032.mp4"
+   },
+   {
+    "id": "INV033",
+    "title": "S27 V74 Apu L2 3A05 FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV033.mp4"
+   },
+   {
+    "id": "INV034",
+    "title": "S27 V74 Apu L3 3A05 FULL16X9 HANDLES80MS",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV034.mp4"
+   },
+   {
+    "id": "INV035",
+    "title": "S27 V74 Apu L3 3A05 FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV035.mp4"
+   },
+   {
+    "id": "INV036",
+    "title": "S27 V74 L1 NATIVE HIGGS RETURN",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV036.mp4"
+   },
+   {
+    "id": "INV037",
+    "title": "S27 V74 L2 NATIVE HIGGS RETURN",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV037.mp4"
+   },
+   {
+    "id": "INV038",
+    "title": "S27 V74 L3 NATIVE HIGGS RETURN",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV038.mp4"
+   },
+   {
+    "id": "INV039",
+    "title": "S29 V74 Apu L1 5F38 NATIVE FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV039.mp4"
+   },
+   {
+    "id": "INV040",
+    "title": "S29 V74 Apu L2 5F38 NATIVE FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV040.mp4"
+   },
+   {
+    "id": "INV041",
+    "title": "S29 V74 Homer Blood 5F38 NATIVE FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV041.mp4"
+   },
+   {
+    "id": "INV042",
+    "title": "S29 V74 Homer WhatDoYouMean 5F38 NATIVE FULL16X9",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV042.mp4"
+   },
+   {
+    "id": "INV043",
+    "title": "S29 V74 L1 NATIVE HIGGS RETURN",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV043.mp4"
+   },
+   {
+    "id": "INV044",
+    "title": "S29 V74 L2 NATIVE HIGGS RETURN",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV044.mp4"
+   },
+   {
+    "id": "INV046",
+    "title": "S09 LIPSYNC C2EF V58",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV046.mp4"
+   },
+   {
+    "id": "INV047",
+    "title": "S10 V65 SECOND HALF LIPSYNC",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV047.mp4"
+   },
+   {
+    "id": "INV048",
+    "title": "S14 LIPSYNC V58",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV048.mp4"
+   },
+   {
+    "id": "INV049",
+    "title": "S18 WAKE LIPSYNC A65E0B63 V68 RAW",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV049.mp4"
+   },
+   {
+    "id": "INV050",
+    "title": "S29 BLOOD LIPSYNC 0E15B23B RAW",
+    "group": "lipsync",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV050.mp4"
+   },
+   {
+    "id": "INV051",
+    "title": "S27 START rexx upload 1129",
+    "group": "owner",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV051.mp4"
+   },
+   {
+    "id": "INV052",
+    "title": "S27 rexx upload 1122",
+    "group": "owner",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV052.mp4"
+   },
+   {
+    "id": "INV053",
+    "title": "S27.2 rexx upload 1124",
+    "group": "owner",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV053.mp4"
+   },
+   {
+    "id": "INV054",
+    "title": "S11 CANDIDATE 1eff7ef9 (Astra handoff)",
+    "group": "handoff",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV054.mp4"
+   },
+   {
+    "id": "INV055",
+    "title": "S11 take 0815 91ab117f (Astra handoff)",
+    "group": "handoff",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV055.mp4"
+   },
+   {
+    "id": "INV056",
+    "title": "S11 take 1406 8ed62d6f (Astra handoff)",
+    "group": "handoff",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV056.mp4"
+   },
+   {
+    "id": "INV057",
+    "title": "S11 take 1420 9d6f1bd6 (Astra handoff)",
+    "group": "handoff",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV057.mp4"
+   },
+   {
+    "id": "INV058",
+    "title": "S12 CANDIDATE 805bb54f (Astra handoff)",
+    "group": "handoff",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV058.mp4"
+   },
+   {
+    "id": "INV059",
+    "title": "S13 CANDIDATE 0657c6f7 (Astra handoff)",
+    "group": "handoff",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV059.mp4"
+   },
+   {
+    "id": "INV060",
+    "title": "S15 CANDIDATE 77f53145 (Astra handoff)",
+    "group": "handoff",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV060.mp4"
+   },
+   {
+    "id": "INV061",
+    "title": "S08 TRIAL 33194ecc kling3_0 pro 4s (new render, owner review)",
+    "group": "trial",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV061.mp4"
+   },
+   {
+    "id": "INV062",
+    "title": "S08 TRIAL 33194ecc kling3_0 pro 4s_COMPLETE with approved VO (new render, owner review)",
+    "group": "trial",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV062.mp4"
+   },
+   {
+    "id": "INV063",
+    "title": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
+    "group": "trial",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV063.mp4"
+   },
+   {
+    "id": "INV064",
+    "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
+    "group": "trial",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV064.mp4"
+   },
+   {
+    "id": "INV065",
+    "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
+    "group": "trial",
+    "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV065.mp4"
+   }
+  ],
+  "audio": [
+   {
+    "id": "AUD001",
+    "title": "BizBox piano theme — Pursuit of Happiness",
+    "seconds": 65.071,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD001.mp3"
+   },
+   {
+    "id": "AUD002",
+    "title": "Kid Cudi — 1",
+    "seconds": 289.853,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD002.mp3"
+   },
+   {
+    "id": "AUD003",
+    "title": "Kid Cudi — 2",
+    "seconds": 289.853,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD003.mp3"
+   },
+   {
+    "id": "AUD004",
+    "title": "Bugatti song phrase (6.5 s reference)",
+    "seconds": 6.5,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD004.mp3"
+   },
+   {
+    "id": "AUD005",
+    "title": "Song + whisper, car audition (54.5–67 s)",
+    "seconds": 12.5,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD005.mp3"
+   },
+   {
+    "id": "AUD006",
+    "title": "S27 V74 Apu L1 APPROVED DIALOGUE",
+    "seconds": 2.219,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD006.mp3"
+   },
+   {
+    "id": "AUD007",
+    "title": "S27 V74 Apu L1 APU DRIVER",
+    "seconds": 2.219,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD007.mp3"
+   },
+   {
+    "id": "AUD008",
+    "title": "S27 V74 Apu L2 APPROVED DIALOGUE",
+    "seconds": 1.841,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD008.mp3"
+   },
+   {
+    "id": "AUD009",
+    "title": "S27 V74 Apu L2 APU DRIVER",
+    "seconds": 1.841,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD009.mp3"
+   },
+   {
+    "id": "AUD010",
+    "title": "S27 V74 Apu L3 APPROVED DIALOGUE",
+    "seconds": 1.545,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD010.mp3"
+   },
+   {
+    "id": "AUD011",
+    "title": "S27 V74 Apu L3 APU DRIVER",
+    "seconds": 1.545,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD011.mp3"
+   },
+   {
+    "id": "AUD012",
+    "title": "S27 V74 L1 RETURN AUDIO",
+    "seconds": 2.392,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD012.mp3"
+   },
+   {
+    "id": "AUD013",
+    "title": "S27 V74 L2 RETURN AUDIO",
+    "seconds": 2.02,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD013.mp3"
+   },
+   {
+    "id": "AUD014",
+    "title": "Bart — door V3 (3 s, approved voice)",
+    "seconds": 3.008,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD014.mp3"
+   },
+   {
+    "id": "AUD015",
+    "title": "Bart — complete take (5 s)",
+    "seconds": 5.042,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD015.mp3"
+   },
+   {
+    "id": "AUD016",
+    "title": "Bart — Eat my shorts (2.5 s)",
+    "seconds": 2.45,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD016.mp3"
+   },
+   {
+    "id": "AUD017",
+    "title": "Bart — exit V4 phone free (5 s)",
+    "seconds": 5.056,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD017.mp3"
+   },
+   {
+    "id": "AUD018",
+    "title": "Homer — Bugatti three whispers",
+    "seconds": 2.7,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD018.mp3"
+   },
+   {
+    "id": "AUD019",
+    "title": "Bugatti intro replacement (56.7–63.1 s)",
+    "seconds": 6.392,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD019.mp3"
+   },
+   {
+    "id": "AUD020",
+    "title": "Rexx — Waymo arrival line",
+    "seconds": 0.667,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD020.mp3"
+   },
+   {
+    "id": "AUD021",
+    "title": "Rexx — No! It was that kid (S21)",
+    "seconds": 6.348,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD021.mp3"
+   },
+   {
+    "id": "AUD022",
+    "title": "Snore cue — mosquito",
+    "seconds": 1,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD022.mp3"
+   },
+   {
+    "id": "AUD023",
+    "title": "Snore cue — recliner",
+    "seconds": 0.992,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD023.mp3"
+   },
+   {
+    "id": "AUD024",
+    "title": "V74 stem — mosquito buzz",
+    "seconds": 115.167,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD024.mp3"
+   },
+   {
+    "id": "AUD025",
+    "title": "V74 stem — snore",
+    "seconds": 115.167,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD025.mp3"
+   },
+   {
+    "id": "AUD026",
+    "title": "V74 stem — Bart line",
+    "seconds": 115.167,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD026.mp3"
+   },
+   {
+    "id": "AUD027",
+    "title": "V74 stem — Waymo/driveway bridge",
+    "seconds": 115.167,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD027.mp3"
+   },
+   {
+    "id": "AUD028",
+    "title": "V74 full mix (what is in the cut now)",
+    "seconds": 115.167,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD028.mp3"
+   },
+   {
+    "id": "AUD029",
+    "title": "S27 FULL CONVERSATION · approved (\"that works\") · Apu: will that work / Rexx: oh you got a new vintage mart / Apu: two months ago / Rexx: alright I'm down / Apu: jump in",
+    "seconds": 11.23,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD029.mp3"
+   },
+   {
+    "id": "AUD030",
+    "title": "S24 REXX approved line · I'm showing Homer how to use BizBox, the app I built, to sell all this stuff in his garage",
+    "seconds": 6.43,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD030.mp3"
+   }
+  ]
+ },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T04:58:16.532Z",
+ "builtAt": "2026-09-16T14:00:27.453Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
