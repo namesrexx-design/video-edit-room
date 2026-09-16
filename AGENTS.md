@@ -14,6 +14,7 @@ Pushing media here makes your platform stop and ask Rexx. Instead use the **BizB
 - Address: `https://mcp.biz-box.io/mcp`, header `Authorization: Bearer <key>`. The key is in your environment secrets as `BIZBOX_TEAM_KEY` (Rexx adds it; never print it, never commit it).
 - Tools: `list_files`, `get_upload_link` (then HTTP PUT the file), `read_text_file`, `write_text_file`, `get_download_link`, `start_job` (`convert_video`, `remove_background`), `job_status`.
 - Put Garage Dream media under `garage-dream/<scene>/<file>`, for example `garage-dream/S29/S29-bump-v4.mp4`.
+- Merch renders (hats, mugs, shirts, shirt designs) go under `garage-dream/merch/<group>/` with group = `hats`, `mugs`, `shirts` or `shirt-designs`. They show in the storyboard Merch tab within about a minute.
 - In a cut, point a block at it with `"folder": "team"` and `"file": "garage-dream/S29/S29-bump-v4.mp4"`.
 - Small receipts and notes can still go in `projects/garage-dream/deliveries/`; cuts can read those with `"folder": "repo-deliveries"` and a `file` path relative to that folder.
 

@@ -168,7 +168,26 @@ const F0 = filmList[0];
 const FILM = F0 ? { file: F0.file, name: F0.file.replace(/\.mp4$/i, '').replace(/-/g, ' '), urls: [F0.url, F0.file], bytes: fs.statSync(F0.abs).size, builtAt: new Date(fs.statSync(F0.abs).mtimeMs).toISOString() } : null;
 // Library: every shelf clip with a web proxy + every audio file, so the owner can add any of them to any scene from the page (2026-09-16)
 const LIBRARY = { clips: invClips.filter(c => clipUrl(c.id)).map(c => ({ id: c.id, title: c.title || c.file, date: c.date || c.at, group: c.group, videoUrl: clipUrl(c.id) })), audio: audioBin.filter(a => audioUrl(a.id)).map(a => ({ id: a.id, title: a.title, seconds: a.seconds, audioUrl: audioUrl(a.id) })) };
-const board = { format: 3, film: FILM, library: LIBRARY, v74Date: V74_DATE, source: 'Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)', builtAt: new Date().toISOString(), version: sb.version, currentCut: sb.currentFullCut?.title, scenes, characters, sets, props: { current: propsBound.filter(p => p.approved), archive: propsBound.filter(p => !p.approved) }, objects, sheets: SHEETS, lockStatus: clean(lock.status), blockers: (lock.blockers || []).map(clean) };
+// ---- MERCH (2026-09-16): hats, mugs, shirts, shirt designs — the LYFE merch the characters wear.
+// Files: <media>/merch/<group>/ (owner uploads from the page) and <media>/team/merch/<group>/ or
+// <media>/team/garage-dream/merch/<group>/ (agents, through the BizBox connector). Newest first. Videos get a poster.
+const MERCH_GROUPS = [["hats", "Hats"], ["mugs", "Mugs"], ["shirts", "Shirts"], ["shirt-designs", "Shirt designs"]];
+const IMG_RE = /[.](png|jpe?g|webp)$/i, VID_RE = /[.](mp4|mov|webm)$/i;
+const merchUrl = (p) => SERVER && p.startsWith(MEDIA + "/") ? "/media/" + p.slice(MEDIA.length + 1).split("/").map(encodeURIComponent).join("/") : null;
+const merch = MERCH_GROUPS.map(([key, label]) => {
+  const dirs = [MEDIA + "/merch/" + key, MEDIA + "/team/merch/" + key, MEDIA + "/team/garage-dream/merch/" + key];
+  const files = dirs.flatMap((d) => walkFiles2(d)).filter((p) => IMG_RE.test(p) || VID_RE.test(p)).sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs);
+  const tiles = files.map((p) => {
+    let still = p;
+    if (VID_RE.test(p)) { const th = EDITOR + "/merch-thumbs/" + base(p) + ".jpg"; fs.mkdirSync(EDITOR + "/merch-thumbs", { recursive: true }); if (!fs.existsSync(th)) spawnSync("ffmpeg", ["-v", "error", "-y", "-ss", "0.5", "-i", p, "-frames:v", "1", "-vf", "scale=480:-2", th]); still = fs.existsSync(th) ? th : null; }
+    return tile(still, { id: key + "-" + base(p), title: base(p).replace(/[-_]/g, " "), group: "merch", approved: true, date: new Date(fs.statSync(p).mtimeMs).toISOString().slice(0, 10), videoUrl: VID_RE.test(p) ? merchUrl(p) : undefined, fullUrl: IMG_RE.test(p) ? merchUrl(p) : undefined });
+  });
+  const m = pack("merch-" + key, tiles.map((t) => t.src).filter(Boolean), "port");
+  return { key, label, items: bind(tiles, m).map(({ src, ...t }) => t) };
+});
+function walkFiles2(d) { if (!fs.existsSync(d)) return []; return fs.readdirSync(d).flatMap((x) => { const q = d + "/" + x; return fs.statSync(q).isDirectory() ? walkFiles2(q) : [q]; }); }
+
+const board = { format: 3, film: FILM, library: LIBRARY, merch, v74Date: V74_DATE, source: 'Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)', builtAt: new Date().toISOString(), version: sb.version, currentCut: sb.currentFullCut?.title, scenes, characters, sets, props: { current: propsBound.filter(p => p.approved), archive: propsBound.filter(p => !p.approved) }, objects, sheets: SHEETS, lockStatus: clean(lock.status), blockers: (lock.blockers || []).map(clean) };
 // Source map for the Drive per-scene folders (tools/fill-drive-scene-folders.mjs): the real file paths behind every tile.
 fs.writeFileSync(EDITOR + '/board-sources.json', JSON.stringify({ builtAt: new Date().toISOString(), scenes: scenes.map(s => ({ id: s.id, title: s.title, line: s.line, status: s.status, set: s.set, angle: s.angle, cast: s.cast, props: s.props, v74: s.v74, video: s.video, editStatus: s.editStatus, current: s._cur || null, stills: (s._src || []), audio: (s._audioSrc || []) })), characters: Object.values(chars).map(c => ({ name: c.name, refs: c.refs.map(t => ({ src: t.src, id: t.id, title: t.title, role: t.role, approved: !!t.approved, date: t.date })) })), sets: sets.map(x => ({ name: x.name, scenes: x.scenes, current: x._current, archive: x._archive })), props: propTiles.map(t => ({ src: t.src, id: t.id, title: t.title, role: t.role, approved: !!t.approved, date: t.date })) }, null, 1));
 for (const x of sets) { delete x._current; delete x._archive; }   // sources only, not for the view

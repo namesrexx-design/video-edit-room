@@ -125,6 +125,15 @@ async function autoSync() {
   finally { syncing = false; }
 }
 RECIPES.fastforward = async (job) => { await pull(job); };
+// merch uploads from the page: media/merch/<group>/, copied to cloud storage, board rebuilt (no repo change)
+RECIPES.merch = async (job) => {
+  const { group, name, tmp } = job.input; const dir = path.join(MEDIA, 'merch', group); fs.mkdirSync(dir, { recursive: true });
+  let dest = path.join(dir, name); if (fs.existsSync(dest)) dest = path.join(dir, `${Date.now().toString(36)}-${name}`);
+  fs.renameSync(tmp, dest);
+  await sh(job, 'rclone', ['copy', dir, `${BUCKET}/media/merch/${group}`, '--stats-one-line']);
+  await publishBoard(job);
+  job.result = { file: dest };
+};
 
 // ---- previews: an agent PR that changes the cut gets a preview film before a person merges it ----
 // Rendered with main's tools against the branch's files (a temporary git worktree), never committed.
@@ -208,6 +217,14 @@ http.createServer(async (req, res) => {
     if (req.method === 'POST' && ['/apply', '/rebuild', '/pull'].includes(p)) return send(res, 202, view(enqueue(p.slice(1))));
     if (req.method === 'POST' && p === '/render') { const b = await readJson(req); const cut = b.cut && /^projects\/garage-dream\/cuts\/[A-Za-z0-9._-]+\.json$/.test(b.cut) ? b.cut : undefined; return send(res, 202, view(enqueue('render', { cut }))); }
     if (req.method === 'POST' && p === '/cut') { const b = await readJson(req); if (!b.cut || b.cut.format !== 2) return send(res, 400, { error: 'expected a format-2 cut' }); return send(res, 202, view(enqueue('cut', { name: b.name, cut: b.cut }))); }
+    if (req.method === 'POST' && p === '/upload' && u.searchParams.get('merch')) {
+      const group = u.searchParams.get('merch'); const name = (u.searchParams.get('name') || '').replace(/[^A-Za-z0-9._ -]+/g, '_').slice(0, 120);
+      if (!['hats', 'mugs', 'shirts', 'shirt-designs'].includes(group) || !/\.(png|jpe?g|webp|mp4|mov|webm)$/i.test(name)) return send(res, 400, { error: 'need merch=hats|mugs|shirts|shirt-designs and a picture or video' });
+      const tmp = path.join(JOBS, 'upload-' + crypto.randomBytes(6).toString('hex')); const w = fs.createWriteStream(tmp); let size = 0;
+      req.on('data', c => { size += c.length; if (size > 1.5e9) req.destroy(); });
+      req.pipe(w); await new Promise((ok, bad) => { w.on('finish', ok); w.on('error', bad); });
+      return send(res, 202, view(enqueue('merch', { group, name, tmp })));
+    }
     if (req.method === 'POST' && p === '/upload') {
       const scene = u.searchParams.get('scene') || ''; const name = (u.searchParams.get('name') || '').replace(/[^A-Za-z0-9._ -]+/g, '_').slice(0, 120);
       if (!/^S\d+[A-Z]?$/.test(scene) || !/\.(mp4|mov|jpg|jpeg|png|webp|wav|mp3|m4a)$/i.test(name)) return send(res, 400, { error: 'need scene=S## and a media file name' });
