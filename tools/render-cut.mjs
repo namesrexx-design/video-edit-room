@@ -13,7 +13,7 @@ import { MEDIA_ROOT } from './paths.mjs';
 const [, , cutPath, nameArg] = process.argv;
 if (!cutPath || !nameArg) { console.error('usage: node tools/render-cut.mjs <cut.json> <name>'); process.exit(2); }
 const MEDIA = MEDIA_ROOT;
-const FOLDERS = { 'capcut-kit-v74/SCENES_IN_ORDER': `${MEDIA}/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER`, 'inventory-v74': `${MEDIA}/inventory-v74`, 'audio-bin-v74': `${MEDIA}/audio-bin-v74`, 'storyboard-final-20260915': `${MEDIA}/storyboard-final-20260915` };
+const FOLDERS = { 'capcut-kit-v74/SCENES_IN_ORDER': `${MEDIA}/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER`, 'inventory-v74': `${MEDIA}/inventory-v74`, 'audio-bin-v74': `${MEDIA}/audio-bin-v74`, 'storyboard-final-20260915': `${MEDIA}/storyboard-final-20260915`, 'final-pass-20260916': `${MEDIA}/final-pass-20260916` };
 const cut = JSON.parse(fs.readFileSync(cutPath, 'utf8'));
 if (cut.format !== 2) throw new Error('expected a format-2 Cut Room save');
 const proj = path.resolve('projects/garage-dream'); const renders = path.join(proj, 'renders');

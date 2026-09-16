@@ -1,9 +1,9 @@
 {
  "format": 2,
- "name": "STORYBOARD-FINAL pass 15",
- "savedAt": "2026-09-16T21:03:54.329Z",
+ "name": "GARAGE DREAM — STORYBOARD FINAL (every card video in order) pass 2, leveled, 2026-09-15",
+ "savedAt": "2026-09-16T17:24:11.952Z",
  "fps": 24,
- "frames": 3078,
+ "frames": 3039,
  "v1": [
   {
    "u": "sb_s01",
@@ -221,13 +221,13 @@
   },
   {
    "u": "sb_s27c",
-   "id": "S27-HOMER",
-   "file": "S27-COMPLETE-homer-two-months-timed-voice-v1.mp4",
-   "folder": "final-pass-20260916",
+   "id": "INV051",
+   "file": "INV051_s27-start-rexx-upload-1129.mp4",
+   "folder": "inventory-v74",
    "start": 0,
-   "end": 52,
+   "end": 48,
    "mute": true,
-   "note": "Homer: Yeah, he opened it two months ago (Codex PR #19, owner correction 1:39)",
+   "note": "Apu: Yeah, I opened it two months ago (owner close-up INV051, owner: that is the one)",
    "scene": "S27"
   },
   {
@@ -254,35 +254,24 @@
   },
   {
    "u": "sb_s28",
-   "id": "S28-NOD",
-   "file": "S28-COMPLETE-closed-mouth-nodding-v2.mp4",
-   "folder": "final-pass-20260916",
+   "id": "INV008",
+   "file": "INV008_2026-09-14-16-08-kling3-0-c7c1b2e0-an-understated-.mp4",
+   "folder": "inventory-v74",
    "start": 0,
-   "end": 86,
+   "end": 96,
    "mute": true,
-   "note": "Rexx: take the photos, Homer — Homer and Apu nod, mouths closed (Codex PR #19, owner correction 1:51)",
+   "note": "S28 passenger-seat conversation (Sep 14, right Homer), 4 s, under the Rexx reminder line",
    "scene": "S28"
-  },
-  {
-   "u": "sb_s29bump",
-   "id": "S29-BUMP",
-   "scene": "S29",
-   "file": "S29-COMPLETE-single-bump-clean-handoff-v3.mp4",
-   "folder": "final-pass-20260916",
-   "start": 0,
-   "end": 51,
-   "mute": true,
-   "note": "One clean fist bump (Codex PR #19, owner: double fist bump needs a new start and end)"
   },
   {
    "u": "sb_s29a",
    "id": "INV043",
    "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
    "folder": "inventory-v74",
-   "start": 6,
+   "start": 0,
    "end": 45,
    "mute": true,
-   "note": "Apu: Alright Homer, catch you later (native lip-sync) — opening bump cut (frames 0-5), sound J-cut",
+   "note": "Apu: Alright Homer, catch you later (native lip-sync)",
    "scene": "S29"
   },
   {
@@ -309,13 +298,13 @@
   },
   {
    "u": "sb_s29d",
-   "id": "S29-LISTEN",
-   "file": "S29-COMPLETE-silent-listeners-with-rexx-line-v2.mp4",
-   "folder": "final-pass-20260916",
+   "id": "INV009",
+   "file": "INV009_2026-09-14-16-00-kling3-0-84328c0d-eight-second-fi.mp4",
+   "folder": "inventory-v74",
    "start": 0,
    "end": 46,
    "mute": true,
-   "note": "Rexx: the blood on your forehead — Homer and Apu listen, mouths closed (Codex PR #19, owner correction 2:00)",
+   "note": "Rexx (POV): He's talking about the blood on your forehead — kit audio",
    "scene": "S29"
   },
   {
@@ -542,15 +531,15 @@
    "gain": -2
   },
   {
-   "id": "S27-HOMER-sound",
-   "file": "S27-COMPLETE-homer-two-months-timed-voice-v1.mp4",
-   "folder": "final-pass-20260916",
+   "id": "INV051-sound",
+   "file": "INV051_s27-start-rexx-upload-1129.mp4",
+   "folder": "inventory-v74",
    "start": 0,
-   "end": 52,
+   "end": 48,
    "at": 2392,
    "sceneSound": true,
    "link": "sb_s27c",
-   "gain": 0
+   "gain": -2
   },
   {
    "id": "INV053-sound",
@@ -558,21 +547,21 @@
    "folder": "inventory-v74",
    "start": 0,
    "end": 39,
-   "at": 2628,
+   "at": 2624,
    "sceneSound": true,
    "link": "sb_s27d",
    "gain": -2
   },
   {
-   "id": "S28-NOD-sound",
-   "file": "S28-COMPLETE-closed-mouth-nodding-v2.mp4",
-   "folder": "final-pass-20260916",
+   "id": "S28-sound",
+   "file": "S28.mp4",
+   "folder": "storyboard-final-20260915",
    "start": 0,
-   "end": 86,
-   "at": 2667,
+   "end": 85,
+   "at": 2663,
    "sceneSound": true,
    "link": "sb_s28",
-   "gain": 0
+   "gain": -2
   },
   {
    "id": "INV043-sound",
@@ -580,7 +569,7 @@
    "folder": "inventory-v74",
    "start": 0,
    "end": 45,
-   "at": 2798,
+   "at": 2759,
    "sceneSound": true,
    "link": "sb_s29a",
    "gain": 6
@@ -591,7 +580,7 @@
    "folder": "inventory-v74",
    "start": 0,
    "end": 56,
-   "at": 2843,
+   "at": 2804,
    "sceneSound": true,
    "link": "sb_s29b",
    "gain": 5
@@ -602,21 +591,21 @@
    "folder": "capcut-kit-v74/SCENES_IN_ORDER",
    "start": 156,
    "end": 177,
-   "at": 2899,
+   "at": 2860,
    "sceneSound": true,
    "link": "sb_s29c",
    "gain": -4
   },
   {
-   "id": "S29-LISTEN-sound",
-   "file": "S29-COMPLETE-silent-listeners-with-rexx-line-v2.mp4",
-   "folder": "final-pass-20260916",
-   "start": 0,
-   "end": 46,
-   "at": 2920,
+   "id": "S29-blood-line-sound",
+   "file": "24_S29_farewell-fist-bump.mp4",
+   "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+   "start": 179,
+   "end": 225,
+   "at": 2881,
    "sceneSound": true,
    "link": "sb_s29d",
-   "gain": 0
+   "gain": -4
   },
   {
    "id": "INV049-sound",
@@ -665,7 +654,7 @@
    "folder": "storyboard-final-20260915",
    "start": 0,
    "end": 184,
-   "at": 2444,
+   "at": 2440,
    "sceneSound": true,
    "link": "sb_s27rep",
    "gain": 1
@@ -676,7 +665,7 @@
    "folder": "capcut-kit-v74/SCENES_IN_ORDER",
    "start": 252,
    "end": 364,
-   "at": 2966,
+   "at": 2927,
    "sceneSound": true,
    "link": "sb_s29end",
    "gain": 0
@@ -684,5 +673,5 @@
  ],
  "v2": [],
  "parked": [],
- "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line. Pass 9: S27 rebuilt turn by turn — INV052 (owner L1) → kit Rexx reply 212–262 → INV037 (native lip-sync, two months ago) → INV053 (owner jump-in). No wide shot in the middle. Owner: \"after Apu says will this work… I said oh yeah a vintage mart, he says yeah two months, then jump in.\" Pass 10: two-months-ago line = INV051 (owner close-up) instead of INV037. Pass 11: S28 = INV008 (Sep 14 passenger seat) + reminder line; S29 = INV043 → INV044 → INV042 (+kit what-do-you-mean) → INV009 (+kit blood-on-forehead line) → INV050 Blood? (owner: the new ones are in the archive, you are not using them). Pass 12: owner timecode notes — snore cues 61–64 / 70–75; S18 tail = INV049 (V68 wake lip-sync, own sound); S24 tail + S27 Rexx reply = INV004 over-the-shoulder. Pass 13: Codex/owner S27 reply (document your items…) inserted after two-months-ago. Pass 14 (2026-09-16, Codex review): listening OTS (Seedance d1ca1f7a) under Rexx lines; S23 = V74 kit; ending = V74 S29 frames 252–364 (16:9, Blood? + look). | pass 15 (2026-09-16): Codex PR #19 owner corrections — Homer line 1:39, nodding 1:51, silent listeners 2:00, single fist bump."
+ "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line. Pass 9: S27 rebuilt turn by turn — INV052 (owner L1) → kit Rexx reply 212–262 → INV037 (native lip-sync, two months ago) → INV053 (owner jump-in). No wide shot in the middle. Owner: \"after Apu says will this work… I said oh yeah a vintage mart, he says yeah two months, then jump in.\" Pass 10: two-months-ago line = INV051 (owner close-up) instead of INV037. Pass 11: S28 = INV008 (Sep 14 passenger seat) + reminder line; S29 = INV043 → INV044 → INV042 (+kit what-do-you-mean) → INV009 (+kit blood-on-forehead line) → INV050 Blood? (owner: the new ones are in the archive, you are not using them). Pass 12: owner timecode notes — snore cues 61–64 / 70–75; S18 tail = INV049 (V68 wake lip-sync, own sound); S24 tail + S27 Rexx reply = INV004 over-the-shoulder. Pass 13: Codex/owner S27 reply (document your items…) inserted after two-months-ago. Pass 14 (2026-09-16, Codex review): listening OTS (Seedance d1ca1f7a) under Rexx lines; S23 = V74 kit; ending = V74 S29 frames 252–364 (16:9, Blood? + look)."
 }
