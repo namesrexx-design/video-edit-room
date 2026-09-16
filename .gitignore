@@ -23,3 +23,6 @@ projects/*/renders/*.receipt.json
 !projects/*/deliveries/**/*.mp3
 !projects/*/deliveries/**/*.png
 !projects/*/deliveries/**/*.jpg
+
+# local sync backups of the storyboard source (kept on disk, not in git)
+projects/garage-dream/source/_backups/

@@ -7,6 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { syncSources } from './source-sync.mjs';
 
 const W = 'C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2';
 const MEDIA = 'D:/REXX/AI_Video/BizBox-Garage-Dream';
@@ -14,8 +15,9 @@ const EDITOR = 'C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-
 const invClips = fs.existsSync('projects/garage-dream/INVENTORY-MANIFEST.json') ? JSON.parse(fs.readFileSync('projects/garage-dream/INVENTORY-MANIFEST.json', 'utf8')).clips.filter(c => !c.failed) : [];
 const V74_DATE = '2026-09-14';
 fs.mkdirSync(EDITOR + '/sheets', { recursive: true });
-const sb = JSON.parse(fs.readFileSync(W + '/scene-board/storyboard.json', 'utf8'));
-const lock = JSON.parse(fs.readFileSync(W + '/continuity-reference-pack/reference-lock.json', 'utf8'));
+const SRC = syncSources();   // canonical source is projects/garage-dream/source/ in this repo (2026-09-16)
+const sb = JSON.parse(fs.readFileSync(SRC.storyboard, 'utf8'));
+const lock = JSON.parse(fs.readFileSync(SRC.lock, 'utf8'));
 let props = {}; try { props = JSON.parse(fs.readFileSync(W + '/environment-reference-pack/real-prop-references/manifest.json', 'utf8')); } catch (e) {}
 let audioBin = []; try { audioBin = JSON.parse(fs.readFileSync('projects/garage-dream/AUDIO-MANIFEST.json', 'utf8')).clips; } catch (e) {}
 

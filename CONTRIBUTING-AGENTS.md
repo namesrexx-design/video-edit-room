@@ -34,3 +34,16 @@ through its own secret store, never in chat, never in this repo.
 
 ## Media deliveries (2026-09-15)
 Finished scene media goes ONLY under `projects/<project>/deliveries/<scene>/` — the one folder git accepts .mp4/.wav in. Direct pushes to main are allowed; force-push/deletion blocked.
+
+## Storyboard source — ONE copy, in this repo (2026-09-16, owner: "all the work stays in GitHub")
+
+| File | What it is |
+|---|---|
+| `projects/garage-dream/source/storyboard.json` | **The** storyboard: every scene, line, clip choice, approval, archive |
+| `projects/garage-dream/source/reference-lock.json` | Character / set / prop reference locks |
+
+- **Cloud agents (Codex/Astra, Claude on the web): edit these two files and open a PR.** Do not edit the BizBox copy (`bizbox: docs/video-production/scene-board/storyboard.json` on `codex/video-storyboard-reference-hub`); that copy is retired and no longer feeds the page.
+- The PC keeps a working copy in `Documents\Codex\...\scene-board\` because older PC tools write there. `tools/source-sync.mjs` (run automatically by `tools/build-board.mjs`) keeps both equal: newer file wins, the other is backed up to `source/_backups/` (local, not committed). Never both-edit in the same minute.
+- The owner's live choices on the page (removed / rejected / chosen / added tiles) are at `https://app.biz-box.io/api/functions/boardState?page=garage-dream`. Read them before choosing takes.
+- Finished media: `projects/garage-dream/deliveries/<SCENE>/<SCENE>-COMPLETE-<what>.mp4` with sound, + `SHA256SUMS.txt`. Files over 100 MB cannot go to GitHub; give the Higgsfield job id instead.
+- Owned by Claude (PC), do not edit: `cut-room/storyboard-v2.html`, `cut-room/board.json`, `projects/garage-dream/cuts/STORYBOARD-FINAL.json`, `tools/render-cut.mjs`.

@@ -1,0 +1,2045 @@
+{
+  "version": 1,
+  "status": "REFERENCE REVIEW — NOT READY FOR VIDEO GENERATION",
+  "blockers": [
+    "Review actual heel-signature treatment; no claim that all clips/shoes were fixed.",
+    "Review newly generated Rexx/Homer, Apu and Bart reference renders when completed."
+  ],
+  "approvalPolicy": "Only explicit owner approval of a stable reference ID makes an image eligible as a new render input. UI selection records a preference, not completion. Actual footage, proposed cleanup and historical render inputs stay distinct.",
+  "groups": [
+    {
+      "id": "rexx-seven-views-20260915",
+      "title": "Rexx · current seven rear views",
+      "description": "Three full-body views, two medium shoulder views and two tight shoulder views. Gallery selection is separate from render approval.",
+      "items": [
+        {
+          "id": "REXX-REAR-LOOK-RIGHT-V2-20260915",
+          "character": "Rexx",
+          "path": "character-references/rexx/2026-09-15/native-masters/REXX-REAR-LOOK-RIGHT-NATIVE-V2.png",
+          "title": "Rexx · full body · looking right",
+          "role": "full body rear-only character reference",
+          "gallerySelected": true,
+          "approved": true,
+          "visualApproved": true,
+          "renderEligible": true,
+          "approvalScope": "Reviewed appearance and owner-selected gallery reference",
+          "approvalEvidence": "Owner requested replacing the Rexx character gallery with this seven-view set.",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "view": "right",
+          "distance": "full body",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "d831e9daa1ccc128b72e58e6f8c40e30ab403449651a79147d0db4de5df243ce",
+          "bytes": 1719755,
+          "driveFileId": "1hkafImgggXeuUEn6LX3RBJl2ALVDa3sg",
+          "driveUrl": "https://drive.google.com/file/d/1hkafImgggXeuUEn6LX3RBJl2ALVDa3sg/view?usp=drivesdk",
+          "native": true,
+          "upscaled": false,
+          "generatorOutputId": "exec-36f50d6f-4144-4cc7-b46a-614d596a037d.png",
+          "delivery": {
+            "file": "REXX-REAR-LOOK-RIGHT-8K-V2.png",
+            "path": "character-references/rexx/2026-09-15/REXX-REAR-LOOK-RIGHT-8K-V2.png",
+            "driveFileId": "1mI8jmTTmhxRChzFqLF717sgO25bsPM33",
+            "driveUrl": "https://drive.google.com/file/d/1mI8jmTTmhxRChzFqLF717sgO25bsPM33/view?usp=drivesdk",
+            "dimensions": [
+              5120,
+              7680
+            ],
+            "sha256": "d930f6f35dba065e8c29dfc75056ce7513ad2103edcdaa3ac4c82f14be3a7dbf",
+            "bytes": 22428984,
+            "upscaled": true,
+            "native8K": false,
+            "label": "8K upscaled delivery; use native reference for further edits"
+          }
+        },
+        {
+          "id": "REXX-REAR-LOOK-LEFT-V2-20260915",
+          "character": "Rexx",
+          "path": "character-references/rexx/2026-09-15/native-masters/REXX-REAR-LOOK-LEFT-NATIVE-V2.png",
+          "title": "Rexx · full body · looking left",
+          "role": "full body rear-only character reference",
+          "gallerySelected": true,
+          "approved": true,
+          "visualApproved": true,
+          "renderEligible": true,
+          "approvalScope": "Reviewed appearance and owner-selected gallery reference",
+          "approvalEvidence": "Owner requested replacing the Rexx character gallery with this seven-view set.",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "view": "left",
+          "distance": "full body",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "ed55201a433a3d47db109d1ed61cfb8e6b40e1bf5d5f79330faf693bd4ff812f",
+          "bytes": 1663263,
+          "driveFileId": "1fU04So5zp8zeHErm3MvQ8Tk7xYu6qEcM",
+          "driveUrl": "https://drive.google.com/file/d/1fU04So5zp8zeHErm3MvQ8Tk7xYu6qEcM/view?usp=drivesdk",
+          "native": true,
+          "upscaled": false,
+          "generatorOutputId": "exec-ec54a7f6-0d64-4396-804b-3dc4e5f94766.png",
+          "delivery": {
+            "file": "REXX-REAR-LOOK-LEFT-8K-V2.png",
+            "path": "character-references/rexx/2026-09-15/REXX-REAR-LOOK-LEFT-8K-V2.png",
+            "driveFileId": "1IHj6bXeoOJYPveLbA6lmEwP06iUyl4hg",
+            "driveUrl": "https://drive.google.com/file/d/1IHj6bXeoOJYPveLbA6lmEwP06iUyl4hg/view?usp=drivesdk",
+            "dimensions": [
+              5120,
+              7680
+            ],
+            "sha256": "e728be03d13dabb7c70dfe463acca7af5ff31fdae3a489b86ba2e0b159278bed",
+            "bytes": 21234300,
+            "upscaled": true,
+            "native8K": false,
+            "label": "8K upscaled delivery; use native reference for further edits"
+          }
+        },
+        {
+          "id": "REXX-REAR-STRAIGHT-V2-20260915",
+          "character": "Rexx",
+          "path": "character-references/rexx/2026-09-15/native-masters/REXX-REAR-STRAIGHT-NATIVE-V2.png",
+          "title": "Rexx · full body · looking straight",
+          "role": "full body rear-only character reference",
+          "gallerySelected": true,
+          "approved": true,
+          "visualApproved": true,
+          "renderEligible": true,
+          "approvalScope": "Reviewed appearance and owner-selected gallery reference",
+          "approvalEvidence": "Owner requested replacing the Rexx character gallery with this seven-view set.",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "view": "straight",
+          "distance": "full body",
+          "dimensions": [
+            1024,
+            1536
+          ],
+          "sha256": "6ca76561471af1a0a8829ed609a51fba327d4294628590f8bbfca43c154c59e7",
+          "bytes": 1669247,
+          "driveFileId": "15ukB6MlWeqzRET6se1N5_CwcceZn2ocT",
+          "driveUrl": "https://drive.google.com/file/d/15ukB6MlWeqzRET6se1N5_CwcceZn2ocT/view?usp=drivesdk",
+          "native": true,
+          "upscaled": false,
+          "generatorOutputId": "exec-31230d19-0e36-43a2-a0ec-8cbe559fd0bc.png",
+          "delivery": {
+            "file": "REXX-REAR-STRAIGHT-8K-V2.png",
+            "path": "character-references/rexx/2026-09-15/REXX-REAR-STRAIGHT-8K-V2.png",
+            "driveFileId": "1IXBrtHyEDov9mMHru2CrikTprw86ZL14",
+            "driveUrl": "https://drive.google.com/file/d/1IXBrtHyEDov9mMHru2CrikTprw86ZL14/view?usp=drivesdk",
+            "dimensions": [
+              5120,
+              7680
+            ],
+            "sha256": "b45f4d88edeae609f8a63789ff1f9711d839d8e7d7edb3a082bf8d78d2d40487",
+            "bytes": 21183737,
+            "upscaled": true,
+            "native8K": false,
+            "label": "8K upscaled delivery; use native reference for further edits"
+          }
+        },
+        {
+          "id": "REXX-OVER-RIGHT-SHOULDER-BEARD-V2-20260915",
+          "character": "Rexx",
+          "path": "character-references/rexx/2026-09-15/native-masters/REXX-OVER-RIGHT-SHOULDER-BEARD-NATIVE-V2.png",
+          "title": "Rexx · medium shoulder · looking right",
+          "role": "medium shoulder rear-only character reference",
+          "gallerySelected": true,
+          "approved": true,
+          "visualApproved": true,
+          "renderEligible": true,
+          "approvalScope": "Reviewed appearance and owner-selected gallery reference",
+          "approvalEvidence": "Owner requested replacing the Rexx character gallery with this seven-view set.",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "view": "right",
+          "distance": "medium shoulder",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "b524583c40a654cb3d91a27e3dc0a25794446f992e65cbc3422a84ea5af7e1b9",
+          "bytes": 1489206,
+          "driveFileId": "19RU9uUNGbX8dCHxOlEPeYwCEsr38nBD4",
+          "driveUrl": "https://drive.google.com/file/d/19RU9uUNGbX8dCHxOlEPeYwCEsr38nBD4/view?usp=drivesdk",
+          "native": true,
+          "upscaled": false,
+          "generatorOutputId": "exec-d4321fa6-94cb-4d66-97df-8c9c2725c76e.png",
+          "delivery": {
+            "file": "REXX-OVER-RIGHT-SHOULDER-BEARD-8K-V2.png",
+            "path": "character-references/rexx/2026-09-15/REXX-OVER-RIGHT-SHOULDER-BEARD-8K-V2.png",
+            "driveFileId": "1PhWcdB0Aj7zncXNvEE64ARLM46rHn8Gy",
+            "driveUrl": "https://drive.google.com/file/d/1PhWcdB0Aj7zncXNvEE64ARLM46rHn8Gy/view?usp=drivesdk",
+            "dimensions": [
+              7680,
+              4320
+            ],
+            "sha256": "c6a20f8c5ec8d55b966ce88e933e069d31d1b7737e5b689dbf5cfe19a5c78798",
+            "bytes": 19343051,
+            "upscaled": true,
+            "native8K": false,
+            "label": "8K upscaled delivery; use native reference for further edits"
+          }
+        },
+        {
+          "id": "REXX-OVER-LEFT-SHOULDER-BEARD-V2-20260915",
+          "character": "Rexx",
+          "path": "character-references/rexx/2026-09-15/native-masters/REXX-OVER-LEFT-SHOULDER-BEARD-NATIVE-V2.png",
+          "title": "Rexx · medium shoulder · looking left",
+          "role": "medium shoulder rear-only character reference",
+          "gallerySelected": true,
+          "approved": true,
+          "visualApproved": true,
+          "renderEligible": true,
+          "approvalScope": "Reviewed appearance and owner-selected gallery reference",
+          "approvalEvidence": "Owner requested replacing the Rexx character gallery with this seven-view set.",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "view": "left",
+          "distance": "medium shoulder",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "af893948155960c987c3be72f774596515f4fc6c972aacd7522e655d9bb36fbc",
+          "bytes": 1413754,
+          "driveFileId": "1Fa2q_T9atzUnlsQ6q0o8t7opBrmaZdjR",
+          "driveUrl": "https://drive.google.com/file/d/1Fa2q_T9atzUnlsQ6q0o8t7opBrmaZdjR/view?usp=drivesdk",
+          "native": true,
+          "upscaled": false,
+          "generatorOutputId": "exec-5405ae47-23ff-4e6b-9c4a-e825af313beb.png",
+          "delivery": {
+            "file": "REXX-OVER-LEFT-SHOULDER-BEARD-8K-V2.png",
+            "path": "character-references/rexx/2026-09-15/REXX-OVER-LEFT-SHOULDER-BEARD-8K-V2.png",
+            "driveFileId": "1Oe0YKppxfma3WRAdOqPsuML5OMzqqHQF",
+            "driveUrl": "https://drive.google.com/file/d/1Oe0YKppxfma3WRAdOqPsuML5OMzqqHQF/view?usp=drivesdk",
+            "dimensions": [
+              7680,
+              4320
+            ],
+            "sha256": "370714e0d95d984063f0f5f47085eeb4c59aedcbc9a9bc16fb6071478e88d219",
+            "bytes": 17521920,
+            "upscaled": true,
+            "native8K": false,
+            "label": "8K upscaled delivery; use native reference for further edits"
+          }
+        },
+        {
+          "id": "REXX-TIGHT-RIGHT-SHOULDER-V1-20260915",
+          "character": "Rexx",
+          "path": "character-references/rexx/2026-09-15/native-masters/REXX-TIGHT-RIGHT-SHOULDER-NATIVE-V1.png",
+          "title": "Rexx · tight shoulder · looking right",
+          "role": "tight shoulder rear-only character reference",
+          "gallerySelected": true,
+          "approved": true,
+          "visualApproved": true,
+          "renderEligible": true,
+          "approvalScope": "Reviewed appearance and owner-selected gallery reference",
+          "approvalEvidence": "Owner requested replacing the Rexx character gallery with this seven-view set.",
+          "status": "Owner-selected gallery reference — reviewed appearance",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "view": "right",
+          "distance": "tight shoulder",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "31e454da2026fc4a4411924edbe082094a81604e3da5a17511cc743cd9c07888",
+          "bytes": 1888276,
+          "driveFileId": "1XwLOWUm5DniVXSZbxGSo8iQ9hCLuy9EQ",
+          "driveUrl": "https://drive.google.com/file/d/1XwLOWUm5DniVXSZbxGSo8iQ9hCLuy9EQ/view?usp=drivesdk",
+          "native": true,
+          "upscaled": false,
+          "generatorOutputId": "exec-5ef28f35-0ea9-48a7-9826-b970b58058ac.png",
+          "delivery": {
+            "file": "REXX-TIGHT-RIGHT-SHOULDER-8K-V1.png",
+            "path": "character-references/rexx/2026-09-15/REXX-TIGHT-RIGHT-SHOULDER-8K-V1.png",
+            "driveFileId": "1P4vB6Zep8IrD4CEg9MYdIGxy86hZMtDP",
+            "driveUrl": "https://drive.google.com/file/d/1P4vB6Zep8IrD4CEg9MYdIGxy86hZMtDP/view?usp=drivesdk",
+            "dimensions": [
+              7680,
+              4320
+            ],
+            "sha256": "959ebdd8e243a15cc3b45bc246266332f33cd18a5fde0c37e5f1323b2f7a6638",
+            "bytes": 30708302,
+            "upscaled": true,
+            "native8K": false,
+            "label": "8K upscaled delivery; use native reference for further edits"
+          }
+        },
+        {
+          "id": "REXX-TIGHT-LEFT-SHOULDER-V1-20260915",
+          "character": "Rexx",
+          "path": "character-references/rexx/2026-09-15/native-masters/REXX-TIGHT-LEFT-SHOULDER-NATIVE-V1.png",
+          "title": "Rexx · tight shoulder · looking left",
+          "role": "tight shoulder rear-only character reference",
+          "gallerySelected": true,
+          "approved": true,
+          "visualApproved": false,
+          "renderEligible": false,
+          "approvalScope": "Owner-selected gallery slot only; exact new tight-left companion needs visual approval",
+          "approvalEvidence": "Owner requested replacing the Rexx character gallery with this seven-view set.",
+          "status": "Owner-selected gallery reference — tight-left visual approval pending; not a render input",
+          "notes": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing. Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am. Slender build, slim shoulders and arms, narrow neck; retain approved head scale. Dark brown-black short beard with a few scattered white hairs; visible jaw edge in angled views. No gray chin patch. Do not invent beard on rear neck. Plain black tee, baggier and slightly longer than previous reference. Black corduroy snapback with rear snap closure, brim facing forward. Cuffed black classic Dickies work pants, black socks. Kobe 6 Grinch, green uppers and black swooshes, red front laces. Small signatures only low on rear heel cup above sole. No upper-heel red symbol.",
+          "view": "left",
+          "distance": "tight shoulder",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "9fddcf3ca289c5e335b9e0c7d0e54767ac5f6550ff6b49e977c2726100a6eedb",
+          "bytes": 1832449,
+          "driveFileId": "1a4f5O2R55p0qGvGYQc85XK-DdErkEfWB",
+          "driveUrl": "https://drive.google.com/file/d/1a4f5O2R55p0qGvGYQc85XK-DdErkEfWB/view?usp=drivesdk",
+          "native": true,
+          "upscaled": false,
+          "generatorOutputId": "exec-95cc3973-0c79-40bf-b82b-825a2758dbcf.png",
+          "delivery": {
+            "file": "REXX-TIGHT-LEFT-SHOULDER-8K-V1.png",
+            "path": "character-references/rexx/2026-09-15/REXX-TIGHT-LEFT-SHOULDER-8K-V1.png",
+            "driveFileId": "1UNgbgJKxlG1N1kC4G7mHtGOTg0fF-7W7",
+            "driveUrl": "https://drive.google.com/file/d/1UNgbgJKxlG1N1kC4G7mHtGOTg0fF-7W7/view?usp=drivesdk",
+            "dimensions": [
+              7680,
+              4320
+            ],
+            "sha256": "245b28e2811ea8f5ae1065cbba7066509a3cf14b5b1a5a143e8bddb058473918",
+            "bytes": 28687238,
+            "upscaled": true,
+            "native8K": false,
+            "label": "8K upscaled delivery; use native reference for further edits"
+          }
+        }
+      ]
+    },
+    {
+      "id": "full-body",
+      "title": "Full-body character photos",
+      "description": "New full-length references for Rexx, Homer, Apu and Bart. Review these before using them as video inputs.",
+      "items": [
+        {
+          "id": "REXX-FULL-BODY-TAN-02",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-FULL-BODY-REAR-TAN-V2.png",
+          "title": "Rexx · APPROVED full-body rear reference",
+          "role": "Canonical full-body proportions and rear presentation",
+          "notes": "Owner explicitly approved: that full body for me is perfect. Preserve this exact image and physique. Both wardrobe detail references remain available for garment construction.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "renderEligible": false,
+          "approvalEvidence": "that full body for me is perfect",
+          "previousApproval": {
+            "approved": true,
+            "renderEligible": true,
+            "status": "APPROVED — full-body rear reference"
+          },
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "BART-FULL-BODY-01",
+          "character": "Bart",
+          "path": "continuity-reference-pack/BART-FULL-BODY-V2.png",
+          "title": "Bart · full-body reference",
+          "role": "Full-length character / outfit reference",
+          "notes": "Newly rendered from current head and clothing references. Candidate only; not inserted into video.",
+          "status": "Generated — owner review pending",
+          "approved": false
+        },
+        {
+          "id": "APU-FULL-BODY-01",
+          "character": "Apu",
+          "path": "continuity-reference-pack/APU-FULL-BODY-V1.png",
+          "title": "Apu · full-body reference",
+          "role": "Full-length character / outfit reference",
+          "notes": "Newly rendered from current head and clothing references. Candidate only; not inserted into video. Lower-body clothing is proposed where not visible in arrival sources.",
+          "status": "Generated — owner review pending",
+          "approved": false
+        },
+        {
+          "id": "HOMER-FULL-BODY-01",
+          "character": "Homer",
+          "path": "continuity-reference-pack/HOMER-FULL-BODY-V1.png",
+          "title": "Homer · full-body reference",
+          "role": "Full-length character / outfit reference",
+          "notes": "Newly rendered from current head and clothing references. Candidate only; not inserted into video.",
+          "status": "Generated — owner review pending",
+          "approved": false
+        },
+        {
+          "id": "REXX-FULL-BODY-01",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-FULL-BODY-V1.png",
+          "title": "Rexx · full-body reference",
+          "role": "Full-length character / outfit reference",
+          "notes": "Newly rendered from current head and clothing references. Candidate only; not inserted into video.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/REXX-FULL-BODY-V1.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "REJECTED — body does not match selected Rexx/Homer rear scene"
+          },
+          "gallerySelected": false
+        },
+        {
+          "id": "HOMER-DREAM-BLACK-SUIT-01",
+          "character": "Homer",
+          "path": "continuity-reference-pack/HOMER-DREAM-BLACK-SUIT-V1.png",
+          "title": "Homer — APPROVED dream look",
+          "role": "Dream-only full-body costume; same canonical face, build and curled hair",
+          "status": "APPROVED — owner said perfect",
+          "approved": true,
+          "renderEligible": true,
+          "approvalEvidence": "perfect",
+          "notes": "All-black suit, black open-collar shirt, gold rings, left-wrist gold watch, gold-framed lightly tinted glasses. Preserve approved hair loops and face. Regular garage costume remains unchanged.",
+          "sha256": "f4865d4abe8165cc420869ad5ef7abc0901773c67b9cd4fb94ce60583db3bcd3"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Rexx body · rear and side views",
+      "description": "Actual Rexx footage: rear three-quarter and side views. Full-length and over-shoulder views remain to be prepared.",
+      "items": [
+        {
+          "id": "REXX-HOMER-REAR-CANDIDATE-01",
+          "path": "continuity-reference-pack/REXX-HOMER-REAR-SCENE-CANDIDATE-V1.png",
+          "title": "New Rexx / Homer rear scene",
+          "status": "Superseded gallery reference — archived",
+          "role": "Selected physique / scene-specific rear reference",
+          "notes": "New render based on selected S24 physique; Homer approved loops added. Preserves rear approach framing; not a separate neutral full-body turnaround. Cap texture and heel detail remain subject to review.",
+          "approved": false,
+          "approvedFor": "Rexx physique and rear neck/head proportions only; skin needs darker tan",
+          "previousApproval": {
+            "approved": false,
+            "status": "Owner-selected Rexx body / rear head-neck reference"
+          },
+          "renderEligible": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-BODY-FRONT",
+          "title": "Front three-quarter",
+          "path": "continuity-reference-pack/REXX-BALCONY-FRONT-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Rexx build / natural shirt drape",
+          "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
+          "source": "G:/My Drive/00_INTAKE/b-roll/balcony-outfits/balcony-outfit-06-plain-dark.mp4 at 4.5s; matching setting/outfit verified in original IMG_0940.MOV at460s.",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-BODY-RIGHT",
+          "title": "Right-facing side",
+          "path": "continuity-reference-pack/REXX-BALCONY-RIGHT-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Rexx build / natural shirt drape",
+          "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
+          "source": "G:/My Drive/00_INTAKE/b-roll/balcony-outfits/balcony-outfit-06-plain-dark.mp4 at 7.5s; matching setting/outfit verified in original IMG_0940.MOV at460s.",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-BODY-BACK",
+          "title": "Back three-quarter",
+          "path": "continuity-reference-pack/REXX-BALCONY-BACK-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Rexx build / natural shirt drape",
+          "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
+          "source": "G:/My Drive/00_INTAKE/b-roll/balcony-outfits/balcony-outfit-06-plain-dark.mp4 at 10.5s; matching setting/outfit verified in original IMG_0940.MOV at460s.",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-BODY-LEFT",
+          "title": "Left-facing side",
+          "path": "continuity-reference-pack/REXX-BALCONY-LEFT-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Rexx build / natural shirt drape",
+          "notes": "Real balcony footage; feet are outside this frame. Not a completed full-body turnaround.",
+          "source": "G:/My Drive/00_INTAKE/b-roll/balcony-outfits/balcony-outfit-06-plain-dark.mp4 at 16.5s; matching setting/outfit verified in original IMG_0940.MOV at460s.",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-PHYSIQUE-S24",
+          "title": "S24 physique reference",
+          "path": "apu-arrival-review/S24-FROHAWK-DARK-BEARD-V10.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Scene-specific build / loose fit",
+          "notes": "Owner selected this physique reference as good. Create a new clean rear scene with Homer approved hair; source is not the final new output.",
+          "source": "",
+          "approvedFor": "Physique, loose fit and rear-view scene basis",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/apu-arrival-review/S24-FROHAWK-DARK-BEARD-V10.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Removed from active references by owner; use REXX-HOMER-REAR-CANDIDATE-01 instead"
+          },
+          "approved": false,
+          "gallerySelected": false
+        }
+      ]
+    },
+    {
+      "id": "outfits",
+      "title": "Outfits · shirt, pants and fit",
+      "description": "A lean body wearing loose clothing. Detail sheets do not establish facial identity.",
+      "items": [
+        {
+          "id": "REXX-SHIRT-01",
+          "title": "Oversized XL shirt · front / side / back",
+          "path": "continuity-reference-pack/REXX-XL-SHIRT-FIT-SHEET-PROPOSED.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Garment fit only",
+          "notes": "Generated from real balcony drape and S24 styling. Plain dark, loose XL with side seams; do not use cropped generic torso as face/body identity.",
+          "source": "",
+          "approvedFor": "Shirt drape or hat/pants fabric detail only; not body identity",
+          "previousApproval": {
+            "approved": false,
+            "status": "Owner-selected wardrobe support"
+          },
+          "approved": false,
+          "renderEligible": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-PANTS-HAT-01",
+          "title": "Unbranded Dickies / corduroy snapback",
+          "path": "continuity-reference-pack/REXX-CORDUROY-DICKIES-NO-LOGO-V2.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Fabric / cuff / cap detail",
+          "notes": "Older generated detail sheet. Latest specification: loose-fit cuffed classic Dickies, no pocket logo. Final separate outfit views still needed.",
+          "source": "",
+          "approvedFor": "Shirt drape or hat/pants fabric detail only; not body identity",
+          "previousApproval": {
+            "approved": false,
+            "status": "Owner-selected wardrobe support"
+          },
+          "approved": false,
+          "renderEligible": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "HOMER-DREAM-BLACK-SUIT-01",
+          "character": "Homer",
+          "path": "continuity-reference-pack/HOMER-DREAM-BLACK-SUIT-V1.png",
+          "title": "Homer — APPROVED dream look",
+          "role": "Dream-only full-body costume; same canonical face, build and curled hair",
+          "status": "APPROVED — owner said perfect",
+          "approved": true,
+          "renderEligible": true,
+          "approvalEvidence": "perfect",
+          "notes": "All-black suit, black open-collar shirt, gold rings, left-wrist gold watch, gold-framed lightly tinted glasses. Preserve approved hair loops and face. Regular garage costume remains unchanged.",
+          "sha256": "f4865d4abe8165cc420869ad5ef7abc0901773c67b9cd4fb94ce60583db3bcd3"
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "title": "Accessories · shoes, heel detail and hat",
+      "description": "Match actual product geometry. Color customizations are labelled separately.",
+      "items": [
+        {
+          "id": "GRINCH-HEEL-SOURCE",
+          "title": "Actual Kobe 6 Grinch rear heel",
+          "path": "continuity-reference-pack/KOBE6-GRINCH-ACTUAL-HEEL-REFERENCE.jpg",
+          "status": "Superseded gallery reference — archived",
+          "role": "Heel shape / cursive signature",
+          "notes": "Actual product uses red signature. Earlier owner instruction requested a tonal-green version; final exact treatment should be reviewed. Red shoelaces retained.",
+          "source": "https://www.goat.com/sneakers/zoom-kobe-6-protro-grinch-cw2190-300",
+          "previousApproval": {
+            "approved": false,
+            "status": "Actual product reference"
+          },
+          "approved": false,
+          "renderEligible": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "S08-HEEL-TEST",
+          "title": "Heel correction applied to S08 only",
+          "path": "driveway-review/S08-ACTUAL-HEEL-SIGNATURE-V13.png",
+          "status": "Excluded — wrong body reference; historical shoe-edit test only",
+          "role": "Correction test only",
+          "notes": "Latest S08 still attempts actual heel cup/signature in tonal green. Not a finished video; S24 and existing episode still unchanged.",
+          "source": "",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/driveway-review/S08-ACTUAL-HEEL-SIGNATURE-V13.png",
+          "archiveStatus": "Archived; not an active render reference"
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "title": "Rexx · stairs and coffee references",
+      "description": "Existing opening references: stairs first, followed by the approved coffee front-view exception. Garage/rear references remain separate.",
+      "items": [
+        {
+          "id": "REXX-STAIRS-REFERENCE",
+          "title": "Rexx · stairs reference",
+          "path": "continuity-reference-pack/REXX-STAIRS-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Existing opening scene / build and outfit reference",
+          "notes": "Native 1280x720 frame extracted at 1.2 seconds from STAIRS-OPENING-WITH-REXX-V3.mp4. Placed above coffee as requested. Opening outfit and shoes differ intentionally from garage wardrobe.",
+          "approved": false,
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": true,
+            "renderEligible": true,
+            "status": "Owner-selected existing stairs reference"
+          },
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-FACE-2405",
+          "title": "Profile and head shape",
+          "path": "continuity-reference-pack/REXX-FACE-2405-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Face / beard / head reference",
+          "notes": "Use actual proportions. Owner wants darker beard with only a few whites. Top haircut concealed by cap.",
+          "source": "G:/My Drive/00_INTAKE/b-roll/Originals - Rexx walking and on camera/IMG_2405.MOV at1s",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-FACE-2409",
+          "title": "Three-quarter face",
+          "path": "continuity-reference-pack/REXX-FACE-2409-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Face / beard / head reference",
+          "notes": "Use actual proportions. Owner wants darker beard with only a few whites. Top haircut concealed by cap.",
+          "source": "G:/My Drive/00_INTAKE/b-roll/Originals - Rexx walking and on camera/IMG_2409.MOV at1s",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-FACE-2410",
+          "title": "Near-front face",
+          "path": "continuity-reference-pack/REXX-FACE-2410-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Face / beard / head reference",
+          "notes": "Use actual proportions. Owner wants darker beard with only a few whites. Top haircut concealed by cap.",
+          "source": "G:/My Drive/00_INTAKE/b-roll/Originals - Rexx walking and on camera/IMG_2410.MOV at1s",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-COFFEE-FRONT-EXCEPTION",
+          "path": "opening-review/COFFEE-CLEANUP-V5.png",
+          "title": "Approved coffee front-view exception",
+          "role": "Coffee scene only",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "renderEligible": false,
+          "notes": "Latest owner clarification: only front view needed is coffee. Not a substitute for rear physique references.",
+          "previousApproval": {
+            "approved": true,
+            "renderEligible": true,
+            "status": "Existing approved coffee appearance; retain"
+          },
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "title": "Hair · Rexx frohawk and Homer curls",
+      "description": "Homer head and curls approved. Rexx visible side fade grounded in actual footage; full cap-off haircut not verified.",
+      "items": [
+        {
+          "id": "REXX-REAR-HEAD-TAN-08",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-REAR-HEAD-TAN-NARROW-V8.png",
+          "title": "Rexx · tan / narrower neck / rear angles",
+          "role": "Final requested rear-head correction",
+          "notes": "Preserves warm tan and rear-only angles; neck subtly narrowed to match approved full-body image. Review pending.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "canonicalHead": true,
+          "previousApproval": {
+            "approved": false,
+            "status": "Generated — owner review pending"
+          },
+          "renderEligible": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        },
+        {
+          "id": "REXX-REAR-HEAD-TAN-07",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-REAR-HEAD-TAN-V7.png",
+          "title": "Rexx · rear angles / darker tan",
+          "role": "Rear-only head reference with requested skin tone",
+          "notes": "Preserves V6 head/neck and rear angles; exposed skin darkened naturally to match new body reference. Review pending.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "canonicalHead": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/REXX-REAR-HEAD-TAN-V7.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Superseded by requested narrower-neck V8"
+          },
+          "gallerySelected": false
+        },
+        {
+          "id": "REXX-REAR-HEAD-NECK-06",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-REAR-HEAD-NECK-V6.png",
+          "title": "Rexx · rear angles / narrower head and neck",
+          "role": "Rear-only head reference; matched to rear-scene proportions",
+          "notes": "Preserves V5 rear angles and glasses; head/neck match owner-selected Rexx/Homer rear scene. New correction awaiting review.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "canonicalHead": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/REXX-REAR-HEAD-NECK-V6.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Superseded by requested darker-tan V7"
+          },
+          "gallerySelected": false
+        },
+        {
+          "id": "REXX-REAR-ANGLES-05",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-REAR-LEFT-RIGHT-V5.png",
+          "title": "Rexx · back / slight rear-left / slight rear-right",
+          "role": "Rear-only head references",
+          "notes": "Match the narrower rear neck/head in REXX-HOMER-REAR-SCENE-CANDIDATE-V1.png. Do not use V5 proportions as identity authority.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "canonicalHead": false,
+          "approvedFor": "Rear camera angles only",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/REXX-REAR-LEFT-RIGHT-V5.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Angles approved; head and neck too stocky — correction required"
+          },
+          "gallerySelected": false
+        },
+        {
+          "id": "REXX-HEAD-SIDES-04",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-HEAD-LEFT-RIGHT-V4.png",
+          "title": "Rexx · left and right with glasses",
+          "role": "Two opposite side head references",
+          "notes": "Owner: it doesnt look like me though; i should never show that much of me from the side ever. Never use as a render input.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/REXX-HEAD-LEFT-RIGHT-V4.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "REJECTED — too much side face; does not match Rexx"
+          },
+          "gallerySelected": false
+        },
+        {
+          "id": "REXX-HEAD-GLASSES-03",
+          "character": "Rexx",
+          "path": "continuity-reference-pack/REXX-HEAD-GLASSES-V3.png",
+          "title": "Rexx · approved likeness with glasses",
+          "role": "Canonical likeness; requested glasses addition",
+          "notes": "Owner approved V2 likeness: mine is good just add my glasses. V3 adds authentic black rectangular eyeglasses; preserves hat, fade, head size and dark beard. Glasses edit visually verified; awaiting final owner look.",
+          "status": "Superseded gallery reference — archived",
+          "approved": false,
+          "canonicalHead": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/REXX-HEAD-GLASSES-V3.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Glasses detail support — replaced in active gallery by rear-only V5"
+          },
+          "gallerySelected": false
+        },
+        {
+          "id": "REXX-HEAD-CANDIDATE-02",
+          "character": "Rexx",
+          "canonicalHead": false,
+          "path": "continuity-reference-pack/REXX-HEAD-THREE-ANGLES-CANDIDATE-V2.png",
+          "title": "Rexx · rear / over-shoulder head sheet",
+          "status": "Superseded gallery reference — archived",
+          "role": "Proposed canonical rear head identity",
+          "notes": "Black corduroy snapback, rear adjuster, neat fade, proportionate head and darker beard. No frontal face. Replaces too-gray V1 candidate.",
+          "approved": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/REXX-HEAD-THREE-ANGLES-CANDIDATE-V2.png",
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved.",
+          "previousApproval": {
+            "approved": true,
+            "renderEligible": false,
+            "status": "Likeness approved; superseded in active gallery by glasses version"
+          },
+          "gallerySelected": false
+        },
+        {
+          "id": "HOMER-HAIR-BASE",
+          "title": "Homer · first garage meeting",
+          "path": "continuity-reference-pack/homer-hair-audit/REF-01-S09-THREE-QUARTER-36.300.png",
+          "status": "Historical source — replaced by approved angle sheet",
+          "role": "Homer hair authority",
+          "notes": "Sparse funny looping/curling crown strands. Different-angle reference set being checked against original approved scene; do not substitute generic baldness or an afro.",
+          "source": "",
+          "renderEligible": false
+        },
+        {
+          "id": "HOMER-HEAD-LOCK-01",
+          "title": "APPROVED Homer · face and curled hair",
+          "path": "continuity-reference-pack/HOMER-HEAD-APPROVED-V1.png",
+          "status": "APPROVED — canonical head reference",
+          "role": "Homer identity / hair / front-side-back head angles",
+          "notes": "Rexx explicitly approved this exact sheet: That right there is the perfect homer. Use this face, mustache, head shape and looped crown hair consistently.",
+          "source": "Current V29 frames at36.300s,43.900s,40.600s.",
+          "approved": true,
+          "renderEligible": true,
+          "driveId": "1fRvPubGEz0H2I6-dF6Hp3yzJF8YlkK_S",
+          "driveVerifiedBytes": 2032544,
+          "canonicalHead": true,
+          "character": "Homer"
+        },
+        {
+          "id": "REXX-HAIR-BASE",
+          "title": "Rexx · visible fade reference",
+          "path": "continuity-reference-pack/REXX-FACE-2405-SOURCE.png",
+          "status": "Superseded gallery reference — archived",
+          "role": "Visible side/head proportions",
+          "notes": "Owner specifies frohawk with #1 fade to #4 or longer center. A clear cap-off top/back reference is still needed to verify full design; do not call invented angles approved.",
+          "source": "",
+          "renderEligible": false,
+          "previousApproval": {
+            "approved": false,
+            "renderEligible": false,
+            "status": "Supporting original source only — excluded from finished render gallery"
+          },
+          "approved": false,
+          "gallerySelected": false,
+          "archiveStatus": "Superseded in Rexx character gallery on 2026-09-15; original file preserved."
+        }
+      ]
+    },
+    {
+      "id": "apu",
+      "title": "Apu · approved arrival identity",
+      "description": "Same face across greeting, approach and passenger view. Existing scene sources only; no rejected standalone portraits.",
+      "items": [
+        {
+          "id": "APU-HEAD-CANDIDATE-01",
+          "path": "continuity-reference-pack/APU-HEAD-THREE-ANGLES-CANDIDATE-V1.png",
+          "title": "New Apu · three-angle head render",
+          "status": "Generated — owner review pending",
+          "role": "Proposed consistent head identity",
+          "notes": "Newly rendered with built-in ChatGPT image tool by gpt-5.6-luna low. Approved arrival sources guide likeness; no crop used as final.",
+          "approved": false,
+          "driveId": "1KjNhAIOZhghFTAcTAbSWb2nMl-I21oN1",
+          "driveVerifiedBytes": 2174966,
+          "canonicalHead": true,
+          "character": "Apu"
+        },
+        {
+          "id": "APU-S23-ARRIVAL",
+          "title": "front three-quarter in driver window",
+          "path": "scene-board/S23.png",
+          "status": "Supporting original source only — excluded from finished render gallery",
+          "role": "approved Apu arrival identity master; face, hair, mustache and driver-window context",
+          "notes": "storyboard S23-01 character/car reference; APU-VISUAL-IDENTITY-LOCK.md names S23 as primary reference",
+          "approved": true,
+          "renderEligible": false
+        },
+        {
+          "id": "APU-S24-ARRIVAL-REAR-APPROACH",
+          "title": "front three-quarter identity seen between Rexx and Homer",
+          "path": "apu-arrival-review/S24-REAR-APPROACH-V1.png",
+          "status": "Supporting original source only — excluded from finished render gallery",
+          "role": "approved arrival/walking-up-to-car continuity; Apu identity in scene context",
+          "notes": "storyboard S24-01 approved generation reference; S24 identity lock says preserve exact approved Apu",
+          "approved": true,
+          "renderEligible": false
+        },
+        {
+          "id": "APU-S24-END-CONTINUITY",
+          "title": "front three-quarter at driver window",
+          "path": "apu-arrival-review/S24-END-CONTINUITY.png",
+          "status": "Supporting original source only — excluded from finished render gallery",
+          "role": "approved arrival endpoint; Apu identity and car-window composition",
+          "notes": "storyboard S27-01 owner-approved composition and S24 identity lock; APU-VISUAL-IDENTITY-LOCK.md restricts identity master to arrival material",
+          "approved": true,
+          "renderEligible": false
+        }
+      ]
+    },
+    {
+      "id": "bart",
+      "title": "Bart · garage and skateboard continuity",
+      "description": "Reference set still needed. Use the existing approved Bart scene; do not substitute rejected poses or duplicate characters.",
+      "items": [
+        {
+          "id": "BART-HEAD-CANDIDATE-01",
+          "character": "Bart",
+          "canonicalHead": true,
+          "path": "continuity-reference-pack/BART-HEAD-THREE-ANGLES-CANDIDATE-V1.png",
+          "title": "Bart · head and hair in three angles",
+          "status": "Generated — owner review pending",
+          "role": "Proposed canonical head identity",
+          "notes": "New render of approved garage Bart. Front three-quarter, profile, rear three-quarter. Lower-cost Luna worker used built-in ChatGPT image tool.",
+          "approved": false,
+          "driveId": "1s93K0BwWI2JTV5WfgFRfSXuyIzvi_sy7",
+          "driveVerifiedBytes": 1954622
+        },
+        {
+          "id": "BART-BODY-CANDIDATE-01",
+          "path": "continuity-reference-pack/BART-BODY-THREE-ANGLES-CANDIDATE-V1.png",
+          "title": "New Bart · three body angles",
+          "status": "Superseded by full-body V2 with corrected handle grip",
+          "role": "Proposed body / wardrobe / skateboard reference",
+          "notes": "New full-body render from approved garage Bart. Slingshot is in right hand but hangs from bands rather than handle; correct grip before using in an action render.",
+          "approved": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/continuity-reference-pack/BART-BODY-THREE-ANGLES-CANDIDATE-V1.png",
+          "archiveStatus": "Archived; not an active render reference"
+        },
+        {
+          "id": "BART-SLINGSHOT-REAL-02",
+          "character": "Bart",
+          "title": "Bart old-school wide wooden fork — product reference",
+          "path": "environment-reference-pack/real-prop-references/bart-slingshot/WOODEN-WIDE-FORK-REFERENCE-02.jpg",
+          "role": "Old-school rounded wooden Y branch with wide fork, tan bands and leather pouch",
+          "status": "APPROVED — wide old-school wooden slingshot",
+          "approved": true,
+          "renderEligible": true,
+          "sourceUrl": "https://hellaslingshots.com/products/best-slingshot-no2",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0063/4032/files/hella-slingshots-best-n2-2.jpg?v=1776810157",
+          "dimensions": [
+            4284,
+            4284
+          ],
+          "sha256": "fe0ea608ca4d91a9479dd958e008bd722ddb65ae0d1505d24750ab6286102bad",
+          "notes": "Wide natural branch style requested by owner. Original supplier product image; not generated or upscaled by us. Photo approved by owner; felt ball visible in photo is not an instruction to change the scene projectile.",
+          "approvalEvidence": "yes",
+          "approvalScope": "This exact wide wooden slingshot reference image; does not approve garage stills or video renders."
+        }
+      ]
+    },
+    {
+      "id": "locations",
+      "title": "Sets and locations · garage",
+      "description": "V3 generated master candidate; scene images still use prior V2 layout",
+      "items": [
+        {
+          "id": "VINTAGE-MART-EXTERIOR-01",
+          "title": "Vintage Mart · existing exterior",
+          "path": "apu-arrival-review/VINTAGE-MART-STOREFRONT-V1.png",
+          "status": "Existing building reference; window inventory needs women’s-only update",
+          "role": "Future episode storefront / building layout",
+          "notes": "Reuse this facade. Interior: women’s designer clothing, vintage shirts, jeans, shoes, handbags and jewelry. Apu portrait merch behind checkout: snow image + BUNNY / LOVE + anteater image. See environment-reference-pack/VINTAGE-MART-SET-BRIEF-V2.md. No new interior render yet.",
+          "approved": false
+        },
+        {
+          "id": "SET-GARAGE-SET-MASTER-V2",
+          "title": "GARAGE SET MASTER V2",
+          "path": "environment-reference-pack/GARAGE-SET-MASTER-V2.png",
+          "status": "Superseded master; V3 candidate under review",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Generated during new garage and Vintage Mart set pass. See production gallery; current video unchanged.",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/environment-reference-pack/GARAGE-SET-MASTER-V2.png",
+          "archiveStatus": "Archived; not an active render reference"
+        },
+        {
+          "id": "SET-GARAGE-SET-DETAIL-LEFT-V2",
+          "title": "GARAGE SET DETAIL LEFT V2",
+          "path": "environment-reference-pack/GARAGE-SET-DETAIL-LEFT-V2.png",
+          "status": "Superseded by fuller-floor V4 detail",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Old V2 detail omitted the extra boxes. Use V4 detail with master V3.",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/environment-reference-pack/GARAGE-SET-DETAIL-LEFT-V2.png",
+          "archiveStatus": "Archived; not an active render reference"
+        },
+        {
+          "id": "SET-GARAGE-SET-DETAIL-REAR-RIGHT-V2",
+          "title": "GARAGE SET DETAIL REAR RIGHT V2",
+          "path": "environment-reference-pack/GARAGE-SET-DETAIL-REAR-RIGHT-V2.png",
+          "status": "Superseded by fuller-floor V4 detail",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Old V2 detail omitted the extra boxes. Use V4 detail with master V3.",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/environment-reference-pack/GARAGE-SET-DETAIL-REAR-RIGHT-V2.png",
+          "archiveStatus": "Archived; not an active render reference"
+        },
+        {
+          "id": "SET-VINTAGE-MART-INTERIOR-WOMENS-RESALE-V1",
+          "title": "VINTAGE MART INTERIOR WOMENS RESALE V1",
+          "path": "environment-reference-pack/vintage-v2/VINTAGE-MART-INTERIOR-WOMENS-RESALE-V1.png",
+          "status": "Superseded by corrected V2",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Generated during new garage and Vintage Mart set pass. See production gallery; current video unchanged.",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/environment-reference-pack/vintage-v2/VINTAGE-MART-INTERIOR-WOMENS-RESALE-V1.png",
+          "archiveStatus": "Archived; not an active render reference"
+        },
+        {
+          "id": "SET-VINTAGE-MART-MERCH-APU-BUNNY-LOVE-V2",
+          "title": "VINTAGE MART MERCH APU BUNNY LOVE V2",
+          "path": "environment-reference-pack/vintage-v2/VINTAGE-MART-MERCH-APU-BUNNY-LOVE-V2.png",
+          "status": "Superseded by heart-symbol V3",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Replace the written word LOVE with one large red heart symbol beside the anteater. Keep snow + BUNNY, Apu portrait, vintage texture and other artwork. Use this graphic for logo, posters and shirts. Do not change spoken dialogue.",
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/environment-reference-pack/vintage-v2/VINTAGE-MART-MERCH-APU-BUNNY-LOVE-V2.png",
+          "archiveStatus": "Archived; not an active render reference"
+        },
+        {
+          "id": "SET-VINTAGE-MART-STOREFRONT-WOMENS-WINDOWS-V1",
+          "title": "VINTAGE MART STOREFRONT WOMENS WINDOWS V1",
+          "path": "environment-reference-pack/vintage-v2/VINTAGE-MART-STOREFRONT-WOMENS-WINDOWS-V1.png",
+          "status": "Generated candidate — review pending",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Generated during new garage and Vintage Mart set pass. See production gallery; current video unchanged."
+        },
+        {
+          "id": "SET-VINTAGE-MART-INTERIOR-WOMENS-RESALE-V2",
+          "title": "VINTAGE MART INTERIOR WOMENS RESALE V2",
+          "path": "environment-reference-pack/vintage-v2/VINTAGE-MART-INTERIOR-WOMENS-RESALE-V2.png",
+          "status": "Superseded by V4 shop angles",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Historical furniture study. New views replace old window geometry and LOVE wording.",
+          "geometryEligible": false,
+          "renderEligible": false,
+          "archivePath": "rejected-archive/reference-review-v1/images/environment-reference-pack/vintage-v2/VINTAGE-MART-INTERIOR-WOMENS-RESALE-V2.png",
+          "archiveStatus": "Archived; not an active render reference"
+        },
+        {
+          "id": "SET-GARAGE-SET-MASTER-V3",
+          "title": "GARAGE SET MASTER V3",
+          "path": "environment-reference-pack/GARAGE-SET-MASTER-V3.png",
+          "status": "Generated candidate — review pending",
+          "role": "Set / prop reference",
+          "approved": false,
+          "notes": "Generated during new garage and Vintage Mart set pass. See production gallery; current video unchanged."
+        },
+        {
+          "id": "SET-VINTAGE-MART-INTERIOR-FRONT-REVERSE-V3",
+          "title": "Vintage Mart · interior facing centered entrance",
+          "path": "environment-reference-pack/vintage-v2/VINTAGE-MART-INTERIOR-FRONT-REVERSE-V3.png",
+          "status": "Generated continuity candidate — owner review pending",
+          "approved": false,
+          "role": "Entrance/window/display continuity proof",
+          "notes": "Reverse camera: exterior-left display is image-right; same centered double doors."
+        },
+        {
+          "id": "SET-VINTAGE-MART-MERCH-APU-BUNNY-HEART-V3",
+          "path": "environment-reference-pack/vintage-v2/VINTAGE-MART-MERCH-APU-BUNNY-HEART-V3.png",
+          "title": "Apu merchandise — heart-symbol artwork",
+          "role": "Logo / recurring merchandise artwork",
+          "approved": false,
+          "renderEligible": true,
+          "status": "Heart-symbol revision generated; visual review pending",
+          "notes": "Replace the written word LOVE with one large red heart symbol beside the anteater. Keep snow + BUNNY, Apu portrait, vintage texture and other artwork. Use this graphic for logo, posters and shirts. Do not change spoken dialogue."
+        },
+        {
+          "id": "SET-GARAGE-DETAIL-LEFT-V4",
+          "title": "Garage · left side with floor boxes",
+          "path": "environment-reference-pack/set-angles-v4/GARAGE-DETAIL-LEFT-V4.png",
+          "role": "Environment angle reference",
+          "approved": false,
+          "renderEligible": true,
+          "status": "Generated updated angle · review pending",
+          "notes": "Garage details derive from master V3. Vintage left/right are customer directions when entering toward checkout; no people. Unseen rear shop area is a proposed extension. Verify exact small merchandise and geometry in review."
+        },
+        {
+          "id": "SET-GARAGE-DETAIL-RIGHT-V4",
+          "title": "Garage · right side with floor boxes",
+          "path": "environment-reference-pack/set-angles-v4/GARAGE-DETAIL-RIGHT-V4.png",
+          "role": "Environment angle reference",
+          "approved": false,
+          "renderEligible": true,
+          "status": "Generated updated angle · review pending",
+          "notes": "Garage details derive from master V3. Vintage left/right are customer directions when entering toward checkout; no people. Unseen rear shop area is a proposed extension. Verify exact small merchandise and geometry in review."
+        },
+        {
+          "id": "SET-VINTAGE-LEFT-V4",
+          "title": "Vintage Mart · customer left side",
+          "path": "environment-reference-pack/set-angles-v4/VINTAGE-LEFT-V4.png",
+          "role": "Environment angle reference",
+          "approved": false,
+          "renderEligible": true,
+          "status": "Generated updated angle · review pending",
+          "notes": "Garage details derive from master V3. Vintage left/right are customer directions when entering toward checkout; no people. Unseen rear shop area is a proposed extension. Verify exact small merchandise and geometry in review."
+        },
+        {
+          "id": "SET-VINTAGE-RIGHT-V4",
+          "title": "Vintage Mart · customer right side",
+          "path": "environment-reference-pack/set-angles-v4/VINTAGE-RIGHT-V4.png",
+          "role": "Environment angle reference",
+          "approved": false,
+          "renderEligible": true,
+          "status": "Generated updated angle · review pending",
+          "notes": "Garage details derive from master V3. Vintage left/right are customer directions when entering toward checkout; no people. Unseen rear shop area is a proposed extension. Verify exact small merchandise and geometry in review."
+        },
+        {
+          "id": "SET-VINTAGE-COUNTER-V4",
+          "title": "Vintage Mart · checkout counter",
+          "path": "environment-reference-pack/set-angles-v4/VINTAGE-COUNTER-V4.png",
+          "role": "Environment angle reference",
+          "approved": false,
+          "renderEligible": true,
+          "status": "Generated updated angle · review pending",
+          "notes": "Garage details derive from master V3. Vintage left/right are customer directions when entering toward checkout; no people. Unseen rear shop area is a proposed extension. Verify exact small merchandise and geometry in review."
+        },
+        {
+          "id": "GARAGE-MASTER-V4-CONTINUITY",
+          "path": "environment-reference-pack/garage-reveal-sequence/GARAGE-MASTER-V4-CONTINUITY.png",
+          "title": "Garage master — inventory and TV continuity",
+          "role": "Environment master",
+          "approved": true,
+          "renderEligible": true,
+          "status": "Owner-approved garage master",
+          "notes": "Approved reveal set: Alienware rear-right, right floor boxes and Smitty on TV. Use for S09/S10 continuity.",
+          "approvalEvidence": "Owner: approved reveal"
+        },
+        {
+          "id": "GARAGE-MASTER-V5-SMITTY-BLOND",
+          "path": "environment-reference-pack/garage-reveal-sequence/GARAGE-MASTER-V5-SMITTY-BLOND.png",
+          "title": "Garage master — young blond Smitty TV correction",
+          "role": "Environment master correction",
+          "approved": false,
+          "renderEligible": false,
+          "status": "Approved set composition; TV detail updated for review"
+        }
+      ]
+    },
+    {
+      "id": "props",
+      "title": "Props · recurring objects",
+      "description": "iPhone hardware, open/closed state and hand scale. Use these source images in every phone correction alongside character references.",
+      "items": [
+        {
+          "id": "PROP-IPHONE-DUO-SCALE",
+          "path": "phone-reference-20260910/02-folded-unfolded.jpg",
+          "title": "iPhone prop · closed/open hand-scale reference",
+          "role": "Recurring story prop reference",
+          "status": "Existing project reference — scale/geometry guide",
+          "approved": false,
+          "notes": "Existing selected visual reference. Match phone size relative to the holding hand; do not shrink to a conventional slab phone. No physical dimensions inferred."
+        },
+        {
+          "id": "PROP-IPHONE-DUO-CAMERAS",
+          "path": "phone-reference-20260910/03-rear-cameras.jpg",
+          "title": "iPhone prop · rear cameras and housing",
+          "role": "Recurring story prop reference",
+          "status": "Existing project reference — scale/geometry guide",
+          "approved": false,
+          "notes": "Match this camera arrangement, hinge and finish. Use separately from character/body references."
+        },
+        {
+          "id": "PROP-IPHONE-DUO-CLOSED",
+          "path": "phone-reference-20260910/05-closed.jpg",
+          "title": "iPhone prop · closed state",
+          "role": "Recurring story prop reference",
+          "status": "Existing project reference — scale/geometry guide",
+          "approved": false,
+          "notes": "Closed form reference for call shots. Maintain intended open/closed state per scene; no invented camera labels."
+        }
+      ]
+    },
+    {
+      "id": "owner-uploads",
+      "name": "Owner uploads (candidates until approved)",
+      "items": []
+    },
+    {
+      "id": "pack-unfiled",
+      "name": "Continuity pack images not yet filed (candidates)",
+      "items": [
+        {
+          "id": "PACK-HOMER-HAIR-THREE-ANGLES-PROPOSED",
+          "path": "continuity-reference-pack/HOMER-HAIR-THREE-ANGLES-PROPOSED.png",
+          "character": "Homer",
+          "title": "Homer · HOMER HAIR THREE ANGLES PROPOSED",
+          "role": "unfiled pack image (candidate)",
+          "approved": false,
+          "status": "In the continuity pack, never filed — review and approve or remove",
+          "date": "2026-09-15"
+        },
+        {
+          "id": "PACK-APU-FIREBIRD-ARRIVAL-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/apu-arrival-review/APU-FIREBIRD-ARRIVAL-V1.png",
+          "character": "Apu",
+          "title": "Apu · APU FIREBIRD ARRIVAL V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V1.png"
+        },
+        {
+          "id": "PACK-APU-FIREBIRD-ARRIVAL-V2",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/apu-arrival-review/APU-FIREBIRD-ARRIVAL-V2.png",
+          "character": "Apu",
+          "title": "Apu · APU FIREBIRD ARRIVAL V2",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V2.png"
+        },
+        {
+          "id": "PACK-APU-FIREBIRD-ARRIVAL-V3",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/apu-arrival-review/APU-FIREBIRD-ARRIVAL-V3.png",
+          "character": "Apu",
+          "title": "Apu · APU FIREBIRD ARRIVAL V3",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V3.png"
+        },
+        {
+          "id": "PACK-APU-FIREBIRD-ARRIVAL-V4",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/apu-arrival-review/APU-FIREBIRD-ARRIVAL-V4.png",
+          "character": "Apu",
+          "title": "Apu · APU FIREBIRD ARRIVAL V4",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V4.png"
+        },
+        {
+          "id": "PACK-BART-EXIT-EMPTY-END-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/assembly-v2/BART-EXIT-EMPTY-END-V1.jpg",
+          "character": "Bart",
+          "title": "Bart · BART EXIT EMPTY END V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-EXIT-EMPTY-END-V1.jpg"
+        },
+        {
+          "id": "PACK-BART-EXIT-EMPTY-END-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/assembly-v2/BART-EXIT-EMPTY-END-V1.png",
+          "character": "Bart",
+          "title": "Bart · BART EXIT EMPTY END V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-EXIT-EMPTY-END-V1.png"
+        },
+        {
+          "id": "PACK-BART-RIGHT-REVEAL-REVIEW",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/assembly-v2/BART-RIGHT-REVEAL-REVIEW.png",
+          "character": "Bart",
+          "title": "Bart · BART RIGHT REVEAL REVIEW",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-10",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-RIGHT-REVEAL-REVIEW.png"
+        },
+        {
+          "id": "PACK-HOMER-DREAM-BLACK-SUIT-TRANSPORT",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/cabin-continuation/transport-refs/HOMER-DREAM-BLACK-SUIT-transport.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER DREAM BLACK SUIT transport",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\cabin-continuation\\transport-refs\\HOMER-DREAM-BLACK-SUIT-transport.jpg"
+        },
+        {
+          "id": "PACK-HOMER-HEAD-APPROVED-TRANSPORT",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/cabin-continuation/transport-refs/HOMER-HEAD-APPROVED-transport.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER HEAD APPROVED transport",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\cabin-continuation\\transport-refs\\HOMER-HEAD-APPROVED-transport.jpg"
+        },
+        {
+          "id": "PACK-HOMER-REACTION-START-V1-8K-UPSCALED",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/catch-beat/HOMER-REACTION-START-V1-8K-UPSCALED.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER REACTION START V1 8K UPSCALED",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\HOMER-REACTION-START-V1-8K-UPSCALED.jpg"
+        },
+        {
+          "id": "PACK-HOMER-REACTION-START-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/catch-beat/HOMER-REACTION-START-V1.png",
+          "character": "Homer",
+          "title": "Homer · HOMER REACTION START V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\HOMER-REACTION-START-V1.png"
+        },
+        {
+          "id": "PACK-HOMER-REACTION-START-V3-S29-MARK-8K-UPSCALED",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/catch-beat/HOMER-REACTION-START-V3-S29-MARK-8K-UPSCALED.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER REACTION START V3 S29 MARK 8K UPSCALED",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\HOMER-REACTION-START-V3-S29-MARK-8K-UPSCALED.jpg"
+        },
+        {
+          "id": "PACK-HOMER-REACTION-START-V3-S29-MARK",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/catch-beat/HOMER-REACTION-START-V3-S29-MARK.png",
+          "character": "Homer",
+          "title": "Homer · HOMER REACTION START V3 S29 MARK",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\HOMER-REACTION-START-V3-S29-MARK.png"
+        },
+        {
+          "id": "PACK-HOMER-REACTION-V2-BROAD-SPLAT-SUPERSEDED",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/catch-beat/rejected/HOMER-REACTION-V2-BROAD-SPLAT-SUPERSEDED.png",
+          "character": "Homer",
+          "title": "Homer · HOMER REACTION V2 BROAD SPLAT SUPERSEDED",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\catch-beat\\rejected\\HOMER-REACTION-V2-BROAD-SPLAT-SUPERSEDED.png"
+        },
+        {
+          "id": "PACK-BART-07-GARAGE-RETURN-V1-8K-UPSCALED",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/garage-return/BART-07-GARAGE-RETURN-V1-8K-UPSCALED.jpg",
+          "character": "Bart",
+          "title": "Bart · BART 07 GARAGE RETURN V1 8K UPSCALED",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-return\\BART-07-GARAGE-RETURN-V1-8K-UPSCALED.jpg"
+        },
+        {
+          "id": "PACK-BART-07-GARAGE-RETURN-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/garage-return/BART-07-GARAGE-RETURN-V1.png",
+          "character": "Bart",
+          "title": "Bart · BART 07 GARAGE RETURN V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-return\\BART-07-GARAGE-RETURN-V1.png"
+        },
+        {
+          "id": "PACK-HOMER-HEAD-SECONDARY",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/garage-source-audit/normalized-inputs/HOMER-HEAD-SECONDARY.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER HEAD SECONDARY",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-source-audit\\normalized-inputs\\HOMER-HEAD-SECONDARY.jpg"
+        },
+        {
+          "id": "PACK-HOMER-DREAM-BLACK-SUIT-V1-TRANSPORT-RGB",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/location-rebuild/references/HOMER-DREAM-BLACK-SUIT-V1-TRANSPORT-RGB.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER DREAM BLACK SUIT V1 TRANSPORT RGB",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\location-rebuild\\references\\HOMER-DREAM-BLACK-SUIT-V1-TRANSPORT-RGB.jpg"
+        },
+        {
+          "id": "PACK-HOMER-HEAD-APPROVED-V1-TRANSPORT-RGB",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/bugatti-dream-sequence/location-rebuild/references/HOMER-HEAD-APPROVED-V1-TRANSPORT-RGB.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER HEAD APPROVED V1 TRANSPORT RGB",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\location-rebuild\\references\\HOMER-HEAD-APPROVED-V1-TRANSPORT-RGB.jpg"
+        },
+        {
+          "id": "PACK-BART-APPROVED-VIDEO-REFERENCE",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/s09-door-action/BART-APPROVED-VIDEO-REFERENCE.png",
+          "character": "Bart",
+          "title": "Bart · BART APPROVED VIDEO REFERENCE",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\BART-APPROVED-VIDEO-REFERENCE.png"
+        },
+        {
+          "id": "PACK-HOMER-RECLINER-TIGHT-START-V1-8K-UPSCALED",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/s09-door-action/exports-8k/HOMER-RECLINER-TIGHT-START-V1-8K-UPSCALED.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER RECLINER TIGHT START V1 8K UPSCALED",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\exports-8k\\HOMER-RECLINER-TIGHT-START-V1-8K-UPSCALED.jpg"
+        },
+        {
+          "id": "PACK-HOMER-BUGATTI-QUESTION-LIPSYNC-INPUT-V51",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/s09-door-action/HOMER-BUGATTI-QUESTION-LIPSYNC-INPUT-V51.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER BUGATTI QUESTION LIPSYNC INPUT V51",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\HOMER-BUGATTI-QUESTION-LIPSYNC-INPUT-V51.jpg"
+        },
+        {
+          "id": "PACK-HOMER-RECLINER-TIGHT-START-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/s09-door-action/HOMER-RECLINER-TIGHT-START-V1.png",
+          "character": "Homer",
+          "title": "Homer · HOMER RECLINER TIGHT START V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\HOMER-RECLINER-TIGHT-START-V1.png"
+        },
+        {
+          "id": "PACK-HOMER-TIGHT-FRAMING-REVIEW",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/s09-door-action/HOMER-TIGHT-FRAMING-REVIEW.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER TIGHT FRAMING REVIEW",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\HOMER-TIGHT-FRAMING-REVIEW.jpg"
+        },
+        {
+          "id": "PACK-HOMER-HEAD-APPROVED-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/environment-reference-pack/scene-rebuild-v7/reference-normalized/HOMER-HEAD-APPROVED-V1.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER HEAD APPROVED V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-12",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\scene-rebuild-v7\\reference-normalized\\HOMER-HEAD-APPROVED-V1.jpg"
+        },
+        {
+          "id": "PACK-APU-FIREBIRD-ARRIVAL-V4-ATTACH",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/garage-through-apu-review/agent-s24-finish/APU-FIREBIRD-ARRIVAL-V4-ATTACH.jpg",
+          "character": "Apu",
+          "title": "Apu · APU FIREBIRD ARRIVAL V4 ATTACH",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-13",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\garage-through-apu-review\\agent-s24-finish\\APU-FIREBIRD-ARRIVAL-V4-ATTACH.jpg"
+        },
+        {
+          "id": "PACK-HOMER-HEAD-APPROVED-V1-ATTACH",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/garage-through-apu-review/agent-s24-finish/HOMER-HEAD-APPROVED-V1-ATTACH.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER HEAD APPROVED V1 ATTACH",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-13",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\garage-through-apu-review\\agent-s24-finish\\HOMER-HEAD-APPROVED-V1-ATTACH.jpg"
+        },
+        {
+          "id": "PACK-BART-FRESH-MARK-START-V3",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/treadmill-audit/BART-FRESH-MARK-START-V3.png",
+          "character": "Bart",
+          "title": "Bart · BART FRESH MARK START V3",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-FRESH-MARK-START-V3.png"
+        },
+        {
+          "id": "PACK-BART-PHONE-FREE-FIRST-FRAME",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/treadmill-audit/BART-PHONE-FREE-FIRST-FRAME.png",
+          "character": "Bart",
+          "title": "Bart · BART PHONE FREE FIRST FRAME",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-PHONE-FREE-FIRST-FRAME.png"
+        },
+        {
+          "id": "PACK-BART-SHARP-START-COMPOSITE-V2",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/treadmill-audit/BART-SHARP-START-COMPOSITE-V2.png",
+          "character": "Bart",
+          "title": "Bart · BART SHARP START COMPOSITE V2",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-SHARP-START-COMPOSITE-V2.png"
+        },
+        {
+          "id": "PACK-BART-SHARP-START-TREADMILL-COMPOSITE-V1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/treadmill-audit/BART-SHARP-START-TREADMILL-COMPOSITE-V1.png",
+          "character": "Bart",
+          "title": "Bart · BART SHARP START TREADMILL COMPOSITE V1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-SHARP-START-TREADMILL-COMPOSITE-V1.png"
+        },
+        {
+          "id": "PACK-BART-TARGET",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/treadmill-audit/bart-target.png",
+          "character": "Bart",
+          "title": "bart · bart target",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-11",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\bart-target.png"
+        },
+        {
+          "id": "PACK-APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-apu-final-v64/APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE.png",
+          "character": "Apu",
+          "title": "Apu · APU FIREBIRD ARRIVAL V4 LOSSLESS REENCODE",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-apu-final-v64\\APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE.png"
+        },
+        {
+          "id": "PACK-BART-AUDIO-SPECTRUM",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-audio-v73/bart-inspect/BART-AUDIO-SPECTRUM.jpg",
+          "character": "Bart",
+          "title": "Bart · BART AUDIO SPECTRUM",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-audio-v73\\bart-inspect\\BART-AUDIO-SPECTRUM.jpg"
+        },
+        {
+          "id": "PACK-APU-SYNC-0-7",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-finishing-v74/apu-sync-0.7.png",
+          "character": "Apu",
+          "title": "apu · apu sync 0.7",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-0.7.png"
+        },
+        {
+          "id": "PACK-APU-SYNC-10-1",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-finishing-v74/apu-sync-10.1.png",
+          "character": "Apu",
+          "title": "apu · apu sync 10.1",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-10.1.png"
+        },
+        {
+          "id": "PACK-APU-SYNC-5-8",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-finishing-v74/apu-sync-5.8.png",
+          "character": "Apu",
+          "title": "apu · apu sync 5.8",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-5.8.png"
+        },
+        {
+          "id": "PACK-HOMER-HEAD-APPROVED-V1-LOSSLESS-REENCODE",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-likeness-v64/HOMER-HEAD-APPROVED-V1-LOSSLESS-REENCODE.png",
+          "character": "Homer",
+          "title": "Homer · HOMER HEAD APPROVED V1 LOSSLESS REENCODE",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-likeness-v64\\HOMER-HEAD-APPROVED-V1-LOSSLESS-REENCODE.png"
+        },
+        {
+          "id": "PACK-HOMER-10P000",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-10p000.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 10p000",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-10p000.jpg"
+        },
+        {
+          "id": "PACK-HOMER-11P000",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-11p000.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 11p000",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-11p000.jpg"
+        },
+        {
+          "id": "PACK-HOMER-12P000",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-12p000.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 12p000",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-12p000.jpg"
+        },
+        {
+          "id": "PACK-HOMER-12P500",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-12p500.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 12p500",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-12p500.jpg"
+        },
+        {
+          "id": "PACK-HOMER-13P000",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-13p000.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 13p000",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-13p000.jpg"
+        },
+        {
+          "id": "PACK-HOMER-14P000",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-14p000.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 14p000",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-14p000.jpg"
+        },
+        {
+          "id": "PACK-HOMER-15P000",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-15p000.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 15p000",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-15p000.jpg"
+        },
+        {
+          "id": "PACK-HOMER-7P250",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-7p250.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 7p250",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-7p250.jpg"
+        },
+        {
+          "id": "PACK-HOMER-7P750",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-7p750.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 7p750",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-7p750.jpg"
+        },
+        {
+          "id": "PACK-HOMER-8P500",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-8p500.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 8p500",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-8p500.jpg"
+        },
+        {
+          "id": "PACK-HOMER-9P000",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-s29-v68/reaction-audit/HOMER-9p000.jpg",
+          "character": "Homer",
+          "title": "Homer · HOMER 9p000",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-s29-v68\\reaction-audit\\HOMER-9p000.jpg"
+        },
+        {
+          "id": "PACK-APU-81-100",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-v74-assembly/source-map-qc/APU-81-100.jpg",
+          "character": "Apu",
+          "title": "Apu · APU 81 100",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-v74-assembly\\source-map-qc\\APU-81-100.jpg"
+        },
+        {
+          "id": "PACK-BART-75-79",
+          "path": "C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2/worker-v74-assembly/source-map-qc/BART-75-79.jpg",
+          "character": "Bart",
+          "title": "Bart · BART 75 79",
+          "role": "unfiled image (candidate)",
+          "approved": false,
+          "status": "Found on the drive, never filed — approve or remove",
+          "date": "2026-09-14",
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-v74-assembly\\source-map-qc\\BART-75-79.jpg"
+        }
+      ]
+    }
+  ],
+  "neededViews": {
+    "Rexx": [
+      "Full-body rear",
+      "Straight back of head",
+      "Slight rear-left over shoulder",
+      "Slight rear-right over shoulder",
+      "Corduroy cap and glasses temples",
+      "Loose XL shirt and loose cuffed unbranded Dickies",
+      "Actual heel signature treatment"
+    ],
+    "Homer": [
+      "Approved curled hair: front / left / right / rear",
+      "Neutral / smile / laugh / surprised"
+    ],
+    "Apu": [
+      "Match approved arrival head across existing passenger-view scenes; no new unrelated poses needed for this episode"
+    ],
+    "Bart": [
+      "Identify approved existing garage/Bart source",
+      "Full-body pose with skateboard and slingshot",
+      "Rear / side views needed for skating exit; preserve existing scene direction"
+    ]
+  },
+  "cleanupPolicy": "Remove superseded/unapproved references from active generation sets once a replacement is approved. Before deleting files, check approved-scene dependencies and verified backup. Never treat historical approval as approval of a new candidate.",
+  "identityPolicy": "Match Rexx actual head shape, facial features, hair, beard and body from original footage, not merely skin tone/color. Preserve his appearance; no ethnicity-based invented facial features.",
+  "currentEpisodeScope": [
+    "Rexx",
+    "Homer",
+    "Apu",
+    "Bart"
+  ],
+  "delegationPolicy": "User requests lower-cost agents for routine curation/checks. gpt-5.6-luna low selected for Rexx/Apu curation. No paid generation by curation agents.",
+  "rexxViewPolicy": "Rear only. Full body looking right/left/straight; medium shoulder right/left; tight shoulder right/left. Never front facing.",
+  "deliveryPolicy": "Add every completed reference set and scene correction directly to the canonical storyboard as it finishes. Label source, candidate, approved and inserted separately; only explicit owner approval marks a new reference approved.",
+  "generationWorkflow": "continuity-reference-pack/REFERENCE-GENERATION-WORKFLOW.md",
+  "newRenderPolicy": "Generate new views from approved sources; clipped frames are supporting inputs, not finished character renders. Lower-cost reasoning worker uses built-in image tool; image tool billing is not assumed free.",
+  "activeGenerationTests": [
+    {
+      "character": "Apu",
+      "agent": "gpt-5.6-luna low",
+      "task": "One new three-angle head sheet",
+      "status": "Generated; saved and added for owner review. No video submitted."
+    },
+    {
+      "character": "Rexx / Homer",
+      "agent": "gpt-5.6-luna low",
+      "task": "One clean same-scene rear/over-shoulder render using selected physique and approved Homer head",
+      "status": "Generated; saved and added for owner review. No video submitted."
+    },
+    {
+      "character": "Bart",
+      "agent": "gpt-5.6-luna low",
+      "task": "One new three-angle full-body sheet",
+      "status": "Generated; saved and added for owner review. No video submitted."
+    }
+  ],
+  "canonicalCharacterPlan": {
+    "Rexx": "Seven rear-only views selected; tight-left visual approval pending.",
+    "Homer": "Approved head sheet; unchanged",
+    "Apu": "Generated head sheet; approval pending",
+    "Bart": "Generated head sheet ready for owner review"
+  },
+  "currentRequest": {
+    "order": [
+      "Rexx glasses-only correction",
+      "Rexx left and right head references",
+      "Full-body photos: Rexx, Homer, Apu, Bart"
+    ],
+    "status": "Seven rear-only views selected; tight-left visual approval pending.",
+    "fullBodyReady": [
+      "Homer",
+      "Apu",
+      "Bart",
+      "Rexx"
+    ],
+    "fullBodyPending": [],
+    "videoChanged": false,
+    "headNeckCorrection": {
+      "status": "Replaced by September 15 seven-view set",
+      "referenceIds": [
+        "REXX-OVER-RIGHT-SHOULDER-BEARD-V2-20260915",
+        "REXX-OVER-LEFT-SHOULDER-BEARD-V2-20260915",
+        "REXX-TIGHT-RIGHT-SHOULDER-V1-20260915",
+        "REXX-TIGHT-LEFT-SHOULDER-V1-20260915"
+      ]
+    },
+    "latestCorrection": {
+      "referenceIds": [
+        "REXX-REAR-LOOK-RIGHT-V2-20260915",
+        "REXX-REAR-LOOK-LEFT-V2-20260915",
+        "REXX-REAR-STRAIGHT-V2-20260915",
+        "REXX-OVER-RIGHT-SHOULDER-BEARD-V2-20260915",
+        "REXX-OVER-LEFT-SHOULDER-BEARD-V2-20260915",
+        "REXX-TIGHT-RIGHT-SHOULDER-V1-20260915",
+        "REXX-TIGHT-LEFT-SHOULDER-V1-20260915"
+      ],
+      "nativeMasters": true,
+      "pendingVisualApproval": [
+        "REXX-TIGHT-LEFT-SHOULDER-V1-20260915"
+      ]
+    }
+  },
+  "referenceRoles": {
+    "rexxBody": "character-references/rexx/2026-09-15/native-masters/REXX-REAR-STRAIGHT-NATIVE-V2.png",
+    "rexxGarments": [
+      "character-references/rexx/2026-09-15/native-masters/REXX-REAR-LOOK-RIGHT-NATIVE-V2.png",
+      "character-references/rexx/2026-09-15/native-masters/REXX-REAR-LOOK-LEFT-NATIVE-V2.png",
+      "character-references/rexx/2026-09-15/native-masters/REXX-REAR-STRAIGHT-NATIVE-V2.png"
+    ],
+    "heelSource": "Shoe detail only; never use heel-correction body for physique",
+    "skinTone": "Match owner-confirmed warm-brown tan in REXX-REAR-STRAIGHT-8K-V2.png. Owner: thats how dark i am."
+  },
+  "environmentInventory": {
+    "file": "environment-reference-pack/GARAGE-PROP-INVENTORY-V2.json",
+    "review": "environment-reference-pack/garage-inventory-review.html",
+    "status": "Proposed"
+  },
+  "rexxSceneInputContract": {
+    "body": "REXX-REAR-STRAIGHT-V2-20260915",
+    "headDetail": "REXX-TIGHT-RIGHT-SHOULDER-V1-20260915",
+    "physique": "REXX-REAR-STRAIGHT-V2-20260915",
+    "wardrobe": [
+      "REXX-REAR-LOOK-RIGHT-V2-20260915",
+      "REXX-REAR-LOOK-LEFT-V2-20260915",
+      "REXX-REAR-STRAIGHT-V2-20260915"
+    ],
+    "rule": "Use these native September 15 references for new Rexx character work. Tight-left is gallery-selected only, not a render input. Existing scene footage is unchanged."
+  },
+  "vintageLayout": {
+    "status": "Front-wall reverse view generated candidate; owner review pending",
+    "exterior": "../environment-reference-pack/vintage-v2/VINTAGE-MART-STOREFRONT-WOMENS-WINDOWS-V1.png",
+    "reverseInterior": "../environment-reference-pack/vintage-v2/VINTAGE-MART-INTERIOR-FRONT-REVERSE-V3.png",
+    "review": "../environment-reference-pack/vintage-layout-review.html",
+    "rules": [
+      "Double glass entrance centered in the same storefront wall.",
+      "Outside-left floral dress and straw hat display appears inside-right when looking toward street.",
+      "Outside-right white belted dress and denim display appears inside-left when looking toward street.",
+      "Same display fixtures, outfits and mullions; mannequins face outward.",
+      "Existing interior V2 is materials/merch study only, not confirmed room geometry."
+    ],
+    "videoChanged": false
+  },
+  "vintageMerchRule": "Replace the written word LOVE with one large red heart symbol beside the anteater. Keep snow + BUNNY, Apu portrait, vintage texture and other artwork. Use this graphic for logo, posters and shirts. Do not change spoken dialogue.",
+  "setAnglePass": {
+    "review": "../environment-reference-pack/set-angles-v4-review.html",
+    "garageMaster": "../environment-reference-pack/GARAGE-SET-MASTER-V3.png",
+    "garageDetails": [
+      "../environment-reference-pack/set-angles-v4/GARAGE-DETAIL-LEFT-V4.png",
+      "../environment-reference-pack/set-angles-v4/GARAGE-DETAIL-RIGHT-V4.png"
+    ],
+    "vintageFront": "../environment-reference-pack/vintage-v2/VINTAGE-MART-INTERIOR-FRONT-REVERSE-V3.png",
+    "vintageDetails": [
+      "../environment-reference-pack/set-angles-v4/VINTAGE-LEFT-V4.png",
+      "../environment-reference-pack/set-angles-v4/VINTAGE-RIGHT-V4.png",
+      "../environment-reference-pack/set-angles-v4/VINTAGE-COUNTER-V4.png"
+    ],
+    "status": "Five updated views generated; owner review pending",
+    "directionConvention": "Shop left/right viewed entering through centered front doors toward rear checkout.",
+    "videoChanged": false
+  },
+  "rejectedArchive": {
+    "index": "../rejected-archive/reference-review-v1/index.html",
+    "manifest": "../rejected-archive/reference-review-v1/manifest.json",
+    "count": 50,
+    "videoChanged": false,
+    "sourcePolicy": "Archived copies verified by SHA256; historical dependencies preserved. Active candidates excluded when documented as superseded/rejected."
+  },
+  "garageTvContinuity": {
+    "character": "Smitty",
+    "appearance": "White man in his twenties with curly blond hair and a mustache; retain shirt and podium broadcast",
+    "views": [
+      "garage straight ahead",
+      "garage left",
+      "garage right"
+    ],
+    "status": "Owner correction recorded; TV pixels pending",
+    "brief": "../environment-reference-pack/GARAGE-TV-SMITTY-LOCK.md",
+    "videoChanged": false
+  },
+  "rexxActiveSelection": {
+    "date": "2026-09-15",
+    "ids": [
+      "REXX-REAR-LOOK-RIGHT-V2-20260915",
+      "REXX-REAR-LOOK-LEFT-V2-20260915",
+      "REXX-REAR-STRAIGHT-V2-20260915",
+      "REXX-OVER-RIGHT-SHOULDER-BEARD-V2-20260915",
+      "REXX-OVER-LEFT-SHOULDER-BEARD-V2-20260915",
+      "REXX-TIGHT-RIGHT-SHOULDER-V1-20260915",
+      "REXX-TIGHT-LEFT-SHOULDER-V1-20260915"
+    ],
+    "manifest": "continuity-reference-pack/rexx-seven-views-20260915.json",
+    "renderApprovalPending": [
+      "REXX-TIGHT-LEFT-SHOULDER-V1-20260915"
+    ]
+  },
+  "previousRexxSceneInputContract": {
+    "body": "REXX-FULL-BODY-TAN-02",
+    "physique": "REXX-HOMER-REAR-CANDIDATE-01",
+    "wardrobe": [
+      "REXX-PANTS-HAT-01",
+      "REXX-SHIRT-01"
+    ],
+    "headDetail": "REXX-REAR-HEAD-TAN-08",
+    "rule": "Attach actual images. Scene source supplies camera/blocking only; it must not supply Rexx identity. No visible broad side face. Head detail remains candidate; approved body and rear scene control proportions."
+  },
+  "previousRexxRequest": {
+    "order": [
+      "Rexx glasses-only correction",
+      "Rexx left and right head references",
+      "Full-body photos: Rexx, Homer, Apu, Bart"
+    ],
+    "status": "Rexx full-body V2 APPROVED; rear-head tan / narrower-neck V8 ready for review. Other characters retained.",
+    "fullBodyReady": [
+      "Homer",
+      "Apu",
+      "Bart",
+      "Rexx"
+    ],
+    "fullBodyPending": [],
+    "videoChanged": false,
+    "headNeckCorrection": {
+      "target": "REXX-REAR-HEAD-NECK-V6.png",
+      "proportionAuthority": "continuity-reference-pack/REXX-HOMER-REAR-SCENE-CANDIDATE-V1.png",
+      "status": "Rendered — awaiting review"
+    },
+    "latestCorrection": {
+      "body": "REXX-FULL-BODY-REAR-TAN-V2.png",
+      "bodyApproved": true,
+      "head": "REXX-REAR-HEAD-TAN-NARROW-V8.png",
+      "bodyReady": true,
+      "headReady": true
+    }
+  }
+}
