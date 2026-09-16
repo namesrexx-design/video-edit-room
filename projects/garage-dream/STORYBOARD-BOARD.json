@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T01:07:54.324Z",
+  "builtAt": "2026-09-16T01:24:54.633Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -2006,8 +2006,8 @@
       "status": "Returned Homer lip-sync with existing dialogue. Selected for storyboard by owner; full-film assembly and final playback QC remain separate.",
       "nextAction": "Prepare reference-matched closed-door conversation and one remote action. Preserve approved voices.",
       "gate": "Owner selected both stills and requested loading them in Higgsfield.",
-      "video": "S09-COMPLETE-lipsync-with-dialogue.mp4",
-      "editStatus": "COMPLETE · Returned Homer lip-sync with existing dialogue. Selected for storyboard by owner; full-film assembly and final playback QC remain separate. Other takes archived 2026-09-15.",
+      "video": "S09-COMPLETE-v2-full-reply.mp4",
+      "editStatus": "COMPLETE v2 · Homer lip-sync + full Rexx reply (\"It can't be that bad.\" restored, Codex flag). Cut into V75.1. Owner playback review pending.",
       "still": {
         "sheet": "sheets/scene-S09.jpg",
         "col": 0,
@@ -2628,7 +2628,7 @@
         {
           "date": "2026-09-15",
           "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
-          "group": "pending",
+          "group": "archived",
           "id": "INV065",
           "title": "Higgsfield clip · INV065 · 5 s",
           "role": "clip",
@@ -2637,6 +2637,24 @@
           "img": {
             "sheet": "sheets/scene-S09.jpg",
             "col": 6,
+            "row": 3,
+            "cols": 8,
+            "rows": 4,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "file": "INV066_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+          "group": "pending",
+          "id": "INV066",
+          "title": "Higgsfield clip · INV066 · 5.625 s",
+          "role": "clip",
+          "approved": false,
+          "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem_v2 full reply (new render, owner review)",
+          "img": {
+            "sheet": "sheets/scene-S09.jpg",
+            "col": 7,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2948,14 +2966,23 @@
           "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV065.jpg",
           "id": "INV065",
           "title": "Higgsfield clip · INV065 · 5 s",
-          "group": "pending",
+          "group": "archived",
           "role": "clip",
           "approved": false,
           "date": "2026-09-15"
+        },
+        {
+          "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV066.jpg",
+          "id": "INV066",
+          "title": "Higgsfield clip · INV066 · 5.625 s",
+          "group": "pending",
+          "role": "clip",
+          "approved": false,
+          "date": "2026-09-16"
         }
       ],
       "_audioSrc": [],
-      "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S09/S09-COMPLETE-lipsync-with-dialogue.mp4",
+      "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S09/S09-COMPLETE-v2-full-reply.mp4",
       "_audioTracks": [
         {
           "src": "../environment-reference-pack/driveway-sequence/S09-CONVERSATION-REUSED-V34.wav",
@@ -8128,7 +8155,7 @@
       "nextAction": "New pair reviewed and held for missing heel signatures and incorrect lettering; archived and blocked from render inputs.",
       "gate": "Owner flagged hood/car distortion after render and requires accurate real car source plus matched start/end frames before another job. Character source approval remains valid.",
       "video": "S24-V78-WIDE-FIRST3-1080P24-PICTURE.mp4",
-      "editStatus": "Owner-approved V78 rear-camera wide inserted and registered in V73.",
+      "editStatus": "CHECK · current cut = 3 s walk (V74 kit). A 5 s normal-pace candidate with reflections exists (c510643c); insert on owner say-so.",
       "still": {
         "sheet": "sheets/scene-S24.jpg",
         "col": 0,
