@@ -11,7 +11,7 @@
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T03:45:24.563Z",
+ "builtAt": "2026-09-16T03:51:40.414Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -1066,6 +1066,7 @@
     {
      "date": "2026-09-15",
      "file": "INV010_2026-09-14-14-41-kling3-0-1aaa6fd8-four-second-pho.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV010.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV010",
@@ -1084,6 +1085,7 @@
     {
      "date": "2026-09-15",
      "file": "INV028_2026-09-14-00-53-kling3-0-3176ee05-four-second-pho.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV028.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV028",
@@ -1726,6 +1728,7 @@
     {
      "date": "2026-09-15",
      "file": "INV061_s08-trial-33194ecc-kling3-0-pro-4s.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV061.mp4",
      "group": "archived",
      "approved": false,
      "id": "INV061",
@@ -1744,6 +1747,7 @@
     {
      "date": "2026-09-15",
      "file": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV062.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV062",
@@ -2610,6 +2614,7 @@
     {
      "date": "2026-09-15",
      "file": "INV046_s09-lipsync-c2ef-v58.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV046.mp4",
      "group": "archived",
      "approved": false,
      "id": "INV046",
@@ -2628,6 +2633,7 @@
     {
      "date": "2026-09-15",
      "file": "INV063_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV063.mp4",
      "group": "archived",
      "approved": false,
      "id": "INV063",
@@ -2646,6 +2652,7 @@
     {
      "date": "2026-09-15",
      "file": "INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV064.mp4",
      "group": "archived",
      "approved": false,
      "id": "INV064",
@@ -2664,6 +2671,7 @@
     {
      "date": "2026-09-15",
      "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV065.mp4",
      "group": "archived",
      "approved": false,
      "id": "INV065",
@@ -2682,6 +2690,7 @@
     {
      "date": "2026-09-16",
      "file": "INV066_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "videoUrl": null,
      "group": "pending",
      "approved": false,
      "id": "INV066",
@@ -3701,6 +3710,7 @@
     {
      "date": "2026-09-15",
      "file": "INV047_s10-v65-second-half-lipsync.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV047.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV047",
@@ -4283,6 +4293,7 @@
     {
      "date": "2026-09-15",
      "file": "INV054_s11-candidate-1eff7ef9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV054.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV054",
@@ -4301,6 +4312,7 @@
     {
      "date": "2026-09-15",
      "file": "INV055_s11-take-0815-91ab117f.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV055.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV055",
@@ -4319,6 +4331,7 @@
     {
      "date": "2026-09-15",
      "file": "INV056_s11-take-1406-8ed62d6f.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV056.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV056",
@@ -4337,6 +4350,7 @@
     {
      "date": "2026-09-15",
      "file": "INV057_s11-take-1420-9d6f1bd6.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV057.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV057",
@@ -4616,6 +4630,7 @@
     {
      "date": "2026-09-15",
      "file": "INV058_s12-candidate-805bb54f.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV058.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV058",
@@ -4902,6 +4917,7 @@
     {
      "date": "2026-09-15",
      "file": "INV059_s13-candidate-0657c6f7.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV059.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV059",
@@ -5185,6 +5201,7 @@
     {
      "date": "2026-09-15",
      "file": "INV048_s14-lipsync-v58.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV048.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV048",
@@ -5507,6 +5524,7 @@
     {
      "date": "2026-09-15",
      "file": "INV060_s15-candidate-77f53145.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV060.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV060",
@@ -6565,6 +6583,7 @@
     {
      "date": "2026-09-15",
      "file": "INV049_s18-wake-lipsync-a65e0b63-v68-raw.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV049.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV049",
@@ -8856,6 +8875,7 @@
     {
      "date": "2026-09-15",
      "file": "INV029_s27-v74-apu-l1-3a05-full16x9-handles80ms.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV029.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV029",
@@ -8874,6 +8894,7 @@
     {
      "date": "2026-09-15",
      "file": "INV030_s27-v74-apu-l1-3a05-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV030.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV030",
@@ -8892,6 +8913,7 @@
     {
      "date": "2026-09-15",
      "file": "INV031_s27-v74-apu-l1-9dace-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV031.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV031",
@@ -8910,6 +8932,7 @@
     {
      "date": "2026-09-15",
      "file": "INV032_s27-v74-apu-l2-3a05-full16x9-handles80ms.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV032.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV032",
@@ -8928,6 +8951,7 @@
     {
      "date": "2026-09-15",
      "file": "INV033_s27-v74-apu-l2-3a05-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV033.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV033",
@@ -8946,6 +8970,7 @@
     {
      "date": "2026-09-15",
      "file": "INV034_s27-v74-apu-l3-3a05-full16x9-handles80ms.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV034.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV034",
@@ -8964,6 +8989,7 @@
     {
      "date": "2026-09-15",
      "file": "INV035_s27-v74-apu-l3-3a05-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV035.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV035",
@@ -8982,6 +9008,7 @@
     {
      "date": "2026-09-15",
      "file": "INV036_s27-v74-l1-native-higgs-return.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV036.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV036",
@@ -9000,6 +9027,7 @@
     {
      "date": "2026-09-15",
      "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV037.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV037",
@@ -9018,6 +9046,7 @@
     {
      "date": "2026-09-15",
      "file": "INV038_s27-v74-l3-native-higgs-return.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV038.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV038",
@@ -9036,6 +9065,7 @@
     {
      "date": "2026-09-15",
      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV051.mp4",
      "group": "approved",
      "approved": true,
      "id": "INV051",
@@ -9054,6 +9084,7 @@
     {
      "date": "2026-09-15",
      "file": "INV052_s27-rexx-upload-1122.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV052.mp4",
      "group": "approved",
      "approved": true,
      "id": "INV052",
@@ -9072,6 +9103,7 @@
     {
      "date": "2026-09-15",
      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV053.mp4",
      "group": "approved",
      "approved": true,
      "id": "INV053",
@@ -9759,6 +9791,7 @@
     {
      "date": "2026-09-15",
      "file": "INV039_s29-v74-apu-l1-5f38-native-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV039.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV039",
@@ -9777,6 +9810,7 @@
     {
      "date": "2026-09-15",
      "file": "INV040_s29-v74-apu-l2-5f38-native-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV040.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV040",
@@ -9795,6 +9829,7 @@
     {
      "date": "2026-09-15",
      "file": "INV041_s29-v74-homer-blood-5f38-native-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV041.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV041",
@@ -9813,6 +9848,7 @@
     {
      "date": "2026-09-15",
      "file": "INV042_s29-v74-homer-whatdoyoumean-5f38-native-full16x9.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV042.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV042",
@@ -9831,6 +9867,7 @@
     {
      "date": "2026-09-15",
      "file": "INV043_s29-v74-l1-native-higgs-return.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV043.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV043",
@@ -9849,6 +9886,7 @@
     {
      "date": "2026-09-15",
      "file": "INV044_s29-v74-l2-native-higgs-return.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV044.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV044",
@@ -9867,6 +9905,7 @@
     {
      "date": "2026-09-15",
      "file": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
+     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV050.mp4",
      "group": "pending",
      "approved": false,
      "id": "INV050",

@@ -35,7 +35,11 @@
   .box{ background:var(--panel); border-radius:14px; padding:14px 16px; margin:12px 0 18px; }
   .box h3{ font-size:30px; margin:0 0 4px; } .facts{ font-size:16px; color:var(--muted); line-height:1.45; margin:0 0 10px; } .facts b{ color:var(--text); }
   .bar{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:6px 0 10px; }
-  #film{ margin:6px 0 14px; } .archtog{ margin-top:10px; } .archtog button{ background:transparent; border:2px dashed var(--line); color:var(--muted); }
+  #film{ margin:6px 0 14px; }
+  .playbtn{ position:absolute; right:8px; top:8px; z-index:2; min-height:36px; padding:4px 12px; font-size:15px; border-radius:8px; background:var(--accent); color:var(--accent-ink); box-shadow:0 2px 6px rgba(0,0,0,.35); }
+  .badge.chosen{ background:#2f6f8f; }
+  #player{ position:fixed; inset:0; background:rgba(0,0,0,.92); z-index:40; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; gap:10px; } #player[hidden]{ display:none; }
+  #player video{ width:100%; max-width:1100px; max-height:70vh; background:#000; border-radius:10px; } #player .pt{ color:#fff; font-size:17px; text-align:center; max-width:1100px; } #player .bar{ margin:0; } .archtog{ margin-top:10px; } .archtog button{ background:transparent; border:2px dashed var(--line); color:var(--muted); }
   .archgrid{ margin-top:8px; padding:10px; border:2px dashed var(--line); border-radius:12px; } .archgrid[hidden]{ display:none; }
   .sheet{ position:fixed; inset:0; background:var(--bg); z-index:15; overflow:auto; padding:14px 16px 90px; } .sheet[hidden]{ display:none; }
   .sheet .top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; position:sticky; top:0; background:var(--bg); padding:4px 0 8px; z-index:2; }
@@ -80,7 +84,7 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&':'&amp;','<':'&lt
 const toast = m => { const t = $('toast'); t.textContent = m; t.classList.add('on'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('on'), 2400); };
 let BOARD = null;
 // ---- owner state: tile order, removed tiles, script edits, requests. Saved into the page (files publish) + local draft.
-let ST = { order:{}, archived:[], scripts:{}, requests:[], sceneRemoved:[] };
+let ST = { order:{}, archived:[], scripts:{}, requests:[], sceneRemoved:[], chosen:{} };
 let art = null; try { (window.claude?.use ? claude.use('artifact') : Promise.resolve(null)).then(a => { art = a; }).catch(()=>{}); } catch(e){}
 let saveT = null;
 function changed(msg){ try { localStorage.setItem('lyfe-board-state', JSON.stringify(ST)); } catch(e){} $('stat').textContent = 'Unsaved: ' + msg; clearTimeout(saveT); saveT = setTimeout(save, 2500); }
@@ -105,10 +109,19 @@ function tileEl(t, key, listKey, opts = {}){
   const el = document.createElement('div'); el.className = 'tile' + (isArch(key) ? ' arch' : ''); el.dataset.key = key; el.dataset.list = listKey;
   const badges = [t.approved ? '<span class="badge ok">APPROVED</span>' : '', t.role === 'start' ? '<span class="badge start">START</span>' : t.role === 'end' ? '<span class="badge end">END</span>' : '', t.group === 'pending' ? '<span class="badge pend">candidate</span>' : t.group === 'archived' ? '<span class="badge arch">archived by Codex</span>' : '', t.view ? `<span class="badge">${esc(t.view)}</span>` : '', t.scene ? `<span class="badge acc">${esc(t.scene)}</span>` : '', stale(t.date) ? '<span class="badge old">OLDER than V74</span>' : '', isArch(key) ? '<span class="badge arch">removed</span>' : ''].join('');
   el.appendChild(thEl(t.img, opts.portrait || t.img?.shape === 'port'));
-  const b = document.createElement('div'); b.className = 'b'; b.innerHTML = `${badges}<h4>${esc(t.title)}</h4><p>${esc(t.role && !['start','end','current','cut','reference','candidate','archived'].includes(t.role) ? t.role : (t.caption || t.status || t.angle || ''))}</p>${t.date ? `<div class="dt">${fD(t.date)}${t.file ? ' · ' + esc(t.file) : ''}</div>` : ''}`; el.appendChild(b);
+  const sceneOf = listKey.startsWith('scene:') ? listKey.slice(6) : null; const chosen = sceneOf && (ST.chosen || {})[sceneOf] === t.id;
+  if (t.videoUrl) { const pb = document.createElement('button'); pb.className = 'playbtn'; pb.textContent = '▶ Play'; pb.onclick = (ev) => { ev.stopPropagation(); openPlayer(t, sceneOf); }; el.appendChild(pb); }
+  const b = document.createElement('div'); b.className = 'b'; b.innerHTML = `${chosen ? '<span class="badge chosen">CHOSEN for ' + esc(sceneOf) + '</span>' : ''}${badges}<h4>${esc(t.title)}</h4><p>${esc(t.role && !['start','end','current','cut','reference','candidate','archived'].includes(t.role) ? t.role : (t.caption || t.status || t.angle || ''))}</p>${t.date ? `<div class="dt">${fD(t.date)}${t.file ? ' · ' + esc(t.file) : ''}</div>` : ''}`; el.appendChild(b);
   return el;
 }
 let selKey = null, selList = null;
+// ---- clip player: tap ▶ on any clip tile (candidates and archive too), watch and listen, then choose it for the scene (2026-09-15)
+function openPlayer(t, sceneId){
+  let P = $('player'); if (!P) { P = document.createElement('div'); P.id = 'player'; document.body.appendChild(P); }
+  P.hidden = false; P.innerHTML = `<div class="pt"><b>${esc(t.id)}</b> · ${esc(t.title || '')}${t.date ? ' · ' + fD(t.date) : ''}</div><video controls autoplay playsinline src="${t.videoUrl}"></video><div class="bar">${sceneId ? `<button class="primary" id="plUse">✔ Use this one for ${esc(sceneId)}</button>` : ''}<button id="plClose">Close</button></div>`;
+  $('plClose').onclick = () => { P.querySelector('video').pause(); P.hidden = true; };
+  if (sceneId) $('plUse').onclick = () => { ST.chosen = ST.chosen || {}; ST.chosen[sceneId] = t.id; ST.requests.unshift({ id: Math.random().toString(36).slice(2, 8), kind: 'Use this clip for the scene', target: sceneId, note: t.id + ' · ' + (t.title || '') + ' — owner chose it after watching', at: new Date().toISOString(), status: 'open' }); changed(t.id + ' chosen for ' + sceneId); renderReqs(); P.querySelector('video').pause(); P.hidden = true; renderList('scene:' + sceneId); toast(t.id + ' chosen for ' + sceneId + '. Tell Claude to render.'); };
+}
 function bar(listKey, label){ const b = document.createElement('div'); b.className = 'bar'; b.innerHTML = `<span style="font-weight:600">${esc(label)}:</span><button class="small" data-a="l">◀</button><button class="small" data-a="r">▶</button><button class="small primary" data-a="edit">✎ Edit this</button><button class="small" data-a="still">✨ New still</button><button class="small" data-a="wrong">⚠ What's wrong</button><button class="small" data-a="arch">⬇ Remove</button>`; b.dataset.list = listKey; b.onclick = e => { const a = e.target.closest('button')?.dataset.a; if (!a) return; act(a, listKey); }; return b; }
 function act(a, listKey){
   if (!selKey || selList !== listKey) return toast('Tap a tile first');
