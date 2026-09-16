@@ -1,14 +1,25 @@
 {
  "format": 3,
+ "film": {
+  "file": "GARAGE-DREAM-V75.1-CANDIDATE-2026-09-15.mp4",
+  "name": "GARAGE DREAM V75.1 CANDIDATE 2026 09 15",
+  "urls": [
+   "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-V75.1-CANDIDATE-2026-09-15.mp4",
+   "GARAGE-DREAM-V75.1-CANDIDATE-2026-09-15.mp4"
+  ],
+  "bytes": 72360860
+ },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-15T23:44:07.447Z",
+ "builtAt": "2026-09-16T01:43:25.400Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
   {
    "id": "S01",
    "title": "Stairs / morning resolve",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "All right, let’s kick this autoimmune disease’s ass.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "nextAction": "Preserve existing opening footage and approved audio; check in final episode review.",
@@ -160,6 +171,8 @@
   {
    "id": "S02",
    "title": "Coffee / incoming ring",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Coffee first; ringing motivates the phone cut.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "nextAction": "Preserve existing opening footage and approved audio; check in final episode review.",
@@ -314,6 +327,8 @@
   {
    "id": "S03",
    "title": "Answer Homer",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Answer the correctly proportioned folded phone.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "nextAction": "Preserve existing opening footage and approved audio; check in final episode review.",
@@ -468,6 +483,8 @@
   {
    "id": "S04",
    "title": "Set phone down",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "What’s up, Homer?",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "nextAction": "Preserve existing opening footage and approved audio; check in final episode review.",
@@ -620,6 +637,8 @@
   {
    "id": "S05",
    "title": "Coffee / Homer’s request",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Homer needs Rexx and BizBox’s help clearing the garage.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "nextAction": "Preserve existing opening footage and approved audio; check in final episode review.",
@@ -772,6 +791,8 @@
   {
    "id": "S06",
    "title": "Waymo boarding / narration",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Narration starts as Rexx approaches and boards.",
    "status": "V42 working footage present. Preserve existing opening footage and approved audio; check in final episode review.",
    "nextAction": "Preserve existing opening footage and approved audio; check in final episode review.",
@@ -920,6 +941,8 @@
   {
    "id": "S07",
    "title": "Waymo ride / corrected Dickies exit",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Autopilot can help; Homer still has to do the work. Cut before rotation.",
    "status": "Corrected Dickies exit inserted27–31s in V54; door-line aligned27.7s. Coordinator QC pass; owner playback review pending.",
    "nextAction": "Review agent S07 arrival shoe and fast door-open/step-out coverage against exact dialogue cue.",
@@ -1178,12 +1201,14 @@
   {
    "id": "S08",
    "title": "Walk up driveway",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Hey Homer, made it here as fast as I could.",
-   "status": "Omitted from V53 by owner request. Prior walk-up retained as history only.",
+   "status": "Finished walk-up with existing approved voiceover. Selected for storyboard by owner; full-film assembly and final playback QC remain separate.",
    "nextAction": "Review the join to retained S09; prepare its matching conversation and single remote/open-garage sequence.",
    "gate": "Owner selected both stills and requested loading them in Higgsfield.",
-   "video": "S08-WALKUP-V51-REPLACEMENT.mp4",
-   "editStatus": "IN REPAIR PASS · Order 1 · S08 COMPLETE candidate 2026-09-15: trial 33194ecc + approved voiceover. Awaiting owner approval, then insertion before S09.",
+   "video": "S08-COMPLETE-with-approved-VO.mp4",
+   "editStatus": "COMPLETE · Finished walk-up with existing approved voiceover. Selected for storyboard by owner; full-film assembly and final playback QC remain separate. Other takes archived 2026-09-15.",
    "still": {
     "sheet": "sheets/scene-S08.jpg",
     "col": 0,
@@ -1192,22 +1217,22 @@
     "rows": 4,
     "shape": "land"
    },
-   "stillDate": "2026-09-13",
-   "stillStale": true,
+   "stillDate": "2026-09-16",
+   "stillStale": false,
    "v74": {
     "inCut": false,
     "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
    },
    "stills": [
     {
-     "date": "2026-09-13",
-     "file": "S08-start-V47.jpg",
+     "date": "2026-09-16",
+     "file": "S08-start-COMPLETE-20260915.jpg",
      "group": "current",
      "id": "S08-current",
-     "title": "Current still",
+     "title": "Current still · from S08 COMPLETE (owner selected 2026-09-15)",
      "role": "current",
      "approved": true,
-     "status": "",
+     "status": "taken from S08-COMPLETE-with-approved-VO.mp4 at 1.5s",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
       "col": 0,
@@ -1218,11 +1243,11 @@
      }
     },
     {
-     "date": "2026-09-13",
-     "file": "S08-start-V47.jpg",
+     "date": "2026-09-16",
+     "file": "S08-start-COMPLETE-20260915.jpg",
      "group": "cut",
-     "id": "current-frames/S08-start-V47.jpg",
-     "title": "V47 current clip · start",
+     "id": "S08-start-COMPLETE-20260915",
+     "title": "Start · S08 COMPLETE",
      "role": "start",
      "approved": true,
      "status": "",
@@ -1236,11 +1261,11 @@
      }
     },
     {
-     "date": "2026-09-13",
-     "file": "S08-end-V47.jpg",
+     "date": "2026-09-16",
+     "file": "S08-end-COMPLETE-20260915.jpg",
      "group": "cut",
-     "id": "current-frames/S08-end-V47.jpg",
-     "title": "V47 current clip · end",
+     "id": "S08-end-COMPLETE-20260915",
+     "title": "End · S08 COMPLETE",
      "role": "end",
      "approved": true,
      "status": "",
@@ -1292,25 +1317,6 @@
      }
     },
     {
-     "date": "2026-09-13",
-     "file": "S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
-     "group": "pending",
-     "id": "S08-SAME-FRAME-CLEAN-V4",
-     "title": "Clean same-camera start · review",
-     "caption": "Plain black shirt, Rexx farther left; matching V8 framing. 8K file is upscaled delivery.",
-     "role": "candidate",
-     "approved": false,
-     "status": "Coordinator inspected; owner review pending",
-     "img": {
-      "sheet": "sheets/scene-S08.jpg",
-      "col": 4,
-      "row": 0,
-      "cols": 8,
-      "rows": 4,
-      "shape": "land"
-     }
-    },
-    {
      "date": "2026-09-15",
      "file": "59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
      "group": "pending",
@@ -1322,7 +1328,7 @@
      "status": "Owner upload — awaiting approval",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 5,
+      "col": 4,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1341,7 +1347,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 6,
+      "col": 5,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1360,7 +1366,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 7,
+      "col": 6,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1379,8 +1385,8 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 0,
-      "row": 1,
+      "col": 7,
+      "row": 0,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -1398,7 +1404,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 1,
+      "col": 0,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1417,7 +1423,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 2,
+      "col": 1,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1436,7 +1442,7 @@
      "status": "Owner-selected continuity reference",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 3,
+      "col": 2,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1455,7 +1461,7 @@
      "status": "Historical source — excluded from new character reference set by owner",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 4,
+      "col": 3,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1474,7 +1480,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 5,
+      "col": 4,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1493,7 +1499,7 @@
      "status": "Historical reference — superseded; not eligible for new render",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 6,
+      "col": 5,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1512,7 +1518,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 7,
+      "col": 6,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1531,8 +1537,8 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 0,
-      "row": 2,
+      "col": 7,
+      "row": 1,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -1550,7 +1556,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 1,
+      "col": 0,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -1569,7 +1575,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 2,
+      "col": 1,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -1588,7 +1594,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 3,
+      "col": 2,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -1607,7 +1613,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 4,
+      "col": 3,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -1626,7 +1632,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 5,
+      "col": 4,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -1645,7 +1651,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 6,
+      "col": 5,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -1664,7 +1670,7 @@
      "status": "Rejected / superseded; archive only",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 7,
+      "col": 6,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -1683,6 +1689,25 @@
      "status": "Rejected by owner: soft and blotchy. History only.",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
+      "col": 7,
+      "row": 2,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-13",
+     "file": "S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
+     "group": "archived",
+     "id": "S08-SAME-FRAME-CLEAN-V4",
+     "title": "Clean same-camera start · review",
+     "caption": "Plain black shirt, Rexx farther left; matching V8 framing. 8K file is upscaled delivery.",
+     "role": "archived",
+     "approved": false,
+     "status": "Archived 2026-09-15: scene complete, owner removed the other candidates.",
+     "img": {
+      "sheet": "sheets/scene-S08.jpg",
       "col": 0,
       "row": 3,
       "cols": 8,
@@ -1693,7 +1718,7 @@
     {
      "date": "2026-09-15",
      "file": "INV061_s08-trial-33194ecc-kling3-0-pro-4s.mp4",
-     "group": "pending",
+     "group": "archived",
      "id": "INV061",
      "title": "Higgsfield clip · INV061 · 4.042 s",
      "role": "clip",
@@ -1738,31 +1763,31 @@
    "angle": "walk-up",
    "_src": [
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-V47.jpg",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-COMPLETE-20260915.jpg",
      "id": "S08-current",
-     "title": "Current still",
+     "title": "Current still · from S08 COMPLETE (owner selected 2026-09-15)",
      "group": "current",
      "role": "current",
      "approved": true,
-     "date": "2026-09-13"
+     "date": "2026-09-16"
     },
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-V47.jpg",
-     "id": "current-frames/S08-start-V47.jpg",
-     "title": "V47 current clip · start",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-COMPLETE-20260915.jpg",
+     "id": "S08-start-COMPLETE-20260915",
+     "title": "Start · S08 COMPLETE",
      "group": "cut",
      "role": "start",
      "approved": true,
-     "date": "2026-09-13"
+     "date": "2026-09-16"
     },
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-end-V47.jpg",
-     "id": "current-frames/S08-end-V47.jpg",
-     "title": "V47 current clip · end",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-end-COMPLETE-20260915.jpg",
+     "id": "S08-end-COMPLETE-20260915",
+     "title": "End · S08 COMPLETE",
      "group": "cut",
      "role": "end",
      "approved": true,
-     "date": "2026-09-13"
+     "date": "2026-09-16"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-ENTRANCE-PAIR-V19-FABRIC-NATIVE.png",
@@ -1781,15 +1806,6 @@
      "role": "start",
      "approved": true,
      "date": "2026-09-15"
-    },
-    {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
-     "id": "S08-SAME-FRAME-CLEAN-V4",
-     "title": "Clean same-camera start · review",
-     "group": "pending",
-     "role": "candidate",
-     "approved": false,
-     "date": "2026-09-13"
     },
     {
      "src": "D:\\REXX\\AI_Video\\BizBox-Garage-Dream\\owner-uploads\\scenes\\S08_WALK_UP_DRIVEWAY\\2026-09-15\\59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
@@ -1972,10 +1988,19 @@
      "date": "2026-09-13"
     },
     {
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
+     "id": "S08-SAME-FRAME-CLEAN-V4",
+     "title": "Clean same-camera start · review",
+     "group": "archived",
+     "role": "archived",
+     "approved": false,
+     "date": "2026-09-13"
+    },
+    {
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV061.jpg",
      "id": "INV061",
      "title": "Higgsfield clip · INV061 · 4.042 s",
-     "group": "pending",
+     "group": "archived",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -1991,7 +2016,7 @@
     }
    ],
    "_audioSrc": [],
-   "_fullVideo": "../opening-review/S08-WALKUP-V51-REPLACEMENT.mp4",
+   "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S08/S08-COMPLETE-with-approved-VO.mp4",
    "_audioTracks": [
     {
      "src": "../opening-review/S08-V47-APPROVED-VOICEOVER-STEM.wav",
@@ -2002,12 +2027,14 @@
   {
    "id": "S09",
    "title": "Conversation → garage opener",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Homer: You sure you want to look in here? Rexx: Yeah, let me have it. It can't be that bad.",
-   "status": "V63 Rexx rear-view jaw edit and added reply inserted; owner review pending.",
+   "status": "Returned Homer lip-sync with existing dialogue. Selected for storyboard by owner; full-film assembly and final playback QC remain separate.",
    "nextAction": "Prepare reference-matched closed-door conversation and one remote action. Preserve approved voices.",
    "gate": "Owner selected both stills and requested loading them in Higgsfield.",
-   "video": "S09-CURRENT-V63.mp4",
-   "editStatus": "IN REPAIR PASS · Order 1 · S09 COMPLETE candidate 2026-09-15: new still → Kling trial → Homer lip-synced → approved dialogue on. Awaiting owner approval, then insertion (replaces the old S09 at 0:30–0:35).",
+   "video": "S09-COMPLETE-v2-full-reply.mp4",
+   "editStatus": "COMPLETE v2 · Homer lip-sync + full Rexx reply (\"It can't be that bad.\" restored, Codex flag). Cut into V75.1. Owner playback review pending.",
    "still": {
     "sheet": "sheets/scene-S09.jpg",
     "col": 0,
@@ -2016,7 +2043,7 @@
     "rows": 4,
     "shape": "land"
    },
-   "stillDate": "2026-09-15",
+   "stillDate": "2026-09-16",
    "stillStale": false,
    "v74": {
     "start": 30,
@@ -2024,17 +2051,53 @@
    },
    "stills": [
     {
-     "date": "2026-09-15",
-     "file": "S09-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S09-start-COMPLETE-20260915.jpg",
      "group": "current",
      "id": "S09-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S09 COMPLETE (owner selected 2026-09-15)",
      "role": "current",
      "approved": true,
-     "status": "taken from GARAGE-DREAM-V74-CANDIDATE-CLAUDE-2026-09-14.mp4 at 31s",
+     "status": "taken from S09-COMPLETE-lipsync-with-dialogue.mp4 at 1s",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
       "col": 0,
+      "row": 0,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "S09-start-COMPLETE-20260915.jpg",
+     "group": "cut",
+     "id": "S09-start-COMPLETE-20260915",
+     "title": "Start · S09 COMPLETE",
+     "role": "start",
+     "approved": true,
+     "status": "",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 0,
+      "row": 0,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "S09-end-COMPLETE-20260915.jpg",
+     "group": "cut",
+     "id": "S09-end-COMPLETE-20260915",
+     "title": "End · S09 COMPLETE",
+     "role": "end",
+     "approved": true,
+     "status": "",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 1,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -2053,7 +2116,7 @@
      "status": "Owner selected V8 after clarifying he was looking at the wrong image",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 1,
+      "col": 2,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -2072,7 +2135,7 @@
      "status": "Owner-approved trial input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 2,
+      "col": 3,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -2091,7 +2154,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 3,
+      "col": 4,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -2110,7 +2173,7 @@
      "status": "Owner-selected continuity reference",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 4,
+      "col": 5,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -2129,7 +2192,7 @@
      "status": "Historical source — excluded from new character reference set by owner",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 5,
+      "col": 6,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -2148,7 +2211,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 6,
+      "col": 7,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -2167,8 +2230,8 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 7,
-      "row": 0,
+      "col": 0,
+      "row": 1,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -2186,7 +2249,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 0,
+      "col": 1,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2205,7 +2268,7 @@
      "status": "Current cut screenshot",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 1,
+      "col": 2,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2224,7 +2287,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 2,
+      "col": 3,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2243,7 +2306,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 3,
+      "col": 4,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2262,7 +2325,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 4,
+      "col": 5,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2281,7 +2344,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 5,
+      "col": 6,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2300,7 +2363,7 @@
      "status": "Owner-approved clean final still",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 6,
+      "col": 7,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2319,8 +2382,8 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 7,
-      "row": 1,
+      "col": 0,
+      "row": 2,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -2338,8 +2401,8 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 7,
-      "row": 1,
+      "col": 0,
+      "row": 2,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -2357,7 +2420,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 0,
+      "col": 1,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2376,7 +2439,7 @@
      "status": "Owner-rejected; archived",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 1,
+      "col": 2,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2395,7 +2458,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 2,
+      "col": 3,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2414,7 +2477,7 @@
      "status": "Rejected / superseded; archive only",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 3,
+      "col": 4,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2433,7 +2496,7 @@
      "status": "Rejected / superseded; archive only",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 4,
+      "col": 5,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2452,7 +2515,7 @@
      "status": "Likeness approved only; superseded for hand anatomy.",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 5,
+      "col": 6,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2471,7 +2534,7 @@
      "status": "Rejected Homer arm/hand",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 6,
+      "col": 7,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2490,8 +2553,8 @@
      "status": "Retired review candidate; not current entrance input",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 7,
-      "row": 2,
+      "col": 0,
+      "row": 3,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -2509,7 +2572,7 @@
      "status": "Rejected — wrong interior scale/crop",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 0,
+      "col": 1,
       "row": 3,
       "cols": 8,
       "rows": 4,
@@ -2528,24 +2591,6 @@
      "status": "Rejected: black blotches",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 1,
-      "row": 3,
-      "cols": 8,
-      "rows": 4,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-15",
-     "file": "INV046_s09-lipsync-c2ef-v58.mp4",
-     "group": "pending",
-     "id": "INV046",
-     "title": "Lip-sync clip · INV046 · 5 s",
-     "role": "clip",
-     "approved": false,
-     "status": "S09 LIPSYNC C2EF V58",
-     "img": {
-      "sheet": "sheets/scene-S09.jpg",
       "col": 2,
       "row": 3,
       "cols": 8,
@@ -2555,13 +2600,13 @@
     },
     {
      "date": "2026-09-15",
-     "file": "INV063_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
-     "group": "pending",
-     "id": "INV063",
-     "title": "Higgsfield clip · INV063 · 5.042 s",
+     "file": "INV046_s09-lipsync-c2ef-v58.mp4",
+     "group": "archived",
+     "id": "INV046",
+     "title": "Lip-sync clip · INV046 · 5 s",
      "role": "clip",
      "approved": false,
-     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
+     "status": "S09 LIPSYNC C2EF V58",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
       "col": 3,
@@ -2573,13 +2618,13 @@
     },
     {
      "date": "2026-09-15",
-     "file": "INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
-     "group": "pending",
-     "id": "INV064",
-     "title": "Higgsfield clip · INV064 · 5.042 s",
+     "file": "INV063_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
+     "group": "archived",
+     "id": "INV063",
+     "title": "Higgsfield clip · INV063 · 5.042 s",
      "role": "clip",
      "approved": false,
-     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
+     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
       "col": 4,
@@ -2591,8 +2636,26 @@
     },
     {
      "date": "2026-09-15",
+     "file": "INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "group": "archived",
+     "id": "INV064",
+     "title": "Higgsfield clip · INV064 · 5.042 s",
+     "role": "clip",
+     "approved": false,
+     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 5,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-15",
      "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
-     "group": "pending",
+     "group": "archived",
      "id": "INV065",
      "title": "Higgsfield clip · INV065 · 5 s",
      "role": "clip",
@@ -2600,7 +2663,25 @@
      "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
      "img": {
       "sheet": "sheets/scene-S09.jpg",
-      "col": 5,
+      "col": 6,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV066_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "group": "pending",
+     "id": "INV066",
+     "title": "Higgsfield clip · INV066 · 5.625 s",
+     "role": "clip",
+     "approved": false,
+     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem_v2 full reply (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 7,
       "row": 3,
       "cols": 8,
       "rows": 4,
@@ -2621,13 +2702,31 @@
    "angle": "garage door, conversation",
    "_src": [
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-start-V74.jpg",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-start-COMPLETE-20260915.jpg",
      "id": "S09-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S09 COMPLETE (owner selected 2026-09-15)",
      "group": "current",
      "role": "current",
      "approved": true,
-     "date": "2026-09-15"
+     "date": "2026-09-16"
+    },
+    {
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-start-COMPLETE-20260915.jpg",
+     "id": "S09-start-COMPLETE-20260915",
+     "title": "Start · S09 COMPLETE",
+     "group": "cut",
+     "role": "start",
+     "approved": true,
+     "date": "2026-09-16"
+    },
+    {
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-end-COMPLETE-20260915.jpg",
+     "id": "S09-end-COMPLETE-20260915",
+     "title": "End · S09 COMPLETE",
+     "group": "cut",
+     "role": "end",
+     "approved": true,
+     "date": "2026-09-16"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S09-ENTRANCE-V8-REMOTE-ARM-NATIVE.png",
@@ -2867,7 +2966,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV046.jpg",
      "id": "INV046",
      "title": "Lip-sync clip · INV046 · 5 s",
-     "group": "pending",
+     "group": "archived",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -2876,7 +2975,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV063.jpg",
      "id": "INV063",
      "title": "Higgsfield clip · INV063 · 5.042 s",
-     "group": "pending",
+     "group": "archived",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -2885,7 +2984,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV064.jpg",
      "id": "INV064",
      "title": "Higgsfield clip · INV064 · 5.042 s",
-     "group": "pending",
+     "group": "archived",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -2894,14 +2993,23 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV065.jpg",
      "id": "INV065",
      "title": "Higgsfield clip · INV065 · 5 s",
-     "group": "pending",
+     "group": "archived",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV066.jpg",
+     "id": "INV066",
+     "title": "Higgsfield clip · INV066 · 5.625 s",
+     "group": "pending",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
     }
    ],
    "_audioSrc": [],
-   "_fullVideo": "../garage-through-apu-review/full-working-cut/S09-CURRENT-V63.mp4",
+   "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S09/S09-COMPLETE-v2-full-reply.mp4",
    "_audioTracks": [
     {
      "src": "../environment-reference-pack/driveway-sequence/S09-CONVERSATION-REUSED-V34.wav",
@@ -2912,6 +3020,8 @@
   {
    "id": "S10",
    "title": "Garage reveal / Storage Wars",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Homer, this is like a scene from Storage Wars. You got a Bugatti in here.",
    "status": "V67 working picture edit: close-up ends42s; next garage shot stays tightly framed until45.5s, then widens into recliner coverage. Approved V66 audio and all later timing preserved. Lip-sync and remaining final fixes are unfinished.",
    "nextAction": "Finish face-specific lip-sync on the actual inserted close-up. Preserve cut42 and zoom-out45.5. No rejected stills.",
@@ -3949,12 +4059,14 @@
   {
    "id": "S11",
    "title": "Homer / A Bugatti?",
+   "inFilm": false,
+   "removedWhy": "Owner via Codex 2026-09-15: removed from the ACTIVE assembly (archived, not deleted). Its scene number was confusing the newer garage sequence; the coverage it stood for lives inside the bundled S10 / S14–S16 clips. Not in V74, not in V75.",
    "line": "Homer: A Bugatti?",
-   "status": "Not inserted in V42. Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
+   "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
    "nextAction": "Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
    "gate": "Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
    "video": null,
-   "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Four 9/14 takes exist (Homer spots the recliner); voice line to record. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
    "still": {
     "sheet": "sheets/scene-S11.jpg",
     "col": 0,
@@ -4374,12 +4486,14 @@
   {
    "id": "S12",
    "title": "Photograph items / shared folder",
+   "inFilm": false,
+   "removedWhy": "Owner via Codex 2026-09-15: removed from the ACTIVE assembly (archived, not deleted). Its scene number was confusing the newer garage sequence; the coverage it stood for lives inside the bundled S10 / S14–S16 clips. Not in V74, not in V75.",
    "line": "Correct open phone and clean camera UI.",
-   "status": "Not inserted in V42. Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
+   "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
    "nextAction": "Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
    "gate": "Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
    "video": null,
-   "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest take is 9/10 (phone shutter, 768p); Codex is matching newer footage. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
    "still": {
     "sheet": "sheets/scene-S12.jpg",
     "col": 0,
@@ -4581,12 +4695,14 @@
   {
    "id": "S13",
    "title": "Explain Autopilot",
+   "inFilm": false,
+   "removedWhy": "Owner via Codex 2026-09-15: removed from the ACTIVE assembly (archived, not deleted). Its scene number was confusing the newer garage sequence; the coverage it stood for lives inside the bundled S10 / S14–S16 clips. Not in V74, not in V75.",
    "line": "Listings and buyer questions; owner controls price and pickup.",
-   "status": "Not inserted in V42. Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
+   "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
    "nextAction": "Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
    "gate": "Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
    "video": null,
-   "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest takes 9/10 and 9/12 (listening coverage). Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
    "still": {
     "sheet": "sheets/scene-S13.jpg",
     "col": 0,
@@ -4897,6 +5013,8 @@
   {
    "id": "S14",
    "title": "BizBox / Bugatti question",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Homer: So BizBox is gonna get me a Bugatti?",
    "status": "V59 lip-sync inserted; owner playback review pending.",
    "nextAction": "Create the open-door over-Rexx-shoulder view for Homer’s BizBox/Bugatti question.",
@@ -5161,12 +5279,14 @@
   {
    "id": "S15",
    "title": "Rexx / photos, numbered boxes and live shopping",
+   "inFilm": false,
+   "removedWhy": "Owner via Codex 2026-09-15: removed from the ACTIVE assembly (archived, not deleted). Its scene number was confusing the newer garage sequence; the coverage it stood for lives inside the bundled S10 / S14–S16 clips. Not in V74, not in V75.",
    "line": "Rexx: Well, not exactly. But we can get you selling on different marketplaces—even live shopping. First, just take photos. BizBox inventories everything and tracks which box you store it in, so you know what you have and where to find it. We’ll work on selling next. Photos first, Homer.",
-   "status": "Not inserted in V42. Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
+   "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
    "nextAction": "Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
    "gate": "Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
    "video": null,
-   "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest take 9/12 recliner close-up; overlap with S16 to reconcile. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
    "still": {
     "sheet": "sheets/scene-S15.jpg",
     "col": 0,
@@ -5505,6 +5625,8 @@
   {
    "id": "S16",
    "title": "Photo demonstration / Homer dozes off",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Rexx explanation continues. Homer whispers Bugatti and drifts asleep. Song begins softly over the seated snore before the dream and carries continuously into driving.",
    "status": "Original whispers and seated snore preserved; owner song enters at56.691667s.",
    "nextAction": "Keep moving recliner, three Bugatti whispers and sleep; finish dialogue transition into dream.",
@@ -5789,6 +5911,8 @@
   {
    "id": "S17",
    "title": "Bugatti / PCH sunset dream",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Homer drives the black-carbon Bugatti on empty PCH. The song already playing over his seated snore continues through rear driving; subdued rumble rises to throttle at the flames. Rexx narration continues.",
    "status": "Approved three-second rear driving retained; first part of continuous two-repeat owner song added.",
    "nextAction": "Finish approved dream coverage and engine mix; obtain audible song source. Parked phone-photo beat remains planned.",
@@ -6113,6 +6237,8 @@
   {
    "id": "S18",
    "title": "Mosquito / impact / wake-up",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Windshield close-up: Homer sings along to the matching portion of the ongoing song. Music finishes after two repetitions; mosquito approach cuts into original macro bite, then garage wake-up. Rexx narration continues.",
    "status": "In-car singing lip-sync inserted; owner playback review pending. Original bite and garage wake-up retained.",
    "nextAction": "Early D’oh audio inserted. True lip-sync awaits Higgsfield sign-in recovery.",
@@ -6652,6 +6778,8 @@
   {
    "id": "S19",
    "title": "Bart taunts Homer and skates right",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Eat my shorts, Homer!",
    "status": "Owner-approved source0–3 seconds only. Cut during skate movement; Apu horn bridges the cut.",
    "nextAction": "Replace provisional implied catch with reviewed Bart/slingshot coverage.",
@@ -7065,12 +7193,14 @@
   {
    "id": "S20",
    "title": "Homer / the slingshot accusation",
+   "inFilm": false,
+   "removedWhy": "Owner 2026-09-15: \"we're completely removing scene 20, 21 and 22 — going right into the horn honk that disrupts Bart's eat my shorts; I'm already explaining everything to him while driving in the Bugatti, then right into the next scene.\" Removed from the active assembly; media, voice files and S21 candidates archived, never deleted.",
    "line": "Homer: Did you shoot me with that?",
-   "status": "Omitted from V57: owner-selected Bart skate-off leads directly to Apu honk.",
+   "status": "REMOVED from the film by the owner 2026-09-15. Bart → Apu's horn directly. Card kept for history.",
    "nextAction": "Verify mouth-sync and reaction timing across the shared catch-to-honk sequence.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
    "video": null,
-   "editStatus": "IN REPAIR PASS · Order 3 · one garage setup, Homer line; approved voice file located by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "REMOVED · not in the film (owner 2026-09-15). S19 cuts straight to the S23 horn. Voice files and candidates archived.",
    "still": {
     "sheet": "sheets/scene-S20.jpg",
     "col": 0,
@@ -7363,12 +7493,14 @@
   {
    "id": "S21",
    "title": "Rexx / it was that kid",
+   "inFilm": false,
+   "removedWhy": "Owner 2026-09-15: \"we're completely removing scene 20, 21 and 22 — going right into the horn honk that disrupts Bart's eat my shorts; I'm already explaining everything to him while driving in the Bugatti, then right into the next scene.\" Removed from the active assembly; media, voice files and S21 candidates archived, never deleted.",
    "line": "Rexx: No! It was that kid.",
-   "status": "Omitted from V57: owner-selected Bart skate-off leads directly to Apu honk.",
+   "status": "REMOVED from the film by the owner 2026-09-15. Bart → Apu's horn directly. Card kept for history.",
    "nextAction": "Keep approved minimal-motion reply; finish voice sync in the shared sequence.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
    "video": "REXX-REPLY-CHAIR-V4.mp4",
-   "editStatus": "IN REPAIR PASS · Order 3 · same setup, Rexx line (rear-facing); later S21 takes found by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "REMOVED · not in the film (owner 2026-09-15). S19 cuts straight to the S23 horn. Voice files and candidates archived.",
    "still": {
     "sheet": "sheets/scene-S21.jpg",
     "col": 0,
@@ -7730,12 +7862,14 @@
   {
    "id": "S22",
    "title": "Homer / whose kid",
+   "inFilm": false,
+   "removedWhy": "Owner 2026-09-15: \"we're completely removing scene 20, 21 and 22 — going right into the horn honk that disrupts Bart's eat my shorts; I'm already explaining everything to him while driving in the Bugatti, then right into the next scene.\" Removed from the active assembly; media, voice files and S21 candidates archived, never deleted.",
    "line": "Homer: Whose kid is that? [Brief audience laugh; Apu horn introduces S23.]",
-   "status": "Omitted from V57: owner-selected Bart skate-off leads directly to Apu honk.",
+   "status": "REMOVED from the film by the owner 2026-09-15. Bart → Apu's horn directly. Card kept for history.",
    "nextAction": "Check Homer’s “Whose kid?” response timing before the honk.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
    "video": null,
-   "editStatus": "IN REPAIR PASS · Order 3 · same setup, Homer line, then Apu's horn; approved voice file located by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+   "editStatus": "REMOVED · not in the film (owner 2026-09-15). S19 cuts straight to the S23 horn. Voice files and candidates archived.",
    "still": {
     "sheet": "sheets/scene-S22.jpg",
     "col": 0,
@@ -7861,6 +7995,8 @@
   {
    "id": "S23",
    "title": "Apu horn → greeting",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Horn over the end of the garage conversation, then camera cuts to Apu: “Hey, Rexx! What are you and Homer doing?”",
    "status": "V42 working footage present in a shared sequence. Preserve Apu honk; finish its transition and audience mix.",
    "nextAction": "Preserve Apu honk; finish its transition and audience mix.",
@@ -8069,12 +8205,14 @@
   {
    "id": "S24",
    "title": "Walk to car / explain BizBox",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Locked rear view: Rexx continues approved dialogue toward seated Apu. Apu looks at Rexx and Homer and gives one restrained nod; Homer listens. Cut afterward to over Rexx shoulder toward Apu and Homer.",
    "status": "V73 registered: owner-approved V78 rear-camera wide inserted at 82.416667-85.416667.",
    "nextAction": "New pair reviewed and held for missing heel signatures and incorrect lettering; archived and blocked from render inputs.",
    "gate": "Owner flagged hood/car distortion after render and requires accurate real car source plus matched start/end frames before another job. Character source approval remains valid.",
    "video": "S24-V78-WIDE-FIRST3-1080P24-PICTURE.mp4",
-   "editStatus": "Owner-approved V78 rear-camera wide inserted and registered in V73.",
+   "editStatus": "CHECK · current cut = 3 s walk (V74 kit). A 5 s normal-pace candidate with reflections exists (c510643c); insert on owner say-so.",
    "still": {
     "sheet": "sheets/scene-S24.jpg",
     "col": 0,
@@ -8499,6 +8637,8 @@
   {
    "id": "S27",
    "title": "Vintage Mart invitation",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Apu: Hey, will that work for my new Vintage Mart? Rexx: Oh, you got a new Vintage Mart? Apu: Yeah. I opened it two months ago. Rexx: All right. I'm down. Apu: All right, jump in. Let's go.",
    "status": "V74 base. 2026-09-15: owner uploaded three Apu lip-sync close-ups (s27, s27 start, s27.2); placed as cutaways at 6.18 s and 11.21 s, third line appended. Preview on Drive, awaiting owner review. Known gap: Rexx's \"All right. I'm down.\" is cut short in V74.",
    "nextAction": "Retain existing tail playback; new likeness still remains pending, not approved by this audit.",
@@ -9245,6 +9385,8 @@
   {
    "id": "S28",
    "title": "Passenger seat / Rexx reminds Homer",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Rexx, seated in passenger seat: Don't forget to take the photos, Homer. That's all you gotta do.",
    "status": "V42 working footage present in a shared sequence. Retain existing passenger-seat footage; final continuity and audio review remain.",
    "nextAction": "Retain existing passenger-seat footage; final continuity and audio review remain.",
@@ -9453,6 +9595,8 @@
   {
    "id": "S29",
    "title": "Apu farewell / fist-bump, forehead joke and reaction",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Apu: All right, Homer, catch you later. [Fist bump.] Homer, did you convert to Hindu? Homer: What do you mean? [Apu points toward centered forehead mark. Homer crosses his eyes upward. END.]",
    "status": "V42 working footage present in a shared sequence. Retain existing farewell footage and voice takes; final continuity and mix review remain.",
    "nextAction": "Review inserted ending with final sound mix.",
@@ -9855,6 +9999,8 @@
   {
    "id": "S29A",
    "title": "Burns Happy Gas / roadside ads",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Passenger-window travel inserts: billboards and bus-bench ads featuring Mr. Burns and the same Burns Happy Gas branding seen on Apu’s tank. Repeated ads make the product seem everywhere.",
    "status": "Owner story beat / still needed",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -9884,6 +10030,8 @@
   {
    "id": "S29B",
    "title": "Bus stop / Rexx reacts",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Rexx sees adults using Happy Gas beneath Burns ads: “What is wrong with everybody? What are they doing? What’s in those tanks? …Burns Happy Gas?”",
    "status": "Owner story beat / still needed",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -9913,6 +10061,8 @@
   {
    "id": "S30",
    "title": "Rexx hears Apu / tank reveal",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Rexx hears Apu take some off-screen, then looks at him. Same Burns Happy Gas tank and passenger POV.",
    "status": "Still + prop + audio needed",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -9943,6 +10093,8 @@
   {
    "id": "S31",
    "title": "Apu offers / altered voice",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Apu: “You want some?” Working choice: short comically deep delivery (owner also suggested high-pitched). Rexx: “What? Let me see that thing.”",
    "status": "Still + audio needed",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -9973,6 +10125,8 @@
   {
    "id": "S32",
    "title": "Rexx discards the tank",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Rexx takes it, tosses it out his passenger window: “Get that shit out of here. Can’t be doing this while you’re driving.”",
    "status": "Still + motion needed",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -10003,6 +10157,8 @@
   {
    "id": "S33",
    "title": "Vintage Mart storefront",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Former Kwik-E-Mart is visibly renamed Vintage Mart. Car and characters still to be added.",
    "status": "New location still / awaiting review",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -10095,6 +10251,8 @@
   {
    "id": "S34",
    "title": "Arrival reaction / defer divorce reveal",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Recognize the former Kwik-E-Mart, now Vintage Mart. Divorce and Barney marriage are revealed inside during the clothing conversation.",
    "status": "Future episode storyboard",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -10123,6 +10281,8 @@
   {
    "id": "S35",
    "title": "Enter Vintage Mart / women’s clothes",
+   "inFilm": true,
+   "removedWhy": "",
    "line": "Rexx walks the racks: “Bro, you only have women’s clothes in here.” Apu: “I know. That’s why I did this.” He taps his temple and raises his eyebrows. “See? I’m single.”",
    "status": "Owner story beat / still and audio needed",
    "nextAction": "Outside the garage-through-Apu finish pass.",
@@ -13443,8 +13603,8 @@
    ],
    "current": [
     {
-     "date": "2026-09-13",
-     "file": "S08-start-V47.jpg",
+     "date": "2026-09-16",
+     "file": "S08-start-COMPLETE-20260915.jpg",
      "id": "S08-angle",
      "title": "S08 · walk-up",
      "angle": "walk-up",
@@ -13496,8 +13656,8 @@
      }
     },
     {
-     "date": "2026-09-15",
-     "file": "S09-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S09-start-COMPLETE-20260915.jpg",
      "id": "S09-angle",
      "title": "S09 · garage door, conversation",
      "angle": "garage door, conversation",
@@ -18840,7 +19000,7 @@
     "rows": 7,
     "shape": "land"
    },
-   "date": "2026-09-13",
+   "date": "2026-09-16",
    "approved": true
   },
   {
@@ -18885,7 +19045,7 @@
     "rows": 7,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": true
   },
   {

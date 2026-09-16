@@ -35,7 +35,7 @@
   .box{ background:var(--panel); border-radius:14px; padding:14px 16px; margin:12px 0 18px; }
   .box h3{ font-size:30px; margin:0 0 4px; } .facts{ font-size:16px; color:var(--muted); line-height:1.45; margin:0 0 10px; } .facts b{ color:var(--text); }
   .bar{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:6px 0 10px; }
-  .archtog{ margin-top:10px; } .archtog button{ background:transparent; border:2px dashed var(--line); color:var(--muted); }
+  #film{ margin:6px 0 14px; } .archtog{ margin-top:10px; } .archtog button{ background:transparent; border:2px dashed var(--line); color:var(--muted); }
   .archgrid{ margin-top:8px; padding:10px; border:2px dashed var(--line); border-radius:12px; } .archgrid[hidden]{ display:none; }
   .sheet{ position:fixed; inset:0; background:var(--bg); z-index:15; overflow:auto; padding:14px 16px 90px; } .sheet[hidden]{ display:none; }
   .sheet .top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; position:sticky; top:0; background:var(--bg); padding:4px 0 8px; z-index:2; }
@@ -55,6 +55,7 @@
     <div><div class="brand">LYFE <span>STUDIO</span></div><h1>Garage Dream · Storyboard</h1><p class="sub" id="sub">Loading the board…</p></div>
     <a class="link" href="https://claude.ai/artifact/6uQh9o2LcpjCorpXKfEi7e">Open the Cut Room →</a>
   </header>
+  <section id="film" hidden><h2 style="margin-top:6px">Watch the film</h2><p class="hint" id="filmName"></p><video id="filmV" controls playsinline preload="metadata" style="width:100%;max-height:70vh;background:#000;border-radius:12px"></video></section>
   <div class="tabs" id="tabs"><button class="on" data-sec="scenes">Scenes</button><button data-sec="chars">Characters</button><button data-sec="sets">Sets</button><button data-sec="props">Props</button><button data-sec="reqs">Requests <span id="reqN"></span></button></div>
 
   <div id="secScenes"><p class="hint">Tap a scene. Everything in it opens: every still, the audio, the script, who is in it, the props, the set and angle.</p><div class="grid" id="gScenes"></div></div>
@@ -184,6 +185,7 @@ $('shClose').onclick = () => { $('sheet').hidden = true; render(); };
 (async function init(){
   const get = async u => { try { const r = await fetch(u, { cache:'no-store' }); return r.ok ? await r.json() : null; } catch(e){ return null; } };
   BOARD = await get('board.json'); if (!BOARD || BOARD.format !== 3) { $('sub').textContent = 'The board did not load.'; return; }
+  if (BOARD.film) { (async () => { for (const u of BOARD.film.urls) { try { const r = await fetch(u, { method: 'HEAD' }); if (r.ok) { $('filmV').src = u; $('filmName').textContent = BOARD.film.name + ' · ' + (BOARD.film.bytes / 1048576).toFixed(0) + ' MB'; $('film').hidden = false; return; } } catch {} } })(); }
   const saved = await get('state/edits.json'); if (saved) { ST = { order:saved.order || {}, archived:saved.archived || [], scripts:saved.scripts || {}, requests:saved.requests || [] }; $('stat').textContent = 'Loaded your saved changes' + (saved.savedAt ? ' · ' + new Date(saved.savedAt).toLocaleString() : ''); }
   else { try { const d = localStorage.getItem('lyfe-board-state'); if (d) { ST = { ...ST, ...JSON.parse(d) }; $('stat').textContent = 'Unsaved changes from this phone'; } } catch(e){} }
   render();
