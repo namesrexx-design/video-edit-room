@@ -6,4 +6,4 @@
 | Codex | cut-room/storyboard.html, cut-room/server.mjs | 2026-09-15 | LYFE STUDIO CUT page; merging with storyboard-v2 |
 | Claude (MASTER) | bizbox `src/pages/LyfeStudio.jsx`, `public/media/studio/*`, `/studio` route | 2026-09-15 | BizBox port step 2 DONE: PR namesrexx-design/bizbox#15 + sandbox checkpoint 6aa98847 (owner clicks Publish). Next: media uploads (Core.UploadFile function), agent door, Cut Room inside BizBox. No uncommitted work in `bizbox-lyfe-studio-worktree` |
 
-| Astra | new tools/serve-storyboard-sync.mjs, tools/storyboard-sync-client.js, tools/storyboard-sync.test.mjs and START-STORYBOARD-SYNC.cmd | 2026-09-16 | Add standalone automatic source sync; existing claimed files untouched |
+Astra completed 2026-09-16: standalone automatic scene sync server/client and launcher, documented in STORYBOARD-AUTO-SYNC.md. Claim released; original page, builder, server and generated data remain untouched.
