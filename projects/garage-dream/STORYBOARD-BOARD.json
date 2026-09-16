@@ -7,11 +7,11 @@
       "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4",
       "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
     ],
-    "bytes": 78724506
+    "bytes": 73023132
   },
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T03:24:56.295Z",
+  "builtAt": "2026-09-16T03:40:06.010Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -8235,8 +8235,8 @@
       "status": "V73 registered: owner-approved V78 rear-camera wide inserted at 82.416667-85.416667.",
       "nextAction": "New pair reviewed and held for missing heel signatures and incorrect lettering; archived and blocked from render inputs.",
       "gate": "Owner flagged hood/car distortion after render and requires accurate real car source plus matched start/end frames before another job. Character source approval remains valid.",
-      "video": "S24-V78-WIDE-FIRST3-1080P24-PICTURE.mp4",
-      "editStatus": "CHECK · current cut = 3 s walk (V74 kit). A 5 s normal-pace candidate with reflections exists (c510643c); insert on owner say-so.",
+      "video": "S24-COMPLETE-new-takes-with-approved-line.mp4",
+      "editStatus": "COMPLETE · new takes (owner, tonight) with the approved line. In the film.",
       "still": {
         "sheet": "sheets/scene-S24.jpg",
         "col": 0,
@@ -8655,7 +8655,7 @@
         }
       ],
       "_audioSrc": [],
-      "_fullVideo": "../garage-through-apu-review/full-working-cut/S24-V78-WIDE-FIRST3-1080P24-PICTURE.mp4",
+      "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S24/S24-COMPLETE-new-takes-with-approved-line.mp4",
       "_audioTracks": []
     },
     {

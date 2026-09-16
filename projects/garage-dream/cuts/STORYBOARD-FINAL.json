@@ -1,9 +1,9 @@
 {
  "format": 2,
  "name": "GARAGE DREAM — STORYBOARD FINAL (every card video in order) pass 2, leveled, 2026-09-15",
- "savedAt": "2026-09-16T03:05:32.611Z",
+ "savedAt": "2026-09-16T03:32:05.066Z",
  "fps": 24,
- "frames": 2807,
+ "frames": 2801,
  "v1": [
   {
    "u": "sb_s01",
@@ -152,10 +152,10 @@
   {
    "u": "sb_s24",
    "id": "S24",
-   "file": "S24-rear-approach-rexx-voice-7s.mp4",
+   "file": "S24-new-complete.mp4",
    "folder": "storyboard-final-20260915",
    "start": 0,
-   "end": 168,
+   "end": 162,
    "mute": true
   },
   {
@@ -376,10 +376,10 @@
   },
   {
    "id": "S24-sound",
-   "file": "S24-REXX-BIZBOX-V3-GEN1.mp3",
+   "file": "S24-new-complete.mp4",
    "folder": "storyboard-final-20260915",
    "start": 0,
-   "end": 154,
+   "end": 162,
    "at": 2141,
    "sceneSound": true,
    "link": "sb_s24",
@@ -391,7 +391,7 @@
    "folder": "capcut-kit-v74/SCENES_IN_ORDER",
    "start": 150,
    "end": 314,
-   "at": 2309,
+   "at": 2303,
    "sceneSound": true,
    "link": "sb_s27",
    "gain": -2
@@ -402,7 +402,7 @@
    "folder": "storyboard-final-20260915",
    "start": 0,
    "end": 85,
-   "at": 2512,
+   "at": 2506,
    "sceneSound": true,
    "link": "sb_s28",
    "gain": -1
@@ -413,7 +413,7 @@
    "folder": "storyboard-final-20260915",
    "start": 0,
    "end": 210,
-   "at": 2597,
+   "at": 2591,
    "sceneSound": true,
    "link": "sb_s29",
    "gain": 5
@@ -424,7 +424,7 @@
    "folder": "inventory-v74",
    "start": 0,
    "end": 39,
-   "at": 2473,
+   "at": 2467,
    "sceneSound": true,
    "link": "sb_s27b",
    "gain": -2
@@ -437,7 +437,7 @@
    "folder": "inventory-v74",
    "start": 2,
    "end": 57,
-   "at": 2309,
+   "at": 2303,
    "note": "Apu L1 close-up (owner upload), audio-correlated position"
   },
   {
@@ -446,10 +446,10 @@
    "folder": "inventory-v74",
    "start": 0,
    "end": 48,
-   "at": 2428,
+   "at": 2422,
    "note": "Apu L2 close-up (owner upload), audio-correlated position"
   }
  ],
  "parked": [],
- "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line."
+ "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS)."
 }
