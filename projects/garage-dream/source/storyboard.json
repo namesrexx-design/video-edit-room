@@ -17111,8 +17111,7 @@
         "INV043",
         "INV044",
         "INV042",
-        "INV009",
-        "INV050"
+        "INV009"
       ],
       "turnOrder20260915": [
         {
@@ -17146,7 +17145,16 @@
           "clip": "INV050 close-up lip-sync"
         }
       ],
-      "editStatus": "LIVE · S29 rebuilt from the Sep 14 pieces: INV043 → INV044 → INV042 → INV009 → INV050. Pass 11."
+      "editStatus": "LIVE · S29 rebuilt from the Sep 14 pieces: INV043 → INV044 → INV042 → INV009 → INV050. Pass 11.",
+      "ownerRejected": [
+        "INV050"
+      ],
+      "ownerNotes": [
+        {
+          "at": "2026-09-16",
+          "note": "Owner: the last clip of Homer in a square frame is wrong, remove it (INV050). Out of the film since pass 14."
+        }
+      ]
     },
     {
       "id": "S29A",

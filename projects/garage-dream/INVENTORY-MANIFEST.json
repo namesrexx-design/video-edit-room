@@ -1,6 +1,6 @@
 {
   "note": "Conformed 1080p24 copies of the recent Higgsfield videos + V74 lip-sync videos. Sources untouched.",
-  "builtAt": "2026-09-15T23:43:27.416Z",
+  "builtAt": "2026-09-16T04:33:22.786Z",
   "clips": [
     {
       "id": "INV001",
@@ -974,6 +974,66 @@
       "model": "kling3_0 pro",
       "at": "2026-09-15",
       "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": true
+    },
+    {
+      "id": "INV066",
+      "file": "INV066_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV066_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "source": "D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/outputs/S09-TRIAL-bb357e3c-kling3_0-pro-5s_LIPSYNC-e08a6b5a_COMPLETE-with-full-stem_v2-full-reply.mp4",
+      "sha256": "32FCF794D63E57B46806D8F87E538243546384C7A1F6AA802C63CD2B75F5541E",
+      "frames": 135,
+      "seconds": 5.625,
+      "group": "trial",
+      "model": "kling3_0 pro",
+      "at": "2026-09-15",
+      "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem_v2 full reply (new render, owner review)",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": true
+    },
+    {
+      "id": "INV067",
+      "file": "INV067_s24-trial-4a92122b-kling3-0-pro-5s-owner-take-b.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV067_s24-trial-4a92122b-kling3-0-pro-5s-owner-take-b.mp4",
+      "source": "D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/outputs/S24-TRIAL-4a92122b-kling3_0-pro-5s_OWNER-TAKE-B.mp4",
+      "sha256": "E43D5A1EF73DF6901C20EC8BA542C4340A0516655F2CFF999CA52651FE353FB6",
+      "frames": 121,
+      "seconds": 5.042,
+      "group": "trial",
+      "model": "kling3_0 pro",
+      "at": "2026-09-15",
+      "title": "S24 TRIAL 4a92122b kling3_0 pro 5s_OWNER TAKE B (new render, owner review)",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": false
+    },
+    {
+      "id": "INV068",
+      "file": "INV068_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV068_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a.mp4",
+      "source": "D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/outputs/S24-TRIAL-8da02e26-kling3_0-pro-5s_OWNER-TAKE-A.mp4",
+      "sha256": "369EC4A440D8C282B2512D02134928E4F213E3DDE7AC838C834C3C05A2F32CEC",
+      "frames": 121,
+      "seconds": 5.042,
+      "group": "trial",
+      "model": "kling3_0 pro",
+      "at": "2026-09-15",
+      "title": "S24 TRIAL 8da02e26 kling3_0 pro 5s_OWNER TAKE A (new render, owner review)",
+      "sourceSize": "1920x1080@24/1",
+      "sourceHadAudio": false
+    },
+    {
+      "id": "INV069",
+      "file": "INV069_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a-co.mp4",
+      "local": "D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV069_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a-co.mp4",
+      "source": "D:/REXX/AI_Video/BizBox-Garage-Dream/astra-handoff-20260915/outputs/S24-TRIAL-8da02e26-kling3_0-pro-5s_OWNER-TAKE-A_COMPLETE-with-approved-line.mp4",
+      "sha256": "3A90297252969E2301DD2CB19D9B5F6BFE0C4160F734AF8013EA2226A50D1D26",
+      "frames": 162,
+      "seconds": 6.75,
+      "group": "trial",
+      "model": "kling3_0 pro",
+      "at": "2026-09-15",
+      "title": "S24 TRIAL 8da02e26 kling3_0 pro 5s_OWNER TAKE A_COMPLETE with approved line (new render, owner review)",
       "sourceSize": "1920x1080@24/1",
       "sourceHadAudio": true
     }

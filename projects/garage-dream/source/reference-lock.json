@@ -1254,7 +1254,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V1.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V1.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-APU-FIREBIRD-ARRIVAL-V2",
@@ -1265,7 +1269,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V2.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V2.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-APU-FIREBIRD-ARRIVAL-V3",
@@ -1276,7 +1284,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V3.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V3.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-APU-FIREBIRD-ARRIVAL-V4",
@@ -1287,7 +1299,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V4.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\apu-arrival-review\\APU-FIREBIRD-ARRIVAL-V4.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-EXIT-EMPTY-END-V1",
@@ -1298,7 +1314,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-EXIT-EMPTY-END-V1.jpg"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-EXIT-EMPTY-END-V1.jpg",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-EXIT-EMPTY-END-V1",
@@ -1309,7 +1329,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-EXIT-EMPTY-END-V1.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-EXIT-EMPTY-END-V1.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-RIGHT-REVEAL-REVIEW",
@@ -1320,7 +1344,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-10",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-RIGHT-REVEAL-REVIEW.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\assembly-v2\\BART-RIGHT-REVEAL-REVIEW.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-HOMER-DREAM-BLACK-SUIT-TRANSPORT",
@@ -1408,7 +1436,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-12",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-return\\BART-07-GARAGE-RETURN-V1-8K-UPSCALED.jpg"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-return\\BART-07-GARAGE-RETURN-V1-8K-UPSCALED.jpg",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-07-GARAGE-RETURN-V1",
@@ -1419,7 +1451,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-12",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-return\\BART-07-GARAGE-RETURN-V1.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\bugatti-dream-sequence\\garage-return\\BART-07-GARAGE-RETURN-V1.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-HOMER-HEAD-SECONDARY",
@@ -1463,7 +1499,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-12",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\BART-APPROVED-VIDEO-REFERENCE.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\BART-APPROVED-VIDEO-REFERENCE.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-HOMER-RECLINER-TIGHT-START-V1-8K-UPSCALED",
@@ -1529,7 +1569,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-13",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\garage-through-apu-review\\agent-s24-finish\\APU-FIREBIRD-ARRIVAL-V4-ATTACH.jpg"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\garage-through-apu-review\\agent-s24-finish\\APU-FIREBIRD-ARRIVAL-V4-ATTACH.jpg",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-HOMER-HEAD-APPROVED-V1-ATTACH",
@@ -1551,7 +1595,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-FRESH-MARK-START-V3.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-FRESH-MARK-START-V3.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-PHONE-FREE-FIRST-FRAME",
@@ -1562,7 +1610,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-PHONE-FREE-FIRST-FRAME.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-PHONE-FREE-FIRST-FRAME.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-SHARP-START-COMPOSITE-V2",
@@ -1573,7 +1625,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-SHARP-START-COMPOSITE-V2.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-SHARP-START-COMPOSITE-V2.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-SHARP-START-TREADMILL-COMPOSITE-V1",
@@ -1584,7 +1640,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-SHARP-START-TREADMILL-COMPOSITE-V1.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\BART-SHARP-START-TREADMILL-COMPOSITE-V1.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-TARGET",
@@ -1595,7 +1655,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-11",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\bart-target.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\treadmill-audit\\bart-target.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE",
@@ -1606,7 +1670,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-14",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-apu-final-v64\\APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-apu-final-v64\\APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-AUDIO-SPECTRUM",
@@ -1617,7 +1685,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-14",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-audio-v73\\bart-inspect\\BART-AUDIO-SPECTRUM.jpg"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-audio-v73\\bart-inspect\\BART-AUDIO-SPECTRUM.jpg",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-APU-SYNC-0-7",
@@ -1628,7 +1700,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-14",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-0.7.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-0.7.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-APU-SYNC-10-1",
@@ -1639,7 +1715,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-14",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-10.1.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-10.1.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-APU-SYNC-5-8",
@@ -1650,7 +1730,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-14",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-5.8.png"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-finishing-v74\\apu-sync-5.8.png",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-HOMER-HEAD-APPROVED-V1-LOSSLESS-REENCODE",
@@ -1793,7 +1877,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-14",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-v74-assembly\\source-map-qc\\APU-81-100.jpg"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-v74-assembly\\source-map-qc\\APU-81-100.jpg",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         },
         {
           "id": "PACK-BART-75-79",
@@ -1804,7 +1892,11 @@
           "approved": false,
           "status": "Found on the drive, never filed — approve or remove",
           "date": "2026-09-14",
-          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-v74-assembly\\source-map-qc\\BART-75-79.jpg"
+          "folder": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\worker-v74-assembly\\source-map-qc\\BART-75-79.jpg",
+          "ownerRejected": {
+            "at": "2026-09-16",
+            "why": "Owner: old cartoon Apu / old heavier Rexx-with-Bart versions, remove from characters. File kept on disk."
+          }
         }
       ]
     }
