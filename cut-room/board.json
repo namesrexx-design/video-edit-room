@@ -1,17 +1,17 @@
 {
  "format": 3,
  "film": {
-  "file": "GARAGE-DREAM-V75.1-CANDIDATE-2026-09-15.mp4",
-  "name": "GARAGE DREAM V75.1 CANDIDATE 2026 09 15",
+  "file": "GARAGE-DREAM-V76-CANDIDATE-2026-09-15.mp4",
+  "name": "GARAGE DREAM V76 CANDIDATE 2026 09 15",
   "urls": [
-   "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-V75.1-CANDIDATE-2026-09-15.mp4",
-   "GARAGE-DREAM-V75.1-CANDIDATE-2026-09-15.mp4"
+   "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-V76-CANDIDATE-2026-09-15.mp4",
+   "GARAGE-DREAM-V76-CANDIDATE-2026-09-15.mp4"
   ],
-  "bytes": 72360860
+  "bytes": 71932059
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T01:43:25.400Z",
+ "builtAt": "2026-09-16T02:18:15.513Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
