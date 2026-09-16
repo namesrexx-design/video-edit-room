@@ -59,3 +59,8 @@ This section replaces any older rule below that says otherwise (for example "med
 - **BizBox main storyboard (authoritative view, has the edit/save controls):** `http://127.0.0.1:4396/scene-board/index.html?version=v74#latest-working-edit` (Codex's local server on this PC).
 - **LYFE Studio Storyboard is a VIEW layer only.** It is rebuilt from that source with `node tools/build-board.mjs` (writes `board.json` + `sb/*.jpg`), then republished. It never writes back.
 - Every still and reference on the LYFE view shows its file date and is flagged when older than the current base cut (`V74_DATE` in `tools/build-board.mjs`). Bump that date when the base cut changes.
+
+
+## Still-image fidelity standard (2026-09-16)
+
+For every still image, reference refinement, product render, hero banner, or animation of an approved still, read and apply [Preserve Image Fidelity](skills/preserve-image-fidelity/SKILL.md). This applies to Claude, Codex, and other agents. Preserve real artwork and approved identity, inspect actual exported detail, and report resolution honestly. This supplements the current cut/render rules above; it does not authorize alternate Garage Dream assemblies or bypass human PR merges.
