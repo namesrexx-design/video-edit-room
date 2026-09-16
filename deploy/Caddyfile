@@ -1,45 +1,46 @@
 # HTTPS is automatic once STUDIO_DOMAIN points at this server (e.g. studio.biz-box.io).
 # Until then STUDIO_DOMAIN=:80 serves plain http on the server's IP.
-{$STUDIO_DOMAIN}
+{$STUDIO_DOMAIN} {
 
-basic_auth {
-	{$STUDIO_USER} {$STUDIO_PASSWORD_HASH}
-}
+	basic_auth {
+		{$STUDIO_USER} {$STUDIO_PASSWORD_HASH}
+	}
 
-encode gzip
+	encode gzip
 
-# /            → the storyboard page, straight from the repo (same files GitHub Pages serves)
-# /projects/*  → finished deliveries in the repo (film, scene clips, proxies, audio)
-# /media/*     → working media pulled from R2 (browsable)
-# /editor/*    → the page folder built on this server by build-board
-handle /api/* {
-	reverse_proxy studio:8787
-}
-# the server builds its own board + sheets
-handle /board.json {
-	root * /srv/editor
-	file_server
-}
-handle /sheets/* {
-	root * /srv/editor
-	file_server
-}
-handle /projects/* {
-	root * /srv/repo
-	file_server
-}
-handle_path /media/* {
-	root * /srv/media
-	file_server browse
-}
-handle_path /editor/* {
-	root * /srv/editor
-	file_server
-}
-handle {
-	root * /srv/repo/cut-room
-	try_files {path} /storyboard-v2.html
-	file_server
+	# /            → the storyboard page, straight from the repo (same files GitHub Pages serves)
+	# /projects/*  → finished deliveries in the repo (film, scene clips, proxies, audio)
+	# /media/*     → working media pulled from R2 (browsable)
+	# /editor/*    → the page folder built on this server by build-board
+	handle /api/* {
+		reverse_proxy studio:8787
+	}
+	# the server builds its own board + sheets
+	handle /board.json {
+		root * /srv/editor
+		file_server
+	}
+	handle /sheets/* {
+		root * /srv/editor
+		file_server
+	}
+	handle /projects/* {
+		root * /srv/repo
+		file_server
+	}
+	handle_path /media/* {
+		root * /srv/media
+		file_server browse
+	}
+	handle_path /editor/* {
+		root * /srv/editor
+		file_server
+	}
+	handle {
+		root * /srv/repo/cut-room
+		try_files {path} /storyboard-v2.html
+		file_server
+	}
 }
 
 # BizBox connector for members' AI agents. No basic auth: every request carries the member's workspace key,
