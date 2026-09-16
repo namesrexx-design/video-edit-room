@@ -7,7 +7,7 @@
       "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4",
       "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
     ],
-    "bytes": 70664878
+    "bytes": 76737386
   },
   "library": {
     "clips": [
@@ -521,7 +521,7 @@
   },
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T14:02:29.262Z",
+  "builtAt": "2026-09-16T15:14:21.632Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -9452,7 +9452,7 @@
       "nextAction": "Retain existing tail playback; new likeness still remains pending, not approved by this audit.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": "S27.mp4",
-      "editStatus": "LIVE · INV052 → Rexx reply over INV004 over-the-shoulder → INV051 → INV053. Pass 12.",
+      "editStatus": "LIVE · INV052 → Rexx reply → INV051 → NEW Rexx line (document your items…, Kling 5c1539c7) → INV053. Pass 13.",
       "still": {
         "sheet": "sheets/scene-S27.jpg",
         "col": 0,
