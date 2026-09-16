@@ -6,12 +6,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { spawnSync, execFileSync } from 'node:child_process';
+import { MEDIA_ROOT, EDITOR_DIR, PC_SOURCE } from './paths.mjs';
 
 const HIGGS = 'D:/REXX/AI_Video/BizBox-Garage-Dream/higgsfield-recent-2026-09-15';
-const CODEX = 'C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2';
+const CODEX = PC_SOURCE || MEDIA_ROOT + '/codex-workspace';
 const FWC = 'D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/full-working-cut';
-const OUT = 'D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74';
-const EDITOR = 'C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor';
+const OUT = MEDIA_ROOT + '/inventory-v74';
+const EDITOR = EDITOR_DIR;
 fs.mkdirSync(OUT, { recursive: true }); fs.mkdirSync(EDITOR + '/inv', { recursive: true }); fs.mkdirSync(EDITOR + '/thumbs', { recursive: true });
 
 const run = a => { const r = spawnSync('ffmpeg', ['-v', 'error', '-nostdin', '-n', ...a], { stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64e6 }); if (r.status !== 0) throw new Error('ffmpeg\n' + r.stderr.toString().slice(-800)); };

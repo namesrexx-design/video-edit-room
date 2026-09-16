@@ -5,10 +5,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { spawnSync, execFileSync } from 'node:child_process';
+import { MEDIA_ROOT, EDITOR_DIR, PC_SOURCE } from './paths.mjs';
 
-const CODEX = 'C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2';
-const OUT = 'D:/REXX/AI_Video/BizBox-Garage-Dream/audio-bin-v74';
-const EDITOR = 'C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor';
+const CODEX = PC_SOURCE || MEDIA_ROOT + '/codex-workspace';
+const OUT = MEDIA_ROOT + '/audio-bin-v74';
+const EDITOR = EDITOR_DIR;
 fs.mkdirSync(OUT, { recursive: true }); fs.mkdirSync(EDITOR + '/audio', { recursive: true });
 
 const run = a => { const r = spawnSync('ffmpeg', ['-v', 'error', '-nostdin', '-n', ...a], { stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64e6 }); if (r.status !== 0) throw new Error('ffmpeg\n' + r.stderr.toString().slice(-800)); };

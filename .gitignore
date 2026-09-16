@@ -26,3 +26,6 @@ projects/*/renders/*.receipt.json
 
 # local sync backups of the storyboard source (kept on disk, not in git)
 projects/garage-dream/source/_backups/
+
+# server secrets
+deploy/.env

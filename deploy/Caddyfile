@@ -1,0 +1,31 @@
+# HTTPS is automatic once STUDIO_DOMAIN points at this server (e.g. studio.biz-box.io).
+# Until then STUDIO_DOMAIN=:80 serves plain http on the server's IP.
+{$STUDIO_DOMAIN}
+
+basic_auth {
+	{$STUDIO_USER} {$STUDIO_PASSWORD_HASH}
+}
+
+encode gzip
+
+# /            → the storyboard page (built into /srv/editor by build-board)
+# /cut-room/*  → the repo's cut-room folder (Cut Room page, board.json, sheets)
+# /projects/*  → finished deliveries in the repo (film, scene clips, proxies, audio)
+# /media/*     → working media pulled from R2
+handle /cut-room/* {
+	root * /srv/repo
+	file_server
+}
+handle /projects/* {
+	root * /srv/repo
+	file_server
+}
+handle_path /media/* {
+	root * /srv/media
+	file_server browse
+}
+handle {
+	root * /srv/editor
+	try_files {path} /storyboard.html
+	file_server
+}

@@ -13,10 +13,11 @@
 // Cloud agents: edit the files under projects/garage-dream/source/ and open a PR. Nothing else.
 import fs from 'node:fs';
 import path from 'node:path';
+import { PC_SOURCE } from './paths.mjs';
 
-const PC = 'C:/Users/16263/Documents/Codex/2026-09-04/referenced-chatgpt-conversation-this-is-an-2';
+const PC = PC_SOURCE;
 const REPO = path.resolve('projects/garage-dream/source');
-const PAIRS = [
+const PAIRS = !PC ? [] : [
   { name: 'storyboard.json', pc: PC + '/scene-board/storyboard.json', also: PC + '/scene-board/board-data.js' },
   { name: 'reference-lock.json', pc: PC + '/continuity-reference-pack/reference-lock.json' },
 ];

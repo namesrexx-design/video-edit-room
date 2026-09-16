@@ -1,0 +1,38 @@
+# LYFE Studio shared server (Hetzner). One machine, every agent works here.
+#
+#   studio  the worker: render-cut, build-board, build-inventory, blender -b …  (docker compose exec studio bash)
+#   web     Caddy: HTTPS + password in front of the storyboard page, the Cut Room and the media
+#
+# Files on the server:
+#   /srv/lyfe/repo      git clone of namesrexx-design/video-edit-room   (text: storyboard, cuts, tools)
+#   /srv/lyfe/media     working media, pulled from Cloudflare R2        (video/audio, ~20 GB)
+#   /srv/lyfe/editor    built page, sheets, proxies                     (made by build-board)
+services:
+  studio:
+    build: .
+    image: lyfe-studio:latest
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - /srv/lyfe/repo:/repo
+      - /srv/lyfe/media:/data/media
+      - /srv/lyfe/editor:/data/editor
+
+  web:
+    image: caddy:2
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - /srv/lyfe/repo:/srv/repo:ro
+      - /srv/lyfe/editor:/srv/editor:ro
+      - /srv/lyfe/media:/srv/media:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
