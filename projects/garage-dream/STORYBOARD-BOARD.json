@@ -8,7 +8,7 @@
       "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
     ],
     "bytes": 78288510,
-    "builtAt": "2026-09-16T17:40:04.001Z"
+    "builtAt": "2026-09-16T17:56:22.102Z"
   },
   "library": {
     "clips": [
@@ -562,7 +562,7 @@
   },
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T17:55:52.464Z",
+  "builtAt": "2026-09-16T18:07:25.434Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -17722,8 +17722,9 @@
   "props": {
     "current": [
       {
-        "date": "2026-09-12",
-        "file": "WOODEN-WIDE-FORK-REFERENCE-02.jpg",
+        "date": "2026-09-16",
+        "file": "WOODEN-WIDE-FORK-REFERENCE-02-CUTOUT.png",
+        "orig": "WOODEN-WIDE-FORK-REFERENCE-02.jpg",
         "id": "Slingshot (Bart)",
         "title": "Slingshot (Bart)",
         "role": "Old-school rounded wooden Y branch with wide fork, tan bands and leather pouch",
@@ -17743,6 +17744,7 @@
       {
         "date": "2026-09-12",
         "file": "PRODUCTION-2021-OFFICIAL-HERO.jpg",
+        "orig": "PRODUCTION-2021-OFFICIAL-HERO.jpg",
         "id": "Bugatti La Voiture Noire (dream car)",
         "title": "Bugatti La Voiture Noire (dream car)",
         "role": "Vehicle reference: glossy exposed black carbon, real Havana Brown interior",
@@ -17760,6 +17762,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "DEWALT-DCK540D1",
         "title": "DEWALT-DCK540D1",
         "role": "",
@@ -17770,6 +17773,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "CALLAWAY-ELYTE-STAFF",
         "title": "CALLAWAY-ELYTE-STAFF",
         "role": "",
@@ -17780,6 +17784,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "CALLAWAY-ELYTE-IRONS-1",
         "title": "CALLAWAY-ELYTE-IRONS-1",
         "role": "",
@@ -17790,6 +17795,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "CALLAWAY-ELYTE-IRONS-2",
         "title": "CALLAWAY-ELYTE-IRONS-2",
         "role": "",
@@ -17800,6 +17806,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "SAMSUNG-RF29DB9900QD",
         "title": "SAMSUNG-RF29DB9900QD",
         "role": "",
@@ -17810,6 +17817,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "North American NES front-loader; not Nintendo Classic Mini.",
@@ -17820,6 +17828,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "US SNES form factor; not Super Famicom and not Nintendo Classic Mini.",
@@ -17830,6 +17839,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "Front three-quarter view with woodgrain label and controls; not Atari 2600+ replica.",
@@ -17840,6 +17850,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "Recognizable G.I. Joe manufacturer product reference.",
@@ -17850,6 +17861,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "Recognizable Transformers manufacturer product reference.",
@@ -17860,6 +17872,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "",
@@ -17870,6 +17883,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "",
@@ -17880,6 +17894,7 @@
       {
         "date": null,
         "file": null,
+        "orig": null,
         "id": "prop",
         "title": "prop",
         "role": "",
@@ -17888,8 +17903,9 @@
         "img": null
       },
       {
-        "date": "2026-09-12",
-        "file": "CALLAWAY-ELYTE-IRONS-1.png",
+        "date": "2026-09-16",
+        "file": "CALLAWAY-ELYTE-IRONS-1-CUTOUT.png",
+        "orig": "CALLAWAY-ELYTE-IRONS-1.png",
         "id": "CALLAWAY ELYTE IRONS 1",
         "title": "CALLAWAY ELYTE IRONS 1",
         "role": "",
@@ -17904,8 +17920,9 @@
         }
       },
       {
-        "date": "2026-09-12",
-        "file": "CALLAWAY-ELYTE-IRONS-2.png",
+        "date": "2026-09-16",
+        "file": "CALLAWAY-ELYTE-IRONS-2-CUTOUT.png",
+        "orig": "CALLAWAY-ELYTE-IRONS-2.png",
         "id": "CALLAWAY ELYTE IRONS 2",
         "title": "CALLAWAY ELYTE IRONS 2",
         "role": "",
@@ -17920,8 +17937,9 @@
         }
       },
       {
-        "date": "2026-09-12",
-        "file": "CALLAWAY-ELYTE-STAFF.png",
+        "date": "2026-09-16",
+        "file": "CALLAWAY-ELYTE-STAFF-CUTOUT.png",
+        "orig": "CALLAWAY-ELYTE-STAFF.png",
         "id": "CALLAWAY ELYTE STAFF",
         "title": "CALLAWAY ELYTE STAFF",
         "role": "",
@@ -17936,8 +17954,9 @@
         }
       },
       {
-        "date": "2026-09-12",
-        "file": "SAMSUNG-RF29DB9900QD.jpg",
+        "date": "2026-09-16",
+        "file": "SAMSUNG-RF29DB9900QD-CUTOUT.png",
+        "orig": "SAMSUNG-RF29DB9900QD.jpg",
         "id": "SAMSUNG RF29DB9900QD",
         "title": "SAMSUNG RF29DB9900QD",
         "role": "",
@@ -18086,8 +18105,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "atari-2600-woody-original.jpg",
+        "date": "2026-09-16",
+        "file": "atari-2600-woody-original-CUTOUT.png",
         "id": "owner-atari-2600-woody-original",
         "title": "atari 2600 woody original (owner upload)",
         "role": "candidate",
@@ -18103,8 +18122,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "atari-box.jpg",
+        "date": "2026-09-16",
+        "file": "atari-box-CUTOUT.png",
         "id": "owner-atari-box",
         "title": "atari box (owner upload)",
         "role": "candidate",
@@ -18120,8 +18139,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "Dell-OptiPlex-9020-desktop.jpg",
+        "date": "2026-09-16",
+        "file": "Dell-OptiPlex-9020-desktop-CUTOUT.png",
         "id": "owner-Dell-OptiPlex-9020-desktop",
         "title": "Dell OptiPlex 9020 desktop (owner upload)",
         "role": "candidate",
@@ -18137,8 +18156,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "DEWALT-DCK540D1.webp",
+        "date": "2026-09-16",
+        "file": "DEWALT-DCK540D1-CUTOUT.png",
         "id": "owner-DEWALT-DCK540D1",
         "title": "DEWALT DCK540D1 (owner upload)",
         "role": "candidate",
@@ -18154,8 +18173,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "EGO-LM2135SP-mower.png",
+        "date": "2026-09-16",
+        "file": "EGO-LM2135SP-mower-CUTOUT.png",
         "id": "owner-EGO-LM2135SP-mower",
         "title": "EGO LM2135SP mower (owner upload)",
         "role": "candidate",
@@ -18171,8 +18190,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "gi-joe-duke-hasbro-pulse-normalized.jpg",
+        "date": "2026-09-16",
+        "file": "gi-joe-duke-hasbro-pulse-normalized-CUTOUT.png",
         "id": "owner-gi-joe-duke-hasbro-pulse-normalized",
         "title": "gi joe duke hasbro pulse normalized (owner upload)",
         "role": "candidate",
@@ -18205,8 +18224,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "jordan-signed-jersey.jpg",
+        "date": "2026-09-16",
+        "file": "jordan-signed-jersey-CUTOUT.png",
         "id": "owner-jordan-signed-jersey",
         "title": "jordan signed jersey (owner upload)",
         "role": "candidate",
@@ -18273,8 +18292,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "kobe-back-full.jpg",
+        "date": "2026-09-16",
+        "file": "kobe-back-full-CUTOUT.png",
         "id": "owner-kobe-back-full",
         "title": "kobe back full (owner upload)",
         "role": "candidate",
@@ -18341,8 +18360,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "kobe-signed-jersey.jpg",
+        "date": "2026-09-16",
+        "file": "kobe-signed-jersey-CUTOUT.png",
         "id": "owner-kobe-signed-jersey",
         "title": "kobe signed jersey (owner upload)",
         "role": "candidate",
@@ -18358,8 +18377,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "nes-box.jpg",
+        "date": "2026-09-16",
+        "file": "nes-box-CUTOUT.png",
         "id": "owner-nes-box",
         "title": "nes box (owner upload)",
         "role": "candidate",
@@ -18375,8 +18394,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "nes-frontloader-original.jpg",
+        "date": "2026-09-16",
+        "file": "nes-frontloader-original-CUTOUT.png",
         "id": "owner-nes-frontloader-original",
         "title": "nes frontloader original (owner upload)",
         "role": "candidate",
@@ -18392,8 +18411,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "RYOBI-18V-ONE-String-Trimmer.jpg",
+        "date": "2026-09-16",
+        "file": "RYOBI-18V-ONE-String-Trimmer-CUTOUT.png",
         "id": "owner-RYOBI-18V-ONE-String-Trimmer",
         "title": "RYOBI 18V ONE String Trimmer (owner upload)",
         "role": "candidate",
@@ -18426,8 +18445,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "shaq-signed-jersey.jpg",
+        "date": "2026-09-16",
+        "file": "shaq-signed-jersey-CUTOUT.png",
         "id": "owner-shaq-signed-jersey",
         "title": "shaq signed jersey (owner upload)",
         "role": "candidate",
@@ -18477,8 +18496,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "snes-us-front-original.jpg",
+        "date": "2026-09-16",
+        "file": "snes-us-front-original-CUTOUT.png",
         "id": "owner-snes-us-front-original",
         "title": "snes us front original (owner upload)",
         "role": "candidate",
@@ -18511,8 +18530,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "snes-us-original.jpg",
+        "date": "2026-09-16",
+        "file": "snes-us-original-CUTOUT.png",
         "id": "owner-snes-us-original",
         "title": "snes us original (owner upload)",
         "role": "candidate",
@@ -18528,8 +18547,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "transformers-optimal-optimus-hasbro-pulse-normalized.jpg",
+        "date": "2026-09-16",
+        "file": "transformers-optimal-optimus-hasbro-pulse-normalized-CUTOUT.png",
         "id": "owner-transformers-optimal-optimus-hasbro-pulse-normalized",
         "title": "transformers optimal optimus hasbro pulse normalized (owner upload)",
         "role": "candidate",
@@ -18545,8 +18564,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "WOODEN-Y-SLINGSHOT-REAL-REFERENCE.jpg",
+        "date": "2026-09-16",
+        "file": "WOODEN-Y-SLINGSHOT-REAL-REFERENCE-CUTOUT.png",
         "id": "owner-WOODEN-Y-SLINGSHOT-REAL-REFERENCE",
         "title": "WOODEN Y SLINGSHOT REAL REFERENCE (owner upload)",
         "role": "candidate",
@@ -18562,8 +18581,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE.jpg",
+        "date": "2026-09-16",
+        "file": "GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE-CUTOUT.png",
         "id": "owner-GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE",
         "title": "GRINCH SHOE KOBE6 ACTUAL HEEL REFERENCE (owner upload)",
         "role": "candidate",
@@ -18579,8 +18598,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-01-34-FRONT.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-01-34-FRONT-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-01-34-FRONT",
         "title": "BUGATTI LVN 01 34 FRONT (owner upload)",
         "role": "candidate",
@@ -18596,8 +18615,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-02-ELEVATED-FRONT.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-02-ELEVATED-FRONT-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-02-ELEVATED-FRONT",
         "title": "BUGATTI LVN 02 ELEVATED FRONT (owner upload)",
         "role": "candidate",
@@ -18613,8 +18632,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-03-FRONT.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-03-FRONT-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-03-FRONT",
         "title": "BUGATTI LVN 03 FRONT (owner upload)",
         "role": "candidate",
@@ -18630,8 +18649,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-04-SIDE.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-04-SIDE-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-04-SIDE",
         "title": "BUGATTI LVN 04 SIDE (owner upload)",
         "role": "candidate",
@@ -18647,8 +18666,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-05-34-REAR.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-05-34-REAR-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-05-34-REAR",
         "title": "BUGATTI LVN 05 34 REAR (owner upload)",
         "role": "candidate",
@@ -18664,8 +18683,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-06-REAR.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-06-REAR-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-06-REAR",
         "title": "BUGATTI LVN 06 REAR (owner upload)",
         "role": "candidate",
@@ -18681,8 +18700,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-07-TOP.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-07-TOP-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-07-TOP",
         "title": "BUGATTI LVN 07 TOP (owner upload)",
         "role": "candidate",
@@ -18698,8 +18717,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-08-ELEVATED-SIDE.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-08-ELEVATED-SIDE-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-08-ELEVATED-SIDE",
         "title": "BUGATTI LVN 08 ELEVATED SIDE (owner upload)",
         "role": "candidate",
@@ -18732,8 +18751,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-10-ELEVATED-34-FRONT.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-10-ELEVATED-34-FRONT-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-10-ELEVATED-34-FRONT",
         "title": "BUGATTI LVN 10 ELEVATED 34 FRONT (owner upload)",
         "role": "candidate",
@@ -18749,8 +18768,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-11-ELEVATED-34-REAR.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-11-ELEVATED-34-REAR-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-11-ELEVATED-34-REAR",
         "title": "BUGATTI LVN 11 ELEVATED 34 REAR (owner upload)",
         "role": "candidate",
@@ -18834,8 +18853,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-16-ELEVATED-REAR.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-16-ELEVATED-REAR-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-16-ELEVATED-REAR",
         "title": "BUGATTI LVN 16 ELEVATED REAR (owner upload)",
         "role": "candidate",
@@ -18936,8 +18955,8 @@
         }
       },
       {
-        "date": "2026-09-15",
-        "file": "BUGATTI-LVN-OFFICIAL-HERO.jpg",
+        "date": "2026-09-16",
+        "file": "BUGATTI-LVN-OFFICIAL-HERO-CUTOUT.png",
         "id": "owner-BUGATTI-LVN-OFFICIAL-HERO",
         "title": "BUGATTI LVN OFFICIAL HERO (owner upload)",
         "role": "candidate",
@@ -19826,7 +19845,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-12",
+      "date": "2026-09-16",
       "approved": true
     },
     {
@@ -19960,7 +19979,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-12",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -19975,7 +19994,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-12",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -19990,7 +20009,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-12",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20005,7 +20024,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-12",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20139,7 +20158,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20154,7 +20173,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20169,7 +20188,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20184,7 +20203,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20199,7 +20218,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20214,7 +20233,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20244,7 +20263,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20304,7 +20323,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20364,7 +20383,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20379,7 +20398,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20394,7 +20413,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20409,7 +20428,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20439,7 +20458,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20484,7 +20503,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20514,7 +20533,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20529,7 +20548,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20544,7 +20563,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20559,7 +20578,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20574,7 +20593,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20589,7 +20608,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20604,7 +20623,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20619,7 +20638,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20634,7 +20653,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20649,7 +20668,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20664,7 +20683,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20679,7 +20698,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20709,7 +20728,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20724,7 +20743,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20799,7 +20818,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {
@@ -20889,7 +20908,7 @@
         "rows": 8,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": false
     },
     {

@@ -37,7 +37,8 @@ function pack(groupId, srcs, shape = 'land') {
   const [cw, ch] = CELL[shape]; const cols = Math.min(8, list.length); const rows = Math.ceil(list.length / cols);
   const file = `sheets/${groupId}.jpg`; const dest = `${EDITOR}/${file}`;
   const args = ['-v', 'error', '-nostdin', '-y']; list.forEach(p => args.push('-i', p));
-  const fc = list.map((_, i) => `[${i}]scale=${cw}:${ch}:force_original_aspect_ratio=increase,crop=${cw}:${ch},setsar=1[t${i}]`).join(';');
+  // background-removed props (…-CUTOUT.png) keep the whole object: fit inside the cell on a plain light ground (2026-09-16)
+  const fc = list.map((p, i) => /-CUTOUT.png$/i.test(p) ? `color=c=0xE8E4DC:s=${cw}x${ch}[g${i}];[${i}]scale=${cw - 16}:${ch - 16}:force_original_aspect_ratio=decrease,format=rgba[f${i}];[g${i}][f${i}]overlay=(W-w)/2:(H-h)/2:shortest=1,setsar=1[t${i}]` : `[${i}]scale=${cw}:${ch}:force_original_aspect_ratio=increase,crop=${cw}:${ch},setsar=1[t${i}]`).join(';');
   let graph;
   if (list.length === 1) graph = fc.replace('[t0]', '[out]'); else { const layout = list.map((_, i) => `${(i % cols) * cw}_${Math.floor(i / cols) * ch}`).join('|'); graph = fc + ';' + list.map((_, i) => `[t${i}]`).join('') + `xstack=inputs=${list.length}:layout=${layout}:fill=black[out]`; }
   const script = `${EDITOR}/sheets/${groupId}.graph`; fs.writeFileSync(script, graph);  // the graph goes in a file: 100+ inputs would blow the Windows command-line limit
@@ -144,13 +145,15 @@ const sets = SETS_ORDER.map(([name, blurb]) => {
 
 // ---- PROPS: things moved, touched, or moving. Approved references are current; the rest is archive.
 const propTiles = [];
-const addProp = (title, p, role, status, extra = {}) => { const f = resolve(p, W); propTiles.push(tile(f, { id: title, title, role: clean(role), status: clean(status), ...extra })); };
+// a prop photo with a background-removed copy shows the cutout (original stays on disk)
+const cutout = f => { if (!f) return f; const c = OWN + '/props-cutout/' + path.basename(f).replace(/.[^.]+$/, '') + '-CUTOUT.png'; return fs.existsSync(c) ? c : f; };
+const addProp = (title, p, role, status, extra = {}) => { const f0 = resolve(p, W); const f = cutout(f0); propTiles.push(tile(f, { orig: f0 ? path.basename(f0) : null, id: title, title, role: clean(role), status: clean(status), ...extra })); };
 const bs = sb.characterReferences?.bartSlingshot; if (bs) addProp('Slingshot (Bart)', bs.path, bs.role, bs.status, { approved: !!bs.approved });
 if (env.dreamVehicle) addProp('Bugatti La Voiture Noire (dream car)', env.dreamVehicle.path, env.dreamVehicle.role, env.dreamVehicle.status, { approved: !!env.dreamVehicle.approved });
 for (const it of props.items || props.references || props.props || []) addProp(it.title || it.id || 'prop', it.path || it.file || it.image, it.role || it.notes || '', it.status || '', { approved: !!it.approved });
 const rp = W + '/environment-reference-pack/real-prop-references'; if (fs.existsSync(rp)) for (const f of fs.readdirSync(rp).filter(f => /[.](png|jpe?g)$/i.test(f))) if (!propTiles.some(t => t.file === f)) addProp(base(f).replace(/[-_]/g, ' '), rp + '/' + f, '', '');
 for (const name of ['phone', 'coffee mug', 'garage remote', 'boxes', 'consoles', 'Hot Wheels', 'treadmill', 'recliner', 'speakers', 'mosquito', 'skateboard', 'Firebird (car)', 'Happy Gas tank']) if (!propTiles.some(t => t.title.toLowerCase().includes(name.toLowerCase()))) propTiles.push({ id: name, title: name, role: 'used in ' + scenes.filter(s => s.props.includes(name)).map(s => s.id).join(', '), src: null, date: null, status: 'no reference image yet', approved: false });
-for (const f of walkFiles(OWN + '/props')) if (!propTiles.some(t => t.src === f || (t.file && t.file.toLowerCase() === base(f).toLowerCase() + path.extname(f).toLowerCase()))) propTiles.push(tile(f, { id: 'owner-' + base(f), title: base(f).replace(/[-_]/g, ' ') + ' (owner upload)', role: 'candidate', status: 'Owner upload — awaiting approval', approved: false }));
+for (const f of walkFiles(OWN + '/props')) if (!propTiles.some(t => t.src === f || ((t.orig || t.file) && (t.orig || t.file).toLowerCase() === base(f).toLowerCase() + path.extname(f).toLowerCase()))) propTiles.push(tile(cutout(f), { id: 'owner-' + base(f), title: base(f).replace(/[-_]/g, ' ') + ' (owner upload)', role: 'candidate', status: 'Owner upload — awaiting approval', approved: false }));
 const propsBound = bind(propTiles, pack('props', propTiles.map(t => t.src)));
 
 for (const s of scenes) { delete s._cur; delete s._frames; }
