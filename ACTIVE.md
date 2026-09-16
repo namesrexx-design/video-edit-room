@@ -7,3 +7,5 @@
 | Claude (MASTER) | bizbox `src/pages/LyfeStudio.jsx`, `public/media/studio/*`, `/studio` route | 2026-09-15 | BizBox port step 2 DONE: PR namesrexx-design/bizbox#15 + sandbox checkpoint 6aa98847 (owner clicks Publish). Next: media uploads (Core.UploadFile function), agent door, Cut Room inside BizBox. No uncommitted work in `bizbox-lyfe-studio-worktree` |
 
 Astra completed 2026-09-16: standalone automatic scene sync server/client and launcher, documented in STORYBOARD-AUTO-SYNC.md. Claim released; original page, builder, server and generated data remain untouched.
+
+| Claude (MASTER) | port 4321 on the PC | 2026-09-15 | Storyboard auto-sync ACTIVATED: old static server stopped, `serve-storyboard-sync.mjs --root <PC board folder>` running (launch.json `storyboard-sync`); revision 5ff88f88, S08+S09 selected and playing. Root override pushed as b45c160. |
