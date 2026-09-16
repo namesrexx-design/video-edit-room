@@ -199,7 +199,7 @@ function openScene(id){
     <h3>4 · Videos</h3><p class="hint">Every video clip for this scene. ▶ plays it with sound. Tap a tile, then use the bar: move it, Remove (archive), Delete, or Reject for good. ✔ in the player chooses it for the scene.</p><div id="scVideos"></div>
     <h3>5 · Audio (${s.audio.length})</h3>${s.audio.length ? `<div class="chips">${s.audio.map(a => a.audioUrl ? `<button class="chip small" data-audio="${esc(a.audioUrl)}" data-title="${esc(a.title)}">▶ ♪ ${esc(a.title)} · ${a.seconds}s${a.date ? ' · ' + fD(a.date) : ''}</button>` : `<span class="chip">♪ ${esc(a.title)} · ${a.seconds}s</span>`).join('')}</div>` : '<p class="hint">No separate audio file is filed to this scene; its sound is inside the clip.</p>'}<div id="scAudioAdded" class="chips" style="margin-top:6px"></div>
     <h3>6 · Reference stills</h3><div id="scStills"></div>`;
-  const isVid = t => !!t.videoUrl, isFrame = t => (t.role === 'start' || t.role === 'end') && !t.videoUrl;
+  const isVid = t => !!t.videoUrl, isFrame = t => (t.role === 'start' || t.role === 'end' || t.group === 'current') && !t.videoUrl;
   const live = t => ['current','cut','approved'].includes(t.group), old = t => ['pending','archived'].includes(t.group);
   const added = ((ST.added || {})[s.id] || []);
   const lib = BOARD.library || { clips: [], audio: [] };
