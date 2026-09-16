@@ -11,7 +11,7 @@
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T04:26:52.707Z",
+ "builtAt": "2026-09-16T04:34:58.562Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -8271,7 +8271,7 @@
    "status": "V73 registered: owner-approved V78 rear-camera wide inserted at 82.416667-85.416667.",
    "nextAction": "New pair reviewed and held for missing heel signatures and incorrect lettering; archived and blocked from render inputs.",
    "gate": "Owner flagged hood/car distortion after render and requires accurate real car source plus matched start/end frames before another job. Character source approval remains valid.",
-   "video": "S24-COMPLETE-new-takes-with-approved-line.mp4",
+   "video": "S24.mp4",
    "editStatus": "COMPLETE · new takes (owner, tonight) with the approved line. In the film.",
    "still": {
     "sheet": "sheets/scene-S24.jpg",
@@ -8281,7 +8281,7 @@
     "rows": 2,
     "shape": "land"
    },
-   "stillDate": "2026-09-15",
+   "stillDate": "2026-09-16",
    "stillStale": false,
    "v74": {
     "start": 82.416667,
@@ -8289,14 +8289,14 @@
    },
    "stills": [
     {
-     "date": "2026-09-15",
-     "file": "S24-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S24-start-NEW-20260915.jpg",
      "group": "current",
      "id": "S24-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S24 owner new takes (2026-09-15)",
      "role": "current",
      "approved": true,
-     "status": "taken from GARAGE-DREAM-V74-CANDIDATE-CLAUDE-2026-09-14.mp4 at 83.167s",
+     "status": "taken from S24-COMPLETE-new-takes-with-approved-line.mp4 at 1s",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
       "col": 0,
@@ -8307,17 +8307,17 @@
      }
     },
     {
-     "date": "2026-09-12",
-     "file": "S24-start-V27.jpg",
+     "date": "2026-09-16",
+     "file": "S24-start-NEW-20260915.jpg",
      "group": "cut",
-     "id": "current-frames/S24-start-V27.jpg",
-     "title": "Current cut · start frame",
+     "id": "S24-start-NEW-20260915",
+     "title": "Start · S24 new takes",
      "role": "start",
      "approved": true,
      "status": "",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 1,
+      "col": 0,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -8325,17 +8325,17 @@
      }
     },
     {
-     "date": "2026-09-12",
-     "file": "S24-end-V27.jpg",
+     "date": "2026-09-16",
+     "file": "S24-end-NEW-20260915.jpg",
      "group": "cut",
-     "id": "current-frames/S24-end-V27.jpg",
-     "title": "Current cut · end frame",
+     "id": "S24-end-NEW-20260915",
+     "title": "End · S24 new takes",
      "role": "end",
      "approved": true,
      "status": "",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 2,
+      "col": 1,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -8354,7 +8354,7 @@
      "status": "Owner-approved canonical reference",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 3,
+      "col": 2,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -8373,7 +8373,7 @@
      "status": "",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 4,
+      "col": 3,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -8392,7 +8392,7 @@
      "status": "Rejected by owner — Rexx likeness/proportions; replace with current approved references",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 5,
+      "col": 4,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -8411,7 +8411,7 @@
      "status": "Historical source — new rear reference candidate available",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 6,
+      "col": 5,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -8430,7 +8430,7 @@
      "status": "Owner-selected continuity reference",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 7,
+      "col": 6,
       "row": 0,
       "cols": 8,
       "rows": 2,
@@ -8449,8 +8449,8 @@
      "status": "Historical source — excluded from new character reference set by owner",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 0,
-      "row": 1,
+      "col": 7,
+      "row": 0,
       "cols": 8,
       "rows": 2,
       "shape": "land"
@@ -8468,7 +8468,7 @@
      "status": "Historical reference — superseded; not eligible for new render",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 1,
+      "col": 0,
       "row": 1,
       "cols": 8,
       "rows": 2,
@@ -8487,7 +8487,7 @@
      "status": "Historical reference — superseded; not eligible for new render",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 2,
+      "col": 1,
       "row": 1,
       "cols": 8,
       "rows": 2,
@@ -8506,7 +8506,7 @@
      "status": "Rejected by owner — wrong still; use storyboard character references",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 3,
+      "col": 2,
       "row": 1,
       "cols": 8,
       "rows": 2,
@@ -8525,7 +8525,7 @@
      "status": "Owner accepted reflection repair and requested upload to Higgsfield",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
-      "col": 4,
+      "col": 3,
       "row": 1,
       "cols": 8,
       "rows": 2,
@@ -8544,7 +8544,64 @@
      "status": "Owner accepted reflection repair and requested upload to Higgsfield",
      "img": {
       "sheet": "sheets/scene-S24.jpg",
+      "col": 4,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV067_s24-trial-4a92122b-kling3-0-pro-5s-owner-take-b.mp4",
+     "videoUrl": null,
+     "group": "approved",
+     "approved": false,
+     "id": "INV067",
+     "title": "Higgsfield clip · INV067 · 5.042 s",
+     "role": "clip",
+     "status": "S24 TRIAL 4a92122b kling3_0 pro 5s_OWNER TAKE B (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S24.jpg",
       "col": 5,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV068_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a.mp4",
+     "videoUrl": null,
+     "group": "approved",
+     "approved": false,
+     "id": "INV068",
+     "title": "Higgsfield clip · INV068 · 5.042 s",
+     "role": "clip",
+     "status": "S24 TRIAL 8da02e26 kling3_0 pro 5s_OWNER TAKE A (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S24.jpg",
+      "col": 6,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV069_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a-co.mp4",
+     "videoUrl": null,
+     "group": "approved",
+     "approved": false,
+     "id": "INV069",
+     "title": "Higgsfield clip · INV069 · 6.75 s",
+     "role": "clip",
+     "status": "S24 TRIAL 8da02e26 kling3_0 pro 5s_OWNER TAKE A_COMPLETE with approved line (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S24.jpg",
+      "col": 7,
       "row": 1,
       "cols": 8,
       "rows": 2,
@@ -8573,31 +8630,31 @@
    "angle": "rear wide, walk to car",
    "_src": [
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-start-V74.jpg",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-start-NEW-20260915.jpg",
      "id": "S24-current",
-     "title": "Current still · from V74",
+     "title": "Current still · from S24 owner new takes (2026-09-15)",
      "group": "current",
      "role": "current",
      "approved": true,
-     "date": "2026-09-15"
+     "date": "2026-09-16"
     },
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-start-V27.jpg",
-     "id": "current-frames/S24-start-V27.jpg",
-     "title": "Current cut · start frame",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-start-NEW-20260915.jpg",
+     "id": "S24-start-NEW-20260915",
+     "title": "Start · S24 new takes",
      "group": "cut",
      "role": "start",
      "approved": true,
-     "date": "2026-09-12"
+     "date": "2026-09-16"
     },
     {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-end-V27.jpg",
-     "id": "current-frames/S24-end-V27.jpg",
-     "title": "Current cut · end frame",
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S24-end-NEW-20260915.jpg",
+     "id": "S24-end-NEW-20260915",
+     "title": "End · S24 new takes",
      "group": "cut",
      "role": "end",
      "approved": true,
-     "date": "2026-09-12"
+     "date": "2026-09-16"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
@@ -8697,6 +8754,33 @@
      "role": "end",
      "approved": false,
      "date": "2026-09-14"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV067.jpg",
+     "id": "INV067",
+     "title": "Higgsfield clip · INV067 · 5.042 s",
+     "group": "approved",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV068.jpg",
+     "id": "INV068",
+     "title": "Higgsfield clip · INV068 · 5.042 s",
+     "group": "approved",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
+    },
+    {
+     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV069.jpg",
+     "id": "INV069",
+     "title": "Higgsfield clip · INV069 · 6.75 s",
+     "group": "approved",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
     }
    ],
    "_audioSrc": [
@@ -8706,7 +8790,7 @@
      "seconds": 6.43
     }
    ],
-   "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S24/S24-COMPLETE-new-takes-with-approved-line.mp4",
+   "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S24.mp4",
    "_audioTracks": []
   },
   {
@@ -13868,8 +13952,8 @@
      }
     },
     {
-     "date": "2026-09-15",
-     "file": "S24-start-V74.jpg",
+     "date": "2026-09-16",
+     "file": "S24-start-NEW-20260915.jpg",
      "id": "S24-angle",
      "title": "S24 · rear wide, walk to car",
      "angle": "rear wide, walk to car",
@@ -19245,7 +19329,7 @@
     "rows": 7,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": true
   },
   {
