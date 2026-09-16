@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T00:37:00.781Z",
+  "builtAt": "2026-09-16T00:58:57.454Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -1192,22 +1192,22 @@
         "rows": 4,
         "shape": "land"
       },
-      "stillDate": "2026-09-13",
-      "stillStale": true,
+      "stillDate": "2026-09-16",
+      "stillStale": false,
       "v74": {
         "inCut": false,
         "note": "Not in V74. Finished V36 footage is parked in the Cut Room / CAPCUT_KIT_V74 as an ADD-BACK clip; owner decides."
       },
       "stills": [
         {
-          "date": "2026-09-13",
-          "file": "S08-start-V47.jpg",
+          "date": "2026-09-16",
+          "file": "S08-start-COMPLETE-20260915.jpg",
           "group": "current",
           "id": "S08-current",
-          "title": "Current still",
+          "title": "Current still · from S08 COMPLETE (owner selected 2026-09-15)",
           "role": "current",
           "approved": true,
-          "status": "",
+          "status": "taken from S08-COMPLETE-with-approved-VO.mp4 at 1.5s",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
             "col": 0,
@@ -1218,11 +1218,11 @@
           }
         },
         {
-          "date": "2026-09-13",
-          "file": "S08-start-V47.jpg",
+          "date": "2026-09-16",
+          "file": "S08-start-COMPLETE-20260915.jpg",
           "group": "cut",
-          "id": "current-frames/S08-start-V47.jpg",
-          "title": "V47 current clip · start",
+          "id": "S08-start-COMPLETE-20260915",
+          "title": "Start · S08 COMPLETE",
           "role": "start",
           "approved": true,
           "status": "",
@@ -1236,11 +1236,11 @@
           }
         },
         {
-          "date": "2026-09-13",
-          "file": "S08-end-V47.jpg",
+          "date": "2026-09-16",
+          "file": "S08-end-COMPLETE-20260915.jpg",
           "group": "cut",
-          "id": "current-frames/S08-end-V47.jpg",
-          "title": "V47 current clip · end",
+          "id": "S08-end-COMPLETE-20260915",
+          "title": "End · S08 COMPLETE",
           "role": "end",
           "approved": true,
           "status": "",
@@ -1738,31 +1738,31 @@
       "angle": "walk-up",
       "_src": [
         {
-          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-V47.jpg",
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-COMPLETE-20260915.jpg",
           "id": "S08-current",
-          "title": "Current still",
+          "title": "Current still · from S08 COMPLETE (owner selected 2026-09-15)",
           "group": "current",
           "role": "current",
           "approved": true,
-          "date": "2026-09-13"
+          "date": "2026-09-16"
         },
         {
-          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-V47.jpg",
-          "id": "current-frames/S08-start-V47.jpg",
-          "title": "V47 current clip · start",
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-COMPLETE-20260915.jpg",
+          "id": "S08-start-COMPLETE-20260915",
+          "title": "Start · S08 COMPLETE",
           "group": "cut",
           "role": "start",
           "approved": true,
-          "date": "2026-09-13"
+          "date": "2026-09-16"
         },
         {
-          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-end-V47.jpg",
-          "id": "current-frames/S08-end-V47.jpg",
-          "title": "V47 current clip · end",
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-end-COMPLETE-20260915.jpg",
+          "id": "S08-end-COMPLETE-20260915",
+          "title": "End · S08 COMPLETE",
           "group": "cut",
           "role": "end",
           "approved": true,
-          "date": "2026-09-13"
+          "date": "2026-09-16"
         },
         {
           "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-ENTRANCE-PAIR-V19-FABRIC-NATIVE.png",
@@ -2016,7 +2016,7 @@
         "rows": 4,
         "shape": "land"
       },
-      "stillDate": "2026-09-15",
+      "stillDate": "2026-09-16",
       "stillStale": false,
       "v74": {
         "start": 30,
@@ -2024,17 +2024,53 @@
       },
       "stills": [
         {
-          "date": "2026-09-15",
-          "file": "S09-start-V74.jpg",
+          "date": "2026-09-16",
+          "file": "S09-start-COMPLETE-20260915.jpg",
           "group": "current",
           "id": "S09-current",
-          "title": "Current still · from V74",
+          "title": "Current still · from S09 COMPLETE (owner selected 2026-09-15)",
           "role": "current",
           "approved": true,
-          "status": "taken from GARAGE-DREAM-V74-CANDIDATE-CLAUDE-2026-09-14.mp4 at 31s",
+          "status": "taken from S09-COMPLETE-lipsync-with-dialogue.mp4 at 1s",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
             "col": 0,
+            "row": 0,
+            "cols": 8,
+            "rows": 4,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "file": "S09-start-COMPLETE-20260915.jpg",
+          "group": "cut",
+          "id": "S09-start-COMPLETE-20260915",
+          "title": "Start · S09 COMPLETE",
+          "role": "start",
+          "approved": true,
+          "status": "",
+          "img": {
+            "sheet": "sheets/scene-S09.jpg",
+            "col": 0,
+            "row": 0,
+            "cols": 8,
+            "rows": 4,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "file": "S09-end-COMPLETE-20260915.jpg",
+          "group": "cut",
+          "id": "S09-end-COMPLETE-20260915",
+          "title": "End · S09 COMPLETE",
+          "role": "end",
+          "approved": true,
+          "status": "",
+          "img": {
+            "sheet": "sheets/scene-S09.jpg",
+            "col": 1,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2053,7 +2089,7 @@
           "status": "Owner selected V8 after clarifying he was looking at the wrong image",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 1,
+            "col": 2,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2072,7 +2108,7 @@
           "status": "Owner-approved trial input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 2,
+            "col": 3,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2091,7 +2127,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 3,
+            "col": 4,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2110,7 +2146,7 @@
           "status": "Owner-selected continuity reference",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 4,
+            "col": 5,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2129,7 +2165,7 @@
           "status": "Historical source — excluded from new character reference set by owner",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 5,
+            "col": 6,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2148,7 +2184,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 6,
+            "col": 7,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -2167,8 +2203,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 7,
-            "row": 0,
+            "col": 0,
+            "row": 1,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -2186,7 +2222,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 0,
+            "col": 1,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2205,7 +2241,7 @@
           "status": "Current cut screenshot",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 1,
+            "col": 2,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2224,7 +2260,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 2,
+            "col": 3,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2243,7 +2279,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 3,
+            "col": 4,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2262,7 +2298,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 4,
+            "col": 5,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2281,7 +2317,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 5,
+            "col": 6,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2300,7 +2336,7 @@
           "status": "Owner-approved clean final still",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 6,
+            "col": 7,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -2319,8 +2355,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 7,
-            "row": 1,
+            "col": 0,
+            "row": 2,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -2338,8 +2374,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 7,
-            "row": 1,
+            "col": 0,
+            "row": 2,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -2357,7 +2393,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 0,
+            "col": 1,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2376,7 +2412,7 @@
           "status": "Owner-rejected; archived",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 1,
+            "col": 2,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2395,7 +2431,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 2,
+            "col": 3,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2414,7 +2450,7 @@
           "status": "Rejected / superseded; archive only",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 3,
+            "col": 4,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2433,7 +2469,7 @@
           "status": "Rejected / superseded; archive only",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 4,
+            "col": 5,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2452,7 +2488,7 @@
           "status": "Likeness approved only; superseded for hand anatomy.",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 5,
+            "col": 6,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2471,7 +2507,7 @@
           "status": "Rejected Homer arm/hand",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 6,
+            "col": 7,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -2490,8 +2526,8 @@
           "status": "Retired review candidate; not current entrance input",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 7,
-            "row": 2,
+            "col": 0,
+            "row": 3,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -2509,7 +2545,7 @@
           "status": "Rejected — wrong interior scale/crop",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 0,
+            "col": 1,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2528,7 +2564,7 @@
           "status": "Rejected: black blotches",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 1,
+            "col": 2,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2546,7 +2582,7 @@
           "status": "S09 LIPSYNC C2EF V58",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 2,
+            "col": 3,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2564,7 +2600,7 @@
           "status": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 3,
+            "col": 4,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2582,7 +2618,7 @@
           "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 4,
+            "col": 5,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2600,7 +2636,7 @@
           "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
           "img": {
             "sheet": "sheets/scene-S09.jpg",
-            "col": 5,
+            "col": 6,
             "row": 3,
             "cols": 8,
             "rows": 4,
@@ -2621,13 +2657,31 @@
       "angle": "garage door, conversation",
       "_src": [
         {
-          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-start-V74.jpg",
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-start-COMPLETE-20260915.jpg",
           "id": "S09-current",
-          "title": "Current still · from V74",
+          "title": "Current still · from S09 COMPLETE (owner selected 2026-09-15)",
           "group": "current",
           "role": "current",
           "approved": true,
-          "date": "2026-09-15"
+          "date": "2026-09-16"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-start-COMPLETE-20260915.jpg",
+          "id": "S09-start-COMPLETE-20260915",
+          "title": "Start · S09 COMPLETE",
+          "group": "cut",
+          "role": "start",
+          "approved": true,
+          "date": "2026-09-16"
+        },
+        {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S09-end-COMPLETE-20260915.jpg",
+          "id": "S09-end-COMPLETE-20260915",
+          "title": "End · S09 COMPLETE",
+          "group": "cut",
+          "role": "end",
+          "approved": true,
+          "date": "2026-09-16"
         },
         {
           "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S09-ENTRANCE-V8-REMOTE-ARM-NATIVE.png",
@@ -3950,11 +4004,11 @@
       "id": "S11",
       "title": "Homer / A Bugatti?",
       "line": "Homer: A Bugatti?",
-      "status": "Not inserted in V42. Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
+      "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
       "nextAction": "Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
       "gate": "Place the Bugatti reaction in the rebuilt garage sequence with the approved voice take.",
       "video": null,
-      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Four 9/14 takes exist (Homer spots the recliner); voice line to record. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+      "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
       "still": {
         "sheet": "sheets/scene-S11.jpg",
         "col": 0,
@@ -4375,11 +4429,11 @@
       "id": "S12",
       "title": "Photograph items / shared folder",
       "line": "Correct open phone and clean camera UI.",
-      "status": "Not inserted in V42. Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
+      "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
       "nextAction": "Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
       "gate": "Reconcile the photo demonstration coverage with the shortened explanation; saved audio is not yet reinserted.",
       "video": null,
-      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest take is 9/10 (phone shutter, 768p); Codex is matching newer footage. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+      "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
       "still": {
         "sheet": "sheets/scene-S12.jpg",
         "col": 0,
@@ -4582,11 +4636,11 @@
       "id": "S13",
       "title": "Explain Autopilot",
       "line": "Listings and buyer questions; owner controls price and pickup.",
-      "status": "Not inserted in V42. Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
+      "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
       "nextAction": "Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
       "gate": "Reconcile this earlier explanation beat with the shortened BizBox script; no new dialogue is approved here.",
       "video": null,
-      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest takes 9/10 and 9/12 (listening coverage). Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+      "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
       "still": {
         "sheet": "sheets/scene-S13.jpg",
         "col": 0,
@@ -5162,11 +5216,11 @@
       "id": "S15",
       "title": "Rexx / photos, numbered boxes and live shopping",
       "line": "Rexx: Well, not exactly. But we can get you selling on different marketplaces—even live shopping. First, just take photos. BizBox inventories everything and tracks which box you store it in, so you know what you have and where to find it. We’ll work on selling next. Photos first, Homer.",
-      "status": "Not inserted in V42. Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
+      "status": "ARCHIVED from the active assembly 2026-09-15 (owner). Card kept for history.",
       "nextAction": "Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
       "gate": "Fit the photos-and-numbered-boxes explanation to rebuilt garage coverage, keeping narration continuous.",
       "video": null,
-      "editStatus": "IN REPAIR PASS · Order 2 · restored to the pass. Newest take 9/12 recliner close-up; overlap with S16 to reconcile. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+      "editStatus": "ARCHIVED · not in the garage sequence. Order is S08 → S09 → S10 (reveal + crossing, once) → S14 → S16 → S17–S18.",
       "still": {
         "sheet": "sheets/scene-S15.jpg",
         "col": 0,
@@ -13443,8 +13497,8 @@
       ],
       "current": [
         {
-          "date": "2026-09-13",
-          "file": "S08-start-V47.jpg",
+          "date": "2026-09-16",
+          "file": "S08-start-COMPLETE-20260915.jpg",
           "id": "S08-angle",
           "title": "S08 · walk-up",
           "angle": "walk-up",
@@ -13496,8 +13550,8 @@
           }
         },
         {
-          "date": "2026-09-15",
-          "file": "S09-start-V74.jpg",
+          "date": "2026-09-16",
+          "file": "S09-start-COMPLETE-20260915.jpg",
           "id": "S09-angle",
           "title": "S09 · garage door, conversation",
           "angle": "garage door, conversation",
@@ -18840,7 +18894,7 @@
         "rows": 7,
         "shape": "land"
       },
-      "date": "2026-09-13",
+      "date": "2026-09-16",
       "approved": true
     },
     {
@@ -18885,7 +18939,7 @@
         "rows": 7,
         "shape": "land"
       },
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "approved": true
     },
     {

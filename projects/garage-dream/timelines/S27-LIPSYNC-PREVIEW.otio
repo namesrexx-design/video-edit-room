@@ -1,0 +1,201 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "S27-LIPSYNC-PREVIEW",
+  "global_start_time": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 0
+  },
+  "metadata": {
+    "editroom": {
+      "rate": 24,
+      "width": 1920,
+      "height": 1080,
+      "from": "S27-LIPSYNC-PREVIEW.json",
+      "note": "2nd video lane and added sound are in the cut JSON + render receipt, not in this V1-only timeline"
+    }
+  },
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "tracks",
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "V1",
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "23_S27_vintage-mart-invitation",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 350
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "23_S27_vintage-mart-invitation.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/23_S27_vintage-mart-invitation.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 350
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV053_s27-2-rexx-upload-1124",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 39
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV053_s27-2-rexx-upload-1124.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV053_s27-2-rexx-upload-1124.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 39
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          }
+        ],
+        "metadata": {}
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "A1",
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "23_S27_vintage-mart-invitation",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 350
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "23_S27_vintage-mart-invitation.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/23_S27_vintage-mart-invitation.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 350
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV053_s27-2-rexx-upload-1124",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 39
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV053_s27-2-rexx-upload-1124.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV053_s27-2-rexx-upload-1124.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 39
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          }
+        ],
+        "metadata": {}
+      }
+    ],
+    "metadata": {}
+  }
+}

@@ -1,0 +1,1561 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "V75-CANDIDATE",
+  "global_start_time": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 0
+  },
+  "metadata": {
+    "editroom": {
+      "rate": 24,
+      "width": 1920,
+      "height": 1080,
+      "from": "V75-CANDIDATE.json",
+      "note": "2nd video lane and added sound are in the cut JSON + render receipt, not in this V1-only timeline"
+    }
+  },
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "tracks",
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "V1",
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "01_S01_stairs",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 79
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "01_S01_stairs.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/01_S01_stairs.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 79
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "02_S02_coffee-ring",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "02_S02_coffee-ring.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/02_S02_coffee-ring.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "03_S03_answer-homer",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 53
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "03_S03_answer-homer.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/03_S03_answer-homer.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 53
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "04_S04_phone-down",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 103
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "04_S04_phone-down.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/04_S04_phone-down.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 103
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "05_S05_homer-asks-for-help",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 171
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "05_S05_homer-asks-for-help.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/05_S05_homer-asks-for-help.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 171
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "06_S06_waymo-boarding",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 140
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "06_S06_waymo-boarding.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/06_S06_waymo-boarding.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 140
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "07_S07_waymo-ride-and-exit",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 114
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "07_S07_waymo-ride-and-exit.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/07_S07_waymo-ride-and-exit.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 114
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "10_S10_garage-reveal",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 253
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "10_S10_garage-reveal.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/10_S10_garage-reveal.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 253
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "15_S14-S16_recliner-bugatti-question-doze-off",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 325
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 325
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "16_S17_pch-sunset-dream",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "16_S17_pch-sunset-dream.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/16_S17_pch-sunset-dream.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "17_S18_mosquito-wake-up",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 326
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "17_S18_mosquito-wake-up.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/17_S18_mosquito-wake-up.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 326
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "18_S19_bart-skates-off",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "18_S19_bart-skates-off.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/18_S19_bart-skates-off.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "21_S23_apu-horn-greeting",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 90
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "21_S23_apu-horn-greeting.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/21_S23_apu-horn-greeting.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 90
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "22_S24_walk-to-car",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "22_S24_walk-to-car.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/22_S24_walk-to-car.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "23_S27_vintage-mart-invitation",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 350
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "23_S27_vintage-mart-invitation.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/23_S27_vintage-mart-invitation.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 350
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV053_s27-2-rexx-upload-1124",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 39
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV053_s27-2-rexx-upload-1124.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV053_s27-2-rexx-upload-1124.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 39
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "24_S29_farewell-fist-bump",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 364
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "24_S29_farewell-fist-bump.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/24_S29_farewell-fist-bump.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 364
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          }
+        ],
+        "metadata": {}
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "A1",
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "01_S01_stairs",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 79
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "01_S01_stairs.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/01_S01_stairs.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 79
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "02_S02_coffee-ring",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "02_S02_coffee-ring.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/02_S02_coffee-ring.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "03_S03_answer-homer",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 53
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "03_S03_answer-homer.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/03_S03_answer-homer.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 53
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "04_S04_phone-down",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 103
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "04_S04_phone-down.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/04_S04_phone-down.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 103
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "05_S05_homer-asks-for-help",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 171
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "05_S05_homer-asks-for-help.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/05_S05_homer-asks-for-help.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 171
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "06_S06_waymo-boarding",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 140
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "06_S06_waymo-boarding.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/06_S06_waymo-boarding.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 140
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "07_S07_waymo-ride-and-exit",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 114
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "07_S07_waymo-ride-and-exit.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/07_S07_waymo-ride-and-exit.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 114
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "10_S10_garage-reveal",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 253
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "10_S10_garage-reveal.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/10_S10_garage-reveal.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 253
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "15_S14-S16_recliner-bugatti-question-doze-off",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 325
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 325
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "16_S17_pch-sunset-dream",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "16_S17_pch-sunset-dream.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/16_S17_pch-sunset-dream.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "17_S18_mosquito-wake-up",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 326
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "17_S18_mosquito-wake-up.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/17_S18_mosquito-wake-up.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 326
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "18_S19_bart-skates-off",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "18_S19_bart-skates-off.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/18_S19_bart-skates-off.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "21_S23_apu-horn-greeting",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 90
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "21_S23_apu-horn-greeting.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/21_S23_apu-horn-greeting.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 90
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "22_S24_walk-to-car",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "22_S24_walk-to-car.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/22_S24_walk-to-car.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "23_S27_vintage-mart-invitation",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 350
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "23_S27_vintage-mart-invitation.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/23_S27_vintage-mart-invitation.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 350
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "INV053_s27-2-rexx-upload-1124",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 39
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "INV053_s27-2-rexx-upload-1124.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/inventory-v74/INV053_s27-2-rexx-upload-1124.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 39
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "24_S29_farewell-fist-bump",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 364
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "24_S29_farewell-fist-bump.mp4",
+                "target_url": "file:///D:/REXX/AI_Video/BizBox-Garage-Dream/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER/24_S29_farewell-fist-bump.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 364
+                  }
+                },
+                "metadata": {}
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {}
+          }
+        ],
+        "metadata": {}
+      }
+    ],
+    "metadata": {}
+  }
+}

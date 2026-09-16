@@ -1,0 +1,643 @@
+{
+  "format": 2,
+  "name": "GARAGE DREAM V75 CANDIDATE — S08 in, S09 new, S27 lip-syncs in, leveled",
+  "savedAt": "2026-09-16T00:00:22.697Z",
+  "fps": 24,
+  "frames": 2899,
+  "v1": [
+    {
+      "u": "ljscuzq",
+      "id": "01",
+      "file": "01_S01_stairs.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 79,
+      "mute": true
+    },
+    {
+      "u": "hw0hol0",
+      "id": "02",
+      "file": "02_S02_coffee-ring.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 60,
+      "mute": true
+    },
+    {
+      "u": "1h13wg4",
+      "id": "03",
+      "file": "03_S03_answer-homer.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 53,
+      "mute": true
+    },
+    {
+      "u": "axhv893",
+      "id": "04",
+      "file": "04_S04_phone-down.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 103,
+      "mute": true
+    },
+    {
+      "u": "4y88efh",
+      "id": "05",
+      "file": "05_S05_homer-asks-for-help.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 171,
+      "mute": true
+    },
+    {
+      "u": "b33ezrq",
+      "id": "06",
+      "file": "06_S06_waymo-boarding.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 140,
+      "mute": true
+    },
+    {
+      "u": "srdkd62",
+      "id": "07",
+      "file": "07_S07_waymo-ride-and-exit.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 114,
+      "mute": true
+    },
+    {
+      "u": "s08new",
+      "id": "INV062",
+      "file": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 96,
+      "mute": true
+    },
+    {
+      "u": "s09new",
+      "id": "INV065",
+      "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 120,
+      "mute": true
+    },
+    {
+      "u": "e0mzutz",
+      "id": "10",
+      "file": "10_S10_garage-reveal.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 253,
+      "mute": true
+    },
+    {
+      "u": "umcsrkw",
+      "id": "15",
+      "file": "15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 325,
+      "mute": true
+    },
+    {
+      "u": "5shggoj",
+      "id": "16",
+      "file": "16_S17_pch-sunset-dream.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    },
+    {
+      "u": "tbuhzj2",
+      "id": "17",
+      "file": "17_S18_mosquito-wake-up.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 326,
+      "mute": true
+    },
+    {
+      "u": "bjul6yi",
+      "id": "18",
+      "file": "18_S19_bart-skates-off.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    },
+    {
+      "u": "umaeino",
+      "id": "21",
+      "file": "21_S23_apu-horn-greeting.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 90,
+      "mute": true
+    },
+    {
+      "u": "yul7kd5",
+      "id": "22",
+      "file": "22_S24_walk-to-car.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    },
+    {
+      "u": "746aa3a",
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "mute": true
+    },
+    {
+      "u": "s27jump",
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "mute": true
+    },
+    {
+      "u": "cxxdz8y",
+      "id": "24",
+      "file": "24_S29_farewell-fist-bump.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 364,
+      "mute": true
+    }
+  ],
+  "a1": [
+    {
+      "id": "01",
+      "file": "01_S01_stairs.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 79,
+      "at": 0,
+      "sceneSound": true,
+      "link": "ljscuzq",
+      "gain": 6,
+      "off": 0
+    },
+    {
+      "id": "02",
+      "file": "02_S02_coffee-ring.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 60,
+      "at": 79,
+      "sceneSound": true,
+      "link": "hw0hol0",
+      "gain": 4,
+      "off": 0
+    },
+    {
+      "id": "03",
+      "file": "03_S03_answer-homer.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 53,
+      "at": 139,
+      "sceneSound": true,
+      "link": "1h13wg4",
+      "gain": 6,
+      "off": 0
+    },
+    {
+      "id": "04",
+      "file": "04_S04_phone-down.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 103,
+      "at": 192,
+      "sceneSound": true,
+      "link": "axhv893",
+      "gain": 3,
+      "off": 0
+    },
+    {
+      "id": "05",
+      "file": "05_S05_homer-asks-for-help.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 171,
+      "at": 295,
+      "sceneSound": true,
+      "link": "4y88efh",
+      "gain": 3,
+      "off": 0
+    },
+    {
+      "id": "06",
+      "file": "06_S06_waymo-boarding.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 140,
+      "at": 466,
+      "sceneSound": true,
+      "link": "b33ezrq",
+      "gain": 5,
+      "off": 0
+    },
+    {
+      "id": "07",
+      "file": "07_S07_waymo-ride-and-exit.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 114,
+      "at": 606,
+      "sceneSound": true,
+      "link": "srdkd62",
+      "gain": 2,
+      "off": 0
+    },
+    {
+      "id": "INV062",
+      "file": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 96,
+      "at": 720,
+      "sceneSound": true,
+      "link": "s08new",
+      "gain": 6,
+      "off": 0
+    },
+    {
+      "id": "INV065",
+      "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 120,
+      "at": 816,
+      "sceneSound": true,
+      "link": "s09new",
+      "gain": 4,
+      "off": 0
+    },
+    {
+      "id": "10",
+      "file": "10_S10_garage-reveal.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 253,
+      "at": 936,
+      "sceneSound": true,
+      "link": "e0mzutz",
+      "gain": 1,
+      "off": 0
+    },
+    {
+      "id": "15",
+      "file": "15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 325,
+      "at": 1189,
+      "sceneSound": true,
+      "link": "umcsrkw",
+      "gain": 0,
+      "off": 0
+    },
+    {
+      "id": "16",
+      "file": "16_S17_pch-sunset-dream.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "at": 1514,
+      "sceneSound": true,
+      "link": "5shggoj",
+      "gain": 0,
+      "off": 0
+    },
+    {
+      "id": "17",
+      "file": "17_S18_mosquito-wake-up.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 326,
+      "at": 1586,
+      "sceneSound": true,
+      "link": "tbuhzj2",
+      "gain": -1,
+      "off": 0
+    },
+    {
+      "id": "18",
+      "file": "18_S19_bart-skates-off.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "at": 1912,
+      "sceneSound": true,
+      "link": "bjul6yi",
+      "gain": 7,
+      "off": 0
+    },
+    {
+      "id": "21",
+      "file": "21_S23_apu-horn-greeting.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 90,
+      "at": 1984,
+      "sceneSound": true,
+      "link": "umaeino",
+      "gain": -5,
+      "off": 0
+    },
+    {
+      "id": "22",
+      "file": "22_S24_walk-to-car.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "at": 2074,
+      "sceneSound": true,
+      "link": "yul7kd5",
+      "gain": 3,
+      "off": 0
+    },
+    {
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "at": 2146,
+      "sceneSound": true,
+      "link": "746aa3a",
+      "gain": -2,
+      "off": 0
+    },
+    {
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "at": 2496,
+      "sceneSound": true,
+      "link": "s27jump",
+      "gain": -2,
+      "off": 0
+    },
+    {
+      "id": "24",
+      "file": "24_S29_farewell-fist-bump.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 364,
+      "at": 2535,
+      "sceneSound": true,
+      "link": "cxxdz8y",
+      "gain": -1,
+      "off": 0
+    }
+  ],
+  "a2": [
+    {
+      "id": "01",
+      "file": "01_S01_stairs.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 79,
+      "at": 0,
+      "sceneSound": true,
+      "link": "ljscuzq",
+      "gain": 6
+    },
+    {
+      "id": "02",
+      "file": "02_S02_coffee-ring.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 60,
+      "at": 79,
+      "sceneSound": true,
+      "link": "hw0hol0",
+      "gain": 4
+    },
+    {
+      "id": "03",
+      "file": "03_S03_answer-homer.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 53,
+      "at": 139,
+      "sceneSound": true,
+      "link": "1h13wg4",
+      "gain": 6
+    },
+    {
+      "id": "04",
+      "file": "04_S04_phone-down.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 103,
+      "at": 192,
+      "sceneSound": true,
+      "link": "axhv893",
+      "gain": 3
+    },
+    {
+      "id": "05",
+      "file": "05_S05_homer-asks-for-help.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 171,
+      "at": 295,
+      "sceneSound": true,
+      "link": "4y88efh",
+      "gain": 3
+    },
+    {
+      "id": "06",
+      "file": "06_S06_waymo-boarding.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 140,
+      "at": 466,
+      "sceneSound": true,
+      "link": "b33ezrq",
+      "gain": 5
+    },
+    {
+      "id": "07",
+      "file": "07_S07_waymo-ride-and-exit.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 114,
+      "at": 606,
+      "sceneSound": true,
+      "link": "srdkd62",
+      "gain": 2
+    },
+    {
+      "id": "INV062",
+      "file": "INV062_s08-trial-33194ecc-kling3-0-pro-4s-complete-with-a.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 96,
+      "at": 720,
+      "sceneSound": true,
+      "link": "s08new",
+      "gain": 6
+    },
+    {
+      "id": "INV065",
+      "file": "INV065_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 120,
+      "at": 816,
+      "sceneSound": true,
+      "link": "s09new",
+      "gain": 4
+    },
+    {
+      "id": "10",
+      "file": "10_S10_garage-reveal.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 253,
+      "at": 936,
+      "sceneSound": true,
+      "link": "e0mzutz",
+      "gain": 1
+    },
+    {
+      "id": "15",
+      "file": "15_S14-S16_recliner-bugatti-question-doze-off.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 325,
+      "at": 1189,
+      "sceneSound": true,
+      "link": "umcsrkw",
+      "gain": 0
+    },
+    {
+      "id": "16",
+      "file": "16_S17_pch-sunset-dream.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "at": 1514,
+      "sceneSound": true,
+      "link": "5shggoj",
+      "gain": 0
+    },
+    {
+      "id": "17",
+      "file": "17_S18_mosquito-wake-up.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 326,
+      "at": 1586,
+      "sceneSound": true,
+      "link": "tbuhzj2",
+      "gain": -1
+    },
+    {
+      "id": "18",
+      "file": "18_S19_bart-skates-off.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "at": 1912,
+      "sceneSound": true,
+      "link": "bjul6yi",
+      "gain": 7
+    },
+    {
+      "id": "21",
+      "file": "21_S23_apu-horn-greeting.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 90,
+      "at": 1984,
+      "sceneSound": true,
+      "link": "umaeino",
+      "gain": -5
+    },
+    {
+      "id": "22",
+      "file": "22_S24_walk-to-car.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 72,
+      "at": 2074,
+      "sceneSound": true,
+      "link": "yul7kd5",
+      "gain": 3
+    },
+    {
+      "id": "23",
+      "file": "23_S27_vintage-mart-invitation.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 350,
+      "at": 2146,
+      "sceneSound": true,
+      "link": "746aa3a",
+      "gain": -2
+    },
+    {
+      "id": "INV053",
+      "file": "INV053_s27-2-rexx-upload-1124.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 39,
+      "at": 2496,
+      "sceneSound": true,
+      "link": "s27jump",
+      "gain": -2
+    },
+    {
+      "id": "24",
+      "file": "24_S29_farewell-fist-bump.mp4",
+      "folder": "capcut-kit-v74/SCENES_IN_ORDER",
+      "start": 0,
+      "end": 364,
+      "at": 2535,
+      "sceneSound": true,
+      "link": "cxxdz8y",
+      "gain": -1
+    }
+  ],
+  "v2": [
+    {
+      "id": "INV052",
+      "file": "INV052_s27-rexx-upload-1122.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 57,
+      "at": 2294,
+      "note": "Apu L1 close-up (owner upload) at 6.18 s of S27"
+    },
+    {
+      "id": "INV051",
+      "file": "INV051_s27-start-rexx-upload-1129.mp4",
+      "folder": "inventory-v74",
+      "start": 0,
+      "end": 48,
+      "at": 2415,
+      "note": "Apu L2 close-up (owner upload) at 11.21 s of S27"
+    }
+  ],
+  "parked": [],
+  "note": "Built from V74.json 2026-09-15. Changes: S08 COMPLETE inserted after S07 (+4.0 s); old S09 replaced by S09 COMPLETE (same 5 s); S27 owner close-ups as cutaways at S27+148/+269 and the \"jump in\" line appended after S27 (+1.6 s); per-scene dialogue gains from the V74 loudness measurement. V74 untouched."
+}

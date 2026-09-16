@@ -43,8 +43,9 @@ let picture = base;
 const overlays = cut.v2.filter(b => b.at < TOTAL).map((b, i) => { const n = Math.min(dur(b), TOTAL - b.at); const dest = path.join(stage, `o${i}.mp4`); process.stdout.write(`  2nd video ${b.file.slice(0, 50).padEnd(50)} @${b.at} ${n}f `);
   run(['-ss', String(b.start / RATE), '-i', file(b), '-map', '0:v:0', '-an', '-t', String(n / RATE), '-vf', 'scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p', '-r', String(RATE), '-fps_mode', 'cfr', '-frames:v', String(n), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-video_track_timescale', '12288', dest]); console.log('ok'); return { dest, at: b.at, n }; });
 if (overlays.length) {
-  const inputs = ['-i', base]; let g = '[0:v]setpts=PTS-STARTPTS[b0]'; let cur = 'b0';
-  overlays.forEach((o, i) => { inputs.push('-i', o.dest); g += `;[${i + 1}:v]setpts=PTS-STARTPTS+${(o.at / RATE).toFixed(6)}/TB[o${i}];[${cur}][o${i}]overlay=eof_action=pass:x=0:y=0[b${i + 1}]`; cur = `b${i + 1}`; });
+  /* -reinit_filter 0: a clip with different colour tags (S09 complete: bt709/tv vs untagged) made ffmpeg rebuild the graph mid-stream, resetting N and dropping 812 frames (V75, 2026-09-15). Frame-index pts (N/FRAME_RATE/TB) on both lanes. */
+  const inputs = ['-reinit_filter', '0', '-i', base]; let g = '[0:v]setpts=N/FRAME_RATE/TB[b0]'; let cur = 'b0';
+  overlays.forEach((o, i) => { inputs.push('-i', o.dest); g += `;[${i + 1}:v]setpts=N/FRAME_RATE/TB+${(o.at / RATE).toFixed(6)}/TB[o${i}];[${cur}][o${i}]overlay=eof_action=pass:x=0:y=0[b${i + 1}]`; cur = `b${i + 1}`; });
   picture = path.join(stage, 'picture.mp4');
   run([...inputs, '-filter_complex', g, '-map', `[${cur}]`, '-frames:v', String(TOTAL), '-r', String(RATE), '-fps_mode', 'cfr', '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-pix_fmt', 'yuv420p', '-video_track_timescale', '12288', picture]);
   const got = nframes(picture); if (got !== TOTAL) throw new Error(`picture with overlays has ${got} frames, need ${TOTAL}`);
