@@ -11,7 +11,7 @@
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T03:51:40.414Z",
+ "builtAt": "2026-09-16T04:02:46.401Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -1107,6 +1107,7 @@
      "id": "AUD020",
      "title": "Rexx — Waymo arrival line",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD020.mp3",
      "seconds": 0.667,
      "date": "2026-09-15"
     },
@@ -1114,6 +1115,7 @@
      "id": "AUD027",
      "title": "V74 stem — Waymo/driveway bridge",
      "group": "stem",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD027.mp3",
      "seconds": 115.167,
      "date": "2026-09-15"
     }
@@ -5820,6 +5822,7 @@
      "id": "AUD005",
      "title": "Song + whisper, car audition (54.5–67 s)",
      "group": "music",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD005.mp3",
      "seconds": 12.5,
      "date": "2026-09-15"
     },
@@ -5827,6 +5830,7 @@
      "id": "AUD018",
      "title": "Homer — Bugatti three whispers",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD018.mp3",
      "seconds": 2.7,
      "date": "2026-09-15"
     },
@@ -5834,6 +5838,7 @@
      "id": "AUD019",
      "title": "Bugatti intro replacement (56.7–63.1 s)",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD019.mp3",
      "seconds": 6.392,
      "date": "2026-09-15"
     }
@@ -6145,6 +6150,7 @@
      "id": "AUD004",
      "title": "Bugatti song phrase (6.5 s reference)",
      "group": "music",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD004.mp3",
      "seconds": 6.5,
      "date": "2026-09-15"
     },
@@ -6152,6 +6158,7 @@
      "id": "AUD005",
      "title": "Song + whisper, car audition (54.5–67 s)",
      "group": "music",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD005.mp3",
      "seconds": 12.5,
      "date": "2026-09-15"
     }
@@ -6605,6 +6612,7 @@
      "id": "AUD022",
      "title": "Snore cue — mosquito",
      "group": "cue",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD022.mp3",
      "seconds": 1,
      "date": "2026-09-15"
     },
@@ -6612,6 +6620,7 @@
      "id": "AUD023",
      "title": "Snore cue — recliner",
      "group": "cue",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD023.mp3",
      "seconds": 0.992,
      "date": "2026-09-15"
     },
@@ -6619,6 +6628,7 @@
      "id": "AUD024",
      "title": "V74 stem — mosquito buzz",
      "group": "stem",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD024.mp3",
      "seconds": 115.167,
      "date": "2026-09-15"
     },
@@ -6626,6 +6636,7 @@
      "id": "AUD025",
      "title": "V74 stem — snore",
      "group": "stem",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD025.mp3",
      "seconds": 115.167,
      "date": "2026-09-15"
     }
@@ -7053,6 +7064,7 @@
      "id": "AUD014",
      "title": "Bart — door V3 (3 s, approved voice)",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD014.mp3",
      "seconds": 3.008,
      "date": "2026-09-15"
     },
@@ -7060,6 +7072,7 @@
      "id": "AUD015",
      "title": "Bart — complete take (5 s)",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD015.mp3",
      "seconds": 5.042,
      "date": "2026-09-15"
     },
@@ -7067,6 +7080,7 @@
      "id": "AUD016",
      "title": "Bart — Eat my shorts (2.5 s)",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD016.mp3",
      "seconds": 2.45,
      "date": "2026-09-15"
     },
@@ -7074,6 +7088,7 @@
      "id": "AUD017",
      "title": "Bart — exit V4 phone free (5 s)",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD017.mp3",
      "seconds": 5.056,
      "date": "2026-09-15"
     },
@@ -7081,6 +7096,7 @@
      "id": "AUD026",
      "title": "V74 stem — Bart line",
      "group": "stem",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD026.mp3",
      "seconds": 115.167,
      "date": "2026-09-15"
     }
@@ -7768,6 +7784,7 @@
      "id": "AUD021",
      "title": "Rexx — No! It was that kid (S21)",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD021.mp3",
      "seconds": 6.348,
      "date": "2026-09-15"
     }
@@ -8688,7 +8705,7 @@
    "nextAction": "Retain existing tail playback; new likeness still remains pending, not approved by this audit.",
    "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
    "video": "S27.mp4",
-   "editStatus": "LIVE · owner's three Higgsfield lip-sync close-ups (INV052 L1, INV051 two-months-ago, INV053 jump-in) are the S27 build. In the film.",
+   "editStatus": "LIVE · owner picked INV052 (L1 close-up) + INV053 (jump-in); INV051 removed to the archive. Film rebuilt (pass 8).",
    "still": {
     "sheet": "sheets/scene-S27.jpg",
     "col": 0,
@@ -8724,42 +8741,6 @@
     },
     {
      "date": "2026-09-12",
-     "file": "S27-start-V27.jpg",
-     "group": "cut",
-     "id": "current-frames/S27-start-V27.jpg",
-     "title": "Current cut · start frame",
-     "role": "start",
-     "approved": true,
-     "status": "",
-     "img": {
-      "sheet": "sheets/scene-S27.jpg",
-      "col": 1,
-      "row": 0,
-      "cols": 8,
-      "rows": 3,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-12",
-     "file": "S27-end-V27.jpg",
-     "group": "cut",
-     "id": "current-frames/S27-end-V27.jpg",
-     "title": "Current cut · end frame",
-     "role": "end",
-     "approved": true,
-     "status": "",
-     "img": {
-      "sheet": "sheets/scene-S27.jpg",
-      "col": 2,
-      "row": 0,
-      "cols": 8,
-      "rows": 3,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-12",
      "file": "HOMER-HEAD-APPROVED-V1.png",
      "group": "approved",
      "id": "HOMER-HAIR-LOCK",
@@ -8770,7 +8751,7 @@
      "status": "Owner-approved canonical reference",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 3,
+      "col": 1,
       "row": 0,
       "cols": 8,
       "rows": 3,
@@ -8789,7 +8770,7 @@
      "status": "Rejected by owner — Rexx likeness/proportions; replace with current approved references",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 4,
+      "col": 2,
       "row": 0,
       "cols": 8,
       "rows": 3,
@@ -8808,7 +8789,7 @@
      "status": "Owner-selected continuity reference",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 5,
+      "col": 3,
       "row": 0,
       "cols": 8,
       "rows": 3,
@@ -8827,7 +8808,7 @@
      "status": "Historical source — excluded from new character reference set by owner",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 6,
+      "col": 4,
       "row": 0,
       "cols": 8,
       "rows": 3,
@@ -8846,7 +8827,7 @@
      "status": "Rejected for new production — legacy Rexx body/skin mismatch",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 7,
+      "col": 5,
       "row": 0,
       "cols": 8,
       "rows": 3,
@@ -8863,6 +8844,42 @@
      "role": "archived",
      "approved": false,
      "status": "Owner approved: those are good lets run them",
+     "img": {
+      "sheet": "sheets/scene-S27.jpg",
+      "col": 6,
+      "row": 0,
+      "cols": 8,
+      "rows": 3,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "S27-start-V27.jpg",
+     "group": "archived",
+     "title": "Current cut · start frame",
+     "caption": "",
+     "role": "archived",
+     "approved": false,
+     "status": "Removed by the owner on the storyboard 2026-09-15 (old V27 cut frame).",
+     "img": {
+      "sheet": "sheets/scene-S27.jpg",
+      "col": 7,
+      "row": 0,
+      "cols": 8,
+      "rows": 3,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-12",
+     "file": "S27-end-V27.jpg",
+     "group": "archived",
+     "title": "Current cut · end frame",
+     "caption": "",
+     "role": "archived",
+     "approved": false,
+     "status": "Removed by the owner on the storyboard 2026-09-15 (old V27 cut frame).",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
       "col": 0,
@@ -9066,7 +9083,7 @@
      "date": "2026-09-15",
      "file": "INV051_s27-start-rexx-upload-1129.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV051.mp4",
-     "group": "approved",
+     "group": "archived",
      "approved": true,
      "id": "INV051",
      "title": "Owner upload · INV051 · 2 s",
@@ -9125,6 +9142,7 @@
      "id": "AUD006",
      "title": "S27 V74 Apu L1 APPROVED DIALOGUE",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD006.mp3",
      "seconds": 2.219,
      "date": "2026-09-15"
     },
@@ -9132,6 +9150,7 @@
      "id": "AUD007",
      "title": "S27 V74 Apu L1 APU DRIVER",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD007.mp3",
      "seconds": 2.219,
      "date": "2026-09-15"
     },
@@ -9139,6 +9158,7 @@
      "id": "AUD008",
      "title": "S27 V74 Apu L2 APPROVED DIALOGUE",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD008.mp3",
      "seconds": 1.841,
      "date": "2026-09-15"
     },
@@ -9146,6 +9166,7 @@
      "id": "AUD009",
      "title": "S27 V74 Apu L2 APU DRIVER",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD009.mp3",
      "seconds": 1.841,
      "date": "2026-09-15"
     },
@@ -9153,6 +9174,7 @@
      "id": "AUD010",
      "title": "S27 V74 Apu L3 APPROVED DIALOGUE",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD010.mp3",
      "seconds": 1.545,
      "date": "2026-09-15"
     },
@@ -9160,6 +9182,7 @@
      "id": "AUD011",
      "title": "S27 V74 Apu L3 APU DRIVER",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD011.mp3",
      "seconds": 1.545,
      "date": "2026-09-15"
     },
@@ -9167,6 +9190,7 @@
      "id": "AUD012",
      "title": "S27 V74 L1 RETURN AUDIO",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD012.mp3",
      "seconds": 2.392,
      "date": "2026-09-15"
     },
@@ -9174,6 +9198,7 @@
      "id": "AUD013",
      "title": "S27 V74 L2 RETURN AUDIO",
      "group": "voice",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD013.mp3",
      "seconds": 2.02,
      "date": "2026-09-15"
     }
@@ -9198,24 +9223,6 @@
      "role": "current",
      "approved": true,
      "date": "2026-09-15"
-    },
-    {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-start-V27.jpg",
-     "id": "current-frames/S27-start-V27.jpg",
-     "title": "Current cut · start frame",
-     "group": "cut",
-     "role": "start",
-     "approved": true,
-     "date": "2026-09-12"
-    },
-    {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-end-V27.jpg",
-     "id": "current-frames/S27-end-V27.jpg",
-     "title": "Current cut · end frame",
-     "group": "cut",
-     "role": "end",
-     "approved": true,
-     "date": "2026-09-12"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
@@ -9270,6 +9277,22 @@
      "role": "archived",
      "approved": false,
      "date": "2026-09-14"
+    },
+    {
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-start-V27.jpg",
+     "title": "Current cut · start frame",
+     "group": "archived",
+     "role": "archived",
+     "approved": false,
+     "date": "2026-09-12"
+    },
+    {
+     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-end-V27.jpg",
+     "title": "Current cut · end frame",
+     "group": "archived",
+     "role": "archived",
+     "approved": false,
+     "date": "2026-09-12"
     },
     {
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV029.jpg",
@@ -9365,7 +9388,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV051.jpg",
      "id": "INV051",
      "title": "Owner upload · INV051 · 2 s",
-     "group": "approved",
+     "group": "archived",
      "role": "clip",
      "approved": true,
      "date": "2026-09-15"

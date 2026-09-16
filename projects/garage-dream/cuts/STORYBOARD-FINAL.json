@@ -1,7 +1,7 @@
 {
  "format": 2,
  "name": "GARAGE DREAM — STORYBOARD FINAL (every card video in order) pass 2, leveled, 2026-09-15",
- "savedAt": "2026-09-16T03:32:05.066Z",
+ "savedAt": "2026-09-16T04:00:02.300Z",
  "fps": 24,
  "frames": 2801,
  "v1": [
@@ -439,17 +439,8 @@
    "end": 57,
    "at": 2303,
    "note": "Apu L1 close-up (owner upload), audio-correlated position"
-  },
-  {
-   "id": "INV051",
-   "file": "INV051_s27-start-rexx-upload-1129.mp4",
-   "folder": "inventory-v74",
-   "start": 0,
-   "end": 48,
-   "at": 2422,
-   "note": "Apu L2 close-up (owner upload), audio-correlated position"
   }
  ],
  "parked": [],
- "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS)."
+ "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line."
 }
