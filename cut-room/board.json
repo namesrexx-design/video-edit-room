@@ -7,247 +7,288 @@
    "../projects/garage-dream/deliveries/FILM/GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4",
    "GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4"
   ],
-  "bytes": 76737386
+  "bytes": 76737386,
+  "builtAt": "2026-09-16T15:13:14.667Z"
  },
  "library": {
   "clips": [
    {
     "id": "INV008",
     "title": "An understated, natural eight-second conversation filmed by a locked passenger-s",
+    "date": "2026-09-14T16:08",
     "group": "higgsfield",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV008.mp4"
    },
    {
     "id": "INV009",
     "title": "Eight-second fixed-camera photorealistic passenger-POV farewell from the exact s",
+    "date": "2026-09-14T16:00",
     "group": "higgsfield",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV009.mp4"
    },
    {
     "id": "INV010",
     "title": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+    "date": "2026-09-14T14:41",
     "group": "higgsfield",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV010.mp4"
    },
    {
     "id": "INV028",
     "title": "FOUR-second photorealistic S07 Waymo exit, beginning exactly on the supplied sho",
+    "date": "2026-09-14T00:53",
     "group": "higgsfield",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV028.mp4"
    },
    {
     "id": "INV029",
     "title": "S27 V74 Apu L1 3A05 FULL16X9 HANDLES80MS",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV029.mp4"
    },
    {
     "id": "INV030",
     "title": "S27 V74 Apu L1 3A05 FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV030.mp4"
    },
    {
     "id": "INV031",
     "title": "S27 V74 Apu L1 9DACE FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV031.mp4"
    },
    {
     "id": "INV032",
     "title": "S27 V74 Apu L2 3A05 FULL16X9 HANDLES80MS",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV032.mp4"
    },
    {
     "id": "INV033",
     "title": "S27 V74 Apu L2 3A05 FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV033.mp4"
    },
    {
     "id": "INV034",
     "title": "S27 V74 Apu L3 3A05 FULL16X9 HANDLES80MS",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV034.mp4"
    },
    {
     "id": "INV035",
     "title": "S27 V74 Apu L3 3A05 FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV035.mp4"
    },
    {
     "id": "INV036",
     "title": "S27 V74 L1 NATIVE HIGGS RETURN",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV036.mp4"
    },
    {
     "id": "INV037",
     "title": "S27 V74 L2 NATIVE HIGGS RETURN",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV037.mp4"
    },
    {
     "id": "INV038",
     "title": "S27 V74 L3 NATIVE HIGGS RETURN",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV038.mp4"
    },
    {
     "id": "INV039",
     "title": "S29 V74 Apu L1 5F38 NATIVE FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV039.mp4"
    },
    {
     "id": "INV040",
     "title": "S29 V74 Apu L2 5F38 NATIVE FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV040.mp4"
    },
    {
     "id": "INV041",
     "title": "S29 V74 Homer Blood 5F38 NATIVE FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV041.mp4"
    },
    {
     "id": "INV042",
     "title": "S29 V74 Homer WhatDoYouMean 5F38 NATIVE FULL16X9",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV042.mp4"
    },
    {
     "id": "INV043",
     "title": "S29 V74 L1 NATIVE HIGGS RETURN",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV043.mp4"
    },
    {
     "id": "INV044",
     "title": "S29 V74 L2 NATIVE HIGGS RETURN",
+    "date": "2026-09-14",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV044.mp4"
    },
    {
     "id": "INV046",
     "title": "S09 LIPSYNC C2EF V58",
+    "date": "2026-09-13",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV046.mp4"
    },
    {
     "id": "INV047",
     "title": "S10 V65 SECOND HALF LIPSYNC",
+    "date": "2026-09-13",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV047.mp4"
    },
    {
     "id": "INV048",
     "title": "S14 LIPSYNC V58",
+    "date": "2026-09-13",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV048.mp4"
    },
    {
     "id": "INV049",
     "title": "S18 WAKE LIPSYNC A65E0B63 V68 RAW",
+    "date": "2026-09-13",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV049.mp4"
    },
    {
     "id": "INV050",
     "title": "S29 BLOOD LIPSYNC 0E15B23B RAW",
+    "date": "2026-09-13",
     "group": "lipsync",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV050.mp4"
    },
    {
     "id": "INV051",
     "title": "S27 START rexx upload 1129",
+    "date": "2026-09-15",
     "group": "owner",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV051.mp4"
    },
    {
     "id": "INV052",
     "title": "S27 rexx upload 1122",
+    "date": "2026-09-15",
     "group": "owner",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV052.mp4"
    },
    {
     "id": "INV053",
     "title": "S27.2 rexx upload 1124",
+    "date": "2026-09-15",
     "group": "owner",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV053.mp4"
    },
    {
     "id": "INV054",
     "title": "S11 CANDIDATE 1eff7ef9 (Astra handoff)",
+    "date": "2026-09-15",
     "group": "handoff",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV054.mp4"
    },
    {
     "id": "INV055",
     "title": "S11 take 0815 91ab117f (Astra handoff)",
+    "date": "2026-09-15",
     "group": "handoff",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV055.mp4"
    },
    {
     "id": "INV056",
     "title": "S11 take 1406 8ed62d6f (Astra handoff)",
+    "date": "2026-09-15",
     "group": "handoff",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV056.mp4"
    },
    {
     "id": "INV057",
     "title": "S11 take 1420 9d6f1bd6 (Astra handoff)",
+    "date": "2026-09-15",
     "group": "handoff",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV057.mp4"
    },
    {
     "id": "INV058",
     "title": "S12 CANDIDATE 805bb54f (Astra handoff)",
+    "date": "2026-09-15",
     "group": "handoff",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV058.mp4"
    },
    {
     "id": "INV059",
     "title": "S13 CANDIDATE 0657c6f7 (Astra handoff)",
+    "date": "2026-09-15",
     "group": "handoff",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV059.mp4"
    },
    {
     "id": "INV060",
     "title": "S15 CANDIDATE 77f53145 (Astra handoff)",
+    "date": "2026-09-15",
     "group": "handoff",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV060.mp4"
    },
    {
     "id": "INV061",
     "title": "S08 TRIAL 33194ecc kling3_0 pro 4s (new render, owner review)",
+    "date": "2026-09-15",
     "group": "trial",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV061.mp4"
    },
    {
     "id": "INV062",
     "title": "S08 TRIAL 33194ecc kling3_0 pro 4s_COMPLETE with approved VO (new render, owner review)",
+    "date": "2026-09-15",
     "group": "trial",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV062.mp4"
    },
    {
     "id": "INV063",
     "title": "S09 TRIAL bb357e3c kling3_0 pro 5s (new render, owner review)",
+    "date": "2026-09-15",
     "group": "trial",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV063.mp4"
    },
    {
     "id": "INV064",
     "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a homer line (new render, owner review)",
+    "date": "2026-09-15",
     "group": "trial",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV064.mp4"
    },
    {
     "id": "INV065",
     "title": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem (new render, owner review)",
+    "date": "2026-09-15",
     "group": "trial",
     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV065.mp4"
    }
@@ -521,7 +562,7 @@
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T15:51:26.148Z",
+ "builtAt": "2026-09-16T17:07:25.980Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -1749,11 +1790,11 @@
     {
      "date": "2026-09-16",
      "file": "S08-start-COMPLETE-20260915.jpg",
-     "group": "current",
+     "group": "archived",
      "id": "S08-current",
      "title": "Current still · from S08 COMPLETE (owner selected 2026-09-15)",
      "role": "current",
-     "approved": true,
+     "approved": false,
      "status": "taken from S08-COMPLETE-with-approved-VO.mp4 at 1.5s",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
@@ -1767,11 +1808,11 @@
     {
      "date": "2026-09-16",
      "file": "S08-start-COMPLETE-20260915.jpg",
-     "group": "cut",
+     "group": "archived",
      "id": "S08-start-COMPLETE-20260915",
      "title": "Start · S08 COMPLETE",
      "role": "start",
-     "approved": true,
+     "approved": false,
      "status": "",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
@@ -1785,11 +1826,11 @@
     {
      "date": "2026-09-16",
      "file": "S08-end-COMPLETE-20260915.jpg",
-     "group": "cut",
+     "group": "archived",
      "id": "S08-end-COMPLETE-20260915",
      "title": "End · S08 COMPLETE",
      "role": "end",
-     "approved": true,
+     "approved": false,
      "status": "",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
@@ -1801,37 +1842,18 @@
      }
     },
     {
-     "date": "2026-09-13",
-     "file": "S08-ENTRANCE-PAIR-V19-FABRIC-NATIVE.png",
-     "group": "approved",
-     "id": "S08-ENTRANCE-V19-APPROVED",
-     "title": "Selected start frame · walking toward Homer",
-     "caption": "Approved image preserved unchanged; full-body forward approach.",
-     "role": "start",
-     "approved": true,
-     "status": "Owner approved: First image is good.",
-     "img": {
-      "sheet": "sheets/scene-S08.jpg",
-      "col": 2,
-      "row": 0,
-      "cols": 8,
-      "rows": 4,
-      "shape": "land"
-     }
-    },
-    {
      "date": "2026-09-15",
      "file": "S08-WALKUP-CLEAN-NATIVE-V2.png",
-     "group": "approved",
+     "group": "archived",
      "id": "S08-WALKUP-CLEAN-NATIVE-V2",
      "title": "S08 · approved START still (native 1672×941), Sep 15",
      "caption": "Astra handoff 2026-09-15. Exact input for the 4 s Kling trial (8K upscale uploaded as media 05d506a3…). Door closed, Rexx rear-facing.",
      "role": "start",
-     "approved": true,
+     "approved": false,
      "status": "Owner-approved trial input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 3,
+      "col": 2,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1850,7 +1872,7 @@
      "status": "Owner upload — awaiting approval",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 4,
+      "col": 3,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1869,7 +1891,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 5,
+      "col": 4,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1888,7 +1910,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 6,
+      "col": 5,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1907,7 +1929,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 7,
+      "col": 6,
       "row": 0,
       "cols": 8,
       "rows": 4,
@@ -1926,8 +1948,8 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 0,
-      "row": 1,
+      "col": 7,
+      "row": 0,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -1945,7 +1967,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 1,
+      "col": 0,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1964,7 +1986,7 @@
      "status": "Owner-selected continuity reference",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 2,
+      "col": 1,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -1983,7 +2005,7 @@
      "status": "Historical source — excluded from new character reference set by owner",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 3,
+      "col": 2,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2002,7 +2024,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 4,
+      "col": 3,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2021,7 +2043,7 @@
      "status": "Historical reference — superseded; not eligible for new render",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 5,
+      "col": 4,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2040,7 +2062,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 6,
+      "col": 5,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2059,7 +2081,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 7,
+      "col": 6,
       "row": 1,
       "cols": 8,
       "rows": 4,
@@ -2078,8 +2100,8 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 0,
-      "row": 2,
+      "col": 7,
+      "row": 1,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -2097,7 +2119,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 1,
+      "col": 0,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2116,7 +2138,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 2,
+      "col": 1,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2135,7 +2157,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 3,
+      "col": 2,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2154,7 +2176,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 4,
+      "col": 3,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2173,7 +2195,7 @@
      "status": "REJECTED / SUPERSEDED — archive only; never a render input",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 5,
+      "col": 4,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2192,7 +2214,7 @@
      "status": "Rejected / superseded; archive only",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 6,
+      "col": 5,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2211,7 +2233,7 @@
      "status": "Rejected by owner: soft and blotchy. History only.",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 7,
+      "col": 6,
       "row": 2,
       "cols": 8,
       "rows": 4,
@@ -2230,8 +2252,8 @@
      "status": "Archived 2026-09-15: scene complete, owner removed the other candidates.",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 0,
-      "row": 3,
+      "col": 7,
+      "row": 2,
       "cols": 8,
       "rows": 4,
       "shape": "land"
@@ -2241,7 +2263,7 @@
      "date": "2026-09-15",
      "file": "INV061_s08-trial-33194ecc-kling3-0-pro-4s.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV061.mp4",
-     "group": "archived",
+     "group": "approved",
      "approved": false,
      "id": "INV061",
      "title": "Higgsfield clip · INV061 · 4.042 s",
@@ -2249,7 +2271,7 @@
      "status": "S08 TRIAL 33194ecc kling3_0 pro 4s (new render, owner review)",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 1,
+      "col": 0,
       "row": 3,
       "cols": 8,
       "rows": 4,
@@ -2268,7 +2290,7 @@
      "status": "S08 TRIAL 33194ecc kling3_0 pro 4s_COMPLETE with approved VO (new render, owner review)",
      "img": {
       "sheet": "sheets/scene-S08.jpg",
-      "col": 2,
+      "col": 1,
       "row": 3,
       "cols": 8,
       "rows": 4,
@@ -2299,45 +2321,36 @@
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-COMPLETE-20260915.jpg",
      "id": "S08-current",
      "title": "Current still · from S08 COMPLETE (owner selected 2026-09-15)",
-     "group": "current",
+     "group": "archived",
      "role": "current",
-     "approved": true,
+     "approved": false,
      "date": "2026-09-16"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-start-COMPLETE-20260915.jpg",
      "id": "S08-start-COMPLETE-20260915",
      "title": "Start · S08 COMPLETE",
-     "group": "cut",
+     "group": "archived",
      "role": "start",
-     "approved": true,
+     "approved": false,
      "date": "2026-09-16"
     },
     {
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S08-end-COMPLETE-20260915.jpg",
      "id": "S08-end-COMPLETE-20260915",
      "title": "End · S08 COMPLETE",
-     "group": "cut",
+     "group": "archived",
      "role": "end",
-     "approved": true,
+     "approved": false,
      "date": "2026-09-16"
-    },
-    {
-     "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-ENTRANCE-PAIR-V19-FABRIC-NATIVE.png",
-     "id": "S08-ENTRANCE-V19-APPROVED",
-     "title": "Selected start frame · walking toward Homer",
-     "group": "approved",
-     "role": "start",
-     "approved": true,
-     "date": "2026-09-13"
     },
     {
      "src": "D:\\REXX\\AI_Video\\BizBox-Garage-Dream\\astra-handoff-20260915\\inputs\\S08-WALKUP-CLEAN-NATIVE-V2.png",
      "id": "S08-WALKUP-CLEAN-NATIVE-V2",
      "title": "S08 · approved START still (native 1672×941), Sep 15",
-     "group": "approved",
+     "group": "archived",
      "role": "start",
-     "approved": true,
+     "approved": false,
      "date": "2026-09-15"
     },
     {
@@ -2533,7 +2546,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV061.jpg",
      "id": "INV061",
      "title": "Higgsfield clip · INV061 · 4.042 s",
-     "group": "archived",
+     "group": "approved",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -3583,7 +3596,7 @@
    "inFilm": true,
    "sceneVideoUrl": "../projects/garage-dream/deliveries/SCENES/S10.mp4",
    "removedWhy": "",
-   "line": "Homer, this is like a scene from Storage Wars. You got a Bugatti in here.",
+   "line": "Homer, this is like Storage Wars in here.",
    "status": "V67 working picture edit: close-up ends42s; next garage shot stays tightly framed until45.5s, then widens into recliner coverage. Approved V66 audio and all later timing preserved. Lip-sync and remaining final fixes are unfinished.",
    "nextAction": "Finish face-specific lip-sync on the actual inserted close-up. Preserve cut42 and zoom-out45.5. No rejected stills.",
    "gate": "Prepare halfway opening → open-garage shoulder view → full reveal; reinsert saved dialogue after visible reveal.",
@@ -3625,12 +3638,12 @@
     {
      "date": "2026-09-12",
      "file": "HOMER-HEAD-APPROVED-V1.png",
-     "group": "approved",
+     "group": "archived",
      "id": "HOMER-HAIR-LOCK",
      "title": "Approved Homer · head and curled hair",
      "caption": "Exact three-angle design approved: face, mustache, head shape and funny crown loops. Not yet applied to all existing clips.",
      "role": "reference",
-     "approved": true,
+     "approved": false,
      "status": "Owner-approved canonical reference",
      "img": {
       "sheet": "sheets/scene-S10.jpg",
@@ -4323,9 +4336,9 @@
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\continuity-reference-pack\\HOMER-HEAD-APPROVED-V1.png",
      "id": "HOMER-HAIR-LOCK",
      "title": "Approved Homer · head and curled hair",
-     "group": "approved",
+     "group": "archived",
      "role": "reference",
-     "approved": true,
+     "approved": false,
      "date": "2026-09-12"
     },
     {
@@ -9471,11 +9484,11 @@
     {
      "date": "2026-09-15",
      "file": "S27-start-V74.jpg",
-     "group": "current",
+     "group": "archived",
      "id": "S27-current",
      "title": "Current still · from V74",
      "role": "current",
-     "approved": true,
+     "approved": false,
      "status": "taken from GARAGE-DREAM-V74-CANDIDATE-CLAUDE-2026-09-14.mp4 at 86.417s",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
@@ -9754,7 +9767,7 @@
      "date": "2026-09-15",
      "file": "INV035_s27-v74-apu-l3-3a05-full16x9.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV035.mp4",
-     "group": "pending",
+     "group": "approved",
      "approved": false,
      "id": "INV035",
      "title": "Lip-sync clip · INV035 · 1.542 s",
@@ -9790,25 +9803,6 @@
     },
     {
      "date": "2026-09-15",
-     "file": "INV037_s27-v74-l2-native-higgs-return.mp4",
-     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV037.mp4",
-     "group": "archived",
-     "approved": false,
-     "id": "INV037",
-     "title": "Lip-sync clip · INV037 · 2 s",
-     "role": "clip",
-     "status": "S27 V74 L2 NATIVE HIGGS RETURN",
-     "img": {
-      "sheet": "sheets/scene-S27.jpg",
-      "col": 1,
-      "row": 2,
-      "cols": 8,
-      "rows": 3,
-      "shape": "land"
-     }
-    },
-    {
-     "date": "2026-09-15",
      "file": "INV038_s27-v74-l3-native-higgs-return.mp4",
      "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV038.mp4",
      "group": "pending",
@@ -9819,7 +9813,7 @@
      "status": "S27 V74 L3 NATIVE HIGGS RETURN",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 2,
+      "col": 1,
       "row": 2,
       "cols": 8,
       "rows": 3,
@@ -9838,7 +9832,7 @@
      "status": "S27 START rexx upload 1129",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 3,
+      "col": 2,
       "row": 2,
       "cols": 8,
       "rows": 3,
@@ -9857,7 +9851,7 @@
      "status": "S27 rexx upload 1122",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 4,
+      "col": 3,
       "row": 2,
       "cols": 8,
       "rows": 3,
@@ -9876,7 +9870,7 @@
      "status": "S27.2 rexx upload 1124",
      "img": {
       "sheet": "sheets/scene-S27.jpg",
-      "col": 5,
+      "col": 4,
       "row": 2,
       "cols": 8,
       "rows": 3,
@@ -9990,9 +9984,9 @@
      "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\scene-board\\current-frames\\S27-start-V74.jpg",
      "id": "S27-current",
      "title": "Current still · from V74",
-     "group": "current",
+     "group": "archived",
      "role": "current",
-     "approved": true,
+     "approved": false,
      "date": "2026-09-15"
     },
     {
@@ -10123,7 +10117,7 @@
      "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV035.jpg",
      "id": "INV035",
      "title": "Lip-sync clip · INV035 · 1.542 s",
-     "group": "pending",
+     "group": "approved",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
@@ -10133,15 +10127,6 @@
      "id": "INV036",
      "title": "Lip-sync clip · INV036 · 2.375 s",
      "group": "pending",
-     "role": "clip",
-     "approved": false,
-     "date": "2026-09-15"
-    },
-    {
-     "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV037.jpg",
-     "id": "INV037",
-     "title": "Lip-sync clip · INV037 · 2 s",
-     "group": "archived",
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"

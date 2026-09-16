@@ -36,6 +36,9 @@
   .box h3{ font-size:30px; margin:0 0 4px; } .facts{ font-size:16px; color:var(--muted); line-height:1.45; margin:0 0 10px; } .facts b{ color:var(--text); }
   .bar{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin:6px 0 10px; }
   #film{ margin:6px 0 14px; }
+  #studioBar{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; background:var(--panel); border-radius:12px; padding:10px 12px; margin:6px 0 12px; } #studioBar[hidden]{ display:none; }
+  #studioBar .st{ font-size:15px; color:var(--muted); flex:1 1 220px; }
+  #jobLog{ white-space:pre-wrap; font:13px/1.35 ui-monospace,Consolas,monospace; background:var(--panel2); border-radius:10px; padding:8px 10px; max-height:220px; overflow:auto; margin:0 0 12px; } #jobLog[hidden]{ display:none; }
   .playbtn{ position:absolute; right:8px; top:8px; z-index:2; min-height:36px; padding:4px 12px; font-size:15px; border-radius:8px; background:var(--accent); color:var(--accent-ink); box-shadow:0 2px 6px rgba(0,0,0,.35); }
   .badge.chosen{ background:#2f6f8f; }
   #player{ position:fixed; inset:0; background:rgba(0,0,0,.92); z-index:40; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px; gap:10px; } #player[hidden]{ display:none; }
@@ -59,6 +62,8 @@
     <div><div class="brand">LYFE <span>STUDIO</span></div><h1>Garage Dream · Storyboard</h1><p class="sub" id="sub">Loading the board…</p></div>
     <a class="link" href="https://claude.ai/artifact/6uQh9o2LcpjCorpXKfEi7e">Open the Cut Room →</a>
   </header>
+  <div id="studioBar" hidden><button class="primary" id="stRender">▶ Render the film</button><button id="stApply">✔ Apply my changes</button><button id="stPull">⟳ Get agents' updates</button><span class="st" id="stStatus">Studio server ready.</span></div>
+  <pre id="jobLog" hidden></pre>
   <section id="film" hidden><h2 style="margin-top:6px">Watch the film</h2><p class="hint" id="filmName"></p><video id="filmV" controls playsinline preload="metadata" style="width:100%;max-height:70vh;background:#000;border-radius:12px"></video></section>
   <div class="tabs" id="tabs"><button class="on" data-sec="scenes">Scenes</button><button data-sec="chars">Characters</button><button data-sec="sets">Sets</button><button data-sec="props">Props</button><button data-sec="reqs">Requests <span id="reqN"></span></button></div>
 
@@ -117,6 +122,36 @@ function tileEl(t, key, listKey, opts = {}){
   if (t.videoUrl) { const pb = document.createElement('button'); pb.className = 'playbtn'; pb.textContent = '▶ Play'; pb.onclick = (ev) => { ev.stopPropagation(); openPlayer(t, sceneOf); }; el.appendChild(pb); }
   const b = document.createElement('div'); b.className = 'b'; b.innerHTML = `${movedTo ? '<span class="badge arch">→ ' + esc(movedTo) + '</span>' : ''}${chosen ? '<span class="badge chosen">CHOSEN for ' + esc(sceneOf) + '</span>' : ''}${badges}<h4>${esc(t.title)}</h4><p>${esc(t.role && !['start','end','current','cut','reference','candidate','archived'].includes(t.role) ? t.role : (t.caption || t.status || t.angle || ''))}</p>${t.date ? `<div class="dt">${fD(t.date)}${t.file ? ' · ' + esc(t.file) : ''}</div>` : ''}`; el.appendChild(b);
   return el;
+}
+// ---- studio server buttons (only when this page is served by the studio server) — 2026-09-16
+let STUDIO = false;
+async function api(path, opts = {}) {
+  try { const r = await fetch('/api' + path, { cache: 'no-store', ...opts, headers: opts.body instanceof Blob ? {} : { 'Content-Type': 'application/json', ...(opts.headers || {}) } }); const j = await r.json(); if (!r.ok) { toast(j.error || ('Server said ' + r.status)); return null; } return j; }
+  catch (e) { toast('Studio server not reachable'); return null; }
+}
+async function watchJob(job, label) {
+  const L = $('jobLog'); L.hidden = false; $('stStatus').textContent = label + ' — running…';
+  for (;;) {
+    await new Promise(r => setTimeout(r, 2500));
+    const j = await api('/jobs/' + encodeURIComponent(job.id)); if (!j) return;
+    L.textContent = j.log.split('\n').slice(-40).join('\n'); L.scrollTop = L.scrollHeight;
+    if (j.state === 'done') { $('stStatus').textContent = label + ' — done ' + new Date().toLocaleTimeString(); toast(label + ' done'); await reloadBoard(); return j; }
+    if (j.state === 'failed') { $('stStatus').textContent = label + ' — FAILED: ' + (j.error || ''); toast(label + ' failed — see the log'); return j; }
+    $('stStatus').textContent = label + ' — ' + j.state + '…';
+  }
+}
+async function reloadBoard() {
+  let b = null; try { const r = await fetch('board.json?t=' + Date.now(), { cache: 'no-store' }); if (r.ok) b = await r.json(); } catch (e) {} if (!b) return; BOARD = b; render();
+  if (BOARD.film) { const u = BOARD.film.urls[0]; if (!$('filmV').src.endsWith(u)) { $('filmV').src = u; $('filmName').textContent = BOARD.film.name; } $('film').hidden = false; }
+}
+async function studioInit() {
+  let h = null; try { const r = await fetch('/api/health', { cache: 'no-store' }); if (r.ok) h = await r.json(); } catch (e) {}
+  if (!h || !h.ok) return;
+  STUDIO = true; $('studioBar').hidden = false;
+  if (h.busy) { $('stStatus').textContent = h.busy.kind + ' is running…'; watchJob(h.busy, h.busy.kind); }
+  $('stRender').onclick = async () => { if (!confirm('Render the film now? Takes a few minutes. The new film appears at the top when done.')) return; const j = await api('/render', { method: 'POST', body: '{}' }); if (j) watchJob(j, 'Render'); };
+  $('stApply').onclick = async () => { await save(); const j = await api('/apply', { method: 'POST', body: '{}' }); if (j) watchJob(j, 'Apply my changes'); };
+  $('stPull').onclick = async () => { const j = await api('/pull', { method: 'POST', body: '{}' }); if (j) watchJob(j, "Agents' updates"); };
 }
 let selKey = null, selList = null;
 // ---- clip player: tap ▶ on any clip tile (candidates and archive too), watch and listen, then choose it for the scene (2026-09-15)
@@ -189,7 +224,7 @@ function openScene(id){
   $('shId').textContent = s.id; $('shTitle').textContent = s.title;
   const b = $('shBody'); b.innerHTML = `
     <div class="kv"><b>Set</b><span>${esc(s.set)}${s.angle ? ' · ' + esc(s.angle) : ''}</span><b>Characters</b><span class="chips">${s.cast.map(c => `<span class="chip">${esc(c)}</span>`).join('')}</span><b>Props</b><span class="chips">${s.props.length ? s.props.map(c => `<span class="chip">${esc(c)}</span>`).join('') : '<span class="chip">none noted</span>'}</span></div>
-    <div class="bar"><button id="scToggle">${(ST.sceneRemoved || []).includes(s.id) ? '↩ Put back in the film' : '✖ Remove from the film'}</button><button class="primary" id="scEdit">✎ Edit this scene</button><button id="scStill">✨ New start / end still</button><button id="scWrong">⚠ What's wrong</button><button id="scAdd">＋ Add from library</button></div>
+    <div class="bar"><button id="scToggle">${(ST.sceneRemoved || []).includes(s.id) ? '↩ Put back in the film' : '✖ Remove from the film'}</button><button class="primary" id="scEdit">✎ Edit this scene</button><button id="scStill">✨ New start / end still</button><button id="scWrong">⚠ What's wrong</button><button id="scAdd">＋ Add from library</button><button id="scUp" hidden>⬆ Upload to this scene</button><input type="file" id="scFile" accept="video/*,image/*,audio/*" hidden></div>
     ${s.editStatus ? `<p class="hint"><b>Working edit:</b> ${esc(s.editStatus)}</p>` : ''}
     <h3>1 · In the film</h3>
     ${s.sceneVideoUrl ? `<video id="scVideo" controls playsinline preload="metadata" src="${s.sceneVideoUrl}" style="width:100%;max-height:60vh;background:#000;border-radius:12px;margin:6px 0 6px"></video><p class="hint">Exactly what plays in the film for ${esc(s.id)}.</p>` : '<p class="hint">No film clip for this scene yet.</p>'}
@@ -215,6 +250,7 @@ function openScene(id){
   $('scToggle').onclick = () => { ST.sceneRemoved = ST.sceneRemoved || []; const on = ST.sceneRemoved.includes(s.id); ST.sceneRemoved = on ? ST.sceneRemoved.filter(x => x !== s.id) : [...ST.sceneRemoved, s.id]; ST.requests.unshift({ id: Math.random().toString(36).slice(2, 8), kind: on ? 'Put scene back in the film' : 'Remove scene from the film', target: s.id, note: on ? 'Owner put ' + s.id + ' back.' : 'Owner removed ' + s.id + ' from the film.', at: new Date().toISOString(), status: 'open' }); changed(on ? s.id + ' back in' : s.id + ' removed'); renderReqs(); $('sheet').hidden = true; render(); toast(on ? s.id + ' is back in the film' : s.id + ' removed from the film'); };
   $('scEdit').onclick = () => askRequest('Edit this scene', s.id); $('scStill').onclick = () => askRequest('Make a new start / end still', s.id); $('scWrong').onclick = () => askRequest('What is wrong', s.id);
   $('scAdd').onclick = () => openLibrary(s.id);
+  if (STUDIO) { $('scUp').hidden = false; $('scUp').onclick = () => $('scFile').click(); $('scFile').onchange = async e => { const f = e.target.files[0]; if (!f) return; toast('Uploading ' + f.name + '…'); const j = await api('/upload?scene=' + encodeURIComponent(s.id) + '&name=' + encodeURIComponent(f.name), { method: 'POST', body: f }); if (j) watchJob(j, 'Upload to ' + s.id); }; }
   $('sheet').hidden = false; window.scrollTo(0, 0);
 }
 // ---- library picker: any clip or audio on the shelf can be added to this scene (2026-09-16)
@@ -239,6 +275,7 @@ $('shClose').onclick = () => { $('sheet').hidden = true; render(); };
 (async function init(){
   const get = async u => { try { const r = await fetch(u, { cache:'no-store' }); return r.ok ? await r.json() : null; } catch(e){ return null; } };
   BOARD = await get('board.json'); if (!BOARD || BOARD.format !== 3) { $('sub').textContent = 'The board did not load.'; return; }
+  studioInit();
   if (BOARD.film) { (async () => { for (const u of BOARD.film.urls) { try { const r = await fetch(u, { method: 'HEAD' }); if (r.ok) { $('filmV').src = u; $('filmName').textContent = BOARD.film.name + ' · ' + (BOARD.film.bytes / 1048576).toFixed(0) + ' MB'; $('film').hidden = false; return; } } catch {} } })(); }
   const saved = await get('state/edits.json'); if (saved) { ST = { order:saved.order || {}, archived:saved.archived || [], scripts:saved.scripts || {}, requests:saved.requests || [] }; $('stat').textContent = 'Loaded your saved changes' + (saved.savedAt ? ' · ' + new Date(saved.savedAt).toLocaleString() : ''); }
   else { try { const d = localStorage.getItem('lyfe-board-state'); if (d) { ST = { ...ST, ...JSON.parse(d) }; $('stat').textContent = 'Unsaved changes from this phone'; } } catch(e){} }

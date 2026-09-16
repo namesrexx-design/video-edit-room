@@ -318,7 +318,8 @@
    "seconds": 11.23,
    "group": "approved",
    "date": "2026-09-15",
-   "note": "added 2026-09-15 so the owner can listen on the card"
+   "note": "added 2026-09-15 so the owner can listen on the card",
+   "keep": true
   },
   {
    "id": "AUD030",
@@ -328,7 +329,8 @@
    "seconds": 6.43,
    "group": "approved",
    "date": "2026-09-15",
-   "note": "added 2026-09-15 so the owner can listen on the card"
+   "note": "added 2026-09-15 so the owner can listen on the card",
+   "keep": true
   },
   {
    "id": "S08-T1",
@@ -338,7 +340,8 @@
    "seconds": 4,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S09-T1",
@@ -348,7 +351,8 @@
    "seconds": 4.6,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S10-T1",
@@ -358,7 +362,8 @@
    "seconds": 120,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S10-T2",
@@ -368,7 +373,8 @@
    "seconds": 30.84,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S10-T3",
@@ -378,7 +384,8 @@
    "seconds": 30.84,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S16-T1",
@@ -388,7 +395,8 @@
    "seconds": 30.84,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S16-T2",
@@ -398,7 +406,8 @@
    "seconds": 1.19,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S17-T1",
@@ -408,7 +417,8 @@
    "seconds": 1.72,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S23-T1",
@@ -418,7 +428,8 @@
    "seconds": 3.71,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S24-T1",
@@ -428,7 +439,8 @@
    "seconds": 6.43,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S27-T1",
@@ -438,7 +450,8 @@
    "seconds": 11.23,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S27-T2",
@@ -448,7 +461,8 @@
    "seconds": 11.23,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S28-T1",
@@ -458,7 +472,8 @@
    "seconds": 3.4,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   },
   {
    "id": "S29-T1",
@@ -468,7 +483,8 @@
    "seconds": 5.41,
    "group": "scene-track",
    "date": "2026-09-16",
-   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16",
+   "keep": true
   }
  ]
 }

@@ -12,6 +12,18 @@ encode gzip
 # /projects/*  → finished deliveries in the repo (film, scene clips, proxies, audio)
 # /media/*     → working media pulled from R2 (browsable)
 # /editor/*    → the page folder built on this server by build-board
+handle /api/* {
+	reverse_proxy studio:8787
+}
+# the server builds its own board + sheets
+handle /board.json {
+	root * /srv/editor
+	file_server
+}
+handle /sheets/* {
+	root * /srv/editor
+	file_server
+}
 handle /projects/* {
 	root * /srv/repo
 	file_server

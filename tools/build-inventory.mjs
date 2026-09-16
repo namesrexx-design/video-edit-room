@@ -55,6 +55,9 @@ for (const s of sources) {
     console.log('ok', frames, 'f');
   } catch (e) { console.log('FAILED', e.message.split('\n')[0]); manifest.push({ id, source: s.src, failed: true }); }
 }
+// keep entries added outside this builder (server uploads, hand-added approved lines, scene tracks)
+{ try { const prev = JSON.parse(fs.readFileSync('projects/garage-dream/INVENTORY-MANIFEST.json', 'utf8')).clips || []; const have = new Set(manifest.map(m => m.id));
+  for (const m of prev) if (m.keep && !have.has(m.id)) manifest.push(m); } catch (e) {} }
 fs.writeFileSync(OUT + '/INVENTORY-MANIFEST.json', JSON.stringify({ note: 'Conformed 1080p24 copies of the recent Higgsfield videos + V74 lip-sync videos. Sources untouched.', builtAt: new Date().toISOString(), clips: manifest }, null, 2));
 fs.writeFileSync(EDITOR + '/inventory.json', JSON.stringify({ clips: manifest.filter(m => !m.failed).map(m => ({ id: m.id, file: m.file, title: m.title, frames: m.frames, group: m.group, model: m.model, at: m.at })) }, null, 1));
 fs.mkdirSync('projects/garage-dream', { recursive: true }); fs.copyFileSync(OUT + '/INVENTORY-MANIFEST.json', 'projects/garage-dream/INVENTORY-MANIFEST.json');

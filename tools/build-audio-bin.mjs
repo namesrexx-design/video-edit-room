@@ -57,6 +57,9 @@ for (const s of S) {
     console.log('ok', d.toFixed(1), 's');
   } catch (e) { console.log('FAILED', e.message.split('\n')[0]); }
 }
+// keep entries added outside this builder (server uploads, hand-added approved lines, scene tracks)
+{ try { const prev = JSON.parse(fs.readFileSync('projects/garage-dream/AUDIO-MANIFEST.json', 'utf8')).clips || []; const have = new Set(manifest.map(m => m.id));
+  for (const m of prev) if (m.keep && !have.has(m.id)) manifest.push(m); } catch (e) {} }
 fs.writeFileSync(OUT + '/AUDIO-MANIFEST.json', JSON.stringify({ note: '48 kHz stereo WAV copies for rendering. Sources untouched.', builtAt: new Date().toISOString(), clips: manifest }, null, 2));
 fs.writeFileSync(EDITOR + '/audio.json', JSON.stringify({ clips: manifest.map(m => ({ id: m.id, file: m.file, title: m.title, frames: m.frames, group: m.group })) }, null, 1));
 fs.copyFileSync(OUT + '/AUDIO-MANIFEST.json', 'projects/garage-dream/AUDIO-MANIFEST.json');

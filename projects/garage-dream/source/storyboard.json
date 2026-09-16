@@ -2351,9 +2351,7 @@
           "archivedWhy": "Owner picked the COMPLETE clip; other takes removed from the card."
         }
       ],
-      "archivedClipIds": [
-        "INV061"
-      ],
+      "archivedClipIds": [],
       "completedDelivery": {
         "id": "S08-COMPLETE-20260915",
         "src": "https://raw.githubusercontent.com/namesrexx-design/video-edit-room/14f6514614eba4dcacfd857fcaed5db8ef9099e6/projects/garage-dream/deliveries/S08/S08-COMPLETE-with-approved-VO.mp4",
@@ -2389,6 +2387,21 @@
         }
       ],
       "approvedClipIds": [
+        "INV062",
+        "INV061"
+      ],
+      "ownerArchived": [
+        "S08-ENTRANCE-V19-APPROVED",
+        "S08-WALKUP-CLEAN-NATIVE-V2",
+        "S08-end-COMPLETE-20260915",
+        "S08-start-COMPLETE-20260915",
+        "S08-current"
+      ],
+      "ownerRejected": [
+        "S08-ENTRANCE-V19-APPROVED"
+      ],
+      "ownerChosen": [
+        "INV061",
         "INV062"
       ]
     },
@@ -4251,7 +4264,7 @@
       "start": 35,
       "end": 45.541667,
       "status": "V67 working picture edit: close-up ends42s; next garage shot stays tightly framed until45.5s, then widens into recliner coverage. Approved V66 audio and all later timing preserved. Lip-sync and remaining final fixes are unfinished.",
-      "line": "Homer, this is like a scene from Storage Wars. You got a Bugatti in here.",
+      "line": "Homer, this is like Storage Wars in here.",
       "video": "../garage-through-apu-review/full-working-cut/S10-CURRENT-V67.mp4",
       "image": "current-frames/S10-start-V74.jpg",
       "episode": "Current episode",
@@ -6352,7 +6365,13 @@
         "file": "GARAGE-DREAM-V74-CANDIDATE-CLAUDE-2026-09-14.mp4",
         "atSeconds": 36,
         "takenAt": "2026-09-15T16:02:26.397Z"
-      }
+      },
+      "ownerArchived": [
+        "HOMER-HAIR-LOCK"
+      ],
+      "linePrevious": [
+        "Homer, this is like a scene from Storage Wars. You got a Bugatti in here."
+      ]
     },
     {
       "id": "S11",
@@ -16355,7 +16374,8 @@
         "INV052",
         "INV051",
         "INV053",
-        "INV004"
+        "INV004",
+        "INV035"
       ],
       "approvedVideos": [
         {
@@ -16427,6 +16447,17 @@
           "title": "S27 Rexx reply · Seedance alternate",
           "status": "alternate, not in the film"
         }
+      ],
+      "ownerArchived": [
+        "current-frames/S27-start-V27.jpg",
+        "current-frames/S27-end-V27.jpg",
+        "S27-current"
+      ],
+      "ownerRejected": [
+        "INV037"
+      ],
+      "ownerChosen": [
+        "INV035"
       ]
     },
     {
