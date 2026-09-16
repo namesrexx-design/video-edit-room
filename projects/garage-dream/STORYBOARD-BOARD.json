@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-15T23:44:07.447Z",
+  "builtAt": "2026-09-16T00:37:00.781Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -1179,11 +1179,11 @@
       "id": "S08",
       "title": "Walk up driveway",
       "line": "Hey Homer, made it here as fast as I could.",
-      "status": "Omitted from V53 by owner request. Prior walk-up retained as history only.",
+      "status": "Finished walk-up with existing approved voiceover. Selected for storyboard by owner; full-film assembly and final playback QC remain separate.",
       "nextAction": "Review the join to retained S09; prepare its matching conversation and single remote/open-garage sequence.",
       "gate": "Owner selected both stills and requested loading them in Higgsfield.",
-      "video": "S08-WALKUP-V51-REPLACEMENT.mp4",
-      "editStatus": "IN REPAIR PASS · Order 1 · S08 COMPLETE candidate 2026-09-15: trial 33194ecc + approved voiceover. Awaiting owner approval, then insertion before S09.",
+      "video": "S08-COMPLETE-with-approved-VO.mp4",
+      "editStatus": "COMPLETE · Finished walk-up with existing approved voiceover. Selected for storyboard by owner; full-film assembly and final playback QC remain separate. Other takes archived 2026-09-15.",
       "still": {
         "sheet": "sheets/scene-S08.jpg",
         "col": 0,
@@ -1292,25 +1292,6 @@
           }
         },
         {
-          "date": "2026-09-13",
-          "file": "S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
-          "group": "pending",
-          "id": "S08-SAME-FRAME-CLEAN-V4",
-          "title": "Clean same-camera start · review",
-          "caption": "Plain black shirt, Rexx farther left; matching V8 framing. 8K file is upscaled delivery.",
-          "role": "candidate",
-          "approved": false,
-          "status": "Coordinator inspected; owner review pending",
-          "img": {
-            "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
-            "row": 0,
-            "cols": 8,
-            "rows": 4,
-            "shape": "land"
-          }
-        },
-        {
           "date": "2026-09-15",
           "file": "59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
           "group": "pending",
@@ -1322,7 +1303,7 @@
           "status": "Owner upload — awaiting approval",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 4,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -1341,7 +1322,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 5,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -1360,7 +1341,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
+            "col": 6,
             "row": 0,
             "cols": 8,
             "rows": 4,
@@ -1379,8 +1360,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 0,
-            "row": 1,
+            "col": 7,
+            "row": 0,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -1398,7 +1379,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 1,
+            "col": 0,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -1417,7 +1398,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 2,
+            "col": 1,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -1436,7 +1417,7 @@
           "status": "Owner-selected continuity reference",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 3,
+            "col": 2,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -1455,7 +1436,7 @@
           "status": "Historical source — excluded from new character reference set by owner",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 3,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -1474,7 +1455,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 4,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -1493,7 +1474,7 @@
           "status": "Historical reference — superseded; not eligible for new render",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 5,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -1512,7 +1493,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
+            "col": 6,
             "row": 1,
             "cols": 8,
             "rows": 4,
@@ -1531,8 +1512,8 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 0,
-            "row": 2,
+            "col": 7,
+            "row": 1,
             "cols": 8,
             "rows": 4,
             "shape": "land"
@@ -1550,7 +1531,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 1,
+            "col": 0,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -1569,7 +1550,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 2,
+            "col": 1,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -1588,7 +1569,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 3,
+            "col": 2,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -1607,7 +1588,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 4,
+            "col": 3,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -1626,7 +1607,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 5,
+            "col": 4,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -1645,7 +1626,7 @@
           "status": "REJECTED / SUPERSEDED — archive only; never a render input",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 6,
+            "col": 5,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -1664,7 +1645,7 @@
           "status": "Rejected / superseded; archive only",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
-            "col": 7,
+            "col": 6,
             "row": 2,
             "cols": 8,
             "rows": 4,
@@ -1683,6 +1664,25 @@
           "status": "Rejected by owner: soft and blotchy. History only.",
           "img": {
             "sheet": "sheets/scene-S08.jpg",
+            "col": 7,
+            "row": 2,
+            "cols": 8,
+            "rows": 4,
+            "shape": "land"
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "file": "S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
+          "group": "archived",
+          "id": "S08-SAME-FRAME-CLEAN-V4",
+          "title": "Clean same-camera start · review",
+          "caption": "Plain black shirt, Rexx farther left; matching V8 framing. 8K file is upscaled delivery.",
+          "role": "archived",
+          "approved": false,
+          "status": "Archived 2026-09-15: scene complete, owner removed the other candidates.",
+          "img": {
+            "sheet": "sheets/scene-S08.jpg",
             "col": 0,
             "row": 3,
             "cols": 8,
@@ -1693,7 +1693,7 @@
         {
           "date": "2026-09-15",
           "file": "INV061_s08-trial-33194ecc-kling3-0-pro-4s.mp4",
-          "group": "pending",
+          "group": "archived",
           "id": "INV061",
           "title": "Higgsfield clip · INV061 · 4.042 s",
           "role": "clip",
@@ -1781,15 +1781,6 @@
           "role": "start",
           "approved": true,
           "date": "2026-09-15"
-        },
-        {
-          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
-          "id": "S08-SAME-FRAME-CLEAN-V4",
-          "title": "Clean same-camera start · review",
-          "group": "pending",
-          "role": "candidate",
-          "approved": false,
-          "date": "2026-09-13"
         },
         {
           "src": "D:\\REXX\\AI_Video\\BizBox-Garage-Dream\\owner-uploads\\scenes\\S08_WALK_UP_DRIVEWAY\\2026-09-15\\59A816F6-6637-43A7-A20A-4CC9A90AED20.png",
@@ -1972,10 +1963,19 @@
           "date": "2026-09-13"
         },
         {
+          "src": "C:\\Users\\16263\\Documents\\Codex\\2026-09-04\\referenced-chatgpt-conversation-this-is-an-2\\environment-reference-pack\\s09-door-action\\S08-SAME-FRAME-CLEAN-V4-NATIVE.png",
+          "id": "S08-SAME-FRAME-CLEAN-V4",
+          "title": "Clean same-camera start · review",
+          "group": "archived",
+          "role": "archived",
+          "approved": false,
+          "date": "2026-09-13"
+        },
+        {
           "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV061.jpg",
           "id": "INV061",
           "title": "Higgsfield clip · INV061 · 4.042 s",
-          "group": "pending",
+          "group": "archived",
           "role": "clip",
           "approved": false,
           "date": "2026-09-15"
@@ -1991,7 +1991,7 @@
         }
       ],
       "_audioSrc": [],
-      "_fullVideo": "../opening-review/S08-WALKUP-V51-REPLACEMENT.mp4",
+      "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S08/S08-COMPLETE-with-approved-VO.mp4",
       "_audioTracks": [
         {
           "src": "../opening-review/S08-V47-APPROVED-VOICEOVER-STEM.wav",
@@ -2003,11 +2003,11 @@
       "id": "S09",
       "title": "Conversation → garage opener",
       "line": "Homer: You sure you want to look in here? Rexx: Yeah, let me have it. It can't be that bad.",
-      "status": "V63 Rexx rear-view jaw edit and added reply inserted; owner review pending.",
+      "status": "Returned Homer lip-sync with existing dialogue. Selected for storyboard by owner; full-film assembly and final playback QC remain separate.",
       "nextAction": "Prepare reference-matched closed-door conversation and one remote action. Preserve approved voices.",
       "gate": "Owner selected both stills and requested loading them in Higgsfield.",
-      "video": "S09-CURRENT-V63.mp4",
-      "editStatus": "IN REPAIR PASS · Order 1 · S09 COMPLETE candidate 2026-09-15: new still → Kling trial → Homer lip-synced → approved dialogue on. Awaiting owner approval, then insertion (replaces the old S09 at 0:30–0:35).",
+      "video": "S09-COMPLETE-lipsync-with-dialogue.mp4",
+      "editStatus": "COMPLETE · Returned Homer lip-sync with existing dialogue. Selected for storyboard by owner; full-film assembly and final playback QC remain separate. Other takes archived 2026-09-15.",
       "still": {
         "sheet": "sheets/scene-S09.jpg",
         "col": 0,
@@ -2538,7 +2538,7 @@
         {
           "date": "2026-09-15",
           "file": "INV046_s09-lipsync-c2ef-v58.mp4",
-          "group": "pending",
+          "group": "archived",
           "id": "INV046",
           "title": "Lip-sync clip · INV046 · 5 s",
           "role": "clip",
@@ -2556,7 +2556,7 @@
         {
           "date": "2026-09-15",
           "file": "INV063_s09-trial-bb357e3c-kling3-0-pro-5s.mp4",
-          "group": "pending",
+          "group": "archived",
           "id": "INV063",
           "title": "Higgsfield clip · INV063 · 5.042 s",
           "role": "clip",
@@ -2574,7 +2574,7 @@
         {
           "date": "2026-09-15",
           "file": "INV064_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
-          "group": "pending",
+          "group": "archived",
           "id": "INV064",
           "title": "Higgsfield clip · INV064 · 5.042 s",
           "role": "clip",
@@ -2867,7 +2867,7 @@
           "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV046.jpg",
           "id": "INV046",
           "title": "Lip-sync clip · INV046 · 5 s",
-          "group": "pending",
+          "group": "archived",
           "role": "clip",
           "approved": false,
           "date": "2026-09-15"
@@ -2876,7 +2876,7 @@
           "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV063.jpg",
           "id": "INV063",
           "title": "Higgsfield clip · INV063 · 5.042 s",
-          "group": "pending",
+          "group": "archived",
           "role": "clip",
           "approved": false,
           "date": "2026-09-15"
@@ -2885,7 +2885,7 @@
           "src": "C:/Users/16263/AppData/Local/Temp/claude/C--Users-16263-Desktop-Claude-Code-Build/9d00f0c5-975e-4197-b36d-8f1eb6052b13/scratchpad/film/editor/thumbs/INV064.jpg",
           "id": "INV064",
           "title": "Higgsfield clip · INV064 · 5.042 s",
-          "group": "pending",
+          "group": "archived",
           "role": "clip",
           "approved": false,
           "date": "2026-09-15"
@@ -2901,7 +2901,7 @@
         }
       ],
       "_audioSrc": [],
-      "_fullVideo": "../garage-through-apu-review/full-working-cut/S09-CURRENT-V63.mp4",
+      "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S09/S09-COMPLETE-lipsync-with-dialogue.mp4",
       "_audioTracks": [
         {
           "src": "../environment-reference-pack/driveway-sequence/S09-CONVERSATION-REUSED-V34.wav",
