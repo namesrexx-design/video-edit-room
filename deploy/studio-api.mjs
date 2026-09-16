@@ -97,6 +97,35 @@ const RECIPES = {
   },
 };
 
+// ---- auto-sync (2026-09-16): the server watches GitHub so agents only ever need GitHub ----
+// Every minute: fetch main. New commits → pull + rebuild the page. If a cut or the storyboard source changed → render.
+// Team uploads (Codex etc.) made through the BizBox connector land in R2 under TEAM_PREFIX and are mirrored to
+// /data/media/team, which cuts can reference as folder "team".
+const TEAM_PREFIX = process.env.TEAM_MEDIA_PREFIX || '';   // e.g. tenants/lyfe-team-xxxx/
+const RENDER_TRIGGERS = [/^projects\/garage-dream\/cuts\/STORYBOARD-FINAL\.json$/];
+const REBUILD_TRIGGERS = [/^projects\/garage-dream\/(source|cuts|deliveries)\//, /^projects\/garage-dream\/(INVENTORY|AUDIO)-MANIFEST\.json$/, /^tools\//];
+const out = (args) => new Promise((ok) => { const p = spawn('git', args, { cwd: REPO }); let s = ''; p.stdout.on('data', (d) => { s += d; }); p.on('close', () => ok(s.trim())); });
+let syncing = false;
+async function autoSync() {
+  if (syncing || running || queue.length) return; syncing = true;
+  try {
+    if (TEAM_PREFIX) await new Promise((ok) => spawn('rclone', ['copy', `${BUCKET}/${TEAM_PREFIX}`, path.join(MEDIA, 'team'), '--exclude', '*.keep', '-q'], { stdio: 'ignore' }).on('close', ok));
+    await new Promise((ok) => spawn('git', ['fetch', '-q', 'origin', 'main'], { cwd: REPO, stdio: 'ignore' }).on('close', ok));
+    const head = await out(['rev-parse', 'HEAD']); const remote = await out(['rev-parse', 'origin/main']);
+    if (!remote || head === remote) return;
+    const changed = (await out(['diff', '--name-only', head, remote])).split('\n').filter(Boolean);
+    const behind = await out(['rev-list', '--count', `HEAD..origin/main`]);
+    if (behind === '0') return;   // only our own local commits are ahead; nothing new from others
+    const render = changed.some((f) => RENDER_TRIGGERS.some((re) => re.test(f)));
+    const rebuild = render || changed.some((f) => REBUILD_TRIGGERS.some((re) => re.test(f)));
+    const job = enqueue(render ? 'render' : rebuild ? 'pull' : 'fastforward', { auto: true, changed: changed.slice(0, 40) });
+    fs.appendFileSync(job.log, `auto-sync: ${behind} new commit(s) on main\n${changed.slice(0, 40).join('\n')}\n`);
+  } catch (e) { console.error('auto-sync', e.message); }
+  finally { syncing = false; }
+}
+RECIPES.fastforward = async (job) => { await pull(job); };
+setInterval(autoSync, 60 * 1000); setTimeout(autoSync, 15 * 1000);
+
 function enqueue(kind, input = {}) {
   const id = stamp() + '-' + kind + '-' + crypto.randomBytes(2).toString('hex');
   const job = { id, kind, input, state: 'queued', at: new Date().toISOString(), log: path.join(JOBS, id + '.log') };
