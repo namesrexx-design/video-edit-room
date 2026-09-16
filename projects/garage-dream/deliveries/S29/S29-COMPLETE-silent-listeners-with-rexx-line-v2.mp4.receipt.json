@@ -1,0 +1,46 @@
+{
+  "timeline": "timelines/S29-COMPLETE-silent-listeners-with-rexx-line-v2.otio",
+  "timelineSha256": "15FB841A58CA19D9FC622FF42D31A55D5DF8ED0C215BD853D1844BBA8D48D171",
+  "name": "S29-COMPLETE-silent-listeners-with-rexx-line-v2",
+  "output": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/S29/S29-COMPLETE-silent-listeners-with-rexx-line-v2.mp4",
+  "outputSha256": "957DDE2FAF67594850F5BBF6CA418F1EF3CBB64D03DB9CF713FE634E764FDAF2",
+  "bytes": 893593,
+  "frames": 46,
+  "seconds": 1.916667,
+  "renderedAt": "2026-09-16T19:31:41.030Z",
+  "renderedBy": "Astra",
+  "warnings": [],
+  "blackIntervals": [],
+  "outputProfile": {
+    "width": 1920,
+    "height": 1080,
+    "crf": 18
+  },
+  "pictureCopy": false,
+  "items": [
+    {
+      "i": 0,
+      "name": "Both mouths closed while Rexx explains",
+      "kind": "clip",
+      "file": "S29-RENDER-silent-reaction-924976ae.mp4",
+      "srcFrames": [
+        0,
+        46
+      ],
+      "frames": 46,
+      "audioOverride": {
+        "file": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/REVIEW/REVIEW-COMPLETE-owner-corrections-v4.mp4",
+        "startFrames": 2884,
+        "sha256": "280342DE43D872CD7D6799CA8611F8049C618C744E2AB209B78459C58DA64247"
+      }
+    }
+  ],
+  "media": [
+    {
+      "file": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/FINAL-PASS/S29-RENDER-silent-reaction-924976ae.mp4",
+      "sha256": "3D0D28AA11552EE287CE7E032477B1D29570C1E90847FFDD084F7785E1EA2F1F",
+      "frames": 73,
+      "size": "1916x1080@24/1"
+    }
+  ]
+}
