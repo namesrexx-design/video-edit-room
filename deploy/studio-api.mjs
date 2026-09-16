@@ -118,7 +118,8 @@ async function autoSync() {
     if (behind === '0') return;   // only our own local commits are ahead; nothing new from others
     const render = changed.some((f) => RENDER_TRIGGERS.some((re) => re.test(f)));
     const rebuild = render || changed.some((f) => REBUILD_TRIGGERS.some((re) => re.test(f)));
-    const job = enqueue(render ? 'render' : rebuild ? 'pull' : 'fastforward', { auto: true, changed: changed.slice(0, 40) });
+    const restart = changed.includes('deploy/studio-api.mjs');   // new server code: reload after this job (docker restarts us)
+    const job = enqueue(render ? 'render' : rebuild ? 'pull' : 'fastforward', { auto: true, restart, changed: changed.slice(0, 40) });
     fs.appendFileSync(job.log, `auto-sync: ${behind} new commit(s) on main\n${changed.slice(0, 40).join('\n')}\n`);
   } catch (e) { console.error('auto-sync', e.message); }
   finally { syncing = false; }
@@ -183,7 +184,9 @@ async function pump() {
   running = queue.shift(); running.state = 'running'; running.startedAt = new Date().toISOString();
   try { await RECIPES[running.kind](running); running.state = 'done'; }
   catch (e) { running.state = 'failed'; running.error = String(e.message || e); fs.appendFileSync(running.log, `\nFAILED: ${running.error}\n`); }
-  running.endedAt = new Date().toISOString(); running = null; pump();
+  running.endedAt = new Date().toISOString();
+  if (running.input?.restart && running.state === 'done') { fs.appendFileSync(running.log, '\nrestarting to load the new server code\n'); setTimeout(() => process.exit(0), 500); }
+  running = null; pump();
 }
 
 const view = j => ({ id: j.id, kind: j.kind, state: j.state, at: j.at, startedAt: j.startedAt, endedAt: j.endedAt, error: j.error, result: j.result });
