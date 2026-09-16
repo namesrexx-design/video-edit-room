@@ -69,7 +69,13 @@ if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.ur
   const raw=await gh(['api',`repos/${repo}/contents/${sourcePath}?ref=${commit}`,'-H','Accept: application/vnd.github.raw+json']);
   return {revision:commit,source:JSON.parse(raw)};
  };
- const {server,refresh}=createSyncServer({readSource});
+ // Root override (2026-09-15, PC): the folder the owner's storyboard is actually served from is the
+ // build output on this PC, not the checked-in cut-room copy (847 media files live only there).
+ //   node tools/serve-storyboard-sync.mjs --root <dir>     or     STORYBOARD_ROOT=<dir>
+ const rootArg=process.argv.indexOf('--root');
+ const root=rootArg>-1?path.resolve(process.argv[rootArg+1]):process.env.STORYBOARD_ROOT?path.resolve(process.env.STORYBOARD_ROOT):undefined;
+ const {server,refresh}=createSyncServer(root?{readSource,root}:{readSource});
+ if(root)console.log('Serving storyboard root: '+root);
  server.on('error',e=>{console.error(e.code==='EADDRINUSE'?'Port 4321 is occupied. Stop the existing Cut Room server, then start this one.':e.message);process.exitCode=1;});
  server.listen(Number(process.env.CUT_ROOM_PORT||4321),'127.0.0.1',()=>{console.log('Auto-sync storyboard: http://127.0.0.1:'+(process.env.CUT_ROOM_PORT||4321)+'/storyboard.html');refresh();});
 }
