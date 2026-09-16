@@ -8,6 +8,7 @@ set -a; . deploy/.env; set +a
 
 # repo: pull; set push credentials if a token is present
 if [ -n "${GITHUB_TOKEN:-}" ]; then git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/namesrexx-design/video-edit-room.git"; fi
+git checkout -- projects/garage-dream/STORYBOARD-BOARD.json cut-room/board.json 2>/dev/null || true
 git pull --ff-only
 
 cd deploy

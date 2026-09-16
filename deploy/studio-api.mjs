@@ -39,6 +39,9 @@ function sh(job, cmd, args, opts = {}) {
   });
 }
 const git = (job, ...a) => sh(job, 'git', a);
+// files the builders regenerate: never let them block a pull (the next build recreates them)
+const GENERATED = ['projects/garage-dream/STORYBOARD-BOARD.json', 'cut-room/board.json'];
+const pull = async (job) => { await git(job, 'checkout', '--', ...GENERATED).catch(() => {}); await pull(job); };
 async function commit(job, msg, paths) {
   await git(job, 'add', ...paths);
   const st = await new Promise(r => { const p = spawn('git', ['diff', '--cached', '--quiet'], { cwd: REPO }); p.on('close', c => r(c)); });
@@ -54,13 +57,13 @@ const publishBoard = async (job) => {
 };
 
 const RECIPES = {
-  async pull(job) { await git(job, 'pull', '-q', '--ff-only', 'origin', 'main'); await publishBoard(job); },
+  async pull(job) { await pull(job); await publishBoard(job); },
   async rebuild(job) { await publishBoard(job); },
   async apply(job) {
-    await git(job, 'pull', '-q', '--ff-only', 'origin', 'main');
+    await pull(job);
     await sh(job, 'node', ['tools/apply-board-state.mjs']);
     await publishBoard(job);
-    await commit(job, 'Storyboard: apply the owner\'s page choices (studio server)', ['projects/garage-dream/source/storyboard.json', 'cut-room/board.json']);
+    await commit(job, 'Storyboard: apply the owner\'s page choices (studio server)', ['projects/garage-dream/source/storyboard.json', ...GENERATED]);
   },
   async cut(job) {
     const { name, cut } = job.input; const safe = String(name || 'CUT').replace(/[^A-Za-z0-9._-]+/g, '-').slice(0, 60);
@@ -72,14 +75,14 @@ const RECIPES = {
   async render(job) {
     const cutRel = job.input.cut || 'projects/garage-dream/cuts/STORYBOARD-FINAL.json';
     const name = 'FILM-' + stamp();
-    await git(job, 'pull', '-q', '--ff-only', 'origin', 'main').catch(() => {});
+    await pull(job).catch(() => {});
     await sh(job, 'node', ['tools/render-cut.mjs', cutRel, name]);
     const out = path.join(REPO, 'projects/garage-dream/renders', name + '.mp4');
     const film = path.join(EDITOR, 'films', 'GARAGE-DREAM-' + name + '.mp4'); fs.copyFileSync(out, film);
     await sh(job, 'node', ['tools/slice-scenes.mjs', cutRel, film, path.join(EDITOR, 'scenes')]);
     await publishBoard(job);
     await sh(job, 'rclone', ['copy', path.join(EDITOR, 'films'), BUCKET + '/editor/films', '--stats-one-line']);
-    await commit(job, `Render ${name} (studio server): receipt + timeline`, ['projects/garage-dream/renders/RECEIPTS', 'projects/garage-dream/timelines', 'cut-room/board.json']);
+    await commit(job, `Render ${name} (studio server): receipt + timeline`, ['projects/garage-dream/renders/RECEIPTS', 'projects/garage-dream/timelines', ...GENERATED]);
     job.result = { film: '/editor/films/' + path.basename(film) };
   },
   async upload(job) {
@@ -89,7 +92,7 @@ const RECIPES = {
     await sh(job, 'node', ['tools/register-upload.mjs', scene, dest]);
     await publishBoard(job);
     await sh(job, 'rclone', ['copy', dir, `${BUCKET}/media/owner-uploads/${scene}/${day}`, '--stats-one-line']);
-    await commit(job, `Upload ${name} to ${scene} (studio server)`, ['projects/garage-dream/source/storyboard.json', 'projects/garage-dream/INVENTORY-MANIFEST.json', 'projects/garage-dream/AUDIO-MANIFEST.json', 'cut-room/board.json']);
+    await commit(job, `Upload ${name} to ${scene} (studio server)`, ['projects/garage-dream/source/storyboard.json', 'projects/garage-dream/INVENTORY-MANIFEST.json', 'projects/garage-dream/AUDIO-MANIFEST.json', ...GENERATED]);
     job.result = { file: dest };
   },
 };
