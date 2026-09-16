@@ -1,14 +1,14 @@
 {
  "format": 3,
  "film": {
-  "file": "GARAGE-DREAM-FILM-2026-09-16T17-34-32.mp4",
-  "name": "GARAGE DREAM FILM 2026 09 16T17 34 32",
+  "file": "GARAGE-DREAM-FILM-2026-09-16T21-05-12.mp4",
+  "name": "GARAGE DREAM FILM 2026 09 16T21 05 12",
   "urls": [
-   "/editor/films/GARAGE-DREAM-FILM-2026-09-16T17-34-32.mp4",
-   "GARAGE-DREAM-FILM-2026-09-16T17-34-32.mp4"
+   "/editor/films/GARAGE-DREAM-FILM-2026-09-16T21-05-12.mp4",
+   "GARAGE-DREAM-FILM-2026-09-16T21-05-12.mp4"
   ],
-  "bytes": 78288510,
-  "builtAt": "2026-09-16T17:37:07.717Z"
+  "bytes": 77188965,
+  "builtAt": "2026-09-16T21:07:36.361Z"
  },
  "library": {
   "clips": [
@@ -562,7 +562,7 @@
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T17:39:05.201Z",
+ "builtAt": "2026-09-16T21:09:28.065Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -3226,6 +3226,25 @@
       "rows": 4,
       "shape": "land"
      }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV066_s09-trial-bb357e3c-kling3-0-pro-5s-lipsync-e08a6b5.mp4",
+     "videoUrl": null,
+     "group": "pending",
+     "approved": false,
+     "id": "INV066",
+     "title": "Higgsfield clip · INV066 · 5.625 s",
+     "role": "clip",
+     "status": "S09 TRIAL bb357e3c kling3_0 pro 5s_LIPSYNC e08a6b5a_COMPLETE with full stem_v2 full reply (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S09.jpg",
+      "col": 7,
+      "row": 3,
+      "cols": 8,
+      "rows": 4,
+      "shape": "land"
+     }
     }
    ],
    "audio": [
@@ -3545,6 +3564,15 @@
      "role": "clip",
      "approved": false,
      "date": "2026-09-15"
+    },
+    {
+     "src": "/data/editor/thumbs/INV066.jpg",
+     "id": "INV066",
+     "title": "Higgsfield clip · INV066 · 5.625 s",
+     "group": "pending",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
     }
    ],
    "_audioSrc": [
@@ -9170,6 +9198,63 @@
       "rows": 2,
       "shape": "land"
      }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV067_s24-trial-4a92122b-kling3-0-pro-5s-owner-take-b.mp4",
+     "videoUrl": null,
+     "group": "approved",
+     "approved": false,
+     "id": "INV067",
+     "title": "Higgsfield clip · INV067 · 5.042 s",
+     "role": "clip",
+     "status": "S24 TRIAL 4a92122b kling3_0 pro 5s_OWNER TAKE B (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S24.jpg",
+      "col": 5,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV068_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a.mp4",
+     "videoUrl": null,
+     "group": "approved",
+     "approved": false,
+     "id": "INV068",
+     "title": "Higgsfield clip · INV068 · 5.042 s",
+     "role": "clip",
+     "status": "S24 TRIAL 8da02e26 kling3_0 pro 5s_OWNER TAKE A (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S24.jpg",
+      "col": 6,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
+    },
+    {
+     "date": "2026-09-16",
+     "file": "INV069_s24-trial-8da02e26-kling3-0-pro-5s-owner-take-a-co.mp4",
+     "videoUrl": null,
+     "group": "approved",
+     "approved": false,
+     "id": "INV069",
+     "title": "Higgsfield clip · INV069 · 6.75 s",
+     "role": "clip",
+     "status": "S24 TRIAL 8da02e26 kling3_0 pro 5s_OWNER TAKE A_COMPLETE with approved line (new render, owner review)",
+     "img": {
+      "sheet": "sheets/scene-S24.jpg",
+      "col": 7,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "land"
+     }
     }
    ],
    "audio": [
@@ -9325,6 +9410,33 @@
      "role": "end",
      "approved": false,
      "date": "2026-09-14"
+    },
+    {
+     "src": "/data/editor/thumbs/INV067.jpg",
+     "id": "INV067",
+     "title": "Higgsfield clip · INV067 · 5.042 s",
+     "group": "approved",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
+    },
+    {
+     "src": "/data/editor/thumbs/INV068.jpg",
+     "id": "INV068",
+     "title": "Higgsfield clip · INV068 · 5.042 s",
+     "group": "approved",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
+    },
+    {
+     "src": "/data/editor/thumbs/INV069.jpg",
+     "id": "INV069",
+     "title": "Higgsfield clip · INV069 · 6.75 s",
+     "group": "approved",
+     "role": "clip",
+     "approved": false,
+     "date": "2026-09-16"
     }
    ],
    "_audioSrc": [
@@ -10553,25 +10665,6 @@
       "rows": 2,
       "shape": "land"
      }
-    },
-    {
-     "date": "2026-09-15",
-     "file": "INV050_s29-blood-lipsync-0e15b23b-raw.mp4",
-     "videoUrl": "../projects/garage-dream/deliveries/CLIPS/INV050.mp4",
-     "group": "approved",
-     "approved": false,
-     "id": "INV050",
-     "title": "Lip-sync clip · INV050 · 1 s",
-     "role": "clip",
-     "status": "S29 BLOOD LIPSYNC 0E15B23B RAW",
-     "img": {
-      "sheet": "sheets/scene-S29.jpg",
-      "col": 2,
-      "row": 1,
-      "cols": 8,
-      "rows": 2,
-      "shape": "land"
-     }
     }
    ],
    "audio": [
@@ -10690,15 +10783,6 @@
      "src": "/data/editor/thumbs/INV044.jpg",
      "id": "INV044",
      "title": "Lip-sync clip · INV044 · 2.333 s",
-     "group": "approved",
-     "role": "clip",
-     "approved": false,
-     "date": "2026-09-15"
-    },
-    {
-     "src": "/data/editor/thumbs/INV050.jpg",
-     "id": "INV050",
-     "title": "Lip-sync clip · INV050 · 1 s",
      "group": "approved",
      "role": "clip",
      "approved": false,
@@ -11073,8 +11157,8 @@
    "noApproved": false,
    "current": [
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-15",
+     "file": "REXX-REAR-LOOK-RIGHT-NATIVE-V2.png",
      "id": "REXX-REAR-LOOK-RIGHT-V2-20260915",
      "title": "Rexx · full body · looking right",
      "role": "full body rear-only character reference",
@@ -11083,11 +11167,18 @@
      "status": "Owner-selected gallery reference — reviewed appearance",
      "group": "Rexx · current seven rear views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 0,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-15",
+     "file": "REXX-REAR-LOOK-LEFT-NATIVE-V2.png",
      "id": "REXX-REAR-LOOK-LEFT-V2-20260915",
      "title": "Rexx · full body · looking left",
      "role": "full body rear-only character reference",
@@ -11096,11 +11187,18 @@
      "status": "Owner-selected gallery reference — reviewed appearance",
      "group": "Rexx · current seven rear views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 1,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-15",
+     "file": "REXX-REAR-STRAIGHT-NATIVE-V2.png",
      "id": "REXX-REAR-STRAIGHT-V2-20260915",
      "title": "Rexx · full body · looking straight",
      "role": "full body rear-only character reference",
@@ -11109,11 +11207,18 @@
      "status": "Owner-selected gallery reference — reviewed appearance",
      "group": "Rexx · current seven rear views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 2,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-15",
+     "file": "REXX-OVER-RIGHT-SHOULDER-BEARD-NATIVE-V2.png",
      "id": "REXX-OVER-RIGHT-SHOULDER-BEARD-V2-20260915",
      "title": "Rexx · medium shoulder · looking right",
      "role": "medium shoulder rear-only character reference",
@@ -11122,11 +11227,18 @@
      "status": "Owner-selected gallery reference — reviewed appearance",
      "group": "Rexx · current seven rear views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 3,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-15",
+     "file": "REXX-OVER-LEFT-SHOULDER-BEARD-NATIVE-V2.png",
      "id": "REXX-OVER-LEFT-SHOULDER-BEARD-V2-20260915",
      "title": "Rexx · medium shoulder · looking left",
      "role": "medium shoulder rear-only character reference",
@@ -11135,11 +11247,18 @@
      "status": "Owner-selected gallery reference — reviewed appearance",
      "group": "Rexx · current seven rear views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 4,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-15",
+     "file": "REXX-TIGHT-RIGHT-SHOULDER-NATIVE-V1.png",
      "id": "REXX-TIGHT-RIGHT-SHOULDER-V1-20260915",
      "title": "Rexx · tight shoulder · looking right",
      "role": "tight shoulder rear-only character reference",
@@ -11148,11 +11267,18 @@
      "status": "Owner-selected gallery reference — reviewed appearance",
      "group": "Rexx · current seven rear views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 5,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-15",
+     "file": "REXX-TIGHT-LEFT-SHOULDER-NATIVE-V1.png",
      "id": "REXX-TIGHT-LEFT-SHOULDER-V1-20260915",
      "title": "Rexx · tight shoulder · looking left",
      "role": "tight shoulder rear-only character reference",
@@ -11161,13 +11287,20 @@
      "status": "Owner-selected gallery reference — tight-left visual approval pending; not a render input",
      "group": "Rexx · current seven rear views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 6,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     }
    ],
    "archive": [
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-FULL-BODY-REAR-TAN-V2.png",
      "id": "REXX-FULL-BODY-TAN-02",
      "title": "Rexx · APPROVED full-body rear reference",
      "role": "Canonical full-body proportions and rear presentation",
@@ -11176,11 +11309,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Full-body character photos",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 7,
+      "row": 0,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-FULL-BODY-V1.png",
      "id": "REXX-FULL-BODY-01",
      "title": "Rexx · full-body reference",
      "role": "Full-length character / outfit reference",
@@ -11189,11 +11329,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Full-body character photos",
      "view": "full body",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 0,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-REAR-HEAD-TAN-NARROW-V8.png",
      "id": "REXX-REAR-HEAD-TAN-08",
      "title": "Rexx · tan / narrower neck / rear angles",
      "role": "Final requested rear-head correction",
@@ -11202,11 +11349,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 1,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-REAR-HEAD-TAN-V7.png",
      "id": "REXX-REAR-HEAD-TAN-07",
      "title": "Rexx · rear angles / darker tan",
      "role": "Rear-only head reference with requested skin tone",
@@ -11215,11 +11369,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 2,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-REAR-HEAD-NECK-V6.png",
      "id": "REXX-REAR-HEAD-NECK-06",
      "title": "Rexx · rear angles / narrower head and neck",
      "role": "Rear-only head reference; matched to rear-scene proportions",
@@ -11228,11 +11389,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 3,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-REAR-LEFT-RIGHT-V5.png",
      "id": "REXX-REAR-ANGLES-05",
      "title": "Rexx · back / slight rear-left / slight rear-right",
      "role": "Rear-only head references",
@@ -11241,11 +11409,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 4,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-HEAD-LEFT-RIGHT-V4.png",
      "id": "REXX-HEAD-SIDES-04",
      "title": "Rexx · left and right with glasses",
      "role": "Two opposite side head references",
@@ -11254,11 +11429,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "left side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 5,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-HEAD-GLASSES-V3.png",
      "id": "REXX-HEAD-GLASSES-03",
      "title": "Rexx · approved likeness with glasses",
      "role": "Canonical likeness; requested glasses addition",
@@ -11267,11 +11449,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 6,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-HEAD-THREE-ANGLES-CANDIDATE-V2.png",
      "id": "REXX-HEAD-CANDIDATE-02",
      "title": "Rexx · rear / over-shoulder head sheet",
      "role": "Proposed canonical rear head identity",
@@ -11280,7 +11469,14 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Rexx.jpg",
+      "col": 7,
+      "row": 1,
+      "cols": 8,
+      "rows": 2,
+      "shape": "port"
+     }
     }
    ]
   },
@@ -11297,8 +11493,8 @@
    "noApproved": false,
    "current": [
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "HOMER-DREAM-BLACK-SUIT-V1.png",
      "id": "HOMER-DREAM-BLACK-SUIT-01",
      "title": "Homer — APPROVED dream look",
      "role": "Dream-only full-body costume; same canonical face, build and curled hair",
@@ -11307,24 +11503,18 @@
      "status": "APPROVED — owner said perfect",
      "group": "Full-body character photos",
      "view": "full body",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 1,
+      "row": 0,
+      "cols": 8,
+      "rows": 3,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
-     "id": "HOMER-DREAM-BLACK-SUIT-01",
-     "title": "Homer — APPROVED dream look",
-     "role": "Dream-only full-body costume; same canonical face, build and curled hair",
-     "notes": "All-black suit, black open-collar shirt, gold rings, left-wrist gold watch, gold-framed lightly tinted glasses. Preserve approved hair loops and face. Regular garage costume remains unchanged.",
-     "approved": true,
-     "status": "APPROVED — owner said perfect",
-     "group": "Outfits · shirt, pants and fit",
-     "view": "full body",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "HOMER-HEAD-APPROVED-V1.png",
      "id": "HOMER-HEAD-LOCK-01",
      "title": "APPROVED Homer · face and curled hair",
      "role": "Homer identity / hair / front-side-back head angles",
@@ -11333,26 +11523,20 @@
      "status": "APPROVED — canonical head reference",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "behind",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "HOMER-DREAM-BLACK-SUIT-01",
-     "title": "Homer — APPROVED dream look",
-     "role": "Dream-only full-body costume; same canonical face, build and curled hair",
-     "notes": "All-black suit, black open-collar shirt, gold rings, left-wrist gold watch, gold-framed lightly tinted glasses. Preserve approved hair loops and face. Regular garage costume remains unchanged.",
-     "approved": true,
-     "status": "APPROVED — owner said perfect",
-     "group": "Dream look",
-     "view": "dream look",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 2,
+      "row": 0,
+      "cols": 8,
+      "rows": 3,
+      "shape": "port"
+     }
     }
    ],
    "archive": [
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "HOMER-FULL-BODY-V1.png",
      "id": "HOMER-FULL-BODY-01",
      "title": "Homer · full-body reference",
      "role": "Full-length character / outfit reference",
@@ -11361,11 +11545,18 @@
      "status": "Generated — owner review pending",
      "group": "Full-body character photos",
      "view": "full body",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 0,
+      "row": 0,
+      "cols": 8,
+      "rows": 3,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "HOMER-HAIR-THREE-ANGLES-PROPOSED.png",
      "id": "PACK-HOMER-HAIR-THREE-ANGLES-PROPOSED",
      "title": "Homer · HOMER HAIR THREE ANGLES PROPOSED",
      "role": "unfiled pack image (candidate)",
@@ -11373,7 +11564,14 @@
      "approved": false,
      "status": "In the continuity pack, never filed — review and approve or remove",
      "view": "head",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Homer.jpg",
+      "col": 3,
+      "row": 0,
+      "cols": 8,
+      "rows": 3,
+      "shape": "port"
+     }
     },
     {
      "date": null,
@@ -11567,10 +11765,10 @@
      "view": "head",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 0,
+      "col": 4,
       "row": 0,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11586,10 +11784,10 @@
      "view": "head",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 1,
+      "col": 5,
       "row": 0,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11605,10 +11803,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 2,
+      "col": 6,
       "row": 0,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11624,10 +11822,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 3,
+      "col": 7,
       "row": 0,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11643,10 +11841,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 4,
-      "row": 0,
+      "col": 0,
+      "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11662,10 +11860,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 5,
-      "row": 0,
+      "col": 1,
+      "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11681,10 +11879,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 6,
-      "row": 0,
+      "col": 2,
+      "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11700,10 +11898,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 7,
-      "row": 0,
+      "col": 3,
+      "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11719,10 +11917,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 0,
+      "col": 4,
       "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11738,10 +11936,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 1,
+      "col": 5,
       "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11757,10 +11955,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 2,
+      "col": 6,
       "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11776,10 +11974,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 3,
+      "col": 7,
       "row": 1,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     },
@@ -11795,10 +11993,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Homer.jpg",
-      "col": 4,
-      "row": 1,
+      "col": 0,
+      "row": 2,
       "cols": 8,
-      "rows": 2,
+      "rows": 3,
       "shape": "port"
      }
     }
@@ -11815,8 +12013,8 @@
    "noApproved": true,
    "current": [
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "APU-FULL-BODY-V1.png",
      "id": "APU-FULL-BODY-01",
      "title": "Apu · full-body reference",
      "role": "Full-length character / outfit reference",
@@ -11825,11 +12023,18 @@
      "status": "Generated — owner review pending",
      "group": "pending",
      "view": "full body",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Apu.jpg",
+      "col": 0,
+      "row": 0,
+      "cols": 2,
+      "rows": 1,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "APU-HEAD-THREE-ANGLES-CANDIDATE-V1.png",
      "id": "APU-HEAD-CANDIDATE-01",
      "title": "New Apu · three-angle head render",
      "role": "Proposed consistent head identity",
@@ -11838,176 +12043,11 @@
      "status": "Generated — owner review pending",
      "group": "pending",
      "view": "head",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-APU-FIREBIRD-ARRIVAL-V1",
-     "title": "Apu · APU FIREBIRD ARRIVAL V1",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-APU-FIREBIRD-ARRIVAL-V2",
-     "title": "Apu · APU FIREBIRD ARRIVAL V2",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-APU-FIREBIRD-ARRIVAL-V3",
-     "title": "Apu · APU FIREBIRD ARRIVAL V3",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-APU-FIREBIRD-ARRIVAL-V4",
-     "title": "Apu · APU FIREBIRD ARRIVAL V4",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": "2026-09-13",
-     "file": "APU-FIREBIRD-ARRIVAL-V4-ATTACH.jpg",
-     "id": "PACK-APU-FIREBIRD-ARRIVAL-V4-ATTACH",
-     "title": "Apu · APU FIREBIRD ARRIVAL V4 ATTACH",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Apu.jpg",
-      "col": 0,
-      "row": 0,
-      "cols": 6,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-14",
-     "file": "APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE.png",
-     "id": "PACK-APU-FIREBIRD-ARRIVAL-V4-LOSSLESS-REENCODE",
-     "title": "Apu · APU FIREBIRD ARRIVAL V4 LOSSLESS REENCODE",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
      "img": {
       "sheet": "sheets/char-Apu.jpg",
       "col": 1,
       "row": 0,
-      "cols": 6,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-14",
-     "file": "apu-sync-0.7.png",
-     "id": "PACK-APU-SYNC-0-7",
-     "title": "apu · apu sync 0.7",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Apu.jpg",
-      "col": 2,
-      "row": 0,
-      "cols": 6,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-14",
-     "file": "apu-sync-10.1.png",
-     "id": "PACK-APU-SYNC-10-1",
-     "title": "apu · apu sync 10.1",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Apu.jpg",
-      "col": 3,
-      "row": 0,
-      "cols": 6,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-14",
-     "file": "apu-sync-5.8.png",
-     "id": "PACK-APU-SYNC-5-8",
-     "title": "apu · apu sync 5.8",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Apu.jpg",
-      "col": 4,
-      "row": 0,
-      "cols": 6,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-14",
-     "file": "APU-81-100.jpg",
-     "id": "PACK-APU-81-100",
-     "title": "Apu · APU 81 100",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Apu.jpg",
-      "col": 5,
-      "row": 0,
-      "cols": 6,
+      "cols": 2,
       "rows": 1,
       "shape": "port"
      }
@@ -12026,8 +12066,8 @@
    "noApproved": true,
    "current": [
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "BART-FULL-BODY-V2.png",
      "id": "BART-FULL-BODY-01",
      "title": "Bart · full-body reference",
      "role": "Full-length character / outfit reference",
@@ -12036,11 +12076,18 @@
      "status": "Generated — owner review pending",
      "group": "pending",
      "view": "full body",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Bart.jpg",
+      "col": 0,
+      "row": 0,
+      "cols": 2,
+      "rows": 1,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "BART-HEAD-THREE-ANGLES-CANDIDATE-V1.png",
      "id": "BART-HEAD-CANDIDATE-01",
      "title": "Bart · head and hair in three angles",
      "role": "Proposed canonical head identity",
@@ -12049,222 +12096,11 @@
      "status": "Generated — owner review pending",
      "group": "pending",
      "view": "head",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-BART-EXIT-EMPTY-END-V1",
-     "title": "Bart · BART EXIT EMPTY END V1",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-BART-EXIT-EMPTY-END-V1",
-     "title": "Bart · BART EXIT EMPTY END V1",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-BART-RIGHT-REVEAL-REVIEW",
-     "title": "Bart · BART RIGHT REVEAL REVIEW",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "right side",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-BART-07-GARAGE-RETURN-V1-8K-UPSCALED",
-     "title": "Bart · BART 07 GARAGE RETURN V1 8K UPSCALED",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-BART-07-GARAGE-RETURN-V1",
-     "title": "Bart · BART 07 GARAGE RETURN V1",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": null,
-     "file": null,
-     "id": "PACK-BART-APPROVED-VIDEO-REFERENCE",
-     "title": "Bart · BART APPROVED VIDEO REFERENCE",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": null
-    },
-    {
-     "date": "2026-09-11",
-     "file": "BART-FRESH-MARK-START-V3.png",
-     "id": "PACK-BART-FRESH-MARK-START-V3",
-     "title": "Bart · BART FRESH MARK START V3",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Bart.jpg",
-      "col": 0,
-      "row": 0,
-      "cols": 7,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-11",
-     "file": "BART-PHONE-FREE-FIRST-FRAME.png",
-     "id": "PACK-BART-PHONE-FREE-FIRST-FRAME",
-     "title": "Bart · BART PHONE FREE FIRST FRAME",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
      "img": {
       "sheet": "sheets/char-Bart.jpg",
       "col": 1,
       "row": 0,
-      "cols": 7,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-11",
-     "file": "BART-SHARP-START-COMPOSITE-V2.png",
-     "id": "PACK-BART-SHARP-START-COMPOSITE-V2",
-     "title": "Bart · BART SHARP START COMPOSITE V2",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Bart.jpg",
-      "col": 2,
-      "row": 0,
-      "cols": 7,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-11",
-     "file": "BART-SHARP-START-TREADMILL-COMPOSITE-V1.png",
-     "id": "PACK-BART-SHARP-START-TREADMILL-COMPOSITE-V1",
-     "title": "Bart · BART SHARP START TREADMILL COMPOSITE V1",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Bart.jpg",
-      "col": 3,
-      "row": 0,
-      "cols": 7,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-11",
-     "file": "bart-target.png",
-     "id": "PACK-BART-TARGET",
-     "title": "bart · bart target",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Bart.jpg",
-      "col": 4,
-      "row": 0,
-      "cols": 7,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-14",
-     "file": "BART-AUDIO-SPECTRUM.jpg",
-     "id": "PACK-BART-AUDIO-SPECTRUM",
-     "title": "Bart · BART AUDIO SPECTRUM",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Bart.jpg",
-      "col": 5,
-      "row": 0,
-      "cols": 7,
-      "rows": 1,
-      "shape": "port"
-     }
-    },
-    {
-     "date": "2026-09-14",
-     "file": "BART-75-79.jpg",
-     "id": "PACK-BART-75-79",
-     "title": "Bart · BART 75 79",
-     "role": "unfiled image (candidate)",
-     "notes": "",
-     "approved": false,
-     "status": "Found on the drive, never filed — approve or remove",
-     "group": "pending",
-     "view": "reference",
-     "img": {
-      "sheet": "sheets/char-Bart.jpg",
-      "col": 6,
-      "row": 0,
-      "cols": 7,
+      "cols": 2,
       "rows": 1,
       "shape": "port"
      }
@@ -12289,16 +12125,16 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 0,
-      "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "col": 6,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
       "shape": "port"
      }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-11",
+     "file": "S24-REAR-APPROACH-V1.png",
      "id": "APU-S24-ARRIVAL-REAR-APPROACH",
      "title": "front three-quarter identity seen between Rexx and Homer",
      "role": "approved arrival/walking-up-to-car continuity; Apu identity in scene context",
@@ -12307,11 +12143,18 @@
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Apu · approved arrival identity",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 7,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-11",
+     "file": "S24-END-CONTINUITY.png",
      "id": "APU-S24-END-CONTINUITY",
      "title": "front three-quarter at driver window",
      "role": "approved arrival endpoint; Apu identity and car-window composition",
@@ -12320,11 +12163,18 @@
      "status": "Supporting original source only — excluded from finished render gallery",
      "group": "Apu · approved arrival identity",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 0,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-MASTER-V4-CONTINUITY.png",
      "id": "GARAGE-MASTER-V4-CONTINUITY",
      "title": "Garage master — inventory and TV continuity",
      "role": "Environment master",
@@ -12333,13 +12183,20 @@
      "status": "Owner-approved garage master",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 2,
+      "row": 4,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     }
    ],
    "archive": [
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-HOMER-REAR-SCENE-CANDIDATE-V1.png",
      "id": "REXX-HOMER-REAR-CANDIDATE-01",
      "title": "New Rexx / Homer rear scene",
      "role": "Selected physique / scene-specific rear reference",
@@ -12348,11 +12205,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx body · rear and side views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 0,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-BALCONY-FRONT-SOURCE.png",
      "id": "REXX-BODY-FRONT",
      "title": "Front three-quarter",
      "role": "Rexx build / natural shirt drape",
@@ -12361,11 +12225,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx body · rear and side views",
      "view": "outfit",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 1,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-BALCONY-RIGHT-SOURCE.png",
      "id": "REXX-BODY-RIGHT",
      "title": "Right-facing side",
      "role": "Rexx build / natural shirt drape",
@@ -12374,11 +12245,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx body · rear and side views",
      "view": "right side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 2,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-BALCONY-BACK-SOURCE.png",
      "id": "REXX-BODY-BACK",
      "title": "Back three-quarter",
      "role": "Rexx build / natural shirt drape",
@@ -12387,11 +12265,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx body · rear and side views",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 3,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-BALCONY-LEFT-SOURCE.png",
      "id": "REXX-BODY-LEFT",
      "title": "Left-facing side",
      "role": "Rexx build / natural shirt drape",
@@ -12400,11 +12285,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx body · rear and side views",
      "view": "left side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 4,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "S24-FROHAWK-DARK-BEARD-V10.png",
      "id": "REXX-PHYSIQUE-S24",
      "title": "S24 physique reference",
      "role": "Scene-specific build / loose fit",
@@ -12413,11 +12305,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx body · rear and side views",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 5,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-XL-SHIRT-FIT-SHEET-PROPOSED.png",
      "id": "REXX-SHIRT-01",
      "title": "Oversized XL shirt · front / side / back",
      "role": "Garment fit only",
@@ -12426,11 +12325,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Outfits · shirt, pants and fit",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 6,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-CORDUROY-DICKIES-NO-LOGO-V2.png",
      "id": "REXX-PANTS-HAT-01",
      "title": "Unbranded Dickies / corduroy snapback",
      "role": "Fabric / cuff / cap detail",
@@ -12439,11 +12345,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Outfits · shirt, pants and fit",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 7,
+      "row": 0,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-STAIRS-SOURCE.png",
      "id": "REXX-STAIRS-REFERENCE",
      "title": "Rexx · stairs reference",
      "role": "Existing opening scene / build and outfit reference",
@@ -12452,11 +12365,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx · stairs and coffee references",
      "view": "outfit",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 0,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-FACE-2405-SOURCE.png",
      "id": "REXX-FACE-2405",
      "title": "Profile and head shape",
      "role": "Face / beard / head reference",
@@ -12465,11 +12385,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx · stairs and coffee references",
      "view": "head",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 1,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-FACE-2409-SOURCE.png",
      "id": "REXX-FACE-2409",
      "title": "Three-quarter face",
      "role": "Face / beard / head reference",
@@ -12478,11 +12405,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx · stairs and coffee references",
      "view": "head",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 2,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-FACE-2410-SOURCE.png",
      "id": "REXX-FACE-2410",
      "title": "Near-front face",
      "role": "Face / beard / head reference",
@@ -12491,11 +12425,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx · stairs and coffee references",
      "view": "head",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 3,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-11",
+     "file": "COFFEE-CLEANUP-V5.png",
      "id": "REXX-COFFEE-FRONT-EXCEPTION",
      "title": "Approved coffee front-view exception",
      "role": "Coffee scene only",
@@ -12504,11 +12445,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Rexx · stairs and coffee references",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 4,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REF-01-S09-THREE-QUARTER-36.300.png",
      "id": "HOMER-HAIR-BASE",
      "title": "Homer · first garage meeting",
      "role": "Homer hair authority",
@@ -12517,11 +12465,18 @@
      "status": "Historical source — replaced by approved angle sheet",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 5,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "REXX-FACE-2405-SOURCE.png",
      "id": "REXX-HAIR-BASE",
      "title": "Rexx · visible fade reference",
      "role": "Visible side/head proportions",
@@ -12530,11 +12485,18 @@
      "status": "Superseded gallery reference — archived",
      "group": "Hair · Rexx frohawk and Homer curls",
      "view": "head",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 1,
+      "row": 1,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "BART-BODY-THREE-ANGLES-CANDIDATE-V1.png",
      "id": "BART-BODY-CANDIDATE-01",
      "title": "New Bart · three body angles",
      "role": "Proposed body / wardrobe / skateboard reference",
@@ -12543,11 +12505,18 @@
      "status": "Superseded by full-body V2 with corrected handle grip",
      "group": "Bart · garage and skateboard continuity",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 1,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-11",
+     "file": "VINTAGE-MART-STOREFRONT-V1.png",
      "id": "VINTAGE-MART-EXTERIOR-01",
      "title": "Vintage Mart · existing exterior",
      "role": "Future episode storefront / building layout",
@@ -12556,11 +12525,18 @@
      "status": "Existing building reference; window inventory needs women’s-only update",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 2,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-SET-MASTER-V2.png",
      "id": "SET-GARAGE-SET-MASTER-V2",
      "title": "GARAGE SET MASTER V2",
      "role": "Set / prop reference",
@@ -12569,11 +12545,18 @@
      "status": "Superseded master; V3 candidate under review",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 3,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-SET-DETAIL-LEFT-V2.png",
      "id": "SET-GARAGE-SET-DETAIL-LEFT-V2",
      "title": "GARAGE SET DETAIL LEFT V2",
      "role": "Set / prop reference",
@@ -12582,11 +12565,18 @@
      "status": "Superseded by fuller-floor V4 detail",
      "group": "Sets and locations · garage",
      "view": "left side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 4,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-SET-DETAIL-REAR-RIGHT-V2.png",
      "id": "SET-GARAGE-SET-DETAIL-REAR-RIGHT-V2",
      "title": "GARAGE SET DETAIL REAR RIGHT V2",
      "role": "Set / prop reference",
@@ -12595,11 +12585,18 @@
      "status": "Superseded by fuller-floor V4 detail",
      "group": "Sets and locations · garage",
      "view": "behind",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 5,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-MART-INTERIOR-WOMENS-RESALE-V1.png",
      "id": "SET-VINTAGE-MART-INTERIOR-WOMENS-RESALE-V1",
      "title": "VINTAGE MART INTERIOR WOMENS RESALE V1",
      "role": "Set / prop reference",
@@ -12608,11 +12605,18 @@
      "status": "Superseded by corrected V2",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 6,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-MART-MERCH-APU-BUNNY-LOVE-V2.png",
      "id": "SET-VINTAGE-MART-MERCH-APU-BUNNY-LOVE-V2",
      "title": "VINTAGE MART MERCH APU BUNNY LOVE V2",
      "role": "Set / prop reference",
@@ -12621,11 +12625,18 @@
      "status": "Superseded by heart-symbol V3",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 7,
+      "row": 2,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-MART-STOREFRONT-WOMENS-WINDOWS-V1.png",
      "id": "SET-VINTAGE-MART-STOREFRONT-WOMENS-WINDOWS-V1",
      "title": "VINTAGE MART STOREFRONT WOMENS WINDOWS V1",
      "role": "Set / prop reference",
@@ -12634,11 +12645,18 @@
      "status": "Generated candidate — review pending",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 0,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-MART-INTERIOR-WOMENS-RESALE-V2.png",
      "id": "SET-VINTAGE-MART-INTERIOR-WOMENS-RESALE-V2",
      "title": "VINTAGE MART INTERIOR WOMENS RESALE V2",
      "role": "Set / prop reference",
@@ -12647,11 +12665,18 @@
      "status": "Superseded by V4 shop angles",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 1,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-SET-MASTER-V3.png",
      "id": "SET-GARAGE-SET-MASTER-V3",
      "title": "GARAGE SET MASTER V3",
      "role": "Set / prop reference",
@@ -12660,11 +12685,18 @@
      "status": "Generated candidate — review pending",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 2,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-MART-INTERIOR-FRONT-REVERSE-V3.png",
      "id": "SET-VINTAGE-MART-INTERIOR-FRONT-REVERSE-V3",
      "title": "Vintage Mart · interior facing centered entrance",
      "role": "Entrance/window/display continuity proof",
@@ -12673,11 +12705,18 @@
      "status": "Generated continuity candidate — owner review pending",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 3,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-MART-MERCH-APU-BUNNY-HEART-V3.png",
      "id": "SET-VINTAGE-MART-MERCH-APU-BUNNY-HEART-V3",
      "title": "Apu merchandise — heart-symbol artwork",
      "role": "Logo / recurring merchandise artwork",
@@ -12686,11 +12725,18 @@
      "status": "Heart-symbol revision generated; visual review pending",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 4,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-DETAIL-LEFT-V4.png",
      "id": "SET-GARAGE-DETAIL-LEFT-V4",
      "title": "Garage · left side with floor boxes",
      "role": "Environment angle reference",
@@ -12699,11 +12745,18 @@
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
      "view": "left side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 5,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-DETAIL-RIGHT-V4.png",
      "id": "SET-GARAGE-DETAIL-RIGHT-V4",
      "title": "Garage · right side with floor boxes",
      "role": "Environment angle reference",
@@ -12712,11 +12765,18 @@
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
      "view": "right side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 6,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-LEFT-V4.png",
      "id": "SET-VINTAGE-LEFT-V4",
      "title": "Vintage Mart · customer left side",
      "role": "Environment angle reference",
@@ -12725,11 +12785,18 @@
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
      "view": "left side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 7,
+      "row": 3,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-RIGHT-V4.png",
      "id": "SET-VINTAGE-RIGHT-V4",
      "title": "Vintage Mart · customer right side",
      "role": "Environment angle reference",
@@ -12738,11 +12805,18 @@
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
      "view": "right side",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 0,
+      "row": 4,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "VINTAGE-COUNTER-V4.png",
      "id": "SET-VINTAGE-COUNTER-V4",
      "title": "Vintage Mart · checkout counter",
      "role": "Environment angle reference",
@@ -12751,11 +12825,18 @@
      "status": "Generated updated angle · review pending",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 1,
+      "row": 4,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
-     "date": null,
-     "file": null,
+     "date": "2026-09-12",
+     "file": "GARAGE-MASTER-V5-SMITTY-BLOND.png",
      "id": "GARAGE-MASTER-V5-SMITTY-BLOND",
      "title": "Garage master — young blond Smitty TV correction",
      "role": "Environment master correction",
@@ -12764,7 +12845,14 @@
      "status": "Approved set composition; TV detail updated for review",
      "group": "Sets and locations · garage",
      "view": "reference",
-     "img": null
+     "img": {
+      "sheet": "sheets/char-Other.jpg",
+      "col": 3,
+      "row": 4,
+      "cols": 8,
+      "rows": 5,
+      "shape": "port"
+     }
     },
     {
      "date": "2026-09-10",
@@ -12779,10 +12867,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 1,
-      "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "col": 4,
+      "row": 4,
+      "cols": 8,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -12799,10 +12887,10 @@
      "view": "behind",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 2,
-      "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "col": 5,
+      "row": 4,
+      "cols": 8,
+      "rows": 5,
       "shape": "port"
      }
     },
@@ -12819,10 +12907,10 @@
      "view": "reference",
      "img": {
       "sheet": "sheets/char-Other.jpg",
-      "col": 3,
-      "row": 0,
-      "cols": 4,
-      "rows": 1,
+      "col": 6,
+      "row": 4,
+      "cols": 8,
+      "rows": 5,
       "shape": "port"
      }
     }
@@ -14362,26 +14450,42 @@
  "props": {
   "current": [
    {
-    "date": null,
-    "file": null,
+    "date": "2026-09-16",
+    "file": "WOODEN-WIDE-FORK-REFERENCE-02-CUTOUT.png",
+    "orig": "WOODEN-WIDE-FORK-REFERENCE-02.jpg",
     "id": "Slingshot (Bart)",
     "title": "Slingshot (Bart)",
     "role": "Old-school rounded wooden Y branch with wide fork, tan bands and leather pouch",
     "status": "APPROVED — wide old-school wooden slingshot",
     "approved": true,
-    "img": null
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 0,
+     "row": 0,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
    }
   ],
   "archive": [
    {
-    "date": null,
-    "file": null,
+    "date": "2026-09-12",
+    "file": "PRODUCTION-2021-OFFICIAL-HERO.jpg",
+    "orig": "PRODUCTION-2021-OFFICIAL-HERO.jpg",
     "id": "Bugatti La Voiture Noire (dream car)",
     "title": "Bugatti La Voiture Noire (dream car)",
     "role": "Vehicle reference: glossy exposed black carbon, real Havana Brown interior",
     "status": "Archived — Bugatti replaces Lamborghini",
     "approved": false,
-    "img": null
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 0,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
    },
    {
     "id": "phone",
@@ -14501,44 +14605,10 @@
     "img": null
    },
    {
-    "date": "2026-09-15",
-    "file": "CALLAWAY-ELYTE-IRONS-1.png",
+    "date": "2026-09-16",
+    "file": "CALLAWAY-ELYTE-IRONS-1-CUTOUT.png",
     "id": "owner-CALLAWAY-ELYTE-IRONS-1",
     "title": "CALLAWAY ELYTE IRONS 1 (owner upload)",
-    "role": "candidate",
-    "status": "Owner upload — awaiting approval",
-    "approved": false,
-    "img": {
-     "sheet": "sheets/props.jpg",
-     "col": 0,
-     "row": 0,
-     "cols": 8,
-     "rows": 8,
-     "shape": "land"
-    }
-   },
-   {
-    "date": "2026-09-15",
-    "file": "CALLAWAY-ELYTE-IRONS-2.png",
-    "id": "owner-CALLAWAY-ELYTE-IRONS-2",
-    "title": "CALLAWAY ELYTE IRONS 2 (owner upload)",
-    "role": "candidate",
-    "status": "Owner upload — awaiting approval",
-    "approved": false,
-    "img": {
-     "sheet": "sheets/props.jpg",
-     "col": 1,
-     "row": 0,
-     "cols": 8,
-     "rows": 8,
-     "shape": "land"
-    }
-   },
-   {
-    "date": "2026-09-15",
-    "file": "CALLAWAY-ELYTE-STAFF.png",
-    "id": "owner-CALLAWAY-ELYTE-STAFF",
-    "title": "CALLAWAY ELYTE STAFF (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14552,10 +14622,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "DEWALT-DCK540D1.webp",
-    "id": "owner-DEWALT-DCK540D1",
-    "title": "DEWALT DCK540D1 (owner upload)",
+    "date": "2026-09-16",
+    "file": "CALLAWAY-ELYTE-IRONS-2-CUTOUT.png",
+    "id": "owner-CALLAWAY-ELYTE-IRONS-2",
+    "title": "CALLAWAY ELYTE IRONS 2 (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14569,10 +14639,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "Dell-OptiPlex-9020-desktop.jpg",
-    "id": "owner-Dell-OptiPlex-9020-desktop",
-    "title": "Dell OptiPlex 9020 desktop (owner upload)",
+    "date": "2026-09-16",
+    "file": "CALLAWAY-ELYTE-STAFF-CUTOUT.png",
+    "id": "owner-CALLAWAY-ELYTE-STAFF",
+    "title": "CALLAWAY ELYTE STAFF (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14586,10 +14656,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "EGO-LM2135SP-mower.png",
-    "id": "owner-EGO-LM2135SP-mower",
-    "title": "EGO LM2135SP mower (owner upload)",
+    "date": "2026-09-16",
+    "file": "DEWALT-DCK540D1-CUTOUT.png",
+    "id": "owner-DEWALT-DCK540D1",
+    "title": "DEWALT DCK540D1 (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14603,10 +14673,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "RYOBI-18V-ONE-String-Trimmer.jpg",
-    "id": "owner-RYOBI-18V-ONE-String-Trimmer",
-    "title": "RYOBI 18V ONE String Trimmer (owner upload)",
+    "date": "2026-09-16",
+    "file": "Dell-OptiPlex-9020-desktop-CUTOUT.png",
+    "id": "owner-Dell-OptiPlex-9020-desktop",
+    "title": "Dell OptiPlex 9020 desktop (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14620,10 +14690,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "SAMSUNG-RF29DB9900QD.jpg",
-    "id": "owner-SAMSUNG-RF29DB9900QD",
-    "title": "SAMSUNG RF29DB9900QD (owner upload)",
+    "date": "2026-09-16",
+    "file": "EGO-LM2135SP-mower-CUTOUT.png",
+    "id": "owner-EGO-LM2135SP-mower",
+    "title": "EGO LM2135SP mower (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14637,10 +14707,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "WOODEN-WIDE-FORK-REFERENCE-02.jpg",
-    "id": "owner-WOODEN-WIDE-FORK-REFERENCE-02",
-    "title": "WOODEN WIDE FORK REFERENCE 02 (owner upload)",
+    "date": "2026-09-16",
+    "file": "RYOBI-18V-ONE-String-Trimmer-CUTOUT.png",
+    "id": "owner-RYOBI-18V-ONE-String-Trimmer",
+    "title": "RYOBI 18V ONE String Trimmer (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14654,8 +14724,25 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "WOODEN-Y-SLINGSHOT-REAL-REFERENCE.jpg",
+    "date": "2026-09-16",
+    "file": "SAMSUNG-RF29DB9900QD-CUTOUT.png",
+    "id": "owner-SAMSUNG-RF29DB9900QD",
+    "title": "SAMSUNG RF29DB9900QD (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-16",
+    "file": "WOODEN-Y-SLINGSHOT-REAL-REFERENCE-CUTOUT.png",
     "id": "owner-WOODEN-Y-SLINGSHOT-REAL-REFERENCE",
     "title": "WOODEN Y SLINGSHOT REAL REFERENCE (owner upload)",
     "role": "candidate",
@@ -14663,7 +14750,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 1,
+     "col": 2,
      "row": 1,
      "cols": 8,
      "rows": 8,
@@ -14680,23 +14767,6 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 2,
-     "row": 1,
-     "cols": 8,
-     "rows": 8,
-     "shape": "land"
-    }
-   },
-   {
-    "date": "2026-09-15",
-    "file": "atari-2600-woody-original.jpg",
-    "id": "owner-atari-2600-woody-original",
-    "title": "atari 2600 woody original (owner upload)",
-    "role": "candidate",
-    "status": "Owner upload — awaiting approval",
-    "approved": false,
-    "img": {
-     "sheet": "sheets/props.jpg",
      "col": 3,
      "row": 1,
      "cols": 8,
@@ -14705,10 +14775,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "atari-box.jpg",
-    "id": "owner-atari-box",
-    "title": "atari box (owner upload)",
+    "date": "2026-09-16",
+    "file": "atari-2600-woody-original-CUTOUT.png",
+    "id": "owner-atari-2600-woody-original",
+    "title": "atari 2600 woody original (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14722,8 +14792,25 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "gi-joe-duke-hasbro-pulse-normalized.jpg",
+    "date": "2026-09-16",
+    "file": "atari-box-CUTOUT.png",
+    "id": "owner-atari-box",
+    "title": "atari box (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 1,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-16",
+    "file": "gi-joe-duke-hasbro-pulse-normalized-CUTOUT.png",
     "id": "owner-gi-joe-duke-hasbro-pulse-normalized",
     "title": "gi joe duke hasbro pulse normalized (owner upload)",
     "role": "candidate",
@@ -14731,7 +14818,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 5,
+     "col": 6,
      "row": 1,
      "cols": 8,
      "rows": 8,
@@ -14748,7 +14835,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 6,
+     "col": 7,
      "row": 1,
      "cols": 8,
      "rows": 8,
@@ -14756,8 +14843,8 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "jordan-signed-jersey.jpg",
+    "date": "2026-09-16",
+    "file": "jordan-signed-jersey-CUTOUT.png",
     "id": "owner-jordan-signed-jersey",
     "title": "jordan signed jersey (owner upload)",
     "role": "candidate",
@@ -14765,8 +14852,8 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 7,
-     "row": 1,
+     "col": 0,
+     "row": 2,
      "cols": 8,
      "rows": 8,
      "shape": "land"
@@ -14782,7 +14869,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 0,
+     "col": 1,
      "row": 2,
      "cols": 8,
      "rows": 8,
@@ -14799,7 +14886,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 1,
+     "col": 2,
      "row": 2,
      "cols": 8,
      "rows": 8,
@@ -14816,7 +14903,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 2,
+     "col": 3,
      "row": 2,
      "cols": 8,
      "rows": 8,
@@ -14824,8 +14911,8 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "kobe-back-full.jpg",
+    "date": "2026-09-16",
+    "file": "kobe-back-full-CUTOUT.png",
     "id": "owner-kobe-back-full",
     "title": "kobe back full (owner upload)",
     "role": "candidate",
@@ -14833,7 +14920,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 3,
+     "col": 4,
      "row": 2,
      "cols": 8,
      "rows": 8,
@@ -14850,7 +14937,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 4,
+     "col": 5,
      "row": 2,
      "cols": 8,
      "rows": 8,
@@ -14867,7 +14954,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 5,
+     "col": 6,
      "row": 2,
      "cols": 8,
      "rows": 8,
@@ -14884,23 +14971,6 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 6,
-     "row": 2,
-     "cols": 8,
-     "rows": 8,
-     "shape": "land"
-    }
-   },
-   {
-    "date": "2026-09-15",
-    "file": "kobe-signed-jersey.jpg",
-    "id": "owner-kobe-signed-jersey",
-    "title": "kobe signed jersey (owner upload)",
-    "role": "candidate",
-    "status": "Owner upload — awaiting approval",
-    "approved": false,
-    "img": {
-     "sheet": "sheets/props.jpg",
      "col": 7,
      "row": 2,
      "cols": 8,
@@ -14909,10 +14979,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "nes-box.jpg",
-    "id": "owner-nes-box",
-    "title": "nes box (owner upload)",
+    "date": "2026-09-16",
+    "file": "kobe-signed-jersey-CUTOUT.png",
+    "id": "owner-kobe-signed-jersey",
+    "title": "kobe signed jersey (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -14926,8 +14996,25 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "nes-frontloader-original.jpg",
+    "date": "2026-09-16",
+    "file": "nes-box-CUTOUT.png",
+    "id": "owner-nes-box",
+    "title": "nes box (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 1,
+     "row": 3,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-16",
+    "file": "nes-frontloader-original-CUTOUT.png",
     "id": "owner-nes-frontloader-original",
     "title": "nes frontloader original (owner upload)",
     "role": "candidate",
@@ -14935,7 +15022,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 1,
+     "col": 2,
      "row": 3,
      "cols": 8,
      "rows": 8,
@@ -14952,7 +15039,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 2,
+     "col": 3,
      "row": 3,
      "cols": 8,
      "rows": 8,
@@ -14960,8 +15047,8 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "shaq-signed-jersey.jpg",
+    "date": "2026-09-16",
+    "file": "shaq-signed-jersey-CUTOUT.png",
     "id": "owner-shaq-signed-jersey",
     "title": "shaq signed jersey (owner upload)",
     "role": "candidate",
@@ -14969,7 +15056,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 3,
+     "col": 4,
      "row": 3,
      "cols": 8,
      "rows": 8,
@@ -14986,7 +15073,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 4,
+     "col": 5,
      "row": 3,
      "cols": 8,
      "rows": 8,
@@ -15003,7 +15090,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 5,
+     "col": 6,
      "row": 3,
      "cols": 8,
      "rows": 8,
@@ -15011,8 +15098,8 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "snes-us-front-original.jpg",
+    "date": "2026-09-16",
+    "file": "snes-us-front-original-CUTOUT.png",
     "id": "owner-snes-us-front-original",
     "title": "snes us front original (owner upload)",
     "role": "candidate",
@@ -15020,7 +15107,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 6,
+     "col": 7,
      "row": 3,
      "cols": 8,
      "rows": 8,
@@ -15037,23 +15124,6 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 7,
-     "row": 3,
-     "cols": 8,
-     "rows": 8,
-     "shape": "land"
-    }
-   },
-   {
-    "date": "2026-09-15",
-    "file": "snes-us-original.jpg",
-    "id": "owner-snes-us-original",
-    "title": "snes us original (owner upload)",
-    "role": "candidate",
-    "status": "Owner upload — awaiting approval",
-    "approved": false,
-    "img": {
-     "sheet": "sheets/props.jpg",
      "col": 0,
      "row": 4,
      "cols": 8,
@@ -15062,10 +15132,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "transformers-optimal-optimus-hasbro-pulse-normalized.jpg",
-    "id": "owner-transformers-optimal-optimus-hasbro-pulse-normalized",
-    "title": "transformers optimal optimus hasbro pulse normalized (owner upload)",
+    "date": "2026-09-16",
+    "file": "snes-us-original-CUTOUT.png",
+    "id": "owner-snes-us-original",
+    "title": "snes us original (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15079,10 +15149,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE.jpg",
-    "id": "owner-GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE",
-    "title": "GRINCH SHOE KOBE6 ACTUAL HEEL REFERENCE (owner upload)",
+    "date": "2026-09-16",
+    "file": "transformers-optimal-optimus-hasbro-pulse-normalized-CUTOUT.png",
+    "id": "owner-transformers-optimal-optimus-hasbro-pulse-normalized",
+    "title": "transformers optimal optimus hasbro pulse normalized (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15096,10 +15166,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-01-34-FRONT.jpg",
-    "id": "owner-BUGATTI-LVN-01-34-FRONT",
-    "title": "BUGATTI LVN 01 34 FRONT (owner upload)",
+    "date": "2026-09-16",
+    "file": "GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE-CUTOUT.png",
+    "id": "owner-GRINCH-SHOE-KOBE6-ACTUAL-HEEL-REFERENCE",
+    "title": "GRINCH SHOE KOBE6 ACTUAL HEEL REFERENCE (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15113,10 +15183,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-02-ELEVATED-FRONT.jpg",
-    "id": "owner-BUGATTI-LVN-02-ELEVATED-FRONT",
-    "title": "BUGATTI LVN 02 ELEVATED FRONT (owner upload)",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-01-34-FRONT-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-01-34-FRONT",
+    "title": "BUGATTI LVN 01 34 FRONT (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15130,10 +15200,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-03-FRONT.jpg",
-    "id": "owner-BUGATTI-LVN-03-FRONT",
-    "title": "BUGATTI LVN 03 FRONT (owner upload)",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-02-ELEVATED-FRONT-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-02-ELEVATED-FRONT",
+    "title": "BUGATTI LVN 02 ELEVATED FRONT (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15147,10 +15217,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-04-SIDE.jpg",
-    "id": "owner-BUGATTI-LVN-04-SIDE",
-    "title": "BUGATTI LVN 04 SIDE (owner upload)",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-03-FRONT-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-03-FRONT",
+    "title": "BUGATTI LVN 03 FRONT (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15164,10 +15234,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-05-34-REAR.jpg",
-    "id": "owner-BUGATTI-LVN-05-34-REAR",
-    "title": "BUGATTI LVN 05 34 REAR (owner upload)",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-04-SIDE-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-04-SIDE",
+    "title": "BUGATTI LVN 04 SIDE (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15181,10 +15251,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-06-REAR.jpg",
-    "id": "owner-BUGATTI-LVN-06-REAR",
-    "title": "BUGATTI LVN 06 REAR (owner upload)",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-05-34-REAR-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-05-34-REAR",
+    "title": "BUGATTI LVN 05 34 REAR (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15198,10 +15268,10 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-07-TOP.jpg",
-    "id": "owner-BUGATTI-LVN-07-TOP",
-    "title": "BUGATTI LVN 07 TOP (owner upload)",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-06-REAR-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-06-REAR",
+    "title": "BUGATTI LVN 06 REAR (owner upload)",
     "role": "candidate",
     "status": "Owner upload — awaiting approval",
     "approved": false,
@@ -15215,8 +15285,25 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-08-ELEVATED-SIDE.jpg",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-07-TOP-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-07-TOP",
+    "title": "BUGATTI LVN 07 TOP (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 2,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-08-ELEVATED-SIDE-CUTOUT.png",
     "id": "owner-BUGATTI-LVN-08-ELEVATED-SIDE",
     "title": "BUGATTI LVN 08 ELEVATED SIDE (owner upload)",
     "role": "candidate",
@@ -15224,7 +15311,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 2,
+     "col": 3,
      "row": 5,
      "cols": 8,
      "rows": 8,
@@ -15241,23 +15328,6 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 3,
-     "row": 5,
-     "cols": 8,
-     "rows": 8,
-     "shape": "land"
-    }
-   },
-   {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-10-ELEVATED-34-FRONT.jpg",
-    "id": "owner-BUGATTI-LVN-10-ELEVATED-34-FRONT",
-    "title": "BUGATTI LVN 10 ELEVATED 34 FRONT (owner upload)",
-    "role": "candidate",
-    "status": "Owner upload — awaiting approval",
-    "approved": false,
-    "img": {
-     "sheet": "sheets/props.jpg",
      "col": 4,
      "row": 5,
      "cols": 8,
@@ -15266,8 +15336,25 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-11-ELEVATED-34-REAR.jpg",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-10-ELEVATED-34-FRONT-CUTOUT.png",
+    "id": "owner-BUGATTI-LVN-10-ELEVATED-34-FRONT",
+    "title": "BUGATTI LVN 10 ELEVATED 34 FRONT (owner upload)",
+    "role": "candidate",
+    "status": "Owner upload — awaiting approval",
+    "approved": false,
+    "img": {
+     "sheet": "sheets/props.jpg",
+     "col": 5,
+     "row": 5,
+     "cols": 8,
+     "rows": 8,
+     "shape": "land"
+    }
+   },
+   {
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-11-ELEVATED-34-REAR-CUTOUT.png",
     "id": "owner-BUGATTI-LVN-11-ELEVATED-34-REAR",
     "title": "BUGATTI LVN 11 ELEVATED 34 REAR (owner upload)",
     "role": "candidate",
@@ -15275,7 +15362,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 5,
+     "col": 6,
      "row": 5,
      "cols": 8,
      "rows": 8,
@@ -15292,7 +15379,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 6,
+     "col": 7,
      "row": 5,
      "cols": 8,
      "rows": 8,
@@ -15309,8 +15396,8 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 7,
-     "row": 5,
+     "col": 0,
+     "row": 6,
      "cols": 8,
      "rows": 8,
      "shape": "land"
@@ -15326,7 +15413,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 0,
+     "col": 1,
      "row": 6,
      "cols": 8,
      "rows": 8,
@@ -15343,7 +15430,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 1,
+     "col": 2,
      "row": 6,
      "cols": 8,
      "rows": 8,
@@ -15351,8 +15438,8 @@
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-16-ELEVATED-REAR.jpg",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-16-ELEVATED-REAR-CUTOUT.png",
     "id": "owner-BUGATTI-LVN-16-ELEVATED-REAR",
     "title": "BUGATTI LVN 16 ELEVATED REAR (owner upload)",
     "role": "candidate",
@@ -15360,7 +15447,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 2,
+     "col": 3,
      "row": 6,
      "cols": 8,
      "rows": 8,
@@ -15377,7 +15464,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 3,
+     "col": 4,
      "row": 6,
      "cols": 8,
      "rows": 8,
@@ -15394,7 +15481,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 4,
+     "col": 5,
      "row": 6,
      "cols": 8,
      "rows": 8,
@@ -15411,7 +15498,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 5,
+     "col": 6,
      "row": 6,
      "cols": 8,
      "rows": 8,
@@ -15428,7 +15515,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 6,
+     "col": 7,
      "row": 6,
      "cols": 8,
      "rows": 8,
@@ -15445,16 +15532,16 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 7,
-     "row": 6,
+     "col": 0,
+     "row": 7,
      "cols": 8,
      "rows": 8,
      "shape": "land"
     }
    },
    {
-    "date": "2026-09-15",
-    "file": "BUGATTI-LVN-OFFICIAL-HERO.jpg",
+    "date": "2026-09-16",
+    "file": "BUGATTI-LVN-OFFICIAL-HERO-CUTOUT.png",
     "id": "owner-BUGATTI-LVN-OFFICIAL-HERO",
     "title": "BUGATTI LVN OFFICIAL HERO (owner upload)",
     "role": "candidate",
@@ -15462,7 +15549,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 0,
+     "col": 1,
      "row": 7,
      "cols": 8,
      "rows": 8,
@@ -15479,7 +15566,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 1,
+     "col": 2,
      "row": 7,
      "cols": 8,
      "rows": 8,
@@ -15496,7 +15583,7 @@
     "approved": false,
     "img": {
      "sheet": "sheets/props.jpg",
-     "col": 2,
+     "col": 3,
      "row": 7,
      "cols": 8,
      "rows": 8,
@@ -16335,16 +16422,30 @@
    "title": "Slingshot (Bart)",
    "role": "Old-school rounded wooden Y branch with wide fork, tan bands and leather pouch",
    "status": "APPROVED — wide old-school wooden slingshot",
-   "img": null,
-   "date": null,
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 0,
+    "row": 0,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-16",
    "approved": true
   },
   {
    "title": "Bugatti La Voiture Noire (dream car)",
    "role": "Vehicle reference: glossy exposed black carbon, real Havana Brown interior",
    "status": "Archived — Bugatti replaces Lamborghini",
-   "img": null,
-   "date": null,
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 1,
+    "row": 0,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-12",
    "approved": false
   },
   {
@@ -16457,47 +16558,17 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 0,
-    "row": 0,
-    "cols": 8,
-    "rows": 8,
-    "shape": "land"
-   },
-   "date": "2026-09-15",
-   "approved": false
-  },
-  {
-   "title": "CALLAWAY ELYTE IRONS 2 (owner upload)",
-   "role": "candidate",
-   "status": "Owner upload — awaiting approval",
-   "img": {
-    "sheet": "sheets/props.jpg",
-    "col": 1,
-    "row": 0,
-    "cols": 8,
-    "rows": 8,
-    "shape": "land"
-   },
-   "date": "2026-09-15",
-   "approved": false
-  },
-  {
-   "title": "CALLAWAY ELYTE STAFF (owner upload)",
-   "role": "candidate",
-   "status": "Owner upload — awaiting approval",
-   "img": {
-    "sheet": "sheets/props.jpg",
     "col": 2,
     "row": 0,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "DEWALT DCK540D1 (owner upload)",
+   "title": "CALLAWAY ELYTE IRONS 2 (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16508,11 +16579,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "Dell OptiPlex 9020 desktop (owner upload)",
+   "title": "CALLAWAY ELYTE STAFF (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16523,11 +16594,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "EGO LM2135SP mower (owner upload)",
+   "title": "DEWALT DCK540D1 (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16538,11 +16609,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "RYOBI 18V ONE String Trimmer (owner upload)",
+   "title": "Dell OptiPlex 9020 desktop (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16553,11 +16624,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "SAMSUNG RF29DB9900QD (owner upload)",
+   "title": "EGO LM2135SP mower (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16568,11 +16639,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "WOODEN WIDE FORK REFERENCE 02 (owner upload)",
+   "title": "RYOBI 18V ONE String Trimmer (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16583,11 +16654,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "WOODEN Y SLINGSHOT REAL REFERENCE (owner upload)",
+   "title": "SAMSUNG RF29DB9900QD (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16598,7 +16669,22 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
+   "approved": false
+  },
+  {
+   "title": "WOODEN Y SLINGSHOT REAL REFERENCE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -16607,7 +16693,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 2,
+    "col": 3,
     "row": 1,
     "cols": 8,
     "rows": 8,
@@ -16622,32 +16708,17 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 3,
-    "row": 1,
-    "cols": 8,
-    "rows": 8,
-    "shape": "land"
-   },
-   "date": "2026-09-15",
-   "approved": false
-  },
-  {
-   "title": "atari box (owner upload)",
-   "role": "candidate",
-   "status": "Owner upload — awaiting approval",
-   "img": {
-    "sheet": "sheets/props.jpg",
     "col": 4,
     "row": 1,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "gi joe duke hasbro pulse normalized (owner upload)",
+   "title": "atari box (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16658,7 +16729,22 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
+   "approved": false
+  },
+  {
+   "title": "gi joe duke hasbro pulse normalized (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 6,
+    "row": 1,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -16667,7 +16753,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 6,
+    "col": 7,
     "row": 1,
     "cols": 8,
     "rows": 8,
@@ -16682,13 +16768,13 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 7,
-    "row": 1,
+    "col": 0,
+    "row": 2,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -16697,7 +16783,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 0,
+    "col": 1,
     "row": 2,
     "cols": 8,
     "rows": 8,
@@ -16712,7 +16798,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 1,
+    "col": 2,
     "row": 2,
     "cols": 8,
     "rows": 8,
@@ -16727,7 +16813,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 2,
+    "col": 3,
     "row": 2,
     "cols": 8,
     "rows": 8,
@@ -16742,13 +16828,13 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 3,
+    "col": 4,
     "row": 2,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -16757,7 +16843,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 4,
+    "col": 5,
     "row": 2,
     "cols": 8,
     "rows": 8,
@@ -16772,7 +16858,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 5,
+    "col": 6,
     "row": 2,
     "cols": 8,
     "rows": 8,
@@ -16787,7 +16873,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 6,
+    "col": 7,
     "row": 2,
     "cols": 8,
     "rows": 8,
@@ -16802,32 +16888,17 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 7,
-    "row": 2,
-    "cols": 8,
-    "rows": 8,
-    "shape": "land"
-   },
-   "date": "2026-09-15",
-   "approved": false
-  },
-  {
-   "title": "nes box (owner upload)",
-   "role": "candidate",
-   "status": "Owner upload — awaiting approval",
-   "img": {
-    "sheet": "sheets/props.jpg",
     "col": 0,
     "row": 3,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "nes frontloader original (owner upload)",
+   "title": "nes box (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16838,7 +16909,22 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
+   "approved": false
+  },
+  {
+   "title": "nes frontloader original (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
+    "row": 3,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -16847,7 +16933,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 2,
+    "col": 3,
     "row": 3,
     "cols": 8,
     "rows": 8,
@@ -16862,13 +16948,13 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 3,
+    "col": 4,
     "row": 3,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -16877,7 +16963,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 4,
+    "col": 5,
     "row": 3,
     "cols": 8,
     "rows": 8,
@@ -16892,7 +16978,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 5,
+    "col": 6,
     "row": 3,
     "cols": 8,
     "rows": 8,
@@ -16907,13 +16993,13 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 6,
+    "col": 7,
     "row": 3,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -16922,8 +17008,8 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 7,
-    "row": 3,
+    "col": 0,
+    "row": 4,
     "cols": 8,
     "rows": 8,
     "shape": "land"
@@ -16937,32 +17023,17 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 0,
-    "row": 4,
-    "cols": 8,
-    "rows": 8,
-    "shape": "land"
-   },
-   "date": "2026-09-15",
-   "approved": false
-  },
-  {
-   "title": "transformers optimal optimus hasbro pulse normalized (owner upload)",
-   "role": "candidate",
-   "status": "Owner upload — awaiting approval",
-   "img": {
-    "sheet": "sheets/props.jpg",
     "col": 1,
     "row": 4,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "GRINCH SHOE KOBE6 ACTUAL HEEL REFERENCE (owner upload)",
+   "title": "transformers optimal optimus hasbro pulse normalized (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16973,11 +17044,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 01 34 FRONT (owner upload)",
+   "title": "GRINCH SHOE KOBE6 ACTUAL HEEL REFERENCE (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -16988,11 +17059,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 02 ELEVATED FRONT (owner upload)",
+   "title": "BUGATTI LVN 01 34 FRONT (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17003,11 +17074,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 03 FRONT (owner upload)",
+   "title": "BUGATTI LVN 02 ELEVATED FRONT (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17018,11 +17089,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 04 SIDE (owner upload)",
+   "title": "BUGATTI LVN 03 FRONT (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17033,11 +17104,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 05 34 REAR (owner upload)",
+   "title": "BUGATTI LVN 04 SIDE (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17048,11 +17119,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 06 REAR (owner upload)",
+   "title": "BUGATTI LVN 05 34 REAR (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17063,11 +17134,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 07 TOP (owner upload)",
+   "title": "BUGATTI LVN 06 REAR (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17078,11 +17149,11 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 08 ELEVATED SIDE (owner upload)",
+   "title": "BUGATTI LVN 07 TOP (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17093,7 +17164,22 @@
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
+   "approved": false
+  },
+  {
+   "title": "BUGATTI LVN 08 ELEVATED SIDE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 3,
+    "row": 5,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -17102,7 +17188,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 3,
+    "col": 4,
     "row": 5,
     "cols": 8,
     "rows": 8,
@@ -17117,13 +17203,13 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 4,
+    "col": 5,
     "row": 5,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -17132,13 +17218,13 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 5,
+    "col": 6,
     "row": 5,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
@@ -17147,7 +17233,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 6,
+    "col": 7,
     "row": 5,
     "cols": 8,
     "rows": 8,
@@ -17162,8 +17248,8 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 7,
-    "row": 5,
+    "col": 0,
+    "row": 6,
     "cols": 8,
     "rows": 8,
     "shape": "land"
@@ -17177,7 +17263,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 0,
+    "col": 1,
     "row": 6,
     "cols": 8,
     "rows": 8,
@@ -17192,7 +17278,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 1,
+    "col": 2,
     "row": 6,
     "cols": 8,
     "rows": 8,
@@ -17207,32 +17293,17 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 2,
-    "row": 6,
-    "cols": 8,
-    "rows": 8,
-    "shape": "land"
-   },
-   "date": "2026-09-15",
-   "approved": false
-  },
-  {
-   "title": "BUGATTI LVN 17 SIDE CLOSE (owner upload)",
-   "role": "candidate",
-   "status": "Owner upload — awaiting approval",
-   "img": {
-    "sheet": "sheets/props.jpg",
     "col": 3,
     "row": 6,
     "cols": 8,
     "rows": 8,
     "shape": "land"
    },
-   "date": "2026-09-15",
+   "date": "2026-09-16",
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 18 REARLIGHT DETAIL (owner upload)",
+   "title": "BUGATTI LVN 17 SIDE CLOSE (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17247,7 +17318,7 @@
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 19 REAR CLOSE (owner upload)",
+   "title": "BUGATTI LVN 18 REARLIGHT DETAIL (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17262,7 +17333,7 @@
    "approved": false
   },
   {
-   "title": "BUGATTI LVN 20 HEADLIGHT CLOSE (owner upload)",
+   "title": "BUGATTI LVN 19 REAR CLOSE (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17277,7 +17348,7 @@
    "approved": false
   },
   {
-   "title": "BUGATTI LVN CONTACT REFERENCE PHOTOS (owner upload)",
+   "title": "BUGATTI LVN 20 HEADLIGHT CLOSE (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17292,7 +17363,7 @@
    "approved": false
   },
   {
-   "title": "BUGATTI LVN OFFICIAL HERO (owner upload)",
+   "title": "BUGATTI LVN CONTACT REFERENCE PHOTOS (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
@@ -17307,12 +17378,27 @@
    "approved": false
   },
   {
-   "title": "WAYMO ARRIVAL CONTACT REFERENCE (owner upload)",
+   "title": "BUGATTI LVN OFFICIAL HERO (owner upload)",
    "role": "candidate",
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
     "col": 1,
+    "row": 7,
+    "cols": 8,
+    "rows": 8,
+    "shape": "land"
+   },
+   "date": "2026-09-16",
+   "approved": false
+  },
+  {
+   "title": "WAYMO ARRIVAL CONTACT REFERENCE (owner upload)",
+   "role": "candidate",
+   "status": "Owner upload — awaiting approval",
+   "img": {
+    "sheet": "sheets/props.jpg",
+    "col": 2,
     "row": 7,
     "cols": 8,
     "rows": 8,
@@ -17327,7 +17413,7 @@
    "status": "Owner upload — awaiting approval",
    "img": {
     "sheet": "sheets/props.jpg",
-    "col": 2,
+    "col": 3,
     "row": 7,
     "cols": 8,
     "rows": 8,
@@ -17366,6 +17452,7 @@
   "sheets/scene-S28.jpg",
   "sheets/scene-S29.jpg",
   "sheets/scene-S33.jpg",
+  "sheets/char-Rexx.jpg",
   "sheets/char-Homer.jpg",
   "sheets/char-Apu.jpg",
   "sheets/char-Bart.jpg",
