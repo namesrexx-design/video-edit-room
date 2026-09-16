@@ -432,12 +432,96 @@
     "title": "S24 REXX approved line · I'm showing Homer how to use BizBox, the app I built, to sell all this stuff in his garage",
     "seconds": 6.43,
     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD030.mp3"
+   },
+   {
+    "id": "S08-T1",
+    "title": "S08 track · S08-V47-APPROVED-VOICEOVER-STEM.wav",
+    "seconds": 4,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S08-T1.mp3"
+   },
+   {
+    "id": "S09-T1",
+    "title": "S09 track · S09-CONVERSATION-REUSED-V34.wav",
+    "seconds": 4.6,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S09-T1.mp3"
+   },
+   {
+    "id": "S10-T1",
+    "title": "S10 track · V49-REVEAL-RECLINER-MIX.wav",
+    "seconds": 120,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S10-T1.mp3"
+   },
+   {
+    "id": "S10-T2",
+    "title": "S10 track · V48-REXX-DIALOGUE-STEM.wav",
+    "seconds": 30.84,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S10-T2.mp3"
+   },
+   {
+    "id": "S10-T3",
+    "title": "S10 track · V48-HOMER-DIALOGUE-STEM.wav",
+    "seconds": 30.84,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S10-T3.mp3"
+   },
+   {
+    "id": "S16-T1",
+    "title": "S16 track · V48-HOMER-DIALOGUE-STEM.wav",
+    "seconds": 30.84,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S16-T1.mp3"
+   },
+   {
+    "id": "S16-T2",
+    "title": "S16 track · HOMER-EARLY-BUGATTI-WHISPER-V55.wav",
+    "seconds": 1.19,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S16-T2.mp3"
+   },
+   {
+    "id": "S17-T1",
+    "title": "S17 track · HOMER-BUGATTI-SHOUT-V1.mp3",
+    "seconds": 1.72,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S17-T1.mp3"
+   },
+   {
+    "id": "S23-T1",
+    "title": "S23 track · S23-APU-GREETING-MANI-V3-GEN1.mp3",
+    "seconds": 3.71,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S23-T1.mp3"
+   },
+   {
+    "id": "S24-T1",
+    "title": "S24 track · S24-REXX-BIZBOX-V3-GEN1.mp3",
+    "seconds": 6.43,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S24-T1.mp3"
+   },
+   {
+    "id": "S27-T1",
+    "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+    "seconds": 11.23,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S27-T1.mp3"
+   },
+   {
+    "id": "S27-T2",
+    "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+    "seconds": 11.23,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S27-T2.mp3"
+   },
+   {
+    "id": "S28-T1",
+    "title": "S28 track · S28-REXX-PHOTO-REMINDER-V1.mp3",
+    "seconds": 3.4,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S28-T1.mp3"
+   },
+   {
+    "id": "S29-T1",
+    "title": "S29 track · S29-APU-FAREWELL-MANI-V3-GEN1.mp3",
+    "seconds": 5.41,
+    "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S29-T1.mp3"
    }
   ]
  },
  "v74Date": "2026-09-14",
  "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
- "builtAt": "2026-09-16T14:00:27.453Z",
+ "builtAt": "2026-09-16T14:02:29.262Z",
  "version": 2,
  "currentCut": "V74 — owner-selected base (2026-09-14)",
  "scenes": [
@@ -2192,7 +2276,16 @@
      }
     }
    ],
-   "audio": [],
+   "audio": [
+    {
+     "id": "S08-T1",
+     "title": "S08 track · S08-V47-APPROVED-VOICEOVER-STEM.wav",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S08-T1.mp3",
+     "seconds": 4,
+     "date": "2026-09-16"
+    }
+   ],
    "audioHistory": [],
    "cast": [
     "Rexx",
@@ -2455,7 +2548,13 @@
      "date": "2026-09-15"
     }
    ],
-   "_audioSrc": [],
+   "_audioSrc": [
+    {
+     "id": "S08-T1",
+     "title": "S08 track · S08-V47-APPROVED-VOICEOVER-STEM.wav",
+     "seconds": 4
+    }
+   ],
    "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S08.mp4",
    "_audioTracks": [
     {
@@ -3135,7 +3234,16 @@
      }
     }
    ],
-   "audio": [],
+   "audio": [
+    {
+     "id": "S09-T1",
+     "title": "S09 track · S09-CONVERSATION-REUSED-V34.wav",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S09-T1.mp3",
+     "seconds": 4.6,
+     "date": "2026-09-16"
+    }
+   ],
    "audioHistory": [],
    "cast": [
     "Rexx",
@@ -3454,7 +3562,13 @@
      "date": "2026-09-16"
     }
    ],
-   "_audioSrc": [],
+   "_audioSrc": [
+    {
+     "id": "S09-T1",
+     "title": "S09 track · S09-CONVERSATION-REUSED-V34.wav",
+     "seconds": 4.6
+    }
+   ],
    "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/S09/S09-COMPLETE-v2-full-reply.mp4",
    "_audioTracks": [
     {
@@ -4155,7 +4269,32 @@
      }
     }
    ],
-   "audio": [],
+   "audio": [
+    {
+     "id": "S10-T1",
+     "title": "S10 track · V49-REVEAL-RECLINER-MIX.wav",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S10-T1.mp3",
+     "seconds": 120,
+     "date": "2026-09-16"
+    },
+    {
+     "id": "S10-T2",
+     "title": "S10 track · V48-REXX-DIALOGUE-STEM.wav",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S10-T2.mp3",
+     "seconds": 30.84,
+     "date": "2026-09-16"
+    },
+    {
+     "id": "S10-T3",
+     "title": "S10 track · V48-HOMER-DIALOGUE-STEM.wav",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S10-T3.mp3",
+     "seconds": 30.84,
+     "date": "2026-09-16"
+    }
+   ],
    "audioHistory": [],
    "cast": [
     "Rexx",
@@ -4487,7 +4626,23 @@
      "date": "2026-09-15"
     }
    ],
-   "_audioSrc": [],
+   "_audioSrc": [
+    {
+     "id": "S10-T1",
+     "title": "S10 track · V49-REVEAL-RECLINER-MIX.wav",
+     "seconds": 120
+    },
+    {
+     "id": "S10-T2",
+     "title": "S10 track · V48-REXX-DIALOGUE-STEM.wav",
+     "seconds": 30.84
+    },
+    {
+     "id": "S10-T3",
+     "title": "S10 track · V48-HOMER-DIALOGUE-STEM.wav",
+     "seconds": 30.84
+    }
+   ],
    "_fullVideo": "../garage-through-apu-review/full-working-cut/S10-CURRENT-V67.mp4",
    "_audioTracks": [
     {
@@ -6267,6 +6422,22 @@
      "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD019.mp3",
      "seconds": 6.392,
      "date": "2026-09-15"
+    },
+    {
+     "id": "S16-T1",
+     "title": "S16 track · V48-HOMER-DIALOGUE-STEM.wav",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S16-T1.mp3",
+     "seconds": 30.84,
+     "date": "2026-09-16"
+    },
+    {
+     "id": "S16-T2",
+     "title": "S16 track · HOMER-EARLY-BUGATTI-WHISPER-V55.wav",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S16-T2.mp3",
+     "seconds": 1.19,
+     "date": "2026-09-16"
     }
    ],
    "audioHistory": [],
@@ -6359,6 +6530,16 @@
      "id": "AUD019",
      "title": "Bugatti intro replacement (56.7–63.1 s)",
      "seconds": 6.392
+    },
+    {
+     "id": "S16-T1",
+     "title": "S16 track · V48-HOMER-DIALOGUE-STEM.wav",
+     "seconds": 30.84
+    },
+    {
+     "id": "S16-T2",
+     "title": "S16 track · HOMER-EARLY-BUGATTI-WHISPER-V55.wav",
+     "seconds": 1.19
     }
    ],
    "_fullVideo": "../garage-through-apu-review/full-working-cut/S16-CURRENT-V61.mp4",
@@ -6587,6 +6768,14 @@
      "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD005.mp3",
      "seconds": 12.5,
      "date": "2026-09-15"
+    },
+    {
+     "id": "S17-T1",
+     "title": "S17 track · HOMER-BUGATTI-SHOUT-V1.mp3",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S17-T1.mp3",
+     "seconds": 1.72,
+     "date": "2026-09-16"
     }
    ],
    "audioHistory": [],
@@ -6692,6 +6881,11 @@
      "id": "AUD005",
      "title": "Song + whisper, car audition (54.5–67 s)",
      "seconds": 12.5
+    },
+    {
+     "id": "S17-T1",
+     "title": "S17 track · HOMER-BUGATTI-SHOUT-V1.mp3",
+     "seconds": 1.72
     }
    ],
    "_fullVideo": "../garage-through-apu-review/full-working-cut/S17-CURRENT-V61.mp4",
@@ -8615,7 +8809,16 @@
      }
     }
    ],
-   "audio": [],
+   "audio": [
+    {
+     "id": "S23-T1",
+     "title": "S23 track · S23-APU-GREETING-MANI-V3-GEN1.mp3",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S23-T1.mp3",
+     "seconds": 3.71,
+     "date": "2026-09-16"
+    }
+   ],
    "audioHistory": [],
    "cast": [
     "Rexx",
@@ -8683,7 +8886,13 @@
      "date": "2026-09-11"
     }
    ],
-   "_audioSrc": [],
+   "_audioSrc": [
+    {
+     "id": "S23-T1",
+     "title": "S23 track · S23-APU-GREETING-MANI-V3-GEN1.mp3",
+     "seconds": 3.71
+    }
+   ],
    "_fullVideo": "../apu-arrival-review/S23-HORN-AND-GREETING-V1.mp4",
    "_audioTracks": []
   },
@@ -9043,6 +9252,14 @@
      "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD030.mp3",
      "seconds": 6.43,
      "date": "2026-09-16"
+    },
+    {
+     "id": "S24-T1",
+     "title": "S24 track · S24-REXX-BIZBOX-V3-GEN1.mp3",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S24-T1.mp3",
+     "seconds": 6.43,
+     "date": "2026-09-16"
     }
    ],
    "audioHistory": [],
@@ -9213,6 +9430,11 @@
     {
      "id": "AUD030",
      "title": "S24 REXX approved line · I'm showing Homer how to use BizBox, the app I built, to sell all this stuff in his garage",
+     "seconds": 6.43
+    },
+    {
+     "id": "S24-T1",
+     "title": "S24 track · S24-REXX-BIZBOX-V3-GEN1.mp3",
      "seconds": 6.43
     }
    ],
@@ -9734,6 +9956,22 @@
      "audioUrl": "../projects/garage-dream/deliveries/AUDIO/AUD029.mp3",
      "seconds": 11.23,
      "date": "2026-09-16"
+    },
+    {
+     "id": "S27-T1",
+     "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S27-T1.mp3",
+     "seconds": 11.23,
+     "date": "2026-09-16"
+    },
+    {
+     "id": "S27-T2",
+     "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S27-T2.mp3",
+     "seconds": 11.23,
+     "date": "2026-09-16"
     }
    ],
    "audioHistory": [],
@@ -9990,6 +10228,16 @@
      "id": "AUD029",
      "title": "S27 FULL CONVERSATION · approved (\"that works\") · Apu: will that work / Rexx: oh you got a new vintage mart / Apu: two months ago / Rexx: alright I'm down / Apu: jump in",
      "seconds": 11.23
+    },
+    {
+     "id": "S27-T1",
+     "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+     "seconds": 11.23
+    },
+    {
+     "id": "S27-T2",
+     "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+     "seconds": 11.23
     }
    ],
    "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S27.mp4",
@@ -10121,7 +10369,16 @@
      }
     }
    ],
-   "audio": [],
+   "audio": [
+    {
+     "id": "S28-T1",
+     "title": "S28 track · S28-REXX-PHOTO-REMINDER-V1.mp3",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S28-T1.mp3",
+     "seconds": 3.4,
+     "date": "2026-09-16"
+    }
+   ],
    "audioHistory": [],
    "cast": [
     "Rexx",
@@ -10180,7 +10437,13 @@
      "date": "2026-09-11"
     }
    ],
-   "_audioSrc": [],
+   "_audioSrc": [
+    {
+     "id": "S28-T1",
+     "title": "S28 track · S28-REXX-PHOTO-REMINDER-V1.mp3",
+     "seconds": 3.4
+    }
+   ],
    "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S28.mp4",
    "_audioTracks": []
   },
@@ -10438,7 +10701,16 @@
      }
     }
    ],
-   "audio": [],
+   "audio": [
+    {
+     "id": "S29-T1",
+     "title": "S29 track · S29-APU-FAREWELL-MANI-V3-GEN1.mp3",
+     "group": "scene-track",
+     "audioUrl": "../projects/garage-dream/deliveries/AUDIO/S29-T1.mp3",
+     "seconds": 5.41,
+     "date": "2026-09-16"
+    }
+   ],
    "audioHistory": [],
    "cast": [
     "Rexx",
@@ -10560,7 +10832,13 @@
      "date": "2026-09-15"
     }
    ],
-   "_audioSrc": [],
+   "_audioSrc": [
+    {
+     "id": "S29-T1",
+     "title": "S29 track · S29-APU-FAREWELL-MANI-V3-GEN1.mp3",
+     "seconds": 5.41
+    }
+   ],
    "_fullVideo": "C:/Users/16263/Desktop/video-edit-room/projects/garage-dream/deliveries/SCENES/S29.mp4",
    "_audioTracks": [
     {

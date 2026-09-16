@@ -329,6 +329,146 @@
    "group": "approved",
    "date": "2026-09-15",
    "note": "added 2026-09-15 so the owner can listen on the card"
+  },
+  {
+   "id": "S08-T1",
+   "title": "S08 track · S08-V47-APPROVED-VOICEOVER-STEM.wav",
+   "file": "S08-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S08-T1.mp3",
+   "seconds": 4,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S09-T1",
+   "title": "S09 track · S09-CONVERSATION-REUSED-V34.wav",
+   "file": "S09-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S09-T1.mp3",
+   "seconds": 4.6,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S10-T1",
+   "title": "S10 track · V49-REVEAL-RECLINER-MIX.wav",
+   "file": "S10-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S10-T1.mp3",
+   "seconds": 120,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S10-T2",
+   "title": "S10 track · V48-REXX-DIALOGUE-STEM.wav",
+   "file": "S10-T2.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S10-T2.mp3",
+   "seconds": 30.84,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S10-T3",
+   "title": "S10 track · V48-HOMER-DIALOGUE-STEM.wav",
+   "file": "S10-T3.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S10-T3.mp3",
+   "seconds": 30.84,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S16-T1",
+   "title": "S16 track · V48-HOMER-DIALOGUE-STEM.wav",
+   "file": "S16-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S16-T1.mp3",
+   "seconds": 30.84,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S16-T2",
+   "title": "S16 track · HOMER-EARLY-BUGATTI-WHISPER-V55.wav",
+   "file": "S16-T2.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S16-T2.mp3",
+   "seconds": 1.19,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S17-T1",
+   "title": "S17 track · HOMER-BUGATTI-SHOUT-V1.mp3",
+   "file": "S17-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S17-T1.mp3",
+   "seconds": 1.72,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S23-T1",
+   "title": "S23 track · S23-APU-GREETING-MANI-V3-GEN1.mp3",
+   "file": "S23-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S23-T1.mp3",
+   "seconds": 3.71,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S24-T1",
+   "title": "S24 track · S24-REXX-BIZBOX-V3-GEN1.mp3",
+   "file": "S24-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S24-T1.mp3",
+   "seconds": 6.43,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S27-T1",
+   "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+   "file": "S27-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S27-T1.mp3",
+   "seconds": 11.23,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S27-T2",
+   "title": "S27 track · S27-FULL-CONVERSATION-TAGGED-V1-GEN1.mp3",
+   "file": "S27-T2.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S27-T2.mp3",
+   "seconds": 11.23,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S28-T1",
+   "title": "S28 track · S28-REXX-PHOTO-REMINDER-V1.mp3",
+   "file": "S28-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S28-T1.mp3",
+   "seconds": 3.4,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
+  },
+  {
+   "id": "S29-T1",
+   "title": "S29 track · S29-APU-FAREWELL-MANI-V3-GEN1.mp3",
+   "file": "S29-T1.mp3",
+   "local": "projects/garage-dream/deliveries/AUDIO/S29-T1.mp3",
+   "seconds": 5.41,
+   "group": "scene-track",
+   "date": "2026-09-16",
+   "note": "scene audioTracks from the storyboard source, made playable 2026-09-16"
   }
  ]
 }
