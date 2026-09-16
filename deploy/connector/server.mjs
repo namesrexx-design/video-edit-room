@@ -118,7 +118,7 @@ const RUNNERS = {
     await run(job, 'ffmpeg', ['-v', 'error', '-y', '-i', inF, '-frames:v', '1', '-pix_fmt', 'rgba', png]);
     job.log.push('removing background');
     const { removeBackground } = await import(BG_REMOVAL);
-    const blob = await removeBackground(new Blob([fs.readFileSync(png)], { type: 'image/png' }), { model: 'medium', output: { format: 'image/png' } });
+    const blob = await removeBackground(new Blob([fs.readFileSync(png)], { type: 'image/png' }), { publicPath: 'file://' + path.dirname(BG_REMOVAL) + '/', model: 'medium', output: { format: 'image/png' } });
     fs.writeFileSync(outF, Buffer.from(await blob.arrayBuffer()));
     const dest = output || src.replace(/\.[^./]+$/, '') + '-CUTOUT.png';
     job.log.push('saving'); return { saved: await upload(job.ws, dest, outF, 'image/png') };
