@@ -2,7 +2,7 @@
   "format": 3,
   "v74Date": "2026-09-14",
   "source": "Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)",
-  "builtAt": "2026-09-16T00:58:57.454Z",
+  "builtAt": "2026-09-16T01:07:54.324Z",
   "version": 2,
   "currentCut": "V74 — owner-selected base (2026-09-14)",
   "scenes": [
@@ -7124,7 +7124,7 @@
       "nextAction": "Verify mouth-sync and reaction timing across the shared catch-to-honk sequence.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": null,
-      "editStatus": "IN REPAIR PASS · Order 3 · one garage setup, Homer line; approved voice file located by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+      "editStatus": "IN REPAIR PASS · Order 3 · footage = Homer 7 s take b89abc24 (0.0–2.4 s, wide), approved voice ready; needs Homer lip-sync (paid, Higgsfield sync_so) — waiting on the owner's spend go.",
       "still": {
         "sheet": "sheets/scene-S20.jpg",
         "col": 0,
@@ -7422,7 +7422,7 @@
       "nextAction": "Keep approved minimal-motion reply; finish voice sync in the shared sequence.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": "REXX-REPLY-CHAIR-V4.mp4",
-      "editStatus": "IN REPAIR PASS · Order 3 · same setup, Rexx line (rear-facing); later S21 takes found by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+      "editStatus": "IN REPAIR PASS · Order 3 · TWO complete S21 candidates ready (A quieter / B slingshot lift), approved voice on both. Owner picks. S20/S22 wait on lip-sync spend.",
       "still": {
         "sheet": "sheets/scene-S21.jpg",
         "col": 0,
@@ -7789,7 +7789,7 @@
       "nextAction": "Check Homer’s “Whose kid?” response timing before the honk.",
       "gate": "Existing role-specific approvals retained. Check the selected source and next action before new production.",
       "video": null,
-      "editStatus": "IN REPAIR PASS · Order 3 · same setup, Homer line, then Apu's horn; approved voice file located by Codex. Nine-scene repair scope (Rexx, 2026-09-15; video-edit-room PR #11): needs a complete playable clip, approved dialogue, lip-sync, clean audio.",
+      "editStatus": "IN REPAIR PASS · Order 3 · footage = Homer 7 s take b89abc24 (4.6–7.0 s, tight), approved voice ready; needs Homer lip-sync (paid, Higgsfield sync_so) — waiting on the owner's spend go.",
       "still": {
         "sheet": "sheets/scene-S22.jpg",
         "col": 0,
