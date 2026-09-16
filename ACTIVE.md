@@ -9,3 +9,5 @@
 Astra completed 2026-09-16: standalone automatic scene sync server/client and launcher, documented in STORYBOARD-AUTO-SYNC.md. Claim released; original page, builder, server and generated data remain untouched.
 
 | Claude (MASTER) | port 4321 on the PC | 2026-09-15 | Storyboard auto-sync ACTIVATED: old static server stopped, `serve-storyboard-sync.mjs --root <PC board folder>` running (launch.json `storyboard-sync`); revision 5ff88f88, S08+S09 selected and playing. Root override pushed as b45c160. |
+
+| Claude (MASTER) | V75-CANDIDATE render, deliveries/S21, storyboard S08/S09/S11-13/S15/S20-22 | 2026-09-15 | V75 rendered + on Drive (renderer fix c1676e6). S21 two COMPLETE candidates delivered. S20/S22 need Homer lip-sync spend (owner go pending). Sync server running on 4321. |
