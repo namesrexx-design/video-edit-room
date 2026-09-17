@@ -225,6 +225,29 @@ http.createServer(async (req, res) => {
       req.pipe(w); await new Promise((ok, bad) => { w.on('finish', ok); w.on('error', bad); });
       return send(res, 202, view(enqueue('merch', { group, name, tmp })));
     }
+    // A finished master, straight from an agent's sandbox onto this server (2026-09-17).
+    // WHY THIS EXISTS: agents build the film somewhere else and can only hand work over through
+    // GitHub, which refuses a file over 100 MB. So a 115 MB master could never reach the machine that
+    // renders, and a cut pointing at it rendered nothing new — three previews came out byte-identical
+    // and nobody noticed for a day. Now the file comes here first, and the hash is checked on arrival.
+    //   POST /api/upload?film=<name.mp4>&sha256=<hex>   body: the file
+    // Lands in /data/media/team/garage-dream/FILM/, which is the folder cuts reference as folder team.
+    if (req.method === 'POST' && p === '/upload' && u.searchParams.get('film')) {
+      const name = (u.searchParams.get('film') || '').replace(/[^A-Za-z0-9._-]+/g, '_').slice(0, 160);
+      const want = String(u.searchParams.get('sha256') || '').toUpperCase();
+      if (!/.(mp4|mov)$/i.test(name)) return send(res, 400, { error: 'film must be an .mp4 or .mov name' });
+      if (!/^[0-9A-F]{64}$/.test(want)) return send(res, 400, { error: 'sha256 of the file is required, so we can prove what arrived' });
+      const dir = path.join(MEDIA, 'team', 'garage-dream', 'FILM'); fs.mkdirSync(dir, { recursive: true });
+      const tmp = path.join(JOBS, 'film-' + crypto.randomBytes(6).toString('hex'));
+      const hash = crypto.createHash('sha256'); const w = fs.createWriteStream(tmp); let size = 0;
+      req.on('data', (c) => { size += c.length; hash.update(c); if (size > 2e9) req.destroy(); });
+      req.pipe(w); await new Promise((ok, bad) => { w.on('finish', ok); w.on('error', bad); });
+      const got = hash.digest('hex').toUpperCase();
+      if (got !== want) { fs.unlinkSync(tmp); return send(res, 400, { error: 'hash mismatch, nothing kept', expected: want, got, bytes: size }); }
+      const dest = path.join(dir, name); fs.renameSync(tmp, dest);
+      return send(res, 201, { ok: true, path: 'team/garage-dream/FILM/' + name, bytes: size, sha256: got });
+    }
+
     if (req.method === 'POST' && p === '/upload') {
       const scene = u.searchParams.get('scene') || ''; const name = (u.searchParams.get('name') || '').replace(/[^A-Za-z0-9._ -]+/g, '_').slice(0, 120);
       if (!/^S\d+[A-Z]?$/.test(scene) || !/\.(mp4|mov|jpg|jpeg|png|webp|wav|mp3|m4a)$/i.test(name)) return send(res, 400, { error: 'need scene=S## and a media file name' });
