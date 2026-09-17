@@ -1,5 +1,16 @@
 # Scene redo continuation — 2026-09-17
 
+## Latest completed delivery — all three fixes
+GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4 is the newest full review, superseding the wake/Bart-only review for playback.
+3070frames,127.916667s,1920x1080,24fps,72,074,577bytes.
+SHA256 D218B655197A9AE442FCE602856E251F94A552F7F7EB70642D55AB467B8C2AA0.
+Higgsfield media e4184439-64e5-474e-a86e-30cb8f4d249c; owner chat libfile_b172a0140e2881919bdbabc6ab353227.
+Standalone S28 review:86frames3.583333s,1,765,300bytes,SHA256 CA7AE17D8E7288C8EB6C61CDD34E9389EAE542790B3F5E083FCEABD404B1EB93; media cb7e7998-cfa2-4d84-ab0e-010957e4425d; chat libfile_7d81644473d48191be68c795041a62d1.
+S28 source1916x1080 was padded2pixels each side to1920, never cropped. Used frames11–97 to trim excess lead-in while retaining one continuous motion. Inserted at exact existing slot2667–2753.
+Full V2 audio is continuous and unchanged in timing/gain. Final measurement -18.48LUFS,-2.11dBTP,LRA6.2, no clipping. Measurements only; do not claim a human listening pass or perfect phoneme sync.
+Canonical renderer full decode,3070-frame check and black scan passed. Download SHA256 independently matches renderer receipt. Initial large-file downloads were truncated; resumed both full files and verified hashes before final delivery. Earlier wake/Bart chat file replaced with corrected complete version1.
+Cuts, receipts and generation history committed on continuation branch. No live promotion, merge, Drive copy or crowd mix.
+
 ## Approved wake and Bart replacements
 Owner approved the second Bart take (b247db50-46f4-426e-aef9-fe941a568d19) and audio-driven wake take (8cb751f1-13c0-4574-a063-617a77d9d116).
 First Bart redo1bb72f9d was rejected because Rexx turned; do not use it. Every frame of the second Bart take was inspected for that turn. It stays rear-facing. Review retains original V2 taunt and laughs, frames1961–2033.
@@ -25,10 +36,10 @@ Old S28 is frames2667–2753 (111.125–114.708333s): existing silent listening/
 Owner asked if an unused toward-passenger take existed; none found in inspected history. Owner then explicitly said “then create one.”
 New take1 job39003e7e-36f0-49c0-ba1a-9561fb636969,4s Kling3.0 pro/silent,6credit estimate, same original image22318fbe-fcbb-461b-bb86-f0cab565fab2.
 REJECTED for Apu speaking/mouth flapping despite useful gaze turn. Not inserted.
-Corrective take2 job679e3bef-715d-4a23-8884-3739fa9036ba currently rendering. Removed spoken reminder text from prompt and required sealed motionless lips, silent attentive gaze toward passenger-seat camera.
+Corrective take2 job679e3bef-715d-4a23-8884-3739fa9036ba COMPLETED and selected after visual review of24samples: quiet closed-mouth expressions and both shift gaze toward passenger camera. Removed spoken reminder text from prompt and required sealed motionless lips, silent attentive gaze toward passenger-seat camera.
 Inspect before inserting. Preserve full86frame slot and original Rexx audio. Do not confuse S28 with S29 later forehead/whisper scene.
 
 ## Delivery and next
 Current approved full remains AUDIO-CORRECTIONS-V2 until owner accepts replacement full review. New wake/Bart full review is saved, not live.
 Automatic review rejected prior Drive upload citing insufficient explicit destination authorization and unverified account ownership. New files delivered in chat instead. Do not claim new redo files are in Drive.
-Finish S28 take2 QC; if accepted assemble all three replacements via canonical renderer, save MP4, receipts and updated checkpoint. Crowd and effects mix remains future work.
+S28 take2 QC and full three-scene assembly are complete. Owner playback approval of S28/full review remains next. Crowd and effects mix remains future work.
