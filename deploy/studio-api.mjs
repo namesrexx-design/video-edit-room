@@ -16,7 +16,8 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import { spawn } from 'node:child_process';
+import { spawn, execFileSync } from 'node:child_process';
+import { sha256, renderFingerprint, assertPreview } from '../tools/preview-provenance.mjs';
 
 const REPO = process.env.LYFE_REPO || '/repo';
 const MEDIA = process.env.LYFE_MEDIA_ROOT || '/data/media';
@@ -144,16 +145,60 @@ const CUT = 'projects/garage-dream/cuts/STORYBOARD-FINAL.json';
 const readPrev = () => { try { return JSON.parse(fs.readFileSync(PREV_LIST, 'utf8')); } catch { return []; } };
 const writePrev = (l) => fs.writeFileSync(PREV_LIST, JSON.stringify(l.slice(0, 30), null, 1));
 const repoUrl = 'https://github.com/namesrexx-design/video-edit-room';
+// Identity is based on the cut that actually renders, its sources and renderer.
+// A branch commit alone is not a new film revision.
+const mediaHashCache = new Map();
+function mediaDigest(p) {
+  const st = fs.statSync(p), stamp = `${st.size}:${st.mtimeMs}:${st.ctimeMs}`;
+  const cached = mediaHashCache.get(p);
+  if (cached?.stamp === stamp) return cached.hash;
+  const hash = sha256(fs.readFileSync(p)); mediaHashCache.set(p, {stamp, hash}); return hash;
+}
+function describePreview(sha) {
+  const gitRead = args => execFileSync('git', args, {cwd:REPO, maxBuffer:64e6});
+  const bytes = gitRead(['show', `${sha}:${CUT}`]), cut = JSON.parse(bytes);
+  const roots = {'capcut-kit-v74/SCENES_IN_ORDER':path.join(MEDIA,'garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER'),
+    'inventory-v74':path.join(MEDIA,'inventory-v74'),'audio-bin-v74':path.join(MEDIA,'audio-bin-v74'),
+    'storyboard-final-20260915':path.join(MEDIA,'storyboard-final-20260915'),'final-pass-20260916':path.join(MEDIA,'final-pass-20260916'),'team':path.join(MEDIA,'team')};
+  const sources = {};
+  for (const b of [...cut.v1,...(cut.v2||[]),...(cut.a2||[])]) {
+    const key = `${b.folder}/${b.file}`; if (sources[key]) continue;
+    if (b.folder === 'repo-deliveries') {
+      const rel = path.posix.normalize(`projects/garage-dream/deliveries/${b.file}`);
+      if (!rel.startsWith('projects/garage-dream/deliveries/')) throw new Error('invalid delivery path');
+      sources[key] = 'git:' + gitRead(['rev-parse', `${sha}:${rel}`]).toString().trim();
+    } else {
+      const root = roots[b.folder]; if (!root) throw new Error(`unknown source folder ${b.folder}`);
+      const file = path.resolve(root,b.file); if (!file.startsWith(root+path.sep)) throw new Error('invalid media path');
+      sources[key] = 'sha256:' + mediaDigest(file);
+    }
+  }
+  const rendererSha256 = sha256(Buffer.concat(['render-cut.mjs','paths.mjs','otio.mjs'].map(f=>fs.readFileSync(path.join(REPO,'tools',f)))));
+  return {cutSha256:sha256(bytes), fingerprint:renderFingerprint(cut,rendererSha256,sources), rendererSha256, sourceVersions:sources};
+}
+
 RECIPES.preview = async (job) => {
   const { branch, sha } = job.input; const safe = branch.replace(/[^A-Za-z0-9._-]+/g, '-').slice(0, 60); const name = `PREVIEW-${safe}-${sha.slice(0, 7)}`;
   const wt = path.join(PREV, 'wt-' + sha.slice(0, 7));
   const set = (patch) => { const l = readPrev(); const i = l.findIndex((p) => p.sha === sha); if (i >= 0) { l[i] = { ...l[i], ...patch }; writePrev(l); } };
   try {
     if (!fs.existsSync(wt)) await git(job, 'worktree', 'add', '--detach', wt, sha);
+    const requested = describePreview(sha);
+    const previous = readPrev().find(p=>p.branch === branch && p.sha !== sha && p.outputSha256);
     await sh(job, 'node', [path.join(REPO, 'tools/render-cut.mjs'), CUT, name], { cwd: wt });
+    const receiptPath = path.join(wt,'projects/garage-dream/renders/RECEIPTS',name+'.mp4.receipt.json');
+    const receipt = JSON.parse(fs.readFileSync(receiptPath,'utf8'));
+    const current = describePreview(sha);
+    if (current.fingerprint !== requested.fingerprint) throw new Error('STALE_PREVIEW: sources changed during render');
+    const rendered = path.join(wt,'projects/garage-dream/renders',name+'.mp4');
+    const outputSha256 = sha256(fs.readFileSync(rendered));
+    assertPreview({expectedCutSha:requested.cutSha256,fingerprint:requested.fingerprint,actualOutputSha:outputSha256,receipt,previous});
     const film = path.join(PREV, name + '.mp4');
     fs.copyFileSync(path.join(wt, 'projects/garage-dream/renders', name + '.mp4'), film);
-    set({ state: 'ready', film: '/editor/previews/' + name + '.mp4', ready_at: new Date().toISOString() });
+    if (sha256(fs.readFileSync(film)) !== outputSha256) throw new Error('STALE_PREVIEW: delivery copy hash mismatch');
+    const provenance = {...receipt,...requested,branch,commit:sha,sourceTimeline:CUT,outputSha256,md5:crypto.createHash('md5').update(fs.readFileSync(film)).digest('hex'),serverVerified:true};
+    fs.writeFileSync(path.join(PREV,name+'.receipt.json'),JSON.stringify(provenance,null,2));
+    set({ state:'ready',film:'/editor/previews/'+name+'.mp4',receipt:'/editor/previews/'+name+'.receipt.json',ready_at:new Date().toISOString(),...requested,outputSha256,bytes:receipt.bytes,frames:receipt.frames });
     job.result = { preview: '/editor/previews/' + name + '.mp4' };
   } catch (e) { set({ state: 'failed', error: String(e.message || e).slice(0, 300) }); throw e; }
   finally { await git(job, 'worktree', 'remove', '--force', wt).catch(() => {}); }   // temporary checkout only
@@ -173,7 +218,15 @@ async function watchAgentBranches() {
     const ahead = await out(['rev-list', '--count', `origin/main..${r.sha}`]); if (ahead === '0') continue;
     const touches = (await out(['diff', '--name-only', `origin/main...${r.sha}`])).split('\n').includes(CUT);
     if (!touches) continue;
-    list.unshift({ branch: r.branch, sha: r.sha, state: 'rendering', at: new Date().toISOString(), pr: `${repoUrl}/pulls?q=is%3Apr+head%3A${encodeURIComponent(r.branch)}`, subject: await out(['log', '-1', '--format=%s', r.sha]) });
+    let identity;
+    try { identity = describePreview(r.sha); }
+    catch (e) { list.unshift({branch:r.branch,sha:r.sha,state:'failed',at:new Date().toISOString(),error:`Preview inputs unavailable: ${e.message}`}); writePrev(list); continue; }
+    const reusable = list.find(p=>p.branch === r.branch && p.fingerprint === identity.fingerprint && p.outputSha256 && p.film && fs.existsSync(path.join(EDITOR,p.film.replace(/^\/editor\//,''))));
+    if (reusable && mediaDigest(path.join(EDITOR,reusable.film.replace(/^\/editor\//,''))) === reusable.outputSha256) {
+      list.unshift({...reusable,...identity,branch:r.branch,sha:r.sha,state:'ready',reusedFrom:reusable.sha,at:new Date().toISOString(),subject:await out(['log','-1','--format=%s',r.sha])});
+      writePrev(list); continue;
+    }
+    list.unshift({ branch: r.branch, sha: r.sha, state: 'rendering', at: new Date().toISOString(), ...identity, pr: `${repoUrl}/pulls?q=is%3Apr+head%3A${encodeURIComponent(r.branch)}`, subject: await out(['log', '-1', '--format=%s', r.sha]) });
     writePrev(list);
     enqueue('preview', { branch: r.branch, sha: r.sha });
   }
