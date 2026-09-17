@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {renderFingerprint,assertPreview} from './preview-provenance.mjs';
+const cut={format:2,v1:[{file:'x.mp4',folder:'team',start:0,end:48,mute:true}],v2:[],a2:[]};
+const fp=c=>renderFingerprint(c,'renderer',{x:'source'});
+test('documentation-only commits do not create a new render identity',()=>assert.equal(fp(cut),fp({...cut,name:'renamed',savedAt:'tomorrow',note:'new handoff'})));
+test('timeline trim changes render identity',()=>assert.notEqual(fp(cut),fp({...cut,v1:[{...cut.v1[0],end:47}]})));
+test('source and renderer changes invalidate reuse',()=>{assert.notEqual(fp(cut),renderFingerprint(cut,'new-renderer',{x:'source'}));assert.notEqual(fp(cut),renderFingerprint(cut,'renderer',{x:'new-source'}));});
+test('changed inputs with byte-identical output are rejected',()=>assert.throws(()=>assertPreview({expectedCutSha:'C',fingerprint:'NEW',actualOutputSha:'O',receipt:{cutSha256:'C',outputSha256:'O'},previous:{fingerprint:'OLD',outputSha256:'O'}}),/delivery blocked/));
+test('wrong cut and wrong copied output are rejected',()=>{assert.throws(()=>assertPreview({expectedCutSha:'C',fingerprint:'F',actualOutputSha:'O',receipt:{cutSha256:'WRONG',outputSha256:'O'}}),/rendered cut/);assert.throws(()=>assertPreview({expectedCutSha:'C',fingerprint:'F',actualOutputSha:'O',receipt:{cutSha256:'C',outputSha256:'WRONG'}}),/copied output/);});
+test('changed inputs with changed verified output pass',()=>assert.equal(assertPreview({expectedCutSha:'C',fingerprint:'NEW',actualOutputSha:'NEW-OUTPUT',receipt:{cutSha256:'C',outputSha256:'NEW-OUTPUT'},previous:{fingerprint:'OLD',outputSha256:'OLD-OUTPUT'}}),true));
