@@ -1,10 +1,20 @@
 {
   "format": 2,
-  "name": "STORYBOARD-FINAL pass 17 — corrected scene assembly candidate",
+  "name": "STORYBOARD-FINAL pass 17 — corrected scene assembly candidate + LYFE intro card",
   "savedAt": "2026-09-17T02:56:11Z",
   "fps": 24,
-  "frames": 3072,
+  "frames": 3240,
   "v1": [
+    {
+      "u": "intro_card",
+      "id": "INTRO",
+      "file": "garage-dream/intro/INTRO-CARD-LYFE-wide-2026-09-16.mp4",
+      "folder": "team",
+      "start": 0,
+      "end": 168,
+      "mute": true,
+      "scene": "INTRO"
+    },
     {
       "u": "sb_s01",
       "id": "S01",
@@ -335,12 +345,22 @@
   "a1": [],
   "a2": [
     {
+      "id": "INTRO-sound",
+      "file": "garage-dream/intro/INTRO-CARD-LYFE-wide-2026-09-16.mp4",
+      "folder": "team",
+      "start": 0,
+      "end": 168,
+      "at": 0,
+      "sceneSound": true,
+      "link": "intro_card"
+    },
+    {
       "id": "S01-sound",
       "file": "S01.mp4",
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 79,
-      "at": 0,
+      "at": 168,
       "sceneSound": true,
       "link": "sb_s01",
       "gain": 2
@@ -351,7 +371,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 60,
-      "at": 79,
+      "at": 247,
       "sceneSound": true,
       "link": "sb_s02",
       "gain": 3
@@ -362,7 +382,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 53,
-      "at": 139,
+      "at": 307,
       "sceneSound": true,
       "link": "sb_s03",
       "gain": 4
@@ -373,7 +393,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 103,
-      "at": 192,
+      "at": 360,
       "sceneSound": true,
       "link": "sb_s04",
       "gain": 4
@@ -384,7 +404,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 170,
-      "at": 295,
+      "at": 463,
       "sceneSound": true,
       "link": "sb_s05",
       "gain": -3
@@ -395,7 +415,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 140,
-      "at": 465,
+      "at": 633,
       "sceneSound": true,
       "link": "sb_s06",
       "gain": 9
@@ -406,7 +426,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 138,
-      "at": 605,
+      "at": 773,
       "sceneSound": true,
       "link": "sb_s07",
       "gain": -2
@@ -417,7 +437,7 @@
       "folder": "repo-deliveries",
       "start": 0,
       "end": 96,
-      "at": 743,
+      "at": 911,
       "sceneSound": true,
       "link": "sb_s08",
       "gain": 5,
@@ -429,7 +449,7 @@
       "folder": "repo-deliveries",
       "start": 0,
       "end": 135,
-      "at": 839,
+      "at": 1007,
       "sceneSound": true,
       "link": "sb_s09",
       "gain": 3
@@ -440,7 +460,7 @@
       "folder": "storyboard-final-20260915",
       "start": 27,
       "end": 158,
-      "at": 974,
+      "at": 1142,
       "sceneSound": true,
       "link": "sb_s10",
       "gain": 1,
@@ -452,7 +472,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 155,
-      "at": 1236,
+      "at": 1404,
       "sceneSound": true,
       "link": "sb_s14",
       "gain": -1
@@ -463,7 +483,7 @@
       "folder": "repo-deliveries",
       "start": 281,
       "end": 421,
-      "at": 1391,
+      "at": 1559,
       "sceneSound": true,
       "link": "sb_s16",
       "gain": 2,
@@ -475,7 +495,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 72,
-      "at": 1562,
+      "at": 1730,
       "sceneSound": true,
       "link": "sb_s17",
       "gain": 0
@@ -486,7 +506,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 206,
-      "at": 1634,
+      "at": 1802,
       "sceneSound": true,
       "link": "sb_s18",
       "gain": 0
@@ -497,7 +517,7 @@
       "folder": "repo-deliveries",
       "start": 0,
       "end": 42,
-      "at": 1962,
+      "at": 2130,
       "sceneSound": true,
       "link": "sb_s19",
       "gain": 7,
@@ -509,7 +529,7 @@
       "folder": "capcut-kit-v74/SCENES_IN_ORDER",
       "start": 0,
       "end": 90,
-      "at": 2033,
+      "at": 2201,
       "sceneSound": true,
       "link": "sb_s23",
       "gain": 0
@@ -520,7 +540,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 162,
-      "at": 2123,
+      "at": 2291,
       "sceneSound": true,
       "link": "sb_s24",
       "gain": 9
@@ -531,7 +551,7 @@
       "folder": "inventory-v74",
       "start": 0,
       "end": 57,
-      "at": 2285,
+      "at": 2453,
       "sceneSound": true,
       "link": "sb_s27a",
       "gain": -2
@@ -542,7 +562,7 @@
       "folder": "capcut-kit-v74/SCENES_IN_ORDER",
       "start": 212,
       "end": 262,
-      "at": 2342,
+      "at": 2510,
       "sceneSound": true,
       "link": "sb_s27r",
       "gain": -2
@@ -553,7 +573,7 @@
       "folder": "final-pass-20260916",
       "start": 0,
       "end": 52,
-      "at": 2392,
+      "at": 2560,
       "sceneSound": true,
       "link": "sb_s27c",
       "gain": 0
@@ -564,7 +584,7 @@
       "folder": "inventory-v74",
       "start": 0,
       "end": 39,
-      "at": 2628,
+      "at": 2796,
       "sceneSound": true,
       "link": "sb_s27d",
       "gain": -2
@@ -575,7 +595,7 @@
       "folder": "final-pass-20260916",
       "start": 0,
       "end": 86,
-      "at": 2667,
+      "at": 2835,
       "sceneSound": true,
       "link": "sb_s28",
       "gain": 0
@@ -586,7 +606,7 @@
       "folder": "inventory-v74",
       "start": 0,
       "end": 45,
-      "at": 2747,
+      "at": 2915,
       "sceneSound": true,
       "link": "sb_s29a",
       "gain": 6,
@@ -598,7 +618,7 @@
       "folder": "inventory-v74",
       "start": 0,
       "end": 56,
-      "at": 2843,
+      "at": 3011,
       "sceneSound": true,
       "link": "sb_s29b",
       "gain": 5
@@ -609,7 +629,7 @@
       "folder": "capcut-kit-v74/SCENES_IN_ORDER",
       "start": 156,
       "end": 177,
-      "at": 2899,
+      "at": 3067,
       "sceneSound": true,
       "link": "sb_s29c",
       "gain": -4
@@ -620,7 +640,7 @@
       "folder": "final-pass-20260916",
       "start": 0,
       "end": 46,
-      "at": 2920,
+      "at": 3088,
       "sceneSound": true,
       "link": "sb_s29d",
       "gain": 0
@@ -631,7 +651,7 @@
       "folder": "inventory-v74",
       "start": 0,
       "end": 121,
-      "at": 1840,
+      "at": 2008,
       "sceneSound": true,
       "link": "sb_s18b",
       "gain": -5
@@ -642,7 +662,7 @@
       "folder": "repo-deliveries",
       "start": 1490,
       "end": 1516,
-      "at": 1536,
+      "at": 1704,
       "gain": -10,
       "note": "Owner-locked first snore at exactly 64 seconds. Ends before S17 at frame 1562; no pre-64 mixed snoring.",
       "link": "sb_s16"
@@ -653,7 +673,7 @@
       "folder": "audio-bin-v74",
       "start": 1490,
       "end": 1551,
-      "at": 1680,
+      "at": 1848,
       "gain": -6,
       "note": "snore 70–72.5 s",
       "link": "sb_s18"
@@ -664,7 +684,7 @@
       "folder": "audio-bin-v74",
       "start": 1490,
       "end": 1551,
-      "at": 1741,
+      "at": 1909,
       "gain": -6,
       "note": "snore 72.5–75 s",
       "link": "sb_s18"
@@ -675,7 +695,7 @@
       "folder": "storyboard-final-20260915",
       "start": 0,
       "end": 184,
-      "at": 2444,
+      "at": 2612,
       "sceneSound": true,
       "link": "sb_s27rep",
       "gain": 1
@@ -686,7 +706,7 @@
       "folder": "repo-deliveries",
       "start": 0,
       "end": 106,
-      "at": 2966,
+      "at": 3134,
       "sceneSound": true,
       "link": "sb_s29end",
       "gain": 0
@@ -697,7 +717,7 @@
       "folder": "storyboard-final-20260915",
       "start": 158,
       "end": 289,
-      "at": 1105,
+      "at": 1273,
       "sceneSound": true,
       "link": "sb_s10_cont",
       "gain": 1,
@@ -706,5 +726,5 @@
   ],
   "v2": [],
   "parked": [],
-  "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line. Pass 9: S27 rebuilt turn by turn — INV052 (owner L1) → kit Rexx reply 212–262 → INV037 (native lip-sync, two months ago) → INV053 (owner jump-in). No wide shot in the middle. Owner: \"after Apu says will this work… I said oh yeah a vintage mart, he says yeah two months, then jump in.\" Pass 10: two-months-ago line = INV051 (owner close-up) instead of INV037. Pass 11: S28 = INV008 (Sep 14 passenger seat) + reminder line; S29 = INV043 → INV044 → INV042 (+kit what-do-you-mean) → INV009 (+kit blood-on-forehead line) → INV050 Blood? (owner: the new ones are in the archive, you are not using them). Pass 12: owner timecode notes — snore cues 61–64 / 70–75; S18 tail = INV049 (V68 wake lip-sync, own sound); S24 tail + S27 Rexx reply = INV004 over-the-shoulder. Pass 13: Codex/owner S27 reply (document your items…) inserted after two-months-ago. Pass 14 (2026-09-16, Codex review): listening OTS (Seedance d1ca1f7a) under Rexx lines; S23 = V74 kit; ending = V74 S29 frames 252–364 (16:9, Blood? + look). | pass 15 (2026-09-16): Codex PR #19 owner corrections — Homer line 1:39, nodding 1:51, silent listeners 2:00, single fist bump. | pass 16 CANDIDATE 2026-09-17: audio-only corrections for dry S08 greeting, clean S16 bed, first snore at frame 1536, complete Bart phrase. Picture replacements and S29 continuity/lips remain unresolved. Not a verified final film. | pass 17: INSERT S08, S09, corrected S10 reveal plus preserved fully-open continuation, complete S24 reflection repair and recovered S29 ending. Farewell precedes one bump. First snore stays at frame 1536. Five required picture sources delivered through repo-deliveries; server render pending; INV044 listener-mouth correction remains unresolved. Do not mark final-approved. | Media delivery repair: owner explicitly authorized these five small H.264 clips in GitHub until connector access is available. Picture timing and audio mix unchanged."
+  "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line. Pass 9: S27 rebuilt turn by turn — INV052 (owner L1) → kit Rexx reply 212–262 → INV037 (native lip-sync, two months ago) → INV053 (owner jump-in). No wide shot in the middle. Owner: \"after Apu says will this work… I said oh yeah a vintage mart, he says yeah two months, then jump in.\" Pass 10: two-months-ago line = INV051 (owner close-up) instead of INV037. Pass 11: S28 = INV008 (Sep 14 passenger seat) + reminder line; S29 = INV043 → INV044 → INV042 (+kit what-do-you-mean) → INV009 (+kit blood-on-forehead line) → INV050 Blood? (owner: the new ones are in the archive, you are not using them). Pass 12: owner timecode notes — snore cues 61–64 / 70–75; S18 tail = INV049 (V68 wake lip-sync, own sound); S24 tail + S27 Rexx reply = INV004 over-the-shoulder. Pass 13: Codex/owner S27 reply (document your items…) inserted after two-months-ago. Pass 14 (2026-09-16, Codex review): listening OTS (Seedance d1ca1f7a) under Rexx lines; S23 = V74 kit; ending = V74 S29 frames 252–364 (16:9, Blood? + look). | pass 15 (2026-09-16): Codex PR #19 owner corrections — Homer line 1:39, nodding 1:51, silent listeners 2:00, single fist bump. | pass 16 CANDIDATE 2026-09-17: audio-only corrections for dry S08 greeting, clean S16 bed, first snore at frame 1536, complete Bart phrase. Picture replacements and S29 continuity/lips remain unresolved. Not a verified final film. | pass 17: INSERT S08, S09, corrected S10 reveal plus preserved fully-open continuation, complete S24 reflection repair and recovered S29 ending. Farewell precedes one bump. First snore stays at frame 1536. Five required picture sources delivered through repo-deliveries; server render pending; INV044 listener-mouth correction remains unresolved. Do not mark final-approved. | Media delivery repair: owner explicitly authorized these five small H.264 clips in GitHub until connector access is available. Picture timing and audio mix unchanged. | + intro card (Claude, 2026-09-16): 7 s LYFE card before S01; every sound block +168 frames. Story is based on Rexx's friend Beeks."
 }
