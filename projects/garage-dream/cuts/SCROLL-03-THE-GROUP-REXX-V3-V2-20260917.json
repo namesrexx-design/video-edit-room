@@ -1,0 +1,36 @@
+{
+  "format": 2,
+  "name": "SCROLL-03-THE-GROUP-REXX-V3-V2-20260917",
+  "savedAt": "2026-09-17T00:00:00Z",
+  "output": {
+    "width": 1080,
+    "height": 1920
+  },
+  "note": "Existing approved LYFE still with native scrolling text; one continuous namesrexx eleven_v3 take. No regenerated characters or scenes.",
+  "v1": [
+    {
+      "id": "scroll-03",
+      "u": "scroll-03",
+      "scene": "03",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/SCROLL-03-PICTURE-V2.mp4",
+      "start": 0,
+      "end": 436,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "scroll-03-voice",
+      "u": "scroll-03-voice",
+      "link": "scroll-03",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/SCROLL-03-VOICE.wav",
+      "start": 0,
+      "end": 436,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}
