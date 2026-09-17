@@ -36,3 +36,5 @@ Codex completed 2026-09-17: GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4 deliver
 
 
 Codex completed2026-09-17: AUDIO-CORRECTIONS-V2 delivered,3070frames,SHA BF931CE7. Three existing AUD018 Bugatti whispers timed across58–63s; first wake sentence shifted1.125s to77s; owner-confirmed beach sentence preserved; extra Bart exit laugh at84.083s. Visual sequences and waveform timing checked; no clipping. Cut,verification,handoff committed. No new generation,live promotion or merge. V2 claim released.
+
+| Codex | S18/S19 scene redo and S28 lookup | 2026-09-17 | Owner requests dedicated wake lip-sync, copy/re-render Bart, inspect photo-reminder look direction. Bart job1bb72f9d running. sync_so input-role connector mismatch; browser login pending. No cut changed yet. |
