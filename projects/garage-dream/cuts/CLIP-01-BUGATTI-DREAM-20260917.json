@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "CLIP-01-BUGATTI-DREAM-20260917",
+  "savedAt": "2026-09-17T17:41:23.863Z",
+  "note": "Garage reveal through D'oh; stop before wake line. Exact full frame source; no crop. Source excludes 10-second intro.",
+  "v1": [
+    {
+      "id": "CLIP-01-BUGATTI-DREAM-20260917",
+      "u": "CLIP-01-BUGATTI-DREAM-20260917",
+      "scene": "FILM",
+      "file": "FILM/GARAGE-DREAM-AUDIENCE-EMOTIONS-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 990,
+      "end": 1840,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "CLIP-01-BUGATTI-DREAM-20260917-audio",
+      "link": "CLIP-01-BUGATTI-DREAM-20260917",
+      "file": "FILM/GARAGE-DREAM-AUDIENCE-EMOTIONS-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 990,
+      "end": 1840,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}
