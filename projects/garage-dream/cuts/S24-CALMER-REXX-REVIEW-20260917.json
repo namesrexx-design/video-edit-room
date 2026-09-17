@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "S24-CALMER-REXX-REVIEW-20260917",
+  "savedAt": "2026-09-17T17:14:24.123Z",
+  "note": "New continuous calm Kling takeae7b7c42 from exact first/endframes; conform169frames to162, preserve complete original voice track. No crop.",
+  "v1": [
+    {
+      "file": "S24/S24-CALM-ae7b7c42-CONFORMED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 162,
+      "u": "calm-rexx",
+      "id": "calm-rexx",
+      "scene": "S24",
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "file": "FILM/GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 2123,
+      "end": 2285,
+      "at": 0,
+      "id": "original-Rexx-dialogue",
+      "link": "calm-rexx",
+      "gain": 0
+    }
+  ]
+}
