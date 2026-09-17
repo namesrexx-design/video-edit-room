@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "project": "Garage Dream",
+  "basis": {
+    "file": "GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+    "sha256": "8BCE2D477DDF61A3A59B9E25D2326E2578AEFEC9EBF29070B9D2E3A54F0B2935",
+    "fps": 24,
+    "frames": 3070
+  },
+  "status": "cue preparation; audience not mixed or generated",
+  "constraints": [
+    "Reuse existing approved audience recordings first; source files not yet identified.",
+    "No audience on the greeting or during Apu recognition.",
+    "No continuous crowd bed. Keep dream music, existing horn, mosquito and snoring.",
+    "First snore stays at frame1536 /64.0seconds.",
+    "Keep Bart character laughter distinct from crowd laughter.",
+    "Keep greatest laugh after final Blood and visible upward look.",
+    "Do not extend or freeze ending to fit an audience recording.",
+    "Final audition needs continuous listening, mono and phone-speaker checks."
+  ],
+  "cues": [
+    {
+      "id": "crowd-garage",
+      "at": 1094,
+      "end": 1104,
+      "start_seconds": 45.583333,
+      "end_seconds": 46,
+      "response": "Tiny amused group reaction after Bugatti/clutter reveal",
+      "source": null,
+      "status": "proposed"
+    },
+    {
+      "id": "crowd-bugatti-question",
+      "at": 1382,
+      "end": 1392,
+      "start_seconds": 57.583333,
+      "end_seconds": 58,
+      "response": "Small knowing chuckle after complete question",
+      "source": null,
+      "status": "proposed"
+    },
+    {
+      "id": "crowd-wake",
+      "at": 1851,
+      "end": 1867,
+      "start_seconds": 77.125,
+      "end_seconds": 77.791667,
+      "response": "Brief relieved laugh after D'oh; finish before next line",
+      "source": null,
+      "status": "optional; omit if wake repair changes delivery"
+    },
+    {
+      "id": "crowd-payoff",
+      "at": 3002,
+      "end": 3068,
+      "start_seconds": 125.083333,
+      "end_seconds": 127.833333,
+      "response": "Biggest group laugh with sparse claps; natural fading tail",
+      "source": null,
+      "status": "proposed after eyes turn up"
+    }
+  ],
+  "existing_effects": [
+    {
+      "id": "snore-first",
+      "at": 1536,
+      "source": "Existing approved mix; AUDIO/AUD025.mp3 source1490..1516",
+      "action": "retain"
+    },
+    {
+      "id": "dream-music-engine",
+      "action": "retain approved film placement"
+    },
+    {
+      "id": "mosquito-and-impact",
+      "action": "retain approved film placement"
+    },
+    {
+      "id": "horn-after-Bart",
+      "at": 2033,
+      "action": "retain one existing horn and the complete following Apu greeting"
+    }
+  ]
+}
