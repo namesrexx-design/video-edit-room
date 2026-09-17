@@ -1,0 +1,71 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-CALMER-MOTION-DOT-REVIEW-20260917",
+  "savedAt": "2026-09-17T17:16:57.587Z",
+  "note": "Calmer S24 from start/end frames plus S27 corrected still animation. Preserve previous winning S28 take2,wake,Bart and full soundtrack. Review candidate; no live promotion.",
+  "v1": [
+    {
+      "file": "FILM/GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 2123,
+      "id": "approved-before",
+      "u": "approved-before",
+      "scene": "FILM",
+      "mute": true
+    },
+    {
+      "file": "S24/S24-CALM-ae7b7c42-CONFORMED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 162,
+      "id": "calmer-rexx",
+      "u": "calmer-rexx",
+      "scene": "S24",
+      "mute": true
+    },
+    {
+      "file": "FILM/GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 2285,
+      "end": 2392,
+      "id": "approved-middle",
+      "u": "approved-middle",
+      "scene": "FILM",
+      "mute": true
+    },
+    {
+      "file": "S27/S27-CORRECTED-5b20fa96-TIMED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 52,
+      "id": "homer-corrected",
+      "u": "homer-corrected",
+      "scene": "S27",
+      "mute": true
+    },
+    {
+      "file": "FILM/GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 2444,
+      "end": 3070,
+      "id": "approved-after",
+      "u": "approved-after",
+      "scene": "FILM",
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "file": "FILM/GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3070,
+      "at": 0,
+      "id": "unchanged-approved-soundtrack",
+      "link": "approved-before",
+      "gain": 0
+    }
+  ]
+}
