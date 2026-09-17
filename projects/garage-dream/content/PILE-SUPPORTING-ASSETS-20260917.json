@@ -1,0 +1,40 @@
+{
+  "assets": [
+    {
+      "file": "carousel/04.png",
+      "sha256": "b505971243b5be21b8f6ff5f14cc1b393eb86d0033a2c70fa324866afe09df85"
+    },
+    {
+      "file": "carousel/02.png",
+      "sha256": "8b13a30c5c1574af5c656a97c1f75bfff6cc9e9a4579e1266d7ca22658f43628"
+    },
+    {
+      "file": "carousel/06.png",
+      "sha256": "a63ee05904cc319f666a592399f5c7bd63b31cee52abe568be2a15743f366ddd"
+    },
+    {
+      "file": "carousel/03.png",
+      "sha256": "e262ea35e4a3c532dbcb2119954f4241f998d1d58ed4551aa84dc4b9a8836282"
+    },
+    {
+      "file": "carousel/05.png",
+      "sha256": "7d32e976313a9f9561b81e3ccbc72a3a894f8e75c03cde61ee2848ece658cf92"
+    },
+    {
+      "file": "carousel/07.png",
+      "sha256": "aaf912283283e868ff6ae95a71ea86b21929620f3acd07ac74b329963b7779df"
+    },
+    {
+      "file": "carousel/01.png",
+      "sha256": "4a766af413a20907697a1fc32a1f1ba8bb6ed90c7554d195a7d8f86e2bda85f8"
+    },
+    {
+      "file": "cards/POST-01-THE-GROWING-PILE.png",
+      "sha256": "b4a83b8b9f6279e7c96916a7737daa8de476ed724579cd3a5a99d53246d59a18"
+    }
+  ],
+  "videoApproval": "owner: perfecto!",
+  "videoSha256": "98447D5A40CFA0268D9D88A52A3781D77F262809F217D834E02046AC48679DC6",
+  "supportingAssetApproval": "ready_for_owner_review",
+  "publishingStatus": "not_published_or_scheduled"
+}
