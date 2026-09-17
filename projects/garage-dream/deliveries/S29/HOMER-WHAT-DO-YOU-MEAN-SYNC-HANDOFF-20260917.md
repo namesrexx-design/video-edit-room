@@ -1,5 +1,16 @@
 # S29 current status — continuous picture approved; lip sync unfinished
 
+## Active directed edit — submitted after owner's go
+
+- Seedance 2.5, video_edit mode, 1080p, one output.
+- Job: baf1a5f2-3d93-4f9c-bdb6-45125e07b4ac.
+- Input media: 69720276-104e-420b-80ad-ce41e569c18a, full-frame S29-continuous-review-SYNC-NOT-APPROVED.mp4 with the original dialogue already embedded. Upload confirmed.
+- Preflight: 46.12 credits for the full 5.125-second source (earlier raw-source estimate was 45.37).
+- Owner approved this first directed-edit test. A second take must follow inspection and a specific identified defect; no second take has been submitted.
+- Prompt preserves the complete shot and identities, assigns Apu's question to 0.00–1.84s, Homer's reply to 2.36–2.74s, and the off-camera Rexx explanation to 3.20–4.64s; requests closed listener mouths and one small smooth Homer turn toward Rexx.
+- This is a generative video edit, NOT a manual face-selection lipsync run. Exact synchronization remains to be checked in the returned export.
+- Current status: in progress; no completed output or full-film update yet. Resume this job rather than submitting a duplicate.
+
 ## Current owner instructions (2026-09-17)
 
 - Preserve the approved continuous Higgsfield shot. Do not crop the frame or revert to the rejected Pass 19 montage below.
