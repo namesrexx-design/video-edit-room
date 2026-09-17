@@ -41,4 +41,4 @@ Codex completed2026-09-17: AUDIO-CORRECTIONS-V2 delivered,3070frames,SHA BF931CE
 
 Codex completed2026-09-17: GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4 saved in owner chat,3070frames,SHA D218B655. Approved audio-driven wake8cb751f1 and no-turn Bartb247db50 plus requested S28 passenger-gaze take679e3bef; first car take rejected for Apu mouth flapping. Full frame retained, original V2 soundtrack unchanged. Full decode/black scan/frame count and download SHA verified; -18.48LUFS,-2.11dBTP. Cuts, receipts, generation record and checkpoint committed. Awaiting owner playback; no live promotion, merge, Drive copy or crowd mix. Scene redo claim released.
 
-| Codex | S28 winner approval and assembly verification | 2026-09-17 | Record owner selection of take2 and verify existing full assembly uses it. |
+Codex completed2026-09-17: owner chose S28 second take679e3bef as winner. Verified complete full assembly D218B655 already contains exact selected take alongside approved wake/Bart. Approval recorded in generation receipt and handoff. No additional generation or duplicate render; approval-record claim released.
