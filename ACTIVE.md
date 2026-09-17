@@ -48,3 +48,5 @@ Codex completed2026-09-17: final full GARAGE-DREAM-FINAL-AUDIENCE-INTRO-20260917
 
 
 Codex completed 2026-09-17: full AUDIO-V3 delivered, 3334 frames / 138.916667 seconds, SHA 71E8E5AB. Owner-selected second namesrexx eleven_v3 take ends before original Homer line; Bugatti whispers -8dB, original pre-greeting horn +8dB, final laugh +1s with final-picture hold. First Bart laugh retained, second remains removed. Full decode/frame count/black scan and download hash verified; -18.57LUFS, -2.11dBTP. Full MP4 and reusable audio sources saved in owner chat; cut, generation/cue/render receipts and handoff committed. Owner requested full video first; refresh affected excerpts after full-film review. No merge/live promotion/post/schedule/Drive write. Final audio V3 claim released.
+
+| Codex | Final audio V4: nonchalant Rexx full47–50s | 2026-09-17 | Owner approved V3 except complete Yeah let me have it it cannot be that bad line. Use namesrexx, eleven_v3, nonchalant, one continuous sentence. Preserve all other approved edits. Record subsequent content/storyboard/shop/Biz-Box roadmap. |
