@@ -1,0 +1,96 @@
+{
+  "cut": "GARAGE-DREAM-HOMER-WHISPER-20260917.json",
+  "cutSha256": "A2C10B1AE7997302B649040AB06573AC43BBD384EE2FE00030B2E4A2E79B534F",
+  "savedAt": "2026-09-17T14:57:53.991Z",
+  "output": "/home/user/whisper-final/projects/garage-dream/renders/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+  "outputSha256": "8BCE2D477DDF61A3A59B9E25D2326E2578AEFEC9EBF29070B9D2E3A54F0B2935",
+  "bytes": 73281340,
+  "frames": 3070,
+  "seconds": 127.916667,
+  "renderedAt": "2026-09-17T15:02:44.131Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "u": "pass17-before",
+      "id": "pass17-before",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 2843,
+      "mute": true
+    },
+    {
+      "u": "s29-approved",
+      "id": "s29-approved",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true
+    },
+    {
+      "u": "pass17-after",
+      "id": "pass17-after",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 2966,
+      "end": 3072,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "u": "pass17-before",
+      "id": "pass17-before-sound",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 2843,
+      "mute": true,
+      "at": 0,
+      "gain": 0,
+      "link": "pass17-before"
+    },
+    {
+      "u": "s29-approved",
+      "id": "s29-approved-sound",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true,
+      "at": 2843,
+      "gain": 0,
+      "link": "s29-approved"
+    },
+    {
+      "u": "pass17-after",
+      "id": "pass17-after-sound",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 2966,
+      "end": 3072,
+      "mute": true,
+      "at": 2964,
+      "gain": 0,
+      "link": "pass17-after"
+    },
+    {
+      "id": "homer-whisper",
+      "file": "S29/HOMER-whisper-did-I-convert-to-Hindu-RAW.mp3",
+      "folder": "repo-deliveries",
+      "start": 4,
+      "end": 46,
+      "at": 2921,
+      "gain": -10,
+      "link": "s29-approved"
+    }
+  ]
+}
