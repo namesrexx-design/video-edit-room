@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "definitionStatus": "locked_by_owner_request_2026-09-17",
+  "topicModel": "one topic -> multiple angles -> independently reusable content types",
+  "master": {
+    "topicId": "garage-dream",
+    "filename": "GARAGE-DREAM-FINAL-AUDIO-V6-20260917.mp4",
+    "sha256": "76135F02600B5770704AA7CCB35A1DFCE22F9A2269E325696539E0FF840C09B5",
+    "approval": "owner: winner"
+  },
+  "contentTypes": [
+    {
+      "id": "full_episode",
+      "name": "Full story video",
+      "required": [
+        "approved_master",
+        "post_caption"
+      ],
+      "optional": true
+    },
+    {
+      "id": "story_clip",
+      "name": "Film excerpt",
+      "required": [
+        "approved_master",
+        "in_frame",
+        "out_frame",
+        "caption"
+      ],
+      "optional": true,
+      "currentInstruction": "No further clip work requested; previously exported excerpts retained."
+    },
+    {
+      "id": "scrolling_text_voiceover",
+      "name": "Scrolling text + Rexx V3 voice",
+      "required": [
+        "approved_still",
+        "script",
+        "emotion_tags",
+        "voice_take",
+        "text_timing",
+        "caption",
+        "tag_share_cta"
+      ],
+      "voice": {
+        "name": "namesrexx",
+        "id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "defaultEmotion": "nonchalant",
+        "additionalEmotions": [
+          "amused",
+          "warmly",
+          "curious"
+        ]
+      },
+      "visuals": "Existing still, preserved full framing; only text moves. No new scene generation needed.",
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 24,
+        "format": "mp4"
+      }
+    },
+    {
+      "id": "text_carousel",
+      "name": "Text carousel",
+      "required": [
+        "angle",
+        "ordered_cards",
+        "caption",
+        "tag_share_cta"
+      ],
+      "output": {
+        "width": 1080,
+        "height": 1350,
+        "format": "png",
+        "defaultCards": 5
+      },
+      "reuse": "Same script/idea as scrolling content; concise readable slide wording over the same approved still."
+    },
+    {
+      "id": "photo_text_post",
+      "name": "Photo + text post",
+      "required": [
+        "approved_still",
+        "hook",
+        "caption",
+        "tag_share_cta"
+      ],
+      "output": {
+        "width": 1080,
+        "height": 1350,
+        "format": "png"
+      }
+    },
+    {
+      "id": "text_post",
+      "name": "Standalone text post",
+      "required": [
+        "hook",
+        "body",
+        "question",
+        "tag_share_cta"
+      ],
+      "output": {
+        "format": "text"
+      }
+    },
+    {
+      "id": "talking_head_qa",
+      "name": "Rexx question-and-answer",
+      "status": "future_format",
+      "required": [
+        "topic",
+        "question",
+        "owner_recording",
+        "caption"
+      ],
+      "rule": "Use Rexx's actual answers. Do not invent lived experiences or medical advice."
+    }
+  ],
+  "requiredAssetFields": [
+    "assetId",
+    "topicId",
+    "angleId",
+    "contentType",
+    "version",
+    "sourceAsset",
+    "scriptOrCopy",
+    "outputFile",
+    "reviewStatus",
+    "publishingStatus"
+  ],
+  "reviewPolicy": {
+    "formatDefinition": "locked",
+    "newAssets": "needs_owner_review",
+    "publishing": "not_scheduled_or_published"
+  },
+  "angleIds": [
+    "big-dreams",
+    "garage-signs",
+    "the-group",
+    "quick-favor"
+  ],
+  "copy": "POST-COPY.md",
+  "campaign": "CAMPAIGN-20260917.json"
+}
