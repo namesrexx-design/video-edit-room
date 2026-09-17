@@ -1,0 +1,19 @@
+from pathlib import Path
+import json,html,zipfile,re
+P=Path(__file__).resolve().parents[1]
+C=json.loads((P/'source/campaign.json').read_text())
+parts=[]
+for s in C['series']:
+ i=s['id'];slug=s['slug'];name=f'SCROLL-{i}-{slug}-REXX-V3-V2-20260917.mp4'
+ cards=[f'carousels/{i}-{slug}/{n:02d}.png' for n in range(1,6)]
+ parts.append(f'''<section><div class="heading"><span>{i}</span><h2>{html.escape(s['title'])}</h2></div>
+ <div class="formats"><article><h3>Scrolling text + Rexx V3</h3><video controls playsinline preload="metadata" src="scrolls/{name}"></video><a download href="scrolls/{name}">Download MP4</a></article>
+ <article><h3>Five-card carousel</h3><img id="card-{i}" src="{cards[0]}" alt="Carousel {i}, card 1"><div class="controls"><button onclick="slide('{i}',-1)">Previous</button><span id="count-{i}">1 / 5</span><button onclick="slide('{i}',1)">Next</button></div></article>
+ <article><h3>Photo + text</h3><img src="photo-posts/PHOTO-{i}-{slug}.png" alt="Photo post for {html.escape(s['title'])}"><a download href="photo-posts/PHOTO-{i}-{slug}.png">Download PNG</a></article></div></section>''')
+script='const cards='+json.dumps({s['id']:[f'carousels/{s["id"]}-{s["slug"]}/{n:02d}.png' for n in range(1,6)] for s in C['series']})+''';const pos={};function slide(id,d){pos[id]=((pos[id]||0)+d+5)%5;document.getElementById('card-'+id).src=cards[id][pos[id]];document.getElementById('count-'+id).textContent=(pos[id]+1)+' / 5';}'''
+page='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Garage Dream — content preview</title><style>
+*{box-sizing:border-box}body{margin:0;background:#073b42;color:#f6f2e9;font-family:system-ui,sans-serif}main{max-width:1320px;margin:auto;padding:40px 24px}header{padding:20px 0 35px;border-bottom:1px solid #33777d}h1{font-size:clamp(32px,5vw,58px);margin:10px 0}header p{max-width:760px;line-height:1.6;color:#b7d7d9}a{color:#f2ed36}h2{font-size:28px}.heading{display:flex;align-items:center;gap:22px}.heading span{color:#f2ed36;font-size:30px;font-weight:800}.formats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px}article{min-width:0}video,img{display:block;width:100%;background:#092e33;border-radius:8px}video{max-height:640px}h3{font-size:17px;color:#b7d7d9}section{padding:20px 0 40px;border-bottom:1px solid #33777d}.controls{display:flex;justify-content:space-between;align-items:center;margin-top:14px}button{border:1px solid #72aeb4;border-radius:6px;padding:9px 15px;color:#f6f2e9;background:#0d4b54;font:inherit;cursor:pointer}article>a{display:block;margin-top:14px}@media(max-width:750px){.formats{grid-template-columns:1fr}article{max-width:480px;margin:auto;width:100%}}
+</style><main><header><small>LYFE / GARAGE DREAM</small><h1>One topic. Four angles.</h1><p>Existing approved stills, Rexx’s V3 voice, and matching scrolling, carousel, photo and text formats. These are review previews; nothing is posted or scheduled.</p><a href="POST-COPY.md">Open all post copy</a> · <a href="CONTENT-TYPES.json">Reusable content formats</a></header>'''+''.join(parts)+'</main><script>'+script+'</script></html>'
+(P/'START-HERE.html').write_text(page)
+(P/'README.txt').write_text('GARAGE DREAM — CONTENT PREVIEW\n\nOpen START-HERE.html after extracting this folder.\n\nFour angles each have a scrolling MP4 with Rexx eleven_v3 narration, a five-card carousel, a photo/text post, and matching written copy. Film excerpt work is paused per your latest direction. No new character footage was generated for this content.\n\nPOST-COPY.md contains the copy-and-paste captions and standalone posts.\nCONTENT-TYPES.json locks the reusable format definitions. Assets remain for your review; no posts were published. The canonical storyboard source has been updated on the existing draft branch; it is not a live deployment.\n')
+print('Review page ready')
