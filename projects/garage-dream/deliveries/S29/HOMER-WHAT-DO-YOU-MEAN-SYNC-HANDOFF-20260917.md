@@ -1,3 +1,32 @@
+# Current owner-approved picture + whispered aside — 2026-09-17
+
+This supersedes the earlier rejection of Seedance take 1 below. Rexx explicitly approved that picture and requested Homer whisper “Did I convert to Hindu?” during the mouth movement at the end. No second video generation was needed or submitted. Do not restart lip-sync or replace this approved picture without a new owner request.
+
+## Delivered
+
+- Full film: `GARAGE-DREAM-HOMER-WHISPER-20260917.mp4`, 1920×1080 H.264, 24 fps, 3070 frames / 127.916667 seconds, 73,281,340 bytes. SHA-256: `8BCE2D477DDF61A3A59B9E25D2326E2578AEFEC9EBF29070B9D2E3A54F0B2935`.
+- Scene: `S29-HOMER-WHISPER-20260917.mp4`, 121 frames / 5.041667 seconds, 2,518,816 bytes. SHA-256: `9A59E63B61A94884DF1944FA4E2D1AAF7D1BC6AD62B1C3B6DF6595C40ACDE71D`.
+- Both MP4s saved to the existing Drive EDIT_ROOM. Download links delivered in the owner conversation. Public repo intentionally contains no private download tokens or video binaries.
+
+## Exact edit
+
+- Picture is the approved Seedance take `baf1a5f2-3d93-4f9c-bdb6-45125e07b4ac`, browser-compatible 121-frame version. Full frame; no crop or further visual generation.
+- One ElevenLabs v3 speech generation used the saved Garage Dad original comedy voice and `[whispering] Did I convert to Hindu?`. Source `HOMER-whisper-did-I-convert-to-Hindu-RAW.mp3`; SHA-256 `3d4ed85fc7f914464e94e279255e3906c89d276dcc3fd0ac44a2169585e3ff09`.
+- Whisper source frames [4,46) placed at scene frame 78 (3.25 s), gain -10 dB. All three existing lines remain. Whisper is an overlapping quiet aside during Rexx's explanation, ending before the shot ends.
+- Full-film base is the Drive original Pass 17, SHA-256 `42ede1e7087839f117ce5a2c265c2b1dcdf22de22e0da4477ec517fcdc17f9e6`.
+- Replace base frames [2843,2966) with the approved 121-frame take; all other source picture and sound selections retained. Film is two frames / 0.083333 s shorter than Pass 17. Whisper begins at frame 2921 / 121.708333 s.
+- New separate cuts: `cuts/S29-HOMER-WHISPER-20260917.json` and `cuts/GARAGE-DREAM-HOMER-WHISPER-20260917.json`. Sound is on a2 linked to muted v1 blocks. Existing STORYBOARD-FINAL.json was not changed.
+
+## Verification and deployment state
+
+Both renders used the unchanged repository `tools/render-cut.mjs` in the owner-authorized Higgsfield environment. Exact frame counts, full decode and black-frame scan passed; zero black intervals. Downloaded deliverables match renderer hashes and byte sizes. Scene measured peak -10.1 dBFS (no clipping). Visuals remain the owner-approved take; the new mix is ready for owner listening, not a claim of phoneme-perfect lip repair.
+
+This is a delivered MP4 preview, not a deployment to the owner's Hetzner server. Shared server publishing still needs these source media staged through the authorized BizBox media route and the owner-reviewed cut promoted/merged. Do not claim the live player changed. Crowd audio and vertical delivery remain separate next tasks after owner review.
+
+---
+
+## Historical records below (superseded where they conflict with the current owner decision)
+
 # S29 current status — continuous picture approved; lip sync unfinished
 
 ## Active directed edit — submitted after owner's go
