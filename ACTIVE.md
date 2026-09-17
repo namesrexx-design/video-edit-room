@@ -28,4 +28,5 @@ Codex completed 2026-09-17: corrected the S29 handoff to record the approved con
 
 Codex completed 2026-09-17: one Seedance S29 video-edit take rendered and reviewed; closed-mouth listening still fails. Review MP4 saved in EDIT_ROOM; handoff updated with output hashes and QC. Second paid take blocked by automatic approval review pending explicit authorization. No cut changed. Generation-receipt claim released.
 
-| Codex | new S29 whisper cut, full-film whisper review cut, S29 handoff | 2026-09-17 | Owner approved Seedance take 1 and requested whispered 'Did I convert to Hindu?' during final mouth movement. One ElevenLabs whisper generated; no new visual generation. |
+
+Codex completed 2026-09-17: Rexx approved Seedance take 1 and requested the whispered aside. Added 'Did I convert to Hindu?' using one speech generation; delivered S29-HOMER-WHISPER-20260917.mp4 (121 frames, SHA 9A59E63B) and GARAGE-DREAM-HOMER-WHISPER-20260917.mp4 (3070 frames, SHA 8BCE2D47) to EDIT_ROOM and owner chat. Repository cuts, receipts and handoff updated. No second video generation, no live cut promotion or merge. Whisper delivery claim released.
