@@ -1,0 +1,51 @@
+{
+  "frames": 3334,
+  "seconds": 138.91666666666666,
+  "stairs_nature_removed_full_seconds": [
+    10,
+    13.291667
+  ],
+  "late_nature_full_seconds": [
+    98,
+    138.91666666666666
+  ],
+  "late_nature_nominal_rms_dbfs": -38,
+  "dialogue_ducking_on_late_nature": false,
+  "previous_reference_shot_level_dip_removed": true,
+  "final_release_seconds": 0.18,
+  "nature_sources": [
+    "RjQncgx66pZeBRj7Gq23",
+    "2znDf3MVNhZnixwWzUvi",
+    "AAKwsY2TqDDPVUzjZd4z"
+  ],
+  "nature_level_measurements": [
+    {
+      "start": 98.6,
+      "end": 110,
+      "rms_dbfs": -38.0138053894043
+    },
+    {
+      "start": 110,
+      "end": 122,
+      "rms_dbfs": -38.388893127441406
+    },
+    {
+      "start": 122,
+      "end": 134,
+      "rms_dbfs": -38.36797332763672
+    },
+    {
+      "start": 134,
+      "end": 138.73666666666665,
+      "rms_dbfs": -38.506072998046875
+    }
+  ],
+  "checks": {
+    "stairs_exact_pre_nature_soundtrack": true,
+    "other_early_audio_unchanged": true,
+    "no_new_late_nature_before_98": true,
+    "late_existing_mix_preserved": true
+  },
+  "peak_dbfs": -2.11431884765625,
+  "audio_sha256": "14de0d032d11fd0d4d0cba9178e886f25ec966b557c198fc1e287bb1274d4746"
+}
