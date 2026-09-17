@@ -43,4 +43,4 @@ Codex completed2026-09-17: GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4 saved 
 
 Codex completed2026-09-17: owner chose S28 second take679e3bef as winner. Verified complete full assembly D218B655 already contains exact selected take alongside approved wake/Bart. Approval recorded in generation receipt and handoff. No additional generation or duplicate render; approval-record claim released.
 
-| Codex | S24 restrained movement and S27 forehead mark repair | 2026-09-17 | Owner requests calmer Rexx at1:29 and stable blood dot in following Homer reply; preserve approved soundtrack and other fixes. Inspecting exact slots, preparing bounded candidates. |
+| Codex | Final picture receipts and audience emotion mix | 2026-09-17 | Calmer S24 and corrected S27 stills rendered in full F0AEF29B. Owner accepts picture and requests audience emotions for full film and excerpts. Preparing restrained generated/reused reactions with dialogue protection; no live promotion. |
