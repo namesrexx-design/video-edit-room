@@ -20,12 +20,14 @@
       "hook": "Have you ever met someone who says, “I’m going to sell all this”?",
       "cards": [
         "Have you ever met someone who says, “I’m going to sell all this”?",
-        "Garage → spare bedroom → kitchen. Now you’re moving boxes just to sit on the couch.",
-        "There’s a motorcycle on the dining room table. “Not that. That’s worth money.”",
-        "One item. List it, sell it, or let it go. Start by getting your dinner table back.",
+        "First, you lose the garage. Then the spare bedroom.",
+        "Then the kitchen. Now you’re moving boxes just to sit on the couch.",
+        "Next thing you know… there’s a motorcycle on the dining room table.",
+        "You try to help. “Not that. That’s worth money.” Now you’re eating dinner standing up.",
+        "Start with one item. List it, sell it, or let it go. Get your dinner table back.",
         "Have you met someone like this? What’s the most ridiculous thing they’ve kept?"
       ],
-      "cta": "Tag your person. Share it with an offer to help.",
+      "cta": "Share with someone who knows the story.",
       "prompt": "[curious] Have you ever met someone who says, I'm going to sell all this? [nonchalant] First, the pile takes over the garage. Then the spare bedroom. Then the kitchen. Then you're moving boxes just to sit on the couch. [amused] Next thing you know, there's a motorcycle on the dining room table. They ask you to help clear it out. But everything you touch... [insisting] Not that. That's worth money. [dryly] Meanwhile, you're eating dinner standing up. [warmly] Here's where you start. One item. List it, sell it, or let it go. Then do the next one. You don't have to clear the whole house today. Start by getting your dinner table back. [curious] Have you met someone like this? What's the most ridiculous thing they've kept?",
       "segments": [
         "Have you ever met someone who says, “I’m going to sell all this”?",
@@ -45,7 +47,7 @@
       ],
       "caption": "First the garage. Then the spare bedroom. Then the kitchen. Now there’s a motorcycle on the dining room table—and you’re eating dinner standing up. 😅\n\nStart with one item. List it, sell it, or let it go. Get your dinner table back.\n\nHave you met someone like this? What’s the most ridiculous thing they’ve kept? Share this with someone who’ll recognize the story.",
       "textPost": "Have you ever met someone who says, “I’m going to sell all this”?\n\nFirst, the pile takes over the garage.\n\nThen the spare bedroom. Then the kitchen.\n\nThen you’re moving boxes just to sit on the couch.\n\nNext thing you know, there’s a motorcycle on the dining room table.\n\nThey ask you to help clear it out. But everything you touch…\n\n“Not that. That’s worth money.”\n\nMeanwhile, you’re eating dinner standing up.\n\nHere’s where you start. One item.\n\nList it, sell it, or let it go. Then do the next one.\n\nYou don’t have to clear the whole house today.\n\nStart by getting your dinner table back.\n\nHave you met someone like this?\n\nWhat’s the most ridiculous thing they’ve kept?",
-      "cardsRenderStatus": "copy_updated_render_pending"
+      "cardsRenderStatus": "rendered_seven_card_carousel_ready_for_review"
     },
     {
       "id": "02",
@@ -75,7 +77,7 @@
       "photo_text_post",
       "text_post"
     ],
-    "reviewStatus": "script_structure_and_voice_approved_final_assembly_ready_for_playback",
+    "reviewStatus": "video_owner_approved_supporting_posts_ready_for_review",
     "contentFocus": "Recognizable characteristics, traits, habits, issues and problems; each post should trigger recognition without requiring knowledge of the film.",
     "storyStructure": [
       "recognition",
@@ -97,6 +99,11 @@
     "seconds": 37.291667,
     "sha256": "98447D5A40CFA0268D9D88A52A3781D77F262809F217D834E02046AC48679DC6",
     "publishingStatus": "not_published",
-    "nextTask": "Matching carousel, photo/text post and standalone text post using this final script"
+    "nextTask": "Matching carousel, photo/text post and standalone text post using this final script",
+    "ownerApproval": {
+      "message": "perfecto!",
+      "status": "approved",
+      "date": "2026-09-17"
+    }
   }
 }
