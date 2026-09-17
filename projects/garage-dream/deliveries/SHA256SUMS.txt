@@ -5,3 +5,8 @@ a85cc27ee342266068cddc8096160fb74327a80388352afbcffa4acab18cffcc *S09/S09-COMPLE
 24f1fc15003d4ca940e7d7826f5eb77615355be6c4f6a7dccf832623634882c9 *S09/S09-CONVERSATION-REUSED-V34.wav
 d05d4f464fd151b9e1b76fbe57ac8c8418a9c31c59854504e1b4626c1a1989a4 *S09/S09-LIPSYNC-sync_so-e08a6b5a-homer-line.mp4
 ece3eb7f0d7af5a7aebfcc3141fca77919b70d3d9f96f73a83544b147220a491 *S09/S09-RENDER-kling3_0-bb357e3c-5s-silent.mp4
+181650f3437572e1c35f112aa91e0efc61ad531b0a0a64e0adcd29b3484eef5c  S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4
+ca006376be3018decc505f2d0efdadb24e546a45e8ada79f4d611c08fcdfc664  S09/S09-COMPLETE-rear-conversation-full-reply.mp4
+19dff639d4b13f3c18e24016f4d86c2a04939dfc7fce0f7a51ae67802c7c5262  S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4
+c66fce9d82a6f1634d63093defaf764b90979003a050f8eebd8670dbc437c385  S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4
+ce5e8d9dbc129b7f1bcde62a0d3ffb38244e3b8d64b05b0186ffb6ab6285174b  S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4

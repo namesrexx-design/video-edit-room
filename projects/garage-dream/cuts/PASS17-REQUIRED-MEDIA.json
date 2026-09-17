@@ -1,42 +1,50 @@
 {
-  "cut": "STORYBOARD-FINAL-pass17.json",
-  "destinationFolder": "team",
+  "cut": "STORYBOARD-FINAL.json",
+  "destinationFolder": "repo-deliveries",
+  "deliveryMethod": "GitHub, explicitly authorized by owner while connector is unavailable",
   "assets": [
     {
-      "path": "garage-dream/S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
-      "relativeArchivePath": "projects/garage-dream/deliveries/S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
+      "path": "S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
+      "repositoryPath": "projects/garage-dream/deliveries/S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
       "sha256": "181650f3437572e1c35f112aa91e0efc61ad531b0a0a64e0adcd29b3484eef5c",
+      "gitBlobSha": "cbc5124de4db09664e83e87aa605599bc359f28a",
       "bytes": 2051313,
       "scene": "S08"
     },
     {
-      "path": "garage-dream/S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
-      "relativeArchivePath": "projects/garage-dream/deliveries/S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
+      "path": "S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
+      "repositoryPath": "projects/garage-dream/deliveries/S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
       "sha256": "ca006376be3018decc505f2d0efdadb24e546a45e8ada79f4d611c08fcdfc664",
+      "gitBlobSha": "619d17e023a679440b7f674f9a015a178d4539eb",
       "bytes": 1392835,
       "scene": "S09"
     },
     {
-      "path": "garage-dream/S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
-      "relativeArchivePath": "projects/garage-dream/deliveries/S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
+      "path": "S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
+      "repositoryPath": "projects/garage-dream/deliveries/S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
       "sha256": "19dff639d4b13f3c18e24016f4d86c2a04939dfc7fce0f7a51ae67802c7c5262",
+      "gitBlobSha": "fcb9712a4d8413f4adc22d6c9e78ae157746dcb7",
       "bytes": 4089513,
       "scene": "S10"
     },
     {
-      "path": "garage-dream/S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
-      "relativeArchivePath": "projects/garage-dream/deliveries/S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
+      "path": "S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
+      "repositoryPath": "projects/garage-dream/deliveries/S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
       "sha256": "c66fce9d82a6f1634d63093defaf764b90979003a050f8eebd8670dbc437c385",
+      "gitBlobSha": "b8c5c579576574235aa6eb36fc938cf53377fe99",
       "bytes": 3884388,
       "scene": "S24"
     },
     {
-      "path": "garage-dream/S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
-      "relativeArchivePath": "projects/garage-dream/deliveries/S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
+      "path": "S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
+      "repositoryPath": "projects/garage-dream/deliveries/S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
       "sha256": "ce5e8d9dbc129b7f1bcde62a0d3ffb38244e3b8d64b05b0186ffb6ab6285174b",
+      "gitBlobSha": "8fbdbc3c4949996a79295d61af44745efaba7a64",
       "bytes": 3110625,
       "scene": "S29"
     }
   ],
-  "transferVerified": false
+  "githubBlobsVerified": true,
+  "serverAvailabilityVerified": false,
+  "renderVerified": false
 }

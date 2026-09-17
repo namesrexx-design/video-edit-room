@@ -1,7 +1,7 @@
 {
   "format": 2,
-  "name": "STORYBOARD-FINAL pass 17 — corrected scene assembly candidate",
-  "savedAt": "2026-09-17T02:56:11Z",
+  "name": "STORYBOARD-FINAL pass 17 \u2014 corrected scene assembly candidate",
+  "savedAt": "2026-09-17T01:33:47.826957Z",
   "fps": 24,
   "frames": 3072,
   "v1": [
@@ -78,8 +78,8 @@
     {
       "u": "sb_s08",
       "id": "S08",
-      "file": "S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
-      "folder": "repo-deliveries",
+      "file": "garage-dream/S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
+      "folder": "team",
       "start": 0,
       "end": 96,
       "mute": true,
@@ -88,8 +88,8 @@
     {
       "u": "sb_s09",
       "id": "S09",
-      "file": "S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
-      "folder": "repo-deliveries",
+      "file": "garage-dream/S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
+      "folder": "team",
       "start": 0,
       "end": 135,
       "mute": true,
@@ -98,8 +98,8 @@
     {
       "u": "sb_s10",
       "id": "S10",
-      "file": "S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
-      "folder": "repo-deliveries",
+      "file": "garage-dream/S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
+      "folder": "team",
       "start": 15,
       "end": 146,
       "mute": true,
@@ -191,8 +191,8 @@
     {
       "u": "sb_s24",
       "id": "S24",
-      "file": "S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
-      "folder": "repo-deliveries",
+      "file": "garage-dream/S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
+      "folder": "team",
       "start": 0,
       "end": 162,
       "mute": true,
@@ -218,7 +218,7 @@
       "start": 60,
       "end": 110,
       "mute": true,
-      "note": "Rexx: Oh, you got a new Vintage Mart? — picture Seedance d1ca1f7a (Apu listening); sound still the kit line",
+      "note": "Rexx: Oh, you got a new Vintage Mart? \u2014 picture Seedance d1ca1f7a (Apu listening); sound still the kit line",
       "scene": "S27"
     },
     {
@@ -262,7 +262,7 @@
       "start": 0,
       "end": 86,
       "mute": true,
-      "note": "Rexx: take the photos, Homer — Homer and Apu nod, mouths closed (Codex PR #19, owner correction 1:51)",
+      "note": "Rexx: take the photos, Homer \u2014 Homer and Apu nod, mouths closed (Codex PR #19, owner correction 1:51)",
       "scene": "S28"
     },
     {
@@ -273,7 +273,7 @@
       "start": 6,
       "end": 45,
       "mute": true,
-      "note": "Apu: Alright Homer, catch you later (native lip-sync) — opening bump cut (frames 0-5), sound J-cut",
+      "note": "Apu: Alright Homer, catch you later (native lip-sync) \u2014 opening bump cut (frames 0-5), sound J-cut",
       "scene": "S29"
     },
     {
@@ -317,15 +317,15 @@
       "start": 0,
       "end": 46,
       "mute": true,
-      "note": "Rexx: the blood on your forehead — Homer and Apu listen, mouths closed (Codex PR #19, owner correction 2:00)",
+      "note": "Rexx: the blood on your forehead \u2014 Homer and Apu listen, mouths closed (Codex PR #19, owner correction 2:00)",
       "scene": "S29"
     },
     {
       "u": "sb_s29end",
       "id": "S29-V74-END",
       "scene": "S29",
-      "file": "S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
-      "folder": "repo-deliveries",
+      "file": "garage-dream/S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
+      "folder": "team",
       "start": 0,
       "end": 106,
       "mute": true,
@@ -501,7 +501,7 @@
       "sceneSound": true,
       "link": "sb_s19",
       "gain": 7,
-      "note": "Complete original Bart phrase, natural speed, source frames 0–42; excludes trailing extra vocal noise. Starts one frame into S19. Existing horn remains after the phrase."
+      "note": "Complete original Bart phrase, natural speed, source frames 0\u201342; excludes trailing extra vocal noise. Starts one frame into S19. Existing horn remains after the phrase."
     },
     {
       "id": "S23-sound",
@@ -655,7 +655,7 @@
       "end": 1551,
       "at": 1680,
       "gain": -6,
-      "note": "snore 70–72.5 s",
+      "note": "snore 70\u201372.5 s",
       "link": "sb_s18"
     },
     {
@@ -666,7 +666,7 @@
       "end": 1551,
       "at": 1741,
       "gain": -6,
-      "note": "snore 72.5–75 s",
+      "note": "snore 72.5\u201375 s",
       "link": "sb_s18"
     },
     {
@@ -682,8 +682,8 @@
     },
     {
       "id": "S29-V74-END-sound",
-      "file": "S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
-      "folder": "repo-deliveries",
+      "file": "garage-dream/S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
+      "folder": "team",
       "start": 0,
       "end": 106,
       "at": 2966,
@@ -706,5 +706,5 @@
   ],
   "v2": [],
   "parked": [],
-  "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A–S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150–314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board → its overlay dropped; kit lip-sync shows for the two-months-ago line. Pass 9: S27 rebuilt turn by turn — INV052 (owner L1) → kit Rexx reply 212–262 → INV037 (native lip-sync, two months ago) → INV053 (owner jump-in). No wide shot in the middle. Owner: \"after Apu says will this work… I said oh yeah a vintage mart, he says yeah two months, then jump in.\" Pass 10: two-months-ago line = INV051 (owner close-up) instead of INV037. Pass 11: S28 = INV008 (Sep 14 passenger seat) + reminder line; S29 = INV043 → INV044 → INV042 (+kit what-do-you-mean) → INV009 (+kit blood-on-forehead line) → INV050 Blood? (owner: the new ones are in the archive, you are not using them). Pass 12: owner timecode notes — snore cues 61–64 / 70–75; S18 tail = INV049 (V68 wake lip-sync, own sound); S24 tail + S27 Rexx reply = INV004 over-the-shoulder. Pass 13: Codex/owner S27 reply (document your items…) inserted after two-months-ago. Pass 14 (2026-09-16, Codex review): listening OTS (Seedance d1ca1f7a) under Rexx lines; S23 = V74 kit; ending = V74 S29 frames 252–364 (16:9, Blood? + look). | pass 15 (2026-09-16): Codex PR #19 owner corrections — Homer line 1:39, nodding 1:51, silent listeners 2:00, single fist bump. | pass 16 CANDIDATE 2026-09-17: audio-only corrections for dry S08 greeting, clean S16 bed, first snore at frame 1536, complete Bart phrase. Picture replacements and S29 continuity/lips remain unresolved. Not a verified final film. | pass 17: INSERT S08, S09, corrected S10 reveal plus preserved fully-open continuation, complete S24 reflection repair and recovered S29 ending. Farewell precedes one bump. First snore stays at frame 1536. Five required picture sources delivered through repo-deliveries; server render pending; INV044 listener-mouth correction remains unresolved. Do not mark final-approved. | Media delivery repair: owner explicitly authorized these five small H.264 clips in GitHub until connector access is available. Picture timing and audio mix unchanged."
+  "note": "Owner 2026-09-15: \"every video that is in the storyboard right now is what you need to finalize as a final video.\" One clip per in-film card. S04/S06 use the same shots at 1080p with sound (card copies were 640x360 silent). S24 = the 7 s clip made for the approved line. S27 = kit clip (Apu lip-syncs inside) with the owner's three close-ups as picture overlays. Scenes with no video on the card (S29A\u2013S35) are not in this film. Pass 2: per-scene gains from measured source loudness. Pass 5: S27 = kit frames 150\u2013314 (drops the repeated S24 line and the cut-off All right), owner close-ups INV052/INV051 over L1 and the two-months-ago line, INV053 appended with its own sound for Apu's jump-in line. Pass 6: S24 = the owner's new Kling takes (8da02e26 + tail of 4a92122b) under the approved line. Pass 7: S24 +9 dB (embedded line sat at -26.9 LUFS). Pass 8: owner removed INV051 on the board \u2192 its overlay dropped; kit lip-sync shows for the two-months-ago line. Pass 9: S27 rebuilt turn by turn \u2014 INV052 (owner L1) \u2192 kit Rexx reply 212\u2013262 \u2192 INV037 (native lip-sync, two months ago) \u2192 INV053 (owner jump-in). No wide shot in the middle. Owner: \"after Apu says will this work\u2026 I said oh yeah a vintage mart, he says yeah two months, then jump in.\" Pass 10: two-months-ago line = INV051 (owner close-up) instead of INV037. Pass 11: S28 = INV008 (Sep 14 passenger seat) + reminder line; S29 = INV043 \u2192 INV044 \u2192 INV042 (+kit what-do-you-mean) \u2192 INV009 (+kit blood-on-forehead line) \u2192 INV050 Blood? (owner: the new ones are in the archive, you are not using them). Pass 12: owner timecode notes \u2014 snore cues 61\u201364 / 70\u201375; S18 tail = INV049 (V68 wake lip-sync, own sound); S24 tail + S27 Rexx reply = INV004 over-the-shoulder. Pass 13: Codex/owner S27 reply (document your items\u2026) inserted after two-months-ago. Pass 14 (2026-09-16, Codex review): listening OTS (Seedance d1ca1f7a) under Rexx lines; S23 = V74 kit; ending = V74 S29 frames 252\u2013364 (16:9, Blood? + look). | pass 15 (2026-09-16): Codex PR #19 owner corrections \u2014 Homer line 1:39, nodding 1:51, silent listeners 2:00, single fist bump. | pass 16 CANDIDATE 2026-09-17: audio-only corrections for dry S08 greeting, clean S16 bed, first snore at frame 1536, complete Bart phrase. Picture replacements and S29 continuity/lips remain unresolved. Not a verified final film. | pass 17: INSERT S08, S09, corrected S10 reveal plus preserved fully-open continuation, complete S24 reflection repair and recovered S29 ending. Farewell precedes one bump. First snore stays at frame 1536. Asset transfer/server render pending; INV044 listener-mouth correction remains unresolved. Do not mark final-approved."
 }
