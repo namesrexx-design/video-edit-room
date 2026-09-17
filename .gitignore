@@ -31,3 +31,6 @@ projects/garage-dream/source/_backups/
 deploy/.env
 
 deploy/connector/node_modules/
+
+# brand marks the renderers need (intro card logo), kept small
+!tools/brand/*.png
