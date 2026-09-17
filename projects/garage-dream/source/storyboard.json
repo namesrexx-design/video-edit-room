@@ -30057,4 +30057,32 @@
     "notInFilm": "S29A S29B S30–S35 (no video on the card); S25/S26 not on the board",
     "note": "pass 13: S27 Rexx reply (document your items…) inserted"
   }
+,
+  "contentProduction": {
+    "schemaVersion": 1,
+    "topicId": "garage-dream",
+    "formatDefinitionsStatus": "locked_by_owner_request",
+    "registry": "projects/garage-dream/content/CONTENT-TYPES.json",
+    "campaign": "projects/garage-dream/content/CAMPAIGN-20260917.json",
+    "postCopy": "projects/garage-dream/content/POST-COPY.md",
+    "contentTypeIds": [
+      "full_episode",
+      "story_clip",
+      "scrolling_text_voiceover",
+      "text_carousel",
+      "photo_text_post",
+      "text_post",
+      "talking_head_qa"
+    ],
+    "masterApproval": {
+      "topicId": "garage-dream",
+      "filename": "GARAGE-DREAM-FINAL-AUDIO-V6-20260917.mp4",
+      "sha256": "76135F02600B5770704AA7CCB35A1DFCE22F9A2269E325696539E0FF840C09B5",
+      "approval": "owner: winner"
+    },
+    "latestOwnerDirection": "Reuse existing approved still images; no new scene generation or additional film clip work. Preview scrolling content with namesrexx eleven_v3 emotion-tag narration, plus matching carousel, photo and text posts.",
+    "assetReviewStatus": "previews_ready_for_owner_review",
+    "publishingStatus": "not_posted_or_scheduled",
+    "reuseRule": "Each content type stands independently. One topic can have multiple angles and multiple instances of every applicable format."
+  }
 }
