@@ -26,13 +26,15 @@ const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, all) => {
 const DEFAULT_LINES = [
   'The following story is based on real events.',
   'Some scenes are dramatized.',
-  'Names and identities have been changed to protect the privacy of those involved.',
+  'Names and identities have been changed for their protection.',
+  // Rexx 2026-09-17: the card ends on the tag-and-share line
+  'Characters in this story may remind you of someone you know. If they do, tag them and share this with them.',
 ];
 const out = args.out ? resolve(String(args.out)) : null;
 if (!out) { console.error('usage: node tools/intro-card.mjs --out card.mp4 [--size 1920x1080|1080x1920] [--lines "a|b|c"] [--silent]'); process.exit(2); }
 const [W, H] = String(args.size || '1920x1080').split('x').map(Number);
 const lines = args.lines ? String(args.lines).split('|').map((s) => s.trim()).filter(Boolean) : DEFAULT_LINES;
-const SECONDS = Number(args.seconds || 7);
+const SECONDS = Number(args.seconds || (lines.length > 3 ? 10 : 7));
 const vertical = H > W;
 // --theme lyfe (default, Rexx 2026-09-16: "use our logo background so it blends into everything else we do"):
 //   deep teal #073B42 (the page-edge color), cream lettering #FFF9ED, the LYFE cloud fading in above the words.
@@ -48,7 +50,7 @@ const logoGap = LYFE ? Math.round(logoH * 0.18) : 0;
 // layout: lines stacked around the middle; vertical frames wrap long lines
 const size = Math.round((vertical ? W : H) * (vertical ? 0.058 : 0.052));
 const gap = Math.round(size * (vertical ? 2.1 : 1.9));
-const wrapAt = vertical ? 22 : 44;
+const wrapAt = vertical ? 24 : 44;
 const wrap = (s) => {
   const words = s.split(' '); const rows = []; let row = '';
   for (const w of words) { if ((row + ' ' + w).trim().length > wrapAt && row) { rows.push(row); row = w; } else row = (row + ' ' + w).trim(); }
