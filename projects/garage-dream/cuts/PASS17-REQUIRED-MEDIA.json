@@ -1,0 +1,42 @@
+{
+  "cut": "STORYBOARD-FINAL-pass17.json",
+  "destinationFolder": "team",
+  "assets": [
+    {
+      "path": "garage-dream/S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
+      "relativeArchivePath": "projects/garage-dream/deliveries/S08/S08-COMPLETE-corrected-shoes-with-greeting.mp4",
+      "sha256": "181650f3437572e1c35f112aa91e0efc61ad531b0a0a64e0adcd29b3484eef5c",
+      "bytes": 2051313,
+      "scene": "S08"
+    },
+    {
+      "path": "garage-dream/S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
+      "relativeArchivePath": "projects/garage-dream/deliveries/S09/S09-COMPLETE-rear-conversation-full-reply.mp4",
+      "sha256": "ca006376be3018decc505f2d0efdadb24e546a45e8ada79f4d611c08fcdfc664",
+      "bytes": 1392835,
+      "scene": "S09"
+    },
+    {
+      "path": "garage-dream/S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
+      "relativeArchivePath": "projects/garage-dream/deliveries/S10/S10-COMPLETE-garage-reveal-with-approved-audio.mp4",
+      "sha256": "19dff639d4b13f3c18e24016f4d86c2a04939dfc7fce0f7a51ae67802c7c5262",
+      "bytes": 4089513,
+      "scene": "S10"
+    },
+    {
+      "path": "garage-dream/S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
+      "relativeArchivePath": "projects/garage-dream/deliveries/S24/S24-COMPLETE-reflections-fixed-with-approved-line.mp4",
+      "sha256": "c66fce9d82a6f1634d63093defaf764b90979003a050f8eebd8670dbc437c385",
+      "bytes": 3884388,
+      "scene": "S24"
+    },
+    {
+      "path": "garage-dream/S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
+      "relativeArchivePath": "projects/garage-dream/deliveries/S29/S29-COMPLETE-recovered-full16x9-blood-and-look-up.mp4",
+      "sha256": "ce5e8d9dbc129b7f1bcde62a0d3ffb38244e3b8d64b05b0186ffb6ab6285174b",
+      "bytes": 3110625,
+      "scene": "S29"
+    }
+  ],
+  "transferVerified": false
+}
