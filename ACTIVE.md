@@ -64,3 +64,5 @@ Codex completed 2026-09-17: AUDIO-V6 full saved,3334frames/138.916667s,SHA76135F
 
 
 Codex completed 2026-09-17: still-based Garage Dream content previews, four continuous Rexx V3 scrolling MP4s, four five-card carousels, four photo/text posts, complete post copy and reusable CONTENT-TYPES registry. Canonical storyboard contentProduction added with backup; existing scenes preserved. Owner paused additional film clip work. Assets await owner review; no publishing, merge, live deployment or new scene generation. Content-production claim released.
+
+| Codex | General social template, content registry and standalone copy | 2026-09-17 | Owner requested centered larger photo, no name or episode branding, general relatable hooks; project title corrected to Dream Garage. Preparing revised template previews. |
