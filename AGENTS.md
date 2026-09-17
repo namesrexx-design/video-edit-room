@@ -7,10 +7,10 @@ same thing. There should be just one copy that everybody works on of everything
 we do."*
 
 One cut, one master, one board, one queue. A new version replaces the old in
-place; the old goes to . **If it is not on the server it does not
-exist** — check with , which reports what the
+place; the old goes to `_superseded/`. **If it is not on the server it does not
+exist** — check with `GET https://mcp.biz-box.io/state`, which reports what the
 machine actually has, and hand over big files with
-.
+`POST https://mcp.biz-box.io/upload?film=<name>&sha256=<HEX>`.
 This rule exists because ignoring it cost a full day on 2026-09-17.
 
 
