@@ -8,9 +8,9 @@
     "name": "namesrexx",
     "id": "omTQvsWgoQBrcTuWdttm",
     "model": "eleven_v3",
-    "selectedTake": 1,
-    "selectedGenerationId": "gp3gbfNg14ZTFU0hPfL0",
-    "selectionStatus": "voice_identity_approved_new_script_take_pending_review",
+    "selectedTake": 2,
+    "selectedGenerationId": "VQRklBqQqaStnQH5Q43p",
+    "selectionStatus": "owner_approved_current_script_take_2",
     "previousApprovedGenerationId": "gp3gbfNg14ZTFU0hPfL0"
   },
   "angles": [
@@ -44,7 +44,7 @@
         "What’s the most ridiculous thing they’ve kept?"
       ],
       "caption": "First the garage. Then the spare bedroom. Then the kitchen. Now there’s a motorcycle on the dining room table—and you’re eating dinner standing up. 😅\n\nStart with one item. List it, sell it, or let it go. Get your dinner table back.\n\nHave you met someone like this? What’s the most ridiculous thing they’ve kept? Share this with someone who’ll recognize the story.",
-      "textPost": "“I’m going to sell that.”\n\nThe item: still there.\nThe pile: getting bigger.\nThe weekend: always the next one. 😅\n\nKnow someone who could use a hand getting started? Tag them or share this with an offer to help. One box is a start.",
+      "textPost": "Have you ever met someone who says, “I’m going to sell all this”?\n\nFirst, the pile takes over the garage.\n\nThen the spare bedroom. Then the kitchen.\n\nThen you’re moving boxes just to sit on the couch.\n\nNext thing you know, there’s a motorcycle on the dining room table.\n\nThey ask you to help clear it out. But everything you touch…\n\n“Not that. That’s worth money.”\n\nMeanwhile, you’re eating dinner standing up.\n\nHere’s where you start. One item.\n\nList it, sell it, or let it go. Then do the next one.\n\nYou don’t have to clear the whole house today.\n\nStart by getting your dinner table back.\n\nHave you met someone like this?\n\nWhat’s the most ridiculous thing they’ve kept?",
       "cardsRenderStatus": "copy_updated_render_pending"
     },
     {
@@ -75,7 +75,7 @@
       "photo_text_post",
       "text_post"
     ],
-    "reviewStatus": "script_structure_owner_approved_final_render_pending",
+    "reviewStatus": "script_structure_and_voice_approved_final_assembly_ready_for_playback",
     "contentFocus": "Recognizable characteristics, traits, habits, issues and problems; each post should trigger recognition without requiring knowledge of the film.",
     "storyStructure": [
       "recognition",
@@ -88,6 +88,15 @@
     "prohibitedFraming": [
       "worked with",
       "problematic client"
-    ]
+    ],
+    "referenceDelivery": "PILE-ESCALATION-FINAL-20260917.mp4"
+  },
+  "finalDelivery": {
+    "file": "PILE-ESCALATION-FINAL-20260917.mp4",
+    "frames": 895,
+    "seconds": 37.291667,
+    "sha256": "98447D5A40CFA0268D9D88A52A3781D77F262809F217D834E02046AC48679DC6",
+    "publishingStatus": "not_published",
+    "nextTask": "Matching carousel, photo/text post and standalone text post using this final script"
   }
 }
