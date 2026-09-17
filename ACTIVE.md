@@ -30,3 +30,5 @@ Codex completed 2026-09-17: one Seedance S29 video-edit take rendered and review
 
 
 Codex completed 2026-09-17: Rexx approved Seedance take 1 and requested the whispered aside. Added 'Did I convert to Hindu?' using one speech generation; delivered S29-HOMER-WHISPER-20260917.mp4 (121 frames, SHA 9A59E63B) and GARAGE-DREAM-HOMER-WHISPER-20260917.mp4 (3070 frames, SHA 8BCE2D47) to EDIT_ROOM and owner chat. Repository cuts, receipts and handoff updated. No second video generation, no live cut promotion or merge. Whisper delivery claim released.
+
+| Codex | new final audio review cut and audio review receipt | 2026-09-17 | Owner requested pre-sleep Bugatti whisper, Bart exit laugh, wake-up sync review and crowd/effects work. Reuse existing recordings: S16-T2 and AUD014 laugh confirmed. Keep prior approved S29 whisper. |
