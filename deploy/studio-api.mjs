@@ -257,12 +257,15 @@ http.createServer(async (req, res) => {
       if (!/.(mp4|mov)$/i.test(name)) return send(res, 400, { error: 'film must be an .mp4 or .mov name' });
       if (!/^[0-9A-F]{64}$/.test(want)) return send(res, 400, { error: 'sha256 of the file is required, so we can prove what arrived' });
       const dir = path.join(MEDIA, 'team', 'garage-dream', 'FILM'); fs.mkdirSync(dir, { recursive: true });
-      const tmp = path.join(JOBS, 'film-' + crypto.randomBytes(6).toString('hex'));
+      // Stage INSIDE the destination folder. JOBS and MEDIA are separate docker volumes, so a
+      // rename across them throws EXDEV and the upload 500s — which is exactly what happened on the
+      // first real delivery attempt (2026-09-17). A dotfile here is invisible to the media browser.
+      const tmp = path.join(dir, '.incoming-' + crypto.randomBytes(6).toString('hex'));
       const hash = crypto.createHash('sha256'); const w = fs.createWriteStream(tmp); let size = 0;
       req.on('data', (c) => { size += c.length; hash.update(c); if (size > 2e9) req.destroy(); });
       req.pipe(w); await new Promise((ok, bad) => { w.on('finish', ok); w.on('error', bad); });
       const got = hash.digest('hex').toUpperCase();
-      if (got !== want) { fs.unlinkSync(tmp); return send(res, 400, { error: 'hash mismatch, nothing kept', expected: want, got, bytes: size }); }
+      if (got !== want) { try { fs.unlinkSync(tmp); } catch {} return send(res, 400, { error: 'hash mismatch, nothing kept', expected: want, got, bytes: size }); }
       const dest = path.join(dir, name); fs.renameSync(tmp, dest);
       return send(res, 201, { ok: true, path: 'team/garage-dream/FILM/' + name, bytes: size, sha256: got });
     }
