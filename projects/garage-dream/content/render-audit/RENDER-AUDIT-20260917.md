@@ -18,13 +18,13 @@ The separate V6 cut also points at FILM/PRIOR-FULL.mp4 and AUDIO/GARAGE-DREAM-FU
 - Preview identity uses the effective rendering fields, renderer code and source versions, instead of commit SHA alone.
 - Unchanged inputs reuse the previous verified file and hash.
 - Each new preview verifies the requested cut hash against the renderer receipt and the copied film against its output hash.
-- If rendering inputs change but the output hash stays identical, preview readiness fails closed.
+- If the effective timeline or source versions change but the output hash stays identical, preview readiness fails closed.
 - Receipts beside previews record sourceTimeline, commit, cutSha256, source versions, rendererSha256, outputSha256, MD5, frames and bytes.
-- The fix is on fix/render-provenance-social-delivery-20260917. This non-agent branch is deliberately outside the faulty agent-preview watcher. No main merge or deployment was performed.
+- The fix is on fix/studio-preview-provenance-20260917. This non-agent branch is deliberately outside the faulty agent-preview watcher. No main merge or deployment was performed.
 
 ## Verification completed
 
-Six Node tests pass. The actual native renderer was also run on isolated synthetic footage: changing the cut from 24 to 23 frames changed output SHA256 from 0FCFA129135085F19A16A305D49B3E5847C11A529DA9F4FBB266625232DFBCB2 to 45C6ACEF6B90A38BEA6C4AD1E43FD250BB2BB60E3BEAC552162DC67F7BEFA601. See LOCAL-TIMELINE-PROOF.json. This proves the local renderer responds to edits; it does not certify the deployed server watcher.
+Seven Node tests pass. The actual native renderer was also run on isolated synthetic footage: changing the cut from 24 to 23 frames changed output SHA256 from 0FCFA129135085F19A16A305D49B3E5847C11A529DA9F4FBB266625232DFBCB2 to 45C6ACEF6B90A38BEA6C4AD1E43FD250BB2BB60E3BEAC552162DC67F7BEFA601. See LOCAL-TIMELINE-PROOF.json. This proves the local renderer responds to edits; it does not certify the deployed server watcher.
 
 ## Still blocked: server gate and delivery
 
