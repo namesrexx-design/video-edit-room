@@ -146,16 +146,30 @@
   "copy": "POST-COPY.md",
   "campaign": "CAMPAIGN-20260917.json",
   "publicTemplate": {
-    "definitionVersion": 2,
+    "definitionVersion": 3,
     "templateId": "centered-photo-general-v1",
-    "definitionStatus": "owner_requested_revision",
-    "assetReviewStatus": "candidate_for_owner_review",
+    "definitionStatus": "owner_approved_recognition_escalation_resolution_structure",
+    "assetReviewStatus": "final assembled video pending owner playback",
     "projectDisplayTitle": "Dream Garage",
     "showEpisodeTitle": false,
     "showOwnerName": false,
     "showLyfeText": false,
-    "copyStyle": "General relatable habits. No film characters, scene-dependent jokes or need to watch the film.",
+    "copyStyle": "General everyday traits and habits; no work/client framing. Escalate the problem, then give a practical resolution that answers it.",
     "composition": "Large centered owner portrait on teal, native editable cream headlines, yellow restrained accent; text may sit in front without obscuring face.",
-    "source": "projects/garage-dream/content/GENERAL-TEMPLATE-V1.json"
+    "source": "projects/garage-dream/content/GENERAL-TEMPLATE-V1.json",
+    "storyStructure": [
+      "Have you ever met someone",
+      "recognizable behavior",
+      "escalating consequences",
+      "absurd payoff",
+      "practical resolution",
+      "audience question"
+    ],
+    "latestVideo": "PILE-ESCALATION-FINAL-20260917.mp4",
+    "voiceApproval": {
+      "take": 2,
+      "generationId": "VQRklBqQqaStnQH5Q43p",
+      "ownerApproved": true
+    }
   }
 }
