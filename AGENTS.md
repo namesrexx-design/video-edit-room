@@ -9,6 +9,13 @@ Rexx: "add it for them, that's why we keep making mistakes." You only need GitHu
 | A change to `projects/garage-dream/cuts/STORYBOARD-FINAL.json` reaches `main` | The server also renders the live film, cuts the scene clips, copies the film to cloud storage and commits the receipt. The newest film plays at the top of the storyboard page |
 | Upload media with the BizBox connector (below) | Within about a minute it is in the server's media folder `team`, ready for a cut |
 
+## 0. 🔴 All work is done on our server (Rexx, 2026-09-16)
+
+- **GitHub** holds every change first. **Our Hetzner server** runs everything (website, API, database, logins, jobs, media tools). Media goes to Cloudflare R2.
+- **Base44 is being retired.** Do not create new Base44 entities, functions or workflows for new work. Until the switch-over, Base44 only mirrors files from this repo.
+- Secrets never go in the repo or chat; server secrets live in root-only `.env` files on the server.
+- Full rule and the move-off-Base44 plan: `.claude/skills/server-first/SKILL.md` in the Claude Code Build workspace (mirrored in `docs/SERVER-FIRST.md` here).
+
 ## Media: never push big video into this public repo
 Pushing media here makes your platform stop and ask Rexx. Instead use the **BizBox connector** (MCP over HTTP):
 - Address: `https://mcp.biz-box.io/mcp`, header `Authorization: Bearer <key>`. The key is in your environment secrets as `BIZBOX_TEAM_KEY` (Rexx adds it; never print it, never commit it).
