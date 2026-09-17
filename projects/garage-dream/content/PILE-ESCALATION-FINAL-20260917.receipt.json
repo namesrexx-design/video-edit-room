@@ -1,0 +1,45 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "cut": "PILE-ESCALATION-FINAL-20260917.json",
+  "cutSha256": "6830860E74FF6BAA2EFF51AE6BDE52805BA0E0749B3C89DB7532BC629371E373",
+  "savedAt": "2026-09-17T00:00:00Z",
+  "output": "/workspace/scratch/4303b66e0210/content-pile-final/projects/garage-dream/renders/PILE-ESCALATION-FINAL-20260917.mp4",
+  "outputSha256": "98447D5A40CFA0268D9D88A52A3781D77F262809F217D834E02046AC48679DC6",
+  "bytes": 3336680,
+  "frames": 895,
+  "seconds": 37.291667,
+  "renderedAt": "2026-09-17T20:44:14.035Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "id": "general-pile",
+      "u": "general-pile",
+      "scene": "GENERAL",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/PILE-ESCALATION-PICTURE.mp4",
+      "start": 0,
+      "end": 895,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "general-pile-audio",
+      "u": "general-pile-audio",
+      "link": "general-pile",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/PILE-ESCALATION-VOICE.wav",
+      "start": 0,
+      "end": 895,
+      "at": 0,
+      "gain": 0
+    }
+  ],
+  "selectedVoiceTake": 2,
+  "selectedGenerationId": "VQRklBqQqaStnQH5Q43p",
+  "voiceOwnerApproved": true,
+  "assemblyOwnerApproval": "awaiting_playback",
+  "visualCheck": "Opening, motorcycle payoff and resolution frames inspected; text fits and centered portrait preserved."
+}
