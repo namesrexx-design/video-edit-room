@@ -6,7 +6,7 @@
 // Client stories are never introduced by name in public; real client interviews live only in the pitch deck.
 // Do NOT put this card on Rexx's own story (his real name is used there, so "names have been changed" is false).
 //
-//   node tools/intro-card.mjs --out card.mp4 [--size 1920x1080|1080x1920] [--lines "a|b|c"] [--theme lyfe|noir] [--silent] [--seconds 7]
+//   node tools/intro-card.mjs --out card.mp4 [--size 1920x1080|1080x1920] [--lines "a|b|c"] [--theme lyfe|noir] [--hum strong|soft] [--vo voice.mp3] [--silent] [--seconds 7]
 //
 // Picture (--theme noir): black film ground with grain and a vignette, typewriter face (Special Elite, Apache-2.0, tools/fonts),
 // each line fades in on its own beat. Sound: a quiet low drone made here (no music, nothing to be claimed).
@@ -92,9 +92,28 @@ const finish = `ass='${esc(assPath)}':fontsdir='${esc(FONTS)}',fade=t=in:st=0:d=
 const video = LYFE
   ? `${ground}[g];movie='${esc(LOGO)}',scale=-1:${logoH},format=rgba,loop=loop=-1:size=1,trim=duration=${SECONDS},setpts=N/24/TB,fade=t=in:st=0.2:d=1.2:alpha=1[l];[g][l]overlay=x=(W-w)/2:y=${logoTop}:shortest=1,${finish}`
   : `${ground},${finish}`;
-const drone = `sine=f=55:d=${SECONDS}[a1];sine=f=110:d=${SECONDS}[a2];sine=f=164.8:d=${SECONDS},volume=0.5[a3];[a1][a2][a3]amix=inputs=3,volume=2.2,lowpass=f=600,afade=t=in:d=1.2,afade=t=out:st=${SECONDS - 1.4}:d=1.4,aformat=sample_rates=48000:channel_layouts=stereo[a]`;
-const silence = `anullsrc=r=48000:cl=stereo,atrim=0:${SECONDS}[a]`;
-const r = spawnSync('ffmpeg', ['-y', '-v', 'error', '-filter_complex', `${video};${args.silent ? silence : drone}`,
+// --hum soft: the first low drone. --hum strong (default, Rexx 2026-09-16: "increase the buzzing and vibrating noise"):
+//   two low tones a hair apart so they beat (the slow wobble), a filtered square-wave buzz with a fast tremolo (the
+//   vibration), a brown-noise rumble underneath, and the whole bed swelling up across the card.
+// --vo <audio>: a voiceover read of the card, laid in at 0.4 s with the bed ducked under it.
+const HUM = String(args.hum || 'strong');
+const tail = `afade=t=in:d=1.0,afade=t=out:st=${SECONDS - 1.4}:d=1.4,aformat=sample_rates=48000:channel_layouts=stereo`;
+const soft = `sine=f=55:d=${SECONDS}[a1];sine=f=110:d=${SECONDS}[a2];sine=f=164.8:d=${SECONDS},volume=0.5[a3];[a1][a2][a3]amix=inputs=3,volume=2.2,lowpass=f=600,${tail}`;
+const strong = [
+  `sine=f=55:d=${SECONDS}[h1]`,
+  `sine=f=55.7:d=${SECONDS}[h2]`,
+  `sine=f=110:d=${SECONDS},volume=0.6[h3]`,
+  `aevalsrc='0.35*sgn(sin(2*PI*82.4*t))':s=48000:d=${SECONDS},lowpass=f=700,tremolo=f=9:d=0.7[buzz]`,
+  `anoisesrc=color=brown:amplitude=0.6:d=${SECONDS}:r=48000,lowpass=f=160[rum]`,
+  `[h1][h2][h3][buzz][rum]amix=inputs=5:normalize=0,volume='0.55+0.45*t/${SECONDS}':eval=frame,acompressor=threshold=0.5:ratio=3,${tail}`,
+].join(';');
+const bed = HUM === 'soft' ? soft : strong;
+const silence = `anullsrc=r=48000:cl=stereo,atrim=0:${SECONDS}`;
+const VO = args.vo ? resolve(String(args.vo)) : null;
+const audio = VO
+  ? `${args.silent ? silence : bed}[bed];amovie='${esc(VO)}',aformat=sample_rates=48000:channel_layouts=stereo,adelay=400|400,apad,atrim=0:${SECONDS},volume=1.6,asplit=2[vo][key];[bed][key]sidechaincompress=threshold=0.05:ratio=4:attack=20:release=400[ducked];[ducked][vo]amix=inputs=2:normalize=0,alimiter=limit=0.9[a]`
+  : `${args.silent ? silence : bed}[a]`;
+const r = spawnSync('ffmpeg', ['-y', '-v', 'error', '-filter_complex', `${video};${audio}`,
   '-map', '[v]', '-map', '[a]', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv',
   '-c:a', 'aac', '-b:a', '192k', '-t', String(SECONDS), '-movflags', '+faststart', out], { stdio: 'inherit' });
 if (r.status !== 0) process.exit(r.status || 1);
