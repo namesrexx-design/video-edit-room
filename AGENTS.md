@@ -1,5 +1,19 @@
 # START HERE: how your work goes live by itself (2026-09-16)
 
+## 🔴 READ [ONE-COPY.md](ONE-COPY.md) FIRST — Rexx, 2026-09-17
+
+*"Everybody's working on the same thing, but they're all working on a different
+same thing. There should be just one copy that everybody works on of everything
+we do."*
+
+One cut, one master, one board, one queue. A new version replaces the old in
+place; the old goes to . **If it is not on the server it does not
+exist** — check with , which reports what the
+machine actually has, and hand over big files with
+.
+This rule exists because ignoring it cost a full day on 2026-09-17.
+
+
 Rexx: "add it for them, that's why we keep making mistakes." You only need GitHub. The studio server does the rest.
 
 | You do | What happens by itself |
