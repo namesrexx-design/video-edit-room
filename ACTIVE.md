@@ -70,3 +70,5 @@ Codex completed 2026-09-17: general centered-photo template previews saved: two 
 
 
 Codex completed 2026-09-17: PILE-ESCALATION-FINAL-20260917.mp4 saved, 895 frames / 37.291667s, SHA98447D5A. Owner explicitly chose new voice take 2 VQRklBqQqaStnQH5Q43p. Script escalates garage to dining-table motorcycle, resolves with one item and dinner table restored, and ends with audience question. Whole continuous V3 take, synced native text, centered existing portrait. Full decode/frame count/black scan passed; final -17.1LUFS, -5.0dBTP. Production pack saved; cuts, receipts, timing, template and storyboard updated. Script structure and voice approved; assembled video delivered for owner playback. Next: matching carousel/photo/text posts from final script; prior cards predate this revision. No publishing, scheduling, merge, live promotion or Drive write. Claim released.
+
+| Codex | Approved pile video record and matching carousel/photo/text posts | 2026-09-17 | Owner approved video with perfecto; now adapting escalating story into supporting posts, emphasizing recognition, swipe progression and story comments. |
