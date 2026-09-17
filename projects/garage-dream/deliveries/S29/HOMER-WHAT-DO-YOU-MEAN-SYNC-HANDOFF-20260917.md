@@ -9,7 +9,13 @@
 - Owner approved this first directed-edit test. A second take must follow inspection and a specific identified defect; no second take has been submitted.
 - Prompt preserves the complete shot and identities, assigns Apu's question to 0.00–1.84s, Homer's reply to 2.36–2.74s, and the off-camera Rexx explanation to 3.20–4.64s; requests closed listener mouths and one small smooth Homer turn toward Rexx.
 - This is a generative video edit, NOT a manual face-selection lipsync run. Exact synchronization remains to be checked in the returned export.
-- Current status: in progress; no completed output or full-film update yet. Resume this job rather than submitting a duplicate.
+- Current status: completed and reviewed; REJECTED AS FINAL. Preserve this result as a test, not as a finished repair.
+- Output: S29-seedance-take1-baf1a5f2-RAW.mp4, 1920×1080, 24 fps, 121 frames / 5.041667 seconds, HEVC Main10. Source had 123 frames. Raw SHA-256: ec8efe196f1cb8de49d627fbb89108db79f284e28f09dd583e58d0ed5491086f.
+- Dialogue is still present at approximately the requested times (ASR: Apu0.00–1.82, Homer2.38–2.76, Rexx3.24–4.70). This does not prove mouth synchronization.
+- Full-frame visual inspection shows Homer's mouth still open during Rexx's explanation, including3.6s; the required closed-mouth listening correction did not pass. Do not report the scene fixed.
+- Browser-compatible review: S29-TAKE1-REVIEW-NOT-FINAL.mp4, saved in EDIT_ROOM. SHA-256 ea8cffcfdc9d5dea1cfa0573bb66485174eacfaf3252579c877fbfed65746b26. Full decode passed. Conversion changes compatibility only, not performance.
+- Second targeted paid take was attempted but blocked before submission by automatic approval review: the owner's go was interpreted as initial-attempt authorization only. No second job exists. Explicit approval of another approximately46.12-credit Higgsfield edit is required before retrying.
+- Prepared revision targets the original full-frame input69720276-104e-420b-80ad-ce41e569c18a, not the first generated result: Homer lips fully closed0.00–2.35; speak only2.36–2.74; closed2.75–end; one small turn toward Rexx at3.20 then hold gaze. Apu alone speaks0.00–1.84. Preserve all voices, scene content and framing. No full-film change.
 
 ## Current owner instructions (2026-09-17)
 
