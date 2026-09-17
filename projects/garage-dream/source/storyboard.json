@@ -30056,8 +30056,7 @@
     "order": "S01 S02 S03 S04 S05 S06 S07 S08 S09 S10 S14 S16 S17 S18 S19 S23 S24 S27(+3 owner close-ups) S28 S29",
     "notInFilm": "S29A S29B S30–S35 (no video on the card); S25/S26 not on the board",
     "note": "pass 13: S27 Rexx reply (document your items…) inserted"
-  }
-,
+  },
   "contentProduction": {
     "schemaVersion": 1,
     "topicId": "garage-dream",
@@ -30080,9 +30079,25 @@
       "sha256": "76135F02600B5770704AA7CCB35A1DFCE22F9A2269E325696539E0FF840C09B5",
       "approval": "owner: winner"
     },
-    "latestOwnerDirection": "Reuse existing approved still images; no new scene generation or additional film clip work. Preview scrolling content with namesrexx eleven_v3 emotion-tag narration, plus matching carousel, photo and text posts.",
+    "latestOwnerDirection": "Correct project display title to Dream Garage; no episode title, LYFE text or owner name on general public templates. Identify relatable traits/habits/issues/problems, then a useful observation and tag/share CTA. Owner selected first V3 voice take for general pile preview.",
     "assetReviewStatus": "previews_ready_for_owner_review",
     "publishingStatus": "not_posted_or_scheduled",
-    "reuseRule": "Each content type stands independently. One topic can have multiple angles and multiple instances of every applicable format."
-  }
+    "reuseRule": "Each content type stands independently. One topic can have multiple angles and multiple instances of every applicable format.",
+    "projectDisplayTitle": "Dream Garage",
+    "templateDirection": {
+      "template": "projects/garage-dream/content/GENERAL-TEMPLATE-V1.json",
+      "publicLabels": [],
+      "composition": "Larger centered portrait. Native text may sit in front of the photo without obscuring face.",
+      "contentFocus": "Recognizable characteristics, traits, habits, issues and problems. Each post helps viewers recognize someone they know. No episode dependence.",
+      "voiceSelection": {
+        "generationId": "gp3gbfNg14ZTFU0hPfL0",
+        "take": 1,
+        "ownerApproved": true,
+        "voice": "namesrexx",
+        "model": "eleven_v3"
+      },
+      "reviewStatus": "centered template preview"
+    }
+  },
+  "displayTitle": "Dream Garage"
 }
