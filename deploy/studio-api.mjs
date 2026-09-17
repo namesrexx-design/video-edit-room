@@ -209,6 +209,25 @@ http.createServer(async (req, res) => {
       const films = fs.readdirSync(path.join(EDITOR, 'films')).filter(f => f.endsWith('.mp4')).sort().reverse();
       return send(res, 200, { ok: true, busy: running ? view(running) : null, queued: queue.length, film: films[0] ? '/editor/films/' + films[0] : null });
     }
+    // /api/state — what this machine ACTUALLY has, for any agent working on this project.
+    // WHY: two agents shared a repo but not reality. One reported files as delivered that were never
+    // here, and three identical previews looked like progress for a day. A document holds claims; this
+    // holds facts, so neither of us has to take the other's word for it.
+    if (req.method === 'GET' && p === '/state') {
+      const sha = (f) => { try { return crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex').toUpperCase().slice(0, 16); } catch { return null; } };
+      const listDir = (dir) => { try { return fs.readdirSync(dir).filter((f) => !f.startsWith('.')).map((f) => { const st = fs.statSync(path.join(dir, f)); return { file: f, bytes: st.size, at: st.mtime.toISOString(), sha256_16: st.size < 4e8 ? sha(path.join(dir, f)) : 'too big to hash on request' }; }); } catch { return []; } };
+      const previews = listDir(path.join(EDITOR, 'previews')).filter((f) => f.file.endsWith('.mp4')).sort((a, b) => b.at.localeCompare(a.at)).slice(0, 6);
+      const identical = previews.length > 1 && new Set(previews.map((p2) => p2.sha256_16)).size === 1;
+      return send(res, 200, {
+        now: new Date().toISOString(),
+        film_folder: listDir(path.join(MEDIA, 'team', 'garage-dream', 'FILM')),
+        merch_folder: listDir(path.join(MEDIA, 'team', 'merch')),
+        previews,
+        warning: identical ? 'the last previews are byte-identical — a render is not picking up changes' : null,
+        watched_cut: (() => { const f = path.join(REPO, 'projects/garage-dream/cuts/STORYBOARD-FINAL.json'); try { const j = JSON.parse(fs.readFileSync(f, 'utf8')); return { name: j.name, frames: j.frames, sha256_16: sha(f), references: (j.v1 || []).map((c) => c.folder + '/' + c.file) }; } catch { return null; } })(),
+        jobs: jobs.slice(-5).map(view),
+      });
+    }
     if (req.method === 'GET' && p === '/jobs') return send(res, 200, jobs.map(view));
     if (req.method === 'GET' && p.startsWith('/jobs/')) {
       const j = jobs.find(x => x.id === p.slice(6)); if (!j) return send(res, 404, { error: 'no such job' });
