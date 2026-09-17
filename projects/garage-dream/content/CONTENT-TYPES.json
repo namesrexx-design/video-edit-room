@@ -6,7 +6,8 @@
     "topicId": "garage-dream",
     "filename": "GARAGE-DREAM-FINAL-AUDIO-V6-20260917.mp4",
     "sha256": "76135F02600B5770704AA7CCB35A1DFCE22F9A2269E325696539E0FF840C09B5",
-    "approval": "owner: winner"
+    "approval": "owner: winner",
+    "displayTitle": "Dream Garage"
   },
   "contentTypes": [
     {
@@ -53,7 +54,7 @@
           "curious"
         ]
       },
-      "visuals": "Existing still, preserved full framing; only text moves. No new scene generation needed.",
+      "visuals": "Centered still portrait on full canvas; only text moves. Use general topic copy, no name or episode labels.",
       "output": {
         "width": 1080,
         "height": 1920,
@@ -76,7 +77,7 @@
         "format": "png",
         "defaultCards": 5
       },
-      "reuse": "Same script/idea as scrolling content; concise readable slide wording over the same approved still."
+      "reuse": "Same general idea/script as scrolling post, concise readable cards with a larger centered portrait."
     },
     {
       "id": "photo_text_post",
@@ -143,5 +144,18 @@
     "quick-favor"
   ],
   "copy": "POST-COPY.md",
-  "campaign": "CAMPAIGN-20260917.json"
+  "campaign": "CAMPAIGN-20260917.json",
+  "publicTemplate": {
+    "definitionVersion": 2,
+    "templateId": "centered-photo-general-v1",
+    "definitionStatus": "owner_requested_revision",
+    "assetReviewStatus": "candidate_for_owner_review",
+    "projectDisplayTitle": "Dream Garage",
+    "showEpisodeTitle": false,
+    "showOwnerName": false,
+    "showLyfeText": false,
+    "copyStyle": "General relatable habits. No film characters, scene-dependent jokes or need to watch the film.",
+    "composition": "Large centered owner portrait on teal, native editable cream headlines, yellow restrained accent; text may sit in front without obscuring face.",
+    "source": "projects/garage-dream/content/GENERAL-TEMPLATE-V1.json"
+  }
 }
