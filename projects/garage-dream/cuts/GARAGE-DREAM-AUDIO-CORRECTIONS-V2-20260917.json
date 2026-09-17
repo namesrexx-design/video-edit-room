@@ -1,0 +1,111 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917",
+  "savedAt": "2026-09-17T15:59:07.384Z",
+  "note": "Owner correction: three recorded Bugatti whispers across58s–63.5s, first wake sentence begins77s, beach sentence remains at original timing, Bart exit laugh repeats. Approved picture unchanged; no new generation. Replaces old single whisper via clean Rexx stem. Original review preserved.",
+  "v1": [
+    {
+      "u": "approved-review",
+      "id": "approved-review",
+      "scene": "FILM",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+      "start": 0,
+      "end": 3070,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-start",
+      "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 1391,
+      "at": 0,
+      "gain": 0,
+      "link": "approved-review"
+    },
+    {
+      "id": "clean-Rexx-sleep-dialogue",
+      "file": "AUDIO/S10-T2.mp3",
+      "folder": "repo-deliveries",
+      "start": 281,
+      "end": 421,
+      "at": 1391,
+      "gain": 2,
+      "link": "approved-review"
+    },
+    {
+      "id": "Bugatti-whisper-1",
+      "file": "AUDIO/AUD018.mp3",
+      "folder": "repo-deliveries",
+      "start": 1,
+      "end": 22,
+      "at": 1406,
+      "gain": 4,
+      "link": "approved-review"
+    },
+    {
+      "id": "Bugatti-whisper-2",
+      "file": "AUDIO/AUD018.mp3",
+      "folder": "repo-deliveries",
+      "start": 24,
+      "end": 42,
+      "at": 1458,
+      "gain": 4,
+      "link": "approved-review"
+    },
+    {
+      "id": "Bugatti-whisper-3",
+      "file": "AUDIO/AUD018.mp3",
+      "folder": "repo-deliveries",
+      "start": 45,
+      "end": 64,
+      "at": 1500,
+      "gain": 4,
+      "link": "approved-review"
+    },
+    {
+      "id": "snore-dream-through-Doh",
+      "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 1536,
+      "end": 1848,
+      "at": 1536,
+      "gain": 0,
+      "link": "approved-review"
+    },
+    {
+      "id": "wake-first-line-at77",
+      "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 1875,
+      "end": 1903,
+      "at": 1848,
+      "gain": 0,
+      "link": "approved-review"
+    },
+    {
+      "id": "beach-and-rest-original-timing",
+      "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 1903,
+      "end": 3070,
+      "at": 1903,
+      "gain": 0,
+      "link": "approved-review"
+    },
+    {
+      "id": "Bart-extra-exit-laugh",
+      "file": "AUDIO/AUD014.mp3",
+      "folder": "repo-deliveries",
+      "start": 49,
+      "end": 63,
+      "at": 2018,
+      "gain": 7,
+      "link": "approved-review"
+    }
+  ]
+}
