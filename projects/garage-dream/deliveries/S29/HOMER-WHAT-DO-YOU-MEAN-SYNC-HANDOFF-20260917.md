@@ -1,3 +1,41 @@
+# S29 current status — continuous picture approved; lip sync unfinished
+
+## Current owner instructions (2026-09-17)
+
+- Preserve the approved continuous Higgsfield shot. Do not crop the frame or revert to the rejected Pass 19 montage below.
+- Apu speaks while pointing at Homer's forehead. Homer must be silent during Apu's line.
+- Homer alone says “What do you mean?” with matching lips.
+- During Rexx's explanation, Homer looks toward Rexx and both visible men remain silent.
+- Use the existing Higgsfield and GitHub/server workflow. The separate Sync Studio login route was abandoned at the owner's correction; no media was uploaded there and no job was started there.
+
+## Approved picture and available inputs
+
+- Higgsfield Kling generation: c50ec25c-f761-4463-bc8b-558b71b6d73c.
+- Raw file: S29-continuous-c50ec25c-raw.mp4 (1916×1080, 24 fps, 121 frames).
+- Conformed review file: S29-continuous-review-SYNC-NOT-APPROVED.mp4 (1920×1080, 24 fps, 123 frames / 5.125 seconds).
+- Original dialogue: S29-original-dialogue-123f.wav (48 kHz stereo, 5.125 seconds).
+- The continuous review is in the existing EDIT_ROOM delivery location. Its filename deliberately marks sync as unapproved. It is not a finished film.
+
+## Measured timing / remaining defect
+
+Local speech recognition estimated the original Apu question at 0.00–1.84 s, Homer at 2.36–2.74 s, and Rexx at 3.20–4.64 s. The generated native soundtrack instead places Homer at 3.84–4.70 s. These are audio estimates, not proof of visual synchronization. Moving only Homer's original audio later would collide with Rexx's explanation and exceed the scene duration if the explanation were delayed as well. Do not drop dialogue or label such a shift finished.
+
+Full-film replacement range remains [2843,2966) at 24 fps (118.458333–123.583333 s). No full film has been updated with the continuous take. Final duration and any timing changes require review; preserve the accepted master until the repair passes visual playback.
+
+## Available tool findings
+
+Higgsfield exposes Sync Lipsync 3 as model sync_so. It accepts video and audio references, with sync_mode options bounce, loop, cut_off, silence, remap. Its exposed schema has no speaker/face selector. Do not invent a face-selection parameter or claim a person was selected when only automatic detection ran. Higgsedit can move audio and compose frames; its inspected commands do not establish a generative lip-sync feature.
+
+The checked video-edit-room main-branch connector implements convert_video, remove_background, and render_storyboard; no targeted lip-sync job is implemented there. The existing render-cut.mjs positions sound through a2.at and assembles the film. Generation and final rendering are separate steps.
+
+No new lip-sync job was submitted in this continuation. Next operator must establish a supported full-frame speaker-targeting path, preserve the original dialogue, verify the resulting mouths during each speaker's line and silence, then deliver through the server pipeline with a receipt. Do not spend on a blind multi-face run under the claim of having selected Homer.
+
+## Rejected history — retained only for traceability
+
+The Pass 19 record below is superseded. Rexx rejected its discontinuous picture. Its old “ready for approval” statement is historical and must not be treated as the current status. Crowd audio comes after the S29 repair is approved.
+
+---
+
 # Pass 19 S29 dialogue-continuity correction — 2026-09-17
 
 ## Owner correction
