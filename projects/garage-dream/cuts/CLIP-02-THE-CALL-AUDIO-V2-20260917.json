@@ -1,0 +1,19 @@
+{
+  "format": 2,
+  "name": "CLIP-02-THE-CALL-AUDIO-V2-20260917",
+  "savedAt": "2026-09-17T18:12:05.139Z",
+  "note": "Updated excerpt from owner final audio V2. Full source includes 240-frame intro; excerpt excludes it. No crop.",
+  "v1": [
+    {
+      "id": "CLIP-02-THE-CALL-AUDIO-V2-20260917",
+      "u": "CLIP-02-THE-CALL-AUDIO-V2-20260917",
+      "scene": "EXCERPT",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-FINAL-AUDIO-V2-20260917.mp4",
+      "start": 240,
+      "end": 983
+    }
+  ],
+  "v2": [],
+  "a2": []
+}
