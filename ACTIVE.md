@@ -67,3 +67,5 @@ Codex completed 2026-09-17: still-based Garage Dream content previews, four cont
 
 
 Codex completed 2026-09-17: general centered-photo template previews saved: two photo posts, two five-card carousels, one 26.083333s scrolling MP4 using owner-approved first namesrexx V3 take gp3gbfNg14ZTFU0hPfL0. General copy, preview and editable-source packages saved. Project display title corrected to Dream Garage; public template has no owner/episode/LYFE labels. Canonical storyboard backed up and content registry updated. Render full decode/frame count/black scan passed. Layout/copy await owner review; no posting, scheduling, merge, live promotion or Drive write. General-template claim released.
+
+| Codex | General pile escalation final and reusable structure | 2026-09-17 | Finish owner-directed escalation, motorcycle payoff and practical resolution with namesrexx V3; render review MP4 and update template record. |
