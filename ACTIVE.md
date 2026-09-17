@@ -25,3 +25,5 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 | Claude (MASTER) | STORYBOARD FINAL pass 7 | 2026-09-15 | new S24 in; delivered. S25/S26 not found anywhere. |
 
 Codex completed 2026-09-17: corrected the S29 handoff to record the approved continuous take, rejected Pass 19, no-crop requirement, and pending lip-sync. Documentation claim released. No cut changed and no render or lip-sync job submitted in this continuation.
+
+| Codex | S29 lip/head edit generation receipt and handoff | 2026-09-17 | One approved Seedance video-edit take submitted; reviewing full-frame original-dialogue input. Cut unchanged. |
