@@ -1,0 +1,26 @@
+{
+  "test": "one-frame timeline change changes rendered bytes",
+  "passed": true,
+  "scope": "isolated native-renderer integration; does not verify a deployed watcher",
+  "host": "localhost",
+  "rendererSha256": "B80878F0E2414983A947944D2239D07BC37ABBB303CCB1AF537AFEE5B3D0B4E0",
+  "results": [
+    {
+      "name": "A",
+      "frames": 24,
+      "cutSha256": "95FC0A64EAA227407E45A10D092BF53C0AAE73375B508F0E874267E4F6D15AE1",
+      "fingerprint": "A2D47C3D8CB2CEC9893BC9CBFABAD8EAE2FEF80C5C44D73DA397C7734C5137D4",
+      "outputSha256": "0FCFA129135085F19A16A305D49B3E5847C11A529DA9F4FBB266625232DFBCB2",
+      "bytes": 44359
+    },
+    {
+      "name": "B",
+      "frames": 23,
+      "cutSha256": "DC980570D102F0EE2C7724AE5644D91D858FD965025004A3D17B03ABBC568439",
+      "fingerprint": "60C98143287499B785E7AE2EA3CF496663EB99FF9A2EA6E6811CE132C30985C5",
+      "outputSha256": "45C6ACEF6B90A38BEA6C4AD1E43FD250BB2BB60E3BEAC552162DC67F7BEFA601",
+      "bytes": 42778
+    }
+  ],
+  "stage": "/tmp/preview-provenance-test-KCVyBM"
+}
