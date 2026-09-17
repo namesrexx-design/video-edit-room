@@ -7,7 +7,10 @@
   "voice": {
     "name": "namesrexx",
     "id": "omTQvsWgoQBrcTuWdttm",
-    "model": "eleven_v3"
+    "model": "eleven_v3",
+    "selectedTake": 1,
+    "selectedGenerationId": "gp3gbfNg14ZTFU0hPfL0",
+    "selectionStatus": "owner_approved"
   },
   "angles": [
     {
@@ -61,6 +64,7 @@
       "photo_text_post",
       "text_post"
     ],
-    "reviewStatus": "template_candidate_for_owner_review"
+    "reviewStatus": "template_candidate_for_owner_review",
+    "contentFocus": "Recognizable characteristics, traits, habits, issues and problems; each post should trigger recognition without requiring knowledge of the film."
   }
 }
