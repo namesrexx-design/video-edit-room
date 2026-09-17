@@ -12,10 +12,11 @@
     },
     {
       "jobId": "679e3bef-715d-4a23-8884-3739fa9036ba",
-      "status": "selected-for-review",
+      "status": "owner-approved",
       "reason": "Sampled24frames: both shift toward passenger-camera and hold quiet closed-mouth attentive expressions.",
       "estimatedCredits": 6,
-      "prompt": "SILENT REACTION SHOT. Four seconds. Preserve this exact full-frame car composition, faces, wardrobe, arms and golden lighting. The camera is the unseen passenger's eye position. Apu (green jacket, seated left) and Homer (white shirt, outside window right) slowly turn their eyes and faces toward THE CAMERA during the first half-second, then hold attentive eye contact with that passenger through the final frame. Both men's lips are pressed gently together and remain SEALED AND MOTIONLESS for all four seconds, jaws still, no visible teeth. They are silent listeners waiting patiently; neutral closed-mouth expressions. Almost a living photograph: tiny natural blinks only, minimal slow head adjustment, no nod or smile that opens lips. Keep bodies and hands still in their original positions. Homer's palm stays open on the sill. Locked camera, no crop, zoom, cuts, new person, gestures, or car motion. No one speaks, laughs, mouths words, or performs dialogue; there is no speaking performance in this shot. Both maintain their gaze toward the passenger-seat lens at the end. No sound."
+      "prompt": "SILENT REACTION SHOT. Four seconds. Preserve this exact full-frame car composition, faces, wardrobe, arms and golden lighting. The camera is the unseen passenger's eye position. Apu (green jacket, seated left) and Homer (white shirt, outside window right) slowly turn their eyes and faces toward THE CAMERA during the first half-second, then hold attentive eye contact with that passenger through the final frame. Both men's lips are pressed gently together and remain SEALED AND MOTIONLESS for all four seconds, jaws still, no visible teeth. They are silent listeners waiting patiently; neutral closed-mouth expressions. Almost a living photograph: tiny natural blinks only, minimal slow head adjustment, no nod or smile that opens lips. Keep bodies and hands still in their original positions. Homer's palm stays open on the sill. Locked camera, no crop, zoom, cuts, new person, gestures, or car motion. No one speaks, laughs, mouths words, or performs dialogue; there is no speaking performance in this shot. Both maintain their gaze toward the passenger-seat lens at the end. No sound.",
+      "ownerApproval": "second one is the winner, now reassemble"
     }
   ],
   "sourceVideo": {
@@ -33,5 +34,6 @@
     2667,
     2753
   ],
-  "audio": "Original AUDIO-CORRECTIONS-V2 full soundtrack unchanged, including Rexx photo reminder."
+  "audio": "Original AUDIO-CORRECTIONS-V2 full soundtrack unchanged, including Rexx photo reminder.",
+  "assembledIn": "GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4"
 }
