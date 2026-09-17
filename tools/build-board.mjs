@@ -6,6 +6,7 @@
 //   node tools/build-board.mjs
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import { syncSources } from './source-sync.mjs';
 import { MEDIA_ROOT, EDITOR_DIR, PC_SOURCE, SERVER, mapPath } from './paths.mjs';
@@ -32,13 +33,13 @@ const base = p => path.basename(p).replace(/\.[^.]+$/, '');
 
 // ---- sheet packer: tiles carry {sheet, col, row, cols, rows}; one JPEG per group
 const SHEETS = []; const CELL = { land: [320, 180], port: [240, 320] };
-function pack(groupId, srcs, shape = 'land') {
+function pack(groupId, srcs, shape = 'land', contain = false) {
   const list = [...new Set(srcs.filter(Boolean))]; if (!list.length) return new Map();
   const [cw, ch] = CELL[shape]; const cols = Math.min(8, list.length); const rows = Math.ceil(list.length / cols);
   const file = `sheets/${groupId}.jpg`; const dest = `${EDITOR}/${file}`;
   const args = ['-v', 'error', '-nostdin', '-y']; list.forEach(p => args.push('-i', p));
   // background-removed props (…-CUTOUT.png) keep the whole object: fit inside the cell on a plain light ground (2026-09-16)
-  const fc = list.map((p, i) => /-CUTOUT.png$/i.test(p) ? `color=c=0xE8E4DC:s=${cw}x${ch}[g${i}];[${i}]scale=${cw - 16}:${ch - 16}:force_original_aspect_ratio=decrease,format=rgba[f${i}];[g${i}][f${i}]overlay=(W-w)/2:(H-h)/2:shortest=1,setsar=1[t${i}]` : `[${i}]scale=${cw}:${ch}:force_original_aspect_ratio=increase,crop=${cw}:${ch},setsar=1[t${i}]`).join(';');
+  const fc = list.map((p, i) => contain ? `[${i}]scale=${cw}:${ch}:force_original_aspect_ratio=decrease,pad=${cw}:${ch}:(ow-iw)/2:(oh-ih)/2:color=0x073B42,setsar=1[t${i}]` : /-CUTOUT.png$/i.test(p) ? `color=c=0xE8E4DC:s=${cw}x${ch}[g${i}];[${i}]scale=${cw - 16}:${ch - 16}:force_original_aspect_ratio=decrease,format=rgba[f${i}];[g${i}][f${i}]overlay=(W-w)/2:(H-h)/2:shortest=1,setsar=1[t${i}]` : `[${i}]scale=${cw}:${ch}:force_original_aspect_ratio=increase,crop=${cw}:${ch},setsar=1[t${i}]`).join(';');
   let graph;
   if (list.length === 1) graph = fc.replace('[t0]', '[out]'); else { const layout = list.map((_, i) => `${(i % cols) * cw}_${Math.floor(i / cols) * ch}`).join('|'); graph = fc + ';' + list.map((_, i) => `[t${i}]`).join('') + `xstack=inputs=${list.length}:layout=${layout}:fill=black[out]`; }
   const script = `${EDITOR}/sheets/${groupId}.graph`; fs.writeFileSync(script, graph);  // the graph goes in a file: 100+ inputs would blow the Windows command-line limit
@@ -185,9 +186,33 @@ const merch = MERCH_GROUPS.map(([key, label]) => {
   const m = pack("merch-" + key, tiles.map((t) => t.src).filter(Boolean), "port");
   return { key, label, items: bind(tiles, m).map(({ src, ...t }) => t) };
 });
+// ---- BRAND BUILD: shared destination for connector and storyboard uploads.
+// Preserve landscape artwork in previews; fullUrl opens the original pixels.
+const brandFiles = walkFiles2(MEDIA + '/team/garage-dream/brand')
+  .filter(p => IMG_RE.test(p) || VID_RE.test(p))
+  .sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs || a.localeCompare(b));
+const brandTiles = brandFiles.map(p => {
+  const stat = fs.statSync(p);
+  const id = 'brand-' + crypto.createHash('sha256').update(path.relative(MEDIA, p)).digest('hex').slice(0, 20);
+  let still = p;
+  if (VID_RE.test(p)) {
+    const cache = crypto.createHash('sha256').update(`${id}:${stat.size}:${stat.mtimeMs}`).digest('hex').slice(0, 24);
+    const th = path.join(EDITOR, 'brand-thumbs', cache + '.jpg');
+    fs.mkdirSync(path.dirname(th), { recursive: true });
+    // First frame also works for clips shorter than half a second.
+    if (!fs.existsSync(th)) spawnSync('ffmpeg', ['-v', 'error', '-nostdin', '-y', '-i', p, '-frames:v', '1', '-vf', 'scale=480:-2', th]);
+    still = fs.existsSync(th) ? th : null;
+  }
+  return tile(still, { id, file: path.basename(p), title: base(p).replace(/[-_]/g, ' '), group: 'brand',
+    date: stat.mtime.toISOString().slice(0, 10),
+    videoUrl: VID_RE.test(p) ? merchUrl(p) : undefined,
+    fullUrl: IMG_RE.test(p) ? merchUrl(p) : undefined });
+});
+const brand = { key: 'brand', label: 'Brand Build', items: bind(brandTiles, pack('brand', brandTiles.map(t => t.src), 'land', true)) };
+
 function walkFiles2(d) { if (!fs.existsSync(d)) return []; return fs.readdirSync(d).flatMap((x) => { const q = d + "/" + x; return fs.statSync(q).isDirectory() ? walkFiles2(q) : [q]; }); }
 
-const board = { format: 3, film: FILM, library: LIBRARY, merch, v74Date: V74_DATE, source: 'Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)', builtAt: new Date().toISOString(), version: sb.version, currentCut: sb.currentFullCut?.title, scenes, characters, sets, props: { current: propsBound.filter(p => p.approved), archive: propsBound.filter(p => !p.approved) }, objects, sheets: SHEETS, lockStatus: clean(lock.status), blockers: (lock.blockers || []).map(clean) };
+const board = { format: 3, film: FILM, library: LIBRARY, merch, brand, v74Date: V74_DATE, source: 'Codex scene-board/storyboard.json + reference-lock.json (VIEW build; never writes back)', builtAt: new Date().toISOString(), version: sb.version, currentCut: sb.currentFullCut?.title, scenes, characters, sets, props: { current: propsBound.filter(p => p.approved), archive: propsBound.filter(p => !p.approved) }, objects, sheets: SHEETS, lockStatus: clean(lock.status), blockers: (lock.blockers || []).map(clean) };
 // Source map for the Drive per-scene folders (tools/fill-drive-scene-folders.mjs): the real file paths behind every tile.
 fs.writeFileSync(EDITOR + '/board-sources.json', JSON.stringify({ builtAt: new Date().toISOString(), scenes: scenes.map(s => ({ id: s.id, title: s.title, line: s.line, status: s.status, set: s.set, angle: s.angle, cast: s.cast, props: s.props, v74: s.v74, video: s.video, editStatus: s.editStatus, current: s._cur || null, stills: (s._src || []), audio: (s._audioSrc || []) })), characters: Object.values(chars).map(c => ({ name: c.name, refs: c.refs.map(t => ({ src: t.src, id: t.id, title: t.title, role: t.role, approved: !!t.approved, date: t.date })) })), sets: sets.map(x => ({ name: x.name, scenes: x.scenes, current: x._current, archive: x._archive })), props: propTiles.map(t => ({ src: t.src, id: t.id, title: t.title, role: t.role, approved: !!t.approved, date: t.date })) }, null, 1));
 for (const x of sets) { delete x._current; delete x._archive; }   // sources only, not for the view
