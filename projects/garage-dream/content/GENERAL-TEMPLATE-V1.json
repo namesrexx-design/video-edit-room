@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "projectDisplayTitle": "Dream Garage",
   "publicBrandText": [],
   "templateId": "centered-photo-general-v1",
@@ -9,32 +9,43 @@
     "id": "omTQvsWgoQBrcTuWdttm",
     "model": "eleven_v3",
     "selectedTake": 1,
-    "selectedGenerationId": "gp3gbfNg14ZTFU0hPfL0",
-    "selectionStatus": "owner_approved"
+    "selectedGenerationId": "HgXToqQ5RtRFhDj5xWOR",
+    "selectionStatus": "same_approved_voice_new_script_first_take_selected_for_final_review",
+    "previousApprovedGenerationId": "gp3gbfNg14ZTFU0hPfL0"
   },
   "angles": [
     {
       "id": "01",
       "slug": "THE-GROWING-PILE",
-      "hook": "Know someone whose “I’ll sell it” pile keeps growing?",
+      "hook": "Have you ever met someone who says, “I’m going to sell all this”?",
       "cards": [
-        "Know someone whose “I’ll sell it” pile keeps growing?",
-        "They know what every item is worth. Nothing is listed.",
-        "The spare room has a waiting list.",
-        "“This weekend.” The weekend keeps changing.",
-        "One box. One photo. One listing. Offer a hand getting started."
+        "Have you ever met someone who says, “I’m going to sell all this”?",
+        "Garage → spare bedroom → kitchen. Now you’re moving boxes just to sit on the couch.",
+        "There’s a motorcycle on the dining room table. “Not that. That’s worth money.”",
+        "One item. List it, sell it, or let it go. Start by getting your dinner table back.",
+        "Have you met someone like this? What’s the most ridiculous thing they’ve kept?"
       ],
       "cta": "Tag your person. Share it with an offer to help.",
-      "prompt": "[curious] Know someone whose I'll sell it pile keeps growing? [nonchalant] They know what every item is worth, but nothing is listed. [amused] The spare room has a waiting list. And this weekend keeps turning into next weekend. [warmly] Start small. One box. One photo. One listing. Tag your person, and share this with an offer to help.",
+      "prompt": "[curious] Have you ever met someone who says, I'm going to sell all this? [nonchalant] First, the pile takes over the garage. Then the spare bedroom. Then the kitchen. Then you're moving boxes just to sit on the couch. [amused] Next thing you know, there's a motorcycle on the dining room table. They ask you to help clear it out. But everything you touch... [insisting] Not that. That's worth money. [dryly] Meanwhile, you're eating dinner standing up. [warmly] Here's where you start. One item. List it, sell it, or let it go. Then do the next one. You don't have to clear the whole house today. Start by getting your dinner table back. [curious] Have you met someone like this? What's the most ridiculous thing they've kept?",
       "segments": [
-        "Know someone whose “I’ll sell it” pile keeps growing?",
-        "They know what every item is worth, but nothing is listed.",
-        "The spare room has a waiting list. And this weekend keeps turning into next weekend.",
-        "Start small. One box. One photo. One listing.",
-        "Tag your person, and share this with an offer to help."
+        "Have you ever met someone who says, “I’m going to sell all this”?",
+        "First, the pile takes over the garage.",
+        "Then the spare bedroom. Then the kitchen.",
+        "Then you’re moving boxes just to sit on the couch.",
+        "Next thing you know, there’s a motorcycle on the dining room table.",
+        "They ask you to help clear it out. But everything you touch…",
+        "“Not that. That’s worth money.”",
+        "Meanwhile, you’re eating dinner standing up.",
+        "Here’s where you start. One item.",
+        "List it, sell it, or let it go. Then do the next one.",
+        "You don’t have to clear the whole house today.",
+        "Start by getting your dinner table back.",
+        "Have you met someone like this?",
+        "What’s the most ridiculous thing they’ve kept?"
       ],
-      "caption": "They know what every item is worth. Somehow, nothing is listed. 😅\n\nKnow someone who could use a hand turning the “I’ll sell it” pile into a little more space? Offer to help with one box and a few photos.\n\nTag your person, or share this with a friendly “Want a hand?”",
-      "textPost": "“I’m going to sell that.”\n\nThe item: still there.\nThe pile: getting bigger.\nThe weekend: always the next one. 😅\n\nKnow someone who could use a hand getting started? Tag them or share this with an offer to help. One box is a start."
+      "caption": "First the garage. Then the spare bedroom. Then the kitchen. Now there’s a motorcycle on the dining room table—and you’re eating dinner standing up. 😅\n\nStart with one item. List it, sell it, or let it go. Get your dinner table back.\n\nHave you met someone like this? What’s the most ridiculous thing they’ve kept? Share this with someone who’ll recognize the story.",
+      "textPost": "Have you ever met someone who says, “I’m going to sell all this”?\n\nFirst, the pile takes over the garage.\n\nThen the spare bedroom. Then the kitchen.\n\nThen you’re moving boxes just to sit on the couch.\n\nNext thing you know, there’s a motorcycle on the dining room table.\n\nThey ask you to help clear it out. But everything you touch…\n\n“Not that. That’s worth money.”\n\nMeanwhile, you’re eating dinner standing up.\n\nHere’s where you start. One item.\n\nList it, sell it, or let it go. Then do the next one.\n\nYou don’t have to clear the whole house today.\n\nStart by getting your dinner table back.\n\nHave you met someone like this?\n\nWhat’s the most ridiculous thing they’ve kept?",
+      "cardsRenderStatus": "copy_updated_render_pending"
     },
     {
       "id": "02",
@@ -64,7 +75,20 @@
       "photo_text_post",
       "text_post"
     ],
-    "reviewStatus": "template_candidate_for_owner_review",
-    "contentFocus": "Recognizable characteristics, traits, habits, issues and problems; each post should trigger recognition without requiring knowledge of the film."
+    "reviewStatus": "script_structure_owner_approved_final_render_pending",
+    "contentFocus": "Recognizable characteristics, traits, habits, issues and problems; each post should trigger recognition without requiring knowledge of the film.",
+    "storyStructure": [
+      "recognition",
+      "escalation",
+      "absurd_payoff",
+      "practical_resolution",
+      "audience_question"
+    ],
+    "opening": "Have you ever met someone…",
+    "prohibitedFraming": [
+      "worked with",
+      "problematic client"
+    ],
+    "referenceDelivery": "PILE-ESCALATION-FINAL-20260917.mp4"
   }
 }
