@@ -12,6 +12,11 @@
 	# /projects/*  → finished deliveries in the repo (film, scene clips, proxies, audio)
 	# /media/*     → working media pulled from R2 (browsable)
 	# /editor/*    → the page folder built on this server by build-board
+	# the posting queue (2026-09-17)
+	handle /scheduler* {
+		reverse_proxy scheduler:8791
+	}
+
 	handle /api/* {
 		reverse_proxy studio:8787
 	}

@@ -37,6 +37,27 @@ services:
       - /srv/lyfe/connector/signing.pem:/run/connector/signing.pem:ro
       - /srv/lyfe/tools-bg:/opt/tools-bg:ro
 
+  # The posting queue (Rexx 2026-09-17: "we build our own schedule on our server").
+  # Handoff by default: at the scheduled minute a post becomes "ready" and he posts it in one motion.
+  # A platform only posts itself once its app review is approved and it is named in SCHEDULER_API_PLATFORMS.
+  scheduler:
+    image: lyfe-studio:latest
+    restart: unless-stopped
+    env_file: .env
+    working_dir: /app
+    command: ["bash", "-lc", "exec node /app/server.mjs"]
+    environment:
+      SCHEDULER_DB: /data/scheduler/posts.json
+      SCHEDULER_MEDIA: /data/media
+      SCHEDULER_REPO: /repo
+    expose:
+      - "8791"
+    volumes:
+      - ./scheduler:/app:ro
+      - /srv/lyfe/repo:/repo:ro
+      - /srv/lyfe/media:/data/media:ro
+      - /srv/lyfe/scheduler:/data/scheduler
+
   web:
     image: caddy:2
     restart: unless-stopped
