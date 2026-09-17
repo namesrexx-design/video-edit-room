@@ -1,0 +1,37 @@
+{
+  "cut": "S19-BART-REDO-REVIEW-20260917.json",
+  "cutSha256": "CC69015B2841664CD5AEC92EB19A6D785071986A0DBC5FB240727C8C314D0088",
+  "savedAt": "2026-09-17T16:23:04.017Z",
+  "output": "/home/user/bart-redo/projects/garage-dream/renders/S19-BART-REDO-REVIEW-20260917.mp4",
+  "outputSha256": "9ABD71546B1583319DAF0C4C40CD1D136B508A482FF1DEDF2DDC532A9C912ADB",
+  "bytes": 2108212,
+  "frames": 72,
+  "seconds": 3,
+  "renderedAt": "2026-09-17T16:24:00.017Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "u": "bart-redo",
+      "id": "bart-redo",
+      "scene": "S19",
+      "folder": "repo-deliveries",
+      "file": "S19/S19-BART-REDO-1bb72f9d-RAW.mp4",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-Bart-dialogue-laughs",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "start": 1961,
+      "end": 2033,
+      "at": 0,
+      "link": "bart-redo",
+      "gain": 0
+    }
+  ]
+}
