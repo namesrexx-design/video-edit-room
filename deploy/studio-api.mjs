@@ -105,19 +105,28 @@ const TEAM_PREFIX = process.env.TEAM_MEDIA_PREFIX || '';   // e.g. tenants/lyfe-
 const RENDER_TRIGGERS = [/^projects\/garage-dream\/cuts\/STORYBOARD-FINAL\.json$/];
 const REBUILD_TRIGGERS = [/^projects\/garage-dream\/(source|cuts|deliveries)\//, /^projects\/garage-dream\/(INVENTORY|AUDIO)-MANIFEST\.json$/, /^tools\//];
 const out = (args) => new Promise((ok) => { const p = spawn('git', args, { cwd: REPO }); let s = ''; p.stdout.on('data', (d) => { s += d; }); p.on('close', () => ok(s.trim())); });
+const brandSnapshot = (dir = path.join(MEDIA, 'team', 'garage-dream', 'brand')) => {
+  if (!fs.existsSync(dir)) return '';
+  return fs.readdirSync(dir).sort().map(name => {
+    const file = path.join(dir, name), stat = fs.statSync(file);
+    return stat.isDirectory() ? brandSnapshot(file) : /\.(png|jpe?g|webp|mp4|mov|webm)$/i.test(name) ? `${file}:${stat.size}:${stat.mtimeMs}` : '';
+  }).join('\n');
+};
 let syncing = false;
 async function autoSync() {
   if (syncing || running || queue.length) return; syncing = true;
   try {
+    const brandBefore = brandSnapshot();
     if (TEAM_PREFIX) await new Promise((ok) => spawn('rclone', ['copy', `${BUCKET}/${TEAM_PREFIX}`, path.join(MEDIA, 'team'), '--exclude', '*.keep', '-q'], { stdio: 'ignore' }).on('close', ok));
+    const brandChanged = brandBefore !== brandSnapshot();
     await new Promise((ok) => spawn('git', ['fetch', '-q', 'origin', 'main'], { cwd: REPO, stdio: 'ignore' }).on('close', ok));
     const head = await out(['rev-parse', 'HEAD']); const remote = await out(['rev-parse', 'origin/main']);
-    if (!remote || head === remote) return;
+    if (!remote || head === remote) { if (brandChanged) enqueue('rebuild', { auto: true, brand: true }); return; }
     const changed = (await out(['diff', '--name-only', head, remote])).split('\n').filter(Boolean);
     const behind = await out(['rev-list', '--count', `HEAD..origin/main`]);
-    if (behind === '0') return;   // only our own local commits are ahead; nothing new from others
+    if (behind === '0') { if (brandChanged) enqueue('rebuild', { auto: true, brand: true }); return; }   // only our own local commits are ahead
     const render = changed.some((f) => RENDER_TRIGGERS.some((re) => re.test(f)));
-    const rebuild = render || changed.some((f) => REBUILD_TRIGGERS.some((re) => re.test(f)));
+    const rebuild = brandChanged || render || changed.some((f) => REBUILD_TRIGGERS.some((re) => re.test(f)));
     const restart = changed.includes('deploy/studio-api.mjs');   // new server code: reload after this job (docker restarts us)
     const job = enqueue(render ? 'render' : rebuild ? 'pull' : 'fastforward', { auto: true, restart, changed: changed.slice(0, 40) });
     fs.appendFileSync(job.log, `auto-sync: ${behind} new commit(s) on main\n${changed.slice(0, 40).join('\n')}\n`);
@@ -131,6 +140,21 @@ RECIPES.merch = async (job) => {
   let dest = path.join(dir, name); if (fs.existsSync(dest)) dest = path.join(dir, `${Date.now().toString(36)}-${name}`);
   fs.renameSync(tmp, dest);
   await sh(job, 'rclone', ['copy', dir, `${BUCKET}/media/merch/${group}`, '--stats-one-line']);
+  await publishBoard(job);
+  job.result = { file: dest };
+};
+
+// Same local destination as the connector's team mirror. Keep every prior upload.
+RECIPES.brand = async (job) => {
+  const { name, tmp } = job.input;
+  const dir = path.join(MEDIA, 'team', 'garage-dream', 'brand');
+  fs.mkdirSync(dir, { recursive: true });
+  let dest = path.join(dir, name);
+  if (fs.existsSync(dest)) dest = path.join(dir, `${crypto.randomUUID()}-${name}`);
+  fs.copyFileSync(tmp, dest, fs.constants.COPYFILE_EXCL);
+  fs.unlinkSync(tmp); // completed temporary request body only
+  const prefix = TEAM_PREFIX ? `${TEAM_PREFIX.replace(/\/$/, '')}/garage-dream/brand` : 'media/team/garage-dream/brand';
+  await sh(job, 'rclone', ['copy', dir, `${BUCKET}/${prefix}`, '--stats-one-line']);
   await publishBoard(job);
   job.result = { file: dest };
 };
@@ -217,13 +241,15 @@ http.createServer(async (req, res) => {
     if (req.method === 'POST' && ['/apply', '/rebuild', '/pull'].includes(p)) return send(res, 202, view(enqueue(p.slice(1))));
     if (req.method === 'POST' && p === '/render') { const b = await readJson(req); const cut = b.cut && /^projects\/garage-dream\/cuts\/[A-Za-z0-9._-]+\.json$/.test(b.cut) ? b.cut : undefined; return send(res, 202, view(enqueue('render', { cut }))); }
     if (req.method === 'POST' && p === '/cut') { const b = await readJson(req); if (!b.cut || b.cut.format !== 2) return send(res, 400, { error: 'expected a format-2 cut' }); return send(res, 202, view(enqueue('cut', { name: b.name, cut: b.cut }))); }
-    if (req.method === 'POST' && p === '/upload' && u.searchParams.get('merch')) {
-      const group = u.searchParams.get('merch'); const name = (u.searchParams.get('name') || '').replace(/[^A-Za-z0-9._ -]+/g, '_').slice(0, 120);
-      if (!['hats', 'mugs', 'shirts', 'shirt-designs'].includes(group) || !/\.(png|jpe?g|webp|mp4|mov|webm)$/i.test(name)) return send(res, 400, { error: 'need merch=hats|mugs|shirts|shirt-designs and a picture or video' });
+    if (req.method === 'POST' && p === '/upload' && (u.searchParams.has('brand') || u.searchParams.get('merch'))) {
+      const brand = u.searchParams.get('brand') === '1';
+      if (u.searchParams.has('brand') && (!brand || u.searchParams.has('merch') || u.searchParams.has('scene'))) return send(res, 400, { error: 'use brand=1 without merch or scene' });
+      const group = brand ? 'brand' : u.searchParams.get('merch'); const name = (u.searchParams.get('name') || '').replace(/[^A-Za-z0-9._ -]+/g, '_').slice(0, 120);
+      if ((!brand && !['hats', 'mugs', 'shirts', 'shirt-designs'].includes(group)) || !/\.(png|jpe?g|webp|mp4|mov|webm)$/i.test(name)) return send(res, 400, { error: 'need brand=1 or merch=hats|mugs|shirts|shirt-designs and a picture or video' });
       const tmp = path.join(JOBS, 'upload-' + crypto.randomBytes(6).toString('hex')); const w = fs.createWriteStream(tmp); let size = 0;
       req.on('data', c => { size += c.length; if (size > 1.5e9) req.destroy(); });
       req.pipe(w); await new Promise((ok, bad) => { w.on('finish', ok); w.on('error', bad); });
-      return send(res, 202, view(enqueue('merch', { group, name, tmp })));
+      return send(res, 202, view(enqueue(brand ? 'brand' : 'merch', { group, name, tmp })));
     }
     if (req.method === 'POST' && p === '/upload') {
       const scene = u.searchParams.get('scene') || ''; const name = (u.searchParams.get('name') || '').replace(/[^A-Za-z0-9._ -]+/g, '_').slice(0, 120);
