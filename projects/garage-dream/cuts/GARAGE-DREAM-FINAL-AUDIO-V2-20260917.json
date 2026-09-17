@@ -1,0 +1,30 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-FINAL-AUDIO-V2-20260917",
+  "savedAt": "2026-09-17T18:11:07.584Z",
+  "note": "Owner final five audio notes. Exact approved 3310-frame picture retained, revised continuous full soundtrack. Full timestamps include 10-second intro.",
+  "v1": [
+    {
+      "id": "approved-full",
+      "u": "approved-full",
+      "scene": "FILM",
+      "file": "FILM/PRIOR-FULL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3310,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "final-v2-audio",
+      "file": "AUDIO/GARAGE-DREAM-FULL-AUDIO-V2.wav",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3310,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}
