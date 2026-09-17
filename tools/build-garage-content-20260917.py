@@ -50,8 +50,8 @@ def emit_motion(s):
  d=ROOT/'source'/f'SCROLL-{s["id"]}';d.mkdir(exist_ok=True)
  title=s['title'];dur=s['frames']/24
  base=plate(title,1920)+text(s['seriesLabel'].upper(),80,253,34,900,ACCENT)
- base+=text('A FEW SIGNS YOU KNOW THE PERSON.',80,330,24,915,MUTED)
- base+=text('LYFE  /  GARAGE DREAM',80,1832,27,900,MUTED)
+ base+=text('YOU KNOW SOMEONE LIKE THIS.',80,330,24,915,MUTED)
+ base+=text('LYFE  /  GARAGE DREAM',80,1285,27,900,MUTED)
  base+='<rect x="80" y="1120" width="880" height="2" fill="#33777D"/>'
  save_svg(base,d/'base.svg',1080,1920)
  # A tall native text column moves upward at the spoken paragraph boundaries.
@@ -68,13 +68,13 @@ def emit_motion(s):
      f"[win][col]overlay=x=0:y='-({offset})':eval=frame:shortest=1[txt];"
      f"[0:v][txt]overlay=80:425:shortest=1,format=yuv420p[v]")
  proj=ROOT/'render-project';media=proj/'projects/garage-dream/deliveries/CONTENT';media.mkdir(parents=True,exist_ok=True)
- source=media/f'SCROLL-{s["id"]}-PICTURE.mp4'
+ source=media/f'SCROLL-{s["id"]}-PICTURE-V2.mp4'
  run(['ffmpeg','-v','error','-y','-loop','1','-framerate','24','-i',d/'base.png','-loop','1','-framerate','24','-i',d/'column.png','-filter_complex',fg,'-map','[v]','-frames:v',s['frames'],'-an','-c:v','libx264','-preset','fast','-crf','18','-movflags','+faststart',source])
  # One complete V3 take per script. No internal cuts or time stretching.
  raw=ROOT/'audio/raw'/f'{s["generationId"]}.mp3';voice=media/f'SCROLL-{s["id"]}-VOICE.wav'
  run(['ffmpeg','-v','error','-y','-i',raw,'-af',f'loudnorm=I=-18:TP=-2:LRA=8,adelay=350|350,apad,atrim=duration={dur}','-ar','48000','-ac','2','-c:a','pcm_s24le',voice])
  shutil.copy2(voice,ROOT/'audio'/f'REXX-V3-{s["id"]}-{s["slug"]}.wav')
- name=f'SCROLL-{s["id"]}-{s["slug"]}-REXX-V3-20260917';u='scroll-'+s['id']
+ name=f'SCROLL-{s["id"]}-{s["slug"]}-REXX-V3-V2-20260917';u='scroll-'+s['id']
  cut={'format':2,'name':name,'savedAt':'2026-09-17T00:00:00Z','output':{'width':1080,'height':1920},'note':'Existing approved LYFE still with native scrolling text; one continuous namesrexx eleven_v3 take. No regenerated characters or scenes.','v1':[{'id':u,'u':u,'scene':s['id'],'folder':'repo-deliveries','file':f'CONTENT/{source.name}','start':0,'end':s['frames'],'mute':True}],'v2':[],'a2':[{'id':u+'-voice','u':u+'-voice','link':u,'folder':'repo-deliveries','file':f'CONTENT/{voice.name}','start':0,'end':s['frames'],'at':0,'gain':0}]}
  cp=proj/'projects/garage-dream/cuts'/f'{name}.json';cp.parent.mkdir(parents=True,exist_ok=True);cp.write_text(json.dumps(cut,indent=2)+'\n')
  (ROOT/'source'/f'{name}.json').write_text(json.dumps(cut,indent=2)+'\n')
