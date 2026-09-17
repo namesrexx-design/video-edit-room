@@ -1,0 +1,37 @@
+{
+  "cut": "S18-WAKE-AUDIO-DRIVEN-REVIEW-20260917.json",
+  "cutSha256": "7C150B00FF2F9AA166760257CE5C73F54A8D82BECB38B9117CD86A8D4BA45E44",
+  "savedAt": "2026-09-17T16:38:26.063Z",
+  "output": "/home/user/projects/garage-dream/renders/S18-WAKE-AUDIO-DRIVEN-REVIEW-20260917.mp4",
+  "outputSha256": "6E8306B9A187A313B338F3BE2067E8657887F65DDBAC1C2E876167EF7474D9A4",
+  "bytes": 2590515,
+  "frames": 121,
+  "seconds": 5.041667,
+  "renderedAt": "2026-09-17T16:39:29.761Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "file": "S18/S18-WAKE-AUDIO-DRIVEN-8cb751f1-24FPS.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "id": "wake-audio-driven",
+      "u": "wake-audio-driven",
+      "mute": true,
+      "scene": "S18"
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-wake-audio",
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 1840,
+      "end": 1961,
+      "at": 0,
+      "gain": 0,
+      "link": "wake-audio-driven"
+    }
+  ]
+}
