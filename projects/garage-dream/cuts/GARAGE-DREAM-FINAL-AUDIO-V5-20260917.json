@@ -1,0 +1,29 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-FINAL-AUDIO-V5-20260917",
+  "savedAt": "2026-09-17T19:13:36.895Z",
+  "note": "Final sleepy whisper resync/fourth, Apu audience cheer, and exterior nature ambience. All approved V4 picture/timing retained.",
+  "v1": [
+    {
+      "id": "approved-v4",
+      "u": "approved-v4",
+      "folder": "repo-deliveries",
+      "file": "FILM/PRIOR-FULL.mp4",
+      "start": 0,
+      "end": 3334,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "audio-v5",
+      "folder": "repo-deliveries",
+      "file": "AUDIO/GARAGE-DREAM-FULL-AUDIO-V5.wav",
+      "start": 0,
+      "end": 3334,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}
