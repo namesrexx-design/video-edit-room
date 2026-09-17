@@ -26,4 +26,4 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 
 Codex completed 2026-09-17: corrected the S29 handoff to record the approved continuous take, rejected Pass 19, no-crop requirement, and pending lip-sync. Documentation claim released. No cut changed and no render or lip-sync job submitted in this continuation.
 
-| Codex | S29 lip/head edit generation receipt and handoff | 2026-09-17 | One approved Seedance video-edit take submitted; reviewing full-frame original-dialogue input. Cut unchanged. |
+Codex completed 2026-09-17: one Seedance S29 video-edit take rendered and reviewed; closed-mouth listening still fails. Review MP4 saved in EDIT_ROOM; handoff updated with output hashes and QC. Second paid take blocked by automatic approval review pending explicit authorization. No cut changed. Generation-receipt claim released.
