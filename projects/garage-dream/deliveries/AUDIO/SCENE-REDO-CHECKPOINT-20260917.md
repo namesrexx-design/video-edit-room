@@ -1,5 +1,8 @@
 # Scene redo continuation — 2026-09-17
 
+## Owner selection confirmed
+Owner: “second one is the winner, now reassemble.” This approves S28 take2 job679e3bef-715d-4a23-8884-3739fa9036ba. Verified current full cut already uses that exact take in frames2667–2753 along with approved wake and Bart. Rechecked full MP4 SHA D218B655 against renderer receipt and confirmed saved complete72,074,577-byte file. Existing assembly fulfills the requested second-take selection; no duplicate render or generation needed. Full-film playback approval is separate from this scene approval.
+
 ## Latest completed delivery — all three fixes
 GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4 is the newest full review, superseding the wake/Bart-only review for playback.
 3070frames,127.916667s,1920x1080,24fps,72,074,577bytes.
@@ -37,9 +40,9 @@ Owner asked if an unused toward-passenger take existed; none found in inspected 
 New take1 job39003e7e-36f0-49c0-ba1a-9561fb636969,4s Kling3.0 pro/silent,6credit estimate, same original image22318fbe-fcbb-461b-bb86-f0cab565fab2.
 REJECTED for Apu speaking/mouth flapping despite useful gaze turn. Not inserted.
 Corrective take2 job679e3bef-715d-4a23-8884-3739fa9036ba COMPLETED and selected after visual review of24samples: quiet closed-mouth expressions and both shift gaze toward passenger camera. Removed spoken reminder text from prompt and required sealed motionless lips, silent attentive gaze toward passenger-seat camera.
-Inspect before inserting. Preserve full86frame slot and original Rexx audio. Do not confuse S28 with S29 later forehead/whisper scene.
+Inserted and now owner-approved. Preserve full86frame slot and original Rexx audio. Do not confuse S28 with S29 later forehead/whisper scene.
 
 ## Delivery and next
 Current approved full remains AUDIO-CORRECTIONS-V2 until owner accepts replacement full review. New wake/Bart full review is saved, not live.
 Automatic review rejected prior Drive upload citing insufficient explicit destination authorization and unverified account ownership. New files delivered in chat instead. Do not claim new redo files are in Drive.
-S28 take2 QC and full three-scene assembly are complete. Owner playback approval of S28/full review remains next. Crowd and effects mix remains future work.
+S28 take2 QC and full three-scene assembly are complete. S28 take2 is owner-approved; full-film playback review remains next. Crowd and effects mix remains future work.
