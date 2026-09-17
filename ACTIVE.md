@@ -34,4 +34,5 @@ Codex completed 2026-09-17: Rexx approved Seedance take 1 and requested the whis
 
 Codex completed 2026-09-17: GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4 delivered to EDIT_ROOM and chat (3070 frames, SHA707C1350). Reused S16-T2 Bugatti whisper at62.083s and AUD014 Bart laugh at83.5s; existing S29 whisper retained. One full-frame S18 picture repair included as a review candidate with original dialogue; second-sentence mouth anticipation remains for playback review, not certified perfect. Full decode and measured audio checks passed. Cuts, verification and final audio working notes committed; crowd cue plan prepared but audience not mixed. No live promotion or merge. Audio review claim released.
 
-| Codex | AUDIO-CORRECTIONS-V2 cut and receipt | 2026-09-17 | Owner requested repeated Bugatti cleanup, first wake line at77s with beach line unchanged, and another exit laugh. Audio-only revision of approved review picture. |
+
+Codex completed2026-09-17: AUDIO-CORRECTIONS-V2 delivered,3070frames,SHA BF931CE7. Three existing AUD018 Bugatti whispers timed across58–63s; first wake sentence shifted1.125s to77s; owner-confirmed beach sentence preserved; extra Bart exit laugh at84.083s. Visual sequences and waveform timing checked; no clipping. Cut,verification,handoff committed. No new generation,live promotion or merge. V2 claim released.
