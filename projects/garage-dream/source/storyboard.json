@@ -30079,7 +30079,7 @@
       "sha256": "76135F02600B5770704AA7CCB35A1DFCE22F9A2269E325696539E0FF840C09B5",
       "approval": "owner: winner"
     },
-    "latestOwnerDirection": "Correct project display title to Dream Garage; no episode title, LYFE text or owner name on general public templates. Identify relatable traits/habits/issues/problems, then a useful observation and tag/share CTA. Owner selected first V3 voice take for general pile preview.",
+    "latestOwnerDirection": "Finish the general escalating-pile scrolling video using voice take 2, then move to supporting content. Opening: Have you ever met someone. Escalate garage to spare bedroom to kitchen to couch to motorcycle on dining table; practical resolution restores the dinner table.",
     "assetReviewStatus": "previews_ready_for_owner_review",
     "publishingStatus": "not_posted_or_scheduled",
     "reuseRule": "Each content type stands independently. One topic can have multiple angles and multiple instances of every applicable format.",
@@ -30090,13 +30090,28 @@
       "composition": "Larger centered portrait. Native text may sit in front of the photo without obscuring face.",
       "contentFocus": "Recognizable characteristics, traits, habits, issues and problems. Each post helps viewers recognize someone they know. No episode dependence.",
       "voiceSelection": {
-        "generationId": "gp3gbfNg14ZTFU0hPfL0",
-        "take": 1,
+        "generationId": "VQRklBqQqaStnQH5Q43p",
+        "take": 2,
         "ownerApproved": true,
         "voice": "namesrexx",
-        "model": "eleven_v3"
+        "model": "eleven_v3",
+        "script": "PILE-ESCALATION-FINAL-20260917"
       },
-      "reviewStatus": "centered template preview"
+      "reviewStatus": "Script structure and voice take 2 owner approved; final assembled video for playback review.",
+      "storyStructure": [
+        "recognition",
+        "escalation",
+        "absurd payoff",
+        "practical resolution",
+        "audience question"
+      ],
+      "opening": "Have you ever met someone…",
+      "prohibitedFraming": [
+        "worked with",
+        "problematic clients"
+      ],
+      "latestVideo": "PILE-ESCALATION-FINAL-20260917.mp4",
+      "nextTask": "Adapt the completed escalation/resolution script into the matching carousel, photo post and standalone text post."
     }
   },
   "displayTitle": "Dream Garage"
