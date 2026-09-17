@@ -1,9 +1,9 @@
 {
   "status": "HOLD_SERVER_HASH_GATE",
-  "source_timeline": "projects/garage-dream/cuts/GARAGE-DREAM-FINAL-AUDIO-V6-20260917.json",
+  "source_timeline": "projects/garage-dream/cuts/STORYBOARD-FINAL.json",
   "source_master": "GARAGE-DREAM-FINAL-AUDIO-V6-20260917.mp4",
   "source_sha256": "76135F02600B5770704AA7CCB35A1DFCE22F9A2269E325696539E0FF840C09B5",
-  "source_revision_note": "V6 is the latest approved full master. Audio V2 is an earlier separate full-film revision; do not silently replace the later V6 soundtrack. Confirm intended V6 + audio V2 source mapping before executing if an older audio override is required.",
+  "source_revision_note": "V6 is confirmed for picture and audio by the 2026-09-17 server handoff. Use the embedded V6 mix, including restored stairs and late bird bed. Audio V2 is superseded; do not override V6 audio.",
   "fps": 24,
   "vertical": {
     "width": 1080,
