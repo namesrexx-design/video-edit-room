@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "projectDisplayTitle": "Dream Garage",
+  "publicBrandText": [],
+  "templateId": "centered-photo-general-v1",
+  "background": "references/CENTERED-PHOTO-TEMPLATE.png",
+  "voice": {
+    "name": "namesrexx",
+    "id": "omTQvsWgoQBrcTuWdttm",
+    "model": "eleven_v3"
+  },
+  "angles": [
+    {
+      "id": "01",
+      "slug": "THE-GROWING-PILE",
+      "hook": "Know someone whose “I’ll sell it” pile keeps growing?",
+      "cards": [
+        "Know someone whose “I’ll sell it” pile keeps growing?",
+        "They know what every item is worth. Nothing is listed.",
+        "The spare room has a waiting list.",
+        "“This weekend.” The weekend keeps changing.",
+        "One box. One photo. One listing. Offer a hand getting started."
+      ],
+      "cta": "Tag your person. Share it with an offer to help.",
+      "prompt": "[curious] Know someone whose I'll sell it pile keeps growing? [nonchalant] They know what every item is worth, but nothing is listed. [amused] The spare room has a waiting list. And this weekend keeps turning into next weekend. [warmly] Start small. One box. One photo. One listing. Tag your person, and share this with an offer to help.",
+      "segments": [
+        "Know someone whose “I’ll sell it” pile keeps growing?",
+        "They know what every item is worth, but nothing is listed.",
+        "The spare room has a waiting list. And this weekend keeps turning into next weekend.",
+        "Start small. One box. One photo. One listing.",
+        "Tag your person, and share this with an offer to help."
+      ],
+      "caption": "They know what every item is worth. Somehow, nothing is listed. 😅\n\nKnow someone who could use a hand turning the “I’ll sell it” pile into a little more space? Offer to help with one box and a few photos.\n\nTag your person, or share this with a friendly “Want a hand?”",
+      "textPost": "“I’m going to sell that.”\n\nThe item: still there.\nThe pile: getting bigger.\nThe weekend: always the next one. 😅\n\nKnow someone who could use a hand getting started? Tag them or share this with an offer to help. One box is a start."
+    },
+    {
+      "id": "02",
+      "slug": "THE-EARLY-CELEBRATION",
+      "hook": "Already picked the yacht. Hasn’t lifted a finger.",
+      "cards": [
+        "Already picked the yacht. Hasn’t lifted a finger.",
+        "They hear “good idea” and start planning their retirement.",
+        "The celebration has a date. The first step doesn’t.",
+        "You’re talking about getting started. They’re dividing up the millions.",
+        "Dream big. Then do one small thing today."
+      ],
+      "cta": "Tag your big-picture friend. Share with their reality check.",
+      "prompt": "[amused] Already picked the yacht. Hasn't lifted a finger. [nonchalant] You know the person. They hear good idea and start planning their retirement. The celebration has a date. The first step doesn't. [warmly] Dream big. Then do one small thing today. Tag your big-picture friend, and share this with the one who keeps them grounded.",
+      "caption": "The yacht has a name. The first task hasn’t been started. 😂\n\nWe all know someone who skips straight to the victory speech. Dream big—but give the dream a first step.\n\nTag your big-picture friend, and share this with the one who keeps them grounded.",
+      "textPost": "The idea: five minutes old.\nThe celebration: fully planned.\nThe work: hasn’t started. 😂\n\nKnow someone who jumps straight to the best-case scenario before lifting a finger? Tag your big-picture friend and share this with their reality-check person."
+    }
+  ],
+  "rules": {
+    "visibleNamesAndEpisodeTitles": false,
+    "defaultStyle": "centered larger owner photo, deep teal, cream bold native text, yellow accent, no header branding",
+    "copy": "General relatable behavior, understandable without watching the film. Vary the habit and exaggeration. Do not use the film's characters or scene-specific jokes.",
+    "clutterTone": "Friendly offer to help. Describe visible habits without labeling or diagnosing a person.",
+    "formats": [
+      "scrolling_text_voiceover",
+      "text_carousel",
+      "photo_text_post",
+      "text_post"
+    ],
+    "reviewStatus": "template_candidate_for_owner_review"
+  }
+}
