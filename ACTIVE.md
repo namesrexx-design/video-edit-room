@@ -27,3 +27,5 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 Codex completed 2026-09-17: corrected the S29 handoff to record the approved continuous take, rejected Pass 19, no-crop requirement, and pending lip-sync. Documentation claim released. No cut changed and no render or lip-sync job submitted in this continuation.
 
 Codex completed 2026-09-17: one Seedance S29 video-edit take rendered and reviewed; closed-mouth listening still fails. Review MP4 saved in EDIT_ROOM; handoff updated with output hashes and QC. Second paid take blocked by automatic approval review pending explicit authorization. No cut changed. Generation-receipt claim released.
+
+| Codex | new S29 whisper cut, full-film whisper review cut, S29 handoff | 2026-09-17 | Owner approved Seedance take 1 and requested whispered 'Did I convert to Hindu?' during final mouth movement. One ElevenLabs whisper generated; no new visual generation. |
