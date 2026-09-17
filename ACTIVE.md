@@ -56,3 +56,5 @@ Codex completed 2026-09-17: final AUDIO-V4 master saved,3334frames/138.916667s,S
 
 
 Codex completed 2026-09-17: AUDIO-V5 full saved,3334frames/138.916667s,SHA0A396526. Second sleepy whisper +0.5s, third-.25s, fourth added through74s before intact snore; first retained. Existing Homer recording reused, clean narrator source alignment correlation.999957627. Apu audience cheer95.55–98.2 ducked under speech; quiet nature ambience added only to exterior sections and blended beneath existing2:11 reference scene. V4 horn and other approved picture/audio preserved. Full decode/frame count/black scan and local SHA/bytes verified;-18.59LUFS,-2.09dBTP. Full video Libraryversion4 and reusable V5 sources saved; cuts,code,cue/generation/render receipts and final handoff committed. Next:owner production queue/content and refreshed clips. No posting,scheduling,merge,live promotion,Drive write. V5 claim released.
+
+| Codex | Audio V6: stairs ambience removal and steady final outdoor birds | 2026-09-17 | Owner requests no nature on opening stairs and light birds/nature from full1:38 through end; address softer level after2:02. Preserve other approved cues. |
