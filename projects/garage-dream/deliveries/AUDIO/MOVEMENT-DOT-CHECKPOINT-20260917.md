@@ -20,3 +20,8 @@ Next: inspect new Homer take, align to original52-frame line if acceptable, asse
 
 ## Exact original wording verified
 Original ASR and STORYBOARD-FINAL note both confirm 'Yeah, he opened it two months ago.' NOT 'I opened'. First Kling still-animation0bc7824a used incorrect I wording and is superseded; do not insert it. Corrective Kling job5b20fa96-1b78-4966-855c-a7508e924a07 submitted with exact HE wording and recorded phoneme/word timing: Yeah0.00–0.26, pause to0.56, he0.56–0.66, opened0.66–0.92, it0.92–1.12, two1.12–1.36, months1.36–1.58, ago1.58–1.94. Existing original audio remains final soundtrack.
+
+## Completed picture repair
+Owner: 'bingo i think we might be done' after corrected HE take5b20fa96. Canonical full render GARAGE-DREAM-CALMER-MOTION-DOT-REVIEW-20260917.mp4 is complete:3070frames,127.916667s,1920x1080,24fps,72366515bytes,SHA256 F0AEF29B9459F2960DCC374301C0972F30DDCBBFF884C502F8FBA0C2CC6B72F5. Full decode passed, blackIntervals empty; curl download SHA matches. HFmedia c986e124-a0ae-4c81-95e6-a49e19cdaf61. Saved chat file libfile_7a734017b8d88191afcf1f831bab17ae; receipt ZIP libfile_7e2de15668ac8191b3a37727a0ab6287. Not uploaded to Drive or promoted live.
+S24 169 sourceframes mapped continuously to162. S27 corrected still animation continuously retimed to52frames using verified original HE word timings; original voice remains unchanged. No dedicated SyncLipsync claim or perfect phoneme certification.
+New owner scope: add custom audience emotions, including a group whispering and laughing. That new request authorizes audience generation/mixing; older no-crowd note above is historical. Audience mix currently in progress on this branch, preserving this picture master. See forthcoming AUDIENCE-EMOTIONS handoff and cut.
