@@ -26,7 +26,7 @@ const args = Object.fromEntries(process.argv.slice(2).reduce((a, v, i, all) => {
 const DEFAULT_LINES = [
   'The following story is based on real events.',
   'Some scenes are dramatized.',
-  'Names have been changed to protect the privacy of those involved.',
+  'Names and identities have been changed to protect the privacy of those involved.',
 ];
 const out = args.out ? resolve(String(args.out)) : null;
 if (!out) { console.error('usage: node tools/intro-card.mjs --out card.mp4 [--size 1920x1080|1080x1920] [--lines "a|b|c"] [--silent]'); process.exit(2); }
