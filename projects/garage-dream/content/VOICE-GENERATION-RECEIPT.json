@@ -1,0 +1,123 @@
+{
+  "voiceName": "namesrexx",
+  "voiceId": "omTQvsWgoQBrcTuWdttm",
+  "model": "eleven_v3",
+  "flowId": "bHrxMVuqd1kxirqZqN3a",
+  "selected": [
+    {
+      "angle": "BIG-DREAMS",
+      "generationId": "2AuwqNXAYpALCANXYw8R",
+      "script": "[nonchalant] Three signs your friend has already spent money they haven't made. One: you say, let's sell a few things. They hear, Bugatti. [amused] Two: they find the recliner before they find anything to list. Three: you're explaining the work, and they're already dreaming. [warmly] Tag your big-dreaming friend. Share this with the one who keeps them grounded.",
+      "seconds": 20.08,
+      "internalCuts": 0,
+      "timeStretch": false
+    },
+    {
+      "angle": "GARAGE-SIGNS",
+      "generationId": "QKeKm9BT2XPJ68VkMusU",
+      "script": "[nonchalant] Three signs your garage has become a storage unit. One: the car hasn't been inside in months. Two: I'll sort it this weekend has become a family tradition. [amused] Three: opening the door needs a warning. [warmly] Start with one box. Tag the person this reminds you of, and share it before next weekend.",
+      "seconds": 14,
+      "internalCuts": 0,
+      "timeStretch": false
+    },
+    {
+      "angle": "THE-GROUP",
+      "generationId": "2KUnt6U0iWebDZnBjbDF",
+      "script": "[nonchalant] Every group has these three people. One: the person trying to help. Two: the person who hears a plan and immediately starts dreaming. [amused] Three: the one who shows up just to roast everybody. [curious] Be honest. Which one are you? [warmly] Tag your group, and share this with the friend who gets the last word.",
+      "seconds": 16.96,
+      "internalCuts": 0,
+      "timeStretch": false
+    },
+    {
+      "angle": "QUICK-FAVOR",
+      "generationId": "cGtlXQnU7nX9475GtRbE",
+      "script": "[nonchalant] Three signs a quick favor has become a whole episode. One: you came over for one job. Two: a neighbor pulls up with another question. [amused] Three: somehow, you're explaining what's on somebody's forehead. You can't plan these conversations. [warmly] Tag the friend whose quick favor is never quick, and share this with your group.",
+      "seconds": 19.68,
+      "internalCuts": 0,
+      "timeStretch": false
+    }
+  ],
+  "completedGenerations": [
+    {
+      "id": "2AuwqNXAYpALCANXYw8R",
+      "status": "completed",
+      "seconds": 20.08,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "kkLBx0V8m9vTT5WUKJxm",
+      "status": "completed",
+      "seconds": 19.36,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "a5EucBbwwyqiF5hygBSl",
+      "status": "completed",
+      "seconds": 18,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "eEJj7kMKbbjpxr08gnaB",
+      "status": "completed",
+      "seconds": 18.4,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "QKeKm9BT2XPJ68VkMusU",
+      "status": "completed",
+      "seconds": 14,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "2KUnt6U0iWebDZnBjbDF",
+      "status": "completed",
+      "seconds": 16.96,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "qDuBs7uw4B8LG2hRRrGF",
+      "status": "completed",
+      "seconds": 15.6,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "n7UoiYXENAoRCyv7Rlnp",
+      "status": "completed",
+      "seconds": 16.08,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "2UqhwOTHlAmFNvs8VqDM",
+      "status": "completed",
+      "seconds": 16.88,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "lucnDYbE7b7qDg177SDc",
+      "status": "completed",
+      "seconds": 20.08,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "k2wTG4OiEOp2pRww1AqM",
+      "status": "completed",
+      "seconds": 18.08,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "cGtlXQnU7nX9475GtRbE",
+      "status": "completed",
+      "seconds": 19.68,
+      "model": "eleven_v3"
+    },
+    {
+      "id": "B7sTv0cVuCQ1rqmH1Lkn",
+      "status": "completed",
+      "seconds": 19.12,
+      "model": "eleven_v3"
+    }
+  ],
+  "failedInitialTakes": 11,
+  "failureReason": "Service concurrency limit of 5. Third and fourth script nodes rerun sequentially after terminal failures.",
+  "validation": "Selected takes transcribed for script completeness and paragraph timings; no claim of human listening certification."
+}
