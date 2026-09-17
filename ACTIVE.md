@@ -73,3 +73,5 @@ Codex completed 2026-09-17: PILE-ESCALATION-FINAL-20260917.mp4 saved, 895 frames
 
 
 Codex completed 2026-09-17: owner approved PILE-ESCALATION-FINAL video (perfecto!). Matching seven-card carousel, photo/text post, carousel/photo captions, standalone text post and editable source package saved. All cards 1080x1350 and visually reviewed. Carousel builds lost rooms, motorcycle reveal, worth-money objection, practical resolution and specific audience question. Storyboard and template record video approval and supporting assets ready for owner review. No publishing, scheduling, merge or new media generation. Supporting-content claim released.
+
+| Codex | Render provenance audit, CLIPS-SOCIAL exports and post-plan.json | 2026-09-17 | Owner priority: trace identical server previews, fix canonical cut delivery and prove changed timeline changes preview hash; then wide/vertical masters+captions and scheduler data. No posting. |
