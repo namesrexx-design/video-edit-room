@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Owner's five final audio notes. Canonical video assembly: render-cut.mjs."""
 from pathlib import Path
-import json, hashlib, subprocess
+import argparse, json, hashlib, subprocess
 import numpy as np
 from scipy.io import wavfile
 from scipy.signal import butter, sosfilt
 from scipy.ndimage import maximum_filter1d, gaussian_filter1d
-ROOT=Path(__file__).resolve().parents[2]
+p=argparse.ArgumentParser()
+p.add_argument('--workspace',type=Path,default=Path.cwd(),help='Workspace containing homer-sync sources')
+ROOT=p.parse_args().workspace.resolve()
 OLD=ROOT/'homer-sync/audience-final'
 OUT=ROOT/'homer-sync/audience-v2'
 SR=48000; TOTAL=3070*2000
