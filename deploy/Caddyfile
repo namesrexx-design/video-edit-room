@@ -58,6 +58,15 @@
 	# to them. Same password as the studio site. The studio API hashes the file on arrival and keeps
 	# it only if the hash matches what the sender claimed.
 	# Any agent can ask the machine what it actually has (2026-09-17). Read-only, same password.
+	# The posting queue board, on the hostname that resolves (2026-09-17). Same password as the
+	# studio site, so Rexx and the team can see what is scheduled and what already went out.
+	handle /scheduler* {
+		basic_auth {
+			{$STUDIO_USER} {$STUDIO_PASSWORD_HASH}
+		}
+		reverse_proxy scheduler:8791
+	}
+
 	handle /state {
 		basic_auth {
 			{$STUDIO_USER} {$STUDIO_PASSWORD_HASH}
