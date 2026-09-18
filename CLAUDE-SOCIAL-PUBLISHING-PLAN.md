@@ -2,6 +2,8 @@
 
 Prepared for Rexx • 18 September 2026
 
+**Correction and release gates (18 September):** The existing site destination is `https://biz-box.io/links`, as documented in the Bizbox repo and guides. Remove the unverified domain inferred from the earlier dictated message from all proposed destinations. No domain migration, canonical-link replacement, or social-bio change is authorized by this plan. The scheduler's missing-key fail-open behavior must be fixed and verified before enabling agent access. Posting volume remains unresolved: do not assume total versus per-platform volume or commit to a paid plan.
+
 Goal: connect Rexx's social accounts to a shared publishing system that Claude and Codex can operate. Cover the accounts named in issue #25: TikTok, Instagram, YouTube, X, Facebook, LinkedIn, and Snapchat. Inventory Threads, Pinterest, and Kick before enabling them merely because their names exist in the scheduler. Keep the working manual file-and-caption handoff available throughout.
 
 Recommendation: finish the existing scheduler and connector on the paid-for Hetzner server. Keep GitHub as the shared source, R2/server media as the canonical assets, and the server scheduler as the only queue. Preserve the existing Higgsfield TikTok path; add direct API adapters for the remaining eligible accounts. Evaluate Buffer only as a transport adapter if it removes an actual review or implementation blocker at an approved cost. Do not migrate the calendar or content ownership to Buffer. This is a plan, not an implementation or live-server verification.
@@ -65,7 +67,7 @@ Verified from current source (deployment state still needs checking):
 
 - `store.mjs` stores the queue in `/data/scheduler/posts.json` by default, with `draft`, `approved`, `ready`, `posted`, `skipped`, and `failed` states. Extend this store without silently replacing the workflow.
 - `server.mjs` already supports posts, due, import, and tick endpoints plus `x-scheduler-key`. Both tick branches currently produce `ready`; even setting `SCHEDULER_API_PLATFORMS` does not implement publication.
-- The existing key check allows writes when the configured key is empty. Make required authentication fail closed before exposing an agent route. Protect queue reads and media appropriately too.
+- The existing key check allows writes when the configured key is empty. Make required authentication fail closed before exposing an agent route. This is a prerequisite, not a post-launch task. Verify missing server key, absent client key, incorrect key, and valid key cases; unauthorized requests must neither mutate the queue nor trigger publication. Check both the externally routed endpoint and backend exposure after deployment. Protect queue reads and media appropriately too.
 - Current Caddy source puts `/scheduler`, `/state`, and `/upload` behind Basic Auth. The claim in an earlier comment that `/state` and `/upload` already have a separate token door is not established by this Caddyfile. Inspect deployment before changing routing.
 - Add authenticated scheduler operations to the existing connector or a deliberately routed service endpoint. Keep the dashboard protection. Configure header-based service authentication; a browser popup limitation is not a general inability to authenticate HTTP requests.
 - Root AGENTS.md says agents must not hand-edit `deploy/` and merges belong to Rexx, while issue #25 requests scheduler work there. Claude should use the established server-maintenance workflow and resolve this repository instruction boundary before changing deployment files. This plan changes no runtime files.
@@ -91,8 +93,71 @@ Keep the original soundtrack, AI-generated labeling where offered, and the appro
 
 Claude returns the account register, setup links and remaining owner actions, selected provider and cost, working integration and deployment notes, redacted test results, publication receipts, and any platform-specific blockers. Keep app-review estimates separate from engineering estimates. This handoff authorizes planning; obtain Rexx's implementation direction before creating paid services or publishing test content.
 
-6. **Next: Bizbox links page and landing pages**
+6. **Next: the complete Bizbox customer journey**
 
-Use [bizboxforward.io/links](https://bizboxforward.io/links) as Rexx's designated brand reference. Older issues name `biz-box.io/links`; Rexx now explicitly names `bizboxforward.io/links`. Check domain ownership, routing, and redirects before changing social bios or canonical links. Proposed hierarchy: Bizbox identity and introduction; prominent LYFE section with story and merch store; other Bizbox offerings below; social links and contact information. Preserve the existing color direction, artwork, and typography by extracting the actual site styles before editing. The live page did not load in this research session, so no color values or current layout are asserted here.
+Use [biz-box.io/links](https://biz-box.io/links) as the existing hub. The earlier domain designation was an unverified interpretation of a dictated message and is withdrawn. Do not change domains, social bios, redirects, payment destinations, or canonical URLs on that basis. Verify the actual deployed route before any release. The user's requested brand direction remains: a more sophisticated hub with LYFE and merch prominent, followed by the rest of Bizbox.
 
-After the posting route is established, inspect the current site repository and finalize this hub first. Verify every destination, mobile layout, and brand treatment. Verify the tote-versus-duffle embroidery sizing and distinguish merch preview availability from a live store with functioning checkout. Retain the agreed high-detail stitched appearance. Also carry forward bizbox#22: resolve the payment product/price collision, connect actual guide delivery to payment confirmation, and prepare missing policy pages through the existing review process. Then apply the approved design system to the remaining landing pages.
+This phase now covers the complete path from a social post through landing-page understanding, signup, delivery, booking, checkout, and agreement signing. Complete and verify those journeys before scaling content. Social API setup and page preparation can proceed without waiting for every platform's app review; keep manual publishing available. Signs-and-numbers content follows the working customer journey.
+
+**First-pass findings — source review, not a live-site certification**
+
+Reviewed Bizbox source at `feat/lyfe-studio`, including its handoff and agreement-review documents, page components, offer data, guide sources, and extracted text from the four current guide PDFs. Reconcile these findings with main and the deployed server before editing; changes on this branch may not be live.
+
+| Finding | Evidence in namesrexx-design/bizbox at feat/lyfe-studio | Required follow-through |
+| --- | --- | --- |
+| Pending offers can still present hosted purchase links. | `src/components/storefront/OfferTiers.jsx` checks the tier hold list before showing a PayPal link, but does not gate that link on offer readiness or guide availability. Its status notice can say “Opening soon” while the link remains active. | Enforce readiness consistently across hosted links, wallet checkout, and the server. Unready offers collect interest without taking payment. Verify the deployed behavior. |
+| Product identity must survive every checkout path. | Hosted links come from shared tier data; `base44/functions/createOfferCheckout/entry.ts` has offer/tier identity and readiness checks, but hosted links bypass that function. | Inspect the actual hosted-link metadata and webhook mapping. Never infer the purchased product from price alone; resolve the guide-versus-subscription price collision in issue #22. |
+| Agreement drafts exist but this offer component does not present or record acceptance. | `src/content/offer-agreements.js` defines draft terms and signed tiers; `OfferTiers.jsx` does not import or connect them. | Trace other possible entry points, then wire the approved text and appropriate signing flow into every eligible path. A draft file alone does not establish an agreement with a buyer. |
+| Preview loops are not standalone explainers. | `src/pages/LinksWorld.jsx` uses muted looping tile videos. `src/components/storefront/LandingTemplate.jsx` has no dedicated explainer player. | Keep effective previews, but provide explainers that show the actual offer, workflow, output, and next step. |
+| Merch copy needs reconciliation. | `src/content/links-world.json` still says hats and mugs, with T-shirts next. | Match the actual approved, purchasable catalog. A preview or interest form is not proof that the merch store is finished. |
+| Guide completeness is not established. | `guides/autopilot.md`, `bizbox.md`, `binder.md`, and `credit.md` are procedural guides; all four PDF text extractions were available. No complete skill appendix was identified in the reviewed sources. | Compare every promised skill against its canonical source and delivered PDF. Do not equate finding four PDFs with verifying full skill coverage. |
+
+Source entry points: [implementation handoff](https://github.com/namesrexx-design/bizbox/blob/feat/lyfe-studio/docs/CODEX-HANDOFF-2026-09-17.md), [agreement review](https://github.com/namesrexx-design/bizbox/blob/feat/lyfe-studio/docs/AGREEMENTS-REVIEW-FOR-CODEX.md), [offer checkout UI](https://github.com/namesrexx-design/bizbox/blob/feat/lyfe-studio/src/components/storefront/OfferTiers.jsx), [guide sources](https://github.com/namesrexx-design/bizbox/tree/feat/lyfe-studio/guides).
+
+**Presentation, copy, and explainers**
+
+- Inventory every tile and landing page: audience, concrete outcome, included deliverables, current readiness, price, primary CTA, explainer asset, and destination. Remove contradictions between the tile, page, checkout, guide, and agreement.
+- Extract the existing approved colors, typography, and artwork from the actual site. Improve spacing, hierarchy, tile consistency, contrast, mobile readability, and image crops. Keep the detailed embroidery and resolve tote-versus-duffle sizing against the approved product.
+- Each explainer must make sense by itself: recognizable problem, actual workflow, visible output, who the offer is for, what is included, and one clear next action. Use real product footage where available. Include captions, readable text, a useful poster frame, accessible playback controls, and a sound-off review. Do not turn a decorative loop into an unsupported promise.
+- Review every button, footer, social link, policy link, video, form, download, and redirect on mobile and desktop. Test logged-out and ordinary-member access as well as owner access; `OwnerAccessBoundary.jsx` can hide otherwise valid routes. Honor reduced motion and keyboard navigation.
+
+**Fulfillment and booking**
+
+| Journey | Completion evidence |
+| --- | --- |
+| Free signup / free resource | Correct source and consent recorded; successful signup; correct resource delivered; confirmation and failure states truthful; duplicate submission handled. |
+| Paid DIY guide | Stable product/tier identity; verified payment; correct entitlement and PDF; working receipt/download email; delivery retry and resend; cancellation and failed payment do not unlock paid access. |
+| Pitch-deck call | Clear purpose and preparation requirements; correct calendar/event type, timezone, availability, confirmation, and reschedule/cancel path; lead and booking linked. |
+| Sales call | Separate, correctly described event where appropriate; correct routing and follow-up; no claim of a confirmed booking before provider confirmation. |
+| DWY / DFY engagement | Agreed scope, appropriate signed agreement, payment state, client copy, and onboarding handoff linked to the same customer/order. Work begins only after the required steps. |
+| Merch | Approved real products and variants, accurate imagery and price, shipping/tax behavior, checkout, order confirmation, and fulfillment routing verified. |
+
+Use the existing server and integrations; inspect legacy Base44 code for intended behavior without creating new Base44 features. Payment fulfillment must use authenticated provider confirmation and idempotent processing, not merely a success-page visit. Repeated webhook events or refreshes must not duplicate orders, emails, or entitlements. Failed saves must not display successful recording or delivery. Test sandbox payments and controlled test bookings; do not charge a live card, invite real customers, or send external test messages without authorization.
+
+**Agreements and policies**
+
+Create an offer-by-offer comparison of page promises, price, deliverables, revisions, schedule, refunds/cancellation, ownership/license, support, recurring charges if applicable, and signing requirements. Correct factual and copy inconsistencies in reviewable drafts. Preserve the existing attorney-review status of `1.0-draft`; do not label these legally approved.
+
+The repo already flags Automation King LLC as the contracting entity and Wel Kom LLC as the current payment recipient. Preserve the owner's entity wording and resolve the intended arrangement through the existing review process; do not silently substitute names. Check the requested affiliate-assignment provision across all contracts: it appears in the processing draft but not the reviewed DIY/DWY/DFY drafts. Reconcile the guide's “no cut of sales” language with any applicable processing fee before release. Verify the appropriate booking/deposit/cancellation and media/likeness/voice permissions for applicable services. Do not introduce new commercial terms such as arbitration, automatic renewal, or new fees without an owner decision.
+
+Show applicable terms before commitment. Retain the exact accepted or signed text, version, hash, timestamp, customer/order reference, signature record where required, and retrievable customer copy. DIY acceptance and DWY/DFY signatures are distinct requirements in the existing brief. Review required policy pages and their links with the same process.
+
+**Full skills in the PDFs**
+
+For each product, build a coverage table: promised skill → canonical source file and revision → guide section/PDF page → required downloadable assets → reproducible procedure → expected output and troubleshooting. Locate the real skill sources in the repos/server; a missing result in one search is not proof a skill does not exist. Include complete customer-usable instructions and permitted templates/prompts/assets for every promised skill. Keep internal secrets and unrelated private material out of deliverables.
+
+Where coverage is missing, update the canonical guide source, regenerate the PDF, and visually inspect every page for clipping, illegible screenshots, broken links, and missing sections. Verify the exact generated artifact is the one buyers receive, with a recorded version/hash. Check substantive legal/financial instructions against current authoritative sources and the existing review process before release.
+
+Current review limitation: extracted PDF text was read, but raw PDF retrieval failed, so no page-render or visual PDF QA is claimed. Full skill-to-guide parity remains unverified.
+
+**Scene-based carousels and text posts**
+
+Carry forward Rexx's direction: when the meaning of the text changes, the visual should change to the corresponding scene from the approved video or production. Each carousel slide pairs one clear idea with a frame that demonstrates it. For animated text posts, time the scene change to the relevant phrase. The visual should help the audience recognize the connection, rather than merely decorate the words.
+
+Record each beat's copy, source asset/revision, frame or timecode, intended connection, crop, and text placement in the existing content package. Keep text readable, use the approved brand, and preserve ONE COPY. Reuse approved footage; do not reintroduce rejected walking footage or expose private information visible in screen recordings. Preserve the approved audio and CTA where applicable. Review a complete example before scaling this treatment across future content.
+
+**Release evidence**
+
+Return an inventory with working / blocked / not tested status for each journey, concrete fixes and reviewable diffs, mobile and desktop screenshots, explainer playback checks, source-to-PDF coverage results, controlled checkout/delivery/booking/signing evidence, and remaining owner or reviewer decisions. For Bizbox code changes, run the required `npx vite build` and visually inspect the result. Reconcile existing PRs rather than opening duplicate work.
+
+Do not call the merch store or customer journey done until these checks pass against the deployed version. This document records the implementation scope and first source findings; it does not claim the site, scheduler authentication, agreements, or PDFs have been fixed or deployed.
