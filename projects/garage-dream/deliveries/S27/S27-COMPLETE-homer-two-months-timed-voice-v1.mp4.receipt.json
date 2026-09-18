@@ -1,0 +1,51 @@
+{
+  "timeline": "timelines/S27-COMPLETE-homer-two-months-timed-voice-v1.otio",
+  "timelineSha256": "FA945D7038EA8AE903DEE1BB32C918110ABBB1420DA132166DD39574A41FF099",
+  "name": "S27-COMPLETE-homer-two-months-timed-voice-v1",
+  "output": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/S27/S27-COMPLETE-homer-two-months-timed-voice-v1.mp4",
+  "outputSha256": "DC98179025CFAD811A6FF00BDAEB60E6A2BF1C1B52B759AA302B1A8D3018050A",
+  "bytes": 1088622,
+  "frames": 52,
+  "seconds": 2.166667,
+  "renderedAt": "2026-09-16T19:31:46.702Z",
+  "renderedBy": "Astra",
+  "warnings": [],
+  "blackIntervals": [],
+  "outputProfile": {
+    "width": 1920,
+    "height": 1080,
+    "crf": 18
+  },
+  "pictureCopy": false,
+  "items": [
+    {
+      "i": 0,
+      "name": "Established Homer voice; existing speaking picture retimed 48 to 52 frames",
+      "kind": "clip",
+      "file": "INV051.mp4",
+      "srcFrames": [
+        0,
+        48
+      ],
+      "frames": 52,
+      "audioOverride": {
+        "file": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/FINAL-PASS/HOMER-AUDIO-two-months-v1.mp3",
+        "startFrames": 0,
+        "sha256": "820FBFFA995E9D5A9B0C2D9EDF84DB2097A2CA9D8B8D1D8E57CDB5F4AE8FCBF9"
+      },
+      "pictureRetime": {
+        "sourceFrames": 48,
+        "outputFrames": 52,
+        "audioSpeedUnchanged": true
+      }
+    }
+  ],
+  "media": [
+    {
+      "file": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/CLIPS/INV051.mp4",
+      "sha256": "DD176B5BEBAFC62C61574F75BB9581C2492B6FD9C0A3F8B18EE789F6A1A1DBC3",
+      "frames": 48,
+      "size": "1280x720@24/1"
+    }
+  ]
+}
