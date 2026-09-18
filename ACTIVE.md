@@ -23,3 +23,56 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 | Claude (MASTER) | STORYBOARD FINAL film | 2026-09-15 | GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4 delivered (Drive root + EDIT_ROOM, deliveries/FILM, Pages storyboard player, chat). 2807 f. S25/S26 not on the board and no uploads found; add when Rexx uploads. |
 
 | Claude (MASTER) | STORYBOARD FINAL pass 7 | 2026-09-15 | new S24 in; delivered. S25/S26 not found anywhere. |
+
+Codex completed 2026-09-17: corrected the S29 handoff to record the approved continuous take, rejected Pass 19, no-crop requirement, and pending lip-sync. Documentation claim released. No cut changed and no render or lip-sync job submitted in this continuation.
+
+Codex completed 2026-09-17: one Seedance S29 video-edit take rendered and reviewed; closed-mouth listening still fails. Review MP4 saved in EDIT_ROOM; handoff updated with output hashes and QC. Second paid take blocked by automatic approval review pending explicit authorization. No cut changed. Generation-receipt claim released.
+
+
+Codex completed 2026-09-17: Rexx approved Seedance take 1 and requested the whispered aside. Added 'Did I convert to Hindu?' using one speech generation; delivered S29-HOMER-WHISPER-20260917.mp4 (121 frames, SHA 9A59E63B) and GARAGE-DREAM-HOMER-WHISPER-20260917.mp4 (3070 frames, SHA 8BCE2D47) to EDIT_ROOM and owner chat. Repository cuts, receipts and handoff updated. No second video generation, no live cut promotion or merge. Whisper delivery claim released.
+
+
+Codex completed 2026-09-17: GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4 delivered to EDIT_ROOM and chat (3070 frames, SHA707C1350). Reused S16-T2 Bugatti whisper at62.083s and AUD014 Bart laugh at83.5s; existing S29 whisper retained. One full-frame S18 picture repair included as a review candidate with original dialogue; second-sentence mouth anticipation remains for playback review, not certified perfect. Full decode and measured audio checks passed. Cuts, verification and final audio working notes committed; crowd cue plan prepared but audience not mixed. No live promotion or merge. Audio review claim released.
+
+
+Codex completed2026-09-17: AUDIO-CORRECTIONS-V2 delivered,3070frames,SHA BF931CE7. Three existing AUD018 Bugatti whispers timed across58–63s; first wake sentence shifted1.125s to77s; owner-confirmed beach sentence preserved; extra Bart exit laugh at84.083s. Visual sequences and waveform timing checked; no clipping. Cut,verification,handoff committed. No new generation,live promotion or merge. V2 claim released.
+
+
+
+Codex completed2026-09-17: GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4 saved in owner chat,3070frames,SHA D218B655. Approved audio-driven wake8cb751f1 and no-turn Bartb247db50 plus requested S28 passenger-gaze take679e3bef; first car take rejected for Apu mouth flapping. Full frame retained, original V2 soundtrack unchanged. Full decode/black scan/frame count and download SHA verified; -18.48LUFS,-2.11dBTP. Cuts, receipts, generation record and checkpoint committed. Awaiting owner playback; no live promotion, merge, Drive copy or crowd mix. Scene redo claim released.
+
+Codex completed2026-09-17: owner chose S28 second take679e3bef as winner. Verified complete full assembly D218B655 already contains exact selected take alongside approved wake/Bart. Approval recorded in generation receipt and handoff. No additional generation or duplicate render; approval-record claim released.
+
+Codex completed2026-09-17: final full GARAGE-DREAM-FINAL-AUDIENCE-INTRO-20260917.mp4,3310frames,SHA D4FEA039, includes recovered Claude10sintro and six custom audience cues over approved picture/original soundtrack. Four uncropped1080p clips rendered:Bugatti throughDoh850frames,thecall743,Bart/Apu324,car/payoff947. All full decodes,localdownloadSHA/bytes verified. Final-18.56LUFS,-2.11dBTP; black only existing intro fades. Media saved owner chat;generation/cue/verification receipts and handoff committed. Release plan and talking-head questions delivered. No live promotion,merge,Drive copy,scheduling or posting. Audience/intro/clip claim released.
+
+
+
+Codex completed 2026-09-17: full AUDIO-V3 delivered, 3334 frames / 138.916667 seconds, SHA 71E8E5AB. Owner-selected second namesrexx eleven_v3 take ends before original Homer line; Bugatti whispers -8dB, original pre-greeting horn +8dB, final laugh +1s with final-picture hold. First Bart laugh retained, second remains removed. Full decode/frame count/black scan and download hash verified; -18.57LUFS, -2.11dBTP. Full MP4 and reusable audio sources saved in owner chat; cut, generation/cue/render receipts and handoff committed. Owner requested full video first; refresh affected excerpts after full-film review. No merge/live promotion/post/schedule/Drive write. Final audio V3 claim released.
+
+
+
+Codex completed 2026-09-17: final AUDIO-V4 master saved,3334frames/138.916667s,SHA DE629B80. One continuous namesrexx eleven_v3 nonchalant sentence at full47.24–50.04; explicit car horn at full94.49–94.97 before Apu greeting. Other V3 picture/audio retained. Full decode/frame count/black scan and local hash/bytes verified;-18.50LUFS,-2.11dBTP. Full video Library version3 and reusable V4 audio sources saved. Canonical cut and generation/cue/render receipts, final handoff and owner production queue committed. Owner requested full video first; clip exports remain earlier revisions pending refresh in content phase. No post/schedule/merge/live promotion/Drive write. V4 claim released.
+
+
+
+Codex completed 2026-09-17: AUDIO-V5 full saved,3334frames/138.916667s,SHA0A396526. Second sleepy whisper +0.5s, third-.25s, fourth added through74s before intact snore; first retained. Existing Homer recording reused, clean narrator source alignment correlation.999957627. Apu audience cheer95.55–98.2 ducked under speech; quiet nature ambience added only to exterior sections and blended beneath existing2:11 reference scene. V4 horn and other approved picture/audio preserved. Full decode/frame count/black scan and local SHA/bytes verified;-18.59LUFS,-2.09dBTP. Full video Libraryversion4 and reusable V5 sources saved; cuts,code,cue/generation/render receipts and final handoff committed. Next:owner production queue/content and refreshed clips. No posting,scheduling,merge,live promotion,Drive write. V5 claim released.
+
+
+
+Codex completed 2026-09-17: AUDIO-V6 full saved,3334frames/138.916667s,SHA76135F02. Stairs restored to exact pre-nature audio; late birds/nature begins full98s and stays near-38dBFS through ending, with prior late dip and speech-driven reduction removed. Other approved cues/picture retained. Canonical full decode/frame count/black scan, remote input audio hash and local MP4 hash/bytes verified;-18.53LUFS,-2.11dBTP. Full MP4 Libraryversion5 and V6 editable audio sources saved; code/cut/cue/render receipts and final handoff committed. Existing excerpts still require final-master refresh in content phase. No posting/scheduling/merge/live promotion/Drive write. V6 claim released.
+
+
+
+Codex completed 2026-09-17: still-based Garage Dream content previews, four continuous Rexx V3 scrolling MP4s, four five-card carousels, four photo/text posts, complete post copy and reusable CONTENT-TYPES registry. Canonical storyboard contentProduction added with backup; existing scenes preserved. Owner paused additional film clip work. Assets await owner review; no publishing, merge, live deployment or new scene generation. Content-production claim released.
+
+
+Codex completed 2026-09-17: general centered-photo template previews saved: two photo posts, two five-card carousels, one 26.083333s scrolling MP4 using owner-approved first namesrexx V3 take gp3gbfNg14ZTFU0hPfL0. General copy, preview and editable-source packages saved. Project display title corrected to Dream Garage; public template has no owner/episode/LYFE labels. Canonical storyboard backed up and content registry updated. Render full decode/frame count/black scan passed. Layout/copy await owner review; no posting, scheduling, merge, live promotion or Drive write. General-template claim released.
+
+
+Codex completed 2026-09-17: PILE-ESCALATION-FINAL-20260917.mp4 saved, 895 frames / 37.291667s, SHA98447D5A. Owner explicitly chose new voice take 2 VQRklBqQqaStnQH5Q43p. Script escalates garage to dining-table motorcycle, resolves with one item and dinner table restored, and ends with audience question. Whole continuous V3 take, synced native text, centered existing portrait. Full decode/frame count/black scan passed; final -17.1LUFS, -5.0dBTP. Production pack saved; cuts, receipts, timing, template and storyboard updated. Script structure and voice approved; assembled video delivered for owner playback. Next: matching carousel/photo/text posts from final script; prior cards predate this revision. No publishing, scheduling, merge, live promotion or Drive write. Claim released.
+
+
+Codex completed 2026-09-17: owner approved PILE-ESCALATION-FINAL video (perfecto!). Matching seven-card carousel, photo/text post, carousel/photo captions, standalone text post and editable source package saved. All cards 1080x1350 and visually reviewed. Carousel builds lost rooms, motorcycle reveal, worth-money objection, practical resolution and specific audience question. Storyboard and template record video approval and supporting assets ready for owner review. No publishing, scheduling, merge or new media generation. Supporting-content claim released.
+
+
+Codex checkpoint 2026-09-17: identified identical pass-17 watched-cut blob 0c08da30 at all three owner-reported preview commits. Watcher also rerendered on unrelated branch commits. Independent draft PR23 on fix/studio-preview-provenance-20260917 adds effective-input reuse, stale output rejection and preview receipts; seven tests and real local one-frame render/hash-change proof pass. post-plan.json has nine schema-validated records; 16-output social clip manifest is prepared. SERVER GATE NOT PASSED: studio hostname unreachable, connector401, no team/SSH credential in this session. No new film cut or social clip shipped. V6 referenced media absent from repository delivery paths; must upload and verify before canonical promotion. V6 vs earlier Audio V2 source mapping flagged. No merge/deploy/post/schedule. Claim paused and released for authenticated server continuation; PR23 audit document contains exact next steps.

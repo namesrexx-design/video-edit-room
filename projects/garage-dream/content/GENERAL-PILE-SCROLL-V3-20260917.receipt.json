@@ -1,0 +1,40 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "cut": "GENERAL-PILE-SCROLL-V3-20260917.json",
+  "cutSha256": "A59EF4D67601974470B52984F7BF26793971005F9805D6B9F710B7EFA0C6EB96",
+  "savedAt": "2026-09-17T00:00:00Z",
+  "output": "/workspace/scratch/4303b66e0210/content-general-v1/render-project/projects/garage-dream/renders/GENERAL-PILE-SCROLL-V3-20260917.mp4",
+  "outputSha256": "F167C47B84C540D1A8FDBD9E3C80CD88D2ACA2C42DAEBE7B33E504BD81F3AC28",
+  "bytes": 2032987,
+  "frames": 626,
+  "seconds": 26.083333,
+  "renderedAt": "2026-09-17T20:24:58.812Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "id": "general-pile",
+      "u": "general-pile",
+      "scene": "GENERAL",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/GENERAL-PILE-PICTURE.mp4",
+      "start": 0,
+      "end": 626,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "general-pile-audio",
+      "u": "general-pile-audio",
+      "link": "general-pile",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/GENERAL-PILE-VOICE.wav",
+      "start": 0,
+      "end": 626,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

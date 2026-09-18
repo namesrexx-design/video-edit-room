@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "S28-PASSENGER-LOOK-REVIEW-20260917",
+  "savedAt": "2026-09-17T16:46:37.753Z",
+  "note": "Review candidate: audio-driven Wan2.7 wake take 8cb751f1; approved no-turn Bart b247db50. Full V2 soundtrack unchanged. No crop. Dedicated sync_so was unavailable due connector schema bug. New S28 passenger-camera listening take679e3bef, lead-in trimmed11frames; original reminder audio unchanged. First car take39003e7e rejected for Apu mouth motion.",
+  "v1": [
+    {
+      "file": "S28/S28-PASSENGER-LOOK-679e3bef-PADDED.mp4",
+      "folder": "repo-deliveries",
+      "start": 11,
+      "end": 97,
+      "id": "car-passenger-listening",
+      "u": "car-passenger-listening",
+      "mute": true,
+      "scene": "S28"
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 2667,
+      "end": 2753,
+      "at": 0,
+      "gain": 0,
+      "id": "original-photo-reminder",
+      "link": "car-passenger-listening"
+    }
+  ]
+}

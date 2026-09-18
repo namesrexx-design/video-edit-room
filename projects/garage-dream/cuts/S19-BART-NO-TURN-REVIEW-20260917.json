@@ -1,0 +1,31 @@
+{
+  "a2": [
+    {
+      "at": 0,
+      "end": 2033,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "gain": 0,
+      "id": "approved-Bart-dialogue-laughs",
+      "link": "bart-redo",
+      "start": 1961
+    }
+  ],
+  "format": 2,
+  "name": "S19-BART-NO-TURN-REVIEW-20260917",
+  "note": "Owner rejected prior redo because Rexx turned around. New requested take b247db50; explicitly lock Rexx rear-facing all frames. Original V2 Bart soundtrack retained.",
+  "savedAt": "2026-09-17T16:27:54.770Z",
+  "v1": [
+    {
+      "u": "bart-redo",
+      "id": "bart-redo",
+      "scene": "S19",
+      "folder": "repo-deliveries",
+      "file": "S19/S19-BART-NO-TURN-b247db50-RAW.mp4",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    }
+  ],
+  "v2": []
+}

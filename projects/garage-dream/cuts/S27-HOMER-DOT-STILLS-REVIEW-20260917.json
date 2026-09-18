@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "S27-HOMER-DOT-STILLS-REVIEW-20260917",
+  "savedAt": "2026-09-17T17:16:57.587Z",
+  "note": "Owner requested corrected start/end stills and Kling1080p. Correct HE wording take5b20fa96; native video word timing conformed to original line. Original approved voice preserved. No crop; source1916 padded2px each side.",
+  "v1": [
+    {
+      "file": "S27/S27-CORRECTED-5b20fa96-TIMED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 52,
+      "id": "homer-corrected",
+      "u": "homer-corrected",
+      "scene": "S27",
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "file": "FILM/GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 2392,
+      "end": 2444,
+      "at": 0,
+      "id": "original-Homer-voice",
+      "link": "homer-corrected",
+      "gain": 0
+    }
+  ]
+}

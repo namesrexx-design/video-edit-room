@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "CLIP-02-THE-CALL-20260917",
+  "savedAt": "2026-09-17T17:41:23.863Z",
+  "note": "Opening, Homer call and Rexx arrival. Exact full frame source; no crop. Source excludes 10-second intro.",
+  "v1": [
+    {
+      "id": "CLIP-02-THE-CALL-20260917",
+      "u": "CLIP-02-THE-CALL-20260917",
+      "scene": "FILM",
+      "file": "FILM/GARAGE-DREAM-AUDIENCE-EMOTIONS-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 743,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "CLIP-02-THE-CALL-20260917-audio",
+      "link": "CLIP-02-THE-CALL-20260917",
+      "file": "FILM/GARAGE-DREAM-AUDIENCE-EMOTIONS-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 743,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

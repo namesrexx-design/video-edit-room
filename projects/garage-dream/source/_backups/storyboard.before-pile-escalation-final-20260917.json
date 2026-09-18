@@ -30079,7 +30079,7 @@
       "sha256": "76135F02600B5770704AA7CCB35A1DFCE22F9A2269E325696539E0FF840C09B5",
       "approval": "owner: winner"
     },
-    "latestOwnerDirection": "Video approved (perfecto!). Create highly engaging carousel with escalating story, practical resolution and invitations for comments and shares; 10–20 million views is an ambition, not a guaranteed outcome.",
+    "latestOwnerDirection": "Correct project display title to Dream Garage; no episode title, LYFE text or owner name on general public templates. Identify relatable traits/habits/issues/problems, then a useful observation and tag/share CTA. Owner selected first V3 voice take for general pile preview.",
     "assetReviewStatus": "previews_ready_for_owner_review",
     "publishingStatus": "not_posted_or_scheduled",
     "reuseRule": "Each content type stands independently. One topic can have multiple angles and multiple instances of every applicable format.",
@@ -30090,43 +30090,13 @@
       "composition": "Larger centered portrait. Native text may sit in front of the photo without obscuring face.",
       "contentFocus": "Recognizable characteristics, traits, habits, issues and problems. Each post helps viewers recognize someone they know. No episode dependence.",
       "voiceSelection": {
-        "generationId": "VQRklBqQqaStnQH5Q43p",
-        "take": 2,
+        "generationId": "gp3gbfNg14ZTFU0hPfL0",
+        "take": 1,
         "ownerApproved": true,
         "voice": "namesrexx",
-        "model": "eleven_v3",
-        "script": "PILE-ESCALATION-FINAL-20260917"
+        "model": "eleven_v3"
       },
-      "reviewStatus": "Final scrolling video approved by owner: perfecto!",
-      "storyStructure": [
-        "recognition",
-        "escalation",
-        "absurd payoff",
-        "practical resolution",
-        "audience question"
-      ],
-      "opening": "Have you ever met someone…",
-      "prohibitedFraming": [
-        "worked with",
-        "problematic clients"
-      ],
-      "latestVideo": "PILE-ESCALATION-FINAL-20260917.mp4",
-      "nextTask": "Owner reviews matching carousel; reuse locked content structure for the next general trait/habit angle.",
-      "videoApproval": {
-        "message": "perfecto!",
-        "status": "approved",
-        "file": "PILE-ESCALATION-FINAL-20260917.mp4",
-        "sha256": "98447D5A40CFA0268D9D88A52A3781D77F262809F217D834E02046AC48679DC6",
-        "voiceTake": 2
-      },
-      "supportingAssets": {
-        "status": "ready_for_owner_review",
-        "carouselCards": 7,
-        "carouselFile": "CAROUSEL-THE-GROWING-PILE-FINAL.zip",
-        "photoPost": "POST-01-THE-GROWING-PILE.png",
-        "copy": "projects/garage-dream/content/PILE-SUPPORTING-POST-COPY-20260917.md",
-        "publishingStatus": "not_published_or_scheduled"
-      }
+      "reviewStatus": "centered template preview"
     }
   },
   "displayTitle": "Dream Garage"

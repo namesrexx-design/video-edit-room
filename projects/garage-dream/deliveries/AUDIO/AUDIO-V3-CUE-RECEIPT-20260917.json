@@ -1,0 +1,34 @@
+{
+  "voice_name": "namesrexx",
+  "voice_id": "omTQvsWgoQBrcTuWdttm",
+  "model": "eleven_v3",
+  "selected_take": 2,
+  "generation_id": "vE8jPBJSsmGwAQivR7x9",
+  "included_script": "Homer, this is like a scene from Storage Wars. You got a Bugatti in here.",
+  "excluded_generated_homer_dialogue": "Oh, wait. What is that? Look over there.",
+  "source_start": 0,
+  "source_end": 4.8,
+  "tempo_change": false,
+  "full_rexx_start": 51.2,
+  "full_rexx_end": 56.0,
+  "bugatti_whispers_gain_change_db": -8,
+  "horn_gain_change_db": 8,
+  "full_horn_window": [
+    94.635,
+    94.75
+  ],
+  "ending_laugh_extension_seconds": 1,
+  "picture_hold_frames": 24,
+  "full_frames": 3334,
+  "full_seconds": 138.91666666666666,
+  "peak_dbfs": -2.11431884765625,
+  "checks": {
+    "other_base_audio_unchanged": true,
+    "homers_following_line_preserved": true,
+    "apus_greeting_preserved": true,
+    "first_bart_laugh_preserved": true
+  },
+  "audio_sha256": "554cd405c91a413cdc1c57345fa15f2407361a2d122a7bcb48b7de1250822cf2",
+  "selected_source_sha256": "f934ed23eba3ea273012bbe788a0d9766e5b0e49b3121fce43f13fd454783bc5",
+  "review_limit": "User chose second take. Automated verification checks words, timing, preservation and levels; does not certify human listening."
+}
