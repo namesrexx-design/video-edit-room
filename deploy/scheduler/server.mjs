@@ -16,6 +16,7 @@ import { createServer } from 'node:http';
 import { readFileSync, existsSync, statSync, createReadStream } from 'node:fs';
 import { join, resolve, extname } from 'node:path';
 import { load, save, addPost, setStatus, due, PLATFORMS, dbFile, mediaRoot } from './store.mjs';
+import { dispatch, ADAPTER_PLATFORMS } from './dispatch.mjs';
 
 const PORT = Number(process.env.SCHEDULER_PORT || 8791);
 const KEY = process.env.SCHEDULER_KEY || '';           // required for anything that changes state
@@ -33,16 +34,18 @@ const authed = (req) => !KEY || req.headers['x-scheduler-key'] === KEY;
 function tick() {
   const db = load();
   const list = due(db);
+  const toDispatch = [];
   for (const p of list) {
-    if (API_READY.includes(p.platform)) {
-      // Adapters land here as each platform's app review is approved. Until then this branch
-      // never runs, because API_READY is empty — it does NOT silently fall through to posting.
+    if (API_READY.includes(p.platform) && ADAPTER_PLATFORMS.includes(p.platform)) {
+      toDispatch.push(p);   // run AFTER this tick's save, so its stale copy cannot undo the claim
+    } else if (API_READY.includes(p.platform)) {
       setStatus(db, p.id, 'ready', { note: `no adapter built for ${p.platform} yet` });
     } else {
       setStatus(db, p.id, 'ready', { mode: 'handoff' });
     }
   }
   if (list.length) save(db);
+  for (const p of toDispatch) dispatch(p).catch((e) => console.error(`[scheduler] dispatch ${p.id} failed: ${e.message}`));
   return list.length;
 }
 
