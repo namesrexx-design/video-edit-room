@@ -13,8 +13,27 @@ import { createServer } from 'node:http';
 import { spawnSync } from 'node:child_process';
 import { randomBytes } from 'node:crypto';
 
-const id = process.env.YT_CLIENT_ID; const secret = process.env.YT_CLIENT_SECRET;
-if (!id || !secret) { console.error('Set YT_CLIENT_ID and YT_CLIENT_SECRET in this shell first.'); process.exit(2); }
+import readline from 'node:readline';
+
+// Ask for a value. The secret is typed hidden: nothing is echoed and nothing is stored on this PC.
+function ask(question, hidden) {
+  return new Promise((done) => {
+    const rl = readline.createInterface({ input: process.stdin, output: process.stdout, terminal: true });
+    process.stdout.write(question);
+    if (hidden) { rl.stdoutMuted = true; rl._writeToOutput = (s) => { if (!rl.stdoutMuted) rl.output.write(s); }; }
+    rl.question('', (a) => { rl.close(); if (hidden) process.stdout.write('\n'); done(String(a).trim().replace(/^['"]|['"]$/g, '')); });
+  });
+}
+
+const id = process.env.YT_CLIENT_ID || await ask('Paste the Client ID, then press Enter: ', false);
+const secret = process.env.YT_CLIENT_SECRET || await ask('Paste the Client secret (it stays hidden as you paste), then press Enter: ', true);
+if (!id || !secret) { console.error('Nothing pasted, nothing saved.'); process.exit(2); }
+if (!/\.apps\.googleusercontent\.com$/.test(id)) { console.error('That does not look like a Client ID (it should end in .apps.googleusercontent.com). Nothing saved.'); process.exit(2); }
+
+// Fail early, before Google, if this PC cannot reach the server.
+const probe = spawnSync('ssh', ['-i', process.env.LYFE_SSH_KEY || `${process.env.USERPROFILE || process.env.HOME}/.ssh/lyfe_studio_ed25519`, '-o', 'BatchMode=yes', '-o', 'ConnectTimeout=10', 'root@2.28.123.22', 'test -w /srv/lyfe/repo/deploy/.env && echo ok'], { encoding: 'utf8' });
+if (!/ok/.test(probe.stdout || '')) { console.error('This PC cannot write to the server .env (' + (probe.stderr || 'ssh failed').trim() + '). Nothing saved.'); process.exit(1); }
+console.log('Server reachable. Now sign in with Google.');
 const PORT = 53682; const redirect = `http://127.0.0.1:${PORT}/cb`; const state = randomBytes(12).toString('hex');
 const scope = 'https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly';
 const url = 'https://accounts.google.com/o/oauth2/v2/auth?' + new URLSearchParams({ client_id: id, redirect_uri: redirect, response_type: 'code', scope, access_type: 'offline', prompt: 'consent', state });
