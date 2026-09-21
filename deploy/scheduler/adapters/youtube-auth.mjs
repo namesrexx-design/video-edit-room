@@ -15,18 +15,23 @@ import { randomBytes } from 'node:crypto';
 
 import readline from 'node:readline';
 
-// Ask for a value. The secret is typed hidden: nothing is echoed and nothing is stored on this PC.
-function ask(question, hidden) {
-  return new Promise((done) => {
-    const rl = readline.createInterface({ input: process.stdin, output: process.stdout, terminal: true });
-    process.stdout.write(question);
-    if (hidden) { rl.stdoutMuted = true; rl._writeToOutput = (s) => { if (!rl.stdoutMuted) rl.output.write(s); }; }
-    rl.question('', (a) => { rl.close(); if (hidden) process.stdout.write('\n'); done(String(a).trim().replace(/^['"]|['"]$/g, '')); });
-  });
+// One prompt session for both values. The secret is typed hidden: nothing is echoed and nothing is
+// stored on this PC.
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout, terminal: true });
+let muted = false; const writeOut = rl._writeToOutput.bind(rl);
+rl._writeToOutput = (s) => { if (!muted) writeOut(s); };
+const lines = rl[Symbol.asyncIterator]();   // buffers lines, so pasting both values at once still works
+async function ask(question, hidden) {
+  process.stdout.write(question);
+  muted = !!hidden;                          // hide only what is typed, not the prompt
+  const { value } = await lines.next();
+  muted = false; if (hidden) process.stdout.write('\n');
+  return String(value ?? '').trim().replace(/^['"]|['"]$/g, '');
 }
 
 const id = process.env.YT_CLIENT_ID || await ask('Paste the Client ID, then press Enter: ', false);
 const secret = process.env.YT_CLIENT_SECRET || await ask('Paste the Client secret (it stays hidden as you paste), then press Enter: ', true);
+rl.close();
 if (!id || !secret) { console.error('Nothing pasted, nothing saved.'); process.exit(2); }
 if (!/\.apps\.googleusercontent\.com$/.test(id)) { console.error('That does not look like a Client ID (it should end in .apps.googleusercontent.com). Nothing saved.'); process.exit(2); }
 
