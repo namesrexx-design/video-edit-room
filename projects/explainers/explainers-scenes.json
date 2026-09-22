@@ -1,0 +1,2227 @@
+{
+  "format": 1,
+  "pack": "EXPLAINER-STORYBOARDS-2026-09-22",
+  "rule": "Rexx 2026-09-22: pile -> their Google Drive -> agents sorting above the folder -> next step -> what is created -> end result",
+  "scenes": [
+    {
+      "project": "explainer-bizbox",
+      "module": "bizbox",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / BizBox",
+      "line": "My files were in one place. My tools were in another.",
+      "on_screen": "Files here. Tools there.",
+      "shot": "Overhead. A laptop on one side of the desk, a stack of folders and a phone on the other. A gap of bare wood between them.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "bizbox-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-bizbox",
+      "module": "bizbox",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / BizBox",
+      "line": "Everything goes into your own Google Drive. Photos. Documents.",
+      "on_screen": "Your own Drive",
+      "shot": "A hand slides the stack into the open Drive box. The lid label reads a plain folder name.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "bizbox-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-bizbox",
+      "module": "bizbox",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / BizBox",
+      "line": "Agents work above the folder. Reading. Sorting. Naming every file.",
+      "on_screen": "Agents sorting files",
+      "shot": "Four agents above the open box, each lifting one document into one of four labeled folders.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "bizbox-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-bizbox",
+      "module": "bizbox",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / BizBox",
+      "line": "The pile becomes projects. Each one with its own folder.",
+      "on_screen": "Projects and folders",
+      "shot": "The four folders stand in a row, closed, labeled. The loose pile is gone.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "bizbox-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-bizbox",
+      "module": "bizbox",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / BizBox",
+      "line": "Now there is ONE workspace. Files, projects and agents together.",
+      "on_screen": "ONE workspace",
+      "shot": "Clean render of the BizBox workspace page: files, projects, agents in one view.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "bizbox-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-bizbox",
+      "module": "bizbox",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / BizBox",
+      "line": "That is BizBox. One place for the work.",
+      "on_screen": "This is BizBox",
+      "shot": "Held: the desk, tidy, one open laptop showing the workspace. 4 s.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "bizbox-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studios",
+      "module": "studios",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / BizBox Studios",
+      "line": "Somebody books. Then they don't show. You held that hour.",
+      "on_screen": "They don't show",
+      "shot": "A massage table dressed and empty. A phone face-up on the counter, screen dark. Warm light.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studios-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studios",
+      "module": "studios",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / BizBox Studios",
+      "line": "Your own photos go up to your Google Drive.",
+      "on_screen": "Your own photos",
+      "shot": "Studio photos (room, chair, hands, towels) slide into the Drive box.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studios-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studios",
+      "module": "studios",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / BizBox Studios",
+      "line": "Agents sort them. Services. Hours. The gaps between clients.",
+      "on_screen": "Agents sort the gaps",
+      "shot": "Agents above the box place cards into three folders: Services, Hours, Gaps.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studios-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studios",
+      "module": "studios",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / BizBox Studios",
+      "line": "Your day gets built in. Your lunch stays your lunch.",
+      "on_screen": "Your lunch stays",
+      "shot": "A day grid assembles. A lunch block sits solid in the middle; nothing lands on it.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studios-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studios",
+      "module": "studios",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / BizBox Studios",
+      "line": "A booking page. Clients verify, prepay, and get reminders.",
+      "on_screen": "Verify. Prepay. Reminders.",
+      "shot": "Clean render of a /studio booking page on a phone: slot grid, verify step, deposit.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studios-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studios",
+      "module": "studios",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / BizBox Studios",
+      "line": "BizBox Studios. You get paid the morning after each session.",
+      "on_screen": "BizBox Studios",
+      "shot": "Held: the studio room, morning light, phone lighting up once on the counter.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studios-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studio",
+      "module": "studio",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / LYFE Studio",
+      "line": "Clips everywhere. Sound somewhere else... and no story yet.",
+      "on_screen": "No story yet",
+      "shot": "Overhead: loose video thumbnails scattered, a headphone cable, no order.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studio-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studio",
+      "module": "studio",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / LYFE Studio",
+      "line": "The clips go into your own Google Drive. All of them.",
+      "on_screen": "Clips to Drive",
+      "shot": "The thumbnails slide into the Drive box in one sweep.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studio-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studio",
+      "module": "studio",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / LYFE Studio",
+      "line": "Agents work above the folder. Sorting scenes, takes and sound.",
+      "on_screen": "Agents sorting scenes",
+      "shot": "Agents lift clips into folders labeled Scenes, Takes, Sound.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studio-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studio",
+      "module": "studio",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / LYFE Studio",
+      "line": "A storyboard fills in. Each scene in its own order.",
+      "on_screen": "Storyboard fills in",
+      "shot": "A storyboard grid on the desk fills left to right, one card at a time.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studio-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studio",
+      "module": "studio",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / LYFE Studio",
+      "line": "Picture, cuts and sound land on one timeline together.",
+      "on_screen": "Picture and sound",
+      "shot": "Clean render of the LYFE Studio board: storyboard above, timeline below.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studio-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-studio",
+      "module": "studio",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / LYFE Studio",
+      "line": "That is LYFE Studio. One finished film, not a folder.",
+      "on_screen": "LYFE Studio",
+      "shot": "Held: a single finished film thumbnail on the desk where the pile was.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "studio-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-autopilot",
+      "module": "autopilot",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / Marketplace Autopilot (his story)",
+      "line": "Every item needs a listing. I was writing every one.",
+      "on_screen": "Every item, a listing",
+      "shot": "Overhead: a row of items (a camera, a chair, a lamp), a notepad half-written beside each.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "autopilot-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-autopilot",
+      "module": "autopilot",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / Marketplace Autopilot (his story)",
+      "line": "The photos go into my own Google Drive. Nothing else.",
+      "on_screen": "Photos to Drive",
+      "shot": "Phone photos of the items slide into the Drive box.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "autopilot-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-autopilot",
+      "module": "autopilot",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / Marketplace Autopilot (his story)",
+      "line": "Agents work above the folder. Identifying items. Grouping the photos.",
+      "on_screen": "Agents identifying items",
+      "shot": "Agents group photos into one folder per item; one agent holds a label up to the light.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "autopilot-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-autopilot",
+      "module": "autopilot",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / Marketplace Autopilot (his story)",
+      "line": "Each one gets a price, anchored to a real new price.",
+      "on_screen": "A real price anchor",
+      "shot": "Beside each folder a small tag appears, tied by a line to a \"new price\" reference card.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "autopilot-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-autopilot",
+      "module": "autopilot",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / Marketplace Autopilot (his story)",
+      "line": "Drafts. Title, description and price... ready for me to read.",
+      "on_screen": "Drafts ready to read",
+      "shot": "Clean render of the review card: title, price, description, Approve button, untouched.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "autopilot-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-autopilot",
+      "module": "autopilot",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / Marketplace Autopilot (his story)",
+      "line": "Marketplace Autopilot. I review EVERY listing, and I post it.",
+      "on_screen": "Marketplace Autopilot",
+      "shot": "Held: a hand (his, from behind, no face) resting next to the Approve button. Not pressing it.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "autopilot-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-order-apps",
+      "module": "order-apps",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / Order Builder",
+      "line": "A phone order. Toppings repeated twice. Still wrong at pickup.",
+      "on_screen": "Still wrong at pickup",
+      "shot": "A pizza box open on a counter, the wrong pizza inside, a phone beside it.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "order-apps-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-order-apps",
+      "module": "order-apps",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / Order Builder",
+      "line": "Your menu photos go into your own Google Drive.",
+      "on_screen": "Menu photos, your Drive",
+      "shot": "Menu photos slide into the Drive box. No shop name, no prices readable.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "order-apps-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-order-apps",
+      "module": "order-apps",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / Order Builder",
+      "line": "Agents sort them. Items. Sizes. Every topping on the board.",
+      "on_screen": "Agents sorting toppings",
+      "shot": "Agents place topping cards on a board: rows of toppings, sizes, items.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "order-apps-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-order-apps",
+      "module": "order-apps",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / Order Builder",
+      "line": "The menu becomes a builder. Customers pick topping by topping.",
+      "on_screen": "Topping by topping",
+      "shot": "A dough round on the counter; toppings land one at a time as each is picked.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "order-apps-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-order-apps",
+      "module": "order-apps",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / Order Builder",
+      "line": "An order goes in. Into the oven. Boxed for pickup.",
+      "on_screen": "Boxed for pickup",
+      "shot": "Oven glow, then the lid closes on a box with a plain pickup tag.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "order-apps-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-order-apps",
+      "module": "order-apps",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / Order Builder",
+      "line": "That is Order Builder. Customization and ordering in one place.",
+      "on_screen": "Order Builder",
+      "shot": "Held: the box on the counter, ready. 4 s.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "order-apps-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-binder",
+      "module": "binder",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / Binder Builder (a friend's story)",
+      "line": "A friend had emails, exhibits and paperwork in four different places.",
+      "on_screen": "Four different places",
+      "shot": "Overhead: a shoebox, a phone, a laptop, a manila envelope. Four corners of the desk. Nothing readable.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "binder-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-binder",
+      "module": "binder",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / Binder Builder (a friend's story)",
+      "line": "All of it goes into his own Google Drive. Everything.",
+      "on_screen": "Everything to Drive",
+      "shot": "All four piles slide into the Drive box.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "binder-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-binder",
+      "module": "binder",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / Binder Builder (a friend's story)",
+      "line": "Agents work above the folder. Reading. Dating. Sorting every document.",
+      "on_screen": "Agents sorting documents",
+      "shot": "Agents lift pages into folders; one stamps a date tab on each.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "binder-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-binder",
+      "module": "binder",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / Binder Builder (a friend's story)",
+      "line": "They land in order, by date, one folder at a time.",
+      "on_screen": "In order, by date",
+      "shot": "Folders line up along the desk, date tabs rising left to right.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "binder-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-binder",
+      "module": "binder",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / Binder Builder (a friend's story)",
+      "line": "One binder. Paginated, with every exhibit where he can find it.",
+      "on_screen": "One paginated binder",
+      "shot": "A binder closes; numbered tabs on the edge. No text on any page is legible.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "binder-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-binder",
+      "module": "binder",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / Binder Builder (a friend's story)",
+      "line": "That is Binder Builder. He reviews it. It isn't legal advice.",
+      "on_screen": "Binder Builder",
+      "shot": "Held: the binder alone on the desk. 4 s.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "binder-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-credit",
+      "module": "credit",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / Credit (a friend's story)",
+      "line": "A friend had three reports, a stack of letters... no order.",
+      "on_screen": "Three reports, no order",
+      "shot": "Overhead: three thick report stacks, blurred, a loose pile of envelopes across them.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "credit-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-credit",
+      "module": "credit",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / Credit (a friend's story)",
+      "line": "The reports go into his own Google Drive. He keeps them.",
+      "on_screen": "Reports, his Drive",
+      "shot": "The stacks slide into the Drive box. Pending decision 1.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "credit-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-credit",
+      "module": "credit",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / Credit (a friend's story)",
+      "line": "Agents work above the folder. Sorting reports, letters and replies.",
+      "on_screen": "Agents sorting letters",
+      "shot": "Agents lift items into three folders: Reports, Letters, Replies.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "credit-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-credit",
+      "module": "credit",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / Credit (a friend's story)",
+      "line": "Each item lines up with the letter that goes with it.",
+      "on_screen": "Item and letter",
+      "shot": "Pairs form on the desk: one report line, one letter beside it. Nothing readable.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "credit-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-credit",
+      "module": "credit",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / Credit (a friend's story)",
+      "line": "A workflow. What to review, and what the next step is.",
+      "on_screen": "The next step",
+      "shot": "Clean render of the credit workflow page: a review list, a \"next step\" column.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "credit-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-credit",
+      "module": "credit",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / Credit (a friend's story)",
+      "line": "That is Credit. He reviews every item, and he decides.",
+      "on_screen": "Credit. He decides.",
+      "shot": "Held: a pen resting on the review list. 4 s.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "credit-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-brand-launch",
+      "module": "brand-launch",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / Brand Launch",
+      "line": "I had product photos and nowhere that looked like a store.",
+      "on_screen": "Nowhere that looked right",
+      "shot": "Overhead: good product photos fanned out on the desk, a blank browser window beside them.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "brand-launch-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-brand-launch",
+      "module": "brand-launch",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / Brand Launch",
+      "line": "The product photos go into your own Google Drive.",
+      "on_screen": "Product photos up",
+      "shot": "The photos slide into the Drive box.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "brand-launch-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-brand-launch",
+      "module": "brand-launch",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / Brand Launch",
+      "line": "Agents work above the folder. Sorting products, angles and colors.",
+      "on_screen": "Agents sorting products",
+      "shot": "Agents sort photos into folders labeled by product; one holds two color swatches together.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "brand-launch-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-brand-launch",
+      "module": "brand-launch",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / Brand Launch",
+      "line": "Each product gets a page. Your colors carry across it.",
+      "on_screen": "A page each",
+      "shot": "Page cards fan out from the folders, each tinted with the product's colors.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "brand-launch-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-brand-launch",
+      "module": "brand-launch",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / Brand Launch",
+      "line": "A storefront. Your products, your colors, your name on it.",
+      "on_screen": "Your storefront",
+      "shot": "Clean render of a storefront page on a phone: products in a grid, a name at the top (a placeholder brand, never a real third party).",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "brand-launch-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-brand-launch",
+      "module": "brand-launch",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / Brand Launch",
+      "line": "That is Brand Launch. Lumefire and Obsidian started the same way.",
+      "on_screen": "Brand Launch",
+      "shot": "Held: two phones side by side showing the Lumefire and Obsidian pages (real, from the live site).",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "brand-launch-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-health",
+      "module": "health",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / Chronic Health (his story)",
+      "line": "Some days, managing my health takes more energy than the day.",
+      "on_screen": "More than the day",
+      "shot": "Overhead: lab envelopes, a pill organizer, appointment cards. Nothing readable. Soft morning light.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "health-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-health",
+      "module": "health",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / Chronic Health (his story)",
+      "line": "Labs, notes and appointment letters go into my own Google Drive.",
+      "on_screen": "Labs to Drive",
+      "shot": "The papers slide into the Drive box.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "health-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-health",
+      "module": "health",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / Chronic Health (his story)",
+      "line": "Agents work above the folder. Sorting labs, symptoms and dates.",
+      "on_screen": "Agents sorting labs",
+      "shot": "Agents lift pages into folders: Labs, Symptoms, Appointments.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "health-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-health",
+      "module": "health",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / Chronic Health (his story)",
+      "line": "It lines up in order. Results next to their dates.",
+      "on_screen": "In order, by date",
+      "shot": "A timeline strip on the desk; result cards drop onto their dates.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "health-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-health",
+      "module": "health",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / Chronic Health (his story)",
+      "line": "One place for labs, appointments, medication notes and the plan.",
+      "on_screen": "One place",
+      "shot": "Clean render of the Chronic Health page: sections, no real values.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "health-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-health",
+      "module": "health",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / Chronic Health (his story)",
+      "line": "That is Chronic Health. I'm adapting... the information stays together.",
+      "on_screen": "Chronic Health",
+      "shot": "Held: the tidy desk, the organizer closed, the folder labeled. 4 s.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "health-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-goals",
+      "module": "goals",
+      "scene_id": "S01",
+      "order": 1,
+      "beat": "THE FRICTION",
+      "title": "THE FRICTION / Goal Tracker",
+      "line": "Everything felt like too much, so I stopped moving at all.",
+      "on_screen": "Too much to move",
+      "shot": "Overhead: sticky notes and lists covering the whole desk, no space left.",
+      "set_name": "desk visualization",
+      "angle": "flat overhead",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 0,
+      "cut_end": 3.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "goals-S01-the-friction.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-goals",
+      "module": "goals",
+      "scene_id": "S02",
+      "order": 2,
+      "beat": "UPLOAD",
+      "title": "UPLOAD / Goal Tracker",
+      "line": "The notes and lists go into your own Google Drive.",
+      "on_screen": "Notes to Drive",
+      "shot": "The notes slide into the Drive box; the desk clears.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3,
+      "cut_start": 3.5,
+      "cut_end": 6.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "goals-S02-upload.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-goals",
+      "module": "goals",
+      "scene_id": "S03",
+      "order": 3,
+      "beat": "AGENTS",
+      "title": "AGENTS / Goal Tracker",
+      "line": "Agents work above the folder. Sorting them into what matters.",
+      "on_screen": "Agents sorting what matters",
+      "shot": "Agents sort notes into a few folders; a small \"later\" tray takes the rest.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 6.5,
+      "cut_end": 10.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "goals-S03-agents.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-goals",
+      "module": "goals",
+      "scene_id": "S04",
+      "order": 4,
+      "beat": "NEXT STEP",
+      "title": "NEXT STEP / Goal Tracker",
+      "line": "Big goals break down. ONE small step for each day.",
+      "on_screen": "ONE small step",
+      "shot": "One big card splits into a row of small cards, one per day of the week.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 10.5,
+      "cut_end": 14,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "goals-S04-next-step.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-goals",
+      "module": "goals",
+      "scene_id": "S05",
+      "order": 5,
+      "beat": "CREATED / DONE",
+      "title": "CREATED / DONE / Goal Tracker",
+      "line": "A list for today. And a place that holds the rest.",
+      "on_screen": "A list for today",
+      "shot": "Clean render of the Goal Tracker: today's short list, the rest tucked below.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 3.5,
+      "cut_start": 14,
+      "cut_end": 17.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "goals-S05-created-done.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    },
+    {
+      "project": "explainer-goals",
+      "module": "goals",
+      "scene_id": "S06",
+      "order": 6,
+      "beat": "END RESULT",
+      "title": "END RESULT / Goal Tracker",
+      "line": "That is Goal Tracker. A place to come back to.",
+      "on_screen": "Goal Tracker",
+      "shot": "Held: one small card on a clear desk. 4 s.",
+      "set_name": "desk visualization",
+      "angle": "square-on static",
+      "cast": [
+        "agents x4 (approved sheet)"
+      ],
+      "props": [],
+      "seconds": 4,
+      "cut_start": 17.5,
+      "cut_end": 21.5,
+      "voice": {
+        "voice_id": "omTQvsWgoQBrcTuWdttm",
+        "model": "eleven_v3",
+        "tags": "none",
+        "file": "goals-S06-end-result.mp3"
+      },
+      "generation": {
+        "model": "seedance_2_0",
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "bitrate_mode": "high",
+        "generate_audio": false,
+        "camera": "static",
+        "reference": "agent character sheet (must be approved first)"
+      },
+      "status": "storyboard only. No clip, no voice generated.",
+      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+    }
+  ]
+}
