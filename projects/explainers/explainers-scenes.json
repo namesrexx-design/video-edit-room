@@ -1,6 +1,11 @@
 {
   "format": 1,
   "pack": "EXPLAINER-STORYBOARDS-2026-09-22",
+  "decisions": {
+    "credit_upload": "yes (their own Drive; agent drafts letters; he sends; he pays postage)",
+    "try_free": "everyone can test and sample everything; end card allowed",
+    "signature_intro": "no; six cards"
+  },
   "rule": "Rexx 2026-09-22: pile -> their Google Drive -> agents sorting above the folder -> next step -> what is created -> end result",
   "scenes": [
     {
@@ -13,6 +18,7 @@
       "line": "My files were in one place. My tools were in another.",
       "on_screen": "Files here. Tools there.",
       "shot": "Overhead. A laptop on one side of the desk, a stack of folders and a phone on the other. A gap of bare wood between them.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -38,7 +44,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-bizbox",
@@ -50,6 +56,7 @@
       "line": "Everything goes into your own Google Drive. Photos. Documents.",
       "on_screen": "Your own Drive",
       "shot": "A hand slides the stack into the open Drive box. The lid label reads a plain folder name.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -75,7 +82,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-bizbox",
@@ -87,6 +94,7 @@
       "line": "Agents work above the folder. Reading. Sorting. Naming every file.",
       "on_screen": "Agents sorting files",
       "shot": "Four agents above the open box, each lifting one document into one of four labeled folders.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -112,7 +120,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-bizbox",
@@ -124,6 +132,7 @@
       "line": "The pile becomes projects. Each one with its own folder.",
       "on_screen": "Projects and folders",
       "shot": "The four folders stand in a row, closed, labeled. The loose pile is gone.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -149,7 +158,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-bizbox",
@@ -161,6 +170,7 @@
       "line": "Now there is ONE workspace. Files, projects and agents together.",
       "on_screen": "ONE workspace",
       "shot": "Clean render of the BizBox workspace page: files, projects, agents in one view.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -186,7 +196,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-bizbox",
@@ -198,6 +208,7 @@
       "line": "That is BizBox. One place for the work.",
       "on_screen": "This is BizBox",
       "shot": "Held: the desk, tidy, one open laptop showing the workspace. 4 s.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -223,7 +234,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studios",
@@ -235,6 +246,7 @@
       "line": "Somebody books. Then they don't show. You held that hour.",
       "on_screen": "They don't show",
       "shot": "A massage table dressed and empty. A phone face-up on the counter, screen dark. Warm light.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -260,7 +272,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studios",
@@ -272,6 +284,7 @@
       "line": "Your own photos go up to your Google Drive.",
       "on_screen": "Your own photos",
       "shot": "Studio photos (room, chair, hands, towels) slide into the Drive box.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -297,7 +310,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studios",
@@ -309,6 +322,7 @@
       "line": "Agents sort them. Services. Hours. The gaps between clients.",
       "on_screen": "Agents sort the gaps",
       "shot": "Agents above the box place cards into three folders: Services, Hours, Gaps.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -334,7 +348,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studios",
@@ -346,6 +360,7 @@
       "line": "Your day gets built in. Your lunch stays your lunch.",
       "on_screen": "Your lunch stays",
       "shot": "A day grid assembles. A lunch block sits solid in the middle; nothing lands on it.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -371,7 +386,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studios",
@@ -383,6 +398,7 @@
       "line": "A booking page. Clients verify, prepay, and get reminders.",
       "on_screen": "Verify. Prepay. Reminders.",
       "shot": "Clean render of a /studio booking page on a phone: slot grid, verify step, deposit.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -408,7 +424,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studios",
@@ -420,6 +436,7 @@
       "line": "BizBox Studios. You get paid the morning after each session.",
       "on_screen": "BizBox Studios",
       "shot": "Held: the studio room, morning light, phone lighting up once on the counter.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -445,7 +462,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studio",
@@ -457,6 +474,7 @@
       "line": "Clips everywhere. Sound somewhere else... and no story yet.",
       "on_screen": "No story yet",
       "shot": "Overhead: loose video thumbnails scattered, a headphone cable, no order.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -482,7 +500,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studio",
@@ -494,6 +512,7 @@
       "line": "The clips go into your own Google Drive. All of them.",
       "on_screen": "Clips to Drive",
       "shot": "The thumbnails slide into the Drive box in one sweep.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -519,7 +538,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studio",
@@ -531,6 +550,7 @@
       "line": "Agents work above the folder. Sorting scenes, takes and sound.",
       "on_screen": "Agents sorting scenes",
       "shot": "Agents lift clips into folders labeled Scenes, Takes, Sound.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -556,7 +576,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studio",
@@ -568,6 +588,7 @@
       "line": "A storyboard fills in. Each scene in its own order.",
       "on_screen": "Storyboard fills in",
       "shot": "A storyboard grid on the desk fills left to right, one card at a time.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -593,7 +614,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studio",
@@ -605,6 +626,7 @@
       "line": "Picture, cuts and sound land on one timeline together.",
       "on_screen": "Picture and sound",
       "shot": "Clean render of the LYFE Studio board: storyboard above, timeline below.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -630,7 +652,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-studio",
@@ -642,6 +664,7 @@
       "line": "That is LYFE Studio. One finished film, not a folder.",
       "on_screen": "LYFE Studio",
       "shot": "Held: a single finished film thumbnail on the desk where the pile was.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -667,7 +690,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-autopilot",
@@ -679,6 +702,7 @@
       "line": "Every item needs a listing. I was writing every one.",
       "on_screen": "Every item, a listing",
       "shot": "Overhead: a row of items (a camera, a chair, a lamp), a notepad half-written beside each.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -704,7 +728,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-autopilot",
@@ -716,6 +740,7 @@
       "line": "The photos go into my own Google Drive. Nothing else.",
       "on_screen": "Photos to Drive",
       "shot": "Phone photos of the items slide into the Drive box.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -741,7 +766,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-autopilot",
@@ -753,6 +778,7 @@
       "line": "Agents work above the folder. Identifying items. Grouping the photos.",
       "on_screen": "Agents identifying items",
       "shot": "Agents group photos into one folder per item; one agent holds a label up to the light.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -778,7 +804,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-autopilot",
@@ -790,6 +816,7 @@
       "line": "Each one gets a price, anchored to a real new price.",
       "on_screen": "A real price anchor",
       "shot": "Beside each folder a small tag appears, tied by a line to a \"new price\" reference card.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -815,7 +842,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-autopilot",
@@ -827,6 +854,7 @@
       "line": "Drafts. Title, description and price... ready for me to read.",
       "on_screen": "Drafts ready to read",
       "shot": "Clean render of the review card: title, price, description, Approve button, untouched.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -852,7 +880,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-autopilot",
@@ -864,6 +892,7 @@
       "line": "Marketplace Autopilot. I review EVERY listing, and I post it.",
       "on_screen": "Marketplace Autopilot",
       "shot": "Held: a hand (his, from behind, no face) resting next to the Approve button. Not pressing it.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -889,7 +918,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-order-apps",
@@ -901,6 +930,7 @@
       "line": "A phone order. Toppings repeated twice. Still wrong at pickup.",
       "on_screen": "Still wrong at pickup",
       "shot": "A pizza box open on a counter, the wrong pizza inside, a phone beside it.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -926,7 +956,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-order-apps",
@@ -938,6 +968,7 @@
       "line": "Your menu photos go into your own Google Drive.",
       "on_screen": "Menu photos, your Drive",
       "shot": "Menu photos slide into the Drive box. No shop name, no prices readable.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -963,7 +994,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-order-apps",
@@ -975,6 +1006,7 @@
       "line": "Agents sort them. Items. Sizes. Every topping on the board.",
       "on_screen": "Agents sorting toppings",
       "shot": "Agents place topping cards on a board: rows of toppings, sizes, items.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1000,7 +1032,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-order-apps",
@@ -1012,6 +1044,7 @@
       "line": "The menu becomes a builder. Customers pick topping by topping.",
       "on_screen": "Topping by topping",
       "shot": "A dough round on the counter; toppings land one at a time as each is picked.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1037,7 +1070,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-order-apps",
@@ -1049,6 +1082,7 @@
       "line": "An order goes in. Into the oven. Boxed for pickup.",
       "on_screen": "Boxed for pickup",
       "shot": "Oven glow, then the lid closes on a box with a plain pickup tag.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1074,7 +1108,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-order-apps",
@@ -1086,6 +1120,7 @@
       "line": "That is Order Builder. Customization and ordering in one place.",
       "on_screen": "Order Builder",
       "shot": "Held: the box on the counter, ready. 4 s.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1111,7 +1146,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-binder",
@@ -1123,6 +1158,7 @@
       "line": "A friend had emails, exhibits and paperwork in four different places.",
       "on_screen": "Four different places",
       "shot": "Overhead: a shoebox, a phone, a laptop, a manila envelope. Four corners of the desk. Nothing readable.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -1148,7 +1184,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-binder",
@@ -1160,6 +1196,7 @@
       "line": "All of it goes into his own Google Drive. Everything.",
       "on_screen": "Everything to Drive",
       "shot": "All four piles slide into the Drive box.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1185,7 +1222,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-binder",
@@ -1197,6 +1234,7 @@
       "line": "Agents work above the folder. Reading. Dating. Sorting every document.",
       "on_screen": "Agents sorting documents",
       "shot": "Agents lift pages into folders; one stamps a date tab on each.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1222,7 +1260,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-binder",
@@ -1234,6 +1272,7 @@
       "line": "They land in order, by date, one folder at a time.",
       "on_screen": "In order, by date",
       "shot": "Folders line up along the desk, date tabs rising left to right.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1259,7 +1298,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-binder",
@@ -1271,6 +1310,7 @@
       "line": "One binder. Paginated, with every exhibit where he can find it.",
       "on_screen": "One paginated binder",
       "shot": "A binder closes; numbered tabs on the edge. No text on any page is legible.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1296,7 +1336,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-binder",
@@ -1308,6 +1348,7 @@
       "line": "That is Binder Builder. He reviews it. It isn't legal advice.",
       "on_screen": "Binder Builder",
       "shot": "Held: the binder alone on the desk. 4 s.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1333,7 +1374,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-credit",
@@ -1345,6 +1386,7 @@
       "line": "A friend had three reports, a stack of letters... no order.",
       "on_screen": "Three reports, no order",
       "shot": "Overhead: three thick report stacks, blurred, a loose pile of envelopes across them.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -1370,7 +1412,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-credit",
@@ -1381,7 +1423,8 @@
       "title": "UPLOAD / Credit (a friend's story)",
       "line": "The reports go into his own Google Drive. He keeps them.",
       "on_screen": "Reports, his Drive",
-      "shot": "The stacks slide into the Drive box. Pending decision 1.",
+      "shot": "The stacks slide into the Drive box he made himself. Decision 1: yes.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1407,7 +1450,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-credit",
@@ -1419,6 +1462,7 @@
       "line": "Agents work above the folder. Sorting reports, letters and replies.",
       "on_screen": "Agents sorting letters",
       "shot": "Agents lift items into three folders: Reports, Letters, Replies.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1444,7 +1488,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-credit",
@@ -1453,9 +1497,10 @@
       "order": 4,
       "beat": "NEXT STEP",
       "title": "NEXT STEP / Credit (a friend's story)",
-      "line": "Each item lines up with the letter that goes with it.",
-      "on_screen": "Item and letter",
-      "shot": "Pairs form on the desk: one report line, one letter beside it. Nothing readable.",
+      "line": "A letter gets drafted for each item he picks out.",
+      "on_screen": "He picks, agent drafts",
+      "shot": "A hand marks one line on a report; an agent above sets a drafted letter beside it. Nothing readable.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1481,7 +1526,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-credit",
@@ -1490,9 +1535,10 @@
       "order": 5,
       "beat": "CREATED / DONE",
       "title": "CREATED / DONE / Credit (a friend's story)",
-      "line": "A workflow. What to review, and what the next step is.",
-      "on_screen": "The next step",
-      "shot": "Clean render of the credit workflow page: a review list, a \"next step\" column.",
+      "line": "Letters, drafted... and plain steps for sending each one out.",
+      "on_screen": "Letters and steps",
+      "shot": "A short stack of letters, text blurred, and a plain \"how to send\" card with three steps beside them.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1518,7 +1564,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-credit",
@@ -1527,9 +1573,10 @@
       "order": 6,
       "beat": "END RESULT",
       "title": "END RESULT / Credit (a friend's story)",
-      "line": "That is Credit. He reviews every item, and he decides.",
-      "on_screen": "Credit. He decides.",
-      "shot": "Held: a pen resting on the review list. 4 s.",
+      "line": "That is Credit. Free. He sends them, and pays the postage.",
+      "on_screen": "Free. He sends.",
+      "shot": "Held: addressed envelopes (blank faces), a pen. End card: Try it free · biz-box.io/lyfe. 4 s.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1555,7 +1602,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-brand-launch",
@@ -1567,6 +1614,7 @@
       "line": "I had product photos and nowhere that looked like a store.",
       "on_screen": "Nowhere that looked right",
       "shot": "Overhead: good product photos fanned out on the desk, a blank browser window beside them.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -1592,7 +1640,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-brand-launch",
@@ -1604,6 +1652,7 @@
       "line": "The product photos go into your own Google Drive.",
       "on_screen": "Product photos up",
       "shot": "The photos slide into the Drive box.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1629,7 +1678,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-brand-launch",
@@ -1641,6 +1690,7 @@
       "line": "Agents work above the folder. Sorting products, angles and colors.",
       "on_screen": "Agents sorting products",
       "shot": "Agents sort photos into folders labeled by product; one holds two color swatches together.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1666,7 +1716,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-brand-launch",
@@ -1678,6 +1728,7 @@
       "line": "Each product gets a page. Your colors carry across it.",
       "on_screen": "A page each",
       "shot": "Page cards fan out from the folders, each tinted with the product's colors.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1703,7 +1754,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-brand-launch",
@@ -1715,6 +1766,7 @@
       "line": "A storefront. Your products, your colors, your name on it.",
       "on_screen": "Your storefront",
       "shot": "Clean render of a storefront page on a phone: products in a grid, a name at the top (a placeholder brand, never a real third party).",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1740,7 +1792,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-brand-launch",
@@ -1752,6 +1804,7 @@
       "line": "That is Brand Launch. Lumefire and Obsidian started the same way.",
       "on_screen": "Brand Launch",
       "shot": "Held: two phones side by side showing the Lumefire and Obsidian pages (real, from the live site).",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1777,7 +1830,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-health",
@@ -1789,6 +1842,7 @@
       "line": "Some days, managing my health takes more energy than the day.",
       "on_screen": "More than the day",
       "shot": "Overhead: lab envelopes, a pill organizer, appointment cards. Nothing readable. Soft morning light.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -1814,7 +1868,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-health",
@@ -1826,6 +1880,7 @@
       "line": "Labs, notes and appointment letters go into my own Google Drive.",
       "on_screen": "Labs to Drive",
       "shot": "The papers slide into the Drive box.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1851,7 +1906,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-health",
@@ -1863,6 +1918,7 @@
       "line": "Agents work above the folder. Sorting labs, symptoms and dates.",
       "on_screen": "Agents sorting labs",
       "shot": "Agents lift pages into folders: Labs, Symptoms, Appointments.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1888,7 +1944,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-health",
@@ -1900,6 +1956,7 @@
       "line": "It lines up in order. Results next to their dates.",
       "on_screen": "In order, by date",
       "shot": "A timeline strip on the desk; result cards drop onto their dates.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1925,7 +1982,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-health",
@@ -1937,6 +1994,7 @@
       "line": "One place for labs, appointments, medication notes and the plan.",
       "on_screen": "One place",
       "shot": "Clean render of the Chronic Health page: sections, no real values.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1962,7 +2020,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-health",
@@ -1974,6 +2032,7 @@
       "line": "That is Chronic Health. I'm adapting... the information stays together.",
       "on_screen": "Chronic Health",
       "shot": "Held: the tidy desk, the organizer closed, the folder labeled. 4 s.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -1999,7 +2058,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-goals",
@@ -2011,6 +2070,7 @@
       "line": "Everything felt like too much, so I stopped moving at all.",
       "on_screen": "Too much to move",
       "shot": "Overhead: sticky notes and lists covering the whole desk, no space left.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "flat overhead",
       "cast": [
@@ -2036,7 +2096,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-goals",
@@ -2048,6 +2108,7 @@
       "line": "The notes and lists go into your own Google Drive.",
       "on_screen": "Notes to Drive",
       "shot": "The notes slide into the Drive box; the desk clears.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -2073,7 +2134,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-goals",
@@ -2085,6 +2146,7 @@
       "line": "Agents work above the folder. Sorting them into what matters.",
       "on_screen": "Agents sorting what matters",
       "shot": "Agents sort notes into a few folders; a small \"later\" tray takes the rest.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -2110,7 +2172,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-goals",
@@ -2122,6 +2184,7 @@
       "line": "Big goals break down. ONE small step for each day.",
       "on_screen": "ONE small step",
       "shot": "One big card splits into a row of small cards, one per day of the week.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -2147,7 +2210,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-goals",
@@ -2159,6 +2222,7 @@
       "line": "A list for today. And a place that holds the rest.",
       "on_screen": "A list for today",
       "shot": "Clean render of the Goal Tracker: today's short list, the rest tucked below.",
+      "end_card": null,
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -2184,7 +2248,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     },
     {
       "project": "explainer-goals",
@@ -2196,6 +2260,7 @@
       "line": "That is Goal Tracker. A place to come back to.",
       "on_screen": "Goal Tracker",
       "shot": "Held: one small card on a clear desk. 4 s.",
+      "end_card": "Try it free · biz-box.io/lyfe",
       "set_name": "desk visualization",
       "angle": "square-on static",
       "cast": [
@@ -2221,7 +2286,7 @@
         "reference": "agent character sheet (must be approved first)"
       },
       "status": "storyboard only. No clip, no voice generated.",
-      "next_action": "Rexx answers the three open decisions; then the character sheet; then voice; then clips."
+      "next_action": "character sheet approved by Rexx; then voice; then clips."
     }
   ]
 }
