@@ -1,0 +1,48 @@
+{
+  "character": "Aries",
+  "series": "Signs & Numbers",
+  "lastUpdated": "2026-09-23",
+
+  "identity": {
+    "characterSheet": "character-sheet.jpg",
+    "identityRefs": ["identity-refs/front.jpg", "identity-refs/closeup1.jpg", "identity-refs/closeup2.jpg"],
+    "higgsfieldElement": {
+      "id": "56809714-90ca-48e7-bace-ab73c3d38d83",
+      "name": "Aries-Signs",
+      "category": "character",
+      "createdOn": "2026-09-22",
+      "note": "IDENTITY REFERENCE ONLY (face, hair, skin tone, body proportions). Do NOT use for wardrobe — see wardrobeRules below.",
+      "coverage": "Existed for zero clips in Episode 1's original run (all E01 takes so far were generated before this Element was built). Use it for every generation from here forward."
+    },
+    "description": "Curvy woman, dark hair worn in a high ponytail, Inland Empire / Fontana. Confident, competitive, confrontational. Age range 29-32 per the approved character sheet."
+  },
+
+  "wardrobeRules": {
+    "productionWardrobe": "Red ribbed sleeveless crop tank top, black shorts with white drawstring, black slide sandals, gold hoop earrings, red nail polish. Bare arms — no jacket, no sleeves, no leggings, no sneakers.",
+    "neverUse": "The black zip jacket, black leggings, and white sneakers shown in the character sheet / Higgsfield Element reference photos. Those photos are for face/body identity only — confirmed twice by Rexx (2026-09-22/23) after generations leaked the jacket into shots.",
+    "confirmedIncidents": [
+      "Element reference photos show her in a jacket — Rexx flagged this could bias generations toward adding a jacket that doesn't belong.",
+      "A04b bridge shot's first draft rendered a dark sleeve reading as a jacket sleeve on a bare-armed character — caught and corrected before use."
+    ]
+  },
+
+  "props": {
+    "phone": "iPhone with a red case",
+    "car": null,
+    "purse": null,
+    "jewelry": "Gold hoop earrings (recurring), red nail polish",
+    "note": "Thin so far — only one episode's worth of props established. Add here as new recurring items appear in future episodes."
+  },
+
+  "environments": [
+    { "id": "flood-kitchen", "image": "environments/flood-kitchen.jpg", "description": "Her apartment kitchen, actively flooding — dark wood cabinets, stainless appliances, water pooling on the floor, leak visible from the ceiling near the upper cabinets.", "episode": "E01" },
+    { "id": "door-hallway", "image": "environments/door-hallway.jpg", "description": "Her apartment door (unit 3B) and the building hallway outside it — where the 3-day notice gets taped up.", "episode": "E01" },
+    { "id": "kitchen-mold-damage", "image": "environments/kitchen-mold-damage.jpg", "description": "The same kitchen, later — visible mold damage on the ceiling and upper cabinets, the flood having gone unrepaired.", "episode": "E01" },
+    { "id": "empty-hallway", "image": "environments/empty-hallway.jpg", "description": "The same hallway/door, empty, notice already taped up — used as the 'time has passed' pan bridge, no landlord ever shown on screen.", "episode": "E01" }
+  ],
+
+  "storyHistory": {
+    "note": "Nothing resolved yet — Episode 1 is still in production. Update this block with a one-line summary per episode once each one locks, so future episodes can reference what actually happened rather than re-deriving it.",
+    "episodes": []
+  }
+}

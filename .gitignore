@@ -16,6 +16,17 @@ projects/*/renders/*.receipt.json
 # thumbnail sheets are small enough to keep in git (one JPEG per group)
 !cut-room/sheets/*.jpg
 
+# Recurring-character storyboards (Signs & Numbers, Bestia, etc.) — identity
+# lock, environments, and every clip's real start/end frame, including
+# rejected/drifted takes kept as evidence of the failure mode. One project
+# folder per recurring woman; episodes carry forward what happened before.
+!projects/aries/**/*.jpg
+!projects/aries/**/*.png
+!projects/bestia/**/*.jpg
+!projects/bestia/**/*.png
+!projects/sugarfish/**/*.jpg
+!projects/sugarfish/**/*.png
+
 # finished scene deliveries (render + approved audio + receipt) ARE committed, so remote agents (Codex/Astra) can hand them in
 !projects/*/deliveries/**
 !projects/*/deliveries/**/*.mp4
