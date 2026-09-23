@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "episodeId": "E01-talked-my-ears-off",
+  "title": "Talked My Ears Off",
+  "status": "✅ DELIVERED 2026-09-22",
+  "finalVideo": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/FINAL_v5_eatears_20260922/BESTIA-ASSEMBLED-v7-WITH-VO.mp4",
+  "caption": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/BESTIA-POST-CAPTION-20260922.md",
+  "buildScript": "G:/My Drive/00_PROJECTS/Claude Code Build/8f287416.../scratchpad/build-bestia-review-pdf.mjs (referenced only — not the render script itself)",
+
+  "note": "This episode was produced in an earlier session, before the per-scene storyboard discipline (start/end frame, character lock, prompt, job ID per scene) was established. The chain below is reconstructed from the real files on disk, not from memory of the original prompts/job IDs — those aren't available to this session. Do not treat the missing fields as 'not needed'; fill them in from Drive/chat history if a future episode needs to chain off this one precisely.",
+
+  "continuityRule": "Scene N end = scene N+1 start, unless an intentional close-up, pan, insert, time jump, or location change breaks it. Same rule as every other character board.",
+
+  "sceneChain": [
+    {
+      "id": "B01",
+      "title": "Cold open — eating the rubber ears off his plate",
+      "video": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/FINAL_v5_eatears_20260922/00_OPENING_eats_ears.mp4",
+      "startEndKnown": false,
+      "characterLockUsed": "Bestia-Date Element (31bfd65d-e211-41e6-941e-759294a91ac2) per this character's reference-lock.json, per the pre-session summary — not independently re-verified by this session.",
+      "note": "The AI 'mistake' Rexx chose to keep and build the whole episode's opening around, per his own words: 'we just have to start the video... say we start the video with her eating my ears.'"
+    },
+    {
+      "id": "B02",
+      "title": "Zoom in on the ears / helmet materializes off-screen",
+      "video": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/FINAL_v5_eatears_20260922/02_ZOOM_IN_ear_MOTION.mp4",
+      "characterLockUsed": "Bestia-Date-Helmet Element (3b8a3eb6-1fef-4fe6-9b78-b0299d32fb8e)",
+      "note": "Zoom hides the helmet appearing — an off-screen magic trick per Rexx's direction, not a visible transformation."
+    },
+    {
+      "id": "B03",
+      "title": "Zoom out — helmet revealed, restaurant → space transition",
+      "video": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/FINAL_v5_eatears_20260922/03_ZOOM_OUT_helmet.mp4",
+      "characterLockUsed": "Bestia-Date-Helmet Element"
+    },
+    {
+      "id": "B04",
+      "title": "Mars — impossible mental escape, she keeps talking",
+      "video": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/kling_v2_20260921/CLEAN-space-mars.mp4",
+      "characterLockUsed": "Bestia-Date-Mars Element (faab2662-d2cb-44b6-84c5-3c126022bdd1)",
+      "note": "The joke is the impossible escape itself, not the journey — no rocket launch or flight sequence, per the locked creative direction."
+    },
+    {
+      "id": "B05",
+      "title": "Mars → restaurant, snap back",
+      "video": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/kling_v2_20260921/CLEAN-mars-to-restaurant.mp4"
+    },
+    {
+      "id": "B06",
+      "title": "Flirt payoff — 'I still let it slide'",
+      "video": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/kling_v2_20260921/CLEAN-suit-to-flirt.mp4",
+      "characterLockUsed": "Bestia-Date-Flirt Element (d76ced92-3b1b-4ad4-bef8-73395e1c76b6)",
+      "endState": "Warm knowing smile directly at camera, ears cleared from the plate — this is where the episode (and character) currently ends."
+    }
+  ],
+
+  "assemblyVersionHistory": [
+    "v1-SILENT → v2-CHAINED-SILENT → v3-ZOOM-SILENT → v4-FULL-SILENT → v5-EXTENDED-SILENT → v6-SLOWED-SILENT (flirt scenes slowed 1.48221x via setpts to match VO length) → v7-WITH-VO (final, VO muxed in, 27.75s)",
+    "All intermediate versions kept on Drive in FINAL_v5_eatears_20260922/ — not deleted, per standing rule."
+  ],
+
+  "voiceover": {
+    "used": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/voiceover/bestia_v3_hyphenated_take1_USED.mp3",
+    "note": "Multiple takes exist on disk (v1, v2 A/B, v3 tone-only, v3 hyphenated, plain) — this is the one actually muxed into v7. See voiceover/ folder for the full take history."
+  }
+}

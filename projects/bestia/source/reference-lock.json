@@ -1,0 +1,44 @@
+{
+  "character": "Bestia Date",
+  "series": "MY LYFE — recurring dating-episode character (not yet formally folded into Signs & Numbers, but same continuity discipline applies)",
+  "lastUpdated": "2026-09-23",
+
+  "identity": {
+    "characterSheet": null,
+    "characterSheetGap": "No formal multi-angle character sheet exists for this character, unlike Aries. The closest identity references are approved production stills, listed below. Build a real front/three-quarter/side/back sheet before her next episode if drift becomes a problem — same lesson as the Aries incident.",
+    "identityRefs": [
+      "identity-refs/dinner-master-approved.png",
+      "identity-refs/clean-hands-closeup.png",
+      "identity-refs/flirt-payoff.png"
+    ],
+    "higgsfieldElements": [
+      { "id": "31bfd65d-e211-41e6-941e-759294a91ac2", "name": "Bestia-Date", "description": "Blonde woman, Bestia restaurant date — clean hands, ears-on-plate pose. Consistency reference for the Mars multi-shot sequence." },
+      { "id": "3b8a3eb6-1fef-4fe6-9b78-b0299d32fb8e", "name": "Bestia-Date-Helmet", "description": "Blonde woman, Bestia restaurant date, wearing the clear astronaut helmet — same pose as the restaurant still." },
+      { "id": "faab2662-d2cb-44b6-84c5-3c126022bdd1", "name": "Bestia-Date-Mars", "description": "Blonde woman, in a spacecraft cabin wearing a full white astronaut suit, Mars filling the window behind her." },
+      { "id": "d76ced92-3b1b-4ad4-bef8-73395e1c76b6", "name": "Bestia-Date-Flirt", "description": "Blonde woman, hand pushing hair back, adjusting top strap, warm knowing smile — the 'I still let it slide' payoff beat, ears cleared from the plate." }
+    ],
+    "description": "Blonde woman on a dinner date at Bestia restaurant."
+  },
+
+  "wardrobeRules": {
+    "productionWardrobe": "See identity-refs stills for the exact dinner-date outfit as locked in the approved production images. Not yet written out in prose — do that before the next episode if a new agent needs it without opening the images.",
+    "neverUse": "Not yet identified — no wardrobe drift incident has happened with this character (unlike Aries). Watch for it anyway."
+  },
+
+  "props": {
+    "note": "Rubber ears (the running gag prop — she eats them off his plate, a deliberate AI 'mistake' Rexx chose to keep and build the whole episode around), an astronaut helmet, an astronaut suit (Mars sequence)."
+  },
+
+  "environments": [
+    { "id": "restaurant-table", "image": "identity-refs/dinner-master-approved.png", "description": "Bestia restaurant, dinner table, the two of them seated.", "episode": "E01" },
+    { "id": "helmet", "image": "environments/helmet.png", "description": "Same restaurant seat, but she's wearing a clear astronaut helmet — the 'LYFE View' trigger moment.", "episode": "E01" },
+    { "id": "mars", "image": "environments/mars.png", "description": "Spacecraft cabin interior, full astronaut suit, Mars filling the window — the impossible mental-escape beat while she keeps talking.", "episode": "E01" }
+  ],
+
+  "storyHistory": {
+    "note": "Episode 1 is complete and delivered. Update this once a second episode is planned.",
+    "episodes": [
+      { "id": "E01-talked-my-ears-off", "oneLine": "Opens on her eating the rubber ears off his plate (kept as an AI 'mistake' Rexx loved). She zooms into an impossible mental escape — astronaut helmet appears, cut to Mars while she keeps talking — then snaps back to the restaurant, still talking, ears cleared, warm knowing 'I still let it slide' smile to close." }
+    ]
+  }
+}
