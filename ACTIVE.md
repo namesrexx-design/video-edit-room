@@ -23,4 +23,3 @@ Astra completed 2026-09-16: standalone automatic scene sync server/client and la
 | Claude (MASTER) | STORYBOARD FINAL film | 2026-09-15 | GARAGE-DREAM-STORYBOARD-FINAL-2026-09-15.mp4 delivered (Drive root + EDIT_ROOM, deliveries/FILM, Pages storyboard player, chat). 2807 f. S25/S26 not on the board and no uploads found; add when Rexx uploads. |
 
 | Claude (MASTER) | STORYBOARD FINAL pass 7 | 2026-09-15 | new S24 in; delivered. S25/S26 not found anywhere. |
-| ChatGPT | projects/signs/characters/BESTIA, projects/signs/characters/SUGARFISH | 2026-09-22 | Canonical identity-lock character sheets from approved BESTIA and SUGARFISH scenes |
