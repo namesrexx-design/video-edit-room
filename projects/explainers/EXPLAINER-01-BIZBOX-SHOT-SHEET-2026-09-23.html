@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>BizBox explainer: shot sheet</title>
+<style>
+:root{--ink:#1f2a2a;--muted:#5d6b68;--teal:#1f5f63;--teal-2:#e4eee5;--line:#d9d2c3;--clay:#b8654a;--sand:#f3ede2}
+*{box-sizing:border-box}body{margin:0;padding:22px 16px 60px;background:#fbf8f2;color:var(--ink);font:15px/1.45 Arial,Helvetica,sans-serif}
+h1{font-size:25px;margin:0 0 4px}h2{font-size:19px;margin:26px 0 8px;padding:8px 12px;background:var(--ink);color:#fff;border-radius:6px}
+h3{font-size:16px;margin:16px 0 6px;color:var(--teal)}p{margin:6px 0}.sub{color:var(--muted)}
+table{border-collapse:collapse;width:100%;margin:8px 0 14px;font-size:13.5px}th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+th{background:var(--teal-2);color:var(--teal);width:16%}.box{border:2px solid var(--clay);background:#fff;border-radius:8px;padding:10px 14px;margin:10px 0}
+code{background:#eee;padding:1px 4px;border-radius:3px;font-size:12.5px}.vo{background:var(--sand);padding:8px 12px;border-left:5px solid var(--teal);font-size:15px;margin:6px 0}
+@media print{h2{break-before:page}h2:first-of-type{break-before:auto}body{padding:0}}
+</style></head><body>
+<h1>Explainer 01 · BizBox — shot by shot</h1>
+<p class="sub">2026-09-23 · for the Fable video session · 6 cards · 21.5 s · 9:16 1080x1920 · real screens first, abstract only for the sort · voice: namesrexx clone, eleven_v3, zero tags</p>
+
+<div class="box"><b>Before the first recording</b>
+<table><tr><th>Needs</th><th>Who</th></tr>
+<tr><td>A signed-in BizBox test account on the recording browser (the <code>/workspace</code> screens are member-only). Use the throwaway from the sign-up test, or Rexx logs the pane in. <b>Never his admin account on a recording.</b></td><td>Rexx</td></tr>
+<tr><td>A demo Google Drive folder named <b>BizBox</b> holding only prop files: 6 to 8 generic photos, 3 to 4 PDFs named like <code>invoice.pdf</code>, <code>notes.pdf</code>. No real documents, no names, no numbers.</td><td>Fable, in the test account's Drive (or Rexx's screen with a throwaway folder)</td></tr>
+<tr><td>Recording tool: Playwright <code>recordVideo</code> for anything in a browser (gdigrab cannot record Chrome). 1080x1920 viewport, or record 1290x2796 and pad. <b>Two blur passes</b>: by the recorder, and again before it leaves the folder. Check the first and last frame of every window.</td><td>Fable</td></tr>
+<tr><td>Voice: six lines below, one call each, <code>generations_count 1</code>, 3 takes only if the first is wrong. Files: <code>bizbox-S0N-&lt;beat&gt;.mp3</code> → <code>G:\My Drive\00_INTAKE\voice-overs\explainers\</code></td><td>Fable (connector lane), after the startup check passes</td></tr></table></div>
+
+<h2>S01 · THE FRICTION · 3.5 s · filmed desk</h2>
+<div class="vo">My files were in one place. My tools were in another.</div>
+<table>
+<tr><th>On screen</th><td><b>Files here. Tools there.</b> (caption, eye level)</td></tr>
+<tr><th>Shot</th><td>Flat overhead, phone locked off above a real desk, square to the edge. Left third: a closed laptop. Right third: a short stack of paper folders and a phone face-down. Middle third: bare wood. One warm window light from the left. Nothing readable on anything.</td></tr>
+<tr><th>Motion</th><td>None from the camera. At 2.0 s a hand enters from the bottom, rests on the folders, stops. Cut on the hand landing.</td></tr>
+<tr><th>Source</th><td>Real. Film once, 8 s, cut to 3.5. Also grab the 10 seated cutaways for the bank (hands, phone, folder edge, laptop lid).</td></tr>
+<tr><th>Reject if</th><td>any text legible · any face · flat AI-green background · the hand is his with a visible watch (continuity rule: no watch)</td></tr></table>
+
+<h2>S02 · UPLOAD · 3.0 s · screen recording</h2>
+<div class="vo">Everything goes into your own Google Drive. Photos. Documents.</div>
+<table>
+<tr><th>On screen</th><td><b>Your own Drive</b></td></tr>
+<tr><th>Record</th><td>Google Drive web, the demo folder <b>BizBox</b> open, empty. From the OS file window, drag the prop files (photos + PDFs) into the folder in one motion; Drive's upload toast appears; thumbnails populate. Record 10 s, use 3.0 s from the drag start.</td></tr>
+<tr><th>Framing</th><td>Browser at phone width (1080 wide viewport) so the folder view fills the frame. Hide the address bar. Drive's left sidebar collapsed.</td></tr>
+<tr><th>Blur</th><td>Account avatar top-right, account email, any storage-quota line. Folder name "BizBox" stays.</td></tr>
+<tr><th>Source</th><td>Real.</td></tr></table>
+
+<h2>S03 · AGENTS · 4.0 s · screen recording + overlay + 1 s abstract insert</h2>
+<div class="vo">Agents work above the folder. Reading. Sorting. Naming every file.</div>
+<table>
+<tr><th>On screen</th><td><b>Agents sorting files</b></td></tr>
+<tr><th>Record</th><td>Same Drive folder, now full. Over 6 s: four sub-folders appear (<b>Photos · Invoices · Notes · Later</b>) and the loose files move into them, so the top level ends with four folders only. Do it by hand at a steady pace with the cursor hidden, or scripted; it must look like it is happening to the folder, not being clicked.</td></tr>
+<tr><th>Overlay (edit)</th><td>Four small cards pinned along the top of the folder view, brand teal on cream, 11 px type: <b>Agent 1 · Reading</b>, <b>Agent 2 · Sorting</b>, <b>Agent 3 · Naming</b>, <b>Agent 4 · Checking</b>. Each shows a thin progress bar that fills over the 4 s; a tick appears when full. Built in the edit, not generated. Small corner label: <b>Visualization</b>.</td></tr>
+<tr><th>Abstract insert</th><td>1.0 s, cut in at 1.5 s: clean shapes only. Six cream rectangles slide from a loose pile into four labeled teal folders on a sand ground. No figures, no faces. Blender (free, deterministic) or seedance_2_0 9:16 static camera if the team prefers. Label <b>Visualization</b>.</td></tr>
+<tr><th>Cut</th><td>Drive (1.5 s) → insert (1.0 s) → Drive with four folders and four ticked cards (1.5 s). Cut on a file in motion both times.</td></tr></table>
+
+<h2>S04 · NEXT STEP · 3.5 s · screen recording</h2>
+<div class="vo">The pile becomes projects. Each one with its own folder.</div>
+<table>
+<tr><th>On screen</th><td><b>Projects and folders</b></td></tr>
+<tr><th>Record</th><td><code>biz-box.io/workspace</code>, signed in as the test account. The <b>Files handed over</b> list shows the prop files; the <b>Current folder:</b> line shows the Drive link. Scroll slowly (one screen height over 3 s) from the files list to <b>Pick what we build</b>. Hover nothing.</td></tr>
+<tr><th>Blur</th><td>the account email, the Drive share email line, the key hint if visible, any name.</td></tr>
+<tr><th>If the page cannot show it</th><td>Uploads sit on "Waiting to copy" until the server is live (build-order step 2). If the list is empty or stuck, record the Drive folder view again at S04 instead (four folders, one opened), not a blank page.</td></tr></table>
+
+<h2>S05 · CREATED / DONE · 3.5 s · screen recording</h2>
+<div class="vo">Now there is ONE workspace. Files, projects and agents together.</div>
+<table>
+<tr><th>On screen</th><td><b>ONE workspace</b></td></tr>
+<tr><th>Record</th><td><code>/workspace</code> top of page, still: the workspace name, the <b>How setup works</b> steps, the module ticks (<b>Storyboard studio</b>, <b>Storefront</b>, <b>Leads and follow-up</b> on), <b>A key is active, ending in ····</b>. Hold 3.5 s with one slow scroll of 120 px. Nothing else moves.</td></tr>
+<tr><th>Blur</th><td>key ending characters, email, Drive link, the connector address if it shows.</td></tr>
+<tr><th>Caption</th><td>the word ONE lands with his emphasis; keep the caption three words.</td></tr></table>
+
+<h2>S06 · END RESULT · 4.0 s · filmed desk, held</h2>
+<div class="vo">That is BizBox. One place for the work.</div>
+<table>
+<tr><th>On screen</th><td><b>This is BizBox</b> · end card under it: <b>Try it free · biz-box.io/lyfe</b></td></tr>
+<tr><th>Shot</th><td>Same overhead desk as S01, tidied: the folders and phone are gone, the laptop is open and shows the <code>/workspace</code> page (real, blurred). Hold 4.0 s. Last 1.5 s completely still. No fade.</td></tr>
+<tr><th>Source</th><td>Real. Film right after S01 on the same setup, same light, so the two frames match.</td></tr></table>
+
+<h2>Assembly and checks</h2>
+<table>
+<tr><th>Order</th><td>S01 → S02 → S03 → S04 → S05 → S06 · 21.5 s · cuts on motion · one voice line per card, never split</td></tr>
+<tr><th>Captions</th><td>the "On screen" words per card, eye level (MarginV rule), same keyword as the voice line (VC-15)</td></tr>
+<tr><th>Mix</th><td><code>mix-audio.mjs</code> only. Voice at -16 LUFS, no music bed for explainers unless Rexx asks</td></tr>
+<tr><th>Gate</th><td><code>qc.mjs</code> passes · the video-editor agent reviews shot by shot with timestamps · the 11-question self-check · mute test and eyes-closed test both read</td></tr>
+<tr><th>Deliver</th><td><code>G:\My Drive\00_APPROVALS\explainers\explainer-01-bizbox_v1.mp4</code> + the uncaptioned master beside it. Rexx approves before it goes on the module card</td></tr>
+<tr><th>Never</th><td>his admin account on screen · any real member data · a generated figure or face · a metric · a price · a promise</td></tr></table>
+<p class="sub">Source of the copy: EXPLAINER-STORYBOARDS-2026-09-22 (module 01). Real page text checked against <code>src/content/start-page.json</code> and <code>src/pages/Workspace.jsx</code> on main, 2026-09-23.</p>
+</body></html>
