@@ -7,11 +7,13 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { buildTimeline, buildEdl, RATE } from '../../../tools/otio.mjs';
 
+//   node build-timeline-r02.mjs ROUGH-03 cards16-read   ← the read-cut variant (one continuous voice bed)
 const version = process.argv[2] || 'ROUGH-02';
+const cardsDir = process.argv[3] || 'cards16';
 const DRIVE = 'G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios';
 const here = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex').toUpperCase();
-const m = JSON.parse(fs.readFileSync(`${DRIVE}/cards16/MANIFEST.json`, 'utf8'));
+const m = JSON.parse(fs.readFileSync(`${DRIVE}/${cardsDir}/MANIFEST.json`, 'utf8'));
 
 const clips = m.beats.map(b => {
   const file = `${DRIVE}/${b.file}`;
