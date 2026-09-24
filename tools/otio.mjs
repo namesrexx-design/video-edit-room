@@ -59,7 +59,10 @@ export function readTimeline(p) {
   }
   const audio = stack.find(t => (t.kind || '').toLowerCase() === 'audio');
   if (audio && JSON.stringify(strip(audio.children)) !== JSON.stringify(strip(video.children))) warnings.push('A1 differs from V1: picture-clip audio is used, A1 is ignored');
-  return { name: tl.name, items: out, warnings, rate: RATE };
+  // Frame size comes from the timeline's own metadata (buildTimeline writes it); 1920x1080 when absent.
+  const ed = tl.metadata?.editroom ?? {};
+  const width = Number(ed.width) || 1920, height = Number(ed.height) || 1080;
+  return { name: tl.name, items: out, warnings, rate: RATE, width, height };
 }
 
 const frames = t => { const v = t.rate === RATE ? t.value : t.value * RATE / t.rate; const r = Math.round(v); if (Math.abs(r - v) > 1e-6) throw new Error('non-integer frame ' + v); return r; };
