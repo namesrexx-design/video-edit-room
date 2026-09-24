@@ -7,9 +7,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import { buildTimeline, buildEdl, RATE } from '../../../tools/otio.mjs';
 
 const version = process.argv[2] || 'ROUGH-01';
+// --vo: use the cards with the voice line muxed in (cards/S0N-vo.mp4). Those cards are as long as
+// the LONGER of the locked shot and the take, so the line is never cut; the total is reported
+// against the locked 21.5 s instead of enforced.
+const VO = process.argv.includes('--vo');
 const DRIVE = 'G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox';
 const here = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'));
 const sha = p => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex').toUpperCase();
@@ -25,12 +30,17 @@ const SHOTS = [
   { id: 'S06', title: 'END RESULT', seconds: 4.0, file: `${DRIVE}/cards/S06.mp4`, status: 'placeholder', needs: 'Rexx films the tidied desk, laptop open on /workspace; end card Try it free · biz-box.io/lyfe', line: 'That is BizBox. One place for the work.' },
 ];
 
+const nframes = p => +JSON.parse(execFileSync('ffprobe', ['-v', 'error', '-count_frames', '-select_streams', 'v', '-show_entries', 'stream=nb_read_frames', '-of', 'json', p], { encoding: 'utf8' })).streams[0].nb_read_frames;
 const clips = SHOTS.map(s => {
-  if (!fs.existsSync(s.file)) throw new Error('missing ' + s.file);
-  return { name: `${s.id} ${s.title} [${s.status}]`, file: s.file, start: 0, duration: f(s.seconds), available: f(s.seconds), sha256: sha(s.file), note: s.status === 'placeholder' ? 'PLACEHOLDER: ' + s.needs : s.needs };
+  const file = VO ? s.file.replace(/\.mp4$/, '-vo.mp4') : s.file;
+  if (!fs.existsSync(file)) throw new Error('missing ' + file);
+  const duration = VO ? nframes(file) : f(s.seconds);
+  if (VO && duration !== f(s.seconds)) s.stretched = `${s.seconds} s locked → ${(duration / RATE).toFixed(2)} s to fit the take`;
+  return { name: `${s.id} ${s.title} [${s.status}${VO ? ' +vo' : ''}]`, file, start: 0, duration, available: duration, sha256: sha(file), note: (s.status === 'placeholder' ? 'PLACEHOLDER: ' + s.needs : s.needs) + (s.stretched ? ' · ' + s.stretched : '') };
 });
 const total = clips.reduce((a, c) => a + c.duration, 0);
-if (total !== f(21.5)) throw new Error(`cut is ${total} frames, the locked sheet is ${f(21.5)}`);
+if (!VO && total !== f(21.5)) throw new Error(`cut is ${total} frames, the locked sheet is ${f(21.5)}`);
+if (VO) for (const s of SHOTS) if (s.stretched) console.log(`  ${s.id}: ${s.stretched}`);
 
 const name = `EXPLAINER-01-BIZBOX-${version}`;
 const tl = buildTimeline(name, clips, { width: 1080, height: 1920, explainer: '01-bizbox', version, shotSheet: 'EXPLAINER-01-BIZBOX-SHOT-SHEET-2026-09-23.html (LOCKED)', voice: 'namesrexx clone, eleven_v3, zero tags — not yet laid in', builtAt: new Date().toISOString() });
