@@ -1,0 +1,72 @@
+{
+  "name": "EXPLAINER-01-BIZBOX-ROUGH-01",
+  "seconds": 21.5,
+  "shots": [
+    {
+      "id": "S01",
+      "title": "THE FRICTION",
+      "seconds": 3.5,
+      "file": "G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S01.mp4",
+      "status": "placeholder",
+      "needs": "Rexx films the overhead desk shot (S01/S06 same setup)",
+      "line": "My files were in one place. My tools were in another.",
+      "frames": 84,
+      "sha256": "95A3298E031DA17FEF6499CB49D2D93C3C8F137E879BD3F2909E00A8FDD4324B"
+    },
+    {
+      "id": "S02",
+      "title": "UPLOAD",
+      "seconds": 3,
+      "file": "G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S02.mp4",
+      "status": "placeholder",
+      "needs": "Google Drive login for the test account; record the drag-and-drop",
+      "line": "Everything goes into your own Google Drive. Photos. Documents.",
+      "frames": 72,
+      "sha256": "F453B22253CB71B1E2BED57CF0122B1A22891A932AA2929BAD976A5C63FCEF5F"
+    },
+    {
+      "id": "S03",
+      "title": "AGENTS",
+      "seconds": 4,
+      "file": "G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S03.mp4",
+      "status": "composite",
+      "needs": "Drive folder recording replaces the base card; overlay + 1 s Blender insert are final",
+      "line": "Agents work above the folder. Reading. Sorting. Naming every file.",
+      "frames": 96,
+      "sha256": "189A5D67059447C0B62F3FF3374BC0D319649DFE325F88C7D223A1BA235B75EA"
+    },
+    {
+      "id": "S04",
+      "title": "NEXT STEP",
+      "seconds": 3.5,
+      "file": "G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S04.mp4",
+      "status": "placeholder",
+      "needs": "test account signed in to /workspace in a Playwright profile; record the scroll",
+      "line": "The pile becomes projects. Each one with its own folder.",
+      "frames": 84,
+      "sha256": "BF0D13BCC77F020B0CADA336EA7B16B843074358350D57CA41ABA741C9F2E7D7"
+    },
+    {
+      "id": "S05",
+      "title": "CREATED / DONE",
+      "seconds": 3.5,
+      "file": "G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S05.mp4",
+      "status": "placeholder",
+      "needs": "same signed-in session; record the /workspace header hold",
+      "line": "Now there is ONE workspace. Files, projects and agents together.",
+      "frames": 84,
+      "sha256": "830B50AF687F669CD737C83B11FAA6A10A912CD3C37CDCC7DF0BCA4EF0E5AC6A"
+    },
+    {
+      "id": "S06",
+      "title": "END RESULT",
+      "seconds": 4,
+      "file": "G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S06.mp4",
+      "status": "placeholder",
+      "needs": "Rexx films the tidied desk, laptop open on /workspace; end card Try it free · biz-box.io/lyfe",
+      "line": "That is BizBox. One place for the work.",
+      "frames": 96,
+      "sha256": "AF0C5E9CD04DB12536D1607017387C1953541188055D23233C67F5EC0750F185"
+    }
+  ]
+}
