@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preserve Image Fidelity"
+  short_description: "Keep real artwork, fine detail, and approved looks intact"
+  default_prompt: "Use $preserve-image-fidelity to refine this image or animate it while preserving its approved details."
