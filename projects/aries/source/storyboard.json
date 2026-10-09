@@ -1,0 +1,34 @@
+{
+  "character": "Aries",
+  "series": "Signs & Numbers",
+  "version": 1,
+  "lastUpdated": "2026-09-23",
+  "referenceLock": "reference-lock.json",
+
+  "whoSheIs": "Curvy woman, dark hair in a high ponytail, Inland Empire / Fontana. Confident, competitive, confrontational — see reference-lock.json for the full identity/wardrobe/props lock.",
+
+  "whereShesBeen": "Her apartment only so far — the flooded kitchen, the hallway/door (unit 3B), and the same kitchen later with mold damage. See reference-lock.json → environments.",
+
+  "whatHappenedToHer": {
+    "note": "No episode has locked/finalized yet, so there is no settled history to reference. This section gets a one-line entry per completed episode once E01 locks, so E02+ can pick up from real events instead of restating them.",
+    "log": []
+  },
+
+  "whatSheOwnsUses": "iPhone (red case), gold hoop earrings. See reference-lock.json → props for the full running list.",
+
+  "whereLastEpisodeEnded": {
+    "episode": null,
+    "note": "Episode 1 has not been completed yet — nothing to continue from. Once E01 locks, record its exact final frame/state here so Episode 2 can open from it rather than restarting the character."
+  },
+
+  "episodes": [
+    {
+      "id": "E01-flood-eviction",
+      "title": "Flood → Eviction",
+      "status": "IN PROGRESS — audit in progress 2026-09-23",
+      "board": "../episodes/E01-flood-eviction/storyboard.json",
+      "script": "G:/My Drive/00_PROJECTS/SIGNS-ARIES-FLOOD-EVICTION/ARIES-FLOOD-SCRIPT-20260922.md",
+      "oneLine": "She's flooding, the landlord promises to fix it and doesn't, she comes home to a 3-day notice, calls him, learns he's evicting her instead of repairing anything — ends on her composed, 'activated' reaction, unresolved."
+    }
+  ]
+}

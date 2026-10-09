@@ -1,0 +1,39 @@
+{
+  "character": "Bestia Date",
+  "series": "MY LYFE",
+  "version": 1,
+  "lastUpdated": "2026-09-23",
+  "referenceLock": "reference-lock.json",
+
+  "whoSheIs": "Blonde woman on a dinner date at Bestia restaurant. See reference-lock.json for the full identity lock (no formal character sheet yet — flagged as an open gap).",
+
+  "whereShesBeen": "Bestia restaurant only so far — the dinner table, and the imagined helmet/Mars escape sequence within her date's own head. See reference-lock.json → environments.",
+
+  "whatHappenedToHer": {
+    "note": "Episode 1 complete and delivered 2026-09-22.",
+    "log": [
+      "E01: Ate the rubber ears off her date's plate (an AI generation 'mistake' Rexx chose to keep and build the whole episode around). His mind escapes to an impossible Mars daydream while she keeps talking, oblivious. Snaps back to the restaurant — she's still talking, ears cleared from the plate, gives a warm 'I still let it slide' smile to close."
+    ]
+  },
+
+  "whatSheOwnsUses": "Nothing recurring established yet — she doesn't carry a phone/car/purse on screen in E01.",
+
+  "whereLastEpisodeEnded": {
+    "episode": "E01-talked-my-ears-off",
+    "state": "Restaurant table, warm knowing smile directly at camera (his POV), ears cleared from the plate, mid-conversation — she never learns what happened in his head.",
+    "lastFrameSource": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/FINAL_v5_eatears_20260922/BESTIA-ASSEMBLED-v7-WITH-VO.mp4",
+    "note": "No exact extracted last-frame image saved yet for chaining into a hypothetical Episode 2 — pull one from this file if/when E02 is planned, rather than starting cold."
+  },
+
+  "episodes": [
+    {
+      "id": "E01-talked-my-ears-off",
+      "title": "Talked My Ears Off",
+      "status": "✅ DELIVERED 2026-09-22",
+      "board": "../episodes/E01-talked-my-ears-off/storyboard.json",
+      "finalVideo": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/FINAL_v5_eatears_20260922/BESTIA-ASSEMBLED-v7-WITH-VO.mp4",
+      "caption": "G:/My Drive/00_PROJECTS/MY-LYFE-BESTIA-TALKED-MY-EARS-OFF/BESTIA-POST-CAPTION-20260922.md",
+      "oneLine": "She eats the rubber ears off his plate; his mind escapes to an impossible Mars daydream while she keeps talking; snaps back, still talking, warm knowing smile to close."
+    }
+  ]
+}

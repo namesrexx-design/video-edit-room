@@ -1,0 +1,52 @@
+{
+  "character": "The Date (SUGARFISH Pasadena series, \"N04\")",
+  "series": "N04 / Drive Home — devil/angel dating episodes",
+  "lastUpdated": "2026-09-23",
+
+  "identity": {
+    "characterSheet": null,
+    "characterSheetGap": "No formal multi-angle character sheet exists for this character either. Identity references are ChatGPT-provided face stills, listed below. Build a real sheet before the next episode if drift becomes a problem — same lesson as Aries.",
+    "identityRefs": [
+      "identity-refs/face-01.png",
+      "identity-refs/face-and-waitress-02.png",
+      "identity-refs/face-daylight-06.png"
+    ],
+    "higgsfieldElements": [],
+    "elementsGap": "No Higgsfield Element was built for this character — every clip in Episode 1 was generated from raw stills/frames directly, same gap that caused the Aries drift bug. Build one before the next episode.",
+    "description": "The recurring 'Date' character in the N04 dating-episode series. Real reference room used: SUGARFISH Pasadena (locked 2026-09-21 — real venue, not a generic restaurant)."
+  },
+
+  "wardrobeRules": {
+    "productionWardrobe": "See identity-refs and episode stills for the exact wardrobe as locked in production. Not yet written out in prose.",
+    "neverUse": "Not yet identified as an issue for this character."
+  },
+
+  "props": {
+    "billFolder": "SUGARFISH bill folder / receipt — the 16% service fee is the trigger for the third and biggest devil escalation.",
+    "wineGlass": "The water/wine glass — trigger for the first (mildest) devil escalation.",
+    "note": "props/bill-devil-pointing.png and props/bill-angel-smile.png show the actual bill-scene prop (the printed check)."
+  },
+
+  "environments": [
+    { "id": "dining-room", "image": "environments/dining-room.jpg", "description": "SUGARFISH Pasadena dining room — the real, locked venue reference (2026-09-21). Not a generic restaurant.", "episode": "E01" },
+    { "id": "dining-room-official", "image": "environments/dining-room-official-press.jpg", "description": "Official press photo of the same real dining room, used as a secondary reference.", "episode": "E01" },
+    { "id": "table-open-devil", "image": "environments/table-open-devil.png", "description": "Empty table, devil-state lighting/mood — used as the 'time passes' establishing beat between incidents, no other character shown.", "episode": "E01" },
+    { "id": "table-open-angel", "image": "environments/table-open-angel.png", "description": "Same empty table, angel/halo-state — the resolved counterpart to table-open-devil.", "episode": "E01" }
+  ],
+
+  "devilAngelTransformationRules": {
+    "locked2026-09-21": "Structure: CHAOS OPEN (bill argument, full devil) -> cut back -> FLAG 1 table (tiny horns, then new table + subtle halo) -> FLAG 2 glass/utensils (horns + tail, replaced, sweet again, brief halo) -> FLAG 3 the bill (full devil: horns, tail, pitchfork; NO narration over the peak; waitress leaves, she turns to camera with sweet smile and clear halo) -> REALIZATION montage -> early-morning drop-off ending.",
+    "supersededBy2026-09-22": "Simpler locked order used in the actual delivered episode: devil water -> angel water -> devil table -> angel table -> bill devil (extended) -> full-body-red-tail escalation -> bill angel -> flirt ending. The full early-morning-dropoff ending was NOT used; the episode ends on the bill resolution + flirt beat instead.",
+    "severityLadder": "Escalation gets stronger each time: ~25% at water (tiny horns, eye flash), ~60% at table/glass (bigger horns, redder skin, steam, beginning tail), 100% at the bill (full transformation: deep crimson skin, full horns, lava eyes, tail, restrained heat effect).",
+    "resetRule": "Every reset is an INSTANT HARD CUT, never a slow morph — devil to perfectly pleasant in one frame, halo growing more obvious on each reset. Escalation is shown in stages over several seconds; the reset is always faster than the escalation.",
+    "chainingTechnique": "Exact-last-frame chaining between clips that continue the same action (ffmpeg -sseof extraction -> Higgsfield media_upload -> next clip's start_image). Never reuse a shared 'target' still as both a clip's end and the next clip's start — this exact bug caused a visible transition mismatch, root-caused and fixed mid-production.",
+    "vTagRule": "Only documented ElevenLabs v3 tags: [whispers] [sighs] [laughs] [sarcastic] [curious] [excited], plus proven-working [thoughtful] [surprised] [short pause] [long pause] [chuckles]. Never invented tags."
+  },
+
+  "storyHistory": {
+    "note": "Episode 1 is complete and delivered. An EARLIER, different-story version of this character/series exists (arrival/dinner/dropoff, non-devil — see projects/sugarfish/deliveries/README.md note) but was superseded by the devil/angel direction and is not the current canonical Episode 1.",
+    "episodes": [
+      { "id": "E01-table-glass-16pct-fee", "oneLine": "Three escalating incidents across one dinner at SUGARFISH Pasadena — water glass, table, then the 16% service fee on the bill — each a devil-escalation-then-instant-angel-reset cycle, ending on a flirt beat and the 'What sign do you think she is?' hook." }
+    ]
+  }
+}

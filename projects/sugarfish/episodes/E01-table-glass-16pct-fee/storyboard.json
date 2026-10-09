@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "episodeId": "E01-table-glass-16pct-fee",
+  "title": "Table → Glass → 16% Fee",
+  "status": "✅ DELIVERED 2026-09-22/23",
+  "finalVideo": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/DEVIL-EPISODE-ASSEMBLED-20260922/DEVIL-EPISODE-FINAL-FULL-20260922.mp4",
+  "runtimeSeconds": 25.8,
+
+  "continuityRule": "Scene N end = scene N+1 start, unless an intentional close-up, pan, insert, time jump, or location change breaks it. Same rule as every other character board — this episode is where the technique was first proven and documented into the shared Higgsfield skill.",
+
+  "sceneChain": [
+    {
+      "id": "N01",
+      "title": "Water — devil to angel",
+      "video": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/kling_v3_devil_20260922/01-WATER-devil-to-angel.mp4",
+      "durationSeconds": 3.04,
+      "chain": { "type": "fresh-start", "startsFrom": null },
+      "environmentLockUsed": "../../source/environments/dining-room.jpg"
+    },
+    {
+      "id": "N02",
+      "title": "Water angel → Table devil (connector)",
+      "video": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/kling_v3_devil_20260922/02-WATER-angel-to-TABLE-devil.mp4",
+      "durationSeconds": 3.04,
+      "chain": { "type": "chained", "startsFrom": "N01", "chainPoint": "real last frame" }
+    },
+    {
+      "id": "N03",
+      "title": "Table — devil to angel",
+      "video": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/kling_v3_devil_20260922/03-TABLE-devil-to-angel.mp4",
+      "durationSeconds": 3.04,
+      "chain": { "type": "chained", "startsFrom": "N02", "chainPoint": "real last frame" },
+      "endImage": "../../source/environments/table-open-angel.png"
+    },
+    {
+      "id": "N04",
+      "title": "Table angel → Bill devil (extended)",
+      "video": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/kling_v3_devil_20260922/04-TABLE-angel-to-BILL-devil-v2-extended.mp4",
+      "durationSeconds": 6.04,
+      "chain": { "type": "chained", "startsFrom": "N03", "chainPoint": "real last frame" },
+      "note": "v2/regenerated take. The FIRST attempt (04-TABLE-angel-to-BILL-devil.mp4, kept on disk, not used) reused a shared target still as both the previous clip's end AND this clip's start instead of the real extracted last frame — caused a visible transition mismatch Rexx caught ('8-9 second clip is missing a transition'). Root-caused and fixed; documented as a hard rule in shared-skills/higgsfield-video-production/SKILL.md.",
+      "propsWardrobe": "SUGARFISH bill folder visible on the table"
+    },
+    {
+      "id": "N05",
+      "title": "Bill — full-body red, tail grows (escalation only, no end image)",
+      "video": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/kling_v3_devil_20260922/06-BILL-fullbody-red-tail.mp4",
+      "durationSeconds": 4.04,
+      "chain": { "type": "chained", "startsFrom": "N04", "chainPoint": "real last frame" },
+      "note": "Added per Rexx: 'the devil scene needs to extend after that end clip to where her whole body turns red and she grows a tail.' No end_image specified — open-ended escalation, resolved in N06."
+    },
+    {
+      "id": "N06",
+      "title": "Bill — full-body devil to angel (final resolve)",
+      "video": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/kling_v3_devil_20260922/07-BILL-fullbody-to-angel.mp4",
+      "durationSeconds": 3.04,
+      "chain": { "type": "chained", "startsFrom": "N05", "chainPoint": "real last frame" },
+      "endImage": "../../source/props/bill-angel-smile.png",
+      "endImageSource": "EPISODE-STILLS-REAL-20260922/BILLSCENE-09-halo-smile-A.png — waitress walking away, halo, calm smile"
+    },
+    {
+      "id": "N07",
+      "title": "Flirt — angel to flirty (episode-ending extension, added after audit review)",
+      "video": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/kling_v3_devil_20260922/08-FLIRT-from-angel.mp4",
+      "durationSeconds": 3.04,
+      "chain": { "type": "chained", "startsFrom": "N06", "chainPoint": "real last frame, extracted via ffmpeg -sseof from the assembled video, not a fresh still" },
+      "generationPrompt": "The woman stays seated in the same restaurant booth, same halo glowing above her head, same warm lighting. She playfully adjusts her hair and gently touches the collar of her top, giving a flirtatious, teasing smile directly at the camera, leaning in slightly. Natural, subtle motion, no camera movement.",
+      "model": "kling3_0",
+      "note": "Requested by Rexx after seeing the base cut: 'have the girl adjust her hair on her top.' An earlier attempt to generate a separate STILL for this beat (not a video) got flagged NSFW by Higgsfield twice on the phrasing 'adjusting the neckline' — abandoned in favor of going straight to video generation with cleaner phrasing."
+    }
+  ],
+
+  "narrationCorrections": [
+    "Table-incident line changed from 'We moved. Angel.' to 'We didn't move. Angel.' to 'We stayed. Angel.' (final) — Rexx corrected the underlying fact twice; the resolution was never a table switch.",
+    "Closing lines added after the flirt extension: '[chuckles] And somehow... I still liked her.' then '[curious] What sign do you think she is?' — [amused] was requested but isn't a documented v3 tag, substituted with [chuckles]."
+  ],
+
+  "voiceover": {
+    "narrationTake": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/voiceover-20260922/N04-NARRATION-REXX-take1.mp3",
+    "dateLinesTake": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/voiceover-20260922/N04-DATE-ANYA-lines.mp3",
+    "correctedTableLine": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/voiceover-20260922/N04-NARRATION-we-stayed.mp3",
+    "closingLines": "G:/My Drive/00_PROJECTS/DRIVE_HOME_N04_2026-09-20/voiceover-20260922/N04-CLOSING-liked-her-what-sign.mp3",
+    "dateVoice": "Anya - Casual and friendly, voice_id d3MFdIuCfbAIwiu7jC4a",
+    "narrationVoice": "Rexx's own cloned voice, omTQvsWgoQBrcTuWdttm, eleven_v3"
+  }
+}
