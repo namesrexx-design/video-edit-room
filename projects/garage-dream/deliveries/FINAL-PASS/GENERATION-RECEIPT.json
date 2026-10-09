@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-16",
+  "motion": [
+    {
+      "index": 28,
+      "jobId": "2789fb1b-6612-4d8f-b14f-0b2417bf61bc",
+      "model": "kling3_0",
+      "status": "completed",
+      "credits": 6
+    },
+    {
+      "index": 29,
+      "jobId": "ad76affe-cb9e-4f93-b360-66878ee5f18e",
+      "model": "kling3_0",
+      "status": "completed",
+      "credits": 4.5
+    },
+    {
+      "index": 30,
+      "jobId": "924976ae-5fdd-4c55-9b43-7ad508ed34eb",
+      "model": "kling3_0",
+      "status": "completed",
+      "credits": 4.5
+    }
+  ],
+  "speech": {
+    "generationId": "DrKh7cIGsj7T2ZeWpEMm",
+    "flowId": "a6ziCQkJnTw9iuEN6n4B",
+    "voiceId": "pZCXXDyfnf7gb8ayHaSA",
+    "voiceName": "Garage Dad - Original Comedy - Review 01",
+    "text": "Yeah, he opened it two months ago.",
+    "model": "eleven_v3",
+    "durationSeconds": 2.16,
+    "price": {
+      "cost_fiat_currency": "usd",
+      "credits": 50.994899999999994,
+      "price_cents": 0.9271799999999999
+    }
+  },
+  "sync3": {
+    "status": "not submitted; no charge",
+    "reason": "Canonical video/audio roles rejected by backend requiring input_video/input_audio; those roles rejected by connector schema. Existing speaking picture retimed for review.",
+    "preparedInputs": {
+      "videoMediaId": "f91c483f-603c-40e0-a6da-ce138860ca6e",
+      "audioMediaId": "65bcf4d6-09b2-4eeb-935b-4831525273d6",
+      "videoFile": "projects/garage-dream/deliveries/CLIPS/INV051.mp4",
+      "audioFile": "projects/garage-dream/deliveries/FINAL-PASS/HOMER-AUDIO-two-months-v1.mp3",
+      "syncMode": "remap"
+    }
+  },
+  "keyframes": [
+    {
+      "mediaId": "edeaf6a0-7b5e-42e9-b806-d05fb72b99ca"
+    },
+    {
+      "mediaId": "210150c0-3b49-448a-8b46-f55e3797de86"
+    }
+  ],
+  "approval": "Owner requested the revisions; outputs still require owner visual review; no final approval inferred."
+}

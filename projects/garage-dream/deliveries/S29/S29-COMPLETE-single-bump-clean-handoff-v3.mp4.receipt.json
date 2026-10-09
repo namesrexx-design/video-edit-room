@@ -1,0 +1,41 @@
+{
+  "timeline": "timelines/S29-COMPLETE-single-bump-clean-handoff-v3.otio",
+  "timelineSha256": "1640F4F86D7474C7C2218391D72F6223A24D72D8989672FA6E7160422FDB3AD2",
+  "name": "S29-COMPLETE-single-bump-clean-handoff-v3",
+  "output": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/S29/S29-COMPLETE-single-bump-clean-handoff-v3.mp4",
+  "outputSha256": "0D7155B6542ADF6EBE503BC2A4F167BC82B3BA79003D914520CC1FFF95209958",
+  "bytes": 1148620,
+  "frames": 51,
+  "seconds": 2.125,
+  "renderedAt": "2026-09-16T19:37:34.454Z",
+  "renderedBy": "Astra",
+  "warnings": [],
+  "blackIntervals": [],
+  "outputProfile": {
+    "width": 1920,
+    "height": 1080,
+    "crf": 18
+  },
+  "pictureCopy": false,
+  "items": [
+    {
+      "i": 0,
+      "name": "One fist contact, release, then forehead pointing",
+      "kind": "clip",
+      "file": "S29-RENDER-single-bump-ad76affe.mp4",
+      "srcFrames": [
+        0,
+        51
+      ],
+      "frames": 51
+    }
+  ],
+  "media": [
+    {
+      "file": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/FINAL-PASS/S29-RENDER-single-bump-ad76affe.mp4",
+      "sha256": "89BE99890FD5757FF9E19209310C093E6FB0B817E336F3127AEFB318D1ACEF17",
+      "frames": 73,
+      "size": "1916x1080@24/1"
+    }
+  ]
+}

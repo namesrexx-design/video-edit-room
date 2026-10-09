@@ -1,0 +1,1 @@
+S28-COMPLETE-closed-mouth-nodding-v2.mp4; Kling 2789fb1b-6612-4d8f-b14f-0b2417bf61bc; spoken line: “Don't forget to take the photos Homer, that's all you gotta do.”; owner correction instruction (not final approval): “at 1:51 redo the video clip with them just nodding there head while im talking”; New motion with unchanged Rexx audio; owner playback approval pending.

@@ -1,0 +1,46 @@
+{
+  "timeline": "timelines/S28-COMPLETE-closed-mouth-nodding-v2.otio",
+  "timelineSha256": "2D0D493C7071F5AFB77C19A34E5DC82BD88CEFDE0E7B5C483D0DE365217BC861",
+  "name": "S28-COMPLETE-closed-mouth-nodding-v2",
+  "output": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/S28/S28-COMPLETE-closed-mouth-nodding-v2.mp4",
+  "outputSha256": "389BB29B5280DC6A94CECB0D9DB08AE480394C53A27825BFDA489CB980749895",
+  "bytes": 988494,
+  "frames": 86,
+  "seconds": 3.583333,
+  "renderedAt": "2026-09-16T19:31:28.803Z",
+  "renderedBy": "Astra",
+  "warnings": [],
+  "blackIntervals": [],
+  "outputProfile": {
+    "width": 1920,
+    "height": 1080,
+    "crf": 18
+  },
+  "pictureCopy": false,
+  "items": [
+    {
+      "i": 0,
+      "name": "Silent listeners; complete unchanged Rexx speech",
+      "kind": "clip",
+      "file": "S28-RENDER-quiet-nodding-2789fb1b.mp4",
+      "srcFrames": [
+        0,
+        86
+      ],
+      "frames": 86,
+      "audioOverride": {
+        "file": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/REVIEW/REVIEW-COMPLETE-owner-corrections-v4.mp4",
+        "startFrames": 2662,
+        "sha256": "280342DE43D872CD7D6799CA8611F8049C618C744E2AB209B78459C58DA64247"
+      }
+    }
+  ],
+  "media": [
+    {
+      "file": "/workspace/scratch/5a2d1b3cd542/video-edit-room-build/projects/garage-dream/deliveries/FINAL-PASS/S28-RENDER-quiet-nodding-2789fb1b.mp4",
+      "sha256": "52AE896E54C6AF1A204E031CF4B9994DEAD855DAE2C91DF29DEBF2A1F39A0CB7",
+      "frames": 97,
+      "size": "1916x1080@24/1"
+    }
+  ]
+}
