@@ -1,0 +1,2333 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "BIZBOX-MASTER-ROUGH-02",
+  "global_start_time": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 0
+  },
+  "metadata": {
+    "editroom": {
+      "rate": 24,
+      "width": 1920,
+      "height": 1080,
+      "explainer": "03-bizbox-master",
+      "version": "ROUGH-02",
+      "board": "BIZBOX-MASTER-90-BOARD-v2-2026-09-28",
+      "assembledWith": "prep-rough.mjs segments (FFmpeg composite) + video-edit-room tools/render.mjs",
+      "motion": "motion-kit engine, MIT (Barty-Bart/motion-graphics e8d610a), vendored in Drive tools/motionkit",
+      "audio": "none — VO shown as scratch captions"
+    }
+  },
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "tracks",
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "V1",
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "H-01 [motion] Most businesses don’t need one more app.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-00.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-00.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "AB4EACD09D9B88C92B4CFC3CD7BEE909561FE369CA857A247A76BCC6887668C1"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · FIXED — brand font, cream open, carries into the reading · H-01-hook.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-01 [real] Type three things. Get a real result bac",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 144
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 144
+                  }
+                },
+                "metadata": {
+                  "sha256": "06E962D7BF50E55D355D36ED36F8F08426FA8FDC9D9EBBEDCEDD2CA5590C572D"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "REAL · recapture pending — submit approved · CARD-02-LYFE-LIVE-READING-PREVIEW.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-02 [real] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "B9A07640DD31F899020023FE3D57CA9D90843974201E4A70A3290DFEA0CF8766"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "REAL · recapture pending · CARD-03-STUDIOS-PREVIEW.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-03–05 [real] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 276
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 276
+                  }
+                },
+                "metadata": {
+                  "sha256": "EA383CB0373CE1EEEEDA245DDF12A55354B9807E55C5A7D07855CCE8384E255D"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "FROZEN · Cards 05 06 07 · Astra PASS · BIZBOX-V3-CARD-REEL-03.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-07 [slate] And it can work right inside Claude.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 108
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 108
+                  }
+                },
+                "metadata": {
+                  "sha256": "F052B8E537527DCDA1E712B80079411944D095442EC51027C5DD2291F19068DA"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Demo workspace · Claude + BizBox MCP · studio.get_episode → Foothill Coffee Roasters (demo)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-01 [motion] Here’s how it builds, inside LYFE Studio",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "9585CED4326C53FA4D08918F5F68F8694B6DC6BF90DD0B866FA6038F132B7BE1"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A2-01-chain.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-02 [slate] Projects become scenes. Scenes become sh",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "D7AC84002E6249B28D9AEED97BE0609C2AAD145E7452AD08BDCA62AEDC8F3D4D"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Studio, signed in · Foothill Coffee Roasters (demo) → opening-day → D01 · D02 → Counter, wide · Owner, medium"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-03 [slate] Every version is kept, and why.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-07.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-07.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "1AB08647F1D1C6635B0AA60B193F1DEB03C0A12B593C0E36C285EE1A5A56DF9E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Counter, wide: CURRENT v1 · ALTERNATE v2 · RETIRED v0 — \"superseded: earlier framing\""
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-04 [slate] If the scene isn’t ready... BizBox doesn",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 144
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-08.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-08.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 144
+                  }
+                },
+                "metadata": {
+                  "sha256": "9BB503B4B25C0238BC3FE7F878BDE79F0970FB33BB9D8564E31A797BA758E316"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Claude + MCP · canon.get_shot_readiness on Owner, medium → NOT READY + what’s missing"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-05 [slate] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-09.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-09.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {
+                  "sha256": "E86126F641C8873D013FB3080109130BAD473BB0927D47FCA5AE0CA5C254D694"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · canon.get_shot_readiness on Counter, wide → READY"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · ITEM PHOTO [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 19
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-10.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-10.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 19
+                  }
+                },
+                "metadata": {
+                  "sha256": "54B249FC113CB9661A24286080AB1D6BE1186B47DF69C6DE73C4E01264DE639E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The original item photo"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · IDENTIFY [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 29
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-11.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-11.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 29
+                  }
+                },
+                "metadata": {
+                  "sha256": "7CEED8A49DF720EB6B7C94BD6A8475627887EB3F231FE83FC0C0161C6DE08C32"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The identification result"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · RESEARCH [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 29
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-12.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-12.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 29
+                  }
+                },
+                "metadata": {
+                  "sha256": "2BA7E08D010A5DF9B6BF13956724DD06C994260D18FB244CE63BEAE7F8EA8DF1"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · What it costs NEW today — live web search, source linked"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · PRICE [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 24
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-13.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-13.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 24
+                  }
+                },
+                "metadata": {
+                  "sha256": "B2D2C48FBAAAE6A1E8B56AEFC552CE3279AD2EC4C5F66A9BDF6C7525112D7DD6"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The price beside its anchor — new × condition"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · LISTING [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 34
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-14.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-14.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 34
+                  }
+                },
+                "metadata": {
+                  "sha256": "4432AD6AC8406EA266AF49CD1481D8EB68085DB3FACC94B5CF2A2842ED32D619"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · Real title · description · item specifics"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · DRAFT READY [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 17
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-15.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-15.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 17
+                  }
+                },
+                "metadata": {
+                  "sha256": "4FF1F9F338C56A9E66F29957C077ACE523242D90CE17653BDF66A0C6EBDA9083"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The item’s ready state in the queue"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · APPROVAL [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 26
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-16.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-16.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 26
+                  }
+                },
+                "metadata": {
+                  "sha256": "86C5EBD3A90B214DED7C228E9E9219F3802B1FC00AAAD461888ADD5CAEAC7A2A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · Marketplace form filled — STOPPED before Publish"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · settle [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 14
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-17.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-17.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 14
+                  }
+                },
+                "metadata": {
+                  "sha256": "B9125B5E7254F6166489C8D1D7B03BDC1D442787B673AEC1F60BDCD8137DBA86"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · Everything settles. Stop."
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-06 [motion] A team of AI agents builds it. A separat",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 144
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-18.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-18.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 144
+                  }
+                },
+                "metadata": {
+                  "sha256": "088A7249FCB2FDECEE2F20A8661149A3BD0B940862709C088FAF2E536B0F08B6"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A2-06-team.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-01 [motion] Here’s where it’s going... A system that",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-19.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-19.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "B28A2A74F5CE3111D358C7917161DFD351A6D1606D3F0F1CC2C4D35E3548EFDE"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A3-01-core.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-02 [slate] We’re building every module to give you ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-20.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-20.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "23D96C297AC7015B9879AC85207AE87D4299E4538380863DF7CE8CAF7A6CC5AB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "MOTION + HIGGSFIELD — held until panels lock · Reading · Credit letters · No Evict packet (objects) · booking page · listing draft · one scene · customized product"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-03 [slate] We’re building it so you can build your ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 132
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-21.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-21.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 132
+                  }
+                },
+                "metadata": {
+                  "sha256": "C3F2269AD688CC9C7C878E508D9836221E5DF326E0FFAEA92B6918102D2AC425"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "HIGGSFIELD — held until panels lock · Hands arranging physical cards into a working setup; one card reused"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-04 [slate] One operating system, shaped around each",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-22.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-22.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "6D7B694D705E7859587DB99D617E0948FA748A9DAEA0CE7AD24D752CB9B0A0BB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "HIGGSFIELD — held until panels lock · Coffee roastery → e-bike workshop → beauty studio · real module names re-light"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-05 [motion] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-23.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-23.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {
+                  "sha256": "2A620CD0338515B02C336AF7865D224346B62289841F1BD78B6721F59000D28E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A3-05-channels.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "C-01 [motion] Start with the free reading.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-24.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-24.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "6AB8A59A0CDE25A0433933E77F2B353717DBE07010964C82EA3D86B54B4B81E8"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · C-01-tryone.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "C-02 [motion] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-25.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-25.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "784168F99172AB2D104659F8F14BB5F0C51680884951CBC2606B798F69664D25"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · FIXED — brand face, fades to warm ink · C-02-endcard.mp4"
+            }
+          }
+        ],
+        "metadata": {}
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "A1",
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "H-01 [motion] Most businesses don’t need one more app.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-00.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-00.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "AB4EACD09D9B88C92B4CFC3CD7BEE909561FE369CA857A247A76BCC6887668C1"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · FIXED — brand font, cream open, carries into the reading · H-01-hook.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-01 [real] Type three things. Get a real result bac",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 144
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 144
+                  }
+                },
+                "metadata": {
+                  "sha256": "06E962D7BF50E55D355D36ED36F8F08426FA8FDC9D9EBBEDCEDD2CA5590C572D"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "REAL · recapture pending — submit approved · CARD-02-LYFE-LIVE-READING-PREVIEW.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-02 [real] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "B9A07640DD31F899020023FE3D57CA9D90843974201E4A70A3290DFEA0CF8766"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "REAL · recapture pending · CARD-03-STUDIOS-PREVIEW.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-03–05 [real] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 276
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 276
+                  }
+                },
+                "metadata": {
+                  "sha256": "EA383CB0373CE1EEEEDA245DDF12A55354B9807E55C5A7D07855CCE8384E255D"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "FROZEN · Cards 05 06 07 · Astra PASS · BIZBOX-V3-CARD-REEL-03.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-07 [slate] And it can work right inside Claude.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 108
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 108
+                  }
+                },
+                "metadata": {
+                  "sha256": "F052B8E537527DCDA1E712B80079411944D095442EC51027C5DD2291F19068DA"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Demo workspace · Claude + BizBox MCP · studio.get_episode → Foothill Coffee Roasters (demo)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-01 [motion] Here’s how it builds, inside LYFE Studio",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "9585CED4326C53FA4D08918F5F68F8694B6DC6BF90DD0B866FA6038F132B7BE1"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A2-01-chain.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-02 [slate] Projects become scenes. Scenes become sh",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "D7AC84002E6249B28D9AEED97BE0609C2AAD145E7452AD08BDCA62AEDC8F3D4D"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Studio, signed in · Foothill Coffee Roasters (demo) → opening-day → D01 · D02 → Counter, wide · Owner, medium"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-03 [slate] Every version is kept, and why.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-07.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-07.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "1AB08647F1D1C6635B0AA60B193F1DEB03C0A12B593C0E36C285EE1A5A56DF9E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Counter, wide: CURRENT v1 · ALTERNATE v2 · RETIRED v0 — \"superseded: earlier framing\""
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-04 [slate] If the scene isn’t ready... BizBox doesn",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 144
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-08.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-08.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 144
+                  }
+                },
+                "metadata": {
+                  "sha256": "9BB503B4B25C0238BC3FE7F878BDE79F0970FB33BB9D8564E31A797BA758E316"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · Claude + MCP · canon.get_shot_readiness on Owner, medium → NOT READY + what’s missing"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-05 [slate] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-09.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-09.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {
+                  "sha256": "E86126F641C8873D013FB3080109130BAD473BB0927D47FCA5AE0CA5C254D694"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "CAPTURE · Codex · canon.get_shot_readiness on Counter, wide → READY"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · ITEM PHOTO [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 19
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-10.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-10.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 19
+                  }
+                },
+                "metadata": {
+                  "sha256": "54B249FC113CB9661A24286080AB1D6BE1186B47DF69C6DE73C4E01264DE639E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The original item photo"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · IDENTIFY [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 29
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-11.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-11.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 29
+                  }
+                },
+                "metadata": {
+                  "sha256": "7CEED8A49DF720EB6B7C94BD6A8475627887EB3F231FE83FC0C0161C6DE08C32"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The identification result"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · RESEARCH [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 29
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-12.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-12.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 29
+                  }
+                },
+                "metadata": {
+                  "sha256": "2BA7E08D010A5DF9B6BF13956724DD06C994260D18FB244CE63BEAE7F8EA8DF1"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · What it costs NEW today — live web search, source linked"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · PRICE [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 24
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-13.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-13.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 24
+                  }
+                },
+                "metadata": {
+                  "sha256": "B2D2C48FBAAAE6A1E8B56AEFC552CE3279AD2EC4C5F66A9BDF6C7525112D7DD6"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The price beside its anchor — new × condition"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · LISTING [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 34
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-14.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-14.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 34
+                  }
+                },
+                "metadata": {
+                  "sha256": "4432AD6AC8406EA266AF49CD1481D8EB68085DB3FACC94B5CF2A2842ED32D619"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · Real title · description · item specifics"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · DRAFT READY [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 17
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-15.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-15.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 17
+                  }
+                },
+                "metadata": {
+                  "sha256": "4FF1F9F338C56A9E66F29957C077ACE523242D90CE17653BDF66A0C6EBDA9083"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · The item’s ready state in the queue"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · APPROVAL [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 26
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-16.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-16.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 26
+                  }
+                },
+                "metadata": {
+                  "sha256": "86C5EBD3A90B214DED7C228E9E9219F3802B1FC00AAAD461888ADD5CAEAC7A2A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · Marketplace form filled — STOPPED before Publish"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A1-06 · settle [slate] One photo. Agents identify it, research ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 14
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-17.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-17.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 14
+                  }
+                },
+                "metadata": {
+                  "sha256": "B9125B5E7254F6166489C8D1D7B03BDC1D442787B673AEC1F60BDCD8137DBA86"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "SELECT + CAPTURE · Codex · Everything settles. Stop."
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A2-06 [motion] A team of AI agents builds it. A separat",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 144
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-18.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-18.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 144
+                  }
+                },
+                "metadata": {
+                  "sha256": "088A7249FCB2FDECEE2F20A8661149A3BD0B940862709C088FAF2E536B0F08B6"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A2-06-team.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-01 [motion] Here’s where it’s going... A system that",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-19.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-19.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "B28A2A74F5CE3111D358C7917161DFD351A6D1606D3F0F1CC2C4D35E3548EFDE"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A3-01-core.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-02 [slate] We’re building every module to give you ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 120
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-20.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-20.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 120
+                  }
+                },
+                "metadata": {
+                  "sha256": "23D96C297AC7015B9879AC85207AE87D4299E4538380863DF7CE8CAF7A6CC5AB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "MOTION + HIGGSFIELD — held until panels lock · Reading · Credit letters · No Evict packet (objects) · booking page · listing draft · one scene · customized product"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-03 [slate] We’re building it so you can build your ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 132
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-21.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-21.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 132
+                  }
+                },
+                "metadata": {
+                  "sha256": "C3F2269AD688CC9C7C878E508D9836221E5DF326E0FFAEA92B6918102D2AC425"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "HIGGSFIELD — held until panels lock · Hands arranging physical cards into a working setup; one card reused"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-04 [slate] One operating system, shaped around each",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-22.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-22.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "6D7B694D705E7859587DB99D617E0948FA748A9DAEA0CE7AD24D752CB9B0A0BB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "HIGGSFIELD — held until panels lock · Coffee roastery → e-bike workshop → beauty studio · real module names re-light"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "A3-05 [motion] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-23.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-23.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {
+                  "sha256": "2A620CD0338515B02C336AF7865D224346B62289841F1BD78B6721F59000D28E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · A3-05-channels.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "C-01 [motion] Start with the free reading.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-24.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-24.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "6AB8A59A0CDE25A0433933E77F2B353717DBE07010964C82EA3D86B54B4B81E8"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · rough (motion-kit, MIT) · C-01-tryone.mp4"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "C-02 [motion] ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "seg-25.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/03-bizbox-master/rough/ROUGH-02/segments/seg-25.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "784168F99172AB2D104659F8F14BB5F0C51680884951CBC2606B798F69664D25"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "ENGINE MOTION · FIXED — brand face, fades to warm ink · C-02-endcard.mp4"
+            }
+          }
+        ],
+        "metadata": {}
+      }
+    ],
+    "metadata": {}
+  }
+}

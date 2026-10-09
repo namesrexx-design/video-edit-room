@@ -1,0 +1,572 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "EXPLAINER-02-STUDIOS-ROUGH-01",
+  "global_start_time": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 0
+  },
+  "metadata": {
+    "editroom": {
+      "rate": 24,
+      "width": 1080,
+      "height": 1920,
+      "explainer": "02-studios",
+      "version": "ROUGH-01",
+      "shotSheet": "EXPLAINER-02-STUDIOS-SHOT-SHEET-2026-09-24.html (working plan, owner 2026-09-24)",
+      "voice": "not laid in",
+      "builtAt": "2026-09-24T20:04:27.533Z"
+    }
+  },
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "tracks",
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "V1",
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S01 THE FRICTION [S01a:real S01b:fallback]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "73CC207F443890BF28600C915DEB4BC788B38F0E1AB65F11C3785B541E380BB4"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S01a:real S01b:fallback"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S02 YOUR OWN PHOTOS [S02a:real S02b:placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 168
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 168
+                  }
+                },
+                "metadata": {
+                  "sha256": "ACE27C26E0D111BA5A68BA5A17F9C7B3BB02856AE2617CEEBAAB3675F521E0F2"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S02a:real S02b:placeholder"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S03 AGENTS SORT THE GAPS [S03a:placeholder S03b:visualization S03c:real]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "D28CFF47604D3297021643D6276A063ECCE5D1688D676D8E98BFE28A618E719A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S03a:placeholder S03b:visualization S03c:real"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S04 YOUR LUNCH STAYS [S04a:real S04b:fallback]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "EF5B6D12A300454B5E4BF5044FCD487FDBEB20EC988A35C87BA3C2DA5E978D2F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S04a:real S04b:fallback"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S05 VERIFY. PREPAY. REMINDERS. [S05a:real S05b:real S05c:real]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 216
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 216
+                  }
+                },
+                "metadata": {
+                  "sha256": "6B5ABCF3266CC73D378BD0DF3967BA4F5CF068281D2C0D80F22F49A7BCF616F3"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S05a:real S05b:real S05c:real"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S06 END RESULT [S06a:fallback S06b:visualization]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "DFA793148AB980A6E09F7028B3D016AB0A9A5D6C10D6AA27074DDFDE26180445"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S06a:fallback S06b:visualization"
+            }
+          }
+        ],
+        "metadata": {}
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "A1",
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S01 THE FRICTION [S01a:real S01b:fallback]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "73CC207F443890BF28600C915DEB4BC788B38F0E1AB65F11C3785B541E380BB4"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S01a:real S01b:fallback"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S02 YOUR OWN PHOTOS [S02a:real S02b:placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 168
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 168
+                  }
+                },
+                "metadata": {
+                  "sha256": "ACE27C26E0D111BA5A68BA5A17F9C7B3BB02856AE2617CEEBAAB3675F521E0F2"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S02a:real S02b:placeholder"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S03 AGENTS SORT THE GAPS [S03a:placeholder S03b:visualization S03c:real]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "D28CFF47604D3297021643D6276A063ECCE5D1688D676D8E98BFE28A618E719A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S03a:placeholder S03b:visualization S03c:real"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S04 YOUR LUNCH STAYS [S04a:real S04b:fallback]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "EF5B6D12A300454B5E4BF5044FCD487FDBEB20EC988A35C87BA3C2DA5E978D2F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S04a:real S04b:fallback"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S05 VERIFY. PREPAY. REMINDERS. [S05a:real S05b:real S05c:real]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 216
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 216
+                  }
+                },
+                "metadata": {
+                  "sha256": "6B5ABCF3266CC73D378BD0DF3967BA4F5CF068281D2C0D80F22F49A7BCF616F3"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S05a:real S05b:real S05c:real"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S06 END RESULT [S06a:fallback S06b:visualization]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 192
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards/S06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 192
+                  }
+                },
+                "metadata": {
+                  "sha256": "DFA793148AB980A6E09F7028B3D016AB0A9A5D6C10D6AA27074DDFDE26180445"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "S06a:fallback S06b:visualization"
+            }
+          }
+        ],
+        "metadata": {}
+      }
+    ],
+    "metadata": {}
+  }
+}

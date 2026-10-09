@@ -1,0 +1,226 @@
+{
+  "name": "EXPLAINER-02-STUDIOS-ROUGH-01-VO",
+  "seconds": 48,
+  "shots": [
+    {
+      "id": "S01",
+      "title": "THE FRICTION",
+      "seconds": 8,
+      "line": "Somebody books. Then they don't show. You held that hour.",
+      "sub": [
+        {
+          "id": "S01a",
+          "status": "real",
+          "src": "source/public/S01a.mp4",
+          "what": "demo-massage: date picked, 10:00 AM slot clicked (phone layout, drawn pointer)"
+        },
+        {
+          "id": "S01b",
+          "status": "fallback",
+          "src": "cards/S01b-fallback-hold.mp4",
+          "what": "sheet fallback: the picked slot held 4.5 s",
+          "needs": "film the empty treatment chair by a window, phone face-up (4.5 s)"
+        }
+      ],
+      "treatment": {
+        "treatment": "none — real UI carries it",
+        "engine": "none yet",
+        "template": null,
+        "aeProject": null,
+        "comp": null,
+        "inputs": null,
+        "output": null,
+        "status": "not applied",
+        "reusable": null,
+        "version": 0
+      },
+      "frames": 192,
+      "sha256": "1C8AB899FD324C283180274959E4EDDB9831EBBBF28E61C52EEBDA7152523EC0"
+    },
+    {
+      "id": "S02",
+      "title": "YOUR OWN PHOTOS",
+      "seconds": 7,
+      "line": "Your own photos go up to your Google Drive.",
+      "sub": [
+        {
+          "id": "S02a",
+          "status": "real",
+          "src": "source/public/S02a.mp4",
+          "what": "/studios/start heading held"
+        },
+        {
+          "id": "S02b",
+          "status": "placeholder",
+          "src": "cards/S02b.mp4",
+          "needs": "Google Drive login for the test account; drag 6–8 prop photos into a folder named Studio"
+        }
+      ],
+      "treatment": {
+        "treatment": "none",
+        "engine": "none yet",
+        "template": null,
+        "aeProject": null,
+        "comp": null,
+        "inputs": null,
+        "output": null,
+        "status": "not applied",
+        "reusable": null,
+        "version": 0
+      },
+      "frames": 168,
+      "sha256": "17258C04EBA93C1026636A4D37DF8F08ADB5EFD1213C6BAC70A3147A0B94CB84"
+    },
+    {
+      "id": "S03",
+      "title": "AGENTS SORT THE GAPS",
+      "seconds": 8,
+      "line": "Agents sort them. Services. Hours. The gaps between clients.",
+      "sub": [
+        {
+          "id": "S03a",
+          "status": "placeholder",
+          "src": "cards/S03a.mp4",
+          "needs": "same Drive folder: files moving into Services · Hours · Photos"
+        },
+        {
+          "id": "S03b",
+          "status": "visualization",
+          "src": "../01-bizbox/overlays/s03-abstract-insert_blender_1s.mp4",
+          "what": "Blender insert (BizBox version until the day-bar variant renders), labeled Visualization"
+        },
+        {
+          "id": "S03c",
+          "status": "real",
+          "src": "source/public/S03c.mp4",
+          "what": "slot grid with the 12:15–1:45 gap, slow scroll"
+        }
+      ],
+      "treatment": {
+        "treatment": "Agent 1–4 status cards, labeled Visualization",
+        "engine": "html2clip overlay (02-studios/overlays/agent-cards.html)",
+        "template": null,
+        "aeProject": null,
+        "comp": null,
+        "inputs": null,
+        "output": null,
+        "status": "not applied",
+        "reusable": null,
+        "version": 0
+      },
+      "frames": 192,
+      "sha256": "62645A79A411D8C18278262600DEE47B165CF13A6E4FD20AD311CBB1F3330758"
+    },
+    {
+      "id": "S04",
+      "title": "YOUR LUNCH STAYS",
+      "seconds": 8,
+      "line": "Your day gets built in. Your lunch stays your lunch.",
+      "sub": [
+        {
+          "id": "S04a",
+          "status": "real",
+          "src": "source/public/S04a.mp4",
+          "what": "the user tries 1:00 PM; the disabled slot does not take the click"
+        },
+        {
+          "id": "S04b",
+          "status": "fallback",
+          "src": "cards/S04b-fallback-hold.mp4",
+          "what": "sheet fallback: the refused click held 4 s",
+          "needs": "film the lunch on the side table, phone face-down (4 s)"
+        }
+      ],
+      "treatment": {
+        "treatment": "none",
+        "engine": "none yet",
+        "template": null,
+        "aeProject": null,
+        "comp": null,
+        "inputs": null,
+        "output": null,
+        "status": "not applied",
+        "reusable": null,
+        "version": 0
+      },
+      "frames": 192,
+      "sha256": "A2057E52E9CFE2A0184453C016FADBB45962DFA5404C0F731386FB1E52A6AA74"
+    },
+    {
+      "id": "S05",
+      "title": "VERIFY. PREPAY. REMINDERS.",
+      "seconds": 9,
+      "line": "A booking page. Clients verify, prepay, and get reminders.",
+      "sub": [
+        {
+          "id": "S05a",
+          "status": "real",
+          "src": "source/public/S05a.mp4",
+          "what": "booking page top, slow scroll"
+        },
+        {
+          "id": "S05b",
+          "status": "real",
+          "src": "source/public/S05b.mp4",
+          "what": "\"This is my first visit\" is on by default; the user ticks the terms box under the verify sentence"
+        },
+        {
+          "id": "S05c",
+          "status": "real",
+          "src": "source/public/S05c.mp4",
+          "what": "demo-bridal quote + \"Send my request\" — stopped on the button, never clicked"
+        }
+      ],
+      "treatment": {
+        "treatment": "none",
+        "engine": "none yet",
+        "template": null,
+        "aeProject": null,
+        "comp": null,
+        "inputs": null,
+        "output": null,
+        "status": "not applied",
+        "reusable": null,
+        "version": 0
+      },
+      "frames": 216,
+      "sha256": "1957DBDD00E1ED8845C1582DEDDEA2826021C2A68846999E5CF4BB2350EDD81D"
+    },
+    {
+      "id": "S06",
+      "title": "END RESULT",
+      "seconds": 8,
+      "line": "BizBox Studios. You get paid the morning after each session.",
+      "sub": [
+        {
+          "id": "S06a",
+          "status": "fallback",
+          "src": "source/public/S06a.mp4",
+          "what": "sheet fallback: /studios hero held",
+          "needs": "film the tidied room, morning light (4.5 s)"
+        },
+        {
+          "id": "S06b",
+          "status": "visualization",
+          "src": "cards/S06b.mp4",
+          "what": "end card \"BizBox Studios · Try it free · biz-box.io/lyfe\" over the held hero",
+          "needs": "the payout screen when /studios/dashboard exists"
+        }
+      ],
+      "treatment": {
+        "treatment": "end card",
+        "engine": "html2clip overlay (02-studios/overlays/end-card.html)",
+        "template": null,
+        "aeProject": null,
+        "comp": null,
+        "inputs": null,
+        "output": null,
+        "status": "not applied",
+        "reusable": null,
+        "version": 0
+      },
+      "frames": 192,
+      "sha256": "312EFC08B99B77F0CADAAA2F7CE45AE6D4CA3DF8E1F076E3EE559CD244101F70"
+    }
+  ]
+}

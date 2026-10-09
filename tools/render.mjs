@@ -1,4 +1,6 @@
-// Render a .otio timeline to a 1080p24 MP4 with ffmpeg. The ONLY way a cut gets rendered.
+// Render a .otio timeline to an MP4 at 24 fps with ffmpeg. The ONLY way a cut gets rendered.
+// Frame size follows the timeline's metadata.editroom {width,height}: 1920x1080 for the films,
+// 1080x1920 for the vertical explainers (2026-09-24).
 //   node tools/render.mjs projects/garage-dream/timelines/GARAGE-DREAM-V74.otio  [out.mp4]
 // Never overwrites. Writes <out>.receipt.json next to the render and copies the receipt into
 // the project's renders/RECEIPTS folder. Verifies frame count, full decode and black frames.
@@ -13,6 +15,7 @@ const [, , tlPath, outArg] = process.argv;
 if (!tlPath) { console.error('usage: node tools/render.mjs <timeline.otio> [out.mp4]'); process.exit(2); }
 const tl = readTimeline(tlPath);
 for (const w of tl.warnings) console.warn('warning:', w);
+const W = tl.width, H = tl.height;
 
 const projDir = path.resolve(path.dirname(tlPath), '..');
 const renders = path.join(projDir, 'renders');
@@ -41,7 +44,7 @@ for (const it of tl.items) {
   if (it.start + it.duration > m.n) throw new Error(`${it.name}: needs frames ${it.start}-${it.start + it.duration} but ${path.basename(it.file)} has ${m.n}`);
 }
 const TOTAL = tl.items.reduce((s, it) => s + it.duration, 0);
-console.log(`${tl.name}: ${tl.items.length} items, ${TOTAL} frames = ${(TOTAL / RATE).toFixed(3)} s, ${media.size} media files`);
+console.log(`${tl.name}: ${tl.items.length} items, ${TOTAL} frames = ${(TOTAL / RATE).toFixed(3)} s, ${media.size} media files, ${W}x${H}`);
 
 // 2. picture: one frame-exact segment per item, then concat
 const stage = fs.mkdtempSync(path.join(os.tmpdir(), 'editroom-'));
@@ -50,9 +53,9 @@ tl.items.forEach((it, i) => {
   const dest = path.join(stage, `v${String(i).padStart(3, '0')}.mp4`);
   process.stdout.write(`  ${String(i + 1).padStart(2)}/${tl.items.length}  ${it.name.slice(0, 48).padEnd(48)} ${String(it.duration).padStart(4)}f  `);
   if (it.kind === 'gap') {
-    run(['-f', 'lavfi', '-i', `color=c=black:s=1920x1080:r=${RATE}`, '-frames:v', String(it.duration), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-pix_fmt', 'yuv420p', '-video_track_timescale', '12288', dest]);
+    run(['-f', 'lavfi', '-i', `color=c=black:s=${W}x${H}:r=${RATE}`, '-frames:v', String(it.duration), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-pix_fmt', 'yuv420p', '-video_track_timescale', '12288', dest]);
   } else {
-    const vf = 'scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p';
+    const vf = `scale=${W}:${H}:flags=lanczos,setsar=1,format=yuv420p`;
     run(['-ss', String(it.start / RATE), '-i', it.file, '-map', '0:v:0', '-an', '-t', String(it.duration / RATE), '-vf', vf, '-r', String(RATE), '-fps_mode', 'cfr', '-frames:v', String(it.duration), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-video_track_timescale', '12288', dest]);
   }
   const got = nframes(dest); if (got !== it.duration) throw new Error(`segment ${i} rendered ${got} frames, need ${it.duration}`);
@@ -91,7 +94,7 @@ fs.renameSync(pending, OUT);
 
 const receipt = {
   timeline: path.relative(projDir, tlPath).replace(/\\/g, '/'), timelineSha256: sha(tlPath), name: tl.name,
-  output: OUT, outputSha256: sha(OUT), bytes: fs.statSync(OUT).size, frames: TOTAL, seconds: +(TOTAL / RATE).toFixed(6),
+  output: OUT, outputSha256: sha(OUT), bytes: fs.statSync(OUT).size, frames: TOTAL, seconds: +(TOTAL / RATE).toFixed(6), size: `${W}x${H}`,
   renderedAt: new Date().toISOString(), renderedBy: process.env.EDITROOM_AGENT || os.userInfo().username,
   warnings: tl.warnings, blackIntervals: black,
   items: tl.items.map((it, i) => ({ i, name: it.name, kind: it.kind, file: it.file ? path.basename(it.file) : null, srcFrames: it.file ? [it.start, it.start + it.duration] : null, frames: it.duration })),

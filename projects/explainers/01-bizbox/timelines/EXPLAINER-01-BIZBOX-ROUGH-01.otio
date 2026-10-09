@@ -1,0 +1,572 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "EXPLAINER-01-BIZBOX-ROUGH-01",
+  "global_start_time": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 0
+  },
+  "metadata": {
+    "editroom": {
+      "rate": 24,
+      "width": 1080,
+      "height": 1920,
+      "explainer": "01-bizbox",
+      "version": "ROUGH-01",
+      "shotSheet": "EXPLAINER-01-BIZBOX-SHOT-SHEET-2026-09-23.html (LOCKED)",
+      "voice": "namesrexx clone, eleven_v3, zero tags — not yet laid in",
+      "builtAt": "2026-09-24T16:13:06.016Z"
+    }
+  },
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "tracks",
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "V1",
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S01 THE FRICTION [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "95A3298E031DA17FEF6499CB49D2D93C3C8F137E879BD3F2909E00A8FDD4324B"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: Rexx films the overhead desk shot (S01/S06 same setup)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S02 UPLOAD [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {
+                  "sha256": "F453B22253CB71B1E2BED57CF0122B1A22891A932AA2929BAD976A5C63FCEF5F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: Google Drive login for the test account; record the drag-and-drop"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S03 AGENTS [composite]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "189A5D67059447C0B62F3FF3374BC0D319649DFE325F88C7D223A1BA235B75EA"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "Drive folder recording replaces the base card; overlay + 1 s Blender insert are final"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S04 NEXT STEP [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "BF0D13BCC77F020B0CADA336EA7B16B843074358350D57CA41ABA741C9F2E7D7"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: test account signed in to /workspace in a Playwright profile; record the scroll"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S05 CREATED / DONE [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "830B50AF687F669CD737C83B11FAA6A10A912CD3C37CDCC7DF0BCA4EF0E5AC6A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: same signed-in session; record the /workspace header hold"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S06 END RESULT [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "AF0C5E9CD04DB12536D1607017387C1953541188055D23233C67F5EC0750F185"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: Rexx films the tidied desk, laptop open on /workspace; end card Try it free · biz-box.io/lyfe"
+            }
+          }
+        ],
+        "metadata": {}
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "A1",
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S01 THE FRICTION [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "95A3298E031DA17FEF6499CB49D2D93C3C8F137E879BD3F2909E00A8FDD4324B"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: Rexx films the overhead desk shot (S01/S06 same setup)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S02 UPLOAD [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 72
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 72
+                  }
+                },
+                "metadata": {
+                  "sha256": "F453B22253CB71B1E2BED57CF0122B1A22891A932AA2929BAD976A5C63FCEF5F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: Google Drive login for the test account; record the drag-and-drop"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S03 AGENTS [composite]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "189A5D67059447C0B62F3FF3374BC0D319649DFE325F88C7D223A1BA235B75EA"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "Drive folder recording replaces the base card; overlay + 1 s Blender insert are final"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S04 NEXT STEP [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "BF0D13BCC77F020B0CADA336EA7B16B843074358350D57CA41ABA741C9F2E7D7"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: test account signed in to /workspace in a Playwright profile; record the scroll"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S05 CREATED / DONE [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "830B50AF687F669CD737C83B11FAA6A10A912CD3C37CDCC7DF0BCA4EF0E5AC6A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: same signed-in session; record the /workspace header hold"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "S06 END RESULT [placeholder]",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 96
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "S06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/01-bizbox/cards/S06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 96
+                  }
+                },
+                "metadata": {
+                  "sha256": "AF0C5E9CD04DB12536D1607017387C1953541188055D23233C67F5EC0750F185"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "PLACEHOLDER: Rexx films the tidied desk, laptop open on /workspace; end card Try it free · biz-box.io/lyfe"
+            }
+          }
+        ],
+        "metadata": {}
+      }
+    ],
+    "metadata": {}
+  }
+}

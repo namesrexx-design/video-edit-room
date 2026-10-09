@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Studios explainer: shot sheet</title>
+<style>
+:root{--ink:#1f2a2a;--muted:#5d6b68;--teal:#1f5f63;--teal-2:#e4eee5;--line:#d9d2c3;--clay:#b8654a;--sand:#f3ede2}
+*{box-sizing:border-box}body{margin:0;padding:22px 16px 60px;background:#fbf8f2;color:var(--ink);font:15px/1.45 Arial,Helvetica,sans-serif}
+h1{font-size:25px;margin:0 0 4px}h2{font-size:19px;margin:26px 0 8px;padding:8px 12px;background:var(--ink);color:#fff;border-radius:6px}
+h3{font-size:16px;margin:16px 0 6px;color:var(--teal)}p{margin:6px 0}.sub{color:var(--muted)}
+table{border-collapse:collapse;width:100%;margin:8px 0 14px;font-size:13.5px}th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+th{background:var(--teal-2);color:var(--teal);width:16%}.box{border:2px solid var(--clay);background:#fff;border-radius:8px;padding:10px 14px;margin:10px 0}
+code{background:#eee;padding:1px 4px;border-radius:3px;font-size:12.5px}.vo{background:var(--sand);padding:8px 12px;border-left:5px solid var(--teal);font-size:15px;margin:6px 0}
+.st{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;font-weight:bold}.draft{background:#fff3e0;color:#8a4b12}.real{background:var(--teal-2);color:var(--teal)}.viz{background:#eee;color:#444}
+@media print{h2{break-before:page}h2:first-of-type{break-before:auto}body{padding:0}}
+</style></head><body>
+<h1>Explainer 02 · BizBox Studios — shot by shot</h1>
+<p class="sub">2026-09-24 · DRAFT for Rexx's lock · 6 cards · 48 s (template target 45–60 s) · 9:16 1080x1920 · 24 fps · real screens first, abstract only where a human action cannot show it · voice: namesrexx clone, eleven_v3, zero tags · one voice line per card, never split; the picture cuts underneath</p>
+
+<div class="box"><b>Sources this sheet stands on</b> — nothing here is re-checked from memory.
+<table><tr><th>Fact</th><th>Where verified</th></tr>
+<tr><td>Six VO lines and on-screen words (gate-checked)</td><td><code>HANDOFF-02-STUDIOS-SCREEN-FACTS-2026-09-23.md</code>, from the storyboard pack</td></tr>
+<tr><td>Demo booking page text, services, hours, form fields, footer</td><td><code>app.biz-box.io/studio/demo-massage</code>, checked live logged-out 2026-09-23</td></tr>
+<tr><td>Lunch block 1:00–2:00 pm, 15-min buffer, slots 12:15–1:45 disabled</td><td><code>src/content/studios-demo-massage.json</code>; slot grid verified 2026-09-19</td></tr>
+<tr><td>Public routes: <code>/studios</code>, <code>/studios/start</code>, <code>/studio/demo-massage</code>, <code>/studio/demo-bridal</code></td><td><code>src/App.jsx</code></td></tr>
+<tr><td>Directing locks (same desk S01/S06, normal user behavior, Visualization label, no admin data, deliberate cursor, minimal copy)</td><td>Explainer 01 sheet, "Directing locks", Rexx 2026-09-23</td></tr></table>
+<p><b>No-fakes:</b> never record a real payment (stop on the deposit button); no fake verification screen; the demo banner "Made-up artist, example prices" may stay in frame because it is true. VO carries no numbers; the example prices on screen are not read aloud.</p></div>
+
+<div class="box"><b>Before the first recording</b>
+<table><tr><th>Needs</th><th>Who</th></tr>
+<tr><td>Nothing member-only is required for S01–S05: every screen is public. <b>S06 (dashboard/payout) needs a signed-in studio owner</b> — the bizbox PR #27 dashboard is unmerged and untested by a human; until then S06 is the filmed shot + end card only.</td><td>Rexx (decide: film S06, or wait for the dashboard)</td></tr>
+<tr><td>Filmed shots (S01a, S04b, S06a): a real treatment chair or styling chair by a window, phone on the side table. Rexx has no studio, so this is <b>an artist's room or a placeholder card</b> until one is filmed. No faces, no names, no watch.</td><td>Rexx, or a massage/makeup/hair artist he asks</td></tr>
+<tr><td>Recording tool: Playwright <code>recordVideo</code>, 1080x1920 viewport, address bar hidden, cursor visible and deliberate. Two blur passes even on public pages (any email typed in the form is a prop, still blur it).</td><td>Fable</td></tr>
+<tr><td>Voice: six lines, one call each, files <code>studios-S0N-&lt;beat&gt;.mp3</code> → <code>G:\My Drive\00_INTAKE\voice-overs\explainers\</code></td><td>Fable (connector generates; browser lane retrieves while status is 403)</td></tr></table></div>
+
+<h2>S01 · THE FRICTION · 8.0 s · screen + filmed</h2>
+<div class="vo">Somebody books. Then they don't show. You held that hour.</div>
+<table>
+<tr><th>On screen</th><td><b>They don't show</b> (caption, eye level, lands on "don't show")</td></tr>
+<tr><th>S01a · 0.0–3.5 s</th><td><span class="st real">REAL SCREEN</span> <code>/studio/demo-massage</code>, scrolled to <b>Book a time</b>. A normal user picks <b>Swedish 60</b>, a weekday date, and the <b>10:00am</b> slot; the slot highlights. Exact UI text in frame: "Book a time", "Service", "Date", "Swedish 60 · $95" (not read aloud). Cursor deliberate, one pick each, no speed-ramp.</td></tr>
+<tr><th>S01b · 3.5–8.0 s</th><td><span class="st draft">FILMED</span> Locked-off: an empty treatment chair by a window, phone face-up on the side table, nothing else moving. Hold 4.5 s. The stillness is the point. <b>Fallback</b> until filmed: hold S01a's slot grid 4.5 s longer with the 10:00am slot still highlighted and nothing happening.</td></tr>
+<tr><th>Transition</th><td>Hard cut on the slot highlight landing (a). None inside (b).</td></tr>
+<tr><th>Audio/SFX</th><td>Room tone under (b) only. One soft UI tick on the slot pick. No music yet.</td></tr>
+<tr><th>Reject if</th><td>a real name or email in the form · a face · the price read aloud · any speed-ramped cursor</td></tr>
+<tr><th>Status</th><td><span class="st draft">DRAFT</span> awaiting Rexx's lock · delivery: <code>02-studios/cards/S01.mp4</code></td></tr></table>
+
+<h2>S02 · YOUR OWN PHOTOS · 7.0 s · screen recording</h2>
+<div class="vo">Your own photos go up to your Google Drive.</div>
+<table>
+<tr><th>On screen</th><td><b>Your own photos</b></td></tr>
+<tr><th>S02a · 0.0–3.0 s</th><td><span class="st real">REAL SCREEN</span> <code>/studios/start</code> — the page reads "START YOUR INTAKE · First, an account. Then upload everything." Hold on that heading; no click past "Create my account" (member-only after this point).</td></tr>
+<tr><th>S02b · 3.0–7.0 s</th><td><span class="st real">REAL SCREEN</span> Google Drive web, a demo folder named <b>Studio</b>, empty. Drag 6–8 prop photos (a chair, a bottle, a towel — no faces) from the OS window in one motion; Drive's upload toast; thumbnails populate. Same recipe as BizBox S02.</td></tr>
+<tr><th>Transition</th><td>Cut on the drag starting (files in motion).</td></tr>
+<tr><th>Audio/SFX</th><td>One soft drop tick when thumbnails land.</td></tr>
+<tr><th>Blur</th><td>Account avatar, email, storage-quota line. Folder name "Studio" stays.</td></tr>
+<tr><th>Status</th><td><span class="st draft">DRAFT</span> · needs a Google Drive login for the test account · delivery: <code>02-studios/cards/S02.mp4</code></td></tr></table>
+
+<h2>S03 · AGENTS SORT THE GAPS · 8.0 s · screen + overlay + 1 s abstract insert</h2>
+<div class="vo">Agents sort them. Services. Hours. The gaps between clients.</div>
+<table>
+<tr><th>On screen</th><td><b>Agents sort the gaps</b></td></tr>
+<tr><th>S03a · 0.0–3.0 s</th><td><span class="st real">REAL SCREEN</span> The Drive folder <b>Studio</b>, now full. Over the shot, three sub-folders appear — <b>Services · Hours · Photos</b> — and the loose files move into them, cursor hidden, steady pace. Same technique as BizBox S03.</td></tr>
+<tr><th>Overlay (edit)</th><td>The Explainer 01 agent cards, re-labeled: <b>Agent 1 · Reading</b>, <b>Agent 2 · Services</b>, <b>Agent 3 · Hours</b>, <b>Agent 4 · Gaps</b>. Bars fill over the whole 8 s; ticks land by 7.7 s. Corner label <b>Visualization</b>. Reuses <code>01-bizbox/overlays/agent-cards.html</code> with new job words.</td></tr>
+<tr><th>S03b · 3.0–4.0 s</th><td><span class="st viz">ABSTRACT INSERT</span> 1.0 s, Blender: the BizBox insert re-colored — six cream cards slide into three folders, then a fourth shape, a <b>day bar</b> (one long sand rectangle) with two teal blocks placed on it and the space between them left open. Label <b>Visualization</b>. Reuses <code>01-bizbox/tools/s03_abstract_insert.py</code> with the folder count and the day bar added.</td></tr>
+<tr><th>S03c · 4.0–8.0 s</th><td><span class="st real">REAL SCREEN</span> <code>/studio/demo-massage</code> slot grid for one weekday: the grid shows the morning slots, then <b>12:15pm to 1:45pm greyed out</b> (the lunch block + 15-min buffer, verified), then the afternoon. Slow scroll of 120 px, nothing clicked. This is "the gaps between clients" shown by the real product.</td></tr>
+<tr><th>Transition</th><td>Cut into the insert on a file in motion; cut out of it on the day bar's second block landing.</td></tr>
+<tr><th>Audio/SFX</th><td>Soft paper slide under the insert; nothing else.</td></tr>
+<tr><th>Status</th><td><span class="st draft">DRAFT</span> · overlay + insert buildable now from the 01 assets · delivery: <code>02-studios/cards/S03.mp4</code></td></tr></table>
+
+<h2>S04 · YOUR LUNCH STAYS · 8.0 s · screen + filmed</h2>
+<div class="vo">Your day gets built in. Your lunch stays your lunch.</div>
+<table>
+<tr><th>On screen</th><td><b>Your lunch stays</b></td></tr>
+<tr><th>S04a · 0.0–4.0 s</th><td><span class="st real">REAL SCREEN</span> <code>/studio/demo-massage</code>, <b>HOURS Monday to Friday, 9am-5pm</b> in frame, then the slot grid with the 12:15–1:45 gap. A user tries to pick <b>1:00pm</b>: the slot is disabled and does not take the click. That refusal is the whole beat.</td></tr>
+<tr><th>S04b · 4.0–8.0 s</th><td><span class="st draft">FILMED</span> Same room as S01b, daylight: a lunch on the side table next to the phone (plate, fork, glass), phone face-down. Hold 4 s. <b>Fallback</b>: hold S04a on the disabled slot with the cursor resting on it.</td></tr>
+<tr><th>Transition</th><td>Cut on the refused click (nothing happens — that is the cut point).</td></tr>
+<tr><th>Audio/SFX</th><td>A dull "no" tick on the refused click; room tone under (b).</td></tr>
+<tr><th>Reject if</th><td>the slot takes the click (fixture changed — re-verify <code>lunch_block</code>) · a face · a watch</td></tr>
+<tr><th>Status</th><td><span class="st draft">DRAFT</span> · delivery: <code>02-studios/cards/S04.mp4</code></td></tr></table>
+
+<h2>S05 · VERIFY. PREPAY. REMINDERS. · 9.0 s · screen recording</h2>
+<div class="vo">A booking page. Clients verify, prepay, and get reminders.</div>
+<table>
+<tr><th>On screen</th><td><b>Verify. Prepay. Reminders.</b> — three words, each lands with its word in the VO</td></tr>
+<tr><th>S05a · 0.0–3.0 s</th><td><span class="st real">REAL SCREEN</span> <code>/studio/demo-massage</code> top: <b>Demo Massage Studio</b>, "Massage by appointment, one client at a time.", <b>Insured · Deposit holds your date</b>. Slow scroll 120 px.</td></tr>
+<tr><th>S05b · 3.0–6.0 s</th><td><span class="st real">REAL SCREEN</span> The form's <b>"This is my first visit"</b> tick being ticked, and the terms line "First-time clients verify their identity once, online." in frame. No selfie/ID screen exists publicly — the tick and the sentence are the verification beat. Nothing generated.</td></tr>
+<tr><th>S05c · 6.0–9.0 s</th><td><span class="st real">REAL SCREEN</span> <code>/studio/demo-bridal</code> (deposit 30%): scroll to the deposit line and the booking button. <b>Stop on the button. Never click it</b> — <code>/studio/:slug/pay/:id</code> is real PayPal. Reminders have no public screen: caption word only.</td></tr>
+<tr><th>Transition</th><td>Cuts on the tick landing and on the scroll stopping.</td></tr>
+<tr><th>Audio/SFX</th><td>UI tick on the checkbox. Nothing on the button.</td></tr>
+<tr><th>Reject if</th><td>the deposit button is clicked · a real email in the form · any fake verification UI</td></tr>
+<tr><th>Status</th><td><span class="st draft">DRAFT</span> · fully recordable now, logged out · delivery: <code>02-studios/cards/S05.mp4</code></td></tr></table>
+
+<h2>S06 · END RESULT · 8.0 s · filmed, held + end card</h2>
+<div class="vo">BizBox Studios. You get paid the morning after each session.</div>
+<table>
+<tr><th>On screen</th><td><b>BizBox Studios</b> · end card under it: <b>Try it free · biz-box.io/lyfe</b> (module explainer, so the end card is allowed — Rexx 2026-09-23)</td></tr>
+<tr><th>S06a · 0.0–4.5 s</th><td><span class="st draft">FILMED</span> Same room as S01b, tidied, morning light: the chair, the phone face-up on the table. Hold. <b>Fallback</b>: <code>/studios</code> offer page held still (public, real), no scroll.</td></tr>
+<tr><th>S06b · 4.5–8.0 s</th><td><span class="st real">REAL SCREEN, WHEN IT EXISTS</span> <code>/studios/dashboard</code> payout line for a signed-in studio owner. <b>Not available today</b> (PR #27 unmerged, untested). Until then: the end card alone over S06a, last 1.5 s completely still, no fade.</td></tr>
+<tr><th>Transition</th><td>None. Hold and end.</td></tr>
+<tr><th>Audio/SFX</th><td>Room tone out. No sting.</td></tr>
+<tr><th>Reject if</th><td>any payout number invented · a fake dashboard · a fade at the end</td></tr>
+<tr><th>Status</th><td><span class="st draft">DRAFT</span> · delivery: <code>02-studios/cards/S06.mp4</code></td></tr></table>
+
+<h2>Order, timing, template</h2>
+<table>
+<tr><th>Order</th><td>S01 → S02 → S03 → S04 → S05 → S06 · 8.0 + 7.0 + 8.0 + 8.0 + 9.0 + 8.0 = <b>48.0 s</b> · 1152 frames · cuts on motion · one voice line per card</td></tr>
+<tr><th>Real today</th><td>S01a, S02a, S03a/c, S04a, S05a/b/c, S06a-fallback — all public pages, logged out. S02b/S03a need a Google Drive login. S06b needs the dashboard.</td></tr>
+<tr><th>Needs Rexx</th><td>1. Lock or change this sheet. 2. The filmed room (S01b, S04b, S06a) or say "use the fallbacks". 3. Whether S06 waits for the dashboard.</td></tr>
+<tr><th>Template</th><td>This is the first sheet in the reusable format: <code>card → shots a/b/c → real screen source → exact UI text → duration → narration → transition → audio/SFX → reject if → status → delivery</code>. The other landing-page explainers (Signs &amp; Numbers, Autopilot, No Evict/Binder, Credit, LYFE Studio, Brand Launch, Merch) inherit it.</td></tr>
+<tr><th>Build</th><td><code>video-edit-room/projects/explainers/02-studios/build-timeline.mjs</code> (same as 01) → <code>render.mjs</code> at 1080x1920 → Drive <code>02-studios/renders/</code></td></tr></table>
+</body></html>

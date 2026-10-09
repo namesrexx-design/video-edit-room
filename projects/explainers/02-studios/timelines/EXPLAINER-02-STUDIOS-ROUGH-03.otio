@@ -1,0 +1,1717 @@
+{
+  "OTIO_SCHEMA": "Timeline.1",
+  "name": "EXPLAINER-02-STUDIOS-ROUGH-03",
+  "global_start_time": {
+    "OTIO_SCHEMA": "RationalTime.1",
+    "rate": 24,
+    "value": 0
+  },
+  "metadata": {
+    "editroom": {
+      "rate": 24,
+      "width": 1920,
+      "height": 1080,
+      "explainer": "02-studios",
+      "version": "ROUGH-03",
+      "beatScript": "narration/BEAT-SCRIPT-ROUGH-02-2026-09-24.json",
+      "assembledWith": "FFmpeg via video-edit-room/tools/render.mjs (NOT Remotion — not installed)",
+      "voice": "namesrexx clone, eleven_v3, zero tags — rough-cut takes (shortest clean), Rexx picks finals",
+      "builtAt": "2026-09-24T22:41:34.673Z"
+    }
+  },
+  "tracks": {
+    "OTIO_SCHEMA": "Stack.1",
+    "name": "tracks",
+    "children": [
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "V1",
+        "kind": "Video",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B01 [real] Somebody books. Then they don't show.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 79
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 79
+                  }
+                },
+                "metadata": {
+                  "sha256": "8DEC8D1A2CCAE7A61F6C5C1E90749D12FB84C8A1BDE2021888CFE908B65983A0"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_pick.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B02 [real] You held that hour.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 43
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 43
+                  }
+                },
+                "metadata": {
+                  "sha256": "4BD03D8C0B04E2BB57CD75B0B387B5D7F9DF8024D56570DA104E2D3B3D904B64"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_pick.mp4 @2.4s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B03 [visualization] I run a studio. I need booking, deposits",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 180
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 180
+                  }
+                },
+                "metadata": {
+                  "sha256": "82E19A780BAD312F68F42EDA9C77F3555873404273CEDE59C4E9550657F63C2C"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @0s + b03-request-viz_alpha.mov · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B04 [real] Here's what BizBox built.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 56
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 56
+                  }
+                },
+                "metadata": {
+                  "sha256": "6BADF54ECF62DDB193ADAB622910B36BA178E40DD004B5AD0A4619D951415E12"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_hero.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B05 [real] We built the booking system.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 54
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 54
+                  }
+                },
+                "metadata": {
+                  "sha256": "BCB4EE8FDDFBAB252E0043F03636E588E0458258659EC7CF2030183257AABE15"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_hero.mp4 @2s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B06 [real] Set the hours.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 32
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 32
+                  }
+                },
+                "metadata": {
+                  "sha256": "20FB9081E9999D0E0A53C9C7C79CBBA90B3D6B8F4A71EC1785528865D94CE7DB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_hours.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B07 [real] Blocked lunch.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 35
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B07.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B07.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 35
+                  }
+                },
+                "metadata": {
+                  "sha256": "E07AA73ECC3FC8C5DAF33A3855582942C57D9404C5022521456F6A0B975C4325"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_lunch.mp4 @0.6s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B08 [real] Added deposits and intake.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 65
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B08.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B08.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 65
+                  }
+                },
+                "metadata": {
+                  "sha256": "138AF7035CD4847F9E3677802F77E32DC5DE2FD4030C1A3FD8A86DF12C2BC5FB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_deposit.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B09 [real] Clients verify once... and get reminders",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B09.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B09.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "2580BA155CA2380ADF1C0EDADFE9C15E38A8E09EAB124E424D8B9CB74D02042F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_verify.mp4 @0.4s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B10 [placeholder] Then connected everything into one works",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 100
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B10.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B10.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 100
+                  }
+                },
+                "metadata": {
+                  "sha256": "16C1962EB04B1A9A0196BFD2EBE67EE0AB50B64F11112775BB4561BB9A176911"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "cards/B10-workspace-placeholder.mp4 · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B11 [real] This is what we built for this business.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 73
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B11.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B11.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 73
+                  }
+                },
+                "metadata": {
+                  "sha256": "B522DF0AD209CC08B500D7F03ACFA2463FE235298C41D38CA828DB4815E77BA2"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_six.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B12 [real] You can build yours the same way.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 70
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B12.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B12.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 70
+                  }
+                },
+                "metadata": {
+                  "sha256": "6101EA19400C516E0C4814EE0538DFD51615484349FCB2D43AE5ACF54BDEF7B6"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_three.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B13 [real] Your business won't need the exact same ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 76
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B13.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B13.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 76
+                  }
+                },
+                "metadata": {
+                  "sha256": "8969AA977CA76EBF0DFBE06BE9E2394B531004BF98380ADD400D3D03B2A6BB9B"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_trades.mp4 @0.5s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B14 [real] That's the point.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 44
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B14.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B14.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 44
+                  }
+                },
+                "metadata": {
+                  "sha256": "C8A85B3A72EE16885EB8192F98F822B949D7D8F1ACE7C265EB4219ADFE94D99A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_pickhow.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B15 [real] Tell BizBox what you're building.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 55
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B15.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B15.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 55
+                  }
+                },
+                "metadata": {
+                  "sha256": "301300DF2DC1EDC6BCFDFF98509C0135B3CDB56F92C293A09F4ED60E1B81982E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_start.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B16 [real] It helps you build the system around it.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 77
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B16.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B16.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 77
+                  }
+                },
+                "metadata": {
+                  "sha256": "52C3E875AFC5A2F6B0D9548116DACDB34C3ECAB278FA24F168DCF56F56C1B89A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_intake.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B17 [real] Start with your business.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 49
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B17.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B17.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 49
+                  }
+                },
+                "metadata": {
+                  "sha256": "4A8C28C668525FC4373E70BDEBC31AA5E932A0A667C52B3168E601B78DAC37D9"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B18 [real + end card] Build only what you need.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 53
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B18.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B18.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 53
+                  }
+                },
+                "metadata": {
+                  "sha256": "0D50E67A243E23E255C1CE1F3AD4C84C18DB2723BF695757EBC8030D6A3F877F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @2s + end-card-wide_alpha.mov · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B19 [end card hold] (silent)",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B19.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B19.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {
+                  "sha256": "A4DDA56FF0180B64469D6AFBDE5105FFC15DEB374E3C77D146D3836252D5FC53"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @4.2s + end-card-wide_alpha.mov · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          }
+        ],
+        "metadata": {}
+      },
+      {
+        "OTIO_SCHEMA": "Track.1",
+        "name": "A1",
+        "kind": "Audio",
+        "children": [
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B01 [real] Somebody books. Then they don't show.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 79
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B01.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B01.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 79
+                  }
+                },
+                "metadata": {
+                  "sha256": "8DEC8D1A2CCAE7A61F6C5C1E90749D12FB84C8A1BDE2021888CFE908B65983A0"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_pick.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B02 [real] You held that hour.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 43
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B02.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B02.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 43
+                  }
+                },
+                "metadata": {
+                  "sha256": "4BD03D8C0B04E2BB57CD75B0B387B5D7F9DF8024D56570DA104E2D3B3D904B64"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_pick.mp4 @2.4s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B03 [visualization] I run a studio. I need booking, deposits",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 180
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B03.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B03.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 180
+                  }
+                },
+                "metadata": {
+                  "sha256": "82E19A780BAD312F68F42EDA9C77F3555873404273CEDE59C4E9550657F63C2C"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @0s + b03-request-viz_alpha.mov · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B04 [real] Here's what BizBox built.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 56
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B04.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B04.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 56
+                  }
+                },
+                "metadata": {
+                  "sha256": "6BADF54ECF62DDB193ADAB622910B36BA178E40DD004B5AD0A4619D951415E12"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_hero.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B05 [real] We built the booking system.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 54
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B05.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B05.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 54
+                  }
+                },
+                "metadata": {
+                  "sha256": "BCB4EE8FDDFBAB252E0043F03636E588E0458258659EC7CF2030183257AABE15"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_hero.mp4 @2s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B06 [real] Set the hours.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 32
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B06.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B06.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 32
+                  }
+                },
+                "metadata": {
+                  "sha256": "20FB9081E9999D0E0A53C9C7C79CBBA90B3D6B8F4A71EC1785528865D94CE7DB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_hours.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B07 [real] Blocked lunch.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 35
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B07.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B07.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 35
+                  }
+                },
+                "metadata": {
+                  "sha256": "E07AA73ECC3FC8C5DAF33A3855582942C57D9404C5022521456F6A0B975C4325"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_lunch.mp4 @0.6s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B08 [real] Added deposits and intake.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 65
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B08.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B08.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 65
+                  }
+                },
+                "metadata": {
+                  "sha256": "138AF7035CD4847F9E3677802F77E32DC5DE2FD4030C1A3FD8A86DF12C2BC5FB"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_deposit.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B09 [real] Clients verify once... and get reminders",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 84
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B09.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B09.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 84
+                  }
+                },
+                "metadata": {
+                  "sha256": "2580BA155CA2380ADF1C0EDADFE9C15E38A8E09EAB124E424D8B9CB74D02042F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_verify.mp4 @0.4s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B10 [placeholder] Then connected everything into one works",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 100
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B10.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B10.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 100
+                  }
+                },
+                "metadata": {
+                  "sha256": "16C1962EB04B1A9A0196BFD2EBE67EE0AB50B64F11112775BB4561BB9A176911"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "cards/B10-workspace-placeholder.mp4 · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B11 [real] This is what we built for this business.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 73
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B11.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B11.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 73
+                  }
+                },
+                "metadata": {
+                  "sha256": "B522DF0AD209CC08B500D7F03ACFA2463FE235298C41D38CA828DB4815E77BA2"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_six.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B12 [real] You can build yours the same way.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 70
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B12.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B12.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 70
+                  }
+                },
+                "metadata": {
+                  "sha256": "6101EA19400C516E0C4814EE0538DFD51615484349FCB2D43AE5ACF54BDEF7B6"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_three.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B13 [real] Your business won't need the exact same ",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 76
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B13.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B13.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 76
+                  }
+                },
+                "metadata": {
+                  "sha256": "8969AA977CA76EBF0DFBE06BE9E2394B531004BF98380ADD400D3D03B2A6BB9B"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_trades.mp4 @0.5s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B14 [real] That's the point.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 44
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B14.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B14.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 44
+                  }
+                },
+                "metadata": {
+                  "sha256": "C8A85B3A72EE16885EB8192F98F822B949D7D8F1ACE7C265EB4219ADFE94D99A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_pickhow.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B15 [real] Tell BizBox what you're building.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 55
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B15.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B15.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 55
+                  }
+                },
+                "metadata": {
+                  "sha256": "301300DF2DC1EDC6BCFDFF98509C0135B3CDB56F92C293A09F4ED60E1B81982E"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_start.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B16 [real] It helps you build the system around it.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 77
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B16.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B16.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 77
+                  }
+                },
+                "metadata": {
+                  "sha256": "52C3E875AFC5A2F6B0D9548116DACDB34C3ECAB278FA24F168DCF56F56C1B89A"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_intake.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B17 [real] Start with your business.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 49
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B17.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B17.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 49
+                  }
+                },
+                "metadata": {
+                  "sha256": "4A8C28C668525FC4373E70BDEBC31AA5E932A0A667C52B3168E601B78DAC37D9"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @0s · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B18 [real + end card] Build only what you need.",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 53
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B18.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B18.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 53
+                  }
+                },
+                "metadata": {
+                  "sha256": "0D50E67A243E23E255C1CE1F3AD4C84C18DB2723BF695757EBC8030D6A3F877F"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @2s + end-card-wide_alpha.mov · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          },
+          {
+            "OTIO_SCHEMA": "Clip.2",
+            "name": "B19 [end card hold] (silent)",
+            "source_range": {
+              "OTIO_SCHEMA": "TimeRange.1",
+              "start_time": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 0
+              },
+              "duration": {
+                "OTIO_SCHEMA": "RationalTime.1",
+                "rate": 24,
+                "value": 60
+              }
+            },
+            "media_references": {
+              "DEFAULT_MEDIA": {
+                "OTIO_SCHEMA": "ExternalReference.1",
+                "name": "B19.mp4",
+                "target_url": "file:///G:/My Drive/00_PROJECTS/EXPLAINERS/02-studios/cards16-read/B19.mp4",
+                "available_range": {
+                  "OTIO_SCHEMA": "TimeRange.1",
+                  "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 0
+                  },
+                  "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 24,
+                    "value": 60
+                  }
+                },
+                "metadata": {
+                  "sha256": "A4DDA56FF0180B64469D6AFBDE5105FFC15DEB374E3C77D146D3836252D5FC53"
+                }
+              }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA",
+            "metadata": {
+              "note": "source/wide/W_studios.mp4 @4.2s + end-card-wide_alpha.mov · take READ-A-zero-tags-take2_blob.mp3 (0s)"
+            }
+          }
+        ],
+        "metadata": {}
+      }
+    ],
+    "metadata": {}
+  }
+}
