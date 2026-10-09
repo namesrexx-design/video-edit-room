@@ -1,0 +1,28 @@
+{
+  "voice_name": "namesrexx",
+  "voice_id": "omTQvsWgoQBrcTuWdttm",
+  "model": "eleven_v3",
+  "emotion_tag": "[nonchalant]",
+  "script": "Yeah, let me have it, it can't be that bad.",
+  "voice_generation": "YFqW5hoGJn4A03YtVJys",
+  "full_voice_start": 47.24,
+  "full_voice_end": 50.04,
+  "voice_internal_cuts": 0,
+  "tempo_change": false,
+  "horn_generation": "k3kvRBS7uY3vshh4ixEi",
+  "horn_model": "eleven_text_to_sound_v2",
+  "full_horn_start": 94.49,
+  "full_horn_end": 94.97,
+  "horn_stem_peak_dbfs": -9,
+  "full_frames": 3334,
+  "full_seconds": 138.91666666666666,
+  "full_peak_dbfs": -2.11431884765625,
+  "checks": {
+    "all_audio_outside_two_requested_windows_unchanged": true,
+    "apu_greeting_unchanged": true,
+    "approved_garage_take_unchanged": true,
+    "ending_laugh_unchanged": true
+  },
+  "source_v3_audio_sha256": "554cd405c91a413cdc1c57345fa15f2407361a2d122a7bcb48b7de1250822cf2",
+  "full_audio_sha256": "51b680ae7dab4a616661bb14c3afb76c6d6e47c4c0d5d66af5741a47f973e2a7"
+}

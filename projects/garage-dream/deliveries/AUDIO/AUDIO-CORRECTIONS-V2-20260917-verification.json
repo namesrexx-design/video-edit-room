@@ -1,0 +1,169 @@
+{
+  "filename": "GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+  "sha256": "BF931CE756E1DE0D0617FABBA864758EFC2339BBCDF707DC85F358D83D1A483D",
+  "bytes": 70820597,
+  "duration": "127.916667",
+  "streams": [
+    {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "nb_frames": "3070",
+      "duration": "127.916667",
+      "sample_rate": null,
+      "channels": null
+    },
+    {
+      "codec_type": "audio",
+      "codec_name": "aac",
+      "width": null,
+      "height": null,
+      "nb_frames": "5998",
+      "duration": "127.916000",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  ],
+  "measured_audio": {
+    "input_i": "-18.48",
+    "input_tp": "-2.11",
+    "input_lra": "6.20",
+    "input_thresh": "-29.15"
+  },
+  "audio_timing_proof": {
+    "first_wake_line_source_start": 78.125,
+    "first_wake_line_new_start": 77.0,
+    "first_wake_line_shift_seconds": -1.125,
+    "first_line_waveform_correlation": 0.9999909400939941,
+    "beach_sentence_unchanged_correlation": 0.9999921917915344,
+    "snore_and_dream_unchanged_correlation": 0.9999553561210632,
+    "closing_whisper_unchanged_correlation": 0.9999735355377197,
+    "recorded_Bugatti_source": "AUD018.mp3, three distinct utterances",
+    "whisper_block_starts_seconds": [
+      58.583333333333336,
+      60.75,
+      62.5
+    ],
+    "extra_Bart_laugh_start": 84.08333333333333,
+    "extra_Bart_laugh_end": 84.66666666666667
+  },
+  "visual_review": "Inspected original approved picture in frame sequences for sleep58\u201364s, wake76.8\u201379.4s and Bart82.7\u201384.6s. No picture changes, crop or new generation. Owner confirmed beach sync; that audio timing is preserved.",
+  "renderer_receipt": {
+    "cut": "GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.json",
+    "cutSha256": "24A8316E7916A5F416E61542AADC305D5FF28EADF7B2553F0F3810A578A3BD1A",
+    "savedAt": "2026-09-17T15:59:07.384Z",
+    "output": "/home/user/audio-corrections-v2/projects/garage-dream/renders/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+    "outputSha256": "BF931CE756E1DE0D0617FABBA864758EFC2339BBCDF707DC85F358D83D1A483D",
+    "bytes": 70820597,
+    "frames": 3070,
+    "seconds": 127.916667,
+    "renderedAt": "2026-09-17T16:01:22.105Z",
+    "blackIntervals": [],
+    "v1": [
+      {
+        "u": "approved-review",
+        "id": "approved-review",
+        "scene": "FILM",
+        "folder": "repo-deliveries",
+        "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+        "start": 0,
+        "end": 3070,
+        "mute": true
+      }
+    ],
+    "v2": [],
+    "a2": [
+      {
+        "id": "approved-start",
+        "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+        "folder": "repo-deliveries",
+        "start": 0,
+        "end": 1391,
+        "at": 0,
+        "gain": 0,
+        "link": "approved-review"
+      },
+      {
+        "id": "clean-Rexx-sleep-dialogue",
+        "file": "AUDIO/S10-T2.mp3",
+        "folder": "repo-deliveries",
+        "start": 281,
+        "end": 421,
+        "at": 1391,
+        "gain": 2,
+        "link": "approved-review"
+      },
+      {
+        "id": "Bugatti-whisper-1",
+        "file": "AUDIO/AUD018.mp3",
+        "folder": "repo-deliveries",
+        "start": 1,
+        "end": 22,
+        "at": 1406,
+        "gain": 4,
+        "link": "approved-review"
+      },
+      {
+        "id": "Bugatti-whisper-2",
+        "file": "AUDIO/AUD018.mp3",
+        "folder": "repo-deliveries",
+        "start": 24,
+        "end": 42,
+        "at": 1458,
+        "gain": 4,
+        "link": "approved-review"
+      },
+      {
+        "id": "Bugatti-whisper-3",
+        "file": "AUDIO/AUD018.mp3",
+        "folder": "repo-deliveries",
+        "start": 45,
+        "end": 64,
+        "at": 1500,
+        "gain": 4,
+        "link": "approved-review"
+      },
+      {
+        "id": "snore-dream-through-Doh",
+        "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+        "folder": "repo-deliveries",
+        "start": 1536,
+        "end": 1848,
+        "at": 1536,
+        "gain": 0,
+        "link": "approved-review"
+      },
+      {
+        "id": "wake-first-line-at77",
+        "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+        "folder": "repo-deliveries",
+        "start": 1875,
+        "end": 1903,
+        "at": 1848,
+        "gain": 0,
+        "link": "approved-review"
+      },
+      {
+        "id": "beach-and-rest-original-timing",
+        "file": "FILM/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+        "folder": "repo-deliveries",
+        "start": 1903,
+        "end": 3070,
+        "at": 1903,
+        "gain": 0,
+        "link": "approved-review"
+      },
+      {
+        "id": "Bart-extra-exit-laugh",
+        "file": "AUDIO/AUD014.mp3",
+        "folder": "repo-deliveries",
+        "start": 49,
+        "end": 63,
+        "at": 2018,
+        "gain": 7,
+        "link": "approved-review"
+      }
+    ]
+  }
+}

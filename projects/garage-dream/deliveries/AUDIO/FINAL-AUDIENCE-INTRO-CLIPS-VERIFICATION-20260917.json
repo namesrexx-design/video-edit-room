@@ -1,0 +1,58 @@
+{
+  "final_loudness": {
+    "integrated_lufs": -18.56,
+    "true_peak_dbtp": -2.11,
+    "lra": 5.7
+  },
+  "files": [
+    {
+      "blackIntervals": [],
+      "bytes": 22196836,
+      "download_sha_verified": true,
+      "file": "CLIP-01-BUGATTI-DREAM-20260917.mp4",
+      "frames": 850,
+      "seconds": 35.416667,
+      "sha256": "BB41A3CBB6B5F37A50CA5C32B16B6364A647FEF198A2CF843B3FAD093008BDA1"
+    },
+    {
+      "blackIntervals": [],
+      "bytes": 18011913,
+      "download_sha_verified": true,
+      "file": "CLIP-02-THE-CALL-20260917.mp4",
+      "frames": 743,
+      "seconds": 30.958333,
+      "sha256": "1ABE18D8CD73BA0A03FADDAB413E38C934BD8B318362DAFC7C6E0BCA046B2A69"
+    },
+    {
+      "blackIntervals": [],
+      "bytes": 6570829,
+      "download_sha_verified": true,
+      "file": "CLIP-03-BART-MEETS-APU-20260917.mp4",
+      "frames": 324,
+      "seconds": 13.5,
+      "sha256": "BA7338D748F3FAF21E1A771A5C3E0BC0E8FA425C2923000CAD70DFA1B319E14E"
+    },
+    {
+      "blackIntervals": [],
+      "bytes": 22315664,
+      "download_sha_verified": true,
+      "file": "CLIP-04-APU-CAR-AND-PAYOFF-20260917.mp4",
+      "frames": 947,
+      "seconds": 39.458333,
+      "sha256": "9C5AEC8C70E3B767A973FBBB34250201EE3AD6C8030AFB39DAF1AFD37F361075"
+    },
+    {
+      "blackIntervals": [
+        "black_start:0 black_end:0.166667 black_duration:0.166667",
+        "black_start:9.875 black_end:10 black_duration:0.125"
+      ],
+      "bytes": 126373197,
+      "download_sha_verified": true,
+      "file": "GARAGE-DREAM-FINAL-AUDIENCE-INTRO-20260917.mp4",
+      "frames": 3310,
+      "seconds": 137.916667,
+      "sha256": "D4FEA039B11C8CB3B86341C03118A18F5D0DC74B90AE35C60BFDD826A4A1F9A4"
+    }
+  ],
+  "review_limitations": "Canonical full decodes and download hashes passed. Black intervals confined to existing intro fades. Technical/ASR/sampled visual review; no claim of continuous listening or perfect phoneme sync."
+}

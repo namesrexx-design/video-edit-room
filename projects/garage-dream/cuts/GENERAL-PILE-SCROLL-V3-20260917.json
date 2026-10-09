@@ -1,0 +1,36 @@
+{
+  "format": 2,
+  "name": "GENERAL-PILE-SCROLL-V3-20260917",
+  "savedAt": "2026-09-17T00:00:00Z",
+  "output": {
+    "width": 1080,
+    "height": 1920
+  },
+  "note": "General reusable content template, centered portrait, no title/name labels. One complete namesrexx eleven_v3 take.",
+  "v1": [
+    {
+      "id": "general-pile",
+      "u": "general-pile",
+      "scene": "GENERAL",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/GENERAL-PILE-PICTURE.mp4",
+      "start": 0,
+      "end": 626,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "general-pile-audio",
+      "u": "general-pile-audio",
+      "link": "general-pile",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/GENERAL-PILE-VOICE.wav",
+      "start": 0,
+      "end": 626,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

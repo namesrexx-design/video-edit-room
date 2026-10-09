@@ -1,0 +1,29 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-FINAL-AUDIO-V6-20260917",
+  "savedAt": "2026-09-17T19:27:00.783Z",
+  "note": "No nature on stairs; light birds/nature from full98s through end without late level drop. Approved V5 picture and all other cues preserved.",
+  "v1": [
+    {
+      "id": "approved-v5",
+      "u": "approved-v5",
+      "folder": "repo-deliveries",
+      "file": "FILM/PRIOR-FULL.mp4",
+      "start": 0,
+      "end": 3334,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "audio-v6",
+      "folder": "repo-deliveries",
+      "file": "AUDIO/GARAGE-DREAM-FULL-AUDIO-V6.wav",
+      "start": 0,
+      "end": 3334,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

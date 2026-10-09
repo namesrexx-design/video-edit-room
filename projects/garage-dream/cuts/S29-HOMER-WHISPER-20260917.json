@@ -1,0 +1,44 @@
+{
+  "format": 2,
+  "name": "S29-HOMER-WHISPER-20260917",
+  "savedAt": "2026-09-17T14:57:53.991Z",
+  "v1": [
+    {
+      "u": "s29-approved",
+      "id": "s29-approved",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "u": "s29-approved",
+      "id": "s29-approved-sound",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true,
+      "at": 0,
+      "gain": 0,
+      "link": "s29-approved"
+    },
+    {
+      "id": "homer-whisper",
+      "file": "S29/HOMER-whisper-did-I-convert-to-Hindu-RAW.mp3",
+      "folder": "repo-deliveries",
+      "start": 4,
+      "end": 46,
+      "at": 78,
+      "gain": -10,
+      "link": "s29-approved"
+    }
+  ],
+  "note": "Owner approved picture. Whisper source 4..46 frames at scene frame 78, -10 dB under retained dialogue. Full frame. No new visual generation."
+}

@@ -1,0 +1,58 @@
+{
+  "flowId": "bHrxMVuqd1kxirqZqN3a",
+  "nodeId": "c1KElaF7hRyYZVnxQOMG",
+  "model": "eleven_v3",
+  "voice": {
+    "name": "namesrexx",
+    "id": "omTQvsWgoQBrcTuWdttm"
+  },
+  "prompt": "[curious] Have you ever met someone who says, I'm going to sell all this? [nonchalant] First, the pile takes over the garage. Then the spare bedroom. Then the kitchen. Then you're moving boxes just to sit on the couch. [amused] Next thing you know, there's a motorcycle on the dining room table. They ask you to help clear it out. But everything you touch... [insisting] Not that. That's worth money. [dryly] Meanwhile, you're eating dinner standing up. [warmly] Here's where you start. One item. List it, sell it, or let it go. Then do the next one. You don't have to clear the whole house today. Start by getting your dinner table back. [curious] Have you met someone like this? What's the most ridiculous thing they've kept?",
+  "generations": [
+    {
+      "id": "HgXToqQ5RtRFhDj5xWOR",
+      "status": "completed",
+      "duration": 48.56,
+      "price": {
+        "credits": 726.9273,
+        "price_cents": 13.216859999999999,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "VQRklBqQqaStnQH5Q43p",
+      "status": "completed",
+      "duration": 36.08,
+      "price": {
+        "credits": 726.9273,
+        "price_cents": 13.216859999999999,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "AhkkGwUkKgEvhC9uvrxv",
+      "status": "completed",
+      "duration": 49.2,
+      "price": {
+        "credits": 726.9273,
+        "price_cents": 13.216859999999999,
+        "cost_fiat_currency": "usd"
+      }
+    },
+    {
+      "id": "tRf6oY3YR6Q4WplY8JBB",
+      "status": "completed",
+      "duration": 36.72,
+      "price": {
+        "credits": 726.9273,
+        "price_cents": 13.216859999999999,
+        "cost_fiat_currency": "usd"
+      }
+    }
+  ],
+  "selected": {
+    "id": "VQRklBqQqaStnQH5Q43p",
+    "take": 2,
+    "approvedBy": "owner",
+    "ownerMessage": "voice 2 is the one"
+  }
+}

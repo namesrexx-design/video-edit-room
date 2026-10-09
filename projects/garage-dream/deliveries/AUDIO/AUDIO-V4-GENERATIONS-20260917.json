@@ -1,0 +1,41 @@
+{
+  "flow_id": "7KtNF4LVK6fs5dW7SOy5",
+  "voice": "namesrexx",
+  "voice_id": "omTQvsWgoQBrcTuWdttm",
+  "model": "eleven_v3",
+  "prompt": "[nonchalant] Yeah, let me have it, it can't be that bad.",
+  "selected_take": 4,
+  "selected_generation": "YFqW5hoGJn4A03YtVJys",
+  "selection_reason": "Complete natural-speed 2.8s performance fits original scene; owner subsequently said all sound good.",
+  "takes": [
+    {
+      "id": "EncB7VwR2EaKvGQQu7Es",
+      "duration": 2.16,
+      "status": "completed"
+    },
+    {
+      "id": "cs4heyV7V5OKhdpwzALx",
+      "duration": 2.08,
+      "status": "completed"
+    },
+    {
+      "id": "qr16SFM0gft38IqC42Hp",
+      "duration": 2.4,
+      "status": "completed"
+    },
+    {
+      "id": "YFqW5hoGJn4A03YtVJys",
+      "duration": 2.8,
+      "status": "completed"
+    }
+  ],
+  "horn": {
+    "model": "eleven_text_to_sound_v2",
+    "selected_generation": "k3kvRBS7uY3vshh4ixEi",
+    "prompt": "One short, clear, realistic car horn honk from a parked passenger car nearby. A bright classic dual-tone electric horn, friendly attention-getting beep. Immediate onset, brief sustained honk, natural quick release. Clean isolated sound, no speech, no engine, no traffic, no music, no echo.",
+    "duration": 0.48,
+    "full_start": 94.49,
+    "full_end": 94.97
+  },
+  "checks": "Full V3 soundtrack retained outside Rexx replacement and added horn windows; user reviewed generated voice candidates. No human listening certification inferred from ASR or meters."
+}

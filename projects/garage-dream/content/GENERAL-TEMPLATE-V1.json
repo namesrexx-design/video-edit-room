@@ -1,0 +1,109 @@
+{
+  "version": 2,
+  "projectDisplayTitle": "Dream Garage",
+  "publicBrandText": [],
+  "templateId": "centered-photo-general-v1",
+  "background": "references/CENTERED-PHOTO-TEMPLATE.png",
+  "voice": {
+    "name": "namesrexx",
+    "id": "omTQvsWgoQBrcTuWdttm",
+    "model": "eleven_v3",
+    "selectedTake": 2,
+    "selectedGenerationId": "VQRklBqQqaStnQH5Q43p",
+    "selectionStatus": "owner_approved_current_script_take_2",
+    "previousApprovedGenerationId": "gp3gbfNg14ZTFU0hPfL0"
+  },
+  "angles": [
+    {
+      "id": "01",
+      "slug": "THE-GROWING-PILE",
+      "hook": "Have you ever met someone who says, “I’m going to sell all this”?",
+      "cards": [
+        "Have you ever met someone who says, “I’m going to sell all this”?",
+        "First, you lose the garage. Then the spare bedroom.",
+        "Then the kitchen. Now you’re moving boxes just to sit on the couch.",
+        "Next thing you know… there’s a motorcycle on the dining room table.",
+        "You try to help. “Not that. That’s worth money.” Now you’re eating dinner standing up.",
+        "Start with one item. List it, sell it, or let it go. Get your dinner table back.",
+        "Have you met someone like this? What’s the most ridiculous thing they’ve kept?"
+      ],
+      "cta": "Share with someone who knows the story.",
+      "prompt": "[curious] Have you ever met someone who says, I'm going to sell all this? [nonchalant] First, the pile takes over the garage. Then the spare bedroom. Then the kitchen. Then you're moving boxes just to sit on the couch. [amused] Next thing you know, there's a motorcycle on the dining room table. They ask you to help clear it out. But everything you touch... [insisting] Not that. That's worth money. [dryly] Meanwhile, you're eating dinner standing up. [warmly] Here's where you start. One item. List it, sell it, or let it go. Then do the next one. You don't have to clear the whole house today. Start by getting your dinner table back. [curious] Have you met someone like this? What's the most ridiculous thing they've kept?",
+      "segments": [
+        "Have you ever met someone who says, “I’m going to sell all this”?",
+        "First, the pile takes over the garage.",
+        "Then the spare bedroom. Then the kitchen.",
+        "Then you’re moving boxes just to sit on the couch.",
+        "Next thing you know, there’s a motorcycle on the dining room table.",
+        "They ask you to help clear it out. But everything you touch…",
+        "“Not that. That’s worth money.”",
+        "Meanwhile, you’re eating dinner standing up.",
+        "Here’s where you start. One item.",
+        "List it, sell it, or let it go. Then do the next one.",
+        "You don’t have to clear the whole house today.",
+        "Start by getting your dinner table back.",
+        "Have you met someone like this?",
+        "What’s the most ridiculous thing they’ve kept?"
+      ],
+      "caption": "First the garage. Then the spare bedroom. Then the kitchen. Now there’s a motorcycle on the dining room table—and you’re eating dinner standing up. 😅\n\nStart with one item. List it, sell it, or let it go. Get your dinner table back.\n\nHave you met someone like this? What’s the most ridiculous thing they’ve kept? Share this with someone who’ll recognize the story.",
+      "textPost": "Have you ever met someone who says, “I’m going to sell all this”?\n\nFirst, the pile takes over the garage.\n\nThen the spare bedroom. Then the kitchen.\n\nThen you’re moving boxes just to sit on the couch.\n\nNext thing you know, there’s a motorcycle on the dining room table.\n\nThey ask you to help clear it out. But everything you touch…\n\n“Not that. That’s worth money.”\n\nMeanwhile, you’re eating dinner standing up.\n\nHere’s where you start. One item.\n\nList it, sell it, or let it go. Then do the next one.\n\nYou don’t have to clear the whole house today.\n\nStart by getting your dinner table back.\n\nHave you met someone like this?\n\nWhat’s the most ridiculous thing they’ve kept?",
+      "cardsRenderStatus": "rendered_seven_card_carousel_ready_for_review"
+    },
+    {
+      "id": "02",
+      "slug": "THE-EARLY-CELEBRATION",
+      "hook": "Already picked the yacht. Hasn’t lifted a finger.",
+      "cards": [
+        "Already picked the yacht. Hasn’t lifted a finger.",
+        "They hear “good idea” and start planning their retirement.",
+        "The celebration has a date. The first step doesn’t.",
+        "You’re talking about getting started. They’re dividing up the millions.",
+        "Dream big. Then do one small thing today."
+      ],
+      "cta": "Tag your big-picture friend. Share with their reality check.",
+      "prompt": "[amused] Already picked the yacht. Hasn't lifted a finger. [nonchalant] You know the person. They hear good idea and start planning their retirement. The celebration has a date. The first step doesn't. [warmly] Dream big. Then do one small thing today. Tag your big-picture friend, and share this with the one who keeps them grounded.",
+      "caption": "The yacht has a name. The first task hasn’t been started. 😂\n\nWe all know someone who skips straight to the victory speech. Dream big—but give the dream a first step.\n\nTag your big-picture friend, and share this with the one who keeps them grounded.",
+      "textPost": "The idea: five minutes old.\nThe celebration: fully planned.\nThe work: hasn’t started. 😂\n\nKnow someone who jumps straight to the best-case scenario before lifting a finger? Tag your big-picture friend and share this with their reality-check person."
+    }
+  ],
+  "rules": {
+    "visibleNamesAndEpisodeTitles": false,
+    "defaultStyle": "centered larger owner photo, deep teal, cream bold native text, yellow accent, no header branding",
+    "copy": "General relatable behavior, understandable without watching the film. Vary the habit and exaggeration. Do not use the film's characters or scene-specific jokes.",
+    "clutterTone": "Friendly offer to help. Describe visible habits without labeling or diagnosing a person.",
+    "formats": [
+      "scrolling_text_voiceover",
+      "text_carousel",
+      "photo_text_post",
+      "text_post"
+    ],
+    "reviewStatus": "video_owner_approved_supporting_posts_ready_for_review",
+    "contentFocus": "Recognizable characteristics, traits, habits, issues and problems; each post should trigger recognition without requiring knowledge of the film.",
+    "storyStructure": [
+      "recognition",
+      "escalation",
+      "absurd_payoff",
+      "practical_resolution",
+      "audience_question"
+    ],
+    "opening": "Have you ever met someone…",
+    "prohibitedFraming": [
+      "worked with",
+      "problematic client"
+    ],
+    "referenceDelivery": "PILE-ESCALATION-FINAL-20260917.mp4"
+  },
+  "finalDelivery": {
+    "file": "PILE-ESCALATION-FINAL-20260917.mp4",
+    "frames": 895,
+    "seconds": 37.291667,
+    "sha256": "98447D5A40CFA0268D9D88A52A3781D77F262809F217D834E02046AC48679DC6",
+    "publishingStatus": "not_published",
+    "nextTask": "Matching carousel, photo/text post and standalone text post using this final script",
+    "ownerApproval": {
+      "message": "perfecto!",
+      "status": "approved",
+      "date": "2026-09-17"
+    }
+  }
+}

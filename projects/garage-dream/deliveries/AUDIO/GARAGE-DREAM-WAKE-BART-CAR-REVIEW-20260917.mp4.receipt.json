@@ -1,0 +1,87 @@
+{
+  "cut": "GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.json",
+  "cutSha256": "D249B64E409A246DF6B52D61A2FBEE719095CB98C58C5B050638207544086FBD",
+  "savedAt": "2026-09-17T16:46:37.753Z",
+  "output": "/home/user/car-final/projects/garage-dream/renders/GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917.mp4",
+  "outputSha256": "D218B655197A9AE442FCE602856E251F94A552F7F7EB70642D55AB467B8C2AA0",
+  "bytes": 72074577,
+  "frames": 3070,
+  "seconds": 127.916667,
+  "renderedAt": "2026-09-17T16:49:11.471Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "end": 1840,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "id": "v2-before-wake",
+      "mute": true,
+      "scene": "FILM",
+      "start": 0,
+      "u": "v2-before-wake"
+    },
+    {
+      "end": 121,
+      "file": "S18/S18-WAKE-AUDIO-DRIVEN-8cb751f1-24FPS.mp4",
+      "folder": "repo-deliveries",
+      "id": "wake-audio-driven",
+      "mute": true,
+      "scene": "S18",
+      "start": 0,
+      "u": "wake-audio-driven"
+    },
+    {
+      "end": 72,
+      "file": "S19/S19-BART-NO-TURN-b247db50-RAW.mp4",
+      "folder": "repo-deliveries",
+      "id": "bart-no-turn",
+      "mute": true,
+      "scene": "S19",
+      "start": 0,
+      "u": "bart-no-turn"
+    },
+    {
+      "end": 2667,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "id": "v2-before-reminder",
+      "mute": true,
+      "scene": "FILM",
+      "start": 2033,
+      "u": "v2-before-reminder"
+    },
+    {
+      "file": "S28/S28-PASSENGER-LOOK-679e3bef-PADDED.mp4",
+      "folder": "repo-deliveries",
+      "start": 11,
+      "end": 97,
+      "id": "car-passenger-listening",
+      "u": "car-passenger-listening",
+      "mute": true,
+      "scene": "S28"
+    },
+    {
+      "end": 3070,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "id": "v2-after-reminder",
+      "mute": true,
+      "scene": "FILM",
+      "start": 2753,
+      "u": "v2-after-reminder"
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "at": 0,
+      "end": 3070,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "gain": 0,
+      "id": "approved-v2-full-soundtrack",
+      "link": "v2-before-wake",
+      "start": 0
+    }
+  ]
+}

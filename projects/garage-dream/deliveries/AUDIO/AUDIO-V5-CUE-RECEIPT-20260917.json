@@ -1,0 +1,87 @@
+{
+  "full_frames": 3334,
+  "full_seconds": 138.91666666666666,
+  "whisper_1": "Retained exactly at full68.583333s",
+  "whispers": [
+    {
+      "number": 2,
+      "start_frame": 24,
+      "end_frame": 42,
+      "full_at": 71.25,
+      "gain_db": 4,
+      "full_end": 72.0
+    },
+    {
+      "number": 3,
+      "start_frame": 45,
+      "end_frame": 64,
+      "full_at": 72.25,
+      "gain_db": 4,
+      "full_end": 73.04166666666667
+    },
+    {
+      "number": 4,
+      "start_frame": 1,
+      "end_frame": 20,
+      "full_at": 73.20833333333333,
+      "gain_db": 2,
+      "full_end": 74.0
+    }
+  ],
+  "second_whisper_shift_seconds": 0.5,
+  "third_whisper_shift_seconds": -0.25,
+  "fourth_whisper": "Existing first AUD018 performance reused softer; ends exactly before snore",
+  "lip_review": "12fps face frames: closures/rounded opening near71.25/71.42,72.25/72.42,73.21/73.38; first whisper retained. Visual timing and waveform review, not a human listening certification.",
+  "clean_rexx_decoder_offset_samples": 16,
+  "clean_rexx_alignment_correlation": 0.999957627,
+  "apu_cheer": {
+    "source": "MPlcPhuZYqOdXHYttjnP",
+    "full_start": 95.55,
+    "full_end": 98.2,
+    "active_dbfs": -23,
+    "dialogue_duck_db": 12
+  },
+  "nature": {
+    "sources": [
+      "RjQncgx66pZeBRj7Gq23",
+      "2znDf3MVNhZnixwWzUvi",
+      "AAKwsY2TqDDPVUzjZd4z"
+    ],
+    "ranges": [
+      {
+        "start": 10.0,
+        "end": 13.291667,
+        "scene": "Exterior stairs"
+      },
+      {
+        "start": 29.375,
+        "end": 32.0,
+        "scene": "Exterior approach to car"
+      },
+      {
+        "start": 40.958333,
+        "end": 56.041667,
+        "scene": "Driveway and open garage threshold"
+      },
+      {
+        "start": 94.708333,
+        "end": 138.91666666666666,
+        "scene": "Apu arrival and open-window outdoor conversation"
+      }
+    ],
+    "active_dbfs": -37,
+    "dialogue_duck_db": 6,
+    "reference_shot_blend": [
+      129.5,
+      133.5
+    ]
+  },
+  "checks": {
+    "base_outside_retimed_whispers_unchanged": true,
+    "first_sleep_whisper_unchanged": true,
+    "snore_and_dream_base_unchanged": true,
+    "horn_base_unchanged": true
+  },
+  "full_peak_dbfs": -2.0875234603881836,
+  "full_audio_sha256": "6fbbe46d778b0754b93a27a564739e713c7917a6af1843de488c119bcf321198"
+}

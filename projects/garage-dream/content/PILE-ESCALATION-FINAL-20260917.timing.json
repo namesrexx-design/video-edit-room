@@ -1,0 +1,25 @@
+{
+  "generationId": "VQRklBqQqaStnQH5Q43p",
+  "ownerApprovedTake": 2,
+  "duration": 36.08,
+  "starts": [
+    0,
+    4.02,
+    6.4,
+    9.2,
+    12.24,
+    15.5,
+    18.54,
+    20.86,
+    23.1,
+    25.02,
+    28.3,
+    30.56,
+    32.52,
+    34.0
+  ],
+  "voiceOffset": 0.35,
+  "model": "eleven_v3",
+  "voice": "namesrexx",
+  "alignmentMatch": 0.9916666666666667
+}

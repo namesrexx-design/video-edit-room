@@ -16,6 +16,9 @@ const MEDIA = MEDIA_ROOT;
 const FOLDERS = { 'capcut-kit-v74/SCENES_IN_ORDER': `${MEDIA}/garage-through-apu-review/capcut-kit-v74/SCENES_IN_ORDER`, 'inventory-v74': `${MEDIA}/inventory-v74`, 'audio-bin-v74': `${MEDIA}/audio-bin-v74`, 'storyboard-final-20260915': `${MEDIA}/storyboard-final-20260915`, 'final-pass-20260916': `${MEDIA}/final-pass-20260916`, 'team': `${MEDIA}/team`, 'repo-deliveries': path.resolve('projects/garage-dream/deliveries') };
 const cut = JSON.parse(fs.readFileSync(cutPath, 'utf8'));
 if (cut.format !== 2) throw new Error('expected a format-2 Cut Room save');
+// Explicit canvas for derivative content. Legacy film cuts retain 1920x1080.
+const WIDTH = cut.output?.width ?? 1920, HEIGHT = cut.output?.height ?? 1080;
+if (![WIDTH, HEIGHT].every(n => Number.isInteger(n) && n >= 64 && n <= 4096 && n % 2 === 0)) throw new Error('output dimensions must be even integers from 64 to 4096');
 const proj = path.resolve('projects/garage-dream'); const renders = path.join(proj, 'renders');
 const OUT = path.join(renders, nameArg + '.mp4'); if (fs.existsSync(OUT)) throw new Error('output exists, will not overwrite: ' + OUT);
 fs.mkdirSync(path.join(renders, 'RECEIPTS'), { recursive: true }); fs.mkdirSync(path.join(proj, 'timelines'), { recursive: true });
@@ -34,7 +37,7 @@ console.log(`${nameArg}: main ${cut.v1.length} clips / ${TOTAL} f (${(TOTAL / RA
 // 1. main picture, frame-exact segments -> concat
 const segs = [];
 cut.v1.forEach((b, i) => { const dest = path.join(stage, `v${String(i).padStart(3, '0')}.mp4`); process.stdout.write(`  main ${String(i + 1).padStart(2)}/${cut.v1.length} ${b.file.slice(0, 50).padEnd(50)} ${String(dur(b)).padStart(4)}f `);
-  run(['-ss', String(b.start / RATE), '-i', file(b), '-map', '0:v:0', '-an', '-t', String(dur(b) / RATE), '-vf', 'scale=1920:1080:flags=lanczos,setsar=1,format=yuv420p', '-r', String(RATE), '-fps_mode', 'cfr', '-frames:v', String(dur(b)), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-video_track_timescale', '12288', dest]);
+  run(['-ss', String(b.start / RATE), '-i', file(b), '-map', '0:v:0', '-an', '-t', String(dur(b) / RATE), '-vf', `scale=${WIDTH}:${HEIGHT}:force_original_aspect_ratio=decrease:flags=lanczos,pad=${WIDTH}:${HEIGHT}:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p`, '-r', String(RATE), '-fps_mode', 'cfr', '-frames:v', String(dur(b)), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-video_track_timescale', '12288', dest]);
   const got = nframes(dest); if (got !== dur(b)) throw new Error(`segment ${i}: ${got} frames, need ${dur(b)}`); console.log('ok'); segs.push(dest); });
 fs.writeFileSync(path.join(stage, 'concat.txt'), segs.map(p => `file '${p.replace(/\\/g, '/')}'`).join('\n') + '\n');
 const base = path.join(stage, 'base.mp4'); run(['-f', 'concat', '-safe', '0', '-i', path.join(stage, 'concat.txt'), '-c', 'copy', base]);
@@ -42,7 +45,7 @@ const base = path.join(stage, 'base.mp4'); run(['-f', 'concat', '-safe', '0', '-
 // 2. 2nd video lane: cutaways overlaid at their frames (clipped to the main length)
 let picture = base;
 const overlays = cut.v2.filter(b => b.at < TOTAL).map((b, i) => { const n = Math.min(dur(b), TOTAL - b.at); const dest = path.join(stage, `o${i}.mp4`); process.stdout.write(`  2nd video ${b.file.slice(0, 50).padEnd(50)} @${b.at} ${n}f `);
-  run(['-ss', String(b.start / RATE), '-i', file(b), '-map', '0:v:0', '-an', '-t', String(n / RATE), '-vf', 'scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p', '-r', String(RATE), '-fps_mode', 'cfr', '-frames:v', String(n), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-video_track_timescale', '12288', dest]); console.log('ok'); return { dest, at: b.at, n }; });
+  run(['-ss', String(b.start / RATE), '-i', file(b), '-map', '0:v:0', '-an', '-t', String(n / RATE), '-vf', `scale=${WIDTH}:${HEIGHT}:force_original_aspect_ratio=decrease,pad=${WIDTH}:${HEIGHT}:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p`, '-r', String(RATE), '-fps_mode', 'cfr', '-frames:v', String(n), '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-video_track_timescale', '12288', dest]); console.log('ok'); return { dest, at: b.at, n }; });
 if (overlays.length) {
   /* -reinit_filter 0: a clip with different colour tags (S09 complete: bt709/tv vs untagged) made ffmpeg rebuild the graph mid-stream, resetting N and dropping 812 frames (V75, 2026-09-15). Frame-index pts (N/FRAME_RATE/TB) on both lanes. */
   const inputs = ['-reinit_filter', '0', '-i', base]; let g = '[0:v]setpts=N/FRAME_RATE/TB[b0]'; let cur = 'b0';
@@ -76,7 +79,7 @@ fs.renameSync(pending, OUT);
 const clips = cut.v1.map(b => ({ name: b.file.replace(/\.mp4$/, ''), file: file(b), start: b.start, duration: dur(b) }));
 fs.writeFileSync(path.join(proj, 'timelines', nameArg + '.otio'), JSON.stringify(buildTimeline(nameArg, clips, { from: path.basename(cutPath), note: '2nd video lane and added sound are in the cut JSON + render receipt, not in this V1-only timeline' }), null, 2));
 fs.writeFileSync(path.join(proj, 'timelines', nameArg + '.edl'), buildEdl(nameArg, clips));
-const receipt = { cut: path.basename(cutPath), cutSha256: sha(cutPath), savedAt: cut.savedAt, output: OUT, outputSha256: sha(OUT), bytes: fs.statSync(OUT).size, frames: TOTAL, seconds: +(TOTAL / RATE).toFixed(6), renderedAt: new Date().toISOString(), blackIntervals: black, v1: cut.v1, v2: cut.v2, a2: cut.a2 };
+const receipt = { width: WIDTH, height: HEIGHT, cut: path.basename(cutPath), cutSha256: sha(cutPath), savedAt: cut.savedAt, output: OUT, outputSha256: sha(OUT), bytes: fs.statSync(OUT).size, frames: TOTAL, seconds: +(TOTAL / RATE).toFixed(6), renderedAt: new Date().toISOString(), blackIntervals: black, v1: cut.v1, v2: cut.v2, a2: cut.a2 };
 fs.writeFileSync(path.join(renders, 'RECEIPTS', nameArg + '.mp4.receipt.json'), JSON.stringify(receipt, null, 2));
 fs.rmSync(stage, { recursive: true, force: true });
 console.log(`rendered ${nameArg}.mp4  ${TOTAL} frames  ${(receipt.bytes / 1e6).toFixed(1)} MB  black: ${black.length}  sha ${receipt.outputSha256.slice(0, 8)}`);

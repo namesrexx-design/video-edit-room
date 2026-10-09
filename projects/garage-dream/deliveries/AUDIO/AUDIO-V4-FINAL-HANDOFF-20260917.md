@@ -1,0 +1,11 @@
+# Garage Dream — final audio V4 handoff
+
+Owner approved V3 except full-film :47–:50 and asked for Apu's horn effect again. V4 replaces the complete Rexx sentence with namesrexx / eleven_v3 / [nonchalant]: “Yeah, let me have it, it can't be that bad.” Take 4 (YFqW5hoGJn4A03YtVJys) is one continuous 2.80-second performance, placed at full47.24–50.04, without internal cuts or tempo changes. Owner subsequently said all takes sound good.
+
+A distinct generated car horn (k3kvRBS7uY3vshh4ixEi, eleven_text_to_sound_v2) now plays at full94.49–94.97, peak -9dBFS on its separate stem, before Apu's greeting. This explicitly adds a complete horn cue; V3 had only boosted a very short original transient. Apu greeting, approved garage reveal, quieter Bugatti whispers, preserved first Bart laugh/removal of second, and extended final laugh remain unchanged. Entire V3 picture, including the one-second final hold, remains in order.
+
+Output GARAGE-DREAM-FINAL-AUDIO-V4-20260917.mp4:3334frames,138.916667s,1920x1080,24fps,117695900bytes,SHA256 DE629B805C5B473BA36C6A3A8D2DE3DD6543FD0D0A173278FE92D8496AA1D7B8. HF media a3c6be9c-ad21-4239-bfe5-68a3963c91fc. Canonical render-cut full decode, frame count and black scan passed; black only pre-existing intro fades. Final -18.50LUFS,-2.11dBTP. Download byte count/SHA match server receipt. User reviewed voice candidates; automated tests do not certify a human listening pass.
+
+Code, cut, generation/cue/render receipts on agent/codex/garage-finalization-20260917, draft PR21. Full MP4 identity libfile_19ba91178ea88191ac78e5b19215b242. Audio source package GARAGE-DREAM-AUDIO-V4-SOURCES.zip contains the full WAV, isolated horn, original generation candidates, ASR word boundaries, build script and cue receipt.
+
+Next: use OWNER-PRODUCTION-QUEUE-20260917.md. Owner requested full-film viewing before excerpt delivery; existing clips are older audio revisions and must be refreshed from the approved V4 master. Preserve first syllables and complete D'oh when setting clip boundaries. Keep no-crop preference. Content/clips, content variants/storyboard, merch shop, then Biz-Box landing-page UI/UX and backend. The user's 25–30 leads/day/page is a target to measure, not a promised outcome. No posting, scheduling, merge, live promotion or Drive write occurred.

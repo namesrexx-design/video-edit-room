@@ -1,0 +1,128 @@
+{
+  "base_sha256": "6c3d0c2221bad2d12380ba50b74bd6334a4a532df6179da5b96677c618b1d4f2",
+  "sample_rate": 48000,
+  "samples": 6140000,
+  "frames": 3070,
+  "cues": [
+    {
+      "id": "stakes-concern",
+      "frame": 534,
+      "frames": 14,
+      "source": "jKq0D7n7UiaanfMewqgL",
+      "trim": 0,
+      "db": -31,
+      "release": 0.16,
+      "duck": true,
+      "beat": "Concern after the line about Marge leaving",
+      "start_seconds": 22.25,
+      "end_seconds": 22.833333333333332,
+      "peak_dbfs": -20.415852790676205,
+      "source_sha256": "f0186747ef29961f8ea348653bc25df2b629a2a91b6ab465926f9d9129afe663"
+    },
+    {
+      "id": "garage-surprise",
+      "frame": 995,
+      "frames": 24,
+      "source": "vXTcDi3CRVvaiJSicL69",
+      "trim": 0.06,
+      "db": -27,
+      "release": 0.3,
+      "duck": true,
+      "beat": "Surprise at the garage reveal, under the explanation",
+      "start_seconds": 41.458333333333336,
+      "end_seconds": 42.458333333333336,
+      "peak_dbfs": -20.963367575367418,
+      "source_sha256": "6f1264c8d4bb9e144cc793339ad4fd3d9a5e7ccfb98585679dc41ce89d2f93f3"
+    },
+    {
+      "id": "recliner-chuckle",
+      "frame": 1266,
+      "frames": 40,
+      "source": "ffwapDwNoE4Ui1pdnJHt",
+      "trim": 0.05,
+      "db": -25,
+      "release": 0.45,
+      "duck": true,
+      "beat": "Amusement at Homer finding his recliner",
+      "start_seconds": 52.75,
+      "end_seconds": 54.416666666666664,
+      "peak_dbfs": -12.111248866701185,
+      "source_sha256": "bc3bf64fa9e2f24f0adc16f9f5a3d066c255bc860f3f24018918b082b6306ea7"
+    },
+    {
+      "id": "bugatti-question-chuckle",
+      "frame": 1384,
+      "frames": 19,
+      "source": "J5xLrbWHTA9CJizWu7yV",
+      "trim": 0.1,
+      "db": -28,
+      "release": 0.28,
+      "duck": true,
+      "beat": "Knowing chuckle after the Bugatti question; ends before sleepy whispers",
+      "start_seconds": 57.666666666666664,
+      "end_seconds": 58.458333333333336,
+      "peak_dbfs": -15.87028211244297,
+      "source_sha256": "9018dc4a0df42d8dc9202d0345339cfe8643ec016abc0e994ed64c546ccd567c"
+    },
+    {
+      "id": "group-whisper-then-laugh",
+      "frame": 1875,
+      "frames": 33,
+      "source": "GROUP",
+      "trim": 0,
+      "db": -26,
+      "release": 0.24,
+      "duck": false,
+      "beat": "Three audience performances whisper A Bugatti and chuckle after the wake line",
+      "start_seconds": 78.125,
+      "end_seconds": 79.5,
+      "peak_dbfs": -10.853877981392966,
+      "source_sha256": "d1021a2314c812f200d8e73beee5021fdf40861f2c58516a4d1078d4a9349e24"
+    },
+    {
+      "id": "final-payoff-laugh",
+      "frame": 3002,
+      "frames": 66,
+      "source": "oAKlGkhVTj41oEaVedSL",
+      "trim": 0,
+      "db": -21,
+      "release": 0.72,
+      "duck": false,
+      "beat": "Largest laugh and sparse claps after Blood and visible upward look",
+      "start_seconds": 125.08333333333333,
+      "end_seconds": 127.83333333333333,
+      "peak_dbfs": -7.567049644087829,
+      "source_sha256": "571b74330533b7d0cd8ee52369a60ae6214f326eb2601cc7a5e0980c4f5bc1ff"
+    }
+  ],
+  "whisper_performances": [
+    [
+      "opjAbZmtig0Y7XRptTw0",
+      0.04,
+      1.18,
+      0,
+      -0.4
+    ],
+    [
+      "JYuhfgwdrinPtDdK9zwg",
+      0.1,
+      1.1,
+      0.07,
+      0.4
+    ],
+    [
+      "etpdkas68yU94Z6UfdA0",
+      0,
+      1.84,
+      0.025,
+      0
+    ]
+  ],
+  "stem_sha256": "db0401ad75a3a3f47052d6b4adcdcdf157cb906b8aec901f90f71e16ee7c355f",
+  "mix_sample_peak_dbfs": -2.1143188823500885,
+  "notes": [
+    "Base dialogue/music/SFX unchanged.",
+    "No crop, timing change, greeting reaction or continuous audience bed.",
+    "ASR verifies whispered wording but cannot certify nonverbal quality or a listening pass."
+  ]
+}

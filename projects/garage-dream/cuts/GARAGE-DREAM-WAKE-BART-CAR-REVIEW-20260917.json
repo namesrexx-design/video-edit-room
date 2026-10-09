@@ -1,0 +1,81 @@
+{
+  "a2": [
+    {
+      "at": 0,
+      "end": 3070,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "gain": 0,
+      "id": "approved-v2-full-soundtrack",
+      "link": "v2-before-wake",
+      "start": 0
+    }
+  ],
+  "format": 2,
+  "name": "GARAGE-DREAM-WAKE-BART-CAR-REVIEW-20260917",
+  "note": "Review candidate: audio-driven Wan2.7 wake take 8cb751f1; approved no-turn Bart b247db50. Full V2 soundtrack unchanged. No crop. Dedicated sync_so was unavailable due connector schema bug. New S28 passenger-camera listening take679e3bef, lead-in trimmed11frames; original reminder audio unchanged. First car take39003e7e rejected for Apu mouth motion.",
+  "savedAt": "2026-09-17T16:46:37.753Z",
+  "v1": [
+    {
+      "end": 1840,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "id": "v2-before-wake",
+      "mute": true,
+      "scene": "FILM",
+      "start": 0,
+      "u": "v2-before-wake"
+    },
+    {
+      "end": 121,
+      "file": "S18/S18-WAKE-AUDIO-DRIVEN-8cb751f1-24FPS.mp4",
+      "folder": "repo-deliveries",
+      "id": "wake-audio-driven",
+      "mute": true,
+      "scene": "S18",
+      "start": 0,
+      "u": "wake-audio-driven"
+    },
+    {
+      "end": 72,
+      "file": "S19/S19-BART-NO-TURN-b247db50-RAW.mp4",
+      "folder": "repo-deliveries",
+      "id": "bart-no-turn",
+      "mute": true,
+      "scene": "S19",
+      "start": 0,
+      "u": "bart-no-turn"
+    },
+    {
+      "end": 2667,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "id": "v2-before-reminder",
+      "mute": true,
+      "scene": "FILM",
+      "start": 2033,
+      "u": "v2-before-reminder"
+    },
+    {
+      "file": "S28/S28-PASSENGER-LOOK-679e3bef-PADDED.mp4",
+      "folder": "repo-deliveries",
+      "start": 11,
+      "end": 97,
+      "id": "car-passenger-listening",
+      "u": "car-passenger-listening",
+      "mute": true,
+      "scene": "S28"
+    },
+    {
+      "end": 3070,
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "id": "v2-after-reminder",
+      "mute": true,
+      "scene": "FILM",
+      "start": 2753,
+      "u": "v2-after-reminder"
+    }
+  ],
+  "v2": []
+}

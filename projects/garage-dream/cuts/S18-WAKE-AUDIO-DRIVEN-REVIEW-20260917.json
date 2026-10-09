@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "S18-WAKE-AUDIO-DRIVEN-REVIEW-20260917",
+  "savedAt": "2026-09-17T16:38:26.063Z",
+  "note": "Review candidate: audio-driven Wan2.7 wake take 8cb751f1; approved no-turn Bart b247db50. Full V2 soundtrack unchanged. No crop. Dedicated sync_so was unavailable due connector schema bug.",
+  "v1": [
+    {
+      "file": "S18/S18-WAKE-AUDIO-DRIVEN-8cb751f1-24FPS.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "id": "wake-audio-driven",
+      "u": "wake-audio-driven",
+      "mute": true,
+      "scene": "S18"
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-wake-audio",
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 1840,
+      "end": 1961,
+      "at": 0,
+      "gain": 0,
+      "link": "wake-audio-driven"
+    }
+  ]
+}

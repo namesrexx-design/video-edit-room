@@ -1,0 +1,50 @@
+{
+  "cut": "S29-HOMER-WHISPER-20260917.json",
+  "cutSha256": "596D991E88AB80F2ED5AA9F851383A6E3178109BD4983189A938018252C113A6",
+  "savedAt": "2026-09-17T14:57:53.991Z",
+  "output": "/home/user/whisper-final/projects/garage-dream/renders/S29-HOMER-WHISPER-20260917.mp4",
+  "outputSha256": "9A59E63B61A94884DF1944FA4E2D1AAF7D1BC6AD62B1C3B6DF6595C40ACDE71D",
+  "bytes": 2518816,
+  "frames": 121,
+  "seconds": 5.041667,
+  "renderedAt": "2026-09-17T15:00:10.786Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "u": "s29-approved",
+      "id": "s29-approved",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "u": "s29-approved",
+      "id": "s29-approved-sound",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true,
+      "at": 0,
+      "gain": 0,
+      "link": "s29-approved"
+    },
+    {
+      "id": "homer-whisper",
+      "file": "S29/HOMER-whisper-did-I-convert-to-Hindu-RAW.mp3",
+      "folder": "repo-deliveries",
+      "start": 4,
+      "end": 46,
+      "at": 78,
+      "gain": -10,
+      "link": "s29-approved"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917",
+  "savedAt": "2026-09-17T15:37:03.932Z",
+  "v1": [
+    {
+      "u": "approved-film",
+      "id": "approved-film",
+      "scene": "FILM",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+      "start": 0,
+      "end": 3070,
+      "mute": true
+    }
+  ],
+  "v2": [
+    {
+      "u": "wake-repair",
+      "id": "wake-repair",
+      "scene": "S18",
+      "folder": "repo-deliveries",
+      "file": "S18/S18-WAKE-PICTURE-REPAIR-aff2103c.mp4",
+      "start": 0,
+      "end": 121,
+      "at": 1840,
+      "mute": true
+    }
+  ],
+  "a2": [
+    {
+      "id": "base-before-Bart",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+      "start": 0,
+      "end": 1961,
+      "at": 0,
+      "gain": 0,
+      "link": "approved-film"
+    },
+    {
+      "id": "Bart-phrase-level",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+      "start": 1961,
+      "end": 2004,
+      "at": 1961,
+      "gain": 2,
+      "link": "approved-film"
+    },
+    {
+      "id": "Bart-tail-bed",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+      "start": 2004,
+      "end": 2033,
+      "at": 2004,
+      "gain": 0,
+      "link": "approved-film"
+    },
+    {
+      "id": "Apu-car-balance",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+      "start": 2033,
+      "end": 2664,
+      "at": 2033,
+      "gain": -1.5,
+      "link": "approved-film"
+    },
+    {
+      "id": "approved-ending",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+      "start": 2664,
+      "end": 3070,
+      "at": 2664,
+      "gain": 0,
+      "link": "approved-film"
+    },
+    {
+      "id": "existing-Bugatti-whisper",
+      "folder": "repo-deliveries",
+      "file": "AUDIO/S16-T2.mp3",
+      "start": 0,
+      "end": 28,
+      "at": 1490,
+      "gain": 5,
+      "link": "approved-film"
+    },
+    {
+      "id": "existing-Bart-laugh",
+      "folder": "repo-deliveries",
+      "file": "AUDIO/AUD014.mp3",
+      "start": 48,
+      "end": 72,
+      "at": 2004,
+      "gain": 7,
+      "link": "approved-film"
+    }
+  ],
+  "note": "Owner-requested final audio review. Reuse existing whisper/laugh; retain snore64s, one horn, dream/SFX, and approved S29 whispered aside. One121-frame S18 visual repair candidate aff2103c requires visual QC before rendering. No crowd mixed yet; see final cue plan. Canonical renderer; not live deployment."
+}

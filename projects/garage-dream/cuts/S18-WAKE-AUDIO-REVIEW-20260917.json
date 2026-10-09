@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "S18-WAKE-AUDIO-REVIEW-20260917",
+  "savedAt": "2026-09-17T15:37:03.932Z",
+  "v1": [
+    {
+      "u": "wake-repair",
+      "id": "wake-repair",
+      "scene": "S18",
+      "folder": "repo-deliveries",
+      "file": "S18/S18-WAKE-PICTURE-REPAIR-aff2103c.mp4",
+      "start": 0,
+      "end": 121,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "original-wake-dialogue",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+      "start": 1840,
+      "end": 1961,
+      "at": 0,
+      "gain": 0,
+      "link": "wake-repair"
+    }
+  ],
+  "note": "Full-frame S18 repaired picture with original five-second voice, no new voice. Review candidate."
+}

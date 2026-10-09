@@ -1,0 +1,47 @@
+{
+  "a2": [
+    {
+      "at": 0,
+      "end": 3334,
+      "file": "AUDIO/GARAGE-DREAM-FULL-AUDIO-V3.wav",
+      "folder": "repo-deliveries",
+      "gain": 0,
+      "id": "v3-audio",
+      "start": 0
+    }
+  ],
+  "blackIntervals": [
+    "black_start:0 black_end:0.166667 black_duration:0.166667",
+    "black_start:9.875 black_end:10 black_duration:0.125"
+  ],
+  "bytes": 119883542,
+  "cut": "GARAGE-DREAM-FINAL-AUDIO-V3-20260917.json",
+  "cutSha256": "49E50F8E679B3DE1484CB2B105F3F999FB97FCF5328C24EB6ED3EABA543814C7",
+  "frames": 3334,
+  "output": "/home/user/audience-v3/projects/garage-dream/renders/GARAGE-DREAM-FINAL-AUDIO-V3-20260917.mp4",
+  "outputSha256": "71E8E5AB35608A9353E27B43D6AEE8102E158370612F036DEB6F6AFC0515DC04",
+  "renderedAt": "2026-09-17T18:30:58.983Z",
+  "savedAt": "2026-09-17T18:28:12.414Z",
+  "seconds": 138.916667,
+  "v1": [
+    {
+      "end": 3310,
+      "file": "FILM/PRIOR-FULL.mp4",
+      "folder": "repo-deliveries",
+      "id": "approved-full",
+      "mute": true,
+      "start": 0,
+      "u": "approved-full"
+    },
+    {
+      "end": 24,
+      "file": "FILM/ENDING-HOLD-24F.mp4",
+      "folder": "repo-deliveries",
+      "id": "ending-hold",
+      "mute": true,
+      "start": 0,
+      "u": "ending-hold"
+    }
+  ],
+  "v2": []
+}

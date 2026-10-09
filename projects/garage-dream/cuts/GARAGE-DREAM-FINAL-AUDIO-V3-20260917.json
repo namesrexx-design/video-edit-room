@@ -1,0 +1,38 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-FINAL-AUDIO-V3-20260917",
+  "savedAt": "2026-09-17T18:28:12.414Z",
+  "note": "Owner-selected namesrexx take 2 in V3; stop before Homer dialogue. Whispers -8dB; original horn +8dB. Ending laugh +1s on 24-frame last-picture hold.",
+  "v1": [
+    {
+      "id": "approved-full",
+      "u": "approved-full",
+      "folder": "repo-deliveries",
+      "file": "FILM/PRIOR-FULL.mp4",
+      "start": 0,
+      "end": 3310,
+      "mute": true
+    },
+    {
+      "id": "ending-hold",
+      "u": "ending-hold",
+      "folder": "repo-deliveries",
+      "file": "FILM/ENDING-HOLD-24F.mp4",
+      "start": 0,
+      "end": 24,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "v3-audio",
+      "folder": "repo-deliveries",
+      "file": "AUDIO/GARAGE-DREAM-FULL-AUDIO-V3.wav",
+      "start": 0,
+      "end": 3334,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

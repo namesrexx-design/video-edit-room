@@ -1,0 +1,29 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-FINAL-AUDIO-V4-20260917",
+  "savedAt": "2026-09-17T18:42:38.428Z",
+  "note": "Owner final47–50s nonchalant one-sentence namesrexx V3 take and explicit Apu horn effect. All approved V3 picture and other audio retained.",
+  "v1": [
+    {
+      "id": "approved-v3",
+      "u": "approved-v3",
+      "folder": "repo-deliveries",
+      "file": "FILM/PRIOR-FULL.mp4",
+      "start": 0,
+      "end": 3334,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "audio-v4",
+      "folder": "repo-deliveries",
+      "file": "AUDIO/GARAGE-DREAM-FULL-AUDIO-V4.wav",
+      "start": 0,
+      "end": 3334,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

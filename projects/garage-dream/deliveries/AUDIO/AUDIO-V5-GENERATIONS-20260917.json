@@ -1,0 +1,40 @@
+{
+  "flow_id": "qlWhuehIgEhG7fHKvPOO",
+  "model": "eleven_text_to_sound_v2",
+  "duration_seconds": 8,
+  "loop": true,
+  "prompt": "Quiet natural daytime ambience in a leafy suburban driveway. A few small birds chirping at a gentle distance, soft breeze moving leaves, airy outdoor room tone. Subtle and calm, realistic stereo, no music, no people or voices, no car engines or horns, no loud crows, no insects, no dramatic gusts. Seamless natural loop for background under dialogue.",
+  "generations": [
+    {
+      "id": "RjQncgx66pZeBRj7Gq23",
+      "status": "completed",
+      "duration": 8
+    },
+    {
+      "id": "2znDf3MVNhZnixwWzUvi",
+      "status": "completed",
+      "duration": 8
+    },
+    {
+      "id": "AAKwsY2TqDDPVUzjZd4z",
+      "status": "completed",
+      "duration": 8
+    },
+    {
+      "id": "O3p4YcyOEhTTPZNFq4AH",
+      "status": "completed",
+      "duration": 8
+    }
+  ],
+  "selected_sources": [
+    "RjQncgx66pZeBRj7Gq23",
+    "2znDf3MVNhZnixwWzUvi",
+    "AAKwsY2TqDDPVUzjZd4z"
+  ],
+  "existing_sources": {
+    "sleepy_homer": "AUD018.mp3",
+    "clean_rexx": "S10-T2.mp3",
+    "apu_cheer": "MPlcPhuZYqOdXHYttjnP"
+  },
+  "notes": "No new character voice generation or picture generation. Source narration correlation verified .999957627 after 16-sample alignment correction."
+}

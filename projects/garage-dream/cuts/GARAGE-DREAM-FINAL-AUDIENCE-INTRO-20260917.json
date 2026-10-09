@@ -1,0 +1,51 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-FINAL-AUDIENCE-INTRO-20260917",
+  "savedAt": "2026-09-17T17:41:23.863Z",
+  "note": "Owner requested existing Claude intro restored. Exact 240-frame wide intro followed by 3070-frame audience mix. Intro gain -2dB; original body timing, picture and soundtrack unchanged.",
+  "v1": [
+    {
+      "id": "claude-intro",
+      "u": "claude-intro",
+      "scene": "INTRO",
+      "file": "INTRO/INTRO-CARD-LYFE-wide-2026-09-17.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 240,
+      "mute": true
+    },
+    {
+      "id": "audience-film",
+      "u": "audience-film",
+      "scene": "FILM",
+      "file": "FILM/GARAGE-DREAM-AUDIENCE-EMOTIONS-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3070,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "intro-sound",
+      "link": "claude-intro",
+      "file": "INTRO/INTRO-CARD-LYFE-wide-2026-09-17.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 240,
+      "at": 0,
+      "gain": -2
+    },
+    {
+      "id": "film-sound",
+      "link": "audience-film",
+      "file": "FILM/GARAGE-DREAM-AUDIENCE-EMOTIONS-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3070,
+      "at": 240,
+      "gain": 0
+    }
+  ]
+}

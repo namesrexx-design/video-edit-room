@@ -1,0 +1,37 @@
+{
+  "cut": "S28-PASSENGER-LOOK-REVIEW-20260917.json",
+  "cutSha256": "9F1EAB18EF90DDFD1ACE3A5BA72E1BB7230C6CD235F801CA12DCC766C154BB1B",
+  "savedAt": "2026-09-17T16:46:37.753Z",
+  "output": "/home/user/car-final/projects/garage-dream/renders/S28-PASSENGER-LOOK-REVIEW-20260917.mp4",
+  "outputSha256": "CA7AE17D8E7288C8EB6C61CDD34E9389EAE542790B3F5E083FCEABD404B1EB93",
+  "bytes": 1765300,
+  "frames": 86,
+  "seconds": 3.583333,
+  "renderedAt": "2026-09-17T16:47:36.835Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "file": "S28/S28-PASSENGER-LOOK-679e3bef-PADDED.mp4",
+      "folder": "repo-deliveries",
+      "start": 11,
+      "end": 97,
+      "id": "car-passenger-listening",
+      "u": "car-passenger-listening",
+      "mute": true,
+      "scene": "S28"
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 2667,
+      "end": 2753,
+      "at": 0,
+      "gain": 0,
+      "id": "original-photo-reminder",
+      "link": "car-passenger-listening"
+    }
+  ]
+}

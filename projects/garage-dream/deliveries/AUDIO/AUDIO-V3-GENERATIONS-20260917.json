@@ -1,0 +1,41 @@
+{
+  "flow_id": "G46RUGPROV2xLi780OpS",
+  "model": "eleven_v3",
+  "voice_name": "namesrexx",
+  "voice_id": "omTQvsWgoQBrcTuWdttm",
+  "user_selection": "Second voice is the winner",
+  "selected_generation_id": "vE8jPBJSsmGwAQivR7x9",
+  "speaker_correction": "Owner clarified final part is Homer's line. Rexx source trimmed after You got a Bugatti in here; original Homer dialogue retained.",
+  "takes": [
+    {
+      "id": "6i7RpR8WAU93gDkLzIYO",
+      "model": "eleven_v3",
+      "status": "completed",
+      "duration_secs": 7.04
+    },
+    {
+      "id": "vE8jPBJSsmGwAQivR7x9",
+      "model": "eleven_v3",
+      "status": "completed",
+      "duration_secs": 7.2
+    },
+    {
+      "id": "jglEBGLTZuCI592mzA7h",
+      "model": "eleven_v3",
+      "status": "completed",
+      "duration_secs": 6.8
+    },
+    {
+      "id": "YX10fNqQ5yzHVoCEkYlC",
+      "model": "eleven_v3",
+      "status": "completed",
+      "duration_secs": 6.96
+    }
+  ],
+  "applied_source_seconds": [
+    0,
+    4.8
+  ],
+  "tempo_change": false,
+  "posting_status": "No posting, scheduling, merge or live promotion."
+}

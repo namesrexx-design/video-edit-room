@@ -1,0 +1,352 @@
+{
+  "flow_id": "n1qBZqnshBa7RigB4g7x",
+  "generations": [
+    {
+      "duration_secs": 3,
+      "id": "dGYRNrc4UJTCH8BJJtqp",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 9.999,
+        "price_cents": 0.18180000000000002
+      },
+      "prompt": "A small intimate studio audience of six adults gives one brief warm amused chuckle in response to a dry comedy joke. Natural staggered human laughs, modest energy, quick onset, naturally dying away in",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 3,
+      "id": "NqFbxpUVODQLPgTNRrSu",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 9.999,
+        "price_cents": 0.18180000000000002
+      },
+      "prompt": "A small intimate studio audience of six adults gives one brief warm amused chuckle in response to a dry comedy joke. Natural staggered human laughs, modest energy, quick onset, naturally dying away in",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 3,
+      "id": "ffwapDwNoE4Ui1pdnJHt",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 9.999,
+        "price_cents": 0.18180000000000002
+      },
+      "prompt": "A small intimate studio audience of six adults gives one brief warm amused chuckle in response to a dry comedy joke. Natural staggered human laughs, modest energy, quick onset, naturally dying away in",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 3,
+      "id": "J5xLrbWHTA9CJizWu7yV",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 9.999,
+        "price_cents": 0.18180000000000002
+      },
+      "prompt": "A small intimate studio audience of six adults gives one brief warm amused chuckle in response to a dry comedy joke. Natural staggered human laughs, modest energy, quick onset, naturally dying away in",
+      "status": "completed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 471.",
+      "id": "HTF4mpIQk38daVvV9wpV",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "A small intimate indoor studio audience of six adults briefly reacts with a soft surprised intake of breath, a restrained collective gasp, then settles back into complete silence. Believable friendly ",
+      "status": "failed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 471.",
+      "id": "bt2TWBTsMzfXOIn1Gquy",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "A small intimate indoor studio audience of six adults briefly reacts with a soft surprised intake of breath, a restrained collective gasp, then settles back into complete silence. Believable friendly ",
+      "status": "failed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 471.",
+      "id": "9QEs9dnapHkF9ff6ml0Q",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "A small intimate indoor studio audience of six adults briefly reacts with a soft surprised intake of breath, a restrained collective gasp, then settles back into complete silence. Believable friendly ",
+      "status": "failed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 471.",
+      "id": "0zYh02bnRvaCSh29hvUO",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "A small intimate indoor studio audience of six adults briefly reacts with a soft surprised intake of breath, a restrained collective gasp, then settles back into complete silence. Believable friendly ",
+      "status": "failed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 497.",
+      "id": "KvkanPqcwchIjO3njO3x",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "An intimate comedy studio audience of twelve adults erupts into one delighted, spontaneous collective laugh after a surprising visual punchline. A quick organic swell of varied natural human laughs, t",
+      "status": "failed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 497.",
+      "id": "0DwStyHbK2uZ7V4HOTeS",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "An intimate comedy studio audience of twelve adults erupts into one delighted, spontaneous collective laugh after a surprising visual punchline. A quick organic swell of varied natural human laughs, t",
+      "status": "failed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 497.",
+      "id": "3N1piFd5OyOPPGe8YiJB",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "An intimate comedy studio audience of twelve adults erupts into one delighted, spontaneous collective laugh after a surprising visual punchline. A quick organic swell of varied natural human laughs, t",
+      "status": "failed"
+    },
+    {
+      "error": "Prompt must be at most 450 characters, got 497.",
+      "id": "ZYas0BmWJa7qVWqiF69P",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "An intimate comedy studio audience of twelve adults erupts into one delighted, spontaneous collective laugh after a surprising visual punchline. A quick organic swell of varied natural human laughs, t",
+      "status": "failed"
+    },
+    {
+      "duration_secs": 2,
+      "id": "jKq0D7n7UiaanfMewqgL",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "Six adults in an intimate comedy audience give one soft collective gasp of mild surprise, then settle into silence. Natural staggered intakes of breath, friendly surprise rather than horror. Quick ons",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 2,
+      "id": "O3HuGietl0n8EiVIxMLH",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "Six adults in an intimate comedy audience give one soft collective gasp of mild surprise, then settle into silence. Natural staggered intakes of breath, friendly surprise rather than horror. Quick ons",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 2,
+      "id": "jXnrgy0jRsoSMvO8AavV",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "Six adults in an intimate comedy audience give one soft collective gasp of mild surprise, then settle into silence. Natural staggered intakes of breath, friendly surprise rather than horror. Quick ons",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 2,
+      "id": "vXTcDi3CRVvaiJSicL69",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 6.666,
+        "price_cents": 0.1212
+      },
+      "prompt": "Six adults in an intimate comedy audience give one soft collective gasp of mild surprise, then settle into silence. Natural staggered intakes of breath, friendly surprise rather than horror. Quick ons",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 4,
+      "id": "xK9eqE4stxYXTZdnF9hb",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "Twelve adults in an intimate comedy audience erupt into one delighted spontaneous laugh at a visual punchline. Quick organic swell of varied natural human laughs, three sparse handclaps in the middle,",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 4,
+      "id": "oAKlGkhVTj41oEaVedSL",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "Twelve adults in an intimate comedy audience erupt into one delighted spontaneous laugh at a visual punchline. Quick organic swell of varied natural human laughs, three sparse handclaps in the middle,",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 4,
+      "id": "nBsYuMHKdM09Df3VzdLC",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "Twelve adults in an intimate comedy audience erupt into one delighted spontaneous laugh at a visual punchline. Quick organic swell of varied natural human laughs, three sparse handclaps in the middle,",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 4,
+      "id": "Y0oCRIks18cx3zMkQimh",
+      "model_id": "eleven_text_to_sound_v2",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 13.332,
+        "price_cents": 0.2424
+      },
+      "prompt": "Twelve adults in an intimate comedy audience erupt into one delighted spontaneous laugh at a visual punchline. Quick organic swell of varied natural human laughs, three sparse handclaps in the middle,",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 1.68,
+      "id": "LPxerQp1a5LiIltqYxXR",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 22.997700000000002,
+        "price_cents": 0.41814
+      },
+      "prompt": "[whispering] A Bugatti?",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 1.44,
+      "id": "JYuhfgwdrinPtDdK9zwg",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 22.997700000000002,
+        "price_cents": 0.41814
+      },
+      "prompt": "[whispering] A Bugatti?",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 1.36,
+      "id": "opjAbZmtig0Y7XRptTw0",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 22.997700000000002,
+        "price_cents": 0.41814
+      },
+      "prompt": "[whispering] A Bugatti?",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 2,
+      "id": "6IsdYW9shxP7TS3uewYr",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 22.997700000000002,
+        "price_cents": 0.41814
+      },
+      "prompt": "[whispering] A Bugatti?",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 2.08,
+      "id": "So0AGnuiWMKVPpRvrUYE",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 33.9966,
+        "price_cents": 0.61812
+      },
+      "prompt": "[whispering] A Bugatti? [chuckles]",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 1.84,
+      "id": "etpdkas68yU94Z6UfdA0",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 33.9966,
+        "price_cents": 0.61812
+      },
+      "prompt": "[whispering] A Bugatti? [chuckles]",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 1.92,
+      "id": "gHZE85YjCx8BL7w5C2ir",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 33.9966,
+        "price_cents": 0.61812
+      },
+      "prompt": "[whispering] A Bugatti? [chuckles]",
+      "status": "completed"
+    },
+    {
+      "duration_secs": 3.2,
+      "id": "Nvb7hbhIh1wbKD9IPzb6",
+      "model_id": "eleven_v3",
+      "price_reported": {
+        "cost_fiat_currency": "usd",
+        "credits": 33.9966,
+        "price_cents": 0.61812
+      },
+      "prompt": "[whispering] A Bugatti? [chuckles]",
+      "status": "completed"
+    }
+  ],
+  "note": "Eight first SFX attempts failed validation (prompt>450 chars), then shortened prompts produced replacements. Price fields are provider-reported, not a billing ledger or refund confirmation. 20 usable audio outputs. No added video generations.",
+  "voices": [
+    {
+      "id": "iP95p4xoKVk53GoZ742B",
+      "name": "Chris"
+    },
+    {
+      "id": "uYXf8XasLslADfZ2MB4u",
+      "name": "Hope"
+    }
+  ]
+}

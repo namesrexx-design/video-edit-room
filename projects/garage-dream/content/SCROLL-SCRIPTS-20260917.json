@@ -1,0 +1,61 @@
+{
+  "topicId": "garage-dream",
+  "voice": "namesrexx",
+  "voiceId": "omTQvsWgoQBrcTuWdttm",
+  "model": "eleven_v3",
+  "status": "production",
+  "series": [
+    {
+      "id": "01",
+      "slug": "BIG-DREAMS",
+      "title": "3 signs they've already spent the money",
+      "prompt": "[nonchalant] Three signs your friend has already spent money they haven't made. One: you say, let's sell a few things. They hear, Bugatti. [amused] Two: they find the recliner before they find anything to list. Three: you're explaining the work, and they're already dreaming. [warmly] Tag your big-dreaming friend. Share this with the one who keeps them grounded.",
+      "segments": [
+        "Three signs your friend has already spent money they haven't made.",
+        "One: you say, let's sell a few things. They hear, Bugatti.",
+        "Two: they find the recliner before they find anything to list.",
+        "Three: you're explaining the work, and they're already dreaming.",
+        "Tag your big-dreaming friend. Share this with the one who keeps them grounded."
+      ]
+    },
+    {
+      "id": "02",
+      "slug": "GARAGE-SIGNS",
+      "title": "3 signs your garage is a storage unit",
+      "prompt": "[nonchalant] Three signs your garage has become a storage unit. One: the car hasn't been inside in months. Two: I'll sort it this weekend has become a family tradition. [amused] Three: opening the door needs a warning. [warmly] Start with one box. Tag the person this reminds you of, and share it before next weekend.",
+      "segments": [
+        "Three signs your garage has become a storage unit.",
+        "One: the car hasn't been inside in months.",
+        "Two: I'll sort it this weekend has become a family tradition.",
+        "Three: opening the door needs a warning.",
+        "Start with one box. Tag the person this reminds you of, and share it before next weekend."
+      ]
+    },
+    {
+      "id": "03",
+      "slug": "THE-GROUP",
+      "title": "Every group has these 3 people",
+      "prompt": "[nonchalant] Every group has these three people. One: the person trying to help. Two: the person who hears a plan and immediately starts dreaming. [amused] Three: the one who shows up just to roast everybody. [curious] Be honest. Which one are you? [warmly] Tag your group, and share this with the friend who gets the last word.",
+      "segments": [
+        "Every group has these three people.",
+        "One: the person trying to help.",
+        "Two: the person who hears a plan and immediately starts dreaming.",
+        "Three: the one who shows up just to roast everybody.",
+        "Be honest. Which one are you? Tag your group, and share this with the friend who gets the last word."
+      ]
+    },
+    {
+      "id": "04",
+      "slug": "QUICK-FAVOR",
+      "title": "3 signs a quick favor became an episode",
+      "prompt": "[nonchalant] Three signs a quick favor has become a whole episode. One: you came over for one job. Two: a neighbor pulls up with another question. [amused] Three: somehow, you're explaining what's on somebody's forehead. You can't plan these conversations. [warmly] Tag the friend whose quick favor is never quick, and share this with your group.",
+      "segments": [
+        "Three signs a quick favor has become a whole episode.",
+        "One: you came over for one job.",
+        "Two: a neighbor pulls up with another question.",
+        "Three: somehow, you're explaining what's on somebody's forehead. You can't plan these conversations.",
+        "Tag the friend whose quick favor is never quick, and share this with your group."
+      ]
+    }
+  ]
+}

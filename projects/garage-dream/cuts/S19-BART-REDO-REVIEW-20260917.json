@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "name": "S19-BART-REDO-REVIEW-20260917",
+  "savedAt": "2026-09-17T16:23:04.017Z",
+  "note": "New Bart generation copied from original289b1632 starting frame and revised prompt. Existing approved V2 dialogue/laugh audio preserved. Standalone candidate, not full film promotion.",
+  "v1": [
+    {
+      "u": "bart-redo",
+      "id": "bart-redo",
+      "scene": "S19",
+      "folder": "repo-deliveries",
+      "file": "S19/S19-BART-REDO-1bb72f9d-RAW.mp4",
+      "start": 0,
+      "end": 72,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-Bart-dialogue-laughs",
+      "folder": "repo-deliveries",
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "start": 1961,
+      "end": 2033,
+      "at": 0,
+      "link": "bart-redo",
+      "gain": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format": 2,
+  "name": "SCROLL-04-QUICK-FAVOR-REXX-V3-V2-20260917",
+  "savedAt": "2026-09-17T00:00:00Z",
+  "output": {
+    "width": 1080,
+    "height": 1920
+  },
+  "note": "Existing approved LYFE still with native scrolling text; one continuous namesrexx eleven_v3 take. No regenerated characters or scenes.",
+  "v1": [
+    {
+      "id": "scroll-04",
+      "u": "scroll-04",
+      "scene": "04",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/SCROLL-04-PICTURE-V2.mp4",
+      "start": 0,
+      "end": 501,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "scroll-04-voice",
+      "u": "scroll-04-voice",
+      "link": "scroll-04",
+      "folder": "repo-deliveries",
+      "file": "CONTENT/SCROLL-04-VOICE.wav",
+      "start": 0,
+      "end": 501,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

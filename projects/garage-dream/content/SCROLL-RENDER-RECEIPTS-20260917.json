@@ -1,0 +1,162 @@
+[
+  {
+    "width": 1080,
+    "height": 1920,
+    "cut": "SCROLL-01-BIG-DREAMS-REXX-V3-V2-20260917.json",
+    "cutSha256": "270E5F69E1E763E107318349182C775031651243E04E672A32C43034EAF4DBE0",
+    "savedAt": "2026-09-17T00:00:00Z",
+    "output": "/workspace/scratch/4303b66e0210/content-campaign/render-project/projects/garage-dream/renders/SCROLL-01-BIG-DREAMS-REXX-V3-V2-20260917.mp4",
+    "outputSha256": "1AF2A8C15C5829D29324D52FAE0B2BD860C851A7A898924C66C8D05EDA578435",
+    "bytes": 1470299,
+    "frames": 511,
+    "seconds": 21.291667,
+    "renderedAt": "2026-09-17T20:05:34.010Z",
+    "blackIntervals": [],
+    "v1": [
+      {
+        "id": "scroll-01",
+        "u": "scroll-01",
+        "scene": "01",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-01-PICTURE-V2.mp4",
+        "start": 0,
+        "end": 511,
+        "mute": true
+      }
+    ],
+    "v2": [],
+    "a2": [
+      {
+        "id": "scroll-01-voice",
+        "u": "scroll-01-voice",
+        "link": "scroll-01",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-01-VOICE.wav",
+        "start": 0,
+        "end": 511,
+        "at": 0,
+        "gain": 0
+      }
+    ]
+  },
+  {
+    "width": 1080,
+    "height": 1920,
+    "cut": "SCROLL-02-GARAGE-SIGNS-REXX-V3-V2-20260917.json",
+    "cutSha256": "AF63F2BD6C8DA96F0B2D746493801CCAEF276ACD6A5F84AB64AB803FD85412A0",
+    "savedAt": "2026-09-17T00:00:00Z",
+    "output": "/workspace/scratch/4303b66e0210/content-campaign/render-project/projects/garage-dream/renders/SCROLL-02-GARAGE-SIGNS-REXX-V3-V2-20260917.mp4",
+    "outputSha256": "6950EFD4B8278A8958F9E99FA4692575331F30C0558163F38FE6C140CBBFCDF2",
+    "bytes": 1078340,
+    "frames": 365,
+    "seconds": 15.208333,
+    "renderedAt": "2026-09-17T20:07:05.392Z",
+    "blackIntervals": [],
+    "v1": [
+      {
+        "id": "scroll-02",
+        "u": "scroll-02",
+        "scene": "02",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-02-PICTURE-V2.mp4",
+        "start": 0,
+        "end": 365,
+        "mute": true
+      }
+    ],
+    "v2": [],
+    "a2": [
+      {
+        "id": "scroll-02-voice",
+        "u": "scroll-02-voice",
+        "link": "scroll-02",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-02-VOICE.wav",
+        "start": 0,
+        "end": 365,
+        "at": 0,
+        "gain": 0
+      }
+    ]
+  },
+  {
+    "width": 1080,
+    "height": 1920,
+    "cut": "SCROLL-03-THE-GROUP-REXX-V3-V2-20260917.json",
+    "cutSha256": "09619A7F374669816A4E4DAA64A88C9FBF51DF172D99881F1BDC18E07D25E8F4",
+    "savedAt": "2026-09-17T00:00:00Z",
+    "output": "/workspace/scratch/4303b66e0210/content-campaign/render-project/projects/garage-dream/renders/SCROLL-03-THE-GROUP-REXX-V3-V2-20260917.mp4",
+    "outputSha256": "080FE97A072F4FCF5B73E92B29D01D46BA8618ECF9D9AC16C40AF3017FA8E163",
+    "bytes": 1166567,
+    "frames": 436,
+    "seconds": 18.166667,
+    "renderedAt": "2026-09-17T20:07:26.998Z",
+    "blackIntervals": [],
+    "v1": [
+      {
+        "id": "scroll-03",
+        "u": "scroll-03",
+        "scene": "03",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-03-PICTURE-V2.mp4",
+        "start": 0,
+        "end": 436,
+        "mute": true
+      }
+    ],
+    "v2": [],
+    "a2": [
+      {
+        "id": "scroll-03-voice",
+        "u": "scroll-03-voice",
+        "link": "scroll-03",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-03-VOICE.wav",
+        "start": 0,
+        "end": 436,
+        "at": 0,
+        "gain": 0
+      }
+    ]
+  },
+  {
+    "width": 1080,
+    "height": 1920,
+    "cut": "SCROLL-04-QUICK-FAVOR-REXX-V3-V2-20260917.json",
+    "cutSha256": "AF0348F8D4DA2776B598E3C30E9DE483A71E5C91E01F9AE39EA45C06E76ED67C",
+    "savedAt": "2026-09-17T00:00:00Z",
+    "output": "/workspace/scratch/4303b66e0210/content-campaign/render-project/projects/garage-dream/renders/SCROLL-04-QUICK-FAVOR-REXX-V3-V2-20260917.mp4",
+    "outputSha256": "604D0CDE4C0C3EC7C4D966B5B5F869ED5548EE5604EDCF99F71C367B8901598B",
+    "bytes": 1395513,
+    "frames": 501,
+    "seconds": 20.875,
+    "renderedAt": "2026-09-17T20:08:52.083Z",
+    "blackIntervals": [],
+    "v1": [
+      {
+        "id": "scroll-04",
+        "u": "scroll-04",
+        "scene": "04",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-04-PICTURE-V2.mp4",
+        "start": 0,
+        "end": 501,
+        "mute": true
+      }
+    ],
+    "v2": [],
+    "a2": [
+      {
+        "id": "scroll-04-voice",
+        "u": "scroll-04-voice",
+        "link": "scroll-04",
+        "folder": "repo-deliveries",
+        "file": "CONTENT/SCROLL-04-VOICE.wav",
+        "start": 0,
+        "end": 501,
+        "at": 0,
+        "gain": 0
+      }
+    ]
+  }
+]

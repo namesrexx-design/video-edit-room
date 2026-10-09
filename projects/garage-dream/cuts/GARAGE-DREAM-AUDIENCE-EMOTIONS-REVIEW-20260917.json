@@ -1,0 +1,41 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-AUDIENCE-EMOTIONS-REVIEW-20260917",
+  "savedAt": "2026-09-17T17:34:23.050Z",
+  "note": "Owner requests original audience emotions including group whispering and laughing. Picture F0AEF29B preserved, original dialogue/music/SFX preserved. Six restrained audience cues; no crop or duration change. Review candidate.",
+  "v1": [
+    {
+      "id": "approved-picture",
+      "u": "approved-picture",
+      "scene": "FILM",
+      "file": "FILM/GARAGE-DREAM-CALMER-MOTION-DOT-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3070,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-soundtrack",
+      "link": "approved-picture",
+      "file": "FILM/GARAGE-DREAM-CALMER-MOTION-DOT-REVIEW-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3070,
+      "at": 0,
+      "gain": 0
+    },
+    {
+      "id": "audience-emotions",
+      "link": "approved-picture",
+      "file": "AUDIO/GARAGE-DREAM-AUDIENCE-STEM-20260917.wav",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3070,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

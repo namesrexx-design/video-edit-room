@@ -1,0 +1,67 @@
+{
+  "cut": "GARAGE-DREAM-WAKE-BART-REVIEW-20260917.json",
+  "cutSha256": "6EC0DE61FE9FAF0AA4A3226E489CBFF5356FFCDAC010CF8E4534FFB56E4BE515",
+  "savedAt": "2026-09-17T16:38:26.063Z",
+  "output": "/home/user/projects/garage-dream/renders/GARAGE-DREAM-WAKE-BART-REVIEW-20260917.mp4",
+  "outputSha256": "332FDB8BD3D03A3E30D56EF2D2071F501792FDC3E658190AE7C7E834918D5AD1",
+  "bytes": 71226169,
+  "frames": 3070,
+  "seconds": 127.916667,
+  "renderedAt": "2026-09-17T16:41:04.107Z",
+  "blackIntervals": [],
+  "v1": [
+    {
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 1840,
+      "id": "v2-before-wake",
+      "u": "v2-before-wake",
+      "mute": true,
+      "scene": "FILM"
+    },
+    {
+      "file": "S18/S18-WAKE-AUDIO-DRIVEN-8cb751f1-24FPS.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "id": "wake-audio-driven",
+      "u": "wake-audio-driven",
+      "mute": true,
+      "scene": "S18"
+    },
+    {
+      "file": "S19/S19-BART-NO-TURN-b247db50-RAW.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 72,
+      "id": "bart-no-turn",
+      "u": "bart-no-turn",
+      "mute": true,
+      "scene": "S19"
+    },
+    {
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 2033,
+      "end": 3070,
+      "id": "v2-after-bart",
+      "u": "v2-after-bart",
+      "mute": true,
+      "scene": "FILM"
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-v2-full-soundtrack",
+      "file": "FILM/GARAGE-DREAM-AUDIO-CORRECTIONS-V2-20260917.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 3070,
+      "at": 0,
+      "gain": 0,
+      "link": "v2-before-wake"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": 2,
+  "name": "CLIP-04-APU-CAR-AND-PAYOFF-V6-20260917",
+  "savedAt": "2026-09-17T19:43:07.259Z",
+  "note": "Owner-approved V6. Full picture retained; original mixed audio linked without gain or timing change. Exclusive out frame.",
+  "v1": [
+    {
+      "id": "approved-v6-clip-04",
+      "u": "approved-v6-clip-04",
+      "scene": "CONTENT-04",
+      "folder": "repo-deliveries",
+      "file": "FILM/APPROVED-V6.mp4",
+      "start": 2357,
+      "end": 3334,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "id": "approved-v6-clip-04-audio",
+      "u": "approved-v6-clip-04-audio",
+      "link": "approved-v6-clip-04",
+      "folder": "repo-deliveries",
+      "file": "FILM/APPROVED-V6.mp4",
+      "start": 2357,
+      "end": 3334,
+      "at": 0,
+      "gain": 0
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "format": 2,
+  "name": "GARAGE-DREAM-HOMER-WHISPER-20260917",
+  "savedAt": "2026-09-17T14:57:53.991Z",
+  "v1": [
+    {
+      "u": "pass17-before",
+      "id": "pass17-before",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 2843,
+      "mute": true
+    },
+    {
+      "u": "s29-approved",
+      "id": "s29-approved",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true
+    },
+    {
+      "u": "pass17-after",
+      "id": "pass17-after",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 2966,
+      "end": 3072,
+      "mute": true
+    }
+  ],
+  "v2": [],
+  "a2": [
+    {
+      "u": "pass17-before",
+      "id": "pass17-before-sound",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 2843,
+      "mute": true,
+      "at": 0,
+      "gain": 0,
+      "link": "pass17-before"
+    },
+    {
+      "u": "s29-approved",
+      "id": "s29-approved-sound",
+      "scene": "S29",
+      "file": "S29/S29-TAKE1-REVIEW-NOT-FINAL.mp4",
+      "folder": "repo-deliveries",
+      "start": 0,
+      "end": 121,
+      "mute": true,
+      "at": 2843,
+      "gain": 0,
+      "link": "s29-approved"
+    },
+    {
+      "u": "pass17-after",
+      "id": "pass17-after-sound",
+      "scene": "FILM",
+      "file": "FILM/PASS17-DRIVE-VERIFIED.mp4",
+      "folder": "repo-deliveries",
+      "start": 2966,
+      "end": 3072,
+      "mute": true,
+      "at": 2964,
+      "gain": 0,
+      "link": "pass17-after"
+    },
+    {
+      "id": "homer-whisper",
+      "file": "S29/HOMER-whisper-did-I-convert-to-Hindu-RAW.mp3",
+      "folder": "repo-deliveries",
+      "start": 4,
+      "end": 46,
+      "at": 2921,
+      "gain": -10,
+      "link": "s29-approved"
+    }
+  ],
+  "note": "Pass17 base; original S29 frames2843..2966 replaced by owner-approved121-frame take. Total3070frames. Remaining picture/sound selected unchanged. Full frame; whisper starts121.708333sec. Preview render uses repository renderer in authorized Higgsfield environment; not live deployment."
+}

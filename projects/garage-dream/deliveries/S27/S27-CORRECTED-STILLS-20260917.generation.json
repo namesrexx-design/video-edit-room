@@ -1,0 +1,70 @@
+{
+  "scene": "S27",
+  "sourceFrames": [
+    2392,
+    2444
+  ],
+  "correctedStillMediaIds": [
+    "9aa29684-f92a-44c2-a8e9-dac80a448891",
+    "31aebcaf-f1ab-4c16-ab62-61db89ce6235"
+  ],
+  "chosenJob": "5b20fa96-1b78-4966-855c-a7508e924a07",
+  "model": "kling3_0",
+  "mode": "pro",
+  "output": "1916x1080,24fps,73frames",
+  "ownerResponse": "bingo i think we might be done",
+  "rejected": [
+    {
+      "job": "dc471df7-3980-48c5-bc77-6b84188d8bc6",
+      "reason": "Seedance video-edit provider filter nsfw; no output."
+    },
+    {
+      "job": "0bc7824a-a270-40f2-a6a4-c681e42d73b4",
+      "reason": "Wrong I instead of HE wording in prompt; superseded."
+    }
+  ],
+  "correctWording": "Yeah, he opened it two months ago.",
+  "timeMapSourceToOriginalSeconds": [
+    [
+      0,
+      0
+    ],
+    [
+      0.36,
+      0.26
+    ],
+    [
+      1.24,
+      0.56
+    ],
+    [
+      1.56,
+      0.66
+    ],
+    [
+      1.8,
+      0.92
+    ],
+    [
+      1.92,
+      1.12
+    ],
+    [
+      2.06,
+      1.36
+    ],
+    [
+      2.24,
+      1.58
+    ],
+    [
+      2.56,
+      1.94
+    ],
+    [
+      3,
+      2.125
+    ]
+  ],
+  "note": "Native generated soundtrack is timing reference only; original approved film audio retained. Monotonic video retiming matches word boundaries; not phoneme-level certification. Two-pixel horizontal padding each side, no crop. New stills created per explicit owner direction after provider video-edit failure."
+}

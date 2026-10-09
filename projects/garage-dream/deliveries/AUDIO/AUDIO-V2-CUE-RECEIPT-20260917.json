@@ -1,0 +1,148 @@
+{
+  "sample_rate": 48000,
+  "full_frames": 3310,
+  "body_frames": 3070,
+  "full_samples": 6620000,
+  "peak_dbfs": -2.1143188823500885,
+  "rexx": {
+    "voice_id": "omTQvsWgoQBrcTuWdttm",
+    "generation": "EwxG9tnXh8Ac2dLtCBL5",
+    "script": "Homer, this is like a scene from Storage Wars. You got a Bugatti in here.",
+    "body_start": 41.2,
+    "body_end": 45.9241875,
+    "tempo": 1.05,
+    "internal_cuts": 0
+  },
+  "second_laugh_removed": {
+    "start_body": 84.08333333333333,
+    "end_body": 84.66666666666667,
+    "method": "restore clean pre-addition audio with 8ms edge crossfades"
+  },
+  "cues": [
+    {
+      "name": "group gasp jKq0D7n7UiaanfMewqgL",
+      "body_start": 22.25,
+      "full_start": 32.25,
+      "body_end": 22.86,
+      "target_active_dbfs": -31,
+      "ducked": true
+    },
+    {
+      "name": "group gasp vXTcDi3CRVvaiJSicL69",
+      "body_start": 22.29,
+      "full_start": 32.29,
+      "body_end": 22.9,
+      "target_active_dbfs": -31,
+      "ducked": true
+    },
+    {
+      "name": "group gasp jXnrgy0jRsoSMvO8AavV",
+      "body_start": 22.34,
+      "full_start": 32.34,
+      "body_end": 22.96,
+      "target_active_dbfs": -31,
+      "ducked": true
+    },
+    {
+      "name": "Oh no male",
+      "body_start": 22.83,
+      "full_start": 32.83,
+      "body_end": 23.5,
+      "target_active_dbfs": -27,
+      "ducked": true
+    },
+    {
+      "name": "Oh no female",
+      "body_start": 22.9,
+      "full_start": 32.9,
+      "body_end": 23.73,
+      "target_active_dbfs": -29,
+      "ducked": true
+    },
+    {
+      "name": "Hey Homer cheer and applause",
+      "body_start": 31.75,
+      "full_start": 41.75,
+      "body_end": 34.75,
+      "target_active_dbfs": -23,
+      "ducked": true
+    },
+    {
+      "name": "garage surprise",
+      "body_start": 41.458333333333336,
+      "full_start": 51.458333333333336,
+      "body_end": 42.458333333333336,
+      "target_active_dbfs": -27,
+      "ducked": true
+    },
+    {
+      "name": "recliner chuckle",
+      "body_start": 52.75,
+      "full_start": 62.75,
+      "body_end": 54.416666666666664,
+      "target_active_dbfs": -25,
+      "ducked": true
+    },
+    {
+      "name": "Bugatti question chuckle",
+      "body_start": 57.666666666666664,
+      "full_start": 67.66666666666666,
+      "body_end": 58.458333333333336,
+      "target_active_dbfs": -28,
+      "ducked": true
+    },
+    {
+      "name": "Did he say Bugatti lead",
+      "body_start": 78.145,
+      "full_start": 88.145,
+      "body_end": 79.455,
+      "target_active_dbfs": -25,
+      "ducked": true
+    },
+    {
+      "name": "Did he say Bugatti background",
+      "body_start": 78.17,
+      "full_start": 88.17,
+      "body_end": 79.67,
+      "target_active_dbfs": -34,
+      "ducked": true
+    },
+    {
+      "name": "Oh my God response",
+      "body_start": 79.31,
+      "full_start": 89.31,
+      "body_end": 80.16,
+      "target_active_dbfs": -25,
+      "ducked": true
+    },
+    {
+      "name": "final payoff laugh",
+      "body_start": 125.08333333333333,
+      "full_start": 135.08333333333331,
+      "body_end": 127.83333333333333,
+      "target_active_dbfs": -21,
+      "ducked": false
+    }
+  ],
+  "notes": [
+    "All approved picture timing retained. Intro audio copied from prior full master.",
+    "ASR checked generated words; automated checks are not a human listening certification."
+  ],
+  "sources": {
+    "homer-sync/audience-final/base.wav": "6c3d0c2221bad2d12380ba50b74bd6334a4a532df6179da5b96677c618b1d4f2",
+    "homer-sync/audience-v2/before-second-laugh.wav": "944e8bbcf7d52572c2a3d3ddf73933ca6f43458dd252eb3d2b6a6ebdddd7f6d7",
+    "homer-sync/audience-v2/raw/1cf7jV2gwuOcNN3pMm5U.mp3": "90d8fe7ac2bb5d379900023ac21a2df7bd96c08e1b7989aba3e087db682ded5d",
+    "homer-sync/audience-v2/raw/2WPfObITJqbSzc7M24S7.mp3": "ff2f7eaf6b0e7210e071cd44fa20f31d6eec4ec1515324b8361b030ed0cc214c",
+    "homer-sync/audience-v2/raw/EwxG9tnXh8Ac2dLtCBL5.mp3": "8fe5058805d9ee69d047d14e2e368333be7aad00bb13c8611e6fd69ee1078a26",
+    "homer-sync/audience-v2/raw/GpFs8Bh6GUALfTwdw07U.mp3": "9b6a78b2c43258fd33322f95e79b1cb632a0048cec54c53ef79af7c99fb23375",
+    "homer-sync/audience-v2/raw/MPlcPhuZYqOdXHYttjnP.mp3": "10d4ab91ae4d834f3ec0e17939181e3491cb078d354a72de78a5621b0a5ac140",
+    "homer-sync/audience-v2/raw/awvKirQscf5koWJqkLlE.mp3": "7daf8d301b26894186a7bdde5773c9cdb8c61fc7a6d0dd0a3b920472ba1cf7dc",
+    "homer-sync/audience-v2/raw/dYgrUdqN0fn9i9kqkMAq.mp3": "b560c1a81767d5d448b6d73ba607bdec063c36df298d6d466131435674d6fa79",
+    "homer-sync/audience-v2/raw/kqCSiBnJZVGgGND6kYsv.mp3": "953b15facbee162f04410d4192b04de05f7b51f23e2c1388026ff61272e3f49c",
+    "homer-sync/audience-v2/raw/puyIRpowDVtF43zxKhid.mp3": "415327d40598da11540e49f9022be130ba9db307279895ec18874450369f3240",
+    "homer-sync/audience-v2/raw/rLHAJLAfbJBRbugBFQAb.mp3": "4fb5bb69ff3549975c4b769f44fee2eb89f3ed995e73b07082a13276fe49d946",
+    "homer-sync/audience-v2/raw/soKotKTUl11OZYPtiTQ5.mp3": "9e9549131fdb0586ec7afdcd4de711c468009eda1dbbac47b45f79d387032db7",
+    "homer-sync/audience-v2/raw/xmXVERgqQfyqLSzCa2i5.mp3": "6bc8279b8daa4560c2192a3753819513871d1c95eca568b2a90fbc4dc0742e6d"
+  },
+  "audio_sha256": "33a6f6248e6937942ac13cca3289b200d62d453fc00ad6403d6ab8b405b0f688"
+}

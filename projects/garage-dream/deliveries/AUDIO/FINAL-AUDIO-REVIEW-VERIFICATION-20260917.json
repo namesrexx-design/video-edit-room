@@ -1,0 +1,203 @@
+{
+  "filename": "GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+  "sha256": "707C1350D05827BDF827E185DECDA34B10C1D635252DEF22CDBCC3999EE0BBA0",
+  "bytes": 71523509,
+  "duration": "127.916667",
+  "streams": [
+    {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "nb_frames": "3070",
+      "r_frame_rate": "24/1",
+      "duration": "127.916667",
+      "sample_rate": null,
+      "channels": null
+    },
+    {
+      "codec_type": "audio",
+      "codec_name": "aac",
+      "width": null,
+      "height": null,
+      "nb_frames": "5998",
+      "r_frame_rate": "0/0",
+      "duration": "127.916000",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  ],
+  "measured_audio": {
+    "input_i": "-18.52",
+    "input_tp": "-2.11",
+    "input_lra": "6.60",
+    "input_thresh": "-29.19",
+    "output_i": "-16.04",
+    "output_tp": "-1.50",
+    "output_lra": "6.00",
+    "output_thresh": "-26.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "review_limit": "Full decode, frame count, meters, ASR and sampled visual review. No claim of calibrated continuous listening or perfect phoneme sync. S18 second-sentence mouth anticipation remains for owner playback review.",
+  "scene_files": [
+    {
+      "filename": "S18-WAKE-AUDIO-REVIEW-20260917.mp4",
+      "bytes": 2633945,
+      "sha256": "2488401E3928173D84E7D4EF04261C7310A91AB21434054CF7B11E43107B1579"
+    },
+    {
+      "filename": "S18-WAKE-PICTURE-REPAIR-aff2103c.mp4",
+      "bytes": 1697177,
+      "sha256": "C06FCE7F30D399458C99916C25A892B40CB95D30ED730BEF91D32A42F46CFB83"
+    }
+  ],
+  "renderer_receipts": [
+    {
+      "cut": "S18-WAKE-AUDIO-REVIEW-20260917.json",
+      "cutSha256": "CA50E131E6590B73A1ECCE6189C37B15310F777A3055BD9025A61FC4364600FB",
+      "savedAt": "2026-09-17T15:37:03.932Z",
+      "output": "/home/user/audio-final-render/projects/garage-dream/renders/S18-WAKE-AUDIO-REVIEW-20260917.mp4",
+      "outputSha256": "2488401E3928173D84E7D4EF04261C7310A91AB21434054CF7B11E43107B1579",
+      "bytes": 2633945,
+      "frames": 121,
+      "seconds": 5.041667,
+      "renderedAt": "2026-09-17T15:42:08.044Z",
+      "blackIntervals": [],
+      "v1": [
+        {
+          "u": "wake-repair",
+          "id": "wake-repair",
+          "scene": "S18",
+          "folder": "repo-deliveries",
+          "file": "S18/S18-WAKE-PICTURE-REPAIR-aff2103c.mp4",
+          "start": 0,
+          "end": 121,
+          "mute": true
+        }
+      ],
+      "v2": [],
+      "a2": [
+        {
+          "id": "original-wake-dialogue",
+          "folder": "repo-deliveries",
+          "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+          "start": 1840,
+          "end": 1961,
+          "at": 0,
+          "gain": 0,
+          "link": "wake-repair"
+        }
+      ]
+    },
+    {
+      "cut": "GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.json",
+      "cutSha256": "170EF9DD1426D0A5BDEC573CAA05AC54DE9F0D7BDA0689895CCE3B35D09BCEC2",
+      "savedAt": "2026-09-17T15:37:03.932Z",
+      "output": "/home/user/audio-final-render/projects/garage-dream/renders/GARAGE-DREAM-AUDIO-FINAL-REVIEW-20260917.mp4",
+      "outputSha256": "707C1350D05827BDF827E185DECDA34B10C1D635252DEF22CDBCC3999EE0BBA0",
+      "bytes": 71523509,
+      "frames": 3070,
+      "seconds": 127.916667,
+      "renderedAt": "2026-09-17T15:44:32.629Z",
+      "blackIntervals": [],
+      "v1": [
+        {
+          "u": "approved-film",
+          "id": "approved-film",
+          "scene": "FILM",
+          "folder": "repo-deliveries",
+          "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+          "start": 0,
+          "end": 3070,
+          "mute": true
+        }
+      ],
+      "v2": [
+        {
+          "u": "wake-repair",
+          "id": "wake-repair",
+          "scene": "S18",
+          "folder": "repo-deliveries",
+          "file": "S18/S18-WAKE-PICTURE-REPAIR-aff2103c.mp4",
+          "start": 0,
+          "end": 121,
+          "at": 1840,
+          "mute": true
+        }
+      ],
+      "a2": [
+        {
+          "id": "base-before-Bart",
+          "folder": "repo-deliveries",
+          "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+          "start": 0,
+          "end": 1961,
+          "at": 0,
+          "gain": 0,
+          "link": "approved-film"
+        },
+        {
+          "id": "Bart-phrase-level",
+          "folder": "repo-deliveries",
+          "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+          "start": 1961,
+          "end": 2004,
+          "at": 1961,
+          "gain": 2,
+          "link": "approved-film"
+        },
+        {
+          "id": "Bart-tail-bed",
+          "folder": "repo-deliveries",
+          "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+          "start": 2004,
+          "end": 2033,
+          "at": 2004,
+          "gain": 0,
+          "link": "approved-film"
+        },
+        {
+          "id": "Apu-car-balance",
+          "folder": "repo-deliveries",
+          "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+          "start": 2033,
+          "end": 2664,
+          "at": 2033,
+          "gain": -1.5,
+          "link": "approved-film"
+        },
+        {
+          "id": "approved-ending",
+          "folder": "repo-deliveries",
+          "file": "FILM/GARAGE-DREAM-HOMER-WHISPER-20260917.mp4",
+          "start": 2664,
+          "end": 3070,
+          "at": 2664,
+          "gain": 0,
+          "link": "approved-film"
+        },
+        {
+          "id": "existing-Bugatti-whisper",
+          "folder": "repo-deliveries",
+          "file": "AUDIO/S16-T2.mp3",
+          "start": 0,
+          "end": 28,
+          "at": 1490,
+          "gain": 5,
+          "link": "approved-film"
+        },
+        {
+          "id": "existing-Bart-laugh",
+          "folder": "repo-deliveries",
+          "file": "AUDIO/AUD014.mp3",
+          "start": 48,
+          "end": 72,
+          "at": 2004,
+          "gain": 7,
+          "link": "approved-film"
+        }
+      ]
+    }
+  ]
+}
